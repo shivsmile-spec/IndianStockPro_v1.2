@@ -1,0 +1,17 @@
+{
+  "name": "Indian Stock Pro",
+  "short_name": "Stock Pro",
+  "description": "Indian stock market research, momentum and swing analysis assistant.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fb",
+  "theme_color": "#10182b",
+  "orientation": "portrait",
+  "lang": "en-IN",
+  "categories": [
+    "finance",
+    "business",
+    "productivity"
+  ],
+  "icons": []
+}
