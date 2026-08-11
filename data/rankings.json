@@ -1,0 +1,10 @@
+{
+  "version": "1.2",
+  "market": "NSE",
+  "generated": null,
+  "summary": {
+    "totalStocks": 30,
+    "status": "Waiting for ranking engine"
+  },
+  "rankings": []
+}
