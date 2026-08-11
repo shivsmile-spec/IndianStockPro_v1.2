@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10182b">
+<title>Indian Stock Pro v1.2</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f3f6fb;
+  color:#172033
+}
+header{
+  background:#10182b;
+  color:white;
+  padding:24px 20px 22px
+}
+.header-title{
+  font-size:30px;
+  font-weight:800
+}
+.header-sub{
+  margin-top:6px;
+  color:#cbd3e3;
+  font-size:16px
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px
+}
+.panel{
+  background:white;
+  border-radius:18px;
+  padding:20px;
+  margin-bottom:18px;
+  box-shadow:0 4px 18px rgba(0,0,0,.06)
+}
+h2{
+  margin:0 0 15px;
+  font-size:23px
+}
+.search{
+  display:flex;
+  gap:10px
+}
+.search input{
+  flex:1;
+  min-width:0;
+  padding:16px;
+  border:1px solid #ccd3df;
+  border-radius:12px;
+  font-size:16px
+}
+button{
+  border:0;
+  background:#10182b;
+  color:white;
+  padding:0 22px;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:700;
+  cursor:pointer
+}
+.status{
+  margin-top:12px;
+  background:#f5f7fa;
+  padding:13px;
+  border-radius:10px;
+  color:#667085
+}
+.bands{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px
+}
+.band{
+  border:1px solid #e1e6ef;
+  border-radius:14px;
+  padding:16px;
+  background:#fff;
+  cursor:pointer
+}
+.band:hover{
+  box-shadow:0 4px 15px rgba(0,0,0,.08)
+}
+.band-title{
+  font-size:18px;
+  font-weight:800
+}
+.band-count{
+  color:#667085;
+  margin-top:5px
+}
+.stocks{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px
+}
+.stock{
+  border:1px solid #e1e6ef;
+  border-radius:14px;
+  padding:16px;
+  cursor:pointer;
+  background:white
+}
+.stock:hover{
+  box-shadow:0 4px 15px rgba(0,0,0,.08)
+}
+.stock-top{
+  display:flex;
+  justify-content:space-between;
+  gap:10px
+}
+.symbol{
+  font-weight:800;
+  font-size:18px
+}
+.company{
+  color:#667085;
+  font-size:13px;
+  margin-top:3px
+}
+.price{
+  font-size:20px;
+  font-weight:800
+}
+.metrics{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  margin-top:14px
+}
+.metric{
+  background:#f5f7fa;
+  padding:9px;
+  border-radius:9px
+}
+.metric-label{
+  font-size:11px;
+  color:#667085
+}
+.metric-value{
+  margin-top:3px;
+  font-weight:700
+}
+.signal{
+  display:inline-block;
+  margin-top:12px;
+  padding:6px 10px;
+  border-radius:20px;
+  background:#eaf7ee;
+  color:#16743b;
+  font-size:12px;
+  font-weight:800
+}
+.disclaimer{
+  color:#667085;
+  font-size:13px;
+  line-height:1.5
+}
+.hidden{display:none}
+
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  z-index:10
+}
+.modal-box{
+  background:white;
+  width:100%;
+  max-width:700px;
+  max-height:90vh;
+  overflow:auto;
+  border-radius:18px;
+  padding:22px
+}
+.modal-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center
+}
+.close{
+  background:#edf0f5;
+  color:#172033;
+  padding:8px 13px
+}
+.detail-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  margin:18px 0
+}
+.detail{
+  background:#f5f7fa;
+  border-radius:10px;
+  padding:12px
+}
+.detail small{
+  color:#667085
+}
+.reason{
+  border-left:4px solid #10182b;
+  padding:10px 12px;
+  background:#f7f8fb;
+  margin-top:8px;
+  border-radius:4px
+}
+
+@media(max-width:650px){
+  .bands,.stocks{grid-template-columns:1fr}
+  .search button{padding:0 16px}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .detail-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-title">🇮🇳 Indian Stock Pro</div>
+  <div class="header-sub">
+    Short-term • Swing • Momentum • Risk/Reward Research
+  </div>
+</header>
+
+<div class="container">
+
+  <section class="panel">
+    <h2>🔎 Search & Analyze</h2>
+
+    <div class="search">
+      <input
+        id="search"
+        type="text"
+        placeholder="Search NSE symbol or company">
+      <button onclick="searchStock()">Analyze</button>
+    </div>
+
+    <div id="status" class="status">
+      Loading latest ranking data...
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>📊 Top Short-Term Opportunities</h2>
+
+    <p class="disclaimer">
+      The engine ranks liquid NSE stocks using momentum, trend,
+      relative strength, volume, RSI, breakout potential,
+      volatility and risk/reward. Rankings are research signals,
+      not guaranteed predictions.
+    </p>
+
+    <div id="stocks" class="stocks"></div>
+  </section>
+
+  <section class="panel">
+    <h2>💰 Price-wise Opportunities</h2>
+
+    <div class="bands" id="bands"></div>
+  </section>
+
+  <section class="panel">
+    <h2>🧠 How the ranking works</h2>
+
+    <div class="reason">
+      <b>1. Momentum</b><br>
+      Measures recent price strength across multiple periods.
+    </div>
+
+    <div class="reason">
+      <b>2. Trend</b><br>
+      Checks whether the stock is trading in a healthy technical trend.
+    </div>
+
+    <div class="reason">
+      <b>3. Relative Strength</b><br>
+      Compares the stock's performance against the NIFTY benchmark.
+    </div>
+
+    <div class="reason">
+      <b>4. Volume</b><br>
+      Looks for meaningful participation and unusual volume.
+    </div>
+
+    <div class="reason">
+      <b>5. RSI Quality</b><br>
+      Helps identify strong momentum without blindly chasing extremes.
+    </div>
+
+    <div class="reason">
+      <b>6. Breakout Potential</b><br>
+      Measures proximity to important recent price levels.
+    </div>
+
+    <div class="reason">
+      <b>7. Risk / Reward</b><br>
+      Compares potential upside with a defined downside level.
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="disclaimer">
+      <b>Important:</b> Indian Stock Pro provides quantitative research
+      signals. It does not guarantee future returns and is not
+      investment advice. Always verify current market prices,
+      company news and fundamentals before making a decision.
+    </div>
+  </section>
+
+</div>
+
+<div id="modal" class="modal hidden" onclick="closeOutside(event)">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 id="modalTitle">Stock Details</h2>
+      <button class="close" onclick="closeModal()">✕</button>
+    </div>
+
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+
+let DATA = null;
+
+const DEMO = [
+  {
+    symbol:"IDFCFIRSTB",
+    company:"IDFC First Bank",
+    price:84.27,
+    score:67.5,
+    signal:"Watch",
+    opportunity:72.5,
+    confidence:55.7,
+    risk:18,
+    target:91.01,
+    stop:77.86,
+    horizon:"1–4 weeks",
+    factors:{
+      momentum:68.7,
+      trend:100,
+      relativeStrength:55.2,
+      volume:11.9,
+      rsiQuality:98,
+      breakout:79,
+      volatility:82,
+      riskReward:36.8
+    },
+    why:[
+      "Price and trend structure passed the screening rules.",
+      "20-day momentum is positive.",
+      "Relative strength versus NIFTY is improving.",
+      "Price is reasonably close to a breakout zone."
+    ]
+  },
+  {
+    symbol:"NMDC",
+    company:"NMDC Limited",
+    price:85.45,
+    score:63.4,
+    signal:"Watch",
+    opportunity:68.4,
+    confidence:58,
+    risk:20,
+    target:94,
+    stop:79,
+    horizon:"1–4 weeks",
+    factors:{
+      momentum:65,
+      trend:88,
+      relativeStrength:61,
+      volume:45,
+      rsiQuality:72,
+      breakout:70,
+      volatility:65,
+      riskReward:60
+    },
+    why:[
+      "Positive short-term momentum.",
+      "Trend structure remains constructive.",
+      "Relative strength is above the screening threshold.",
+      "Risk/reward is acceptable for monitoring."
+    ]
+  }
+];
+
+const PRICE_BANDS = [
+  {min:20,max:100,label:"₹20 – ₹100"},
+  {min:100,max:300,label:"₹100 – ₹300"},
+  {min:300,max:500,label:"₹300 – ₹500"},
+  {min:500,max:1000,label:"₹500 – ₹1,000"},
+  {min:1000,max:1500,label:"₹1,000 – ₹1,500"},
+  {min:1500,max:2000,label:"₹1,500 – ₹2,000"}
+];
+
+async function loadData(){
+
+  const status=document.getElementById("status");
+
+  try{
+
+    const response=await fetch("data/rankings.json?x="+Date.now());
+
+    if(!response.ok) throw new Error("ranking data unavailable");
+
+    DATA=await response.json();
+
+    status.textContent=
+      "Latest ranking dataset loaded successfully.";
+
+  }catch(error){
+
+    DATA={
+      rankings:DEMO,
+      bands:[]
+    };
+
+    status.textContent=
+      "Demo data loaded. Live ranking data will appear when data/rankings.json is added.";
+  }
+
+  render();
+}
+
+function getRankings(){
+
+  if(!DATA) return [];
+
+  if(Array.isArray(DATA.rankings))
+    return DATA.rankings;
+
+  if(Array.isArray(DATA.stocks))
+    return DATA.stocks;
+
+  if(Array.isArray(DATA.bands)){
+
+    let result=[];
+
+    DATA.bands.forEach(b=>{
+      if(Array.isArray(b.stocks))
+        result=result.concat(b.stocks);
+    });
+
+    return result;
+  }
+
+  return [];
+}
+
+function render(){
+
+  const stocks=getRankings();
+
+  const top=stocks
+    .slice()
+    .sort((a,b)=>(b.score||0)-(a.score||0))
+    .slice(0,10);
+
+  const box=document.getElementById("stocks");
+
+  box.innerHTML="";
+
+  if(!top.length){
+
+    box.innerHTML=
+      "<p>No ranking data available yet.</p>";
+
+  }else{
+
+    top.forEach((stock,i)=>{
+      box.appendChild(createStockCard(stock,i+1));
+    });
+  }
+
+  renderBands(stocks);
+}
+
+function createStockCard(s,rank){
+
+  const div=document.createElement("div");
+
+  div.className="stock";
+
+  div.onclick=()=>showDetails(s);
+
+  div.innerHTML=`
+
+    <div class="stock-top">
+
+      <div>
+        <div class="symbol">
+          #${rank} ${escapeHTML(s.symbol||s.ticker||"N/A")}
+        </div>
+
+        <div class="company">
+          ${escapeHTML(s.company||"NSE Stock")}
+        </div>
+      </div>
+
+      <div class="price">
+        ₹${num(s.price)}
+      </div>
+
+    </div>
+
+    <div class="metrics">
+
+      <div class="metric">
+        <div class="metric-label">Score</div>
+        <div class="metric-value">${num(s.score)}</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Opportunity</div>
+        <div class="metric-value">${num(s.opportunity)}</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Risk</div>
+        <div class="metric-value">${num(s.risk)}</div>
+      </div>
+
+    </div>
+
+    <div class="signal">
+      ${escapeHTML(s.signal||"Research")}
+    </div>
+  `;
+
+  return div;
+}
+
+function renderBands(stocks){
+
+  const container=document.getElementById("bands");
+
+  container.innerHTML="";
+
+  PRICE_BANDS.forEach(b=>{
+
+    const count=stocks.filter(s=>{
+      const p=Number(s.price);
+      return p>=b.min && p<=b.max;
+    }).length;
+
+    const div=document.createElement("div");
+
+    div.className="band";
+
+    div.onclick=()=>{
+      showBand(b,stocks);
+    };
+
+    div.innerHTML=`
+      <div class="band-title">${b.label}</div>
+      <div class="band-count">
+        ${count} stocks currently available
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
+function showBand(band,stocks){
+
+  const matches=stocks
+    .filter(s=>{
+      const p=Number(s.price);
+      return p>=band.min && p<=band.max;
+    })
+    .sort((a,b)=>(b.score||0)-(a.score||0))
+    .slice(0,5);
+
+  let html=
+    `<h3>${band.label}</h3>
+     <p>Top opportunities in this price range:</p>`;
+
+  if(!matches.length){
+
+    html+="<p>No stocks currently available in this band.</p>";
+
+  }else{
+
+    matches.forEach((s,i)=>{
+
+      html+=`
+        <div class="stock"
+             style="margin-top:10px"
+             onclick='showDetails(${JSON.stringify(s)})'>
+
+          <div class="stock-top">
+
+            <div>
+              <div class="symbol">
+                #${i+1} ${escapeHTML(s.symbol||"")}
+              </div>
+              <div class="company">
+                ${escapeHTML(s.company||"NSE Stock")}
+              </div>
+            </div>
+
+            <div class="price">
+              ₹${num(s.price)}
+            </div>
+
+          </div>
+
+          <div class="metrics">
+
+            <div class="metric">
+              <div class="metric-label">Score</div>
+              <div class="metric-value">${num(s.score)}</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-label">Opportunity</div>
+              <div class="metric-value">${num(s.opportunity)}</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-label">Risk</div>
+              <div class="metric-value">${num(s.risk)}</div>
+            </div>
+
+          </div>
+
+        </div>
+      `;
+    });
+  }
+
+  document.getElementById("modalTitle").textContent=
+    band.label;
+
+  document.getElementById("modalContent").innerHTML=html;
+
+  document.getElementById("modal").classList.remove("hidden");
+}
+
+function showDetails(s){
+
+  const factors=s.factors||{};
+
+  const reasons=Array.isArray(s.why)
+    ? s.why
+    : [];
+
+  let reasonHTML="";
+
+  reasons.forEach(x=>{
+    reasonHTML+=
+      `<div class="reason">${escapeHTML(x)}</div>`;
+  });
+
+  document.getElementById("modalTitle").textContent=
+    (s.symbol||"Stock")+" — Detailed Analysis";
+
+  document.getElementById("modalContent").innerHTML=`
+
+    <div class="detail-grid">
+
+      <div class="detail">
+        <small>Current Price</small><br>
+        <b>₹${num(s.price)}</b>
+      </div>
+
+      <div class="detail">
+        <small>Research Score</small><br>
+        <b>${num(s.score)}/100</b>
+      </div>
+
+      <div class="detail">
+        <small>Opportunity</small><br>
+        <b>${num(s.opportunity)}/100</b>
+      </div>
+
+      <div class="detail">
+        <small>Confidence</small><br>
+        <b>${num(s.confidence)}/100</b>
+      </div>
+
+      <div class="detail">
+        <small>Target Zone</small><br>
+        <b>₹${num(s.target)}</b>
+      </div>
+
+      <div class="detail">
+        <small>Risk / Stop</small><br>
+        <b>₹${num(s.stop)}</b>
+      </div>
+
+      <div class="detail">
+        <small>Risk Score</small><br>
+        <b>${num(s.risk)}/100</b>
+      </div>
+
+      <div class="detail">
+        <small>Expected Horizon</small><br>
+        <b>${escapeHTML(s.horizon||"1–4 weeks")}</b>
+      </div>
+
+    </div>
+
+    <h3>📊 Factor Scores</h3>
+
+    <div class="detail-grid">
+
+      ${factor("Momentum",factors.momentum)}
+      ${factor("Trend",factors.trend)}
+      ${factor("Relative Strength",factors.relativeStrength)}
+      ${factor("Volume",factors.volume)}
+      ${factor("RSI Quality",factors.rsiQuality)}
+      ${factor("Breakout",factors.breakout)}
+      ${factor("Volatility",factors.volatility)}
+      ${factor("Risk / Reward",factors.riskReward)}
+
+    </div>
+
+    <h3>🧠 Why this stock was selected</h3>
+
+    ${reasonHTML||"<div class='reason'>Detailed reasoning will be supplied by the ranking engine.</div>"}
+
+  `;
+
+  document.getElementById("modal").classList.remove("hidden");
+}
+
+function factor(name,value){
+
+  return `
+    <div class="detail">
+      <small>${name}</small><br>
+      <b>${num(value)}/100</b>
+    </div>
+  `;
+}
+
+function searchStock(){
+
+  const q=document
+    .getElementById("search")
+    .value
+    .trim()
+    .toUpperCase();
+
+  if(!q){
+
+    alert("Enter an NSE symbol or company name.");
+
+    return;
+  }
+
+  const stocks=getRankings();
+
+  const found=stocks.find(s=>
+    String(s.symbol||s.ticker||"")
+      .toUpperCase()===q ||
+    String(s.company||"")
+      .toUpperCase()
+      .includes(q)
+  );
+
+  if(found){
+
+    showDetails(found);
+
+  }else{
+
+    alert(
+      "Stock not found in the current ranking dataset."
+    );
+  }
+}
+
+function closeModal(){
+
+  document
+    .getElementById("modal")
+    .classList.add("hidden");
+}
+
+function closeOutside(e){
+
+  if(e.target.id==="modal")
+    closeModal();
+}
+
+function num(x){
+
+  const n=Number(x);
+
+  if(!Number.isFinite(n))
+    return "—";
+
+  return n.toFixed(1);
+}
+
+function escapeHTML(value){
+
+  return String(value??"")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+document
+  .getElementById("search")
+  .addEventListener("keydown",e=>{
+    if(e.key==="Enter")
+      searchStock();
+  });
+
+loadData();
+
+</script>
+
+</body>
+</html>
