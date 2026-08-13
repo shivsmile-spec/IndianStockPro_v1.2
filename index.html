@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10182b">
 <link rel="manifest" href="manifest.json">
-<title>Indian Stock Pro v1.2</title>
+<title>Indian Stock Pro v1.4</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
@@ -20,7 +20,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.summary-box,.metric,.detail{background:#f5f7fa;border-radius:10px;padding:12px}
 .summary-label,.metric-label,.detail small{font-size:12px;color:#667085}.summary-value{font-size:20px;font-weight:800;margin-top:4px}
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.card,.band{border:1px solid #e1e6ef;border-radius:15px;padding:16px;background:#fff;cursor:pointer}
-.card:hover,.band:hover{box-shadow:0 5px 18px rgba(0,0,0,.08)}
+.card:hover,.band:hover{box-shadow:0 5px 18px rgba(0,0,0,.08)}.card:focus{outline:3px solid #9bb8ff;outline-offset:2px}
 .top{display:flex;justify-content:space-between;gap:10px}.rank{font-size:19px;font-weight:800}.company{font-size:13px;color:#667085;margin-top:3px}.price{font-size:20px;font-weight:800}
 .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}.metric-value{font-weight:800;margin-top:3px}
 .badge{display:inline-block;margin-top:12px;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:800}
@@ -34,7 +34,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 
 /* IMPORTANT: modal is CLOSED by default and cannot appear until openModal() is called. */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:18px;z-index:1000}
-.modal.hidden{display:none!important}
+.modal.hidden,.modal[hidden]{display:none!important}
 .modal-box{background:#fff;width:100%;max-width:850px;max-height:92vh;overflow:auto;border-radius:18px;padding:22px}
 .modal-head{display:flex;justify-content:space-between;align-items:center;gap:15px}.close{background:#edf0f5;color:#172033;padding:8px 13px}
 .detail-grid,.raw-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}
@@ -108,8 +108,8 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 
 </div>
 
-<!-- CLOSED AT STARTUP -->
-<div id="modal" class="modal hidden" aria-hidden="true">
+<!-- CLOSED AT STARTUP: hidden attribute + CSS + JS state all enforce this. -->
+<div id="modal" class="modal hidden" hidden aria-hidden="true">
 <div class="modal-box">
 <div class="modal-head"><h2 id="modalTitle">Stock Details</h2><button id="closeBtn" class="close" type="button">✕</button></div>
 <div id="modalContent"></div>
@@ -336,7 +336,11 @@ function signalClass(signal,risk){
 function card(s,rank,full){
   const div=document.createElement("div");
   div.className="card";
+  div.tabIndex=0;
+  div.setAttribute("role","button");
+  div.setAttribute("aria-label",`${s.symbol||"Stock"} details`);
   div.onclick=()=>showDetails(s);
+  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();showDetails(s)}};
 
   div.innerHTML=
   `<div class="top">
@@ -656,6 +660,7 @@ function openModal(title,html){
   const modal=document.getElementById("modal");
   document.getElementById("modalTitle").textContent=stripHTML(title);
   document.getElementById("modalContent").innerHTML=html;
+  modal.hidden=false;
   modal.classList.remove("hidden");
   modal.setAttribute("aria-hidden","false");
 }
@@ -663,7 +668,9 @@ function openModal(title,html){
 function closeModal(){
   const modal=document.getElementById("modal");
   modal.classList.add("hidden");
+  modal.hidden=true;
   modal.setAttribute("aria-hidden","true");
+  document.getElementById("modalContent").innerHTML="";
 }
 
 function stripHTML(v){
