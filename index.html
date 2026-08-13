@@ -42,7 +42,19 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 .hero{background:#10182b;color:#fff;border-radius:14px;padding:18px;margin-bottom:15px}.hero-line{display:flex;justify-content:space-between;gap:15px;align-items:center}
 .hero-symbol{font-size:25px;font-weight:800}.hero-price{font-size:25px;font-weight:800}.score-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:15px}
 .score-card{background:rgba(255,255,255,.1);border-radius:10px;padding:12px}.score-label{font-size:12px;opacity:.8}.score-value{font-size:23px;font-weight:800;margin-top:3px}
-.bar-wrap{background:#e9edf3;border-radius:20px;height:9px;overflow:hidden;margin-top:7px}.bar{height:100%;background:#10182b;border-radius:20px}
+.bar-wrap{background:#e9edf3;border-radius:20px;height:9px;overflow:hidden;margin-top:7px}
+.bar{height:100%;background:#10182b;border-radius:20px}
+.score-meter{margin-top:8px}
+.score-meter-label{display:flex;justify-content:space-between;font-size:12px;color:#667085}
+.analysis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.analysis-box{border:1px solid #e2e7ef;border-radius:12px;padding:12px;background:#fff}
+.analysis-box strong{font-size:15px}
+.analysis-box .small{font-size:12px;color:#667085;margin-top:4px;line-height:1.45}
+.signal-line{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px}
+.warning{border-left-color:#b42318;background:#fff6f6}
+.good{border-left-color:#16743b;background:#f4fbf6}
+.context-note{font-size:12px;color:#667085;line-height:1.45;margin-top:8px}
+@media(max-width:700px){.analysis-grid{grid-template-columns:1fr}}
 .error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}.hero-line{align-items:flex-start;flex-direction:column}.search{flex-direction:column}.search button{height:48px}}
 </style>
@@ -51,7 +63,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 
 <header><div class="header-wrap">
 <div class="header-title">🇮🇳 Indian Stock Pro</div>
-<div class="header-sub">Quantitative + Company News + Industry + Market Context</div>
+<div class="header-sub">Quantitative Signals + Company News + Industry + Market Context</div>
 </div></header>
 
 <div class="container">
@@ -88,6 +100,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="reason"><b>20% Company Context</b><br>Company-specific news and its direction/impact.</div>
 <div class="reason"><b>10% Industry Context</b><br>Sector and industry-level external conditions.</div>
 <div class="reason"><b>10% Market Context</b><br>Broader macro, commodity, government and geopolitical environment.</div>
+<div class="reason"><b>Important scoring distinction</b><br>Company / Industry / Market values shown on stock cards are context inputs. The separate Context value is the weighted contribution used by the integrated engine.</div>
 <div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
 </section>
 
@@ -448,32 +461,121 @@ function showDetailsBySymbol(sym){
 }
 
 function showDetails(s){
-  const f=s.factors||{},r=s.raw||{};
-  const reasons=(s.reasoning||[]).map(x=>`<div class="reason">${esc(x)}</div>`).join("");
+  const f=s.factors||{}, r=s.raw||{};
+  const reasons=(s.reasoning||[])
+    .map(x=>`<div class="reason">${esc(x)}</div>`).join("");
+
   const n=s.companyNews;
-  const newsText=n?
-    `${esc(n.overallDirection||"Neutral")} / ${esc(n.overallImpact||"Low")} · news score ${fmt(n.newsScore)}`:
-    "Company-news record will appear here when the optional news file finishes loading.";
+
+  const newsDirection=n
+    ?(n.overallDirection||"Neutral")
+    :"Not loaded";
+  const newsImpact=n
+    ?(n.overallImpact||"Low")
+    :"Not available";
+  const newsScore=n && n.newsScore!=null
+    ?fmt(n.newsScore)
+    :"—";
+
+  const contextSignal=s.contextSignal||"—";
+  const alignment=s.alignment||"—";
+
+  const positiveFactors=[];
+  const weakFactors=[];
+  const factorMap={
+    Momentum:f.momentum,
+    Trend:f.trend,
+    "Relative Strength":f.relativeStrength,
+    Volume:f.volume,
+    "RSI Quality":f.rsiQuality,
+    Breakout:f.breakout,
+    Volatility:f.volatility,
+    "Risk / Reward":f.riskReward
+  };
+
+  Object.entries(factorMap).forEach(([name,value])=>{
+    const n=Number(value);
+    if(Number.isFinite(n)){
+      if(n>=70)positiveFactors.push(`${name} ${n.toFixed(1)}`);
+      if(n<50)weakFactors.push(`${name} ${n.toFixed(1)}`);
+    }
+  });
+
+  const riskFlags=[];
+  if(String(s.risk).toLowerCase()==="elevated")riskFlags.push("Elevated contextual risk");
+  if(s.conflictDetected)riskFlags.push("Quantitative/context conflict detected");
+  if(Number(s.confidence)<60)riskFlags.push("Confidence below 60");
+  if(Number(s.marketContextScore)<0)riskFlags.push("Negative broader market context");
+  if(Number(s.industryContextScore)<0)riskFlags.push("Negative industry context");
+  if(Number(s.companyContextScore)<0)riskFlags.push("Negative company context");
+
+  const positiveText=positiveFactors.length
+    ?positiveFactors.slice(0,5).join(" • ")
+    :"No individual quantitative factor is above 70 in the supplied data.";
+
+  const weakText=weakFactors.length
+    ?weakFactors.slice(0,5).join(" • ")
+    :"No individual quantitative factor is below 50 in the supplied data.";
+
+  const riskText=riskFlags.length
+    ?riskFlags.join(" • ")
+    :"No major automatic risk flag was detected by the current rules.";
 
   openModal(
     `${esc(s.symbol)} — Integrated Analysis`,
     `<div class="hero">
-      <div class="hero-line"><div><div class="hero-symbol">${esc(s.symbol)}</div><div>${esc(s.company)}</div></div><div class="hero-price">₹${fmt(s.price)}</div></div>
-      <div class="score-row">
-        <div class="score-card"><div class="score-label">INTEGRATED SCORE</div><div class="score-value">${fmt(s.integratedScore)} / 100</div></div>
-        <div class="score-card"><div class="score-label">CONFIDENCE</div><div class="score-value">${fmt(s.confidence)} / 100</div></div>
+      <div class="hero-line">
+        <div>
+          <div class="hero-symbol">${esc(s.symbol)}</div>
+          <div>${esc(s.company)}</div>
+        </div>
+        <div class="hero-price">₹${fmt(s.price)}</div>
       </div>
-      <div class="badge ${signalClass(s.signal,s.risk)}">${esc(s.signal)} · ${esc(s.risk)} risk</div>
+
+      <div class="score-row">
+        <div class="score-card">
+          <div class="score-label">INTEGRATED SCORE</div>
+          <div class="score-value">${fmt(s.integratedScore)} / 100</div>
+          <div class="bar-wrap"><div class="bar" style="width:${Math.max(0,Math.min(100,Number(s.integratedScore)||0))}%"></div></div>
+        </div>
+        <div class="score-card">
+          <div class="score-label">CONFIDENCE</div>
+          <div class="score-value">${fmt(s.confidence)} / 100</div>
+          <div class="bar-wrap"><div class="bar" style="width:${Math.max(0,Math.min(100,Number(s.confidence)||0))}%"></div></div>
+        </div>
+      </div>
+
+      <div class="signal-line">
+        <span class="badge ${signalClass(s.signal,s.risk)}">${esc(s.signal)}</span>
+        <span>${esc(s.risk)} risk</span>
+        <span>Final rank #${s.finalRank||"—"}</span>
+      </div>
+    </div>
+
+    <h3>🎯 Why This Stock Is Ranked Here</h3>
+    <div class="analysis-grid">
+      <div class="analysis-box">
+        <strong>Quantitative strength</strong>
+        <div class="small">${positiveText}</div>
+      </div>
+      <div class="analysis-box">
+        <strong>External context</strong>
+        <div class="small">Company ${fmt(s.companyContextScore)} · Industry ${fmt(s.industryContextScore)} · Market ${fmt(s.marketContextScore)}</div>
+      </div>
+      <div class="analysis-box">
+        <strong>Engine result</strong>
+        <div class="small">Integrated ${fmt(s.integratedScore)} with ${esc(contextSignal)} context and ${esc(alignment)} alignment.</div>
+      </div>
     </div>
 
     <h3>📌 Decision Snapshot</h3>
     <div class="detail-grid">
-      <div class="detail"><small>Final Rank</small><br><b>#${s.finalRank||"—"}</b></div>
+      <div class="detail"><small>Integrated Score</small><br><b>${fmt(s.integratedScore)}/100</b></div>
       <div class="detail"><small>Quantitative Score</small><br><b>${fmt(s.quantitativeScore)}/100</b></div>
-      <div class="detail"><small>Weighted Context</small><br><b>${fmt(s.contextScore)}</b></div>
-      <div class="detail"><small>Context Signal</small><br><b>${esc(s.contextSignal||"—")}</b></div>
-      <div class="detail"><small>Alignment</small><br><b>${esc(s.alignment||"—")}</b></div>
-      <div class="detail"><small>Conflict</small><br><b>${s.conflictDetected?"Detected":"None"}</b></div>
+      <div class="detail"><small>Context Contribution</small><br><b>${fmt(s.contextScore)}</b></div>
+      <div class="detail"><small>Confidence</small><br><b>${fmt(s.confidence)}/100</b></div>
+      <div class="detail"><small>Context Signal</small><br><b>${esc(contextSignal)}</b></div>
+      <div class="detail"><small>Alignment</small><br><b>${esc(alignment)}</b></div>
     </div>
 
     <h3>🌐 Context Breakdown</h3>
@@ -482,31 +584,58 @@ function showDetails(s){
       ${contextMetric("Industry",s.industryContextScore)}
       ${contextMetric("Market",s.marketContextScore)}
     </div>
+    <div class="context-note">
+      These are the engine's supplied context inputs. The separate <b>Context Contribution</b> is the value actually carried into the integrated score.
+    </div>
 
     <h3>📊 Quantitative Factors</h3>
     <div class="detail-grid">
-      ${factor("Momentum",f.momentum)}${factor("Trend",f.trend)}
-      ${factor("Relative Strength",f.relativeStrength)}${factor("Volume",f.volume)}
-      ${factor("RSI Quality",f.rsiQuality)}${factor("Breakout",f.breakout)}
-      ${factor("Volatility",f.volatility)}${factor("Risk / Reward",f.riskReward)}
+      ${factor("Momentum",f.momentum)}
+      ${factor("Trend",f.trend)}
+      ${factor("Relative Strength",f.relativeStrength)}
+      ${factor("Volume",f.volume)}
+      ${factor("RSI Quality",f.rsiQuality)}
+      ${factor("Breakout",f.breakout)}
+      ${factor("Volatility",f.volatility)}
+      ${factor("Risk / Reward",f.riskReward)}
     </div>
 
     <h3>📈 Raw Market Indicators</h3>
     <div class="raw-grid">
-      ${rawMetric("5D Return",r.return5d,"%")}${rawMetric("20D Return",r.return20d,"%")}
-      ${rawMetric("60D Return",r.return60d,"%")}${rawMetric("RSI 14",r.rsi14,"")}
-      ${rawMetric("Volume Ratio",r.volumeRatio,"x")}${rawMetric("20D Volatility",r.volatility20d,"%")}
+      ${rawMetric("5D Return",r.return5d,"%")}
+      ${rawMetric("20D Return",r.return20d,"%")}
+      ${rawMetric("60D Return",r.return60d,"%")}
+      ${rawMetric("RSI 14",r.rsi14,"")}
+      ${rawMetric("Volume Ratio",r.volumeRatio,"x")}
+      ${rawMetric("20D Volatility",r.volatility20d,"%")}
     </div>
 
     <h3>📰 Company News Context</h3>
-    <div class="reason">${newsText}</div>
+    <div class="analysis-grid">
+      <div class="analysis-box"><strong>Direction</strong><div class="small">${esc(newsDirection)}</div></div>
+      <div class="analysis-box"><strong>Impact</strong><div class="small">${esc(newsImpact)}</div></div>
+      <div class="analysis-box"><strong>News score</strong><div class="small">${newsScore}</div></div>
+    </div>
 
-    <h3>🧠 Why the Engine Reached This Result</h3>
+    <h3>🟢 Stronger Quantitative Areas</h3>
+    <div class="reason good">${esc(positiveText)}</div>
+
+    <h3>🟠 Weaker Quantitative Areas</h3>
+    <div class="reason">${esc(weakText)}</div>
+
+    <h3>⚠️ Risk / Invalidation Watchlist</h3>
+    <div class="reason ${riskFlags.length?'warning':''}">${esc(riskText)}</div>
+    ${s.conflictDetected
+      ?`<div class="reason warning"><b>Conflict:</b> ${esc(s.conflictReason||"External context conflicts with the quantitative setup.")}</div>`
+      :""
+    }
+
+    <h3>🧠 Engine Reasoning</h3>
     ${reasons||"<div class='reason'>No reasoning text supplied.</div>"}
 
-    ${s.conflictDetected?`<div class="reason"><b>⚠ Conflict detected:</b> ${esc(s.conflictReason||"External context conflicts with the quantitative setup.")}</div>`:""}
-
-    <div class="footer-note">Research output only. This panel does not constitute investment advice or an automatic buy/sell recommendation.</div>`
+    <div class="footer-note">
+      Research output only. This report explains the supplied scoring model; it does not constitute investment advice or an automatic buy/sell recommendation.
+    </div>`
   );
 }
 
