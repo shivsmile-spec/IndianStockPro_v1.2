@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10182b">
 <link rel="manifest" href="manifest.json">
-<title>Indian Stock Pro v1.8</title>
+<title>Indian Stock Pro v1.9</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
@@ -77,7 +77,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}.hero-line{align-items:flex-start;flex-direction:column}.search{flex-direction:column}.search button{height:48px}}
 
 
-/* v1.8 LIVE MARKET PRICE LAYER */
+/* v1.9 LIVE MARKET PRICE LAYER */
 .live-quote-panel{margin-top:10px;border:1px solid #dfe5ee;border-radius:12px;padding:12px 14px;background:#f8fafc;display:flex;justify-content:space-between;align-items:center;gap:12px}.live-quote-panel b{display:block;font-size:13px}.live-quote-panel span{display:block;color:#667085;font-size:12px;margin-top:3px}.live-quote-panel button{border:1px solid #ccd3df;background:#fff;color:#172033;padding:8px 12px;border-radius:9px;font-weight:800;cursor:pointer}.live-quote-panel button:disabled{opacity:.55;cursor:wait}.live-quote-ok{border-color:#b9e6c8;background:#f4fbf6}.live-quote-warn{border-color:#f0c36d;background:#fffaf0}.live-price-note{font-size:10px;color:#667085;margin-top:4px}.live-price{font-size:20px;font-weight:800}.live-price-unavailable{font-size:14px;color:#667085;font-weight:700}
 
 /* v1.7 BRAND + EXPERT INTELLIGENCE */
@@ -100,7 +100,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <circle cx="31" cy="28" r="10" fill="#f8d36b" opacity=".95"/>
 <path d="M24 31c7-8 14-8 19 0-5 7-12 8-19 0z" fill="#fff" opacity=".9"/>
 </svg>
-<div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.8</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
+<div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.9</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
 </div>
 </div></header>
 
@@ -165,7 +165,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="reason"><b>Important scoring distinction</b><br>Company / Industry / Market values shown on stock cards are context inputs. The separate Context value is the weighted contribution used by the integrated engine.</div>
 <div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
 <div class="reason"><b>Decision layer</b><br>The app derives a research posture from quantitative strength, context balance, confidence and conflict flags. It is an interpretation layer over the supplied data, not a guaranteed prediction or automatic buy/sell signal.</div>
-<div class="reason"><b>External intelligence layer</b><br>v1.8 adds a separate market-intelligence panel and a live-price layer. It does not alter the stock ranking automatically; it gives the user a transparent way to compare the engine with current public market commentary.</div>
+<div class="reason"><b>External intelligence layer</b><br>v1.9 adds a separate market-intelligence panel and a published live-price layer. It does not alter the stock ranking automatically; it gives the user a transparent way to compare the engine with current public market commentary.</div>
 </section>
 
 <section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. External expert commentary is shown for research comparison only. SEBI notes that market recommendations are subject to market risk and do not assure returns. Market prices are fetched separately from a public market-data endpoint and may be delayed or unavailable. Never treat a missing quote as a current price. Verify current prices, disclosures and market conditions before acting. <a href="https://investor.sebi.gov.in/research_analyst.html" target="_blank" rel="noopener">SEBI Research Analyst information →</a></div></section>
@@ -281,7 +281,7 @@ async function loadData(){
     refreshLivePrices();
 
     status.textContent=
-      "✓ Integrated context loaded: quantitative + company + industry + market.";
+      "✓ Integrated context loaded: quantitative + company + industry + market. Live prices are supplied separately by the published market feed.";
 
     /*
       OPTIONAL NEWS:
@@ -309,7 +309,7 @@ async function loadData(){
         });
 
         status.textContent=
-          "✓ Integrated context loaded: quantitative + company + industry + market + news. v1.8 expert layer ready. Live prices are refreshed separately.";
+          "✓ Integrated context loaded: quantitative + company + industry + market + news. v1.9 expert layer ready. Live prices are refreshed separately.";
       })
       .catch(e=>{
         console.warn("Optional news file unavailable:",e);
@@ -350,53 +350,69 @@ function companyFromReasoning(r){
   return m?m[1]:"";
 }
 
+function livePriceValue(s){
+  const raw=s?.liveQuote?.price;
+  const n=Number(raw);
+  return Number.isFinite(n)&&n>0?n:null;
+}
+
 function livePriceText(s){
-  const p=Number(s?.liveQuote?.price ?? s?.price);
-  return Number.isFinite(p)?`₹${p.toFixed(2)}`:"Live quote unavailable";
+  const p=livePriceValue(s);
+  return p!==null?`₹${p.toFixed(2)}`:"Live quote unavailable";
 }
 
 function livePriceHTML(s){
-  const p=Number(s?.liveQuote?.price ?? s?.price);
-  if(!Number.isFinite(p))return `<div class="live-price-unavailable">—</div>`;
+  const p=livePriceValue(s);
+  if(p===null)return `<div class="live-price-unavailable">—</div>`;
   return `<div class="live-price">₹${p.toFixed(2)}</div>`;
 }
 
 function liveQuoteNote(s){
   const q=s?.liveQuote;
-  if(!q)return "Live quote not available; analysis price is hidden.";
+  if(!q||livePriceValue(s)===null)return "Latest published quote unavailable; analysis price is hidden.";
   const state=q.marketState?` · ${q.marketState}`:"";
-  return `Latest quote · ${q.source||"market feed"}${state}`;
-}
-
-function yahooSymbol(symbol){
-  return encodeURIComponent(String(symbol||"").trim().toUpperCase()+".NS");
-}
-
-async function fetchLiveQuote(symbol){
-  const url=`https://query1.finance.yahoo.com/v8/finance/chart/${yahooSymbol(symbol)}?range=1d&interval=5m&includePrePost=false`;
-  const r=await fetch(url,{cache:"no-store"});
-  if(!r.ok)throw new Error(`HTTP ${r.status}`);
-  const body=await r.json();
-  const result=body?.chart?.result?.[0];
-  const meta=result?.meta;
-  const price=Number(meta?.regularMarketPrice);
-  if(!Number.isFinite(price))throw new Error("No regularMarketPrice");
-  const previous=Number(meta?.previousClose ?? meta?.chartPreviousClose);
-  const ts=Number(meta?.regularMarketTime);
-  return {
-    price,
-    previousClose:Number.isFinite(previous)?previous:null,
-    change:Number.isFinite(previous)?price-previous:null,
-    changePct:Number.isFinite(previous)&&previous!==0?(price-previous)/previous*100:null,
-    timestamp:Number.isFinite(ts)?new Date(ts*1000):new Date(),
-    marketState:meta?.marketState||"",
-    source:"Yahoo Finance"
-  };
+  const when=q.timestamp?` · ${quoteDisplayTime(new Date(q.timestamp))}`:"";
+  return `Latest quote · ${q.source||"market feed"}${state}${when}`;
 }
 
 function quoteDisplayTime(d){
   try{return new Intl.DateTimeFormat("en-IN",{dateStyle:"medium",timeStyle:"medium",timeZone:"Asia/Kolkata"}).format(d)+" IST"}
   catch(e){return d.toLocaleString()+" IST"}
+}
+
+async function loadPublishedQuotes(){
+  const url="./data/live_quotes.json?v="+Date.now();
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok)throw new Error(`HTTP ${r.status}`);
+  const body=await r.json();
+  const quotes=body&&typeof body.quotes==="object"?body.quotes:{};
+  let ok=0, failed=0, latest=null;
+
+  integrated.forEach(stock=>{
+    const q=quotes[String(stock.symbol||"").toUpperCase()];
+    if(q&&Number.isFinite(Number(q.price))&&Number(q.price)>0){
+      stock.liveQuote={
+        price:Number(q.price),
+        previousClose:Number.isFinite(Number(q.previousClose))?Number(q.previousClose):null,
+        change:Number.isFinite(Number(q.change))?Number(q.change):null,
+        changePct:Number.isFinite(Number(q.changePct))?Number(q.changePct):null,
+        timestamp:q.timestamp||null,
+        marketState:q.marketState||"",
+        source:q.source||"Published market feed"
+      };
+      stock.price=Number(q.price);
+      const dt=q.timestamp?new Date(q.timestamp):null;
+      if(dt&&!Number.isNaN(dt.getTime())&&(!latest||dt>latest))latest=dt;
+      ok++;
+    }else{
+      stock.liveQuote=null;
+      stock.price=null;
+      failed++;
+    }
+  });
+
+  render();
+  return {ok,failed,latest,generatedAt:body.generatedAt||null};
 }
 
 async function refreshLivePrices(){
@@ -406,39 +422,26 @@ async function refreshLivePrices(){
   if(!panel||!text)return;
   btn.disabled=true;
   panel.classList.remove("live-quote-ok","live-quote-warn");
-  text.textContent="Fetching latest NSE-linked quotes…";
-
-  let ok=0, failed=0, firstTime=null;
-  /* Small batches reduce the chance of a public quote endpoint throttling the browser. */
-  for(let i=0;i<integrated.length;i+=5){
-    const batch=integrated.slice(i,i+5);
-    const results=await Promise.allSettled(batch.map(s=>fetchLiveQuote(s.symbol)));
-    results.forEach((res,j)=>{
-      const stock=batch[j];
-      if(res.status==="fulfilled"){
-        stock.liveQuote=res.value;
-        stock.price=res.value.price;
-        if(!firstTime||res.value.timestamp>firstTime)firstTime=res.value.timestamp;
-        ok++;
-      }else{
-        stock.liveQuote=null;
-        stock.price=null;
-        failed++;
-        console.warn("Live quote failed",stock.symbol,res.reason);
-      }
-    });
-    if(i+5<integrated.length)await new Promise(resolve=>setTimeout(resolve,250));
-  }
-
-  render();
-  if(ok){
-    panel.classList.add(failed?"live-quote-warn":"live-quote-ok");
-    text.textContent=`${ok}/${integrated.length} prices refreshed from Yahoo Finance · latest quote time ${quoteDisplayTime(firstTime||new Date())}${failed?` · ${failed} unavailable`:""}.`;
-  }else{
+  text.textContent="Loading latest published NSE-linked quotes…";
+  try{
+    const result=await loadPublishedQuotes();
+    if(result.ok){
+      panel.classList.add(result.failed?"live-quote-warn":"live-quote-ok");
+      const stamp=result.generatedAt?` · feed generated ${quoteDisplayTime(new Date(result.generatedAt))}`:"";
+      text.textContent=`${result.ok}/${integrated.length} prices loaded from the published market feed${stamp}${result.failed?` · ${result.failed} unavailable`:""}.`;
+    }else{
+      panel.classList.add("live-quote-warn");
+      text.textContent="Live quotes are not published yet. Current prices are intentionally hidden rather than showing stale analysis prices.";
+    }
+  }catch(e){
+    console.warn("Published live quote feed unavailable:",e);
+    integrated.forEach(s=>{s.liveQuote=null;s.price=null});
+    render();
     panel.classList.add("live-quote-warn");
-    text.textContent="Live quotes could not be loaded. Current prices are intentionally hidden rather than showing stale analysis prices.";
+    text.textContent="Live quote feed unavailable. Current prices are intentionally hidden rather than showing stale analysis prices.";
+  }finally{
+    btn.disabled=false;
   }
-  btn.disabled=false;
 }
 
 function render(){
@@ -543,7 +546,7 @@ function renderBands(){
   box.innerHTML="";
 
   bands.forEach(b=>{
-    const matches=integrated.filter(s=>Number(s.liveQuote?.price ?? s.analysisPrice)>=b.min&&Number(s.liveQuote?.price ?? s.analysisPrice)<=b.max);
+    const matches=integrated.filter(s=>{const p=livePriceValue(s);return p!==null&&p>=b.min&&p<=b.max;});
     const d=document.createElement("div");
     d.className="band";
     d.onclick=()=>showBand(b,matches);
