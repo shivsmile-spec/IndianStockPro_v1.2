@@ -30,7 +30,7 @@ button{border:0;background:#10182b;color:#fff;padding:0 22px;border-radius:12px;
 <body>
 <header><div class="header-title">🇮🇳 Indian Stock Pro</div><div class="header-sub">Quantitative + Company News + Industry + Market Context</div></header>
 <div class="container">
-<section class="panel"><h2>🔎 Search & Analyze</h2><div class="search"><input id="search" placeholder="Enter NSE symbol or company name"><button onclick="searchStock()">Analyze</button></div><div id="status" class="status">Loading quantitative and integrated context data...</div></section>
+<section class="panel"><h2>🔎 Search & Analyze</h2><div class="search"><input id="search" placeholder="Enter NSE symbol or company name"><button onclick="searchStock()">Analyze</button></div><div id="status" class="status">Loading rankings + integrated context + news data...</div></section>
 <section class="panel"><h2>📊 Integrated Market Summary</h2><div id="summary" class="summary"></div></section>
 <section class="panel"><h2>🏆 Top Integrated Opportunities</h2><p class="disclaimer">Final ranking combines quantitative evidence with company-specific, industry and broader market context. Quantitative evidence remains dominant.</p><div id="integratedCards" class="cards"></div></section>
 <section class="panel"><h2>📈 Quantitative Leaders</h2><p class="disclaimer">Technical screening score before external context is applied.</p><div id="quantCards" class="cards"></div></section>
@@ -58,10 +58,46 @@ async function loadData(){
   const newsMap=new Map(newsStocks.map(x=>[String(x.symbol||"").toUpperCase(),x]));
   integrated=ctx.map(x=>{
    const key=String(x.symbol||"").toUpperCase(),q=qMap.get(key)||{},ns=newsMap.get(key)||{};
-   const company=ns.companyNews?.company||companyFromReasoning(x.reasoning)||"NSE Stock";
-   return {...q,...x,company,score:numVal(x.finalScore,q.score),integratedScore:numVal(x.finalScore,q.score),quantitativeScore:numVal(x.quantitativeScore,q.score),contextScore:numVal(x.weightedContextScore,0),companyContextScore:numVal(x.companyContextScore,0),industryContextScore:numVal(x.industryContextScore,0),marketContextScore:numVal(x.marketContextScore,0),confidence:numVal(x.confidence,q.confidence),risk:x.risk||"Normal",signal:x.signal||"Neutral",finalRank:x.finalRank||999,factors:q.factors||{},raw:q.raw||{},reasoning:Array.isArray(x.reasoning)?x.reasoning:[],companyNews:ns.companyNews||null};
+   const reasoning=Array.isArray(x.reasoning)?x.reasoning:[];
+   const company=ns.companyNews?.company||x.companyName||x.company||companyFromReasoning(reasoning)||q.company||q.companyName||"NSE Stock";
+   const quantitativeScore=numVal(x.quantitativeScore,q.quantitativeScore??q.score);
+   const companyContextScore=numVal(x.companyContextScore,x.companyContext??0);
+   const industryContextScore=numVal(x.industryContextScore,x.industryContext??0);
+   const marketContextScore=numVal(x.marketContextScore,x.marketContext??0);
+   const contextScore=numVal(x.weightedContextScore,
+      numVal(x.contextScore, Number(x.finalScore)-quantitativeScore));
+   const finalScore=numVal(x.finalScore, quantitativeScore + contextScore);
+   return {...q,...x,company,
+      score:finalScore,
+      integratedScore:finalScore,
+      quantitativeScore,
+      contextScore,
+      weightedContextScore:contextScore,
+      companyContextScore,
+      industryContextScore,
+      marketContextScore,
+      confidence:numVal(x.confidence,q.confidence),
+      risk:x.risk||"Normal",
+      signal:x.signal||"Neutral",
+      finalRank:x.finalRank||999,
+      factors:q.factors||{},
+      raw:q.raw||{},
+      reasoning,
+      companyNews:ns.companyNews||null
+   };
   });
-  integrated.sort((a,b)=>(a.finalRank||999)-(b.finalRank||999));render();status.textContent="✓ Quantitative + integrated context datasets loaded successfully.";
+  integrated.sort((a,b)=>(a.finalRank||999)-(b.finalRank||999));
+  const first=integrated[0];
+  console.log("IndianStockPro integrated check:", first ? {
+    symbol:first.symbol,
+    quantitative:first.quantitativeScore,
+    companyContext:first.companyContextScore,
+    industryContext:first.industryContextScore,
+    marketContext:first.marketContextScore,
+    weightedContext:first.contextScore,
+    finalScore:first.integratedScore
+  } : "no stocks");
+  render();status.textContent="✓ Integrated context loaded: quantitative + company + industry + market.";
  }catch(err){console.error(err);status.innerHTML='<div class="error">Could not load one or more data files. Check that rankings.json, context_analysis.json and news_context.json exist in /data.</div>';}
 }
 function getRankings(data){if(Array.isArray(data.rankings))return data.rankings;if(Array.isArray(data.stocks))return data.stocks;if(Array.isArray(data.bands))return data.bands.flatMap(b=>Array.isArray(b.stocks)?b.stocks:[]);return[];}
@@ -81,7 +117,7 @@ function card(s,rank,full){
  <div class="metrics"><div class="metric"><div class="metric-label">${full?"Integrated Score":"Quantitative Score"}</div><div class="metric-value">${fmt(full?s.integratedScore:s.quantitativeScore)}</div></div><div class="metric"><div class="metric-label">Quantitative</div><div class="metric-value">${fmt(s.quantitativeScore)}</div></div><div class="metric"><div class="metric-label">Confidence</div><div class="metric-value">${fmt(s.confidence)}</div></div>
  ${full?`<div class="metric"><div class="metric-label">Context</div><div class="metric-value">${fmt(s.contextScore)}</div></div><div class="metric"><div class="metric-label">Risk</div><div class="metric-value">${esc(s.risk)}</div></div><div class="metric"><div class="metric-label">Final Rank</div><div class="metric-value">${s.finalRank||"—"}</div></div>`:""}</div>
  <div class="badge ${cls}">${esc(s.signal||"Research")}</div>
- ${full?`<div class="context-row"><div class="context-box"><small>Company</small><br><b>${fmt(s.companyContextScore)}</b></div><div class="context-box"><small>Industry</small><br><b>${fmt(s.industryContextScore)}</b></div><div class="context-box"><small>Market</small><br><b>${fmt(s.marketContextScore)}</b></div><div class="context-box"><small>Alignment</small><br><b>${esc(s.alignment||"—")}</b></div></div>`:""}`;
+ ${full?`<div class="context-row"><div class="context-box"><small>Company Context</small><br><b>${fmt(s.companyContextScore)}</b></div><div class="context-box"><small>Industry Context</small><br><b>${fmt(s.industryContextScore)}</b></div><div class="context-box"><small>Market Context</small><br><b>${fmt(s.marketContextScore)}</b></div><div class="context-box"><small>Alignment</small><br><b>${esc(s.alignment||"—")}</b></div></div>`:""}`;
  return div;
 }
 function renderBands(){
@@ -104,7 +140,7 @@ function showDetails(s){
  const f=s.factors||{},reasons=(s.reasoning||[]).map(x=>`<div class="reason">${esc(x)}</div>`).join(""),n=s.companyNews;
  const newsText=n?`${esc(n.overallDirection||"neutral")} / ${esc(n.overallImpact||"low")} (score ${fmt(n.newsScore)})`:"Available through context engine";
  openModal(`${esc(s.symbol)} — Integrated Analysis`,`
- <div class="detail-grid"><div class="detail"><small>Company</small><br><b>${esc(s.company)}</b></div><div class="detail"><small>Current Price</small><br><b>₹${fmt(s.price)}</b></div><div class="detail"><small>Integrated Score</small><br><b>${fmt(s.integratedScore)}/100</b></div><div class="detail"><small>Quantitative Score</small><br><b>${fmt(s.quantitativeScore)}/100</b></div><div class="detail"><small>Weighted Context</small><br><b>${fmt(s.contextScore)}</b></div><div class="detail"><small>Confidence</small><br><b>${fmt(s.confidence)}/100</b></div><div class="detail"><small>Risk</small><br><b>${esc(s.risk)}</b></div><div class="detail"><small>Final Rank</small><br><b>${s.finalRank||"—"}</b></div><div class="detail"><small>Company Context</small><br><b>${fmt(s.companyContextScore)}</b></div><div class="detail"><small>Industry Context</small><br><b>${fmt(s.industryContextScore)}</b></div><div class="detail"><small>Market Context</small><br><b>${fmt(s.marketContextScore)}</b></div><div class="detail"><small>Conflict</small><br><b>${s.conflictDetected?"Detected":"None"}</b></div></div>
+ <div class="detail-grid"><div class="detail"><small>Company Context</small><br><b>${esc(s.company)}</b></div><div class="detail"><small>Current Price</small><br><b>₹${fmt(s.price)}</b></div><div class="detail"><small>Integrated Score</small><br><b>${fmt(s.integratedScore)}/100</b></div><div class="detail"><small>Quantitative Score</small><br><b>${fmt(s.quantitativeScore)}/100</b></div><div class="detail"><small>Weighted Context</small><br><b>${fmt(s.contextScore)}</b></div><div class="detail"><small>Confidence</small><br><b>${fmt(s.confidence)}/100</b></div><div class="detail"><small>Risk</small><br><b>${esc(s.risk)}</b></div><div class="detail"><small>Final Rank</small><br><b>${s.finalRank||"—"}</b></div><div class="detail"><small>Company Context</small><br><b>${fmt(s.companyContextScore)}</b></div><div class="detail"><small>Industry Context</small><br><b>${fmt(s.industryContextScore)}</b></div><div class="detail"><small>Market Context</small><br><b>${fmt(s.marketContextScore)}</b></div><div class="detail"><small>Conflict</small><br><b>${s.conflictDetected?"Detected":"None"}</b></div></div>
  <h3>📊 Quantitative Factors</h3><div class="detail-grid">${factor("Momentum",f.momentum)}${factor("Trend",f.trend)}${factor("Relative Strength",f.relativeStrength)}${factor("Volume",f.volume)}${factor("RSI Quality",f.rsiQuality)}${factor("Breakout",f.breakout)}${factor("Volatility",f.volatility)}${factor("Risk / Reward",f.riskReward)}</div>
  <h3>📰 Company News Context</h3><div class="reason">${newsText}</div><h3>🧠 Engine Reasoning</h3>${reasons||"<div class='reason'>No reasoning text supplied.</div>"}${s.conflictDetected?`<div class="reason"><b>Conflict:</b> ${esc(s.conflictReason||"External context conflicts with quantitative setup.")}</div>`:""}`);
 }
