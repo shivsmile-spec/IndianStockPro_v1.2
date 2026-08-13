@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10182b">
 <link rel="manifest" href="manifest.json">
-<title>Indian Stock Pro v1.6</title>
+<title>Indian Stock Pro v1.7</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
@@ -75,13 +75,27 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 @media(max-width:700px){.analysis-grid{grid-template-columns:1fr}}
 .error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}.hero-line{align-items:flex-start;flex-direction:column}.search{flex-direction:column}.search button{height:48px}}
+
+/* v1.7 BRAND + EXPERT INTELLIGENCE */
+.brand{display:flex;align-items:center;gap:13px}.brand-logo{width:58px;height:58px;flex:0 0 58px;filter:drop-shadow(0 5px 8px rgba(0,0,0,.22))}.brand-copy{min-width:0}.brand-name{font-size:30px;font-weight:900;letter-spacing:.2px}.brand-name span{color:#8ee35b}.brand-sub{margin-top:4px;color:#cbd3e3}.version-pill{display:inline-block;margin-left:8px;padding:4px 8px;border-radius:999px;background:#1c2a47;color:#9ee66e;font-size:11px;vertical-align:middle}.expert-panel{background:linear-gradient(135deg,#10182b,#172b50);color:#fff}.expert-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px}.live-pill{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border-radius:999px;background:rgba(46,204,113,.12);border:1px solid rgba(46,204,113,.28);color:#a9f0bd;font-size:12px;font-weight:800}.live-dot{width:8px;height:8px;border-radius:50%;background:#2ecc71}.expert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.expert-card{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);border-radius:13px;padding:14px}.expert-source{font-size:12px;color:#9fb0ca;font-weight:800}.expert-title{font-size:15px;font-weight:800;margin-top:5px}.expert-text{font-size:13px;color:#e0e7f2;line-height:1.5;margin-top:7px}.expert-link{display:inline-block;margin-top:9px;color:#9ee66e;text-decoration:none;font-size:12px;font-weight:800}.expert-link:hover{text-decoration:underline}.expert-note{font-size:11px;color:#aebbd0;margin-top:13px;line-height:1.45}.framework-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.framework-chip{padding:7px 10px;border-radius:999px;background:#f3f6fb;color:#33415c;font-size:12px;font-weight:700;border:1px solid #e1e6ef}.market-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}.market-chip{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);border-radius:10px;padding:10px}.market-chip small{display:block;color:#9fb0ca;font-size:11px}.market-chip b{display:block;margin-top:3px;font-size:15px}.source-badge{font-size:10px;padding:3px 6px;border-radius:6px;background:#eaf2ff;color:#2457a6;font-weight:800}.app-mark{display:inline-flex;align-items:center;gap:7px}.app-mark svg{width:34px;height:34px}.mini-logo{width:34px;height:34px}
+@media(max-width:800px){.expert-grid{grid-template-columns:1fr}.market-strip{grid-template-columns:repeat(2,1fr)}.brand-name{font-size:25px}}
 </style>
 </head>
 <body>
 
 <header><div class="header-wrap">
-<div class="header-title">🇮🇳 Indian Stock Pro</div>
-<div class="header-sub">Quantitative Signals + Company News + Industry + Market Context</div>
+<div class="brand">
+<svg class="brand-logo" viewBox="0 0 100 100" role="img" aria-label="Indian Stock Pro logo">
+<defs><linearGradient id="lg" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#ff8a00"/><stop offset=".5" stop-color="#ffd43b"/><stop offset="1" stop-color="#54e36d"/></linearGradient></defs>
+<path d="M17 73c7-26 24-45 47-52 10-3 19-3 25 0-4 9-10 15-19 19-14 6-24 18-31 35z" fill="url(#lg)"/>
+<path d="M22 78c18-7 38-10 60-8" fill="none" stroke="#46e4a3" stroke-width="8" stroke-linecap="round"/>
+<path d="M29 66V45m16 15V36m16 12V27" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".95"/>
+<path d="M69 25l14-10-4 15 9 1-20 14 4-14-9-1z" fill="#35e76c"/>
+<circle cx="31" cy="28" r="10" fill="#f8d36b" opacity=".95"/>
+<path d="M24 31c7-8 14-8 19 0-5 7-12 8-19 0z" fill="#fff" opacity=".9"/>
+</svg>
+<div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.7</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
+</div>
 </div></header>
 
 <div class="container">
@@ -97,6 +111,23 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 </section>
 
 <section class="panel"><h2>📊 Integrated Market Summary</h2><div id="summary" class="summary"></div></section>
+
+<section class="panel expert-panel">
+<div class="expert-head"><div><h2 style="margin-bottom:4px">🌐 External Market Intelligence</h2><div style="color:#b9c6da;font-size:13px">Independent market context from recent public commentary — kept separate from the Indian Stock Pro score.</div></div><div class="live-pill"><span class="live-dot"></span>Research snapshot · 13 Aug 2026</div></div>
+<div class="market-strip">
+<div class="market-chip"><small>NIFTY 50</small><b>24,395.85</b></div>
+<div class="market-chip"><small>SENSEX</small><b>78,079.96</b></div>
+<div class="market-chip"><small>CRUDE OIL</small><b>~$88/bbl</b></div>
+<div class="market-chip"><small>MARKET TONE</small><b>Cautious / mixed</b></div>
+</div>
+<div class="expert-grid">
+<div class="expert-card"><div class="expert-source">REUTERS · 13 AUG 2026</div><div class="expert-title">Oil + geopolitics remain the key headwind</div><div class="expert-text">Indian equities were broadly muted as strong earnings and easing U.S. rate concerns were offset by Middle East uncertainty and elevated crude prices.</div><a class="expert-link" href="https://www.reuters.com/world/india/indian-shares-set-muted-start-us-rate-relief-meets-middle-east-caution-2026-08-13/" target="_blank" rel="noopener">Read source →</a></div>
+<div class="expert-card"><div class="expert-source">ETMARKETS · RITESH TAKSALI</div><div class="expert-title">Long-term India outlook remains constructive</div><div class="expert-text">The CIO of Edelweiss Life Insurance highlighted strong corporate earnings, easing global pressures and potential foreign-capital rotation toward diversified growth markets such as India.</div><a class="expert-link" href="https://m.economictimes.com/markets/expert-view/etmarkets-smart-talk-maturing-ai-trade-could-redirect-global-capital-towards-diversified-growth-markets-like-india-ritesh-taksali/articleshow/133195868.cms" target="_blank" rel="noopener">Read source →</a></div>
+<div class="expert-card"><div class="expert-source">ICICI DIRECT · TECHNICAL OUTLOOK</div><div class="expert-title">Use a top-down, sector-aware process</div><div class="expert-text">Its 2026 outlook emphasizes market breadth, sector rotation and technical structure, with attention to consumption, banking/financials, capital goods, auto and metals.</div><a class="expert-link" href="https://www.youtube.com/watch?v=seihPdk5-8c" target="_blank" rel="noopener">View outlook →</a></div>
+</div>
+<div class="framework-row"><span class="framework-chip">52-week structure</span><span class="framework-chip">Relative strength</span><span class="framework-chip">Sector rotation</span><span class="framework-chip">Market breadth</span><span class="framework-chip">FII/DII flows</span><span class="framework-chip">Crude + global cues</span><span class="framework-chip">Risk management</span></div>
+<div class="expert-note">External views are displayed as research context, not as recommendations by Indian Stock Pro. They may disagree with the app's quantitative ranking. Source material is public commentary and can change as markets move.</div>
+</section>
 
 <section class="panel">
 <h2>🏆 Top Integrated Opportunities</h2>
@@ -121,9 +152,10 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="reason"><b>Important scoring distinction</b><br>Company / Industry / Market values shown on stock cards are context inputs. The separate Context value is the weighted contribution used by the integrated engine.</div>
 <div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
 <div class="reason"><b>Decision layer</b><br>The app derives a research posture from quantitative strength, context balance, confidence and conflict flags. It is an interpretation layer over the supplied data, not a guaranteed prediction or automatic buy/sell signal.</div>
+<div class="reason"><b>External intelligence layer</b><br>v1.7 adds a separate market-intelligence panel. It does not alter the stock ranking automatically; it gives the user a transparent way to compare the engine with current public market commentary.</div>
 </section>
 
-<section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. Verify current prices and market conditions before acting.</div></section>
+<section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. External expert commentary is shown for research comparison only. SEBI notes that market recommendations are subject to market risk and do not assure returns. Verify current prices, disclosures and market conditions before acting. <a href="https://investor.sebi.gov.in/research_analyst.html" target="_blank" rel="noopener">SEBI Research Analyst information →</a></div></section>
 
 </div>
 
@@ -257,7 +289,7 @@ async function loadData(){
         });
 
         status.textContent=
-          "✓ Integrated context loaded: quantitative + company + industry + market + news.";
+          "✓ Integrated context loaded: quantitative + company + industry + market + news. v1.7 expert layer ready.";
       })
       .catch(e=>{
         console.warn("Optional news file unavailable:",e);
