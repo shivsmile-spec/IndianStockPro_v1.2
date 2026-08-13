@@ -1,8 +1,279 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-08-13T17:46:01.257161+00:00",
   "source": "Yahoo Finance with NSE India fallback",
-  "quoteCount": 0,
-  "requestedCount": 0,
-  "quotes": {},
+  "quoteCount": 30,
+  "requestedCount": 30,
+  "quotes": {
+    "IDFCFIRSTB": {
+      "price": 86.55,
+      "previousClose": 85.8,
+      "change": 0.75,
+      "changePct": 0.8741258741258742,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "NMDC": {
+      "price": 85.0,
+      "previousClose": 85.9,
+      "change": -0.9000000000000057,
+      "changePct": -1.0477299185099018,
+      "timestamp": "2026-08-13T09:45:06+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "IRFC": {
+      "price": 88.35,
+      "previousClose": 88.26,
+      "change": 0.0899999999999892,
+      "changePct": 0.10197144799454927,
+      "timestamp": "2026-08-13T09:45:04+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "YESBANK": {
+      "price": 22.98,
+      "previousClose": 22.98,
+      "change": 0.0,
+      "changePct": 0.0,
+      "timestamp": "2026-08-13T09:45:00+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "NHPC": {
+      "price": 77.5,
+      "previousClose": 76.85,
+      "change": 0.6500000000000057,
+      "changePct": 0.8458035133376782,
+      "timestamp": "2026-08-13T09:45:06+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "ASHOKLEY": {
+      "price": 176.23,
+      "previousClose": 176.7,
+      "change": -0.46999999999999886,
+      "changePct": -0.2659875495189581,
+      "timestamp": "2026-08-13T09:45:00+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "MOTHERSON": {
+      "price": 167.4,
+      "previousClose": 169.5,
+      "change": -2.0999999999999943,
+      "changePct": -1.2389380530973417,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "PNB": {
+      "price": 117.59,
+      "previousClose": 118.98,
+      "change": -1.3900000000000006,
+      "changePct": -1.1682635737098677,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "UNIONBANK": {
+      "price": 186.5,
+      "previousClose": 187.0,
+      "change": -0.5,
+      "changePct": -0.267379679144385,
+      "timestamp": "2026-08-13T09:44:57+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "PETRONET": {
+      "price": 279.3,
+      "previousClose": 279.85,
+      "change": -0.5500000000000114,
+      "changePct": -0.19653385742362384,
+      "timestamp": "2026-08-13T09:44:48+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "NATIONALUM": {
+      "price": 400.5,
+      "previousClose": 420.0,
+      "change": -19.5,
+      "changePct": -4.642857142857143,
+      "timestamp": "2026-08-13T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "EXIDEIND": {
+      "price": 485.5,
+      "previousClose": 490.65,
+      "change": -5.149999999999977,
+      "changePct": -1.0496280444308523,
+      "timestamp": "2026-08-13T10:00:02+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "FEDERALBNK": {
+      "price": 352.45,
+      "previousClose": 356.85,
+      "change": -4.400000000000034,
+      "changePct": -1.2330110690766525,
+      "timestamp": "2026-08-13T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "KOTAKBANK": {
+      "price": 392.4,
+      "previousClose": 390.5,
+      "change": 1.8999999999999773,
+      "changePct": 0.48655569782329766,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "BEL": {
+      "price": 410.5,
+      "previousClose": 405.7,
+      "change": 4.800000000000011,
+      "changePct": 1.1831402514173064,
+      "timestamp": "2026-08-13T09:45:04+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "CONCOR": {
+      "price": 533.65,
+      "previousClose": 512.05,
+      "change": 21.600000000000023,
+      "changePct": 4.218338052924524,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "INDIANB": {
+      "price": 897.0,
+      "previousClose": 897.0,
+      "change": 0.0,
+      "changePct": 0.0,
+      "timestamp": "2026-08-13T09:44:58+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "JSWENERGY": {
+      "price": 558.6,
+      "previousClose": 558.75,
+      "change": -0.14999999999997726,
+      "changePct": -0.02684563758388855,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "INDHOTEL": {
+      "price": 721.75,
+      "previousClose": 724.0,
+      "change": -2.25,
+      "changePct": -0.31077348066298344,
+      "timestamp": "2026-08-13T09:44:58+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "IRCTC": {
+      "price": 504.45,
+      "previousClose": 513.55,
+      "change": -9.099999999999966,
+      "changePct": -1.771979359361302,
+      "timestamp": "2026-08-13T10:00:02+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "HINDALCO": {
+      "price": 1046.25,
+      "previousClose": 1078.5,
+      "change": -32.25,
+      "changePct": -2.9902642559109873,
+      "timestamp": "2026-08-13T09:45:04+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "HCLTECH": {
+      "price": 1370.0,
+      "previousClose": 1365.4,
+      "change": 4.599999999999909,
+      "changePct": 0.3368976124212618,
+      "timestamp": "2026-08-13T09:44:58+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "JSWSTEEL": {
+      "price": 1275.0,
+      "previousClose": 1269.1,
+      "change": 5.900000000000091,
+      "changePct": 0.4648963832637374,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "INFY": {
+      "price": 1175.0,
+      "previousClose": 1176.1,
+      "change": -1.099999999999909,
+      "changePct": -0.09352946178045313,
+      "timestamp": "2026-08-13T09:45:04+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "AUBANK": {
+      "price": 1098.0,
+      "previousClose": 1091.4,
+      "change": 6.599999999999909,
+      "changePct": 0.6047278724573858,
+      "timestamp": "2026-08-13T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "COFORGE": {
+      "price": 1829.0,
+      "previousClose": 1801.5,
+      "change": 27.5,
+      "changePct": 1.5265056897030254,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "PAYTM": {
+      "price": 1649.5,
+      "previousClose": 1610.0,
+      "change": 39.5,
+      "changePct": 2.453416149068323,
+      "timestamp": "2026-08-13T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "TECHM": {
+      "price": 1639.0,
+      "previousClose": 1625.0,
+      "change": 14.0,
+      "changePct": 0.8615384615384615,
+      "timestamp": "2026-08-13T09:45:00+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "PIDILITIND": {
+      "price": 1696.1,
+      "previousClose": 1701.5,
+      "change": -5.400000000000091,
+      "changePct": -0.31736702909198306,
+      "timestamp": "2026-08-13T09:45:05+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "NESTLEIND": {
+      "price": 1506.9,
+      "previousClose": 1507.0,
+      "change": -0.09999999999990905,
+      "changePct": -0.006635700066350965,
+      "timestamp": "2026-08-13T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    }
+  },
   "errors": {}
 }
