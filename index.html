@@ -21,7 +21,7 @@ button{border:0;background:#10182b;color:#fff;padding:0 22px;border-radius:12px;
 .context-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}.context-box{border:1px solid #e5e9f0;border-radius:9px;padding:9px}
 .bands{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.band-title{font-size:18px;font-weight:800}.band-count{color:#667085;margin-top:5px}
 .disclaimer{color:#667085;font-size:13px;line-height:1.5}.reason{border-left:4px solid #10182b;padding:10px 12px;background:#f7f8fb;margin-top:8px;border-radius:4px}
-.hidden{display:none}.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:18px;z-index:10}
+.hidden{display:none}.modal.hidden{display:none}.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:18px;z-index:10}
 .modal-box{background:#fff;width:100%;max-width:760px;max-height:90vh;overflow:auto;border-radius:18px;padding:22px}.modal-head{display:flex;justify-content:space-between;align-items:center}.close{background:#edf0f5;color:#172033;padding:8px 13px}
 .detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}.error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid{grid-template-columns:1fr}}
@@ -149,7 +149,7 @@ function openModal(title,html){document.getElementById("modalTitle").innerHTML=t
 function closeModal(){document.getElementById("modal").classList.add("hidden")}function closeOutside(e){if(e.target.id==="modal")closeModal()}
 function fmt(x){const n=Number(x);return Number.isFinite(n)?n.toFixed(1):"—"}
 function esc(v){return String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
-function escAttr(v){return String(v??"").replaceAll("\","\\").replaceAll('"','\"')}
+function escAttr(v){return String(v??"").replaceAll("\\","\\\\").replaceAll('"','&quot;')}
 document.getElementById("search").addEventListener("keydown",e=>{if(e.key==="Enter")searchStock()});loadData();
 </script>
 </body>
