@@ -1,3 +1,4 @@
+"""
 Indian Stock Pro v1.2
 Logical Context Engine - Stage 3
 
