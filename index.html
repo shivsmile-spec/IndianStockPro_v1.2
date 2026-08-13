@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10182b">
 <link rel="manifest" href="manifest.json">
-<title>Indian Stock Pro v1.5</title>
+<title>Indian Stock Pro v1.6</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
@@ -55,6 +55,23 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 .good{border-left-color:#16743b;background:#f4fbf6}
 .context-note{font-size:12px;color:#667085;line-height:1.45;margin-top:8px}
 .report-section{margin-top:20px}.report-section h3{margin:0 0 10px}.verdict{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:10px;margin-top:10px}.verdict-box{border:1px solid #e1e6ef;border-radius:12px;padding:13px;background:#fff}.verdict-box .label{font-size:12px;color:#667085}.verdict-box .value{font-size:18px;font-weight:800;margin-top:4px}.factor-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}.factor-item{border-radius:10px;padding:10px 12px;background:#f5f7fa;border-left:4px solid #16743b}.factor-item.weak{border-left-color:#b42318;background:#fff6f6}.factor-item.watch{border-left-color:#8a5a00;background:#fff9e9}.factor-item b{font-size:13px}.factor-item span{display:block;font-size:12px;color:#667085;margin-top:3px}.conclusion{border-radius:14px;padding:16px;background:#10182b;color:#fff;margin-top:20px}.conclusion-title{font-size:18px;font-weight:800}.conclusion-text{margin-top:7px;line-height:1.5;color:#e6ebf5}.modal-box{scroll-behavior:smooth}
+
+.action-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.action-box{border-radius:12px;padding:13px;border:1px solid #e1e6ef;background:#fff}
+.action-box .action-label{font-size:12px;color:#667085;font-weight:700;text-transform:uppercase}
+.action-box .action-value{font-size:18px;font-weight:800;margin-top:4px}
+.action-box.bull{border-left:5px solid #16743b;background:#f7fcf8}
+.action-box.bear{border-left:5px solid #b42318;background:#fff8f8}
+.action-box.watch{border-left:5px solid #8a5a00;background:#fffaf0}
+.conflict-box{border:1px solid #f0c36d;background:#fff9e8;border-radius:12px;padding:14px;margin-top:10px}
+.conflict-title{font-weight:800;color:#8a5a00}
+.next-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.next-box{border-radius:12px;padding:13px;background:#f5f7fa;border:1px solid #e1e6ef}
+.next-box.good{border-left:4px solid #16743b}
+.next-box.warning{border-left:4px solid #b42318}
+.next-box .label{font-size:12px;color:#667085;font-weight:700}
+.next-box .text{margin-top:5px;line-height:1.45;font-size:13px}
+@media(max-width:700px){.action-grid,.next-grid{grid-template-columns:1fr}}
 @media(max-width:700px){.analysis-grid{grid-template-columns:1fr}}
 .error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}.hero-line{align-items:flex-start;flex-direction:column}.search{flex-direction:column}.search button{height:48px}}
@@ -103,6 +120,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="reason"><b>10% Market Context</b><br>Broader macro, commodity, government and geopolitical environment.</div>
 <div class="reason"><b>Important scoring distinction</b><br>Company / Industry / Market values shown on stock cards are context inputs. The separate Context value is the weighted contribution used by the integrated engine.</div>
 <div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
+<div class="reason"><b>Decision layer</b><br>The app derives a research posture from quantitative strength, context balance, confidence and conflict flags. It is an interpretation layer over the supplied data, not a guaranteed prediction or automatic buy/sell signal.</div>
 </section>
 
 <section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. Verify current prices and market conditions before acting.</div></section>
@@ -465,6 +483,89 @@ function showDetailsBySymbol(sym){
   if(s)showDetails(s);
 }
 
+
+function clamp(n,min=0,max=100){
+  return Math.max(min,Math.min(max,n));
+}
+
+function avgNums(values){
+  const a=values.map(Number).filter(Number.isFinite);
+  return a.length?a.reduce((x,y)=>x+y,0)/a.length:0;
+}
+
+function analyzeSetup(s){
+  const f=s.factors||{};
+  const vals=[
+    f.momentum,f.trend,f.relativeStrength,f.volume,
+    f.rsiQuality,f.breakout,f.volatility,f.riskReward
+  ].map(Number).filter(Number.isFinite);
+
+  const quant=Number(s.quantitativeScore)||0;
+  const factorAvg=avgNums(vals)||quant;
+
+  const contexts=[
+    Number(s.companyContextScore)||0,
+    Number(s.industryContextScore)||0,
+    Number(s.marketContextScore)||0
+  ];
+
+  /* Context inputs are normally -100..100. Convert them to a 0..100 strength scale. */
+  const contextStrength=avgNums(contexts.map(v=>clamp((v+100)/2)));
+  const bullScore=clamp(factorAvg*0.75+contextStrength*0.25);
+
+  let bearPressure=100-bullScore;
+  if(Number(s.marketContextScore)<0)bearPressure+=Math.min(15,Math.abs(Number(s.marketContextScore))/10);
+  if(Number(s.industryContextScore)<0)bearPressure+=Math.min(10,Math.abs(Number(s.industryContextScore))/10);
+  if(String(s.risk).toLowerCase()==="elevated")bearPressure+=10;
+  if(s.conflictDetected)bearPressure+=10;
+  bearPressure=clamp(bearPressure);
+
+  const strong=vals.filter(v=>v>=70).length;
+  const weak=vals.filter(v=>v<50).length;
+  const negativeContexts=contexts.filter(v=>v<0).length;
+
+  const conflict =
+    (quant>=75 && contexts.some(v=>v<=-20)) ||
+    (quant>=70 && String(s.risk).toLowerCase()==="elevated") ||
+    !!s.conflictDetected;
+
+  let classification="Watch";
+  if(bullScore>=78 && Number(s.confidence)>=75 && !conflict)classification="Strong Setup";
+  else if(bullScore>=68 && Number(s.confidence)>=65)classification="Positive Setup";
+  else if(bullScore<55 || String(s.signal).toLowerCase()==="weak")classification="Caution";
+
+  let conflictText="";
+  if(conflict){
+    const parts=[];
+    if(quant>=70)parts.push("quantitative strength is high");
+    if(Number(s.marketContextScore)<0)parts.push("market context is negative");
+    if(Number(s.industryContextScore)<0)parts.push("industry context is negative");
+    if(String(s.risk).toLowerCase()==="elevated")parts.push("contextual risk is elevated");
+    conflictText=parts.join(", ")+".";
+  }
+
+  let improves="No single change guarantees a higher rating.";
+  if(Number(s.marketContextScore)<0)
+    improves="A stronger broader-market environment would improve the external-context side of the model.";
+  else if(weak>0)
+    improves="Improvement in the weakest quantitative factors would strengthen the technical side of the model.";
+  else if(Number(s.confidence)<75)
+    improves="Higher-quality or more consistent evidence would improve model confidence.";
+
+  let weakens="No single trigger is defined by the supplied data.";
+  if(strong>=4)
+    weakens="A deterioration in the strongest quantitative factors—especially momentum, trend or breakout—would weaken the setup.";
+  if(Number(s.marketContextScore)<0)
+    weakens="A further deterioration in market context would add pressure to the integrated score.";
+  if(s.conflictDetected)
+    weakens="If the quantitative setup weakens while the negative external context persists, the integrated assessment could deteriorate further.";
+
+  return {
+    factorAvg,bullScore,bearPressure,strong,weak,negativeContexts,
+    conflict,conflictText,classification,improves,weakens
+  };
+}
+
 function showDetails(s){
   const f=s.factors||{}, r=s.raw||{};
   const reasons=(s.reasoning||[]).map(x=>`<div class="reason">${esc(x)}</div>`).join("");
@@ -507,16 +608,13 @@ function showDetails(s){
 
   const score=Number(s.integratedScore)||0;
   const confidence=Number(s.confidence)||0;
-  let posture="Watch / Research";
-  if(String(s.signal).toLowerCase()==="positive" && score>=70 && confidence>=75)posture="Strong setup";
-  else if(String(s.signal).toLowerCase()==="positive")posture="Positive setup";
-  else if(String(s.signal).toLowerCase()==="caution")posture="Caution";
-  else if(String(s.signal).toLowerCase()==="weak")posture="Weak setup";
+  const setup=analyzeSetup(s);
+  const posture=setup.classification;
 
   let conclusion=`The engine ranks ${s.symbol} at ${fmt(s.integratedScore)}/100 with ${fmt(s.confidence)}/100 confidence. `+
     `The quantitative score is ${fmt(s.quantitativeScore)}/100, while the supplied external context contributes ${fmt(s.contextScore)} to the integrated result.`;
   if(Number(s.marketContextScore)<0)conclusion+=" The broader market context is a headwind.";
-  if(s.conflictDetected)conclusion+=" A quantitative/context conflict is present, so extra confirmation is warranted.";
+  if(setup.conflict)conclusion+=" The model detects a signal conflict, so confirmation is warranted before treating the setup as strong.";
 
   openModal(
     `${esc(s.symbol)} — Integrated Analysis`,
@@ -539,6 +637,11 @@ function showDetails(s){
         <div class="verdict-box"><div class="label">RANK</div><div class="value">#${s.finalRank||"—"}</div></div>
         <div class="verdict-box"><div class="label">CONTEXT</div><div class="value">${esc(contextSignal)}</div></div>
       </div>
+      <div class="action-grid">
+        <div class="action-box bull"><div class="action-label">Bull strength</div><div class="action-value">${setup.bullScore.toFixed(1)} / 100</div></div>
+        <div class="action-box bear"><div class="action-label">Bear pressure</div><div class="action-value">${setup.bearPressure.toFixed(1)} / 100</div></div>
+      </div>
+      ${setup.conflict?`<div class="conflict-box"><div class="conflict-title">⚡ Signal Conflict</div><div style="margin-top:5px;line-height:1.45">${esc(setup.conflictText||"The model sees strong evidence on one side and materially weaker external evidence on another.")}</div></div>`:""}
       <div class="conclusion"><div class="conclusion-title">Research conclusion</div><div class="conclusion-text">${esc(conclusion)}</div></div>
     </div>
 
@@ -550,6 +653,21 @@ function showDetails(s){
         <div class="detail"><small>Confidence</small><br><b>${fmt(s.confidence)}/100</b></div>
         <div class="detail"><small>Context Signal</small><br><b>${esc(contextSignal)}</b></div>
         <div class="detail"><small>Alignment</small><br><b>${esc(alignment)}</b></div>
+      </div>
+    </div>
+
+    <div class="report-section"><h3>⚖️ What Is Driving the Balance</h3>
+      <div class="analysis-grid">
+        <div class="analysis-box"><strong>Quantitative strength</strong><div class="small">${setup.factorAvg.toFixed(1)} average across supplied technical factors; ${setup.strong} strong factors and ${setup.weak} weak factors.</div></div>
+        <div class="analysis-box"><strong>External context</strong><div class="small">${setup.negativeContexts} of 3 context inputs are negative. Context contribution to the integrated score is ${fmt(s.contextScore)}.</div></div>
+        <div class="analysis-box"><strong>Model interpretation</strong><div class="small">${setup.conflict?"Strong setup meets materially adverse external evidence.":"The quantitative and contextual evidence are not showing a major direct conflict."}</div></div>
+      </div>
+    </div>
+
+    <div class="report-section"><h3>🔄 What Could Change the Rating</h3>
+      <div class="next-grid">
+        <div class="next-box good"><div class="label">Potential improvement</div><div class="text">${esc(setup.improves)}</div></div>
+        <div class="next-box warning"><div class="label">Potential deterioration</div><div class="text">${esc(setup.weakens)}</div></div>
       </div>
     </div>
 
