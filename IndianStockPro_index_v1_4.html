@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10182b">
+<link rel="manifest" href="manifest.json">
+<title>Indian Stock Pro v1.2</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
+header{background:#10182b;color:#fff;padding:25px 20px}
+.header-wrap{max-width:1150px;margin:auto}
+.header-title{font-size:30px;font-weight:800}.header-sub{margin-top:6px;color:#cbd3e3}
+.container{max-width:1150px;margin:auto;padding:20px}
+.panel{background:#fff;border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
+.search{display:flex;gap:10px}.search input{flex:1;padding:15px;border:1px solid #ccd3df;border-radius:12px;font-size:16px;outline:none}
+.search input:focus{border-color:#526581;box-shadow:0 0 0 3px rgba(16,24,43,.08)}
+button{border:0;background:#10182b;color:#fff;padding:0 22px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer}
+button:hover{opacity:.9}.status{margin-top:12px;background:#f5f7fa;padding:13px;border-radius:10px;color:#667085}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.summary-box,.metric,.detail{background:#f5f7fa;border-radius:10px;padding:12px}
+.summary-label,.metric-label,.detail small{font-size:12px;color:#667085}
+.summary-value{font-size:20px;font-weight:800;margin-top:4px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card,.band{border:1px solid #e1e6ef;border-radius:15px;padding:16px;background:#fff;cursor:pointer}
+.card:hover,.band:hover{box-shadow:0 5px 18px rgba(0,0,0,.08);transform:translateY(-1px)}
+.top{display:flex;justify-content:space-between;gap:10px}.rank{font-size:19px;font-weight:800}
+.company{font-size:13px;color:#667085;margin-top:3px}.price{font-size:20px;font-weight:800}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}.metric-value{font-weight:800;margin-top:3px}
+.badge{display:inline-block;margin-top:12px;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:800}
+.positive{background:#eaf7ee;color:#16743b}.neutral{background:#fff4d8;color:#8a5a00}.caution{background:#fdecec;color:#b42318}
+.watch{background:#eaf2ff;color:#2457a6}.weak{background:#f1f3f5;color:#596273}
+.context-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+.context-box{border:1px solid #e5e9f0;border-radius:9px;padding:9px}
+.bands{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.band-title{font-size:18px;font-weight:800}.band-count{color:#667085;margin-top:5px}
+.disclaimer{color:#667085;font-size:13px;line-height:1.5}
+.reason{border-left:4px solid #10182b;padding:10px 12px;background:#f7f8fb;margin-top:8px;border-radius:4px}
+.hidden{display:none}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:18px;z-index:10}
+.modal-box{background:#fff;width:100%;max-width:850px;max-height:92vh;overflow:auto;border-radius:18px;padding:22px}
+.modal-head{display:flex;justify-content:space-between;align-items:center;gap:15px}.close{background:#edf0f5;color:#172033;padding:8px 13px}
+.detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}
+.error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
+.hero{background:linear-gradient(135deg,#10182b,#253452);color:#fff;border-radius:14px;padding:18px;margin-bottom:15px}
+.hero-line{display:flex;justify-content:space-between;gap:15px;align-items:center}.hero-symbol{font-size:25px;font-weight:800}.hero-price{font-size:25px;font-weight:800}
+.score-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:15px}.score-card{background:rgba(255,255,255,.1);border-radius:10px;padding:12px}
+.score-label{font-size:12px;opacity:.8}.score-value{font-size:23px;font-weight:800;margin-top:3px}
+.bar-wrap{background:#e9edf3;border-radius:20px;height:9px;overflow:hidden;margin-top:7px}.bar{height:100%;background:#10182b;border-radius:20px}
+.context-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.raw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.section-note{color:#667085;font-size:13px;margin-top:-5px}
+.search-results{margin-top:8px;border:1px solid #e1e6ef;border-radius:10px;overflow:hidden;background:#fff;display:none}
+.search-item{padding:10px 13px;cursor:pointer;border-bottom:1px solid #eef1f5}.search-item:last-child{border-bottom:0}
+.search-item:hover{background:#f5f7fa}.search-item b{margin-right:8px}.search-item span{color:#667085;font-size:13px}
+.empty{color:#667085;padding:12px 0}.footer-note{font-size:12px;color:#7a8494;margin-top:12px}
+@media(max-width:700px){
+ .cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}
+ .context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}
+ .metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}
+ .hero-line{align-items:flex-start;flex-direction:column}
+}
+</style>
+</head>
+<body>
+<header><div class="header-wrap">
+  <div class="header-title">🇮🇳 Indian Stock Pro</div>
+  <div class="header-sub">Quantitative + Company News + Industry + Market Context</div>
+</div></header>
+
+<div class="container">
+<section class="panel">
+  <h2>🔎 Search & Analyze</h2>
+  <div class="search">
+    <input id="search" autocomplete="off" placeholder="Enter NSE symbol or company name">
+    <button onclick="searchStock()">Analyze</button>
+  </div>
+  <div id="searchResults" class="search-results"></div>
+  <div id="status" class="status">Loading rankings + integrated context + news data...</div>
+</section>
+
+<section class="panel"><h2>📊 Integrated Market Summary</h2><div id="summary" class="summary"></div></section>
+
+<section class="panel">
+  <h2>🏆 Top Integrated Opportunities</h2>
+  <p class="disclaimer">Final ranking combines quantitative evidence with company-specific, industry and broader market context. Quantitative evidence remains dominant.</p>
+  <div id="integratedCards" class="cards"></div>
+</section>
+
+<section class="panel">
+  <h2>📈 Quantitative Leaders</h2>
+  <p class="disclaimer">Technical screening score before external context is applied.</p>
+  <div id="quantCards" class="cards"></div>
+</section>
+
+<section class="panel"><h2>💰 Price-wise Integrated Opportunities</h2><div id="bands" class="bands"></div></section>
+
+<section class="panel">
+<h2>🧠 How the Integrated Engine Works</h2>
+<div class="reason"><b>60% Quantitative</b><br>Momentum, trend, relative strength, volume, RSI quality, breakout, volatility and risk/reward.</div>
+<div class="reason"><b>20% Company Context</b><br>Company-specific news and its direction/impact.</div>
+<div class="reason"><b>10% Industry Context</b><br>Sector and industry-level external conditions.</div>
+<div class="reason"><b>10% Market Context</b><br>Broader macro, commodity, government and geopolitical environment.</div>
+<div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
+</section>
+
+<section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. Verify current prices and market conditions before acting.</div></section>
+</div>
+
+<div id="modal" class="modal hidden" onclick="closeOutside(event)">
+  <div class="modal-box">
+    <div class="modal-head"><h2 id="modalTitle">Stock Details</h2><button class="close" onclick="closeModal()">✕</button></div>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+let integrated=[],quantitative=[],newsStocks=[];
+const REPO_RAW="https://raw.githubusercontent.com/shivsmile-spec/IndianStockPro_v1.2/main/";
+const URLS={
+  rankings:"data/rankings.json",
+  context:"data/context_analysis.json",
+  news:"data/news_context.json"
+};
+
+async function getJSON(url){
+  const local=url+"?v="+Date.now();
+  try{
+    const r=await fetch(local,{cache:"no-store"});
+    if(r.ok)return await r.json();
+  }catch(e){
+    console.warn("Local data load failed:",url,e);
+  }
+
+  // Standalone-preview fallback. GitHub Pages will normally use the
+  // same-origin /data files above.
+  const fallback=REPO_RAW+url+"?v="+Date.now();
+  const r2=await fetch(fallback,{cache:"no-store"});
+  if(!r2.ok)throw new Error(url+" unavailable from both local and fallback paths");
+  return r2.json();
+}
+
+async function loadData(){
+  const status=document.getElementById("status");
+  try{
+    const [r,c,n]=await Promise.all([getJSON(URLS.rankings),getJSON(URLS.context),getJSON(URLS.news)]);
+    quantitative=getRankings(r);
+    const ctx=Array.isArray(c.stocks)?c.stocks:[];
+    newsStocks=Array.isArray(n.stocks)?n.stocks:[];
+    const qMap=new Map(quantitative.map(x=>[String(x.symbol||"").toUpperCase(),x]));
+    const newsMap=new Map(newsStocks.map(x=>[String(x.symbol||"").toUpperCase(),x]));
+
+    integrated=ctx.map(x=>{
+      const key=String(x.symbol||"").toUpperCase(),q=qMap.get(key)||{},ns=newsMap.get(key)||{};
+      const reasoning=Array.isArray(x.reasoning)?x.reasoning:[];
+      const company=ns.companyNews?.company||x.companyName||x.company||companyFromReasoning(reasoning)||q.company||q.companyName||"NSE Stock";
+      const quantitativeScore=numVal(x.quantitativeScore,q.quantitativeScore??q.score);
+      const companyContextScore=numVal(x.companyContextScore,x.companyContext??0);
+      const industryContextScore=numVal(x.industryContextScore,x.industryContext??0);
+      const marketContextScore=numVal(x.marketContextScore,x.marketContext??0);
+      const contextScore=numVal(x.weightedContextScore,numVal(x.contextScore,Number(x.finalScore)-quantitativeScore));
+      const finalScore=numVal(x.finalScore,quantitativeScore+contextScore);
+      return {...q,...x,company,score:finalScore,integratedScore:finalScore,quantitativeScore,
+        contextScore,weightedContextScore:contextScore,companyContextScore,industryContextScore,
+        marketContextScore,confidence:numVal(x.confidence,q.confidence),risk:x.risk||"Normal",
+        signal:x.signal||"Neutral",finalRank:x.finalRank||999,factors:q.factors||{},raw:q.raw||{},
+        reasoning,companyNews:ns.companyNews||null};
+    });
+
+    integrated.sort((a,b)=>(a.finalRank||999)-(b.finalRank||999));
+    render();
+    status.textContent="✓ Integrated context loaded: quantitative + company + industry + market.";
+  }catch(err){
+    console.error(err);
+    status.innerHTML='<div class="error">Data could not be loaded. If this is a standalone preview, the preview environment may block remote JSON requests. On GitHub Pages the app uses the local /data/ files.</div>';
+  }
+}
+
+function getRankings(data){
+  if(Array.isArray(data.rankings))return data.rankings;
+  if(Array.isArray(data.stocks))return data.stocks;
+  if(Array.isArray(data.bands))return data.bands.flatMap(b=>Array.isArray(b.stocks)?b.stocks:[]);
+  return [];
+}
+function numVal(a,b=0){const n=Number(a);if(Number.isFinite(n))return n;const m=Number(b);return Number.isFinite(m)?m:0}
+function companyFromReasoning(r){if(!Array.isArray(r)||!r.length)return "";const m=String(r[0]).match(/^(.+?) belongs to the /);return m?m[1]:""}
+function render(){renderSummary();renderIntegrated();renderQuantitative();renderBands()}
+
+function renderSummary(){
+  const positive=integrated.filter(x=>String(x.signal).toLowerCase()==="positive").length;
+  const caution=integrated.filter(x=>["caution","negative"].includes(String(x.signal).toLowerCase())||x.risk==="Elevated").length;
+  const conflicts=integrated.filter(x=>x.conflictDetected).length;
+  const watch=integrated.filter(x=>["watch","strong setup"].includes(String(x.signal).toLowerCase())).length;
+  document.getElementById("summary").innerHTML=
+    `<div class="summary-box"><div class="summary-label">Stocks analyzed</div><div class="summary-value">${integrated.length}</div></div>
+     <div class="summary-box"><div class="summary-label">Positive assessments</div><div class="summary-value">${positive}</div></div>
+     <div class="summary-box"><div class="summary-label">Watch / strong setups</div><div class="summary-value">${watch}</div></div>
+     <div class="summary-box"><div class="summary-label">Conflicts detected</div><div class="summary-value">${conflicts}</div></div>`;
+}
+
+function renderIntegrated(){
+  const box=document.getElementById("integratedCards");box.innerHTML="";
+  integrated.slice(0,10).forEach((s,i)=>box.appendChild(card(s,i+1,true)));
+}
+function renderQuantitative(){
+  const box=document.getElementById("quantCards");box.innerHTML="";
+  quantitative.slice().sort((a,b)=>numVal(b.score)-numVal(a.score)).slice(0,10).forEach((s,i)=>{
+    const m=integrated.find(x=>x.symbol===s.symbol)||s;
+    box.appendChild(card({...m,score:numVal(s.score),quantitativeScore:numVal(s.score)},i+1,false));
+  });
+}
+function signalClass(signal,risk){
+  const s=String(signal||"neutral").toLowerCase();
+  if(s==="positive"||s==="strong setup")return "positive";
+  if(s==="caution"||s==="negative"||risk==="Elevated")return "caution";
+  if(s==="watch")return "watch";
+  if(s==="weak")return "weak";
+  return "neutral";
+}
+function card(s,rank,full){
+  const div=document.createElement("div");div.className="card";div.onclick=()=>showDetails(s);
+  const cls=signalClass(s.signal,s.risk);
+  div.innerHTML=
+    `<div class="top"><div><div class="rank">#${rank} ${esc(s.symbol||"N/A")}</div><div class="company">${esc(s.company||"NSE Stock")}</div></div><div class="price">₹${fmt(s.price)}</div></div>
+     <div class="metrics">
+       <div class="metric"><div class="metric-label">${full?"Integrated Score":"Quantitative Score"}</div><div class="metric-value">${fmt(full?s.integratedScore:s.quantitativeScore)}</div></div>
+       <div class="metric"><div class="metric-label">Quantitative</div><div class="metric-value">${fmt(s.quantitativeScore)}</div></div>
+       <div class="metric"><div class="metric-label">Confidence</div><div class="metric-value">${fmt(s.confidence)}</div></div>
+       ${full?`<div class="metric"><div class="metric-label">Context</div><div class="metric-value">${fmt(s.contextScore)}</div></div>
+       <div class="metric"><div class="metric-label">Risk</div><div class="metric-value">${esc(s.risk)}</div></div>
+       <div class="metric"><div class="metric-label">Final Rank</div><div class="metric-value">${s.finalRank||"—"}</div></div>`:""}
+     </div>
+     <div class="badge ${cls}">${esc(s.signal||"Research")}</div>
+     ${full?`<div class="context-row">
+       <div class="context-box"><small>Company Context</small><br><b>${fmt(s.companyContextScore)}</b></div>
+       <div class="context-box"><small>Industry Context</small><br><b>${fmt(s.industryContextScore)}</b></div>
+       <div class="context-box"><small>Market Context</small><br><b>${fmt(s.marketContextScore)}</b></div>
+       <div class="context-box"><small>Alignment</small><br><b>${esc(s.alignment||"—")}</b></div>
+     </div>`:""}`;
+  return div;
+}
+
+function renderBands(){
+  const bands=[{min:20,max:100,label:"₹20 – ₹100"},{min:100,max:300,label:"₹100 – ₹300"},{min:300,max:500,label:"₹300 – ₹500"},{min:500,max:1000,label:"₹500 – ₹1,000"},{min:1000,max:1500,label:"₹1,000 – ₹1,500"},{min:1500,max:2000,label:"₹1,500 – ₹2,000"}];
+  const box=document.getElementById("bands");box.innerHTML="";
+  bands.forEach(b=>{
+    const matches=integrated.filter(s=>Number(s.price)>=b.min&&Number(s.price)<=b.max);
+    const d=document.createElement("div");d.className="band";d.onclick=()=>showBand(b,matches);
+    d.innerHTML=`<div class="band-title">${b.label}</div><div class="band-count">${matches.length} integrated stocks</div>`;
+    box.appendChild(d);
+  });
+}
+function showBand(b,matches){
+  let html=`<p class="section-note">Top integrated results in ${esc(b.label)}. Click any stock for the full report.</p>`;
+  const top=matches.slice().sort((a,c)=>(c.integratedScore||0)-(a.integratedScore||0)).slice(0,10);
+  if(!top.length)html+="<p class='empty'>No analyzed stocks in this range.</p>";
+  else top.forEach((s,i)=>html+=
+    `<div class="card" style="margin-top:10px" onclick="showDetailsBySymbol('${escAttr(s.symbol)}')">
+      <div class="top"><div><div class="rank">#${i+1} ${esc(s.symbol)}</div><div class="company">${esc(s.company)}</div></div><div class="price">₹${fmt(s.price)}</div></div>
+      <div class="metrics"><div class="metric"><div class="metric-label">Integrated</div><div class="metric-value">${fmt(s.integratedScore)}</div></div>
+      <div class="metric"><div class="metric-label">Quantitative</div><div class="metric-value">${fmt(s.quantitativeScore)}</div></div>
+      <div class="metric"><div class="metric-label">Confidence</div><div class="metric-value">${fmt(s.confidence)}</div></div></div>
+      <div class="badge ${signalClass(s.signal,s.risk)}">${esc(s.signal)}</div>
+    </div>`);
+  openModal(b.label,html);
+}
+
+function searchStock(){
+  const q=document.getElementById("search").value.trim();
+  if(!q){alert("Enter an NSE symbol or company name.");return}
+  const found=findStocks(q);
+  if(found.length)showDetails(found[0]);
+  else alert("Stock not found in the current 30-stock integrated dataset.");
+}
+function findStocks(q){
+  const needle=String(q).toUpperCase();
+  return integrated.filter(s=>String(s.symbol||"").toUpperCase()===needle ||
+    String(s.company||"").toUpperCase().includes(needle) ||
+    String(s.symbol||"").toUpperCase().includes(needle)).slice(0,8);
+}
+function updateSearchResults(){
+  const q=document.getElementById("search").value.trim(),box=document.getElementById("searchResults");
+  if(!q){box.style.display="none";box.innerHTML="";return}
+  const found=findStocks(q);
+  if(!found.length){box.style.display="none";return}
+  box.innerHTML=found.map(s=>`<div class="search-item" onclick="chooseSearch('${escAttr(s.symbol)}')"><b>${esc(s.symbol)}</b><span>${esc(s.company)} · ₹${fmt(s.price)} · ${esc(s.signal)}</span></div>`).join("");
+  box.style.display="block";
+}
+function chooseSearch(sym){
+  document.getElementById("search").value=sym;
+  document.getElementById("searchResults").style.display="none";
+  showDetailsBySymbol(sym);
+}
+function showDetailsBySymbol(sym){const s=integrated.find(x=>String(x.symbol).toUpperCase()===String(sym).toUpperCase());if(s)showDetails(s)}
+
+function showDetails(s){
+  const f=s.factors||{},r=s.raw||{},reasons=(s.reasoning||[]).map(x=>`<div class="reason">${esc(x)}</div>`).join("");
+  const n=s.companyNews;
+  const newsText=n ? `${esc(n.overallDirection||"Neutral")} / ${esc(n.overallImpact||"Low")} · news score ${fmt(n.newsScore)}` : "No separate company-news record available.";
+  const conflict=s.conflictDetected;
+  openModal(`${esc(s.symbol)} — Integrated Analysis`,
+  `<div class="hero">
+    <div class="hero-line"><div><div class="hero-symbol">${esc(s.symbol)}</div><div>${esc(s.company)}</div></div><div class="hero-price">₹${fmt(s.price)}</div></div>
+    <div class="score-row">
+      <div class="score-card"><div class="score-label">INTEGRATED SCORE</div><div class="score-value">${fmt(s.integratedScore)} / 100</div><div class="bar-wrap"><div class="bar" style="width:${clamp(s.integratedScore)}%"></div></div></div>
+      <div class="score-card"><div class="score-label">CONFIDENCE</div><div class="score-value">${fmt(s.confidence)} / 100</div><div class="bar-wrap"><div class="bar" style="width:${clamp(s.confidence)}%"></div></div></div>
+    </div>
+    <div class="badge ${signalClass(s.signal,s.risk)}">${esc(s.signal)} · ${esc(s.risk)} risk</div>
+  </div>
+
+  <h3>📌 Decision Snapshot</h3>
+  <div class="detail-grid">
+    <div class="detail"><small>Final Rank</small><br><b>#${s.finalRank||"—"}</b></div>
+    <div class="detail"><small>Quantitative Score</small><br><b>${fmt(s.quantitativeScore)}/100</b></div>
+    <div class="detail"><small>Weighted Context</small><br><b>${fmt(s.contextScore)}</b></div>
+    <div class="detail"><small>Context Signal</small><br><b>${esc(s.contextSignal||"—")}</b></div>
+    <div class="detail"><small>Alignment</small><br><b>${esc(s.alignment||"—")}</b></div>
+    <div class="detail"><small>Conflict</small><br><b>${conflict?"Detected":"None"}</b></div>
+  </div>
+
+  <h3>🌐 Context Breakdown</h3>
+  <div class="context-grid">
+    ${contextMetric("Company",s.companyContextScore)}
+    ${contextMetric("Industry",s.industryContextScore)}
+    ${contextMetric("Market",s.marketContextScore)}
+  </div>
+
+  <h3>📊 Quantitative Factors</h3>
+  <div class="detail-grid">
+    ${factor("Momentum",f.momentum)}${factor("Trend",f.trend)}${factor("Relative Strength",f.relativeStrength)}${factor("Volume",f.volume)}
+    ${factor("RSI Quality",f.rsiQuality)}${factor("Breakout",f.breakout)}${factor("Volatility",f.volatility)}${factor("Risk / Reward",f.riskReward)}
+  </div>
+
+  <h3>📈 Raw Market Indicators</h3>
+  <div class="raw-grid">
+    ${rawMetric("5D Return",r.return5d,"%")}${rawMetric("20D Return",r.return20d,"%")}${rawMetric("60D Return",r.return60d,"%")}
+    ${rawMetric("RSI 14",r.rsi14,"")}${rawMetric("Volume Ratio",r.volumeRatio,"x")}${rawMetric("20D Volatility",r.volatility20d,"%")}
+  </div>
+
+  <h3>📰 Company News Context</h3>
+  <div class="reason">${newsText}</div>
+
+  <h3>🧠 Why the Engine Reached This Result</h3>
+  ${reasons||"<div class='reason'>No reasoning text supplied.</div>"}
+
+  ${conflict?`<div class="reason"><b>⚠ Conflict detected:</b> ${esc(s.conflictReason||"External context conflicts with the quantitative setup.")}</div>`:""}
+
+  <div class="footer-note">Research output only. This panel does not constitute investment advice or an automatic buy/sell recommendation.</div>`);
+}
+function contextMetric(name,value){
+  return `<div class="detail"><small>${name} Context</small><br><b>${fmt(value)}</b><div class="bar-wrap"><div class="bar" style="width:${clamp(Math.abs(Number(value)))}%"></div></div></div>`;
+}
+function factor(name,value){return `<div class="detail"><small>${name}</small><br><b>${fmt(value)}/100</b><div class="bar-wrap"><div class="bar" style="width:${clamp(value)}%"></div></div></div>`}
+function rawMetric(name,value,unit){return `<div class="detail"><small>${name}</small><br><b>${fmt(value)}${unit}</b></div>`}
+function clamp(x){const n=Number(x);return Number.isFinite(n)?Math.max(0,Math.min(100,n)):0}
+function openModal(title,html){document.getElementById("modalTitle").innerHTML=title;document.getElementById("modalContent").innerHTML=html;document.getElementById("modal").classList.remove("hidden")}
+function closeModal(){document.getElementById("modal").classList.add("hidden")}
+function closeOutside(e){if(e.target.id==="modal")closeModal()}
+function fmt(x){const n=Number(x);return Number.isFinite(n)?n.toFixed(1):"—"}
+function esc(v){return String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
+function escAttr(v){return String(v??"").replaceAll("\\","\\\\").replaceAll("'","&#039;").replaceAll('"',"&quot;")}
+const searchInput=document.getElementById("search");
+searchInput.addEventListener("keydown",e=>{if(e.key==="Enter"){document.getElementById("searchResults").style.display="none";searchStock()}});
+searchInput.addEventListener("input",updateSearchResults);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+loadData();
+</script>
+</body>
+</html>
