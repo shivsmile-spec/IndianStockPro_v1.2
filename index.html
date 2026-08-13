@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10182b">
 <link rel="manifest" href="manifest.json">
-<title>Indian Stock Pro v1.7</title>
+<title>Indian Stock Pro v1.8</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb;color:#172033}
@@ -76,9 +76,15 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 .error{background:#fdecec;color:#b42318;padding:12px;border-radius:10px}
 @media(max-width:700px){.cards,.bands{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.context-row,.context-grid,.raw-grid{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.detail-grid,.score-row{grid-template-columns:1fr}.hero-line{align-items:flex-start;flex-direction:column}.search{flex-direction:column}.search button{height:48px}}
 
+
+/* v1.8 LIVE MARKET PRICE LAYER */
+.live-quote-panel{margin-top:10px;border:1px solid #dfe5ee;border-radius:12px;padding:12px 14px;background:#f8fafc;display:flex;justify-content:space-between;align-items:center;gap:12px}.live-quote-panel b{display:block;font-size:13px}.live-quote-panel span{display:block;color:#667085;font-size:12px;margin-top:3px}.live-quote-panel button{border:1px solid #ccd3df;background:#fff;color:#172033;padding:8px 12px;border-radius:9px;font-weight:800;cursor:pointer}.live-quote-panel button:disabled{opacity:.55;cursor:wait}.live-quote-ok{border-color:#b9e6c8;background:#f4fbf6}.live-quote-warn{border-color:#f0c36d;background:#fffaf0}.live-price-note{font-size:10px;color:#667085;margin-top:4px}.live-price{font-size:20px;font-weight:800}.live-price-unavailable{font-size:14px;color:#667085;font-weight:700}
+
 /* v1.7 BRAND + EXPERT INTELLIGENCE */
 .brand{display:flex;align-items:center;gap:13px}.brand-logo{width:58px;height:58px;flex:0 0 58px;filter:drop-shadow(0 5px 8px rgba(0,0,0,.22))}.brand-copy{min-width:0}.brand-name{font-size:30px;font-weight:900;letter-spacing:.2px}.brand-name span{color:#8ee35b}.brand-sub{margin-top:4px;color:#cbd3e3}.version-pill{display:inline-block;margin-left:8px;padding:4px 8px;border-radius:999px;background:#1c2a47;color:#9ee66e;font-size:11px;vertical-align:middle}.expert-panel{background:linear-gradient(135deg,#10182b,#172b50);color:#fff}.expert-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px}.live-pill{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border-radius:999px;background:rgba(46,204,113,.12);border:1px solid rgba(46,204,113,.28);color:#a9f0bd;font-size:12px;font-weight:800}.live-dot{width:8px;height:8px;border-radius:50%;background:#2ecc71}.expert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.expert-card{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);border-radius:13px;padding:14px}.expert-source{font-size:12px;color:#9fb0ca;font-weight:800}.expert-title{font-size:15px;font-weight:800;margin-top:5px}.expert-text{font-size:13px;color:#e0e7f2;line-height:1.5;margin-top:7px}.expert-link{display:inline-block;margin-top:9px;color:#9ee66e;text-decoration:none;font-size:12px;font-weight:800}.expert-link:hover{text-decoration:underline}.expert-note{font-size:11px;color:#aebbd0;margin-top:13px;line-height:1.45}.framework-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.framework-chip{padding:7px 10px;border-radius:999px;background:#f3f6fb;color:#33415c;font-size:12px;font-weight:700;border:1px solid #e1e6ef}.market-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}.market-chip{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);border-radius:10px;padding:10px}.market-chip small{display:block;color:#9fb0ca;font-size:11px}.market-chip b{display:block;margin-top:3px;font-size:15px}.source-badge{font-size:10px;padding:3px 6px;border-radius:6px;background:#eaf2ff;color:#2457a6;font-weight:800}.app-mark{display:inline-flex;align-items:center;gap:7px}.app-mark svg{width:34px;height:34px}.mini-logo{width:34px;height:34px}
 @media(max-width:800px){.expert-grid{grid-template-columns:1fr}.market-strip{grid-template-columns:repeat(2,1fr)}.brand-name{font-size:25px}}
+
+.expert-grid-extended{margin-top:12px}.consensus-box{margin-top:12px;padding:14px 16px;border:1px solid #334766;border-radius:14px;background:#111d34;color:#dce7f7;display:flex;gap:18px;flex-wrap:wrap;align-items:center}.consensus-box b:first-child{color:#fff}.consensus-box span{font-size:12px;color:#b9c6da;max-width:330px}
 </style>
 </head>
 <body>
@@ -94,7 +100,7 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <circle cx="31" cy="28" r="10" fill="#f8d36b" opacity=".95"/>
 <path d="M24 31c7-8 14-8 19 0-5 7-12 8-19 0z" fill="#fff" opacity=".9"/>
 </svg>
-<div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.7</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
+<div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.8</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
 </div>
 </div></header>
 
@@ -108,12 +114,13 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 </div>
 <div id="searchResults" class="search-results"></div>
 <div id="status" class="status">Loading rankings + integrated context...</div>
+<div id="liveQuotePanel" class="live-quote-panel"><div><b>📡 Market Price Feed</b><span id="liveQuoteText">Waiting for latest NSE-linked quotes…</span></div><button id="refreshQuotesBtn" type="button">↻ Refresh prices</button></div>
 </section>
 
 <section class="panel"><h2>📊 Integrated Market Summary</h2><div id="summary" class="summary"></div></section>
 
 <section class="panel expert-panel">
-<div class="expert-head"><div><h2 style="margin-bottom:4px">🌐 External Market Intelligence</h2><div style="color:#b9c6da;font-size:13px">Independent market context from recent public commentary — kept separate from the Indian Stock Pro score.</div></div><div class="live-pill"><span class="live-dot"></span>Research snapshot · 13 Aug 2026</div></div>
+<div class="expert-head"><div><h2 style="margin-bottom:4px">🌐 External Market Intelligence</h2><div style="color:#b9c6da;font-size:13px">Independent market context from dated public commentary — kept separate from the Indian Stock Pro score.</div></div><div class="live-pill"><span class="live-dot"></span>Research snapshot · verified 13 Aug 2026</div></div>
 <div class="market-strip">
 <div class="market-chip"><small>NIFTY 50</small><b>24,395.85</b></div>
 <div class="market-chip"><small>SENSEX</small><b>78,079.96</b></div>
@@ -125,6 +132,12 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="expert-card"><div class="expert-source">ETMARKETS · RITESH TAKSALI</div><div class="expert-title">Long-term India outlook remains constructive</div><div class="expert-text">The CIO of Edelweiss Life Insurance highlighted strong corporate earnings, easing global pressures and potential foreign-capital rotation toward diversified growth markets such as India.</div><a class="expert-link" href="https://m.economictimes.com/markets/expert-view/etmarkets-smart-talk-maturing-ai-trade-could-redirect-global-capital-towards-diversified-growth-markets-like-india-ritesh-taksali/articleshow/133195868.cms" target="_blank" rel="noopener">Read source →</a></div>
 <div class="expert-card"><div class="expert-source">ICICI DIRECT · TECHNICAL OUTLOOK</div><div class="expert-title">Use a top-down, sector-aware process</div><div class="expert-text">Its 2026 outlook emphasizes market breadth, sector rotation and technical structure, with attention to consumption, banking/financials, capital goods, auto and metals.</div><a class="expert-link" href="https://www.youtube.com/watch?v=seihPdk5-8c" target="_blank" rel="noopener">View outlook →</a></div>
 </div>
+<div class="expert-grid expert-grid-extended">
+<div class="expert-card"><div class="expert-source">MONEYCONTROL · ICICI SECURITIES · 22 JUL 2026</div><div class="expert-title">Cyclical + domestic themes favoured</div><div class="expert-text">ICICI Securities highlighted manufacturing, defence, energy, financials, consumer discretionary and commodities as structural opportunity areas, while keeping a more cautious stance on IT and staples.</div><a class="expert-link" href="https://www.moneycontrol.com/news/business/earnings/new-world-order-creates-fresh-opportunities-for-indian-equities-icici-securities-13980244.html" target="_blank" rel="noopener">Read source →</a></div>
+<div class="expert-card"><div class="expert-source">MONEYCONTROL · GOLDMAN SACHS · 13 JUL 2026</div><div class="expert-title">Selective rotation, not a broad rally</div><div class="expert-text">Goldman Sachs' view favoured banks, large caps and domestic themes, while suggesting a more selective approach rather than assuming every sector will participate equally.</div><a class="expert-link" href="https://www.moneycontrol.com/news/business/markets/goldman-sachs-sees-india-s-next-market-leg-led-by-banks-large-caps-and-domestic-themes-13972552.html" target="_blank" rel="noopener">Read source →</a></div>
+<div class="expert-card"><div class="expert-source">MONEYCONTROL · JM FINANCIAL · 12 JUN 2026</div><div class="expert-title">Metals + healthcare constructive; IT/banks selective</div><div class="expert-text">JM Financial upgraded metals and healthcare while remaining cautious on banks and IT. It also highlighted infrastructure and defence as preferred structural themes.</div><a class="expert-link" href="https://www.moneycontrol.com/news/business/markets/jm-financial-upgrades-oil-gas-to-overweight-says-ongc-and-oil-india-not-pricing-in-higher-crude-realisations-13947996.html" target="_blank" rel="noopener">Read source →</a></div>
+</div>
+<div class="consensus-box"><b>🧩 Expert-consensus overlay</b><span>Strongest recurring themes: domestic cyclicals, infrastructure/capex, defence, energy and selected financials.</span><span>Recurring risks: crude/geopolitics, global flows, IT demand uncertainty and crowded valuations.</span><span>Use this layer to challenge or confirm the engine — <b>it does not change the quantitative rank automatically.</b></span></div>
 <div class="framework-row"><span class="framework-chip">52-week structure</span><span class="framework-chip">Relative strength</span><span class="framework-chip">Sector rotation</span><span class="framework-chip">Market breadth</span><span class="framework-chip">FII/DII flows</span><span class="framework-chip">Crude + global cues</span><span class="framework-chip">Risk management</span></div>
 <div class="expert-note">External views are displayed as research context, not as recommendations by Indian Stock Pro. They may disagree with the app's quantitative ranking. Source material is public commentary and can change as markets move.</div>
 </section>
@@ -152,10 +165,10 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="reason"><b>Important scoring distinction</b><br>Company / Industry / Market values shown on stock cards are context inputs. The separate Context value is the weighted contribution used by the integrated engine.</div>
 <div class="reason"><b>Conflict rule</b><br>Strong technical setups facing materially negative external context are flagged rather than automatically rejected.</div>
 <div class="reason"><b>Decision layer</b><br>The app derives a research posture from quantitative strength, context balance, confidence and conflict flags. It is an interpretation layer over the supplied data, not a guaranteed prediction or automatic buy/sell signal.</div>
-<div class="reason"><b>External intelligence layer</b><br>v1.7 adds a separate market-intelligence panel. It does not alter the stock ranking automatically; it gives the user a transparent way to compare the engine with current public market commentary.</div>
+<div class="reason"><b>External intelligence layer</b><br>v1.8 adds a separate market-intelligence panel and a live-price layer. It does not alter the stock ranking automatically; it gives the user a transparent way to compare the engine with current public market commentary.</div>
 </section>
 
-<section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. External expert commentary is shown for research comparison only. SEBI notes that market recommendations are subject to market risk and do not assure returns. Verify current prices, disclosures and market conditions before acting. <a href="https://investor.sebi.gov.in/research_analyst.html" target="_blank" rel="noopener">SEBI Research Analyst information →</a></div></section>
+<section class="panel"><div class="disclaimer"><b>Important:</b> Indian Stock Pro provides quantitative research signals and contextual analysis. It does not guarantee future returns and does not issue automatic buy or sell decisions. External expert commentary is shown for research comparison only. SEBI notes that market recommendations are subject to market risk and do not assure returns. Market prices are fetched separately from a public market-data endpoint and may be delayed or unavailable. Never treat a missing quote as a current price. Verify current prices, disclosures and market conditions before acting. <a href="https://investor.sebi.gov.in/research_analyst.html" target="_blank" rel="noopener">SEBI Research Analyst information →</a></div></section>
 
 </div>
 
@@ -233,8 +246,12 @@ async function loadData(){
       );
       const finalScore=numVal(x.finalScore,quantitativeScore+contextScore);
 
+      const analysisPrice=numVal(q.price,x.price);
       return{
         ...q,...x,
+        analysisPrice,
+        price:null,
+        liveQuote:null,
         company,
         score:finalScore,
         integratedScore:finalScore,
@@ -259,6 +276,9 @@ async function loadData(){
 
     render();
     closeModal();
+
+    /* Price is a separate market-data layer; never substitute the static analysis price for it. */
+    refreshLivePrices();
 
     status.textContent=
       "✓ Integrated context loaded: quantitative + company + industry + market.";
@@ -289,7 +309,7 @@ async function loadData(){
         });
 
         status.textContent=
-          "✓ Integrated context loaded: quantitative + company + industry + market + news. v1.7 expert layer ready.";
+          "✓ Integrated context loaded: quantitative + company + industry + market + news. v1.8 expert layer ready. Live prices are refreshed separately.";
       })
       .catch(e=>{
         console.warn("Optional news file unavailable:",e);
@@ -328,6 +348,97 @@ function companyFromReasoning(r){
   if(!Array.isArray(r)||!r.length)return "";
   const m=String(r[0]).match(/^(.+?) belongs to the /);
   return m?m[1]:"";
+}
+
+function livePriceText(s){
+  const p=Number(s?.liveQuote?.price ?? s?.price);
+  return Number.isFinite(p)?`₹${p.toFixed(2)}`:"Live quote unavailable";
+}
+
+function livePriceHTML(s){
+  const p=Number(s?.liveQuote?.price ?? s?.price);
+  if(!Number.isFinite(p))return `<div class="live-price-unavailable">—</div>`;
+  return `<div class="live-price">₹${p.toFixed(2)}</div>`;
+}
+
+function liveQuoteNote(s){
+  const q=s?.liveQuote;
+  if(!q)return "Live quote not available; analysis price is hidden.";
+  const state=q.marketState?` · ${q.marketState}`:"";
+  return `Latest quote · ${q.source||"market feed"}${state}`;
+}
+
+function yahooSymbol(symbol){
+  return encodeURIComponent(String(symbol||"").trim().toUpperCase()+".NS");
+}
+
+async function fetchLiveQuote(symbol){
+  const url=`https://query1.finance.yahoo.com/v8/finance/chart/${yahooSymbol(symbol)}?range=1d&interval=5m&includePrePost=false`;
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok)throw new Error(`HTTP ${r.status}`);
+  const body=await r.json();
+  const result=body?.chart?.result?.[0];
+  const meta=result?.meta;
+  const price=Number(meta?.regularMarketPrice);
+  if(!Number.isFinite(price))throw new Error("No regularMarketPrice");
+  const previous=Number(meta?.previousClose ?? meta?.chartPreviousClose);
+  const ts=Number(meta?.regularMarketTime);
+  return {
+    price,
+    previousClose:Number.isFinite(previous)?previous:null,
+    change:Number.isFinite(previous)?price-previous:null,
+    changePct:Number.isFinite(previous)&&previous!==0?(price-previous)/previous*100:null,
+    timestamp:Number.isFinite(ts)?new Date(ts*1000):new Date(),
+    marketState:meta?.marketState||"",
+    source:"Yahoo Finance"
+  };
+}
+
+function quoteDisplayTime(d){
+  try{return new Intl.DateTimeFormat("en-IN",{dateStyle:"medium",timeStyle:"medium",timeZone:"Asia/Kolkata"}).format(d)+" IST"}
+  catch(e){return d.toLocaleString()+" IST"}
+}
+
+async function refreshLivePrices(){
+  const panel=document.getElementById("liveQuotePanel");
+  const text=document.getElementById("liveQuoteText");
+  const btn=document.getElementById("refreshQuotesBtn");
+  if(!panel||!text)return;
+  btn.disabled=true;
+  panel.classList.remove("live-quote-ok","live-quote-warn");
+  text.textContent="Fetching latest NSE-linked quotes…";
+
+  let ok=0, failed=0, firstTime=null;
+  /* Small batches reduce the chance of a public quote endpoint throttling the browser. */
+  for(let i=0;i<integrated.length;i+=5){
+    const batch=integrated.slice(i,i+5);
+    const results=await Promise.allSettled(batch.map(s=>fetchLiveQuote(s.symbol)));
+    results.forEach((res,j)=>{
+      const stock=batch[j];
+      if(res.status==="fulfilled"){
+        stock.liveQuote=res.value;
+        stock.price=res.value.price;
+        if(!firstTime||res.value.timestamp>firstTime)firstTime=res.value.timestamp;
+        ok++;
+      }else{
+        stock.liveQuote=null;
+        stock.price=null;
+        failed++;
+        console.warn("Live quote failed",stock.symbol,res.reason);
+      }
+    });
+    if(i+5<integrated.length)await new Promise(resolve=>setTimeout(resolve,250));
+  }
+
+  render();
+  if(ok){
+    panel.classList.add(failed?"live-quote-warn":"live-quote-ok");
+    text.textContent=`${ok}/${integrated.length} prices refreshed from Yahoo Finance · latest quote time ${quoteDisplayTime(firstTime||new Date())}${failed?` · ${failed} unavailable`:""}.`;
+  }else{
+    panel.classList.add("live-quote-warn");
+    text.textContent="Live quotes could not be loaded. Current prices are intentionally hidden rather than showing stale analysis prices.";
+  }
+  btn.disabled=false;
 }
 
 function render(){
@@ -396,7 +507,7 @@ function card(s,rank,full){
   div.innerHTML=
   `<div class="top">
     <div><div class="rank">#${rank} ${esc(s.symbol||"N/A")}</div><div class="company">${esc(s.company||"NSE Stock")}</div></div>
-    <div class="price">₹${fmt(s.price)}</div>
+    <div>${livePriceHTML(s)}</div>
   </div>
   <div class="metrics">
     <div class="metric"><div class="metric-label">${full?"Integrated Score":"Quantitative Score"}</div><div class="metric-value">${fmt(full?s.integratedScore:s.quantitativeScore)}</div></div>
@@ -432,7 +543,7 @@ function renderBands(){
   box.innerHTML="";
 
   bands.forEach(b=>{
-    const matches=integrated.filter(s=>Number(s.price)>=b.min&&Number(s.price)<=b.max);
+    const matches=integrated.filter(s=>Number(s.liveQuote?.price ?? s.analysisPrice)>=b.min&&Number(s.liveQuote?.price ?? s.analysisPrice)<=b.max);
     const d=document.createElement("div");
     d.className="band";
     d.onclick=()=>showBand(b,matches);
@@ -449,7 +560,7 @@ function showBand(b,matches){
   else top.forEach((s,i)=>{
     html+=
     `<div class="card" style="margin-top:10px" data-symbol="${escAttr(s.symbol)}">
-      <div class="top"><div><div class="rank">#${i+1} ${esc(s.symbol)}</div><div class="company">${esc(s.company)}</div></div><div class="price">₹${fmt(s.price)}</div></div>
+      <div class="top"><div><div class="rank">#${i+1} ${esc(s.symbol)}</div><div class="company">${esc(s.company)}</div></div><div>${livePriceHTML(s)}</div></div>
       <div class="metrics">
         <div class="metric"><div class="metric-label">Integrated</div><div class="metric-value">${fmt(s.integratedScore)}</div></div>
         <div class="metric"><div class="metric-label">Quantitative</div><div class="metric-value">${fmt(s.quantitativeScore)}</div></div>
@@ -495,7 +606,7 @@ function updateSearchResults(){
   box.innerHTML=found.map(s=>
     `<div class="search-item" data-symbol="${escAttr(s.symbol)}">
       <b>${esc(s.symbol)}</b>
-      <span>${esc(s.company)} · ₹${fmt(s.price)} · ${esc(s.signal)}</span>
+      <span>${esc(s.company)} · ${livePriceText(s)} · ${esc(s.signal)}</span>
     </div>`
   ).join("");
 
@@ -653,7 +764,7 @@ function showDetails(s){
     `<div class="hero">
       <div class="hero-line">
         <div><div class="hero-symbol">${esc(s.symbol)}</div><div>${esc(s.company)}</div></div>
-        <div class="hero-price">₹${fmt(s.price)}</div>
+        <div class="hero-price">${livePriceText(s)}<div class="live-price-note">${liveQuoteNote(s)}</div></div>
       </div>
       <div class="score-row">
         <div class="score-card"><div class="score-label">INTEGRATED SCORE</div><div class="score-value">${fmt(s.integratedScore)} / 100</div><div class="bar-wrap"><div class="bar" style="width:${Math.max(0,Math.min(100,score))}%"></div></div></div>
@@ -822,6 +933,7 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
 
 /* FINAL STARTUP GUARANTEE */
 closeModal();
+document.getElementById("refreshQuotesBtn")?.addEventListener("click",refreshLivePrices);
 loadData();
 </script>
 </body>
