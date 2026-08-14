@@ -100,67 +100,11 @@ jobs:
           if errors: print(f"Unavailable symbols: {len(errors)}")
           PY
 
-      - name: Improve live price cards
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("index.html")
-          text = path.read_text(encoding="utf-8")
-
-          css_anchor = '.live-price-unavailable{font-size:14px;color:#667085;font-weight:700}'
-          css_add = '''
-          .live-price-wrap{text-align:right;min-width:180px}.live-price-row{display:flex;align-items:center;justify-content:flex-end;gap:7px}.live-live-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 6px;border-radius:999px;background:#eaf7ee;color:#16743b;font-size:9px;font-weight:900;letter-spacing:.3px}.live-live-badge:before{content:"";width:6px;height:6px;border-radius:50%;background:#2ecc71}.live-change{font-size:11px;font-weight:800;margin-top:3px}.live-change.up{color:#16743b}.live-change.down{color:#b42318}.live-change.flat{color:#667085}.live-meta{font-size:9px;color:#667085;margin-top:4px;line-height:1.25;max-width:240px;margin-left:auto}.live-source{font-weight:700}.live-updated{margin-left:4px}.live-price-wrap .live-price{font-size:20px;font-weight:800}
-          @media(max-width:700px){.live-price-wrap{min-width:0}.live-meta{max-width:170px}}
-          '''
-          if '.live-price-wrap{' not in text:
-              text = text.replace(css_anchor, css_anchor + css_add)
-
-          old = '''function livePriceHTML(s){
-            const p=livePriceValue(s);
-            if(p===null)return `<div class="live-price-unavailable">—</div>`;
-            return `<div class="live-price">₹${p.toFixed(2)}</div>`;
-          }'''
-
-          new = '''function livePriceHTML(s){
-            const p=livePriceValue(s), q=s?.liveQuote;
-            if(p===null)return `<div class="live-price-wrap"><div class="live-price-unavailable">—</div><div class="live-meta">Live price unavailable · analysis price hidden</div></div>`;
-            const pct=Number(q?.changePct);
-            const change=Number(q?.change);
-            const cls=Number.isFinite(pct)?(pct>0?"up":pct<0?"down":"flat"):"flat";
-            const changeText=Number.isFinite(pct)?`${pct>0?"+":""}${pct.toFixed(2)}%${Number.isFinite(change)?` (${change>0?"+":""}₹${change.toFixed(2)})`:""}`:"Change unavailable";
-            const when=q?.timestamp?quoteShortTime(new Date(q.timestamp)):"Update time unavailable";
-            const source=q?.source||"Published market feed";
-            return `<div class="live-price-wrap"><div class="live-price-row"><span class="live-live-badge">LIVE</span><span class="live-price">₹${p.toFixed(2)}</span></div><div class="live-change ${cls}">${esc(changeText)}</div><div class="live-meta"><span class="live-source">${esc(source)}</span><span class="live-updated">· Updated ${esc(when)}</span></div></div>`;
-          }'''
-
-          if old in text:
-              text = text.replace(old, new)
-          else:
-              print("livePriceHTML pattern not found; leaving function unchanged")
-
-          marker = '''function quoteDisplayTime(d){
-            try{return new Intl.DateTimeFormat("en-IN",{dateStyle:"medium",timeStyle:"medium",timeZone:"Asia/Kolkata"}).format(d)+" IST"}
-            catch(e){return d.toLocaleString()+" IST"}
-          }'''
-          addition = marker + '''
-
-function quoteShortTime(d){
-  try{return new Intl.DateTimeFormat("en-IN",{dateStyle:"short",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST"}
-  catch(e){return d.toLocaleString()+" IST"}
-}'''
-          if 'function quoteShortTime(' not in text and marker in text:
-              text = text.replace(marker, addition)
-
-          path.write_text(text, encoding="utf-8")
-          print("Live price card presentation updated")
-          PY
-
-      - name: Commit updated quote feed and UI
+      - name: Commit updated quote feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live_quotes.json index.html
+          git add data/live_quotes.json
           git diff --cached --quiet && exit 0
-          git commit -m "Improve live price presentation"
+          git commit -m "Update live market quotes"
           git push
