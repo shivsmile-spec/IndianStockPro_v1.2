@@ -3,10 +3,23 @@ name: Quantitative Stock Screening
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 13 * * 1-5"
+    # GitHub cron is UTC. These runs cover Indian market hours roughly
+    # from 9:15 AM to 3:30 PM IST, plus a post-close refresh.
+    - cron: "45 3 * * 1-5"   # 9:15 AM IST
+    - cron: "45 4 * * 1-5"   # 10:15 AM IST
+    - cron: "45 5 * * 1-5"   # 11:15 AM IST
+    - cron: "45 6 * * 1-5"   # 12:15 PM IST
+    - cron: "45 7 * * 1-5"   # 1:15 PM IST
+    - cron: "45 8 * * 1-5"   # 2:15 PM IST
+    - cron: "45 9 * * 1-5"   # 3:15 PM IST
+    - cron: "15 10 * * 1-5"  # 3:45 PM IST post-close
 
 permissions:
   contents: write
+
+concurrency:
+  group: quantitative-screen
+  cancel-in-progress: true
 
 jobs:
   quant-screen:
@@ -23,11 +36,30 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r engine/requirements.txt
 
       - name: Run quantitative engine
         run: |
           python engine/quant_engine.py
+
+      - name: Verify rankings file
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/rankings.json")
+          body=json.loads(p.read_text())
+          stocks=body.get("rankings") or body.get("stocks") or []
+          if not stocks and isinstance(body.get("bands"), list):
+              stocks=[s for b in body["bands"] for s in (b.get("stocks") or [])]
+          print(f"Quantitative ranking stocks: {len(stocks)}")
+          if len(stocks) < 10:
+              raise SystemExit("Ranking output contains fewer than 10 stocks")
+          print("Top 10:")
+          for i,s in enumerate(stocks[:10],1):
+              print(f"{i}. {s.get('symbol')} score={s.get('score')} signal={s.get('signal')}")
+          PY
 
       - name: Commit updated rankings
         run: |
