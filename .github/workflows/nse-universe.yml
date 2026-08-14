@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: nse-universe
+  cancel-in-progress: true
+
 jobs:
   nse-universe:
     runs-on: ubuntu-latest
@@ -20,21 +24,24 @@ jobs:
           python - <<'PY'
           import csv, io, json, urllib.request
           from pathlib import Path
+          from datetime import datetime, timezone
 
           url = "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
           req = urllib.request.Request(url, headers={
               "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
-              "Accept":"text/csv,*/*"
+              "Accept":"text/csv,*/*",
+              "Referer":"https://www.nseindia.com/"
           })
           with urllib.request.urlopen(req, timeout=30) as r:
-              raw = r.read().decode("utf-8-sig")
+              raw = r.read().decode("utf-8-sig", errors="replace")
 
           rows=[]
           for row in csv.DictReader(io.StringIO(raw)):
-              symbol=(row.get("SYMBOL") or "").strip().upper()
-              company=(row.get("NAME OF COMPANY") or "").strip()
-              series=(row.get(" SERIES") or row.get("SERIES") or "").strip().upper()
-              isin=(row.get(" ISIN NUMBER") or row.get("ISIN NUMBER") or "").strip()
+              clean={str(k or "").strip().upper():str(v or "").strip() for k,v in row.items()}
+              symbol=clean.get("SYMBOL","").upper()
+              company=clean.get("NAME OF COMPANY","")
+              series=clean.get("SERIES","").upper()
+              isin=clean.get("ISIN NUMBER","").upper()
               if symbol and company and series in ("EQ","BE","BZ","SM"):
                   rows.append({"symbol":symbol,"companyName":company,"series":series,"isin":isin})
 
@@ -44,7 +51,13 @@ jobs:
 
           out=Path("data/nse_universe.json")
           out.parent.mkdir(parents=True,exist_ok=True)
-          out.write_text(json.dumps({"source":"NSE India","generatedAt":__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),"count":len(rows),"stocks":rows},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          out.write_text(json.dumps({
+              "source":"NSE India — Securities available for Equity segment",
+              "sourceUrl":"https://www.nseindia.com/static/market-data/securities-available-for-trading",
+              "generatedAt":datetime.now(timezone.utc).isoformat(),
+              "count":len(rows),
+              "stocks":rows
+          },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           print(f"Published NSE search directory: {len(rows)} stocks")
           PY
 
