@@ -362,9 +362,23 @@ function livePriceText(s){
 }
 
 function livePriceHTML(s){
-  const p=livePriceValue(s);
+  const q=s?.liveQuote;
+  const n=v=>Number.isFinite(Number(v))?Number(v):null;
+  const money=v=>n(v)!==null?`₹${n(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
+  const p=n(q?.price);
   if(p===null)return `<div class="live-price-unavailable">—</div>`;
-  return `<div class="live-price">₹${p.toFixed(2)}</div>`;
+  const change=n(q?.change), pct=n(q?.changePct), prev=n(q?.previousClose);
+  const cls=pct===null?"live-neutral":pct>0?"live-up":"live-down";
+  const changeText=change===null?"":`${change>0?"+":""}${money(change)}`;
+  const pctText=pct===null?"Change unavailable":`${pct>0?"+":""}${pct.toFixed(2)}%`;
+  let updated="";
+  if(q?.timestamp){
+    const d=new Date(q.timestamp);
+    if(!Number.isNaN(d.getTime())){
+      try{updated=new Intl.DateTimeFormat("en-IN",{dateStyle:"short",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST";}catch(e){updated=d.toLocaleString()+" IST";}
+    }
+  }
+  return `<div class="live-card-price"><div><span class="live-now">LIVE</span> ${money(p)}</div><div class="live-card-change ${cls}">${changeText}${changeText?" · ":""}${pctText}</div><div class="live-card-meta">Prev close ${money(prev)}${updated?` · Updated ${updated}`:""}</div></div>`;
 }
 
 function liveQuoteNote(s){
@@ -939,6 +953,7 @@ closeModal();
 document.getElementById("refreshQuotesBtn")?.addEventListener("click",refreshLivePrices);
 loadData();
 </script>
-<script src="./nse-search.js?v=1"></script>
+<script src="./nse-search.js?v=2"></script>
+<script src="./live-price-ui.js?v=3"></script>
 </body>
 </html>
