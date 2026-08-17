@@ -6,6 +6,7 @@
   const money=v=>Number.isFinite(Number(v))?`₹${Number(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
   const num=v=>Number.isFinite(Number(v))?Number(v):null;
   let feed=null;
+  let lastRenderSignature="";
 
   function injectStyle(){
     if(document.getElementById("isp-live-price-style"))return;
@@ -39,9 +40,6 @@
 
   function renderCard(card,q){
     if(!q)return;
-
-    /* The main app renders the live price inside the right-hand cell of .top.
-       Older versions of this layer searched for .price, which no longer exists. */
     const el=card.querySelector(".top > div:last-child");
     if(!el)return;
 
@@ -55,19 +53,29 @@
     let updated="";
     if(d&&!Number.isNaN(d.getTime()))updated=new Intl.DateTimeFormat("en-IN",{dateStyle:"short",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST";
 
-    el.innerHTML=`
+    const html=`
       <div class="isp-live-price-box" aria-label="Live market quote">
         <div class="isp-live-price-main"><span class="isp-live-tag">LIVE</span>${esc(money(price))}</div>
         <div class="isp-live-change ${cls}">${esc(changeText)}${changeText&&pctText?" · ":""}${esc(pctText)}</div>
         <div class="isp-live-prev">Prev close ${esc(money(prev))}</div>
         ${updated?`<div class="isp-live-price-meta">Updated ${esc(updated)}</div>`:""}
       </div>`;
+
+    if(el.innerHTML!==html)el.innerHTML=html;
   }
 
   function renderAll(){
     if(!feed)return;
     const quotes=feed.quotes||{};
-    document.querySelectorAll(".card").forEach(card=>{
+    const cards=[...document.querySelectorAll(".card")];
+    const signature=cards.map(card=>{
+      const symbol=symbolFromCard(card);
+      const q=symbol?quotes[symbol]:null;
+      return `${symbol||""}:${q?.price??""}:${q?.previousClose??""}:${q?.change??""}:${q?.changePct??""}:${q?.timestamp??""}`;
+    }).join("|");
+    if(signature===lastRenderSignature)return;
+    lastRenderSignature=signature;
+    cards.forEach(card=>{
       const symbol=symbolFromCard(card);
       if(symbol&&quotes[symbol])renderCard(card,quotes[symbol]);
     });
@@ -80,14 +88,14 @@
       if(!response.ok)throw new Error(`HTTP ${response.status}`);
       feed=await response.json();
       window.indianStockLiveQuotes=feed;
+      lastRenderSignature="";
       renderAll();
 
-      /* The main app redraws its cards after data loads. Keep applying the
-         same live values whenever those cards are replaced. */
-      const observer=new MutationObserver(()=>renderAll());
-      observer.observe(document.body,{childList:true,subtree:true});
-      window.setTimeout(()=>observer.disconnect(),60000);
-      window.setInterval(renderAll,5000);
+      /* Do NOT observe body mutations here: renderCard changes the DOM and an
+         unguarded MutationObserver would recursively trigger itself and freeze Chrome. */
+      window.setInterval(()=>{
+        renderAll();
+      },5000);
     }catch(error){
       console.warn("Indian Stock Pro live quote layer failed:",error);
     }
