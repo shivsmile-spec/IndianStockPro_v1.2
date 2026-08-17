@@ -132,6 +132,9 @@
     if(analyze)analyze.addEventListener("click",function(e){const symbol=norm(input.value);if(!symbol||!ready)return;const found=universe.find(x=>norm(x.symbol)===symbol);if(found){e.preventDefault();e.stopImmediatePropagation();selectResult(symbol);}},true);
     loadUniverse();
     startLiveRenderer();
+    const analysisLoader=document.createElement("script");
+    analysisLoader.src="./search-analysis-ui.js?v="+Date.now();
+    document.head.appendChild(analysisLoader);
   }
 
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",install);else install();
