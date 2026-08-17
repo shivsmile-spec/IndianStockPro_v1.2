@@ -3,8 +3,6 @@ name: Quantitative Stock Screening
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. These runs cover Indian market hours roughly
-    # from 9:15 AM to 3:30 PM IST, plus a post-close refresh.
     - cron: "45 3 * * 1-5"   # 9:15 AM IST
     - cron: "45 4 * * 1-5"   # 10:15 AM IST
     - cron: "45 5 * * 1-5"   # 11:15 AM IST
@@ -28,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -66,5 +66,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/rankings.json
-          git diff --cached --quiet || git commit -m "Update quantitative stock rankings"
-          git push
+          if git diff --cached --quiet; then
+            echo "No ranking changes to commit."
+            exit 0
+          fi
+          git commit -m "Update quantitative stock rankings"
+
+          # Other scheduled workflows can update main while this job is running.
+          # Rebase our generated ranking commit onto the latest remote main before pushing.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main && git push origin HEAD:main && exit 0
+            echo "Push/rebase attempt $attempt failed; retrying..."
+            git rebase --abort || true
+          done
+          echo "Unable to push quantitative rankings after 3 attempts."
+          exit 1
