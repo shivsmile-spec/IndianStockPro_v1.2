@@ -22,11 +22,11 @@
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
 })();
 
-/* Load institutional research after the main page exists. This also moves Integrated Market Summary to the bottom. */
+/* Institutional research loader + safe dashboard ordering. */
 (function(){
   "use strict";
   const DATA_URL="./data/institutional_picks.json?v="+Date.now();
-  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;"," >":"&gt;",'"':"&quot;","'":"&#39;"}[m]||m));
+  const esc=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
   function render(d){
     const top=document.getElementById("integratedCards");
     if(!top)return;
@@ -45,38 +45,33 @@
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",install);else install();
 })();
 
-
-/* Dashboard order fix: keep External Market Intelligence below stock-analysis sections. */
+/* Dashboard order: do not use a MutationObserver. Moving the expert panel itself creates DOM mutations,
+   so an observer here can recursively fire and freeze Chrome. Use a few one-shot retries instead. */
 (function(){
   "use strict";
   function place(){
     const panel=document.querySelector(".expert-panel");
-    if(!panel) return false;
+    if(!panel)return;
     const container=panel.parentNode;
-    if(!container) return false;
+    if(!container)return;
     const fund=document.getElementById("isp-fundamentals");
     const institutional=document.getElementById("institutionalResearchPanel");
-    const integrated=document.getElementById("integratedCards")?.closest("section.panel");
     const quant=document.getElementById("quantCards")?.closest("section.panel");
     const bands=document.getElementById("bands")?.closest("section.panel");
-    const target=fund || institutional || bands || quant || integrated;
+    const integrated=document.getElementById("integratedCards")?.closest("section.panel");
+    /* Keep external intelligence after stock analysis sections and before the final summary. */
+    const summary=document.getElementById("summary")?.closest("section.panel");
+    const target=summary||null;
     if(target && target.parentNode===container){
-      target.parentNode.insertBefore(panel,target.nextSibling);
-      return true;
+      container.insertBefore(panel,target);
+      return;
     }
-    return false;
-  }
-  function start(){
-    place();
-    const root=document.querySelector(".container");
-    if(root){
-      const observer=new MutationObserver(()=>place());
-      observer.observe(root,{childList:true,subtree:true});
-      setTimeout(()=>observer.disconnect(),15000);
+    const candidates=[fund,institutional,bands,quant,integrated].filter(Boolean).filter(x=>x.parentNode===container);
+    if(candidates.length){
+      const last=candidates[candidates.length-1];
+      if(panel!==last.nextElementSibling)last.parentNode.insertBefore(panel,last.nextElementSibling);
     }
-    setTimeout(place,250);
-    setTimeout(place,1000);
-    setTimeout(place,2500);
   }
+  function start(){place();setTimeout(place,250);setTimeout(place,1000);setTimeout(place,2500);setTimeout(place,5000)}
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
 })();
