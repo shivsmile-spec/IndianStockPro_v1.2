@@ -1,8 +1,8 @@
 {
   "source": "NSE India — Securities available for Equity segment",
   "sourceUrl": "https://www.nseindia.com/static/market-data/securities-available-for-trading",
-  "generatedAt": "2026-08-14T14:42:11.263500+00:00",
-  "count": 2406,
+  "generatedAt": "2026-08-17T04:28:00.905308+00:00",
+  "count": 2565,
   "stocks": [
     {
       "symbol": "20MICRONS",
@@ -85,7 +85,7 @@
     {
       "symbol": "AAREYDRUGS",
       "companyName": "Aarey Drugs & Pharmaceuticals Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE198H01019"
     },
     {
@@ -127,7 +127,7 @@
     {
       "symbol": "AARTISURF",
       "companyName": "Aarti Surfactants Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE09EO01013"
     },
     {
@@ -263,6 +263,12 @@
       "isin": "INE543V01017"
     },
     {
+      "symbol": "ACGL",
+      "companyName": "Automobile Corporation of Goa Limited",
+      "series": "EQ",
+      "isin": "INE451C01013"
+    },
+    {
       "symbol": "ACI",
       "companyName": "Archean Chemical Industries Limited",
       "series": "EQ",
@@ -323,6 +329,12 @@
       "isin": "INE814H01029"
     },
     {
+      "symbol": "ADDIND",
+      "companyName": "Addi Industries Limited",
+      "series": "EQ",
+      "isin": "INE757C01021"
+    },
+    {
       "symbol": "ADFFOODS",
       "companyName": "ADF Foods Limited",
       "series": "EQ",
@@ -381,6 +393,12 @@
       "companyName": "Advanced Enzyme Technologies Limited",
       "series": "EQ",
       "isin": "INE837H01020"
+    },
+    {
+      "symbol": "ADVIKCA",
+      "companyName": "Advik Capital Limited",
+      "series": "EQ",
+      "isin": "INE178T01024"
     },
     {
       "symbol": "AEGISLOG",
@@ -659,6 +677,12 @@
       "isin": "INE426A01027"
     },
     {
+      "symbol": "ALFREDHE",
+      "companyName": "Alfred Herbert India Limited",
+      "series": "EQ",
+      "isin": "INE782D01027"
+    },
+    {
       "symbol": "ALGOQUANT",
       "companyName": "Algoquant Fintech Limited",
       "series": "EQ",
@@ -743,16 +767,34 @@
       "isin": "INE1JCQ01037"
     },
     {
+      "symbol": "ALUFLUOR",
+      "companyName": "Alufluoride Limited",
+      "series": "EQ",
+      "isin": "INE058F01019"
+    },
+    {
       "symbol": "AMAGI",
       "companyName": "Amagi Media Labs Limited",
       "series": "EQ",
       "isin": "INE121R01077"
     },
     {
+      "symbol": "AMAL",
+      "companyName": "Amal Limited",
+      "series": "EQ",
+      "isin": "INE841D01013"
+    },
+    {
       "symbol": "AMANTA",
       "companyName": "Amanta Healthcare Limited",
       "series": "BE",
       "isin": "INE084K01015"
+    },
+    {
+      "symbol": "AMARJOTHI",
+      "companyName": "Amarjothi Spinning Mills Limited",
+      "series": "EQ",
+      "isin": "INE484D01012"
     },
     {
       "symbol": "AMBALALSA",
@@ -833,6 +875,12 @@
       "isin": "INE715B01021"
     },
     {
+      "symbol": "ANDREWYU",
+      "companyName": "Andrew Yule & Company Limited",
+      "series": "EQ",
+      "isin": "INE449C01025"
+    },
+    {
       "symbol": "ANGELONE",
       "companyName": "Angel One Limited",
       "series": "EQ",
@@ -867,6 +915,12 @@
       "companyName": "Ansal Properties & Infrastructure Limited",
       "series": "BZ",
       "isin": "INE436A01026"
+    },
+    {
+      "symbol": "ANSALBU",
+      "companyName": "Ansal Buildwell Limited",
+      "series": "EQ",
+      "isin": "INE030C01015"
     },
     {
       "symbol": "ANTELOPUS",
@@ -971,6 +1025,12 @@
       "isin": "INE451F01024"
     },
     {
+      "symbol": "APOORVA",
+      "companyName": "Apoorva Leasing Finance and Investment Company Limited",
+      "series": "EQ",
+      "isin": "INE217S01014"
+    },
+    {
       "symbol": "APTECHT",
       "companyName": "Aptech Limited",
       "series": "BE",
@@ -999,6 +1059,12 @@
       "companyName": "Archies Limited",
       "series": "EQ",
       "isin": "INE731A01020"
+    },
+    {
+      "symbol": "ARCL",
+      "companyName": "ARCL Organics Limited",
+      "series": "EQ",
+      "isin": "INE372M01010"
     },
     {
       "symbol": "ARDEE",
@@ -1127,6 +1193,12 @@
       "isin": "INE034S01021"
     },
     {
+      "symbol": "ARYAMAN",
+      "companyName": "Aryaman Financial Services Limited",
+      "series": "EQ",
+      "isin": "INE032E01017"
+    },
+    {
       "symbol": "ASAHIINDIA",
       "companyName": "Asahi India Glass Limited",
       "series": "EQ",
@@ -1217,6 +1289,12 @@
       "isin": "INE022I01019"
     },
     {
+      "symbol": "ASIANTNE",
+      "companyName": "Asian Tea & Exports Limited",
+      "series": "EQ",
+      "isin": "INE822B01017"
+    },
+    {
       "symbol": "ASKAUTOLTD",
       "companyName": "ASK Automotive Limited",
       "series": "EQ",
@@ -1233,6 +1311,12 @@
       "companyName": "Aspinwall and Company Limited",
       "series": "EQ",
       "isin": "INE991I01015"
+    },
+    {
+      "symbol": "ASSAMENT",
+      "companyName": "Assam Entrade Limited",
+      "series": "EQ",
+      "isin": "INE165G01010"
     },
     {
       "symbol": "ASTAR",
@@ -1373,6 +1457,12 @@
       "isin": "INE218C01016"
     },
     {
+      "symbol": "AUSTENG",
+      "companyName": "Austin Engineering Company  Limited",
+      "series": "EQ",
+      "isin": "INE759F01012"
+    },
+    {
       "symbol": "AUTOAXLES",
       "companyName": "Automotive Axles Limited",
       "series": "EQ",
@@ -1395,6 +1485,12 @@
       "companyName": "Avalon Technologies Limited",
       "series": "EQ",
       "isin": "INE0LCL01028"
+    },
+    {
+      "symbol": "AVANCE",
+      "companyName": "Avance Technologies Limited",
+      "series": "EQ",
+      "isin": "INE758A01072"
     },
     {
       "symbol": "AVANTEL",
@@ -1475,6 +1571,12 @@
       "isin": "INE02EZ01022"
     },
     {
+      "symbol": "AXTEL",
+      "companyName": "Axtel Industries Limited",
+      "series": "EQ",
+      "isin": "INE767C01012"
+    },
+    {
       "symbol": "AYE",
       "companyName": "Aye Finance Limited",
       "series": "EQ",
@@ -1491,6 +1593,12 @@
       "companyName": "Azad Engineering Limited",
       "series": "EQ",
       "isin": "INE02IJ01035"
+    },
+    {
+      "symbol": "AZADIND",
+      "companyName": "Azad India Mobility Limited",
+      "series": "EQ",
+      "isin": "INE566M01017"
     },
     {
       "symbol": "BAFNAPH",
@@ -1835,6 +1943,12 @@
       "isin": "INE258A01024"
     },
     {
+      "symbol": "BENARAS",
+      "companyName": "Benares Hotels Limited",
+      "series": "EQ",
+      "isin": "INE664D01019"
+    },
+    {
       "symbol": "BENGALASM",
       "companyName": "Bengal & Assam Company Limited",
       "series": "EQ",
@@ -1877,6 +1991,12 @@
       "isin": "INE243D01012"
     },
     {
+      "symbol": "BGLOBAL",
+      "companyName": "Bharatiya Global Infomedia Limited",
+      "series": "BZ",
+      "isin": "INE224M01013"
+    },
+    {
       "symbol": "BGRENERGY",
       "companyName": "BGR Energy Systems Limited",
       "series": "BE",
@@ -1903,7 +2023,7 @@
     {
       "symbol": "BHANDARI",
       "companyName": "Bhandari Hosiery Exports Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE474E01029"
     },
     {
@@ -2099,6 +2219,12 @@
       "isin": "INE657B01025"
     },
     {
+      "symbol": "BLUECLOUDS",
+      "companyName": "Blue Cloud Softech Solutions Limited",
+      "series": "EQ",
+      "isin": "INE373T01047"
+    },
+    {
       "symbol": "BLUECOAST",
       "companyName": "Blue Coast Hotels Limited",
       "series": "BE",
@@ -2225,6 +2351,18 @@
       "isin": "INE110A01019"
     },
     {
+      "symbol": "BPLPHARMA",
+      "companyName": "Bharat Parenterals Limited",
+      "series": "EQ",
+      "isin": "INE365Y01019"
+    },
+    {
+      "symbol": "BRAHMINFRA",
+      "companyName": "Brahmaputra Infrastructure Limited",
+      "series": "EQ",
+      "isin": "INE320I01017"
+    },
+    {
       "symbol": "BRIGADE",
       "companyName": "Brigade Enterprises Limited",
       "series": "EQ",
@@ -2235,6 +2373,12 @@
       "companyName": "Brigade Hotel Ventures Limited",
       "series": "EQ",
       "isin": "INE03NU01014"
+    },
+    {
+      "symbol": "BRIGHTBR",
+      "companyName": "Bright Brothers Limited",
+      "series": "EQ",
+      "isin": "INE630D01010"
     },
     {
       "symbol": "BRITANNIA",
@@ -2263,7 +2407,7 @@
     {
       "symbol": "BSHSL",
       "companyName": "Bombay Super Hybrid Seeds Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE032Z01020"
     },
     {
@@ -2323,7 +2467,7 @@
     {
       "symbol": "CALSOFT",
       "companyName": "California Software Company Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE526B01014"
     },
     {
@@ -2561,6 +2705,12 @@
       "isin": "INE037Z01029"
     },
     {
+      "symbol": "CFEL",
+      "companyName": "Confidence Futuristic Energetech Limited",
+      "series": "EQ",
+      "isin": "INE700F01024"
+    },
+    {
       "symbol": "CGCL",
       "companyName": "Capri Global Capital Limited",
       "series": "EQ",
@@ -2571,6 +2721,12 @@
       "companyName": "CG Power and Industrial Solutions Limited",
       "series": "EQ",
       "isin": "INE067A01029"
+    },
+    {
+      "symbol": "CGVAK",
+      "companyName": "CG Vak Software & Exports Limited",
+      "series": "EQ",
+      "isin": "INE084D01010"
     },
     {
       "symbol": "CHALET",
@@ -2587,7 +2743,7 @@
     {
       "symbol": "CHEMBOND",
       "companyName": "Chembond Material Technologies Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE995D01025"
     },
     {
@@ -2603,9 +2759,15 @@
       "isin": "INE03YM01018"
     },
     {
+      "symbol": "CHEMCRUX",
+      "companyName": "Chemcrux Enterprises Limited",
+      "series": "EQ",
+      "isin": "INE298W01016"
+    },
+    {
       "symbol": "CHEMFAB",
       "companyName": "Chemfab Alkalis Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE783X01023"
     },
     {
@@ -2705,6 +2867,12 @@
       "isin": "INE419D01026"
     },
     {
+      "symbol": "CMICABLES",
+      "companyName": "CMI Limited",
+      "series": "BZ",
+      "isin": "INE981B01011"
+    },
+    {
       "symbol": "CMLL",
       "companyName": "Caliber Mining and Logistics Limited",
       "series": "EQ",
@@ -2787,6 +2955,12 @@
       "companyName": "Comfort Intech Limited",
       "series": "EQ",
       "isin": "INE819A01049"
+    },
+    {
+      "symbol": "COMPEAU",
+      "companyName": "Competent Automobiles Company Limited",
+      "series": "EQ",
+      "isin": "INE823B01015"
     },
     {
       "symbol": "COMPINFO",
@@ -2915,6 +3089,12 @@
       "isin": "INE218I01013"
     },
     {
+      "symbol": "CRAVATEX",
+      "companyName": "Cravatex Limited",
+      "series": "EQ",
+      "isin": "INE145E01017"
+    },
+    {
       "symbol": "CREATIVEYE",
       "companyName": "Creative Eye Limited",
       "series": "EQ",
@@ -2955,6 +3135,12 @@
       "companyName": "Crown Lifters Limited",
       "series": "EQ",
       "isin": "INE491V01019"
+    },
+    {
+      "symbol": "CRSL",
+      "companyName": "Cressanda Railway Solutions Limited",
+      "series": "EQ",
+      "isin": "INE716D01033"
     },
     {
       "symbol": "CSBBANK",
@@ -3013,7 +3199,7 @@
     {
       "symbol": "CYBERMEDIA",
       "companyName": "Cyber Media (India) Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE278G01037"
     },
     {
@@ -3175,7 +3361,7 @@
     {
       "symbol": "DCMSIL",
       "companyName": "DCM Shriram International Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE0OU201013"
     },
     {
@@ -3219,6 +3405,12 @@
       "companyName": "DEE Development Engineers Limited",
       "series": "EQ",
       "isin": "INE841L01016"
+    },
+    {
+      "symbol": "DEEP",
+      "companyName": "Deep Polymers Limited",
+      "series": "EQ",
+      "isin": "INE00IY01012"
     },
     {
       "symbol": "DEEPAKFERT",
@@ -3305,6 +3497,12 @@
       "isin": "INE03JI01017"
     },
     {
+      "symbol": "DHABRIYA",
+      "companyName": "Dhabriya Polywood Limited",
+      "series": "EQ",
+      "isin": "INE260R01016"
+    },
+    {
       "symbol": "DHAMPURSUG",
       "companyName": "Dhampur Sugar Mills Limited",
       "series": "EQ",
@@ -3333,6 +3531,18 @@
       "companyName": "Dharmaj Crop Guard Limited",
       "series": "EQ",
       "isin": "INE00OQ01016"
+    },
+    {
+      "symbol": "DHATRE",
+      "companyName": "Dhatre Udyog Limited",
+      "series": "EQ",
+      "isin": "INE715T01031"
+    },
+    {
+      "symbol": "DHOOTTRANS",
+      "companyName": "Dhoot Transmission Limited",
+      "series": "EQ",
+      "isin": "INE01NH01023"
     },
     {
       "symbol": "DHRUV",
@@ -3399,6 +3609,12 @@
       "companyName": "Digjam Limited",
       "series": "EQ",
       "isin": "INE731U01028"
+    },
+    {
+      "symbol": "DIL",
+      "companyName": "Debock Industries Limited",
+      "series": "BZ",
+      "isin": "INE411Y01011"
     },
     {
       "symbol": "DISAQ",
@@ -3629,16 +3845,34 @@
       "isin": "INE962C01035"
     },
     {
+      "symbol": "EASTWEST",
+      "companyName": "East West Freight Carriers Limited",
+      "series": "EQ",
+      "isin": "INE595R01023"
+    },
+    {
       "symbol": "EBGNG",
       "companyName": "GNG Electronics Limited",
       "series": "EQ",
       "isin": "INE18JU01028"
     },
     {
+      "symbol": "EBIX",
+      "companyName": "EBIX Limited",
+      "series": "EQ",
+      "isin": "INE432F01032"
+    },
+    {
       "symbol": "ECLERX",
       "companyName": "eClerx Services Limited",
       "series": "EQ",
       "isin": "INE738I01010"
+    },
+    {
+      "symbol": "ECORECO",
+      "companyName": "Eco Recycling Limited",
+      "series": "EQ",
+      "isin": "INE316A01038"
     },
     {
       "symbol": "ECOSMOBLTY",
@@ -3651,6 +3885,12 @@
       "companyName": "Edelweiss Financial Services Limited",
       "series": "EQ",
       "isin": "INE532F01054"
+    },
+    {
+      "symbol": "EDUCOMP",
+      "companyName": "Educomp Solutions Limited",
+      "series": "BZ",
+      "isin": "INE216H01027"
     },
     {
       "symbol": "EFCIL",
@@ -3705,6 +3945,12 @@
       "companyName": "Everest Kanto Cylinder Limited",
       "series": "EQ",
       "isin": "INE184H01027"
+    },
+    {
+      "symbol": "EKI",
+      "companyName": "EKI Energy Services Limited",
+      "series": "EQ",
+      "isin": "INE0CPR01018"
     },
     {
       "symbol": "ELANTAS",
@@ -3833,9 +4079,15 @@
       "isin": "INE1C6T01020"
     },
     {
+      "symbol": "EMPIND",
+      "companyName": "Empire Industries Limited",
+      "series": "EQ",
+      "isin": "INE515H01014"
+    },
+    {
       "symbol": "EMPOWER",
       "companyName": "Empower India Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE507F01023"
     },
     {
@@ -3873,6 +4125,12 @@
       "companyName": "Entertainment Network (India) Limited",
       "series": "EQ",
       "isin": "INE265F01028"
+    },
+    {
+      "symbol": "ENKEIWHEL",
+      "companyName": "Enkei Wheels (India) Limited",
+      "series": "EQ",
+      "isin": "INE130L01014"
     },
     {
       "symbol": "ENRIN",
@@ -4079,6 +4337,12 @@
       "isin": "INE045J01034"
     },
     {
+      "symbol": "FCONSUMER",
+      "companyName": "Future Consumer Limited",
+      "series": "BZ",
+      "isin": "INE220J01025"
+    },
+    {
       "symbol": "FCSSOFT",
       "companyName": "FCS Software Solutions Limited",
       "series": "EQ",
@@ -4269,6 +4533,12 @@
       "companyName": "Fractal Analytics Limited",
       "series": "EQ",
       "isin": "INE212S01015"
+    },
+    {
+      "symbol": "FREDUN",
+      "companyName": "Fredun Pharmaceuticals Limited",
+      "series": "EQ",
+      "isin": "INE194R01017"
     },
     {
       "symbol": "FRONTSP",
@@ -4499,6 +4769,12 @@
       "isin": "INE538A01037"
     },
     {
+      "symbol": "GFSTEELS",
+      "companyName": "Grand Foundry Limited",
+      "series": "BE",
+      "isin": "INE534A01028"
+    },
+    {
       "symbol": "GHCL",
       "companyName": "GHCL Limited",
       "series": "EQ",
@@ -4551,6 +4827,12 @@
       "companyName": "Gujarat Industries Power Company Limited",
       "series": "EQ",
       "isin": "INE162A01010"
+    },
+    {
+      "symbol": "GKB",
+      "companyName": "GKB Ophthalmics Limited",
+      "series": "EQ",
+      "isin": "INE265D01015"
     },
     {
       "symbol": "GKENERGY",
@@ -5117,6 +5399,12 @@
       "isin": "INE320X01016"
     },
     {
+      "symbol": "HAMPTON",
+      "companyName": "Hampton Sky Realty Limited",
+      "series": "EQ",
+      "isin": "INE299D01022"
+    },
+    {
       "symbol": "HAPPSTMNDS",
       "companyName": "Happiest Minds Technologies Limited",
       "series": "EQ",
@@ -5183,6 +5471,12 @@
       "isin": "INE979B01015"
     },
     {
+      "symbol": "HAZOOR",
+      "companyName": "Hazoor Multi Projects Limited",
+      "series": "EQ",
+      "isin": "INE550F01049"
+    },
+    {
       "symbol": "HBESD",
       "companyName": "HB Estate Developers Limited",
       "series": "EQ",
@@ -5193,6 +5487,12 @@
       "companyName": "HBL Engineering Limited",
       "series": "EQ",
       "isin": "INE292B01021"
+    },
+    {
+      "symbol": "HBPOR",
+      "companyName": "HB Portfolio Limited",
+      "series": "EQ",
+      "isin": "INE638B01025"
     },
     {
       "symbol": "HBSL",
@@ -5381,10 +5681,22 @@
       "isin": "INE049A01027"
     },
     {
+      "symbol": "HINDADH",
+      "companyName": "Hindustan Adhesives Limited",
+      "series": "EQ",
+      "isin": "INE074C01013"
+    },
+    {
       "symbol": "HINDALCO",
       "companyName": "Hindalco Industries Limited",
       "series": "EQ",
       "isin": "INE038A01020"
+    },
+    {
+      "symbol": "HINDALUMI",
+      "companyName": "Hind Aluminium Industries Limited",
+      "series": "EQ",
+      "isin": "INE227B01019"
     },
     {
       "symbol": "HINDCOMPOS",
@@ -5543,6 +5855,12 @@
       "isin": "INE495S01016"
     },
     {
+      "symbol": "HRYNSHP",
+      "companyName": "Hariyana Ship Breakers Limited",
+      "series": "EQ",
+      "isin": "INE400G01011"
+    },
+    {
       "symbol": "HSCL",
       "companyName": "Himadri Speciality Chemical Limited",
       "series": "EQ",
@@ -5671,7 +5989,7 @@
     {
       "symbol": "IFBAGRO",
       "companyName": "IFB Agro Industries Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE076C01018"
     },
     {
@@ -5909,6 +6227,12 @@
       "isin": "INE622H01018"
     },
     {
+      "symbol": "INDOKEM",
+      "companyName": "Indokem Limited",
+      "series": "EQ",
+      "isin": "INE716F01012"
+    },
+    {
       "symbol": "INDOMIM",
       "companyName": "INDO-MIM Limited",
       "series": "EQ",
@@ -6131,6 +6455,12 @@
       "isin": "INE0D6701023"
     },
     {
+      "symbol": "IPRINGLTD",
+      "companyName": "IP Rings Limited",
+      "series": "EQ",
+      "isin": "INE558A01019"
+    },
+    {
       "symbol": "IRB",
       "companyName": "IRB Infrastructure Developers Limited",
       "series": "EQ",
@@ -6197,6 +6527,12 @@
       "isin": "INE561M01018"
     },
     {
+      "symbol": "ISTLTD",
+      "companyName": "I S T Limited",
+      "series": "EQ",
+      "isin": "INE684B01029"
+    },
+    {
       "symbol": "ITC",
       "companyName": "ITC Limited",
       "series": "EQ",
@@ -6219,6 +6555,12 @@
       "companyName": "ITI Limited",
       "series": "EQ",
       "isin": "INE248A01017"
+    },
+    {
+      "symbol": "ITL",
+      "companyName": "ITL Industries Limited",
+      "series": "EQ",
+      "isin": "INE478D01014"
     },
     {
       "symbol": "IVALUE",
@@ -6351,6 +6693,12 @@
       "companyName": "JBM Auto Limited",
       "series": "EQ",
       "isin": "INE927D01051"
+    },
+    {
+      "symbol": "JENBURPH",
+      "companyName": "Jenburkt Pharmaceuticals Limited",
+      "series": "EQ",
+      "isin": "INE354A01013"
     },
     {
       "symbol": "JETFREIGHT",
@@ -6635,6 +6983,12 @@
       "isin": "INE980O01024"
     },
     {
+      "symbol": "JYOTIRES",
+      "companyName": "Jyoti Resins & Adhesives Limited",
+      "series": "EQ",
+      "isin": "INE577D01013"
+    },
+    {
       "symbol": "JYOTISTRUC",
       "companyName": "Jyoti Structures Limited",
       "series": "EQ",
@@ -6695,6 +7049,12 @@
       "isin": "INE411F01010"
     },
     {
+      "symbol": "KAMANWALA",
+      "companyName": "Kamanwala Housing Construction Limited",
+      "series": "EQ",
+      "isin": "INE344D01018"
+    },
+    {
       "symbol": "KAMATHOTEL",
       "companyName": "Kamat Hotels (I) Limited",
       "series": "EQ",
@@ -6723,6 +7083,12 @@
       "companyName": "Kanchi Karpooram Limited",
       "series": "EQ",
       "isin": "INE081G01019"
+    },
+    {
+      "symbol": "KANCOTEA",
+      "companyName": "Kanco Tea & Industries Limited",
+      "series": "EQ",
+      "isin": "INE398L01017"
     },
     {
       "symbol": "KANORICHEM",
@@ -6971,6 +7337,12 @@
       "isin": "INE602G01020"
     },
     {
+      "symbol": "KJMCFIN",
+      "companyName": "KJMC Financial Services Limited",
+      "series": "EQ",
+      "isin": "INE533C01018"
+    },
+    {
       "symbol": "KKCL",
       "companyName": "Kewal Kiran Clothing Limited",
       "series": "EQ",
@@ -6981,6 +7353,12 @@
       "companyName": "Kilburn Engineering Limited",
       "series": "EQ",
       "isin": "INE338F01015"
+    },
+    {
+      "symbol": "KMCSHIL",
+      "companyName": "K M C Speciality Hospitals (India) Limited",
+      "series": "EQ",
+      "isin": "INE879K01018"
     },
     {
       "symbol": "KMEW",
@@ -7211,6 +7589,12 @@
       "isin": "INE455I01029"
     },
     {
+      "symbol": "KSE",
+      "companyName": "KSE Limited",
+      "series": "EQ",
+      "isin": "INE953E01022"
+    },
+    {
       "symbol": "KSHINTL",
       "companyName": "KSH International Limited",
       "series": "EQ",
@@ -7265,6 +7649,12 @@
       "isin": "INE2KCE01013"
     },
     {
+      "symbol": "LADDERUP",
+      "companyName": "Ladderup Finance Limited",
+      "series": "EQ",
+      "isin": "INE519D01015"
+    },
+    {
       "symbol": "LAGNAM",
       "companyName": "Lagnam Spintex Limited",
       "series": "EQ",
@@ -7283,6 +7673,12 @@
       "isin": "INE651C01018"
     },
     {
+      "symbol": "LAKSHMIMIL",
+      "companyName": "Lakshmi Mills Company Limited",
+      "series": "EQ",
+      "isin": "INE938C01019"
+    },
+    {
       "symbol": "LAL",
       "companyName": "Lorenzini Apparels Limited",
       "series": "EQ",
@@ -7299,6 +7695,12 @@
       "companyName": "Lambodhara Textiles Limited",
       "series": "EQ",
       "isin": "INE112F01022"
+    },
+    {
+      "symbol": "LANCER",
+      "companyName": "Lancer Container Lines Limited",
+      "series": "EQ",
+      "isin": "INE359U01028"
     },
     {
       "symbol": "LANCORHOL",
@@ -7345,7 +7747,7 @@
     {
       "symbol": "LATTEYS",
       "companyName": "Latteys Industries Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE262Z01023"
     },
     {
@@ -7369,7 +7771,7 @@
     {
       "symbol": "LAXMIINDIA",
       "companyName": "Laxmi India Finance Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE06WU01026"
     },
     {
@@ -7389,6 +7791,12 @@
       "companyName": "LEAP India Limited",
       "series": "EQ",
       "isin": "INE00GO01025"
+    },
+    {
+      "symbol": "LEENEE",
+      "companyName": "Lee & Nee Softwares Exports Limited",
+      "series": "EQ",
+      "isin": "INE791B01014"
     },
     {
       "symbol": "LEMERITE",
@@ -7487,6 +7895,12 @@
       "isin": "INE473A01011"
     },
     {
+      "symbol": "LKPSEC",
+      "companyName": "LKP Securities Limited",
+      "series": "EQ",
+      "isin": "INE341H01023"
+    },
+    {
       "symbol": "LLOYDSENGG",
       "companyName": "LLOYDS ENGINEERING WORKS LIMITED",
       "series": "EQ",
@@ -7527,6 +7941,12 @@
       "companyName": "Lords Chloro Alkali Limited",
       "series": "EQ",
       "isin": "INE846D01012"
+    },
+    {
+      "symbol": "LOTUSCHO",
+      "companyName": "Lotus Chocolate Company Limited",
+      "series": "EQ",
+      "isin": "INE026D01011"
     },
     {
       "symbol": "LOTUSDEV",
@@ -7757,6 +8177,12 @@
       "isin": "INE201B01022"
     },
     {
+      "symbol": "MAKERSL",
+      "companyName": "Makers Laboratories Limited",
+      "series": "EQ",
+      "isin": "INE987A01010"
+    },
+    {
       "symbol": "MALLCOM",
       "companyName": "Mallcom (India) Limited",
       "series": "EQ",
@@ -7815,6 +8241,12 @@
       "companyName": "Manba Finance Limited",
       "series": "EQ",
       "isin": "INE939X01013"
+    },
+    {
+      "symbol": "MANBRO",
+      "companyName": "Manbro Industries Limited",
+      "series": "EQ",
+      "isin": "INE348N01042"
     },
     {
       "symbol": "MANCREDIT",
@@ -7897,7 +8329,7 @@
     {
       "symbol": "MARALOVER",
       "companyName": "Maral Overseas Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE882A01013"
     },
     {
@@ -8081,6 +8513,12 @@
       "isin": "INE646B01010"
     },
     {
+      "symbol": "MEDICAPQ",
+      "companyName": "Medi Caps Limited",
+      "series": "EQ",
+      "isin": "INE442D01010"
+    },
+    {
       "symbol": "MEDICO",
       "companyName": "Medico Remedies Limited",
       "series": "EQ",
@@ -8213,6 +8651,18 @@
       "isin": "INE0XAD01024"
     },
     {
+      "symbol": "MIIL",
+      "companyName": "Meghna Infracon Infrastructure Limited",
+      "series": "EQ",
+      "isin": "INE898Q01015"
+    },
+    {
+      "symbol": "MINALIND",
+      "companyName": "Minal Industries Limited",
+      "series": "EQ",
+      "isin": "INE097E01028"
+    },
+    {
       "symbol": "MINDACORP",
       "companyName": "Minda Corporation Limited",
       "series": "EQ",
@@ -8243,10 +8693,22 @@
       "isin": "INE997Y01027"
     },
     {
+      "symbol": "MKEXIM",
+      "companyName": "M.K. Exim (India) Limited",
+      "series": "EQ",
+      "isin": "INE227F01010"
+    },
+    {
       "symbol": "MKPL",
       "companyName": "M K Proteins Limited",
       "series": "EQ",
       "isin": "INE964W01021"
+    },
+    {
+      "symbol": "MLKFOOD",
+      "companyName": "Milkfood Limited",
+      "series": "EQ",
+      "isin": "INE588G01021"
     },
     {
       "symbol": "MMFL",
@@ -8309,6 +8771,12 @@
       "isin": "INE794W01014"
     },
     {
+      "symbol": "MOHITE",
+      "companyName": "Mohite Industries Limited",
+      "series": "EQ",
+      "isin": "INE154B01023"
+    },
+    {
       "symbol": "MOHITIND",
       "companyName": "Mohit Industries Limited",
       "series": "EQ",
@@ -8331,6 +8799,12 @@
       "companyName": "Meghmani Organics Limited",
       "series": "EQ",
       "isin": "INE0CT101020"
+    },
+    {
+      "symbol": "MOLBIO",
+      "companyName": "Molbio Diagnostics Limited",
+      "series": "EQ",
+      "isin": "INE869T01028"
     },
     {
       "symbol": "MOLDTECH",
@@ -8361,6 +8835,12 @@
       "companyName": "Monte Carlo Fashions Limited",
       "series": "EQ",
       "isin": "INE950M01013"
+    },
+    {
+      "symbol": "MORARJEE",
+      "companyName": "Morarjee Textiles Limited",
+      "series": "BZ",
+      "isin": "INE161G01027"
     },
     {
       "symbol": "MOREPENLAB",
@@ -8399,6 +8879,12 @@
       "isin": "INE861B01023"
     },
     {
+      "symbol": "MPDL",
+      "companyName": "MPDL Limited",
+      "series": "EQ",
+      "isin": "INE493H01014"
+    },
+    {
       "symbol": "MPHASIS",
       "companyName": "MphasiS Limited",
       "series": "EQ",
@@ -8421,6 +8907,12 @@
       "companyName": "Mangalore Refinery and Petrochemicals Limited",
       "series": "EQ",
       "isin": "INE103A01014"
+    },
+    {
+      "symbol": "MSL",
+      "companyName": "Mangalam Seeds Limited",
+      "series": "EQ",
+      "isin": "INE829S01016"
     },
     {
       "symbol": "MSPL",
@@ -8475,6 +8967,12 @@
       "companyName": "Mukand Limited",
       "series": "EQ",
       "isin": "INE304A01026"
+    },
+    {
+      "symbol": "MUKESHB",
+      "companyName": "Mukesh Babu Financial Services Limited",
+      "series": "EQ",
+      "isin": "INE596B01017"
     },
     {
       "symbol": "MUKKA",
@@ -8543,10 +9041,22 @@
       "isin": "INE0JYY01029"
     },
     {
+      "symbol": "MYSORPETRO",
+      "companyName": "Mysore Petro Chemicals Limited",
+      "series": "EQ",
+      "isin": "INE741A01011"
+    },
+    {
       "symbol": "NACLIND",
       "companyName": "NACL Industries Limited",
       "series": "EQ",
       "isin": "INE295D01020"
+    },
+    {
+      "symbol": "NAGAFERT",
+      "companyName": "Nagarjuna Fertilizers and Chemicals Limited",
+      "series": "BZ",
+      "isin": "INE454M01024"
     },
     {
       "symbol": "NAGREEKCAP",
@@ -8737,7 +9247,7 @@
     {
       "symbol": "NECLIFE",
       "companyName": "Nectar Lifesciences Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE023H01027"
     },
     {
@@ -8861,6 +9371,12 @@
       "isin": "INE047O01014"
     },
     {
+      "symbol": "NICCOPAR",
+      "companyName": "Nicco Parks & Resorts Limited",
+      "series": "EQ",
+      "isin": "INE653C01022"
+    },
+    {
       "symbol": "NIITLTD",
       "companyName": "NIIT Limited",
       "series": "EQ",
@@ -8917,7 +9433,7 @@
     {
       "symbol": "NIRAJ",
       "companyName": "Niraj Cement Structurals Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE368I01016"
     },
     {
@@ -9053,6 +9569,12 @@
       "isin": "INE0NNS01018"
     },
     {
+      "symbol": "NTCIND",
+      "companyName": "NTC Industries Limited",
+      "series": "EQ",
+      "isin": "INE920C01017"
+    },
+    {
       "symbol": "NTPC",
       "companyName": "NTPC Limited",
       "series": "EQ",
@@ -9125,6 +9647,12 @@
       "isin": "INE054301028"
     },
     {
+      "symbol": "ODYCORP",
+      "companyName": "Odyssey Corporation Limited",
+      "series": "EQ",
+      "isin": "INE839E01023"
+    },
+    {
       "symbol": "OFSS",
       "companyName": "Oracle Financial Services Software Limited",
       "series": "EQ",
@@ -9191,6 +9719,12 @@
       "isin": "INE25E901019"
     },
     {
+      "symbol": "ONEGLOBAL",
+      "companyName": "One Global Service Provider Limited",
+      "series": "EQ",
+      "isin": "INE670O01013"
+    },
+    {
       "symbol": "ONELIFECAP",
       "companyName": "Onelife Capital Advisors Limited",
       "series": "BE",
@@ -9221,6 +9755,12 @@
       "isin": "INE831A01028"
     },
     {
+      "symbol": "ONIXSOLAR",
+      "companyName": "Onix Solar Energy Limited",
+      "series": "EQ",
+      "isin": "INE173M01012"
+    },
+    {
       "symbol": "ONMOBILE",
       "companyName": "OnMobile Global Limited",
       "series": "BE",
@@ -9237,6 +9777,12 @@
       "companyName": "Optiemus Infracom Limited",
       "series": "EQ",
       "isin": "INE350C01017"
+    },
+    {
+      "symbol": "OPTIFIN",
+      "companyName": "Optimus Finance Limited",
+      "series": "EQ",
+      "isin": "INE031G01022"
     },
     {
       "symbol": "ORBTEXP",
@@ -9317,6 +9863,12 @@
       "isin": "INE0PPK01015"
     },
     {
+      "symbol": "ORIRAIL",
+      "companyName": "Oriental Rail Infrastructure Limited",
+      "series": "EQ",
+      "isin": "INE457G01029"
+    },
+    {
       "symbol": "ORISSAMINE",
       "companyName": "The Orissa Minerals Development Company Limited",
       "series": "EQ",
@@ -9327,6 +9879,12 @@
       "companyName": "Orkla India Limited",
       "series": "EQ",
       "isin": "INE16NZ01023"
+    },
+    {
+      "symbol": "ORTEL",
+      "companyName": "Ortel Communications Limited",
+      "series": "BZ",
+      "isin": "INE849L01019"
     },
     {
       "symbol": "ORTINGLOBE",
@@ -9369,6 +9927,12 @@
       "companyName": "Pace Digitek Limited",
       "series": "EQ",
       "isin": "INE0S3G01027"
+    },
+    {
+      "symbol": "PACIFICI",
+      "companyName": "Pacific Industries Limited",
+      "series": "EQ",
+      "isin": "INE883C01025"
     },
     {
       "symbol": "PAGEIND",
@@ -9417,6 +9981,18 @@
       "companyName": "Panama Petrochem Limited",
       "series": "EQ",
       "isin": "INE305C01029"
+    },
+    {
+      "symbol": "PANCHMAHQ",
+      "companyName": "Panchmahal Steel Limited",
+      "series": "EQ",
+      "isin": "INE798F01010"
+    },
+    {
+      "symbol": "PANORAMA",
+      "companyName": "Panorama Studios International Limited",
+      "series": "EQ",
+      "isin": "INE258R01028"
     },
     {
       "symbol": "PANSARI",
@@ -9471,6 +10047,12 @@
       "companyName": "Apeejay Surrendra Park Hotels Limited",
       "series": "EQ",
       "isin": "INE988S01028"
+    },
+    {
+      "symbol": "PARNAXLAB",
+      "companyName": "Parnax Lab Limited",
+      "series": "EQ",
+      "isin": "INE383L01019"
     },
     {
       "symbol": "PARSVNATH",
@@ -9533,6 +10115,12 @@
       "isin": "INE982J01020"
     },
     {
+      "symbol": "PBMPOLY",
+      "companyName": "PBM Polytex Limited",
+      "series": "EQ",
+      "isin": "INE501F01018"
+    },
+    {
       "symbol": "PCBL",
       "companyName": "PCBL Chemical Limited",
       "series": "EQ",
@@ -9573,6 +10161,12 @@
       "companyName": "Peninsula Land Limited",
       "series": "BE",
       "isin": "INE138A01028"
+    },
+    {
+      "symbol": "PERMAGN",
+      "companyName": "Permanent Magnets Limited",
+      "series": "EQ",
+      "isin": "INE418E01018"
     },
     {
       "symbol": "PERSISTENT",
@@ -9639,6 +10233,12 @@
       "companyName": "The Phoenix Mills Limited",
       "series": "EQ",
       "isin": "INE211B01039"
+    },
+    {
+      "symbol": "PHOENXINTL",
+      "companyName": "Phoenix International Limited",
+      "series": "EQ",
+      "isin": "INE245B01011"
     },
     {
       "symbol": "PICCADIL",
@@ -9797,6 +10397,12 @@
       "isin": "INE371C01013"
     },
     {
+      "symbol": "POEL",
+      "companyName": "POCL Enterprises Limited",
+      "series": "EQ",
+      "isin": "INE035S01028"
+    },
+    {
       "symbol": "POKARNA",
       "companyName": "Pokarna Limited",
       "series": "EQ",
@@ -9825,6 +10431,12 @@
       "companyName": "Polyplex Corporation Limited",
       "series": "EQ",
       "isin": "INE633B01018"
+    },
+    {
+      "symbol": "POLYSPIN",
+      "companyName": "Polyspin Exports Limited",
+      "series": "EQ",
+      "isin": "INE914G01029"
     },
     {
       "symbol": "PONNIERODE",
@@ -10007,6 +10619,12 @@
       "isin": "INE689W01016"
     },
     {
+      "symbol": "PRISMX",
+      "companyName": "Prismx Global Ventures Limited",
+      "series": "EQ",
+      "isin": "INE286N01028"
+    },
+    {
       "symbol": "PRITI",
       "companyName": "Priti International Limited",
       "series": "BE",
@@ -10169,6 +10787,12 @@
       "isin": "INE641R01017"
     },
     {
+      "symbol": "QUINTEGRA",
+      "companyName": "Quintegra Solutions Limited",
+      "series": "BE",
+      "isin": "INE033B01011"
+    },
+    {
       "symbol": "RACE",
       "companyName": "Race Eco Chain Limited",
       "series": "EQ",
@@ -10275,6 +10899,12 @@
       "companyName": "Raj Television Network Limited",
       "series": "EQ",
       "isin": "INE952H01027"
+    },
+    {
+      "symbol": "RAJVIR",
+      "companyName": "Rajvir Industries Limited",
+      "series": "BZ",
+      "isin": "INE011H01014"
     },
     {
       "symbol": "RALLIS",
@@ -10441,7 +11071,7 @@
     {
       "symbol": "REGAAL",
       "companyName": "Regaal Resources Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE0MHO01029"
     },
     {
@@ -10745,6 +11375,12 @@
       "isin": "INE0J1F01024"
     },
     {
+      "symbol": "RRECL",
+      "companyName": "RDB Real Estate Constructions Limited",
+      "series": "EQ",
+      "isin": "INE0AK901016"
+    },
+    {
       "symbol": "RRIL",
       "companyName": "RRIL Limited",
       "series": "EQ",
@@ -10797,6 +11433,12 @@
       "companyName": "RattanIndia Power Limited",
       "series": "EQ",
       "isin": "INE399K01017"
+    },
+    {
+      "symbol": "RTSPOWR",
+      "companyName": "RTS Power Corporation Limited",
+      "series": "EQ",
+      "isin": "INE005C01017"
     },
     {
       "symbol": "RUBFILA",
@@ -10883,6 +11525,12 @@
       "isin": "INE13B501022"
     },
     {
+      "symbol": "SAB",
+      "companyName": "SAB Industries Limited",
+      "series": "EQ",
+      "isin": "INE137M01017"
+    },
+    {
       "symbol": "SADBHAV",
       "companyName": "Sadbhav Engineering Limited",
       "series": "EQ",
@@ -10935,6 +11583,12 @@
       "companyName": "Sahyadri Industries Limited",
       "series": "EQ",
       "isin": "INE280H01015"
+    },
+    {
+      "symbol": "SAICAPI",
+      "companyName": "Sai Capital Limited",
+      "series": "EQ",
+      "isin": "INE531X01018"
     },
     {
       "symbol": "SAIL",
@@ -11001,6 +11655,12 @@
       "companyName": "Salzer Electronics Limited",
       "series": "EQ",
       "isin": "INE457F01013"
+    },
+    {
+      "symbol": "SAMBANDAM",
+      "companyName": "Sambandam Spinning Mills Limited",
+      "series": "EQ",
+      "isin": "INE304D01012"
     },
     {
       "symbol": "SAMBHAAV",
@@ -11171,6 +11831,12 @@
       "isin": "INE318C01014"
     },
     {
+      "symbol": "SAYAJIIND",
+      "companyName": "Sayaji Industries Limited",
+      "series": "EQ",
+      "isin": "INE327G01032"
+    },
+    {
       "symbol": "SBC",
       "companyName": "SBC Exports Limited",
       "series": "EQ",
@@ -11309,6 +11975,12 @@
       "isin": "INE955I01044"
     },
     {
+      "symbol": "SEKURITIND",
+      "companyName": "Saint Gobain Sekurit India Limited",
+      "series": "EQ",
+      "isin": "INE068B01017"
+    },
+    {
       "symbol": "SELMC",
       "companyName": "SEL Manufacturing Company Limited",
       "series": "EQ",
@@ -11317,7 +11989,7 @@
     {
       "symbol": "SEMAC",
       "companyName": "Semac Construction Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE617A01013"
     },
     {
@@ -11399,10 +12071,22 @@
       "isin": "INE353H01010"
     },
     {
+      "symbol": "SGLRES",
+      "companyName": "SGL Resources Limited",
+      "series": "EQ",
+      "isin": "INE967B01028"
+    },
+    {
       "symbol": "SGMART",
       "companyName": "SG Mart Limited",
       "series": "EQ",
       "isin": "INE385F01024"
+    },
+    {
+      "symbol": "SGRL",
+      "companyName": "Shree Ganesh Remedies Limited",
+      "series": "EQ",
+      "isin": "INE414Y01015"
     },
     {
       "symbol": "SHADOWFAX",
@@ -11509,7 +12193,7 @@
     {
       "symbol": "SHEKHAWATI",
       "companyName": "Shekhawati Industries Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE268L01046"
     },
     {
@@ -11519,10 +12203,22 @@
       "isin": "INE363M01019"
     },
     {
+      "symbol": "SHERVANI",
+      "companyName": "Shervani Industrial Syndicate Limited",
+      "series": "EQ",
+      "isin": "INE011D01013"
+    },
+    {
       "symbol": "SHILCTECH",
       "companyName": "Shilchar Technologies Limited",
       "series": "EQ",
       "isin": "INE024F01011"
+    },
+    {
+      "symbol": "SHILGRAVQ",
+      "companyName": "Shilp Gravures Limited",
+      "series": "EQ",
+      "isin": "INE960A01017"
     },
     {
       "symbol": "SHILPAMED",
@@ -11535,6 +12231,18 @@
       "companyName": "Sharat Industries Limited",
       "series": "EQ",
       "isin": "INE220Z01013"
+    },
+    {
+      "symbol": "SHIVAAGRO",
+      "companyName": "Shiva Global Agro Industries Limited",
+      "series": "EQ",
+      "isin": "INE960E01019"
+    },
+    {
+      "symbol": "SHIVACEM",
+      "companyName": "Shiva Cement Limited",
+      "series": "EQ",
+      "isin": "INE555C01029"
     },
     {
       "symbol": "SHIVALIK",
@@ -11577,6 +12285,12 @@
       "companyName": "Shoppers Stop Limited",
       "series": "EQ",
       "isin": "INE498B01024"
+    },
+    {
+      "symbol": "SHRADDHA",
+      "companyName": "Shraddha Prime Projects Limited",
+      "series": "EQ",
+      "isin": "INE311M01018"
     },
     {
       "symbol": "SHRADHA",
@@ -11657,6 +12371,12 @@
       "isin": "INE217L01019"
     },
     {
+      "symbol": "SHRJAGP",
+      "companyName": "Shri Jagdamba Polymers Limited",
+      "series": "EQ",
+      "isin": "INE564J01026"
+    },
+    {
       "symbol": "SHUKRAPHAR",
       "companyName": "Shukra Pharmaceuticals Limited",
       "series": "EQ",
@@ -11677,7 +12397,7 @@
     {
       "symbol": "SHYAMTEL",
       "companyName": "Shyam Telecom Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE635A01023"
     },
     {
@@ -11693,6 +12413,12 @@
       "isin": "INE075B01020"
     },
     {
+      "symbol": "SIEL",
+      "companyName": "Superior Industrial Enterprises Limited",
+      "series": "EQ",
+      "isin": "INE843L01012"
+    },
+    {
       "symbol": "SIEMENS",
       "companyName": "Siemens Limited",
       "series": "EQ",
@@ -11701,7 +12427,7 @@
     {
       "symbol": "SIGACHI",
       "companyName": "Sigachi Industries Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE0D0K01022"
     },
     {
@@ -11719,7 +12445,7 @@
     {
       "symbol": "SIGMAADV",
       "companyName": "SIGMA ADVANCED SYSTEMS LIMITED",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE933B01012"
     },
     {
@@ -11787,6 +12513,12 @@
       "companyName": "Simplex Infrastructures Limited",
       "series": "EQ",
       "isin": "INE059B01024"
+    },
+    {
+      "symbol": "SIMPLXREA",
+      "companyName": "Simplex Realty Limited",
+      "series": "EQ",
+      "isin": "INE167H01014"
     },
     {
       "symbol": "SINCLAIR",
@@ -11859,6 +12591,12 @@
       "companyName": "SKF India (Industrial) Limited",
       "series": "EQ",
       "isin": "INE2J8701016"
+    },
+    {
+      "symbol": "SKIL",
+      "companyName": "SKIL Infrastructure Limited",
+      "series": "BZ",
+      "isin": "INE429F01012"
     },
     {
       "symbol": "SKIPPER",
@@ -12053,6 +12791,12 @@
       "isin": "INE01EO01010"
     },
     {
+      "symbol": "SPELS",
+      "companyName": "SPEL Semiconductor Limited",
+      "series": "EQ",
+      "isin": "INE252A01019"
+    },
+    {
       "symbol": "SPENCERS",
       "companyName": "Spencer's Retail Limited",
       "series": "EQ",
@@ -12117,6 +12861,12 @@
       "companyName": "Sree Rayalaseema Hi-Strength Hypo Limited",
       "series": "EQ",
       "isin": "INE917H01012"
+    },
+    {
+      "symbol": "SRIKPRIND",
+      "companyName": "Sri KPR Industries Limited",
+      "series": "EQ",
+      "isin": "INE009C01019"
     },
     {
       "symbol": "SRM",
@@ -12227,6 +12977,12 @@
       "isin": "INE1VXE01018"
     },
     {
+      "symbol": "STLSTRINF",
+      "companyName": "Steel Strips Infrastructures Limited",
+      "series": "EQ",
+      "isin": "INE205F01016"
+    },
+    {
       "symbol": "STLTECH",
       "companyName": "Sterlite Technologies Limited",
       "series": "BE",
@@ -12271,7 +13027,7 @@
     {
       "symbol": "SUBEXLTD",
       "companyName": "Subex Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE754A01055"
     },
     {
@@ -12309,6 +13065,12 @@
       "companyName": "Sula Vineyards Limited",
       "series": "EQ",
       "isin": "INE142Q01026"
+    },
+    {
+      "symbol": "SUMEDHA",
+      "companyName": "Sumedha Fiscal Services Limited",
+      "series": "EQ",
+      "isin": "INE886B01012"
     },
     {
       "symbol": "SUMEETINDS",
@@ -12377,10 +13139,28 @@
       "isin": "INE947A01014"
     },
     {
+      "symbol": "SUNLOC",
+      "companyName": "Sunil Healthcare Limited",
+      "series": "EQ",
+      "isin": "INE671C01016"
+    },
+    {
       "symbol": "SUNPHARMA",
       "companyName": "Sun Pharmaceutical Industries Limited",
       "series": "EQ",
       "isin": "INE044A01036"
+    },
+    {
+      "symbol": "SUNRAKSHAK",
+      "companyName": "Sunrakshakk Industries India Limited",
+      "series": "EQ",
+      "isin": "INE671K01027"
+    },
+    {
+      "symbol": "SUNSHIEL",
+      "companyName": "Sunshield Chemicals Limited",
+      "series": "EQ",
+      "isin": "INE199E01014"
     },
     {
       "symbol": "SUNTECK",
@@ -12441,6 +13221,12 @@
       "companyName": "Supriya Lifescience Limited",
       "series": "EQ",
       "isin": "INE07RO01027"
+    },
+    {
+      "symbol": "SUPTANERY",
+      "companyName": "Super Tannery Limited",
+      "series": "EQ",
+      "isin": "INE460D01038"
     },
     {
       "symbol": "SURAJEST",
@@ -12527,6 +13313,12 @@
       "isin": "INE040H01021"
     },
     {
+      "symbol": "SVGLOBAL",
+      "companyName": "S V Global Mill Limited",
+      "series": "EQ",
+      "isin": "INE159L01013"
+    },
+    {
       "symbol": "SVLL",
       "companyName": "Shree Vasu Logistics Limited",
       "series": "BE",
@@ -12535,7 +13327,7 @@
     {
       "symbol": "SVPGLOB",
       "companyName": "SVP GLOBAL TEXTILES LIMITED",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE308E01029"
     },
     {
@@ -12563,6 +13355,12 @@
       "isin": "INE277A01016"
     },
     {
+      "symbol": "SWARNSAR",
+      "companyName": "Swarnsarita Jewels India Limited",
+      "series": "EQ",
+      "isin": "INE967A01012"
+    },
+    {
       "symbol": "SWELECTES",
       "companyName": "Swelect Energy Systems Limited",
       "series": "EQ",
@@ -12573,6 +13371,12 @@
       "companyName": "Swiggy Limited",
       "series": "EQ",
       "isin": "INE00H001014"
+    },
+    {
+      "symbol": "SWISSMLTRY",
+      "companyName": "Swiss Military Consumer Goods Limited",
+      "series": "EQ",
+      "isin": "INE010C01025"
     },
     {
       "symbol": "SWSOLAR",
@@ -12645,6 +13449,12 @@
       "companyName": "Tamboli Industries Limited",
       "series": "BE",
       "isin": "INE864J01012"
+    },
+    {
+      "symbol": "TANAA",
+      "companyName": "Taneja Aerospace & Aviation Limited",
+      "series": "EQ",
+      "isin": "INE692C01020"
     },
     {
       "symbol": "TANLA",
@@ -12875,6 +13685,12 @@
       "isin": "INE19RI01016"
     },
     {
+      "symbol": "TERAI",
+      "companyName": "Terai Tea Company Limited",
+      "series": "EQ",
+      "isin": "INE390D01011"
+    },
+    {
       "symbol": "TERASOFT",
       "companyName": "Tera Software Limited",
       "series": "EQ",
@@ -12915,6 +13731,12 @@
       "companyName": "TGB Banquets And Hotels Limited",
       "series": "EQ",
       "isin": "INE797H01018"
+    },
+    {
+      "symbol": "TGVSL",
+      "companyName": "TGV Sraac Limited",
+      "series": "EQ",
+      "isin": "INE284B01028"
     },
     {
       "symbol": "THACKER",
@@ -12997,7 +13819,7 @@
     {
       "symbol": "TIGERLOGS",
       "companyName": "Tiger Logistics (India) Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE906O01029"
     },
     {
@@ -13157,6 +13979,12 @@
       "isin": "INE486Y01013"
     },
     {
+      "symbol": "TOYAMSL",
+      "companyName": "Toyam Sports Limited",
+      "series": "EQ",
+      "isin": "INE457P01020"
+    },
+    {
       "symbol": "TPHQ",
       "companyName": "Teamo Productions HQ Limited",
       "series": "EQ",
@@ -13173,6 +14001,12 @@
       "companyName": "Tracxn Technologies Limited",
       "series": "EQ",
       "isin": "INE0HMF01019"
+    },
+    {
+      "symbol": "TRANSCOR",
+      "companyName": "Transcorp International Limited",
+      "series": "EQ",
+      "isin": "INE330E01023"
     },
     {
       "symbol": "TRANSPEK",
@@ -13241,6 +14075,12 @@
       "isin": "INE948A01012"
     },
     {
+      "symbol": "TRITONV",
+      "companyName": "Triton Valves Limited",
+      "series": "EQ",
+      "isin": "INE440G01017"
+    },
+    {
       "symbol": "TRITURBINE",
       "companyName": "Triveni Turbine Limited",
       "series": "EQ",
@@ -13301,6 +14141,12 @@
       "isin": "INE0OC301013"
     },
     {
+      "symbol": "TUTIALKA",
+      "companyName": "Tuticorin Alkali Chemicals & Fertilizers Limited",
+      "series": "EQ",
+      "isin": "INE400A01014"
+    },
+    {
       "symbol": "TVSELECT",
       "companyName": "TVS Electronics Limited",
       "series": "EQ",
@@ -13359,6 +14205,12 @@
       "companyName": "UCO Bank",
       "series": "EQ",
       "isin": "INE691A01018"
+    },
+    {
+      "symbol": "UDAYJEW",
+      "companyName": "Uday Jewellery Industries Limited",
+      "series": "EQ",
+      "isin": "INE551B01012"
     },
     {
       "symbol": "UDS",
@@ -13511,6 +14363,12 @@
       "isin": "INE458F01011"
     },
     {
+      "symbol": "UNIVAFOODS",
+      "companyName": "Univa Foods Limited",
+      "series": "BE",
+      "isin": "INE275F01019"
+    },
+    {
       "symbol": "UNIVASTU",
       "companyName": "Univastu India Limited",
       "series": "BE",
@@ -13533,6 +14391,12 @@
       "companyName": "UNO Minda Limited",
       "series": "EQ",
       "isin": "INE405E01023"
+    },
+    {
+      "symbol": "UPHOT",
+      "companyName": "U P Hotels Limited",
+      "series": "EQ",
+      "isin": "INE726E01014"
     },
     {
       "symbol": "UPL",
@@ -13613,6 +14477,12 @@
       "isin": "INE694D01016"
     },
     {
+      "symbol": "VADILENT",
+      "companyName": "Vadilal Enterprises Limited",
+      "series": "EQ",
+      "isin": "INE693D01018"
+    },
+    {
       "symbol": "VAIBHAVGBL",
       "companyName": "Vaibhav Global Limited",
       "series": "EQ",
@@ -13673,6 +14543,12 @@
       "isin": "INE893I01013"
     },
     {
+      "symbol": "VASUPRADA",
+      "companyName": "Shri Vasuprada Plantations Limited",
+      "series": "EQ",
+      "isin": "INE574G01013"
+    },
+    {
       "symbol": "VASWANI",
       "companyName": "Vaswani Industries Limited",
       "series": "EQ",
@@ -13689,6 +14565,12 @@
       "companyName": "Vaxtex Cotfab Limited",
       "series": "EQ",
       "isin": "INE098201036"
+    },
+    {
+      "symbol": "VEDAVAAG",
+      "companyName": "VEDAVAAG Systems Limited",
+      "series": "EQ",
+      "isin": "INE359B01010"
     },
     {
       "symbol": "VEDL",
@@ -13763,6 +14645,12 @@
       "isin": "INE918N01018"
     },
     {
+      "symbol": "VGCL",
+      "companyName": "Vibrant Global Capital Limited",
+      "series": "EQ",
+      "isin": "INE761Q01015"
+    },
+    {
       "symbol": "VGL",
       "companyName": "VARVEE GLOBAL LIMITED",
       "series": "EQ",
@@ -13809,6 +14697,12 @@
       "companyName": "Viji Finance Limited",
       "series": "BE",
       "isin": "INE159N01027"
+    },
+    {
+      "symbol": "VIJSOLX",
+      "companyName": "Vijay Solvex Limited",
+      "series": "EQ",
+      "isin": "INE362D01010"
     },
     {
       "symbol": "VIKASECO",
@@ -13879,7 +14773,7 @@
     {
       "symbol": "VIPCLOTHNG",
       "companyName": "VIP Clothing Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE450G01024"
     },
     {
@@ -13895,15 +14789,27 @@
       "isin": "INE946H01037"
     },
     {
+      "symbol": "VIRAT",
+      "companyName": "Virat Industries Limited",
+      "series": "EQ",
+      "isin": "INE467D01017"
+    },
+    {
       "symbol": "VIRINCHI",
       "companyName": "Virinchi Limited",
       "series": "EQ",
       "isin": "INE539B01017"
     },
     {
+      "symbol": "VIRTUALG",
+      "companyName": "Virtual Global Education Limited",
+      "series": "EQ",
+      "isin": "INE247C01023"
+    },
+    {
       "symbol": "VISACHROME",
       "companyName": "VISA Chrome Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE286H01012"
     },
     {
@@ -13911,6 +14817,12 @@
       "companyName": "Visaka Industries Limited",
       "series": "EQ",
       "isin": "INE392A01021"
+    },
+    {
+      "symbol": "VISHAL",
+      "companyName": "Vishal Fabrics Limited",
+      "series": "EQ",
+      "isin": "INE755Q01025"
     },
     {
       "symbol": "VISHNU",
@@ -13953,6 +14865,12 @@
       "companyName": "Vivimed Labs Limited",
       "series": "BE",
       "isin": "INE526G01021"
+    },
+    {
+      "symbol": "VIVOBIOT",
+      "companyName": "Vivo Bio Tech Limited",
+      "series": "EQ",
+      "isin": "INE380K01017"
     },
     {
       "symbol": "VIYASH",
@@ -14001,6 +14919,12 @@
       "companyName": "Vedanta Oil and Gas Limited",
       "series": "EQ",
       "isin": "INE704J01044"
+    },
+    {
+      "symbol": "VOITHPAPR",
+      "companyName": "Voith Paper Fabrics India Limited",
+      "series": "EQ",
+      "isin": "INE285C01015"
     },
     {
       "symbol": "VOLTAMP",
@@ -14063,6 +14987,12 @@
       "isin": "INE825A01020"
     },
     {
+      "symbol": "VTMLTD",
+      "companyName": "VTM Limited",
+      "series": "EQ",
+      "isin": "INE222F01029"
+    },
+    {
       "symbol": "WAAREEENER",
       "companyName": "Waaree Energies Limited",
       "series": "EQ",
@@ -14103,6 +15033,18 @@
       "companyName": "Wanbury Limited",
       "series": "EQ",
       "isin": "INE107F01022"
+    },
+    {
+      "symbol": "WARDINMOBI",
+      "companyName": "Wardwizard Innovations & Mobility Limited",
+      "series": "EQ",
+      "isin": "INE945P01024"
+    },
+    {
+      "symbol": "WATERBASE",
+      "companyName": "Waterbase Limited",
+      "series": "EQ",
+      "isin": "INE054C01015"
     },
     {
       "symbol": "WCIL",
@@ -14179,7 +15121,7 @@
     {
       "symbol": "WEWIN",
       "companyName": "WE WIN LIMITED",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE082W01014"
     },
     {
@@ -14187,6 +15129,12 @@
       "companyName": "WeWork India Management Limited",
       "series": "EQ",
       "isin": "INE085001019"
+    },
+    {
+      "symbol": "WHBRADY",
+      "companyName": "WH Brady & Company Limited",
+      "series": "EQ",
+      "isin": "INE855A01019"
     },
     {
       "symbol": "WHEELS",
@@ -14321,6 +15269,12 @@
       "isin": "INE528G01035"
     },
     {
+      "symbol": "YOGI",
+      "companyName": "Yogi Limited",
+      "series": "EQ",
+      "isin": "INE290E01011"
+    },
+    {
       "symbol": "YUKEN",
       "companyName": "Yuken India Limited",
       "series": "EQ",
@@ -14389,7 +15343,7 @@
     {
       "symbol": "ZIMLAB",
       "companyName": "Zim Laboratories Limited",
-      "series": "BE",
+      "series": "EQ",
       "isin": "INE518E01015"
     },
     {
