@@ -52,14 +52,25 @@ jobs:
           git add data/search_analysis.json
           git diff --cached --quiet && echo "No dataset changes" && exit 0
           git commit -m "Update searchable stock analysis"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; git add data/search_analysis.json; git commit -m "Update searchable stock analysis" || true; }
-            if git push origin HEAD:main; then
-              echo "Search analysis published"
-              exit 0
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Search analysis published"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --hard origin/main
+              git checkout HEAD@{1} -- data/search_analysis.json || true
+              git add data/search_analysis.json
+              git commit -m "Update searchable stock analysis" || true
+              if git push origin HEAD:main; then
+                echo "Search analysis published after conflict recovery"
+                exit 0
+              fi
             fi
             sleep 5
           done
-          echo "Failed to publish search analysis after 3 attempts"
+          echo "Failed to publish search analysis after 5 attempts"
           exit 1
