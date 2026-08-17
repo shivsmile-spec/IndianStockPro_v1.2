@@ -8,7 +8,7 @@
   const money=v=>Number.isFinite(Number(v))?`₹${Number(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
   const n=v=>Number.isFinite(Number(v))?Number(v):null;
   function fmt(v){return n(v)!==null?n(v).toFixed(1):"—"}
-  function load(){return fetch(URL,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{data=x;window.indianStockSearchAnalysis=x;return x}).catch(e=>{console.warn("Search analysis unavailable",e);return null})}
+  function load(){return fetch(URL,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{data=x;window.indianStockSearchAnalysis=x;window.showSearchAnalysisSymbol=function(sym){const row=find(sym);if(row)show(row);};return x}).catch(e=>{console.warn("Search analysis unavailable",e);return null})}
   function find(sym){return data?.stocks?.find(x=>norm(x.symbol)===norm(sym))||null}
   function live(sym){return window.indianStockLiveQuotes?.quotes?.[norm(sym)]||null}
   function articleCards(articles){if(!Array.isArray(articles)||!articles.length)return `<div class="reason">No published articles are available for this stock in the current research feed.</div>`;return articles.slice(0,8).map(a=>`<div class="analysis-box"><strong>${esc(a.title||"Untitled")}</strong><div class="small">${esc(a.published||"")} · ${esc(a.classification?.direction||"neutral")} · ${esc(a.classification?.impact||"low")}</div>${a.description?`<div class="small">${esc(a.description)}</div>`:""}${a.link?`<a class="expert-link" href="${esc(a.link)}" target="_blank" rel="noopener">Read source →</a>`:""}</div>`).join("")}
