@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,8 +46,20 @@ jobs:
 
       - name: Commit updated analysis dataset
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/search_analysis.json
-          git diff --cached --quiet || git commit -m "Update searchable stock analysis"
-          git push
+          git diff --cached --quiet && echo "No dataset changes" && exit 0
+          git commit -m "Update searchable stock analysis"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; git add data/search_analysis.json; git commit -m "Update searchable stock analysis" || true; }
+            if git push origin HEAD:main; then
+              echo "Search analysis published"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Failed to publish search analysis after 3 attempts"
+          exit 1
