@@ -1,0 +1,65 @@
+name: Fundamental Health Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 10 * * 1-5"   # 4:00 PM IST, after market close
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fundamentals-snapshot
+  cancel-in-progress: true
+
+jobs:
+  fundamentals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install fundamentals dependency
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r engine/fundamentals_requirements.txt
+
+      - name: Generate fundamental snapshot
+        run: python engine/fundamentals_engine.py
+
+      - name: Verify fundamentals dataset
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/fundamentals.json")
+          body=json.loads(p.read_text())
+          print("Fundamental snapshots:", body.get("count"))
+          if not isinstance(body.get("stocks"), dict) or not body.get("stocks"):
+              raise SystemExit("No fundamental stock snapshots were generated")
+          PY
+
+      - name: Commit fundamentals snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fundamentals.json
+          if git diff --cached --quiet; then
+            echo "No fundamental changes to commit."
+            exit 0
+          fi
+          git commit -m "Update fundamental health snapshot"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main && git push origin HEAD:main && exit 0
+            git rebase --abort || true
+            echo "Retry $attempt"
+          done
+          exit 1
