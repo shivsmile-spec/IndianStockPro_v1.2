@@ -44,3 +44,39 @@
   function install(){fetch(DATA_URL,{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject(Error("HTTP "+r.status))).then(d=>{window.institutionalPicksSnapshot=d.snapshotDate||"";render(d)}).catch(e=>console.warn("Institutional research unavailable",e))}
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",install);else install();
 })();
+
+
+/* Dashboard order fix: keep External Market Intelligence below stock-analysis sections. */
+(function(){
+  "use strict";
+  function place(){
+    const panel=document.querySelector(".expert-panel");
+    if(!panel) return false;
+    const container=panel.parentNode;
+    if(!container) return false;
+    const fund=document.getElementById("isp-fundamentals");
+    const institutional=document.getElementById("institutionalResearchPanel");
+    const integrated=document.getElementById("integratedCards")?.closest("section.panel");
+    const quant=document.getElementById("quantCards")?.closest("section.panel");
+    const bands=document.getElementById("bands")?.closest("section.panel");
+    const target=fund || institutional || bands || quant || integrated;
+    if(target && target.parentNode===container){
+      target.parentNode.insertBefore(panel,target.nextSibling);
+      return true;
+    }
+    return false;
+  }
+  function start(){
+    place();
+    const root=document.querySelector(".container");
+    if(root){
+      const observer=new MutationObserver(()=>place());
+      observer.observe(root,{childList:true,subtree:true});
+      setTimeout(()=>observer.disconnect(),15000);
+    }
+    setTimeout(place,250);
+    setTimeout(place,1000);
+    setTimeout(place,2500);
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+})();
