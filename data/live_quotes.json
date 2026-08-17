@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T10:06:07.553397+00:00",
+  "generatedAt": "2026-08-17T11:02:29.488985+00:00",
   "source": "Yahoo Finance with NSE India fallback",
   "quoteCount": 30,
   "requestedCount": 30,
@@ -121,21 +121,21 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
+    "FEDERALBNK": {
+      "price": 354.1,
+      "previousClose": 351.3,
+      "change": 2.8000000000000114,
+      "changePct": 0.7970395673213809,
+      "timestamp": "2026-08-17T09:44:54+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
     "RBLBANK": {
       "price": 381.5,
       "previousClose": 385.0,
       "change": -3.5,
       "changePct": -0.9090909090909091,
       "timestamp": "2026-08-17T09:45:03+00:00",
-      "marketState": "",
-      "source": "Yahoo Finance chart endpoint"
-    },
-    "KOTAKBANK": {
-      "price": 392.7,
-      "previousClose": 391.15,
-      "change": 1.5500000000000114,
-      "changePct": 0.3962674165921031,
-      "timestamp": "2026-08-17T09:45:04+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
@@ -175,12 +175,12 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
-    "FORTIS": {
-      "price": 908.75,
-      "previousClose": 929.0,
-      "change": -20.25,
-      "changePct": -2.1797631862217437,
-      "timestamp": "2026-08-17T09:45:06+00:00",
+    "TATACHEM": {
+      "price": 662.9,
+      "previousClose": 670.65,
+      "change": -7.75,
+      "changePct": -1.1555953179750988,
+      "timestamp": "2026-08-17T10:00:01+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
@@ -190,15 +190,6 @@
       "change": 20.40000000000009,
       "changePct": 1.9815444390480903,
       "timestamp": "2026-08-17T09:45:03+00:00",
-      "marketState": "",
-      "source": "Yahoo Finance chart endpoint"
-    },
-    "AUBANK": {
-      "price": 1072.2,
-      "previousClose": 1081.9,
-      "change": -9.700000000000045,
-      "changePct": -0.8965708475829601,
-      "timestamp": "2026-08-17T09:45:00+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
@@ -229,6 +220,15 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
+    "AUBANK": {
+      "price": 1072.2,
+      "previousClose": 1081.9,
+      "change": -9.700000000000045,
+      "changePct": -0.8965708475829601,
+      "timestamp": "2026-08-17T09:45:00+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
     "COFORGE": {
       "price": 1806.0,
       "previousClose": 1812.0,
@@ -256,21 +256,21 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
-    "DEEPAKNTR": {
-      "price": 1780.5,
-      "previousClose": 1723.2,
-      "change": 57.299999999999955,
-      "changePct": 3.325208913649022,
-      "timestamp": "2026-08-17T10:00:01+00:00",
-      "marketState": "",
-      "source": "Yahoo Finance chart endpoint"
-    },
     "BHARTIARTL": {
       "price": 1969.3,
       "previousClose": 1992.1,
       "change": -22.799999999999955,
       "changePct": -1.1445208573866752,
       "timestamp": "2026-08-17T09:44:59+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "DEEPAKNTR": {
+      "price": 1780.5,
+      "previousClose": 1723.2,
+      "change": 57.299999999999955,
+      "changePct": 3.325208913649022,
+      "timestamp": "2026-08-17T10:00:01+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     }
