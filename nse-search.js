@@ -1,11 +1,15 @@
-/* Indian Stock Pro — NSE-wide search layer */
+/* Indian Stock Pro — NSE-wide search + reliable live price renderer */
 (function(){
   "use strict";
   const SEARCH_URL="./data/nse_universe.json?v="+Date.now();
+  const QUOTE_URL="./data/live_quotes.json?v="+Date.now();
   let universe=[];
   let ready=false;
+
   const norm=v=>String(v||"").trim().toUpperCase();
   const esc=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+  const num=v=>Number.isFinite(Number(v))?Number(v):null;
+  const money=v=>num(v)!==null?`₹${num(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
 
   async function loadUniverse(){
     try{
@@ -56,13 +60,67 @@
     }else alert(`${item.symbol} — ${item.companyName||item.company||item.name||"NSE stock"}\n\nThis NSE stock is not currently in the Indian Stock Pro analysis universe.`);
   }
 
-  function loadLivePriceLayer(){
-    if(document.querySelector('script[data-live-price-layer]'))return;
-    const s=document.createElement("script");
-    s.src="./live-price-ui.js?v=2&ts="+Date.now();
-    s.async=false;
-    s.dataset.livePriceLayer="1";
-    (document.body||document.head).appendChild(s);
+  function injectLiveCSS(){
+    if(document.getElementById("isp-live-direct-css"))return;
+    const s=document.createElement("style");
+    s.id="isp-live-direct-css";
+    s.textContent=`
+      .isp-live-direct{text-align:right;line-height:1.22}
+      .isp-live-direct .main{font-size:20px;font-weight:900}
+      .isp-live-direct .tag{display:inline-block;margin-right:5px;padding:2px 5px;border-radius:999px;background:#eaf7ee;color:#16743b;font-size:9px;font-weight:900;vertical-align:2px}
+      .isp-live-direct .chg{font-size:11px;font-weight:900;margin-top:2px}
+      .isp-live-direct .up{color:#16743b}.isp-live-direct .down{color:#b42318}.isp-live-direct .flat{color:#667085}
+      .isp-live-direct .meta{font-size:10px;color:#667085;margin-top:3px;font-weight:400}
+      @media(max-width:700px){.isp-live-direct .main{font-size:18px}.isp-live-direct .meta{font-size:9px}}
+    `;
+    document.head.appendChild(s);
+  }
+
+  function renderLiveCards(feed){
+    const quotes=feed&&feed.quotes&&typeof feed.quotes==="object"?feed.quotes:{};
+    document.querySelectorAll(".card").forEach(card=>{
+      const rank=card.querySelector(".rank"),el=card.querySelector(".price");
+      if(!rank||!el)return;
+      const m=(rank.textContent||"").trim().match(/^#?\s*\d+\s+([A-Za-z0-9&.-]+)/);
+      if(!m)return;
+      const q=quotes[norm(m[1])];
+      const p=num(q&&q.price);
+      if(p===null)return;
+      const prev=num(q.previousClose),change=num(q.change),pct=num(q.changePct);
+      const cls=pct===null?"flat":pct>0?"up":"down";
+      const pctText=pct===null?"Change unavailable":`${pct>0?"+":""}${pct.toFixed(2)}%`;
+      const changeText=change===null?"":` (${change>0?"+":""}${money(change)})`;
+      let updated="";
+      if(q.timestamp){
+        const d=new Date(q.timestamp);
+        if(!Number.isNaN(d.getTime())){
+          try{updated=new Intl.DateTimeFormat("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST";}catch(e){updated=d.toLocaleString()+" IST";}
+        }
+      }
+      el.innerHTML=`<div class="isp-live-direct"><div class="main"><span class="tag">LIVE</span>${esc(money(p))}</div><div class="chg ${cls}">${esc(pctText+changeText)}</div><div class="meta">Prev close ${esc(money(prev))}${updated?` · Updated ${esc(updated)}`:""}</div></div>`;
+    });
+  }
+
+  async function refreshLiveCards(){
+    try{
+      const r=await fetch(QUOTE_URL,{cache:"no-store"});
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      const feed=await r.json();
+      window.indianStockLiveQuotes=feed;
+      renderLiveCards(feed);
+      return feed;
+    }catch(e){console.warn("Live quote card renderer unavailable:",e);return null;}
+  }
+
+  function startLiveRenderer(){
+    injectLiveCSS();
+    refreshLiveCards();
+    let count=0;
+    const observer=new MutationObserver(()=>renderLiveCards(window.indianStockLiveQuotes));
+    observer.observe(document.body,{childList:true,subtree:true});
+    window.setTimeout(()=>observer.disconnect(),120000);
+    window.setInterval(refreshLiveCards,60000);
+    window.setInterval(()=>renderLiveCards(window.indianStockLiveQuotes),5000);
   }
 
   function install(){
@@ -73,7 +131,7 @@
     const analyze=document.getElementById("analyzeBtn");
     if(analyze)analyze.addEventListener("click",function(e){const symbol=norm(input.value);if(!symbol||!ready)return;const found=universe.find(x=>norm(x.symbol)===symbol);if(found){e.preventDefault();e.stopImmediatePropagation();selectResult(symbol);}},true);
     loadUniverse();
-    loadLivePriceLayer();
+    startLiveRenderer();
   }
 
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",install);else install();
