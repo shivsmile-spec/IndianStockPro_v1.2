@@ -1,0 +1,49 @@
+name: Fix dashboard section order
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/fix-dashboard-order.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reorder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Move External Market Intelligence below analysis sections
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('external-intelligence.js')
+          s = p.read_text(encoding='utf-8')
+          marker = '/* Dashboard order fix: keep External Market Intelligence below stock-analysis sections. */'
+          if marker not in s:
+              s += '''\n\n/* Dashboard order fix: keep External Market Intelligence below stock-analysis sections. */\n(function(){\n  "use strict";\n  function place(){\n    const panel=document.querySelector(".expert-panel");\n    if(!panel) return false;\n    const container=panel.parentNode;\n    if(!container) return false;\n    const fund=document.getElementById("isp-fundamentals");\n    const institutional=document.getElementById("institutionalResearchPanel");\n    const integrated=document.getElementById("integratedCards")?.closest("section.panel");\n    const quant=document.getElementById("quantCards")?.closest("section.panel");\n    const bands=document.getElementById("bands")?.closest("section.panel");\n    const target=fund || institutional || bands || quant || integrated;\n    if(target && target.parentNode===container){\n      target.parentNode.insertBefore(panel,target.nextSibling);\n      return true;\n    }\n    return false;\n  }\n  function start(){\n    place();\n    const root=document.querySelector(".container");\n    if(root){\n      const observer=new MutationObserver(()=>place());\n      observer.observe(root,{childList:true,subtree:true});\n      setTimeout(()=>observer.disconnect(),15000);\n    }\n    setTimeout(place,250);\n    setTimeout(place,1000);\n    setTimeout(place,2500);\n  }\n  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();\n})();\n'''
+              p.write_text(s,encoding='utf-8')
+              print('Added dashboard ordering guard')
+          else:
+              print('Dashboard ordering guard already present')
+          PY
+
+      - name: Commit ordering fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add external-intelligence.js
+          if git diff --cached --quiet; then
+            echo "No ordering change needed"
+            exit 0
+          fi
+          git commit -m "Move external market intelligence below analysis"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
