@@ -1,0 +1,38 @@
+name: Wire full search analysis UI
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'search-analysis-ui.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Inject search analysis loader
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('nse-search.js')
+          s=p.read_text(encoding='utf-8')
+          marker='search-analysis-ui.js'
+          if marker not in s:
+              needle='    startLiveRenderer();\n'
+              replacement=needle+'    const analysisLoader=document.createElement("script");\n    analysisLoader.src="./search-analysis-ui.js?v="+Date.now();\n    document.head.appendChild(analysisLoader);\n'
+              if needle not in s:
+                  raise SystemExit('nse-search.js insertion point not found')
+              p.write_text(s.replace(needle,replacement,1),encoding='utf-8')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nse-search.js
+          git diff --cached --quiet || git commit -m "Load full search analysis UI"
+          git push
