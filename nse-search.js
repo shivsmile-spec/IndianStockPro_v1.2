@@ -28,6 +28,21 @@
     return arr.find(x=>norm(x.symbol)===norm(symbol));
   }
 
+  function openFullAnalysis(symbol){
+    if(typeof window.showSearchAnalysisSymbol==="function"){
+      window.showSearchAnalysisSymbol(symbol);
+      return true;
+    }
+    if(!openFullAnalysis._tries)openFullAnalysis._tries=0;
+    if(openFullAnalysis._tries<30){
+      openFullAnalysis._tries++;
+      window.setTimeout(()=>openFullAnalysis(symbol),100);
+      return true;
+    }
+    openFullAnalysis._tries=0;
+    return false;
+  }
+
   function renderResults(query){
     const box=document.getElementById("searchResults");
     if(!box)return;
@@ -49,15 +64,16 @@
   function selectResult(symbol){
     const item=universe.find(x=>norm(x.symbol)===norm(symbol));
     if(!item)return;
-    const analyzed=currentAnalyzed(symbol);
     const input=document.getElementById("search");
     if(input)input.value=item.symbol;
-    if(analyzed&&typeof window.showDetails==="function"){window.showDetails(analyzed);return;}
     const box=document.getElementById("searchResults");
     if(box)box.style.display="none";
+    if(openFullAnalysis(item.symbol))return;
+    const analyzed=currentAnalyzed(symbol);
+    if(analyzed&&typeof window.showDetails==="function"){window.showDetails(analyzed);return;}
     if(typeof window.openModal==="function"){
-      window.openModal(`${esc(item.symbol)} — NSE Stock Directory`,`<div class="hero"><div class="hero-line"><div><div class="hero-symbol">${esc(item.symbol)}</div><div>${esc(item.companyName||item.company||item.name||"NSE equity")}</div></div><div class="hero-price">NSE Equity</div></div></div><div class="detail-grid"><div class="detail"><small>Company</small><br><b>${esc(item.companyName||item.company||item.name||"—")}</b></div><div class="detail"><small>Symbol</small><br><b>${esc(item.symbol||"—")}</b></div><div class="detail"><small>Series</small><br><b>${esc(item.series||"EQ")}</b></div><div class="detail"><small>ISIN</small><br><b>${esc(item.isin||"—")}</b></div></div><div class="reason"><b>Indian Stock Pro analysis</b><br><span>This stock is listed in the NSE-wide directory, but it is not currently part of the active quantitative analysis universe. It can be added to the model universe in a future individual-analysis feature.</span></div>`);
-    }else alert(`${item.symbol} — ${item.companyName||item.company||item.name||"NSE stock"}\n\nThis NSE stock is not currently in the Indian Stock Pro analysis universe.`);
+      window.openModal(`${esc(item.symbol)} — NSE Stock Directory`,`<div class="hero"><div class="hero-line"><div><div class="hero-symbol">${esc(item.symbol)}</div><div>${esc(item.companyName||item.company||item.name||"NSE equity")}</div></div><div class="hero-price">NSE Equity</div></div></div><div class="detail-grid"><div class="detail"><small>Company</small><br><b>${esc(item.companyName||item.company||item.name||"—")}</b></div><div class="detail"><small>Symbol</small><br><b>${esc(item.symbol||"—")}</b></div><div class="detail"><small>Series</small><br><b>${esc(item.series||"EQ")}</b></div><div class="detail"><small>ISIN</small><br><b>${esc(item.isin||"—")}</b></div></div><div class="reason"><b>Indian Stock Pro analysis</b><br><span>This stock is listed in the NSE-wide directory, but its full searchable analysis dataset is not currently published. Please refresh after the analysis engine finishes.</span></div>`);
+    }else alert(`${item.symbol} — ${item.companyName||item.company||item.name||"NSE stock"}\n\nFull stock analysis is not currently published.`);
   }
 
   function injectLiveCSS(){
@@ -115,7 +131,6 @@
   function startLiveRenderer(){
     injectLiveCSS();
     refreshLiveCards();
-    let count=0;
     const observer=new MutationObserver(()=>renderLiveCards(window.indianStockLiveQuotes));
     observer.observe(document.body,{childList:true,subtree:true});
     window.setTimeout(()=>observer.disconnect(),120000);
