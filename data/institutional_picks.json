@@ -1,0 +1,83 @@
+{
+  "snapshotDate": "2026-08-17",
+  "note": "External research snapshot. These are published views from institutions, broker research houses and fund-manager commentary; they are not recommendations by Indian Stock Pro.",
+  "items": [
+    {
+      "symbol": "MOFSL",
+      "company": "Motilal Oswal Financial Services",
+      "view": "BUY",
+      "target": "₹1,024",
+      "source": "ICICI Securities",
+      "sourceType": "Broker research",
+      "date": "2026-07-30",
+      "reason": "ICICI Securities cited strong capital-markets execution, higher recurring revenue, AUM growth and fee-based revenue mix.",
+      "url": "https://www.moneycontrol.com/news/business/stocks/buy-motilal-oswal-financial-services-target-rs-1024-icici-securities-13988562.html"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "company": "Persistent Systems",
+      "view": "BUY",
+      "target": null,
+      "source": "Axis Direct",
+      "sourceType": "Broker research",
+      "date": "2026-08-04",
+      "reason": "Axis Direct listed Persistent Systems with a maintained BUY rating in its August result update coverage.",
+      "url": "https://simplehai.axisdirect.in/research/research-reports/1st%2C%203rd%20and%205th%20Sat%3A%2010.00%20to%2013.00%20IST"
+    },
+    {
+      "symbol": "UNOMINDA",
+      "company": "Uno Minda",
+      "view": "BUY",
+      "target": null,
+      "source": "Axis Direct",
+      "sourceType": "Broker research",
+      "date": "2026-08-05",
+      "reason": "Axis Direct maintained BUY, citing strong growth outlook, diversified business mix and a powertrain-agnostic portfolio.",
+      "url": "https://simplehai.axisdirect.in/research/reports/fundamental"
+    },
+    {
+      "symbol": "PRINCEPIPE",
+      "company": "Prince Pipes",
+      "view": "BUY",
+      "target": "₹355",
+      "source": "Axis Direct",
+      "sourceType": "Broker research",
+      "date": "2026-08-05",
+      "reason": "Axis Direct maintained BUY with a ₹355 target, implying about 29% upside from the cited report price.",
+      "url": "https://simplehai.axisdirect.in/research/reports/fundamental"
+    },
+    {
+      "symbol": "NATIONALUM",
+      "company": "National Aluminium Company",
+      "view": "BUY",
+      "target": null,
+      "source": "Axis Direct",
+      "sourceType": "Broker research",
+      "date": "2026-08-04",
+      "reason": "Axis Direct maintained BUY in its August result update coverage.",
+      "url": "https://simplehai.axisdirect.in/research/research-reports/1st%2C%203rd%20and%205th%20Sat%3A%2010.00%20to%2013.00%20IST"
+    },
+    {
+      "symbol": "MCX",
+      "company": "Multi Commodity Exchange of India",
+      "view": "ADDED TO JEFFERIES LONG-ONLY PORTFOLIO",
+      "target": null,
+      "source": "Jefferies",
+      "sourceType": "Institutional portfolio",
+      "date": "2026-08-07",
+      "reason": "Jefferies reworked its India long-only portfolio and added MCX while making other allocation changes.",
+      "url": "https://www.reuters.com/world/india/jefferies-sees-brighter-india-outlook-credit-capital-flows-ramp-up-removes-hdfc-bank-portfolio-revamp-2026-08-07/"
+    },
+    {
+      "symbol": "LENSKART",
+      "company": "Lenskart Solutions",
+      "view": "ADDED TO JEFFERIES LONG-ONLY PORTFOLIO",
+      "target": null,
+      "source": "Jefferies",
+      "sourceType": "Institutional portfolio",
+      "date": "2026-08-07",
+      "reason": "Jefferies added Lenskart Solutions in its India long-only portfolio revision.",
+      "url": "https://www.reuters.com/world/india/jefferies-sees-brighter-india-outlook-credit-capital-flows-ramp-up-removes-hdfc-bank-portfolio-revamp-2026-08-07/"
+    }
+  ]
+}
