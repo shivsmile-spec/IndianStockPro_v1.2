@@ -1,0 +1,55 @@
+/* Indian Stock Pro — full NSE search analysis UI */
+(function(){
+  "use strict";
+  const URL="./data/search_analysis.json?v="+Date.now();
+  let data=null;
+  const norm=v=>String(v??"").trim().toUpperCase();
+  const esc=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+  const money=v=>Number.isFinite(Number(v))?`₹${Number(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
+  const n=v=>Number.isFinite(Number(v))?Number(v):null;
+  function fmt(v){return n(v)!==null?n(v).toFixed(1):"—"}
+  function pct(v){return n(v)!==null?n(v).toFixed(2)+"%":"—"}
+  function load(){return fetch(URL,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{data=x;window.indianStockSearchAnalysis=x;return x}).catch(e=>{console.warn("Search analysis unavailable",e);return null})}
+  function find(sym){return data?.stocks?.find(x=>norm(x.symbol)===norm(sym))||null}
+  function live(sym){return window.indianStockLiveQuotes?.quotes?.[norm(sym)]||null}
+  function articleCards(articles){
+    if(!Array.isArray(articles)||!articles.length)return `<div class="reason">No published articles are available for this stock in the current research feed.</div>`;
+    return articles.slice(0,8).map(a=>`<div class="analysis-box"><strong>${esc(a.title||"Untitled")}</strong><div class="small">${esc(a.published||"")} · ${esc(a.classification?.direction||"neutral")} · ${esc(a.classification?.impact||"low")}</div>${a.description?`<div class="small">${esc(a.description)}</div>`:""}${a.link?`<a class="expert-link" href="${esc(a.link)}" target="_blank" rel="noopener">Read source →</a>`:""}</div>`).join("");
+  }
+  function show(row){
+    if(!row||typeof window.openModal!=="function")return;
+    const q=live(row.symbol), quant=row.quantitative, logical=row.logical||{};
+    const price=q?money(q.price):"Live quote unavailable";
+    const factors=quant?.factors||{};
+    const factorNames={momentum:"Momentum",trend:"Trend",relativeStrength:"Relative Strength",volume:"Volume",rsiQuality:"RSI Quality",breakout:"Breakout",volatility:"Volatility",riskReward:"Risk / Reward"};
+    const factorHtml=Object.entries(factorNames).map(([k,label])=>`<div class="detail"><small>${label}</small><br><b>${fmt(factors[k])}/100</b></div>`).join("");
+    const raw=quant?.raw||{};
+    const rawHtml=[['return5d','5D Return','%'],['return20d','20D Return','%'],['return60d','60D Return','%'],['rsi14','RSI 14',''],['volumeRatio','Volume Ratio','x'],['volatility20d','20D Volatility','%']].map(x=>`<div class="detail"><small>${x[1]}</small><br><b>${fmt(raw[x[0]])}${x[2]}</b></div>`).join("");
+    const news=row.news||{};
+    const newsArticles=news.articles||[];
+    window.openModal(`${esc(row.symbol)} — Full Stock Analysis`,`
+      <div class="hero"><div class="hero-line"><div><div class="hero-symbol">${esc(row.symbol)}</div><div>${esc(row.company)}</div></div><div class="hero-price">${esc(price)}<div class="live-price-note">${q?.timestamp?`Updated ${esc(q.timestamp)}`:"Published quote unavailable"}</div></div></div>
+      <div class="score-row"><div class="score-card"><div class="score-label">QUANTITATIVE SCORE</div><div class="score-value">${fmt(quant?.score)} / 100</div></div><div class="score-card"><div class="score-label">LOGICAL VIEW</div><div class="score-value" style="font-size:17px">${esc(logical.label||"Research")}</div></div></div></div>
+      <div class="report-section"><h3>🧠 Logical / Statistical Assessment</h3><div class="verdict"><div class="verdict-box"><div class="label">BASE SIGNAL</div><div class="value">${esc(logical.baseSignal||"—")}</div></div><div class="verdict-box"><div class="label">DECISION POSTURE</div><div class="value">${esc(logical.decision||"—")}</div></div><div class="verdict-box"><div class="label">NEWS DIRECTION</div><div class="value">${esc(news.direction||"neutral")}</div></div></div><div class="conclusion"><div class="conclusion-title">Model interpretation</div><div class="conclusion-text">${esc(logical.confidenceNote||"")}</div></div></div>
+      <div class="report-section"><h3>📊 Quantitative / Statistical Factors</h3><div class="detail-grid">${factorHtml}</div></div>
+      <div class="report-section"><h3>📈 Raw Market Data</h3><div class="raw-grid">${rawHtml}</div></div>
+      <div class="report-section"><h3>📰 Company & Market News</h3><div class="analysis-grid"><div class="analysis-box"><strong>Coverage</strong><div class="small">${esc(news.coverage||"—")}</div></div><div class="analysis-box"><strong>Direction</strong><div class="small">${esc(news.direction||"neutral")}</div></div><div class="analysis-box"><strong>Impact</strong><div class="small">${esc(news.impact||"low")}</div></div></div><div class="reason">${esc(news.summary||"")}</div><div class="analysis-grid" style="margin-top:10px">${articleCards(newsArticles)}</div></div>
+      <div class="report-section"><h3>🔎 Data Availability</h3><div class="reason">${row.analysisAvailable?"Statistical analysis is available for this NSE equity and was generated by the searchable analysis engine.":"The stock is searchable in the NSE directory, but sufficient statistical history was not available for the quantitative engine."}</div></div>
+      <div class="footer-note">This is research output from Indian Stock Pro's published dataset. It is not investment advice or an automatic buy/sell recommendation.</div>`);
+  }
+  function install(){
+    load().then(()=>{
+      const input=document.getElementById("search"),box=document.getElementById("searchResults"),btn=document.getElementById("analyzeBtn");
+      if(!input||!box)return;
+      const intercept=(e)=>{
+        const q=norm(input.value);if(!q||!data)return;
+        const exact=find(q);if(!exact)return;
+        e.preventDefault();e.stopImmediatePropagation();box.style.display="none";show(exact);
+      };
+      input.addEventListener("keydown",e=>{if(e.key==="Enter")intercept(e)},true);
+      if(btn)btn.addEventListener("click",intercept,true);
+      box.addEventListener("click",e=>{const row=e.target.closest?.(".nse-wide-result");if(!row)return;const exact=find(row.getAttribute("data-nse-symbol"));if(!exact)return;e.preventDefault();e.stopImmediatePropagation();box.style.display="none";show(exact)},true);
+    });
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",install);else install();
+})();
