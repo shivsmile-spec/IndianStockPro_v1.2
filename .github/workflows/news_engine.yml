@@ -2,6 +2,12 @@ name: News and Context Analysis
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'engine/news_engine.py'
+      - 'data/rankings.json'
+      - '.github/workflows/news_engine.yml'
   schedule:
     - cron: "45 3 * * 1-5"
     - cron: "45 7 * * 1-5"
@@ -48,14 +54,25 @@ jobs:
           git add data/news_context.json
           git diff --cached --quiet && echo "No news dataset changes" && exit 0
           git commit -m "Update news and industry context analysis"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; git add data/news_context.json; git commit -m "Update news and industry context analysis" || true; }
-            if git push origin HEAD:main; then
-              echo "News and context published"
-              exit 0
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "News and context published"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --hard origin/main
+              git checkout HEAD -- data/news_context.json || true
+              git add data/news_context.json
+              git commit -m "Update news and industry context analysis" || true
+              if git push origin HEAD:main; then
+                echo "News and context published after conflict recovery"
+                exit 0
+              fi
             fi
             sleep 5
           done
-          echo "Failed to publish news context after 3 attempts"
+          echo "Failed to publish news context after 5 attempts"
           exit 1
