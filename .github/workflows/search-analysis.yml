@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'engine/quant_engine.py'
+      - 'engine/search_analysis.py'
       - 'data/nse_universe.json'
       - 'data/news_context.json'
       - '.github/workflows/search-analysis.yml'
@@ -22,6 +23,7 @@ concurrency:
 jobs:
   build-search-analysis:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -38,4 +40,12 @@ jobs:
 
       - name: Build search analysis dataset
         run: |
-         
+          python engine/search_analysis.py
+
+      - name: Commit updated analysis dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/search_analysis.json
+          git diff --cached --quiet || git commit -m "Update searchable stock analysis"
+          git push
