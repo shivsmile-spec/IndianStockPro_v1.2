@@ -1,0 +1,76 @@
+name: Fix live price card display
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/fix-live-price-ui.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Patch live price renderer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path("index.html")
+          text = p.read_text(encoding="utf-8")
+
+          pattern = r"function livePriceHTML\(s\)\{.*?\n\}\n\nfunction liveQuoteNote"
+          replacement = '''function livePriceHTML(s){
+            const q=s?.liveQuote;
+            const n=v=>Number.isFinite(Number(v))?Number(v):null;
+            const money=v=>n(v)!==null?`₹${n(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})}`:"—";
+            const p=n(q?.price);
+            if(p===null)return `<div class="live-price-unavailable">—</div>`;
+            const change=n(q?.change), pct=n(q?.changePct), prev=n(q?.previousClose);
+            const cls=pct===null?"live-neutral":pct>0?"live-up":"live-down";
+            const changeText=change===null?"":`${change>0?"+":""}${money(change)}`;
+            const pctText=pct===null?"Change unavailable":`${pct>0?"+":""}${pct.toFixed(2)}%`;
+            let updated="";
+            if(q?.timestamp){
+              const d=new Date(q.timestamp);
+              if(!Number.isNaN(d.getTime())){
+                try{updated=new Intl.DateTimeFormat("en-IN",{dateStyle:"short",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST";}catch(e){updated=d.toLocaleString()+" IST";}
+              }
+            }
+            return `<div class="live-card-price"><div><span class="live-now">LIVE</span> ${money(p)}</div><div class="live-card-change ${cls}">${changeText}${changeText?" · ":""}${pctText}</div><div class="live-card-meta">Prev close ${money(prev)}${updated?` · Updated ${updated}`:""}</div></div>`;
+          }
+
+          function liveQuoteNote'''
+
+          new_text, count = re.subn(pattern, replacement, text, count=1, flags=re.S)
+          if count != 1:
+              raise SystemExit("Could not find the livePriceHTML function to patch")
+
+          css_marker = "/* v1.9 LIVE MARKET PRICE LAYER */"
+          css_add = '''\n.live-card-price{text-align:right;line-height:1.22;min-width:155px}.live-card-price>div:first-child{font-size:20px;font-weight:900;white-space:nowrap}.live-card-change{font-size:12px;font-weight:900;margin-top:4px;white-space:nowrap}.live-card-meta{font-size:10px;color:#667085;margin-top:4px;white-space:nowrap}.live-now{display:inline-block;margin-right:5px;padding:2px 5px;border-radius:999px;background:#eaf7ee;color:#16743b;font-size:9px;font-weight:900;vertical-align:2px}.live-up{color:#16743b}.live-down{color:#b42318}.live-neutral{color:#667085}\n'''
+          if "live-card-price" not in new_text:
+              new_text = new_text.replace(css_marker, css_marker + css_add, 1)
+
+          new_text = new_text.replace('<script src="./nse-search.js?v=1"></script>', '<script src="./nse-search.js?v=2"></script>\n<script src="./live-price-ui.js?v=3"></script>')
+          p.write_text(new_text, encoding="utf-8")
+          print("Patched index.html live price renderer and bumped script versions")
+          PY
+
+      - name: Commit patched index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "No patch needed"
+            exit 0
+          fi
+          git commit -m "Fix live price card display"
+          git push
