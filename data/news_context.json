@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "stage": "news_context",
-  "generated": "2026-08-18T14:03:24.260650+00:00",
+  "generated": "2026-08-18T15:07:19.922270+00:00",
   "methodology": {
     "description": "Company news, industry context, macroeconomic, commodity and geopolitical screening after quantitative stock selection.",
     "note": "News signals are contextual inputs, not automatic buy or sell decisions."
@@ -33,10 +33,10 @@
         }
       },
       {
-        "title": "India's central bank holds rates, awaits clearer inflation signal before acting - reuters.com",
+        "title": "India's central bank holds rates, awaits clearer inflation signal before acting - Reuters",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaVh6a1FVeVF5VXFBMU5FU0ctdXFZWUZudWdoR1RSd2tGaTJENGNFcWkzQlFweDduUUpBTHVNWVJRdmlXZFlvUG1OYV9MaUtndEN3akxJWWZ4Ny1Jazl0M2p4VGdWNkNHNXZTcTdSTXQycVcxVGdNZmhHMUEyeUx1SE9LTjdUekg3MW9LcENxaEJoYS1vSXFDbDA0cmprREl2OTgzQkxMd0NYel9xdlpOS3I2WjhBQVBxVGJoOVZhVFBLc0My?oc=5",
         "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-        "description": "India's central bank holds rates, awaits clearer inflation signal before acting &nbsp;&nbsp; reuters.com",
+        "description": "India's central bank holds rates, awaits clearer inflation signal before acting &nbsp;&nbsp; Reuters",
         "classification": {
           "direction": "neutral",
           "impact": "low",
@@ -188,10 +188,10 @@
         }
       },
       {
-        "title": "How the global refining crisis has broken the crude-gas price link - Firstpost",
+        "title": "How the global refining crisis has broken the crude-gas price link - firstpost.com",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc3hmWFdHUF9oVnNiWW95UFRDMFVnbEZ1TFpicTVNS2ZjYV9kZkUwZ1pjbDg3T3BVbmM2VWppYlpqekhzc1FDSEhXbmMxN1F0bkpSR3M2Sk5VS2lRU0VGVjFacHljWG1ObE1wUFI4NVoyZkFSM2RMWHQ4Q3kzUnNyaW9CTDdYU2t6RkdCOWdFRDc4QVEtMlIzSDJIUWFkZ3YzUG1ZODhsUlUybXhaTEFYelNjV0tCd9IBuwFBVV95cUxQT0g3NlRkbmd2UTd6aFZsejh2TEtDbG1QLTl4MUpDdWZKcnZsclRTXzV5aVcyMXJva21VUlFRZUlpZE5FVnJHV1NEUnJneFhlNFJNUTI3dmp6SUFIbmNkb014QWJ5NDNoUi0xLVVxYW9xZ2Z0VHRiNFZzaG9CZWI0WHgxTWlsRk9iWUpBV0lmNF9xSjBlanFWYTI3SEhRVHlyRUZHSlNVTm5pMUtyNWZTUUhuTjdDZ2RXT0tJ?oc=5",
         "published": "Fri, 07 Aug 2026 07:29:07 GMT",
-        "description": "How the global refining crisis has broken the crude-gas price link &nbsp;&nbsp; Firstpost",
+        "description": "How the global refining crisis has broken the crude-gas price link &nbsp;&nbsp; firstpost.com",
         "classification": {
           "direction": "neutral",
           "impact": "low",
@@ -328,10 +328,10 @@
         }
       },
       {
-        "title": "India’s trade deals will matter more than ever amid uncertainties - deloitte.com",
+        "title": "India’s trade deals will matter more than ever amid uncertainties - Deloitte",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbVNEUF9teW9VSlNOTVBOOXNjbVkybkFnOTVDNkljbWpGTld4Z1BhS243VUhJcHJqMjh3UWJDRkQwYlhTam9fMzQwTTRuejFnMlJrUjNteUVmZE5LeUc4ODVPRHhFYVlQNGU4S3RwX1dKc01XTTB4VTR0STVNbVVMN0F5WndKRnNiSlpUcUlCV2pIY2ZiVUdBb09XMA?oc=5",
         "published": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "description": "India’s trade deals will matter more than ever amid uncertainties &nbsp;&nbsp; deloitte.com",
+        "description": "India’s trade deals will matter more than ever amid uncertainties &nbsp;&nbsp; Deloitte",
         "classification": {
           "direction": "neutral",
           "impact": "low",
@@ -435,9 +435,9 @@
         "company": "IDFC First Bank Limited",
         "sector": "Financial Services",
         "industry": "Banks - Regional",
-        "overallDirection": "neutral",
+        "overallDirection": "positive",
         "overallImpact": "low",
-        "newsScore": 0,
+        "newsScore": 2,
         "highImpactNewsCount": 0,
         "articles": [
           {
@@ -546,15 +546,17 @@
             }
           },
           {
-            "title": "SENSEX jumps more than 500 pts, NIFTY50 hovers around 25,750; IDFC First Bank tumbles 20%, UPL down over 8% - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORmJhQnkzcklGUHhCQ1I2V2Fnd1M3TVBPbVQ3QjhLdnZ4aHdERldtdlI2YThkVDljM0sxeVR1UXZMUXBiS3BSNnFqX1U4WFZwV3ZtNldHQ3FsTjdaQXVKOTFrTHJHSG1VRjhOVGdqQjJMNG9GYzc1dzIzLTJ0RHdqVHBoZU5yNlNXT0Q0OWZGRmRFQ0RfMzA4OThHRG12dEx0X1VtcG9MRVhxX1Rjc21PVHROM0xnbGNqLXpZS2NsTm5iRm9uNkhSeWprVVpnNmF2QzRFQ2JZcEdVS2pxUm1reC1YSTZwQUpGWkdlaVUxRQ?oc=5",
-            "published": "Sun, 22 Feb 2026 08:00:00 GMT",
-            "description": "SENSEX jumps more than 500 pts, NIFTY50 hovers around 25,750; IDFC First Bank tumbles 20%, UPL down over 8% &nbsp;&nbsp; Upstox",
+            "title": "IDFC FIRST Bank Makes Q4FY26 Earnings Call Recording Available Online - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLWNfSzlUelVIR0FrZUd6WGdwYWtXeG5SWkNSb2NRMElDUC05U3llSW1sTnZLVmQ1b2RlazFUdUVTMjNNVE1xb3Z1Ry1pWWs1eG15YVlPY1lrTm8ybDRpNndYMHprVmVPMTJYZWxPUVo5NjFBRXZjS1hKY3JkYzRISVR6M2l3VXFDMTNLNVZ2M2NXQkwtbldpakhvYUQwRS1vdFg4OXNUbnNnY2pKbFB1NFpiaDd0WDh1TWtOV3J3dw?oc=5",
+            "published": "Sat, 25 Apr 2026 07:00:00 GMT",
+            "description": "IDFC FIRST Bank Makes Q4FY26 Earnings Call Recording Available Online &nbsp;&nbsp; scanx.trade",
             "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "record"
+              ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -671,10 +673,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -688,10 +690,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -718,10 +720,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1294,10 +1296,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -1311,10 +1313,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1341,10 +1343,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1395,21 +1397,6 @@
             "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR1F3U3lReHkxNmVjcHE5YmxTM2tQU2hVeElqU3YzS0hfNHdoeDZNd1J6RE1wOVRfdGhnb0ZLblVEZTdpZll2QUh1ZmFwWjR6SC1DZi1hVWFKTV9QeEtpdzlLNnpzN1NzWVZKVG9NNDR1RTRHQVlUNjVaVEVlb2ttNTRsMGVtVGI5NXhwTnhzYWVTN3luNWNKOENSUnowQjZJMTNPUVpJTUU2d3NXRzdXTk9zajJHcFA5UGpCcGl5ak9sMmZfeVlIeXNiNEp1UExVcVk5NUJ4a250TTZMdGUxZ01uRVhIQ1J1Wmt1cWxTeVrSAfYBQVVfeXFMT0laem5xeXNzd1Y1UTlTeGtEV1pLdG9aRmsycXlPdnlqbHc1VzdKWjVIVlRjREdVcnVOXzlha1VqampUam40a0tTM0tPM2p5ekVVSTh2YVQzNlpqTlpLWmpGVVFxVk1oY3U4WWw1cVFUMkM4TTdwZk9nYkFGUGs3ZVhwdVVGRnBlU2lINk1EQUlkVWk1UHFscDVUaFBiNVhBMDlLRGV6b0lXVnFaOFdpU01jN09RcG9uVzVxb2tQWGs4LVNCVDhlNTI4RG85UGVGSGJSWjBIdXEwZE1Ub2pFQWRjY18yNzJCQ19xRlI3Q1doTmhYUnFR?oc=5",
             "published": "Sat, 24 Jan 2026 08:00:00 GMT",
             "description": "What You Can Learn From Indian Railway Finance Corporation Limited's (NSE:IRFC) P/E &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "IRFC OFS opens for retail investors; check details, Day 1 subscription status - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTzF2NFRfbEUwcVhEN21hMjFRWEFrM2VJbnRlaHBmVG9ObXB3SmlZaHlzUXlCOGlyT3ZuVTYzbzExM2VZV2Y5NTRYa3Y1MTh4UXMyeVBObkNfU0c0WENwVnpyMFNhWXBucnpIWmlVQTI1S2xvS2h3YzBpM1FQcTF4cjM5TEJyVmxmY1FxRjdadTBtemlaeDZPWWNDa0kwZHBWOTlRYW1UU2lQeE9kd3BtRWpmTGhnN3JXUWZHU1FqeS1wWF9DNm5XU2VMdmFjR2c?oc=5",
-            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "IRFC OFS opens for retail investors; check details, Day 1 subscription status &nbsp;&nbsp; Upstox",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1472,6 +1459,21 @@
             "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcUFoa0ZCTFhFQkhYc2dJaFZJRlBMWFVfQnNUek1DRWNYcTZ6SkVHQzBZdExxTTFrMHdzZDRMY2VDSUZBdXNUY1pKTTYwb1Z2dml3Q0VoMzQtVjY5NUxKaXVydkQ3VjNsaFVzM1JwYTFiYndLZ3BWZnI2YjZlaF9lZU1sZkxNeFNnUWZTckxuNEktQzEyOWhxTUNnMzFOei1mY00zUEN0TDUxeEk3QlNaWDJYLS1ES3BpTTFQZHk3QWdCQ2E2dzl6YnpiRXZWVC0tYXhjc1dDSdIB3AFBVV95cUxPYTB3aWNqOTFJcGJjamQ3ZkZaN3VGN0ZaNkwtbkcxU1B3TEQ0bDlmZmpfRUZvREhBdDNZcEc0N052T3NPdXY4Y3dLUUFTVlVVNTYwSmk0SXFfQWMybWxmYThZbmdrWWtVTkp5ZS0xSWJ2V1JUS0tYLUd6V2tuSnd6WTlNcFNQZkFOV183dm1SaDFzOXBQQUxLc2Z3RkF0Q3d1RWp1U2pBWjNVMmhTYk1zNGE4U2hrU0tGRGJLYjNfUmpwTTJnVEM2TXV5Ym5jX1g3NVRmMHo5aEpPbklL?oc=5",
             "published": "Fri, 26 Dec 2025 08:00:00 GMT",
             "description": "RVNL, IRFC, IRCTC: Railway stocks rally up to 12% in trade; here's why &nbsp;&nbsp; Business Standard",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Stocks To Watch, February 26: IDFC First Bank, IRFC, Waaree Energies, IT stocks, LT Foods, E2E Networks, Gravita India, RVNL - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNRXloT2RlTWpJcU0wMUtUZVVzVGwtcDhJSk90LW5YMnZHZllYTWJvc21QZmFHVzFHWGc2NEpvTXh2TlNJd284NER1SjNfYXpqd1htVXFKS0xwVUc2YzFIdERSLTBHRU9zU2EwdFQtN29ZaGdIb0ZKQ3I3Z0MyZXE0VFZINnU2NGRmR3NqbnZHeUZWdHphdks3cm1aeXIzdzVYYi1DSVE0LUc2SlEtSnRqU3pBYmotUzJQT2h4enY1UkhwbDdQMk8tZlpwcmR6YjZZWlkwMVBPa0J5WWtuemFGZUttZGFUd3Byd3RLaUJMTzNoRTJ4SjBtS18zWVpvQzVPR1d1RkJR?oc=5",
+            "published": "Thu, 26 Feb 2026 02:51:06 GMT",
+            "description": "Stocks To Watch, February 26: IDFC First Bank, IRFC, Waaree Energies, IT stocks, LT Foods, E2E Networks, Gravita India, RVNL &nbsp;&nbsp; Upstox",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1572,10 +1574,10 @@
             }
           },
           {
-            "title": "TVS Venu bets big on banking, picks up 9.9% stake in Jana Small Finance Bank - Firstpost",
+            "title": "TVS Venu bets big on banking, picks up 9.9% stake in Jana Small Finance Bank - firstpost.com",
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUWpZVEtKLXg1bDJwQzNxRzNJQ0xDc3R0Y3o2VEdVUENHaDlfekRQUmZWZjhYZzZ5aXZBZlcyWlFJenFOOTBCNlpEZC05WU03djcwWVF0ek1Xbm43XzZFNk5yOHJDZTNfWUNpSjdvQ3FnaVBmRzRfdGJHWG9GbFVJLWFlX0ZtZnZHbVZHQmJxZDI3ek1NN1dsT0RHNkwycWR6a0VLcnRrb0otRDJnQ194MTR6S2o3ZHd0bXk3OHE3cnfSAcYBQVVfeXFMTkI0b2FFTkFvZFdCNzh2Vm4wR0V1c2ZTSzFjUXAwMnpmVVNidzhOQ2tfWFNSdngzc0dUN05td3pqcDQ5YkluR1dlSjhHQmFqTzJDQzJGWjhzQ2l1ZXNrbTdpSVprcGNzeDlzekpqSXJabWFGY1l3bEU5cXpDU2NydE82V3NVSVdsa3dFclJoQVRRSkRSRVhQbmU4S05zSHdYVThqZG5Fa05rMHdfQ0FmWWJ4ZFpuZHZ2aFo3QkhCME1Yck5DMTZR?oc=5",
             "published": "Mon, 18 May 2026 07:00:00 GMT",
-            "description": "TVS Venu bets big on banking, picks up 9.9% stake in Jana Small Finance Bank &nbsp;&nbsp; Firstpost",
+            "description": "TVS Venu bets big on banking, picks up 9.9% stake in Jana Small Finance Bank &nbsp;&nbsp; firstpost.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1602,10 +1604,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -1619,10 +1621,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1649,10 +1651,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1814,10 +1816,10 @@
         "contextScore": 0,
         "articles": [
           {
-            "title": "33 Best Power Sector Stocks In India August 2026 | Best Energy Stocks To Invest - Samco",
+            "title": "33 Best Power Sector Stocks In India August 2026 | Best Energy Stocks To Invest - samco.in",
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JLVJiY1FqOUtqSDRBanhEV2hCb0stQzFQXzYtWjB3UXZ5UEJDa2ZZZnkxamRKUHItS2Q1aDlPLTRHUW5JQ2Z6MEQyQURNUFRhUTUzd3RvVmdVQnMzdUhyMzRyeVlCQnM5RlptUg?oc=5",
             "published": "Mon, 17 Aug 2026 06:51:10 GMT",
-            "description": "33 Best Power Sector Stocks In India August 2026 | Best Energy Stocks To Invest &nbsp;&nbsp; Samco",
+            "description": "33 Best Power Sector Stocks In India August 2026 | Best Energy Stocks To Invest &nbsp;&nbsp; samco.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1861,10 +1863,10 @@
             }
           },
           {
-            "title": "2026 Power and Utilities Industry Outlook - deloitte.com",
+            "title": "2026 Power and Utilities Industry Outlook - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUFdaUUt2aGtYS0NKejNSS0oydHlsejlBMmJ3ODB2R1pYV1p5T0tLOHZMQ095cUZqSjdVMHY2blFVWlpnNzhUS0cyNW12VWFYX0RSU1dkcEY1aXVBaHVZTnFwMUoyUWlkUTVXenJCcFdrb2s3S2NZQTBEcERXaDdteEFmaTBVWDlBYkFmMjByRUtrNVpKbVhwRTNrbEtON2ZtbldjUEduUnkyNjFLbVAw?oc=5",
             "published": "Wed, 29 Oct 2025 07:00:00 GMT",
-            "description": "2026 Power and Utilities Industry Outlook &nbsp;&nbsp; deloitte.com",
+            "description": "2026 Power and Utilities Industry Outlook &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2422,10 +2424,10 @@
         "contextScore": 4,
         "articles": [
           {
-            "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - Samco",
+            "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - samco.in",
             "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcXh5VUpYa01vREZsRU11YUg2R1MwMUVXTlVWSlZwb1NRbHBKSWhVamZfcEJ1bkVSczdvMnkxN1JjYlczM0ZfTVdoRWdwODZXUmRvSUdhcGhZNmJHbnRJcFpxbGdYMXA0R2JJZ0dUME1ZRWNiN0tnaHlMbkdQX0JtaVppMldRQjFGQ1ZGZ2p3?oc=5",
             "published": "Wed, 12 Aug 2026 06:51:22 GMT",
-            "description": "Top 56 Auto Ancillary Stocks In India For August 2026 &nbsp;&nbsp; Samco",
+            "description": "Top 56 Auto Ancillary Stocks In India For August 2026 &nbsp;&nbsp; samco.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2484,10 +2486,10 @@
             }
           },
           {
-            "title": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSVE4SS1NbkU0U2V3R1gxQlM3QnFNcWJJRkNVNERyVXV1OEdNYmE2RzlEaFA3akNIRmxSMmFjQTg1WEpKQWNWTjBaOXdEb2hYTnBJa3o0NXVseFBaUEVnWF82QnJpWnZxUlpxdUZoSWUwVnY3VEJPYkxIaG11aEczWkdNRk53U1ZBTmt0SzlNLVBPRjh5ZHgxdGlJbUVGeUxLc2xJS0IwRVY5azQyanVVMUJhSE9aR3VFeHphc25KWGlWbXRzSEJLRDlfaTBQZ3l0T3NiUXZMZ0RIb21YX25HRGR5SHBIbExrQndEZTR1cE5SSXppbHRr0gH8AUFVX3lxTFBPWFM2OXFSeTAwU2p4bzY2VENxRUplM2VYZUNSVXM5aEE4czNad3ZrVlM4N0IwbEU1aTZybUJlczZpeU9lZ05qa2thTHZQS2FVenM2a1JmYk9ZZGdrTTlUc1g2bHc2Z2NfcV80cE5ieTgyT21xNmJNTEUzaWJYeVh1WXFiZkhsZjYxRi0wQ0RmMlA5dERhWE5oLVpScjZaU0t2SG5SUllwT3FGNFBETllNYlpSLXZqX2dqWFpIaDR3OWdsMjBjU21MUFBSYVJCaVFFVE5qdnVDMWY5R0JOcnh0WldIY0E3RThRNXNDQzZ2Z253MVFZUlhhQmpETw?oc=5",
-            "published": "Sat, 07 Feb 2026 08:00:00 GMT",
-            "description": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts &nbsp;&nbsp; Moneycontrol.com",
+            "title": "India's auto parts exports to US remain strong despite tariff tensions - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZEtMVFJiZkE4Y1BrUkViT0pfT2RRU3FoVjVoLWdvRjNFYTJDTmpQVi1iUU1IUll5ZmxmTmVyT0lPbDZDSnNXbjFucXUyRzk5Y1Z6MlZrWFlVeHJ6QU92WGJiVGw4RjZ4V2lURVNxSTMycGNQQVY5QnVSaW9BbnBaeUNtLUp2N2d4N00zOGdBNDlLbWRtTHBMNXlvLUhKVXppWGFEblZDbllNRGNzQUdtZTJCUGc5OHo5bTIyM3Jxa1R6NEJab29tT1VzRUd5OXpMa1lIa1ByTFNBVHlYM18tOHVOemPSAeoBQVVfeXFMTXlKVkNBWGl3SEdMbXZpMkhKMFBRQUtzVHNxZmhnbF9Jd1docS1JLTE2WDBrZjlVZ1lPcFNuRlQwT3J1QXR6TDhTaFhlNlhpOU8xR3hra0RKNXhLSTk3MmJMRXdTNnB5di1XaGx5a0RHeXJDV295VmRZQm1NNXVFdnkxbHlJakxOczR4emlRQldYaEpuQl9NN2xwRTR1ejJtSTRmSDYxdzdKWk8wN0M3WHRrRWxnZWtTOV9Wd1RGOWE4ZXNHaWhWMUdfaUdhYVNvd0JGSWxjaFZPYm0tUEFLQ2VfX01EY2JZa1NR?oc=5",
+            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+            "description": "India's auto parts exports to US remain strong despite tariff tensions &nbsp;&nbsp; The Economic Times",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2561,10 +2563,10 @@
             }
           },
           {
-            "title": "Mid Caps In November 2025 Gave Positive 2.03% - India Infoline",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmaDczRGVJcnRJbXpELWZXTjc0MVpzUUlkMzFrX21RTHJKS0plMnFpTFRRdWZUcjQ1ZUpldVpxblZwTXdiUlY2a0l6bmpfLXhrNFJCQ2tGMlRPN3AwRmJfRFg0ZVY4LVlpc254Mg?oc=5",
-            "published": "Thu, 04 Dec 2025 12:19:10 GMT",
-            "description": "Mid Caps In November 2025 Gave Positive 2.03% &nbsp;&nbsp; India Infoline",
+            "title": "NIFTY In November 2025 Gives Positive of 1.87% - India Infoline",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Qd3BPNW9yTzJ0TEhGRWRxT0duejlrRFlLRWxFbjRIN09hczFBd3kzX1hWT1E4MktYYUZxRS03YkdMcVhab0FQeDN5cUloMXcxTE5vc2FQQUx1NElOUXU3d3lsWFZoUVFy?oc=5",
+            "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+            "description": "NIFTY In November 2025 Gives Positive of 1.87% &nbsp;&nbsp; India Infoline",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -2839,10 +2841,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -2856,10 +2858,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2886,10 +2888,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3098,10 +3100,10 @@
             }
           },
           {
-            "title": "Fortis Completes Battery Project That Can Serve 42,000 Homes for Four Hours - Stock Titan",
+            "title": "Fortis Completes Battery Project That Can Serve 42,000 Homes for Four Hours - stocktitan.net",
             "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUVZIUnZCdmdOR0VrWW96R0RVa2dDNm95bFdiS1lzNUx1STE1Q0dmMl9XNTU4endlWW9fekZ4MmZwN2ZqM2NpN1BMUFU1T3BkU2J4UnJOM1MydmNaQjF2a1k0UVVReVNDN3JJbE1wYUtpZ215anlZVUZaZXRWMlpoNldwblZEQU5tM1VUeU9mNm9BWHpkTXc1Ug?oc=5",
             "published": "Fri, 31 Jul 2026 07:00:00 GMT",
-            "description": "Fortis Completes Battery Project That Can Serve 42,000 Homes for Four Hours &nbsp;&nbsp; Stock Titan",
+            "description": "Fortis Completes Battery Project That Can Serve 42,000 Homes for Four Hours &nbsp;&nbsp; stocktitan.net",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3364,18 +3366,20 @@
         "sector": "Energy",
         "industry": "Oil & Gas Refining & Marketing",
         "direction": "positive",
-        "contextScore": 2,
+        "contextScore": 4,
         "articles": [
           {
-            "title": "Stabilis Solutions And 2 Other High-Quality Penny Stocks For Savvy Investors - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdzRLS2MyRUpvLVQ2LTNwREFoYk9BMThhQVE5T0VJcnl4eFpkMFlQTEFJS2IzLVowaUJuRWlvR2FFRkZkRWRYWFlrNk1XOWg4YVV1YUZkZS1JSGh3SVJTOHh5czlwbUN2ZDdWUWJwajhJWEVtaVJPV0pqNDVEaTRuV2t6WVRtaGZHSVJ1MzU2YV9NYnh4UEgzMHB1blVnN0NnN29Va1NMNjBoOFRIVXM0a0Q3M1JzWDFuWmNrQVJzUURGTjNPYTM2RG8wdnJPUXk4UldyUmlHTjNETU16c3FCVDJ0Ym5LV01jdXfSAe8BQVVfeXFMTkpWS2lRaElYY045RU00bWFZRzI3Wjd3M1ZtRWVWTkJ6NDc3UGdjUUFPNkRHakRfM3RzcVprQTRSU3NEUlVpZElocE1Vcm9kNi1MMWRYdzd1X0s4eU1Oczd6VTdINnR0N1lUZ1VucUlIY2F6Y2U3LTNta0pVd2FSR2dhcXQzNVYzQ1owUjJQNWFJOUJfaHQ0QmFiUFNyU1ZHTWZpemcwaEp1NXhxa1BSd28xaVlfemJwMVY5Zzd3OHBLREJPOEJzV1lzdG9CZXNia0lza0hNTFBQWFBsQ3Jzb2l1eDNfSFJ5Q05KNFhITlU?oc=5",
-            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
-            "description": "Stabilis Solutions And 2 Other High-Quality Penny Stocks For Savvy Investors &nbsp;&nbsp; simplywall.st",
+            "title": "Top 10 Best Dividend-Paying Stocks in India for Passive Income - Sahi",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2FGdGV3bV9QZTNobnZiU1drVDJKcHB0MGdWbmdyZVpYczdsT1NoMDdDX1ViWVh3SGI1cEJYQ2xoVkdCbGlyeFc0UHN2RGFzckVhRW93TWRhTmh6eTNCUzlCYzlpRFFZdzl5QWgtMDkyOUlBcV9VM0VIWHFtWEN1cTJrZ3J2VzlVdlE?oc=5",
+            "published": "Mon, 15 Jun 2026 07:00:00 GMT",
+            "description": "Top 10 Best Dividend-Paying Stocks in India for Passive Income &nbsp;&nbsp; Sahi",
             "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "dividend"
+              ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -3445,6 +3449,21 @@
             }
           },
           {
+            "title": "Nuclear Energy Stocks For Reliable Power Exposure In India - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN0pDUkJhZ25LUVdMb0pnLXU1VjdFQkxJQjlmX3VmQ3R5TXdXNXgxZTdYMWlhS2x3SXpwcTljaHVhRmpMVVpNRE1oT2RmZXd5Y2djeHpzcGVRVTBLUHBMX1diRlNHdEsyWjNqNkc4NjhRaHczRjd2M0w0cjlwdzR1clN2azBKQXZIdWhtV3lMS21WUUlGSEVJYnc2U1RlU0ZGTG1GYm1aUEc3Zjl2dWctQU5JMGQzOUxQRFNtemR5dzZlVzd0QWNHaEs2ZFRaSnJ2SWhmQkJvc0c2a19GbUFXaFJ0NmVyQk3SAewBQVVfeXFMT0ZLOUZ3emItRzBVU2F2S3Q5WnFGa2tnQ1plTkNkbVlYTmV1TmhRd3AzSGxSR3hISEhqY1BMVGZnZ3UwWlJfVjZmVHU3ZDktQlhzZ2ZtcmUwODlOaFlTVTF6MkVYT2dnMW5nRG9tZVd5N2FRM3hJYzZVWEVfWWpoaFFWY1BzYXF1UXdmM1J1WHc4czNxeHZhWkI1bERZRlRRYmdNdTJicFFXSHFZZFZMOUpmcGdwUERpMDJOMGpEVTFYN3EzRVlUeXd5aVBxLWNFN21kbmtNdmk4bUNqQVhjT1JNQjhEMkhIb2t6U24?oc=5",
+            "published": "Tue, 18 Aug 2026 14:45:49 GMT",
+            "description": "Nuclear Energy Stocks For Reliable Power Exposure In India &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Green Energy Stocks Face Selling Pressure As Indian Markets End Lower(18 August 2026) - SolarQuarter",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR2M1R0pUSldiX2RaUXVQd3pLcmFCWC1oMWJnSEQzalpfekNheWQ5SkJMYkJrblk0QUI3RWFkajUwdzdIMjlQMFF2MDdaaUpRWmg3YXlyblV6Zm9XSFZtTnRuR3dWeF9pWU12VFVreGxQT2Z2R2pUVHJLZUV6OWNrcll0UzFXMDlLeFN5OWhYWEE1RDI1c1F2a0E2YWZNSjBOanpGM0NhdVBGdXNVOThCTmxWeWxGQWgzRGVPUQ?oc=5",
             "published": "Tue, 18 Aug 2026 12:22:34 GMT",
@@ -3486,21 +3505,6 @@
               "positiveKeywords": [
                 "positive"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Nuclear Energy Stocks Retail Investors Are Watching For Reliable Power Demand - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa0lGcG1sdnNBMF9wdHAzT1RVbTl6Z2pIaWtTWG5QQmIybXJqSjltNXhnYjZwUGtDd0RqelpucE9JU0QzbEs5RHZXcUx6eXVsdDJ0WXN6OWprOWJpSDE4UnZwRklLZHRCaE5jQ01NN3Vwb090N29kanhuV2tHYTA2UVRPMFpkRHRvdkJ3WHQ5dTVBUmVrNkZVbU84dnFfdUNqNUc4WFlhV0FTek84OThxa3pRZDUzQVNTcS1Ocy1rNE13eWQtUlI3Rk5JU3k1VE5CQTVzVjlDZkRuYmxzdHFQLTYzVERuWFh0NWfSAe8BQVVfeXFMUDZSWm51WnFmeGE1T05kbnJqMHZDR05URm5zclBNcmZyZW14MC1qMEdyQkViN19QMjJMV2dHQmV1VE8wR0UxOElYQnVsUXNSeHkxRGVUSVdQUkJ0UHEwUGh2QzdITi1IcWN6RU1sU19XalE3TTFnWURlUXNyTER0aEpHTXE4ZDNTdmx6S1B6MDcyRGFqYkNDbEdOY0lTbk84SVlkN3YzVUlIQVJKMnZfM0lEZzd2U3hueU54VnBoVlJqOUlGVHQyblhvQTBaS2oyTDJPRlJGZjVxa0VFT2lBZXBUZ3IxcjVSOEU2bmJ3NWs?oc=5",
-            "published": "Sun, 16 Aug 2026 02:50:17 GMT",
-            "description": "Nuclear Energy Stocks Retail Investors Are Watching For Reliable Power Demand &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -3706,10 +3710,10 @@
             }
           },
           {
-            "title": "Aluminum Cans Market - futuremarketinsights.com",
+            "title": "Aluminum Cans Market - Future Market Insights",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqdlk4aGtqbG9PbjA4RWREaHQxUDF2eUNETGlyU1oxb3NSNjA4OTEtd3JwLTY3OVpOVVZKSHRvZE1uZEdIdFFhOVRNUUE1NXhKR0RvVGU2Q0JxemdCYUd4ZUs3YUcyOWR2VWptTmJscnEtS1E?oc=5",
             "published": "Wed, 20 May 2026 07:00:00 GMT",
-            "description": "Aluminum Cans Market &nbsp;&nbsp; futuremarketinsights.com",
+            "description": "Aluminum Cans Market &nbsp;&nbsp; Future Market Insights",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4093,10 +4097,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -4110,10 +4114,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4140,10 +4144,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4356,10 +4360,10 @@
             }
           },
           {
-            "title": "The 10 Best-Performing UK Dividend Stocks - global.morningstar.com",
+            "title": "The 10 Best-Performing UK Dividend Stocks - Morningstar",
             "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYU5jTzFBRDJyYWF4MFVpenFVTEw2RkZmMENMTW83eW1pUmF2M3NEOG9Od19TOVRNR0FUczgwLWRNbGZ4ODgtYWV6V1k4S29fMlc2bUhIQThWNGZXT0pDelBneDNvakVGYnZ0bzcxaDI1RWpmcl8wWWdLemxkTWJldFBGWjdTQVB5?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "The 10 Best-Performing UK Dividend Stocks &nbsp;&nbsp; global.morningstar.com",
+            "description": "The 10 Best-Performing UK Dividend Stocks &nbsp;&nbsp; Morningstar",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -4373,10 +4377,10 @@
             }
           },
           {
-            "title": "Standex Intl (SXI) Stock Price, News & Analysis - Stock Titan",
+            "title": "Standex Intl (SXI) Stock Price, News & Analysis - stocktitan.net",
             "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuWG5UTnlOYnJuZ244RzdLN2ZIbnRFS1JobXBkMkZHU2NmOXJ6V1BJTTI4UHZEZW9WbDJnZ1NCZFk4a1Y3V2hFSEdxLTM3ZTNORGc?oc=5",
             "published": "Thu, 24 Apr 2025 23:56:07 GMT",
-            "description": "Standex Intl (SXI) Stock Price, News & Analysis &nbsp;&nbsp; Stock Titan",
+            "description": "Standex Intl (SXI) Stock Price, News & Analysis &nbsp;&nbsp; stocktitan.net",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4615,10 +4619,10 @@
         "contextScore": 4,
         "articles": [
           {
-            "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - Samco",
+            "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - samco.in",
             "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcXh5VUpYa01vREZsRU11YUg2R1MwMUVXTlVWSlZwb1NRbHBKSWhVamZfcEJ1bkVSczdvMnkxN1JjYlczM0ZfTVdoRWdwODZXUmRvSUdhcGhZNmJHbnRJcFpxbGdYMXA0R2JJZ0dUME1ZRWNiN0tnaHlMbkdQX0JtaVppMldRQjFGQ1ZGZ2p3?oc=5",
             "published": "Wed, 12 Aug 2026 06:51:22 GMT",
-            "description": "Top 56 Auto Ancillary Stocks In India For August 2026 &nbsp;&nbsp; Samco",
+            "description": "Top 56 Auto Ancillary Stocks In India For August 2026 &nbsp;&nbsp; samco.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4677,10 +4681,10 @@
             }
           },
           {
-            "title": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSVE4SS1NbkU0U2V3R1gxQlM3QnFNcWJJRkNVNERyVXV1OEdNYmE2RzlEaFA3akNIRmxSMmFjQTg1WEpKQWNWTjBaOXdEb2hYTnBJa3o0NXVseFBaUEVnWF82QnJpWnZxUlpxdUZoSWUwVnY3VEJPYkxIaG11aEczWkdNRk53U1ZBTmt0SzlNLVBPRjh5ZHgxdGlJbUVGeUxLc2xJS0IwRVY5azQyanVVMUJhSE9aR3VFeHphc25KWGlWbXRzSEJLRDlfaTBQZ3l0T3NiUXZMZ0RIb21YX25HRGR5SHBIbExrQndEZTR1cE5SSXppbHRr0gH8AUFVX3lxTFBPWFM2OXFSeTAwU2p4bzY2VENxRUplM2VYZUNSVXM5aEE4czNad3ZrVlM4N0IwbEU1aTZybUJlczZpeU9lZ05qa2thTHZQS2FVenM2a1JmYk9ZZGdrTTlUc1g2bHc2Z2NfcV80cE5ieTgyT21xNmJNTEUzaWJYeVh1WXFiZkhsZjYxRi0wQ0RmMlA5dERhWE5oLVpScjZaU0t2SG5SUllwT3FGNFBETllNYlpSLXZqX2dqWFpIaDR3OWdsMjBjU21MUFBSYVJCaVFFVE5qdnVDMWY5R0JOcnh0WldIY0E3RThRNXNDQzZ2Z253MVFZUlhhQmpETw?oc=5",
-            "published": "Sat, 07 Feb 2026 08:00:00 GMT",
-            "description": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts &nbsp;&nbsp; Moneycontrol.com",
+            "title": "India's auto parts exports to US remain strong despite tariff tensions - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZEtMVFJiZkE4Y1BrUkViT0pfT2RRU3FoVjVoLWdvRjNFYTJDTmpQVi1iUU1IUll5ZmxmTmVyT0lPbDZDSnNXbjFucXUyRzk5Y1Z6MlZrWFlVeHJ6QU92WGJiVGw4RjZ4V2lURVNxSTMycGNQQVY5QnVSaW9BbnBaeUNtLUp2N2d4N00zOGdBNDlLbWRtTHBMNXlvLUhKVXppWGFEblZDbllNRGNzQUdtZTJCUGc5OHo5bTIyM3Jxa1R6NEJab29tT1VzRUd5OXpMa1lIa1ByTFNBVHlYM18tOHVOemPSAeoBQVVfeXFMTXlKVkNBWGl3SEdMbXZpMkhKMFBRQUtzVHNxZmhnbF9Jd1docS1JLTE2WDBrZjlVZ1lPcFNuRlQwT3J1QXR6TDhTaFhlNlhpOU8xR3hra0RKNXhLSTk3MmJMRXdTNnB5di1XaGx5a0RHeXJDV295VmRZQm1NNXVFdnkxbHlJakxOczR4emlRQldYaEpuQl9NN2xwRTR1ejJtSTRmSDYxdzdKWk8wN0M3WHRrRWxnZWtTOV9Wd1RGOWE4ZXNHaWhWMUdfaUdhYVNvd0JGSWxjaFZPYm0tUEFLQ2VfX01EY2JZa1NR?oc=5",
+            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+            "description": "India's auto parts exports to US remain strong despite tariff tensions &nbsp;&nbsp; The Economic Times",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4754,10 +4758,10 @@
             }
           },
           {
-            "title": "Mid Caps In November 2025 Gave Positive 2.03% - India Infoline",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmaDczRGVJcnRJbXpELWZXTjc0MVpzUUlkMzFrX21RTHJKS0plMnFpTFRRdWZUcjQ1ZUpldVpxblZwTXdiUlY2a0l6bmpfLXhrNFJCQ2tGMlRPN3AwRmJfRFg0ZVY4LVlpc254Mg?oc=5",
-            "published": "Thu, 04 Dec 2025 12:19:10 GMT",
-            "description": "Mid Caps In November 2025 Gave Positive 2.03% &nbsp;&nbsp; India Infoline",
+            "title": "NIFTY In November 2025 Gives Positive of 1.87% - India Infoline",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Qd3BPNW9yTzJ0TEhGRWRxT0duejlrRFlLRWxFbjRIN09hczFBd3kzX1hWT1E4MktYYUZxRS03YkdMcVhab0FQeDN5cUloMXcxTE5vc2FQQUx1NElOUXU3d3lsWFZoUVFy?oc=5",
+            "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+            "description": "NIFTY In November 2025 Gives Positive of 1.87% &nbsp;&nbsp; India Infoline",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -4900,17 +4904,19 @@
             }
           },
           {
-            "title": "FEDERALBNK Historical Data - Equitypandit",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pUllKZzJka0l2S2FzLXJfWWliMEdIUFlJU2lqeEdsZTNIVlpicDJGTUxTM2tZLXJza3RTOVlEUTBMWGZadFlCLU96SXdxUFIwUTNjRDBzMDEyZ0tEQnJaUkRsLVBEQQ?oc=5",
-            "published": "Sat, 06 Sep 2025 08:44:59 GMT",
-            "description": "FEDERALBNK Historical Data &nbsp;&nbsp; Equitypandit",
+            "title": "Federal Bank Hosts Exclusive ‘Wealth & Wisdom’ Event for Customers in Bhubaneswar - orissadiary.com",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU1Y4c0d6T2VzVmwxbmJ4dUIwc1YxMTBmY3FxYWwxT182dGRPb3VwSTVxa2Z4V19jVGxGTkQtNjNlVFNVU2NKTU9sQnNfNGpOVmRIZDUyRWVnUmVQLVJDV0ttVFl2MUI3S2pwano3dXFHRXRPLTk5UkVBeGpVeUwyTEZVSllTUlFsRjFCWkZMT0F0VDlLcVJ2WVBxU3VabTZzWUFuZA?oc=5",
+            "published": "Tue, 14 Jul 2026 11:43:40 GMT",
+            "description": "Federal Bank Hosts Exclusive ‘Wealth & Wisdom’ Event for Customers in Bhubaneswar &nbsp;&nbsp; orissadiary.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
+              "geopoliticalKeywords": [
+                "war"
+              ],
               "macroKeywords": []
             }
           }
@@ -5025,10 +5031,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -5042,10 +5048,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5072,10 +5078,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5416,10 +5422,10 @@
         "highImpactNewsCount": 1,
         "articles": [
           {
-            "title": "Indian Bank Share Price Today,, INDIANB Share Price NSE, BSE - Business Today",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UU2RZN0w1SDVIQmdIN1kzU0VDdDhYSDNlUE9qa0lmOExoMElOT0hTUFlVVmZBVFBZa1NlbThoMkdQSHh0TFpady1fbVpUTk5fNk1xaFhVbTAxZ2VWc0lDa3Q2RFdEcDdsM0EzNGdFX1JkLW8yQlVPdTctNUQ0Wkk?oc=5",
-            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-            "description": "Indian Bank Share Price Today,, INDIANB Share Price NSE, BSE &nbsp;&nbsp; Business Today",
+            "title": "Should You Be Adding Indian Bank (NSE:INDIANB) To Your Watchlist Today? - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUGk1XzZFT2VwM0l6eGloYVlNdUpRRndkT2VQY2NiT0RPSkRfaGgyc1hSaUxRLUxuNG04NEFzTnFxMktSeUhyLWRZYUowRmFtVzZUdHFDUTNaQ213OFZIanJJVEdFb2lnQVhSVmVoVzNRVDBFV09qNVVsWXcyT05sQkNESTU2d25iMUZBOHJRNUhpWWMyWGh3dWwwM3k4aEZHb2NDMDdNS3I5bndCYWl2SXJNblN2UTVrQzRmWTZ6YVBIT0E2d01OeFpURXZZOUhxcmfSAdcBQVVfeXFMT0NvNW4zTjAtV0dqQ1BDdElPNFJ6SjJmRS1HWXAxZGs3VXlmaU45ZGR6bm9yZXZTVHctVXVIdC1BcUtzVDV1V25QUkg3cUpUalFUcEplMnZSRFVJWWh2QWlZRDRDUU0xZWQ3X0t2cHdUZGtrQXRORmFNMXl2LUlIdDR2aTNnc3NiR3B5MWJRanpERF9YSDhXT1g1amdHbnRmLWhkd1NoWFBhRkQ2RTNTaTJrODZsY2JTWkRWVzJHTnNrNGVSS2VZam1LdkQ3VndUMkNWc2hBejQ?oc=5",
+            "published": "Sun, 12 Jul 2026 07:00:00 GMT",
+            "description": "Should You Be Adding Indian Bank (NSE:INDIANB) To Your Watchlist Today? &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5431,10 +5437,10 @@
             }
           },
           {
-            "title": "Should You Be Adding Indian Bank (NSE:INDIANB) To Your Watchlist Today? - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUGk1XzZFT2VwM0l6eGloYVlNdUpRRndkT2VQY2NiT0RPSkRfaGgyc1hSaUxRLUxuNG04NEFzTnFxMktSeUhyLWRZYUowRmFtVzZUdHFDUTNaQ213OFZIanJJVEdFb2lnQVhSVmVoVzNRVDBFV09qNVVsWXcyT05sQkNESTU2d25iMUZBOHJRNUhpWWMyWGh3dWwwM3k4aEZHb2NDMDdNS3I5bndCYWl2SXJNblN2UTVrQzRmWTZ6YVBIT0E2d01OeFpURXZZOUhxcmfSAdcBQVVfeXFMT0NvNW4zTjAtV0dqQ1BDdElPNFJ6SjJmRS1HWXAxZGs3VXlmaU45ZGR6bm9yZXZTVHctVXVIdC1BcUtzVDV1V25QUkg3cUpUalFUcEplMnZSRFVJWWh2QWlZRDRDUU0xZWQ3X0t2cHdUZGtrQXRORmFNMXl2LUlIdDR2aTNnc3NiR3B5MWJRanpERF9YSDhXT1g1amdHbnRmLWhkd1NoWFBhRkQ2RTNTaTJrODZsY2JTWkRWVzJHTnNrNGVSS2VZam1LdkQ3VndUMkNWc2hBejQ?oc=5",
-            "published": "Sun, 12 Jul 2026 07:00:00 GMT",
-            "description": "Should You Be Adding Indian Bank (NSE:INDIANB) To Your Watchlist Today? &nbsp;&nbsp; simplywall.st",
+            "title": "Indian Bank Share Price Today,, INDIANB Share Price NSE, BSE - Business Today",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UU2RZN0w1SDVIQmdIN1kzU0VDdDhYSDNlUE9qa0lmOExoMElOT0hTUFlVVmZBVFBZa1NlbThoMkdQSHh0TFpady1fbVpUTk5fNk1xaFhVbTAxZ2VWc0lDa3Q2RFdEcDdsM0EzNGdFX1JkLW8yQlVPdTctNUQ0Wkk?oc=5",
+            "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+            "description": "Indian Bank Share Price Today,, INDIANB Share Price NSE, BSE &nbsp;&nbsp; Business Today",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5651,10 +5657,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -5668,10 +5674,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5698,10 +5704,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5895,10 +5901,10 @@
             }
           },
           {
-            "title": "Virtual Power Plant Market | Global Market Analysis Report - 2035 - futuremarketinsights.com",
+            "title": "Virtual Power Plant Market | Global Market Analysis Report - 2035 - Future Market Insights",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ESEhyZEljS05RWFBBR1BwcUNBcVIzZXpsVXFyQWNTRHA3cUl2bFE3enpUcE8tWW9SUFVsa3BWVGx2ZGFtbEFtSXdDQVV4dWljcURBOGFiaUpZclZYYW40U0JucXR2U01BaWZQT3EyNTB4bU54Zm5GLXdXZw?oc=5",
             "published": "Fri, 12 Sep 2025 07:00:00 GMT",
-            "description": "Virtual Power Plant Market | Global Market Analysis Report - 2035 &nbsp;&nbsp; futuremarketinsights.com",
+            "description": "Virtual Power Plant Market | Global Market Analysis Report - 2035 &nbsp;&nbsp; Future Market Insights",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6036,10 +6042,25 @@
         "sector": "Consumer Cyclical",
         "industry": "Lodging",
         "overallDirection": "positive",
-        "overallImpact": "medium",
-        "newsScore": 6,
-        "highImpactNewsCount": 1,
+        "overallImpact": "low",
+        "newsScore": 2,
+        "highImpactNewsCount": 0,
         "articles": [
+          {
+            "title": "INDHOTEL Share Price Today - Indian Hotels Co Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XdlB4RU5hd3BVaXBPQUwzSzAyYlZRbkdFc2JfaG1CVjhVNTFRYWIyMkE2VlZsV0lwNzAtTXFUSGpUZE94Q2F0T1RPMVZGTFpxZFBPTVZQNkpDUVBnZFE?oc=5",
+            "published": "Sat, 15 Aug 2026 07:00:00 GMT",
+            "description": "INDHOTEL Share Price Today - Indian Hotels Co Stock Analysis &nbsp;&nbsp; Equitypandit",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
           {
             "title": "Is It Smart To Buy The Indian Hotels Company Limited (NSE:INDHOTEL) Before It Goes Ex-Dividend? - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRGkweXRseVYtZ1h1eHBmN1lUOFhNazE0cXlkV2xMUk5XY3NGd0E2clBuVGgya2FqbXBZbHBNT3ZlbDF6ZkZyeTRNSUQ5Z0RFbTNvdlJTUEQyWGhzeWxnUzRmYTdoX0d0YVNZc2RYSlV2WmhFS3R0cFJqM05hV1pUNnUzM1RsOHJiS0J1Znpoc3VpU1lDT3pYWTBaUDNHVUtFUXo1S0ZYY1NzWFdGcXg0SkhxdnRoYmJkNDB6MHVFN3N4b2pVOFBzVXhfTm92NWppclB2MnBid3ZabVo1MFllOWlnZ2FNd9IB6wFBVV95cUxQMVFLS3JhRzdpUldvbmNvZ2VWMklKUEpKQi0xVG02RXBJTzZiaDBSckpWMTJyZVN6QTBUZWhoQWtFdktvdEx6Q3pCa24tWExvUUM4TjFuRUphWVpMXy1TNHBScHpEUkpKLXJqTHY3NTE5UHdScGNjUEJWS1g2N1puY21HcVAwLTkyMnJmZkh3ZUlZVGdCUFRodUpuTFA2NS1IZDZSMkhTTW5GRk4ya1VMSmhGSnBUNFM4aGpyZnF1SUE5QUJtLW42ejE0STQtbTZTTjIxME5nSWRsa1hnMEVSSGhaSTZGWFd4VUZV?oc=5",
@@ -6142,24 +6163,6 @@
               "impact": "low",
               "rawScore": 0,
               "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Indian Hotels (NSE:INDHOTEL) Strong Profits May Be Masking Some Underlying Issues - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMmZuc0drS0I1clV1a0gxcmdxTDluMnZmMlREenlKRWc1STJHVzBDekxpTEZqSy14blVDajVzMFlHUkNpMGsyX0Vza0NmVXFYR09qY1JDT083X3o4bmF5bHhSdFV0SVBrTGpCT201Tm05X2NqQTdYSXRtdFBiekgxb1RwbGZhdWRqdXZGRmdjOFU1bzZQT290Wl91R2lsNHR2Y3RHQ1ZLS196VUNxVm5MaTkzOHV4TElWNm4xWjdfWkdlN19NOGtfRG94cWJBSGJYem9FNUU1LUpJWWZNdUR0RTdfc9IB6AFBVV95cUxPQkRia09JVlQwZFdIekpFN1dCSWdjM2tFZ3Z2QVhfT0Q2Vjc5aEFJN2t1ZE5GTmk0VFppSG1lbkJWUlpnZWFKZmtfN2t4VlJYZ3dPRnBhMXl2SUtwTk1neDVTT2V0aUhabS1oWEV0SE5XZTBwckQ4eUVwc3NHVUZ0THB3RWlVSXAwOFZBZEFhbzF4WGk5Qk1JZUJsZEdiT3VzbDZmQ3F6djZpQm1DTDVONmxwOXNrZnVzRVR4UGg1SkRDU0hVRE1BN3F3a0pacWFMWndSSk9ka3VueUZ5aG5Vc0trdVRnS0xp?oc=5",
-            "published": "Tue, 19 May 2026 07:00:00 GMT",
-            "description": "Indian Hotels (NSE:INDHOTEL) Strong Profits May Be Masking Some Underlying Issues &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "positive",
-              "impact": "high",
-              "rawScore": 4,
-              "positiveKeywords": [
-                "profit",
-                "profits"
-              ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -6313,10 +6316,10 @@
             }
           },
           {
-            "title": "Mid Caps In November 2025 Gave Positive 2.03% - India Infoline",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmaDczRGVJcnRJbXpELWZXTjc0MVpzUUlkMzFrX21RTHJKS0plMnFpTFRRdWZUcjQ1ZUpldVpxblZwTXdiUlY2a0l6bmpfLXhrNFJCQ2tGMlRPN3AwRmJfRFg0ZVY4LVlpc254Mg?oc=5",
-            "published": "Thu, 04 Dec 2025 12:19:10 GMT",
-            "description": "Mid Caps In November 2025 Gave Positive 2.03% &nbsp;&nbsp; India Infoline",
+            "title": "NIFTY In November 2025 Gives Positive of 1.87% - India Infoline",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Qd3BPNW9yTzJ0TEhGRWRxT0duejlrRFlLRWxFbjRIN09hczFBd3kzX1hWT1E4MktYYUZxRS03YkdMcVhab0FQeDN5cUloMXcxTE5vc2FQQUx1NElOUXU3d3lsWFZoUVFy?oc=5",
+            "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+            "description": "NIFTY In November 2025 Gives Positive of 1.87% &nbsp;&nbsp; India Infoline",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -6485,10 +6488,10 @@
         "contextScore": -4,
         "articles": [
           {
-            "title": "Family Care Hospitals Ltd (FAMILYCARE.BO) stock price, news, quote and history - Yahoo Finance Singapore",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxTmdmLWR5bVk5czc3UC1FNWRDUEdiYkVyTVd3bXQ4dXJRTU55MEcxX2ZXTXpsRzZUTktueDM5UmdmUkFia0ZBN0t3bWdZbDZHOWlTSkZ5ZDdrMVptU0E?oc=5",
-            "published": "Tue, 27 May 2025 15:50:29 GMT",
-            "description": "Family Care Hospitals Ltd (FAMILYCARE.BO) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance Singapore",
+            "title": "RPSG Ventures acquires Clarionix Healthcare for INR 1 lakh - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmpIaTcwb3RzQzhuUW51bjM3SHpVcXVXXzMtN09QTTNkSnk3LWNDNjdISkJaRVFpc1JPUENMYjloNG1oTUwtRTlBRTdJOUlNQnNxTkxyUlZNZGsyMkZRUjJmOHEtTWhQbkZLTzBQS3hjQktEZGk3SVQ5QWVhYWJ1amZZclEtR0ZLSmVlV1hkWGVldU1WWTkwX0h4UnJ2dWZZSmhHOUt6TDRFWmx0Z3hfbGVjQzFuUQ?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RPSG Ventures acquires Clarionix Healthcare for INR 1 lakh &nbsp;&nbsp; scanx.trade",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6496,14 +6499,16 @@
               "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
-              "macroKeywords": []
+              "macroKeywords": [
+                "inr"
+              ]
             }
           },
           {
-            "title": "Global Health Limited (MEDANTA.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TRmdXN3VieDNidDNFNU5ic3dKa0QwLXZEYnBnZXc3eC15TzYzcHFHdDloM2l5aVFhV2x2Ykw5T1FCa2FDTHBpQWhkbk5FRU1Qc0Faamd3ZU5OZw?oc=5",
-            "published": "Sat, 30 Dec 2023 21:35:34 GMT",
-            "description": "Global Health Limited (MEDANTA.NS) Stock Price, News, Quote & History &nbsp;&nbsp; Yahoo! Finance Canada",
+            "title": "Family Care Hospitals Ltd (FAMILYCARE.BO) stock price, news, quote and history - Yahoo Finance Singapore",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxTmdmLWR5bVk5czc3UC1FNWRDUEdiYkVyTVd3bXQ4dXJRTU55MEcxX2ZXTXpsRzZUTktueDM5UmdmUkFia0ZBN0t3bWdZbDZHOWlTSkZ5ZDdrMVptU0E?oc=5",
+            "published": "Tue, 27 May 2025 15:50:29 GMT",
+            "description": "Family Care Hospitals Ltd (FAMILYCARE.BO) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance Singapore",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6530,10 +6535,10 @@
             }
           },
           {
-            "title": "RPSG Ventures acquires Clarionix Healthcare for INR 1 lakh - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmpIaTcwb3RzQzhuUW51bjM3SHpVcXVXXzMtN09QTTNkSnk3LWNDNjdISkJaRVFpc1JPUENMYjloNG1oTUwtRTlBRTdJOUlNQnNxTkxyUlZNZGsyMkZRUjJmOHEtTWhQbkZLTzBQS3hjQktEZGk3SVQ5QWVhYWJ1amZZclEtR0ZLSmVlV1hkWGVldU1WWTkwX0h4UnJ2dWZZSmhHOUt6TDRFWmx0Z3hfbGVjQzFuUQ?oc=5",
-            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RPSG Ventures acquires Clarionix Healthcare for INR 1 lakh &nbsp;&nbsp; scanx.trade",
+            "title": "Healthcare property market remains virtually stable in 2025 - Cushman & Wakefield",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbnAxVmxZSGFCRUlYemIyNW9WSXptOVZSVUN3QVRRcFZmejY0UEQ5SHVYWVJiOE4yc3YtbzlWekp4TG95TGNpbDg3bXZPZnBVLUpsb2xZN0FDLUNQSGJPUVQyZy1UTnpEM2FHZXNtNFllN25GVENmbnN0THliMEdKSk0tRVVmdENzdlMwR2hPZHVkYnpLeGE0?oc=5",
+            "published": "Fri, 09 Jan 2026 08:00:00 GMT",
+            "description": "Healthcare property market remains virtually stable in 2025 &nbsp;&nbsp; Cushman & Wakefield",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6541,25 +6546,21 @@
               "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "inr"
-              ]
+              "macroKeywords": []
             }
           },
           {
-            "title": "Healthcare property market starts 2026 with a clear upward trend – strongest quarter since Q4 2021 - Cushman & Wakefield",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS1YybGVyVTdsSVhIMWg0OHFlWFJlZFBwU2E5bWNZbm5pTnBWRXlnb2trWGotUjRDVEFjcTZPOGtGX28wVGZ2a2xnV29SSVQ4VlRUTV9JNkdiWEdFRTJhSUdubVg0YTZiSFZaMGNaakRQczM4ZXlTRlFweDkzRGhpci1WYWlQd2l4SjFLUlA2TEQ2V1FpeWd1enN3?oc=5",
-            "published": "Thu, 09 Apr 2026 20:04:46 GMT",
-            "description": "Healthcare property market starts 2026 with a clear upward trend – strongest quarter since Q4 2021 &nbsp;&nbsp; Cushman & Wakefield",
+            "title": "Tata Trusts pledges Rs 500 crore to fight Covid-19 - The Times of India",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVUtjYzl6dXZxRjdOWkk0cmtDenJtdFRoUWVtbVRTOGdLV3dVY3lVUUg0RVFFcDRmdHJ0Qy1tcGkwNVAtbHhnSTZnRWlFdEVwX0ZrOExPcnF6dExLa3docVB0YzVUaVRDSFRaWVQ3OUI4QWRBTWthTXl3QXlrazRNb3NaSU9WZ1hRcUNFY3dPbkplWDhSTEZVS3pXWFBkV0cyLVFaOGlGNnhOc0g0NjBPNnhNX3lEMkdYb3RnS1c3YWREcVRZWWZMT0hJSnViaWPSAdQBQVVfeXFMTnQxUEJjUXV0OFdpVHlRZGJ2U3hzVVpMc0dlQ2lWZVlfTmRrTHV0cnlYMUtFZERkWjhpOHgxT2xKdk9lSGN3bURsZUdUSXcySGJDTVlxVVhqdlo5ekRiR294dTF6ZWJld2Y3ZXE0MmdnSU1HLWlHaEN6akRPNms1YUpBYkRORXhCLWVTaVRNbndGM0lkSnNESmtaNnllQ2lzRnNQa01MbzZPQnk2dENGdXpnU2RfMUlEa0FCVGN4T1NwVVpIUm8zZ3NtcXdiY2hJcFJuUXQ?oc=5",
+            "published": "Sat, 28 Mar 2020 07:00:00 GMT",
+            "description": "Tata Trusts pledges Rs 500 crore to fight Covid-19 &nbsp;&nbsp; The Times of India",
             "classification": {
               "direction": "neutral",
               "impact": "low",
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [
-                "war"
-              ],
+              "geopoliticalKeywords": [],
               "macroKeywords": []
             }
           },
@@ -6825,10 +6826,10 @@
             }
           },
           {
-            "title": "Aluminum Cans Market - futuremarketinsights.com",
+            "title": "Aluminum Cans Market - Future Market Insights",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqdlk4aGtqbG9PbjA4RWREaHQxUDF2eUNETGlyU1oxb3NSNjA4OTEtd3JwLTY3OVpOVVZKSHRvZE1uZEdIdFFhOVRNUUE1NXhKR0RvVGU2Q0JxemdCYUd4ZUs3YUcyOWR2VWptTmJscnEtS1E?oc=5",
             "published": "Wed, 20 May 2026 07:00:00 GMT",
-            "description": "Aluminum Cans Market &nbsp;&nbsp; futuremarketinsights.com",
+            "description": "Aluminum Cans Market &nbsp;&nbsp; Future Market Insights",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7057,6 +7058,21 @@
             }
           },
           {
+            "title": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst - Stocktwits",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQakpXeHBsSE5FcFFPeFdha0FpQXpQc1Rzbm10NzBhZUkzdEh2Y3B6M0NvdzgweWxqWFVQdmFmXzRtQU5HRmxoT1NORXlvcGE3R2tHcDQxX3VNdEdSc28yYWJWbnplUk1iOS1oYWZYR1FyWS1LODhSRmxaTl9kYmRTelNzWmkwNUhqSUJ5V0N2cjdVWEs1c184bTU1dHZFNVh3UWV4TVNmVGgxdHRWZk9YM1FSeURCdC01SmJpRDZ5TWFpaU83M1NwLW5GMzREaUcyRm9UQw?oc=5",
+            "published": "Fri, 17 Oct 2025 07:00:00 GMT",
+            "description": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst &nbsp;&nbsp; Stocktwits",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Bharat Forge, UltraTech, AU Bank: Stocks to buy - check price target, stop loss & more - Business Today",
             "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcktmM2JuVFRJeHBCSTBqWG13bGk4OGh3SV9MRU5rTFRwWnZ0XzlxR3JHckQxd3llbm9GLTRWdEdocm85TVNScVJVZTE5c2htSFVjVDRMbUx5R2Zqa1pPTjI4UEpiYThfR2VxcVVVdERKekE3OENoeE9Gd2phN0lfYmQ1VHNKdHIxNndHWmhIR2owVGdYLVpaNVo4UHRUbW1fOXJmTWRLY09obVVsWXRudTdDWGdmWC1iTkljS000bEQ5ZVFtS2FxVDNSMHJtX3lHSzFtUG1GN3VLUnNJOUxB0gHkAUFVX3lxTE9BQTNYd0RZLWZwSE0tQkU5a01zdkdfTU43ejlsZjRTel94a1lNcV9ZUG9WR1RZdHpBVVFSRmRBMHZDV3dIRlg5aTk1d2FPdVVRYlc2LTJ6UEt6b1hWbGVPeURPQ3FxVnZSbVpxTWpCcmxnMl93dkdwQkg0QUs0ZGFPLVpjblVoQW96SkNfX1NyMGdxMGp3NUlJdF9aUGJPYVhaT1dkckNIbXVoNVcwVndyNWdBRUxISmhvdndZUVhfUWVpanRqQmJxcVVCSWNQR3o2d25XVWFNZjlWbTFGNklGMnVqSg?oc=5",
             "published": "Wed, 22 Apr 2026 07:00:00 GMT",
@@ -7069,21 +7085,6 @@
               "negativeKeywords": [
                 "loss"
               ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst - Stocktwits",
-            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQakpXeHBsSE5FcFFPeFdha0FpQXpQc1Rzbm10NzBhZUkzdEh2Y3B6M0NvdzgweWxqWFVQdmFmXzRtQU5HRmxoT1NORXlvcGE3R2tHcDQxX3VNdEdSc28yYWJWbnplUk1iOS1oYWZYR1FyWS1LODhSRmxaTl9kYmRTelNzWmkwNUhqSUJ5V0N2cjdVWEs1c184bTU1dHZFNVh3UWV4TVNmVGgxdHRWZk9YM1FSeURCdC01SmJpRDZ5TWFpaU83M1NwLW5GMzREaUcyRm9UQw?oc=5",
-            "published": "Thu, 16 Oct 2025 07:00:00 GMT",
-            "description": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst &nbsp;&nbsp; Stocktwits",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -7214,10 +7215,10 @@
             }
           },
           {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - deloitte.com",
+            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
             "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
             "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; deloitte.com",
+            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "negative",
               "impact": "medium",
@@ -7231,10 +7232,10 @@
             }
           },
           {
-            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - reuters.com",
+            "title": "Jio-BlackRock enters India's ETF market with Nifty 50 fund - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUHhwSUw1TkU4WmdTbkhDdEo3WE1qLW9iNWw2ZllOeXBJV0stOXBNM1VOcVBXX0lnMjhLeEZMcW9ERlI3OXBsTlhYbXRkZTViSXNRYlhCTXFEdmplZk1rWVpvc09lbkpjRmZqbmkzWmwyaXpzcldWblg2WDZqWHF4T3FxS2Rsc0hEdTFGcDFITUUtQTlCN1BfM3pJMjZMaWVFbF9HZ2NJQlg?oc=5",
             "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; reuters.com",
+            "description": "Jio-BlackRock enters India's ETF market with Nifty 50 fund &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7261,10 +7262,10 @@
             }
           },
           {
-            "title": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2JGazlNUi02YjZQU2dacnVDQWNGXzRxTDFmRnM3Z0tiYjNUWks1YnBKT1RSVnNsT2E3MHNvb3hoSnNScnlKckk3R0dQOXpVVDVQSl9obUNDY2ZuTk1Ob1VERG1ra1dCUGhxZnFFbzdTSWJCMjdUWVBCQTVENGNyekxGdjFKZXl3cGhGeE95SXZXU2hPUUJtdTNtZGtDWVhKRGRrcmhxME5DNVdwVkJHYmpoY21BX3U5TXAxRWhSREdWelpEWUE?oc=5",
-            "published": "Mon, 17 Aug 2026 14:09:52 GMT",
-            "description": "Transchem acquires Greshma Shares for ₹25.91 crore to enter financial services &nbsp;&nbsp; scanx.trade",
+            "title": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdFo5WlVzRjlHcGdjUG9uQzlQR1ZlM25WcXJYRnJDWElCdDloTDBkMlYyclhRS2VLSnI4TlhIbHMyVEpRdHAyc0ttSTNaVlJibVpkYWJyQlZ0TUE?oc=5",
+            "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+            "description": "JIOFIN Share Price Today - Jio Financial Services Stock Analysis &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7635,10 +7636,10 @@
             }
           },
           {
-            "title": "IT stocks weigh on India's Sensex, Nifty after HCLTech forecasts slower growth - reuters.com",
+            "title": "IT stocks weigh on India's Sensex, Nifty after HCLTech forecasts slower growth - Reuters",
             "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYThmTWdEZ2dhQ24yTnRWN290bzBIeFJ2WEZLR1hFQmxPZzhwR1pPVUFiLWJhVk54S0ZKbkwzRlRPQkxjZHhiTG00OGdiMEtvQXprMGxRWUN1TC1SVWlqdDNqVEVpYV9JMEdSSGduWlJJQVpiWTZjYnJyWlIwZFg1cUZFTTREZUtUa3NXdWtIQXpLbUF1OTZ0Sl83REZxaS1FbEhPRUQycFZLa2lBU1h6VWpScTBvSWh4Q1JUZkRFbzJMZFE?oc=5",
             "published": "Wed, 22 Apr 2026 07:00:00 GMT",
-            "description": "IT stocks weigh on India's Sensex, Nifty after HCLTech forecasts slower growth &nbsp;&nbsp; reuters.com",
+            "description": "IT stocks weigh on India's Sensex, Nifty after HCLTech forecasts slower growth &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -7652,10 +7653,10 @@
             }
           },
           {
-            "title": "TCS, Infosys, HCLTech rise up to 4%: Why are IT stocks rising today? - India Today",
+            "title": "TCS, Infosys, HCLTech rise up to 4%: Why are IT stocks rising today? - indiatoday.in",
             "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZkdUdjlGR3gwV0x1SF9zVEZtRzExUUVOcHl5OVV0bkhNb2xrWERBWGo3N0JxYktPa0dzVlRpOXFwcEtjd2lzcS1KWm1YU0t2a1haeUNaLTlpUmY4N09sVk55SzdSTDN5M3BITjI4bnZ1QVZtXzBnWFZHY3BWRU52WE5DdTRyVnowOEZTSjFnZUMzUks1OGdoVHA5UHBrdV9Fb1F4ZnlqcTh0UEp3SXotam9LcHpFQTN5YXI3ZFAyblJoZS1YZ0VtWXpDWmRmazUxQ3RIcXFadW5ybUhyNUw2UlJwdkJCdXFqbXFZ0gHwAUFVX3lxTE8teHFDUlc5N2xzZ0FLMUM2ZTRhX3llT2JnTVdBVngyTl90cjZJbUlHREpwYWZCY1JpbUdDd3FRaW9TbnRfMXNHTUpBekh0NExMM1BIajNDekJkZ1l6dW92UUtkR3lpT1JQbnFyYU03dHQ1SVFNem5oQzdYeXlZOVJvdWVMQ04zNU5JZVVtSm1WLXdRbmZ3QXZ5aC1YekpfSDFPalRZaDM2UmlfZ0NvMWNVdWdNbnJWRndXeHU5Z1g3eVNmb0x2TVcyb0ZHMVFUZzFRUkpXWGdrR21KWmhjdmpIVVpEVlpuelhkdlY1dXlmSA?oc=5",
             "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-            "description": "TCS, Infosys, HCLTech rise up to 4%: Why are IT stocks rising today? &nbsp;&nbsp; India Today",
+            "description": "TCS, Infosys, HCLTech rise up to 4%: Why are IT stocks rising today? &nbsp;&nbsp; indiatoday.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7737,10 +7738,10 @@
         "contextScore": -4,
         "articles": [
           {
-            "title": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors - Samco",
+            "title": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors - samco.in",
             "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUY1ZWplU3pLTWVtVEYxTTFocDZXZU12bkdvXzk0UWJrMUtYLWFZUTh0Y2VpRmFNMXRaXzNxQ1NjU3VUTVd6ZDJWQUtMTHAyUUs4d0hmVXIyTnpWdWZ4VkZrNzJUeE1jWVJPLXdvVHlQNGxCclFtai1LOVRTTTNrYkFTaFU?oc=5",
             "published": "Sun, 16 Aug 2026 06:51:11 GMT",
-            "description": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors &nbsp;&nbsp; Samco",
+            "description": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors &nbsp;&nbsp; samco.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7799,10 +7800,10 @@
             }
           },
           {
-            "title": "Indian IT services emerges as an AI 'dark horse' for Morgan Stanley - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYUZ4YTB1Q1l4MEplLUdSQVJ2LVJyUFUtQU1ER05ta0dhYkdMWjZrRnBVYy1MUlgzaXZWbEU1ZmpqWVNtUms5aG1ZTWlNQWhkMVZhNTRoQmdGWGF0Wm9JZkZ1dFdpb2pGeFpfUDRHZU84RU1vUExZOUVabkJzdWh6WXRUaElNQVRDZmhYOHhxdVdiSC1vYTRkMl9MWU9wVFZfcnE2SFc3SHhraWhONDNFdEw3ZVR5Mlh2ZjJTa1JXMXNGcnMwT2s0QzRn0gHPAUFVX3lxTFAtaERBZXBUQm43V3hkR0lId0F2d2RGc3dMMmdFSzhvQkpYa25yRzl3U2g2eTd4MXNfWmtVa2JuUk5ZQ2lWVUU4bDFxcGpxN3RKY1lDY29BcHpxUm5pOG1iRFlycExqVlN0c3hiMUF1cVhiVUl0U2xCY2MzY3N4dTYtcnUtcmdaYlU1Qk9NdTBPYUFwVzhCS3VwR3V1WE96TjVtdHlLOE9XbWlyNVZlMlNkRmZxVElvQ0ZtZ0d3UF9MQkhDT2ZKaGc2QmxyN1laMA?oc=5",
-            "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-            "description": "Indian IT services emerges as an AI 'dark horse' for Morgan Stanley &nbsp;&nbsp; Moneycontrol.com",
+            "title": "How to make sense of the IT sector meltdown - The New Indian Express",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSi1UTUJ0cXZxUS1qSUJFSDZ2dzVwbFE0SGlNbWxTcVNCZWRUb05fdlhRVnZUR3hwc05RYmtWcmlHZHBIZnE5clRjN2MwaDhJNHF3YmkxUnlqeXg1cDljaTB4c2pBZC1naC1FWk5kMlhPang3Tl9DdVQ4Z01vaWFlYXFkZTk5S3EtV2JBWk41TnVLRFNTc3RYYzVabVd6Z9IBqwFBVV95cUxPU2RLRUU2WmREczVkclNOSjJvVTh3VTRnQkNoZlo5aXR3eDNvc1FCWVktUTMxVmRRaDY3LTFQZ3d5ODY1bllqVHp5Ukd3U3c0NEpUN3V6NEE3RU40Z2lxWl8xNzYtbWhTMFNIRUpjNW4xR29uOWpUdk1ER1l5Qzl6ajFUX2ctRXZxWkFSOFB3dTNjODB0QU1tX1hsSGh1U3JXOHVmREZ0WENfdzQ?oc=5",
+            "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+            "description": "How to make sense of the IT sector meltdown &nbsp;&nbsp; The New Indian Express",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7913,6 +7914,21 @@
         "highImpactNewsCount": 0,
         "articles": [
           {
+            "title": "JSWSTEEL Share Price Today - JSW Steel Stock Analysis - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkZEhEOEptNUFlNHFMcTU5UkdtbGRWMmlGdEdpM3JCV0JGcVg1U3Nta0pEbWJZQmZ5aUlXbXdOZ05ENTdJOXNxZHdJbWlxaUZtM3c1RDdwQVRMejUxeGc?oc=5",
+            "published": "Sat, 15 Aug 2026 07:00:00 GMT",
+            "description": "JSWSTEEL Share Price Today - JSW Steel Stock Analysis &nbsp;&nbsp; Equitypandit",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "JSW Steel Limited Revenue Breakdown – NSE:JSWSTEEL - TradingView",
             "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLelVhN05JbUxfeWZhcHhEaUdSbXEyd1ZmMlFrRUNjMC1wcDBTNkhrajFBaG11UU1SSmtyU3h1U1FabllHc3VpZUxXcjRsLTNnbDF1WVluMFdLVENCT2ZtNW9LaHdYR0k1aVYxcWVIZkl0NVo4S3BIbg?oc=5",
             "published": "Fri, 24 Jul 2026 18:42:54 GMT",
@@ -7990,21 +8006,6 @@
             }
           },
           {
-            "title": "JSWSTEEL Historical Data - Equitypandit",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0Y3VxSTJuXzlGc00zWnZEZDNRSDlRXzZXSkZtZ2JZMnUtVGpCMmZ1emF1M1VxWjZyb1RULWVkUnpqWVBBX3RDaVpZdEFMM0hQZnk4bVhjWXhHanVOUHRvOFp3SQ?oc=5",
-            "published": "Sun, 14 Sep 2025 06:55:26 GMT",
-            "description": "JSWSTEEL Historical Data &nbsp;&nbsp; Equitypandit",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "JSW Steel Limited Just Recorded A 52% EPS Beat: Here's What Analysts Are Forecasting Next - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzFEaDZFUFhsYlFLWHNWTjBvNWFJdWE3VFFrbjlKOFFZWlFzLW1VZjNRN0x6NmVhOEdnUXdtcGIweTBuaGNnXzg3cGNjM1l1NDNjOTNWdkRzbEx2ZTdxcTFWVGNEZE5jMkZKSDRUOW40UWJTUmxHMG1zVE1MNDVQS21tenNLU0l5ZEJFMW54eXdudW5lcTgwT1ZqRXBFRVNtX09EZWNsbjM1X2RwVzRoVDdpWVlDNHdLcm1oeFhvSmVld2g2WFR3VzNHTXRSZk5qVnU00gHYAUFVX3lxTE5NZi16UjEtS29jZF9oTXdmWEJHUzBqcVlsQU9xRGJwRWRIaC1ZS25DRThaMmdqU0xhLTNSek1TX0EwOGdRYUpxYU1PSW1UdEFiYWJhTHZxU3FHNFFXUGN0amlHODJLUm5ZT3lNVW9iWG5DeWY5V19ja2dvVUxCbDlTX0I2RnpDUHctdkNzX2VVaTRLTTBEWGlBQ25rd1l2Rkk3QVdfOWMxclZFc05NZmlmYzBrLUlheGkyUXBURXgtbHo3eUxtSUtzcGI4b2ZJQlRfcmdBWUJ3Mw?oc=5",
             "published": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -8022,10 +8023,10 @@
             }
           },
           {
-            "title": "JSW Steel JV Update; Shares Largely Unchanged - HDFC Sky",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbnB3aUhtc01mdUFTMi1WQnRVeGNrbUlITVR1eVVFZlc1eGNFeUtNZGpaRVhHRTIxby1ackxZdDFjaHNvZjV1aEtXVjdzYWl6TkhNd1FqZ29CNG9KY0NxV3VYVDF4dGZNSHRuTWNYM3liSmQxTHBxeHg5MTJrQ3ZRWjY2Z2xnYlpfM0RFNw?oc=5",
-            "published": "Mon, 30 Mar 2026 07:00:00 GMT",
-            "description": "JSW Steel JV Update; Shares Largely Unchanged &nbsp;&nbsp; HDFC Sky",
+            "title": "JSWSTEEL Historical Data - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0Y3VxSTJuXzlGc00zWnZEZDNRSDlRXzZXSkZtZ2JZMnUtVGpCMmZ1emF1M1VxWjZyb1RULWVkUnpqWVBBX3RDaVpZdEFMM0hQZnk4bVhjWXhHanVOUHRvOFp3SQ?oc=5",
+            "published": "Sun, 14 Sep 2025 06:55:26 GMT",
+            "description": "JSWSTEEL Historical Data &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8241,21 +8242,6 @@
             }
           },
           {
-            "title": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWDlOVVE2S1JzMHQ5UGpiUVBSSXN5em5OZWcxZFZFZ05nd3hlYmhRR2R6N29iZzgzdXZSRjJsOE5YOUJpTUNmUTl3X2trWFpITG80MDg0VzU2Y3ZWbEJDbUJfdE0wN2hHOVE?oc=5",
-            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-            "description": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap &nbsp;&nbsp; Univest",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Coforge Launches Nuuron: The AI Operating System for the Autonomous Enterprise - Business Wire",
             "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNREstLTJBMTJGcjF0dko3UmJRNmZMRkc5OW4wRkFwb0dCQlRKU1l2RmJfdnVDWmxvWEM5anVna1FUaEV2REdlWG5pUGtzQWJ6QW1scHFFV2h2OHVueFpjREVSaG02MWJiVk1FMjJqSDZackpvQm5ubUVsM2ZZN1YweVpEUEVCVlFuNW5hQ1pBdVNsNUFmdTdwR1FUUXFCSmcxWGNkaDNmdlFuaHRKOWI5QWJoY3RSQkR4Yzhma1RIc2lmR1loN1BwcTBva0xWVms?oc=5",
             "published": "Thu, 23 Jul 2026 07:00:00 GMT",
@@ -8350,6 +8336,27 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
+          },
+          {
+            "title": "Indian shares extend losses as investors book profits in thin year-end trade; Reliance drags - Reuters",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUVpM1NVbFoybFZVcW93Z1FNRVJaNmdsUERpRDdHVlNsbnZsVERaNGcydnZHSGx2eEh0SmE5WXItV1JOcWFkOGhSVHFoeGVGWUYycVp1R0lLYkZDMzE1LWV6dk9xeWhvSWU4SFFTc0luNEtadjBSOHN6QkFaaEY1Nk5qSlU0aFlsOHlVRGhuX2pxU2lwR0ZFVndoVQ?oc=5",
+            "published": "Sun, 28 Dec 2025 08:00:00 GMT",
+            "description": "Indian shares extend losses as investors book profits in thin year-end trade; Reliance drags &nbsp;&nbsp; Reuters",
+            "classification": {
+              "direction": "mixed",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [
+                "profit",
+                "profits"
+              ],
+              "negativeKeywords": [
+                "loss",
+                "losses"
+              ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
           }
         ]
       },
@@ -8360,10 +8367,10 @@
         "contextScore": -4,
         "articles": [
           {
-            "title": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors - Samco",
+            "title": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors - samco.in",
             "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUY1ZWplU3pLTWVtVEYxTTFocDZXZU12bkdvXzk0UWJrMUtYLWFZUTh0Y2VpRmFNMXRaXzNxQ1NjU3VUTVd6ZDJWQUtMTHAyUUs4d0hmVXIyTnpWdWZ4VkZrNzJUeE1jWVJPLXdvVHlQNGxCclFtai1LOVRTTTNrYkFTaFU?oc=5",
             "published": "Sun, 16 Aug 2026 06:51:11 GMT",
-            "description": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors &nbsp;&nbsp; Samco",
+            "description": "Top 10 IT Stocks In India August 2026: A Comprehensive Guide For Investors &nbsp;&nbsp; samco.in",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8422,10 +8429,10 @@
             }
           },
           {
-            "title": "Indian IT services emerges as an AI 'dark horse' for Morgan Stanley - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYUZ4YTB1Q1l4MEplLUdSQVJ2LVJyUFUtQU1ER05ta0dhYkdMWjZrRnBVYy1MUlgzaXZWbEU1ZmpqWVNtUms5aG1ZTWlNQWhkMVZhNTRoQmdGWGF0Wm9JZkZ1dFdpb2pGeFpfUDRHZU84RU1vUExZOUVabkJzdWh6WXRUaElNQVRDZmhYOHhxdVdiSC1vYTRkMl9MWU9wVFZfcnE2SFc3SHhraWhONDNFdEw3ZVR5Mlh2ZjJTa1JXMXNGcnMwT2s0QzRn0gHPAUFVX3lxTFAtaERBZXBUQm43V3hkR0lId0F2d2RGc3dMMmdFSzhvQkpYa25yRzl3U2g2eTd4MXNfWmtVa2JuUk5ZQ2lWVUU4bDFxcGpxN3RKY1lDY29BcHpxUm5pOG1iRFlycExqVlN0c3hiMUF1cVhiVUl0U2xCY2MzY3N4dTYtcnUtcmdaYlU1Qk9NdTBPYUFwVzhCS3VwR3V1WE96TjVtdHlLOE9XbWlyNVZlMlNkRmZxVElvQ0ZtZ0d3UF9MQkhDT2ZKaGc2QmxyN1laMA?oc=5",
-            "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-            "description": "Indian IT services emerges as an AI 'dark horse' for Morgan Stanley &nbsp;&nbsp; Moneycontrol.com",
+            "title": "How to make sense of the IT sector meltdown - The New Indian Express",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSi1UTUJ0cXZxUS1qSUJFSDZ2dzVwbFE0SGlNbWxTcVNCZWRUb05fdlhRVnZUR3hwc05RYmtWcmlHZHBIZnE5clRjN2MwaDhJNHF3YmkxUnlqeXg1cDljaTB4c2pBZC1naC1FWk5kMlhPang3Tl9DdVQ4Z01vaWFlYXFkZTk5S3EtV2JBWk41TnVLRFNTc3RYYzVabVd6Z9IBqwFBVV95cUxPU2RLRUU2WmREczVkclNOSjJvVTh3VTRnQkNoZlo5aXR3eDNvc1FCWVktUTMxVmRRaDY3LTFQZ3d5ODY1bllqVHp5Ukd3U3c0NEpUN3V6NEE3RU40Z2lxWl8xNzYtbWhTMFNIRUpjNW4xR29uOWpUdk1ER1l5Qzl6ajFUX2ctRXZxWkFSOFB3dTNjODB0QU1tX1hsSGh1U3JXOHVmREZ0WENfdzQ?oc=5",
+            "published": "Sun, 22 Feb 2026 08:00:00 GMT",
+            "description": "How to make sense of the IT sector meltdown &nbsp;&nbsp; The New Indian Express",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8732,16 +8739,16 @@
             }
           },
           {
-            "title": "Zeta stock jumps after Palantir partnership deal - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPejRlcVdrNkJTQkNRR2xCWWRkTTE2OVY1MnBTYXc5UHkwckNkYmVKYkw3Wk1fek5QTVg3WUgyT2l6aEc3eEJBQUZEc3paWmIxT0ZKNldHdF9ud1hMaFpKbFZPeERoV2RBYXNGMXR6YVRPanlHM0MyTVJMUWg1eHlYQVNnalNhcE81aG5yNDVMWGlfeHZ6YzJOa2FhY3BpaEtLd2dCMlp5dHludXBtNF84UVZmSkJhcWt0LUJwbU9OMA?oc=5",
-            "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-            "description": "Zeta stock jumps after Palantir partnership deal &nbsp;&nbsp; scanx.trade",
+            "title": "$2B AI data center build in India anchors Asia expansion - stocktitan.net",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVR3NGRRWUM0SmZwV1FHVHEtNi1TYi1Sdi12bmlqcG85aXBfZFFiMnFQYjFxQW9DTTJ1UUlCZFVnMVBCeWpZU1RySUtlR04yMWhEenFoYjRCTVFRZWVGMFZic1BRZTNNNXFTNVUwU1BEMVJ5eXlMeU5Hd2U1SnFMNEJXTTN0UU83S2todEh1aUlzdGpFN05YOTczbjhBXy1MdGZwbnZqXzZLQXE5VExHbWNDbTFyUWFZRGN3?oc=5",
+            "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+            "description": "$2B AI data center build in India anchors Asia expansion &nbsp;&nbsp; stocktitan.net",
             "classification": {
               "direction": "positive",
               "impact": "medium",
               "rawScore": 2,
               "positiveKeywords": [
-                "partnership"
+                "expansion"
               ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
@@ -9029,10 +9036,10 @@
             }
           },
           {
-            "title": "5 Chemical Stocks in India with Aggressive Expansion Plans - Equitymaster",
+            "title": "5 Chemical Stocks in India with Aggressive Expansion Plans - equitymaster.com",
             "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMGFKdmN4aDdFRW56WmI4ejBGYk5UeG9Wa1MzWUpIOXVLMkhJdFprdXJRbjhMZGppbGhfYnRKbmNHanF6bzROMU1nLV8xSnNXWEo0Nm5jTVR3Z0JiaGh2em1oNGh4OXZTNUtVZXV4Y25wM09wQzBKSUMwUXEtYXNEb3Z6b0kzY2VWdVYteEV5VVJvZnc1ZXp0cUMwX0RtRXVUbnVvckU4QzM5Uk9sdUZqOERjU3YxWGRUOWxaak5SLVA1UURZNGxZOQ?oc=5",
             "published": "Tue, 26 May 2026 07:00:00 GMT",
-            "description": "5 Chemical Stocks in India with Aggressive Expansion Plans &nbsp;&nbsp; Equitymaster",
+            "description": "5 Chemical Stocks in India with Aggressive Expansion Plans &nbsp;&nbsp; equitymaster.com",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -9643,10 +9650,10 @@
             }
           },
           {
-            "title": "Telecommunications Services Market - futuremarketinsights.com",
+            "title": "Telecommunications Services Market - Future Market Insights",
             "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFJIVHZXUHI5VG9DQnFOcDhPVHR6TmNQaUNsNnY0eWZmOHE4U2gzY2xtN1QtMndIYTc5TExzREMzN292X3Z4dVc2b1F0RkYtSURmUUNCZnJNVW02UHptZHBLQTNzV05sN1RaTURNWklneV9XUXMxTnZlTnVZY3Y4aXZ5dmJneGlMTHY3X045aw?oc=5",
             "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-            "description": "Telecommunications Services Market &nbsp;&nbsp; futuremarketinsights.com",
+            "description": "Telecommunications Services Market &nbsp;&nbsp; Future Market Insights",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -9705,6 +9712,21 @@
             }
           },
           {
+            "title": "India's RCS Adoption Surges 108% as Businesses Shift to Richer Customer Conversations, Reveals Infobip - indiagazette.com",
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWXMyaEZaWjRreGRybVRLNG5TNC1DMWpwb0VzTTJjOE9FSFp6ZnJiLXFkX1QtWUMweFMwSDNLXzVJUGZ4Z3lVQzl2cnNmeFo4MHQ4YUpETWVaaDVmYnU3WEdJRjZvU0hEV3luenJLU05ob0d5Mmw4RmphalphQzA5b3l6d0lkbjlCdlpHNHp0TVRhWXNXamNDdUtSN213ZHFZRG1QdHRpTnoxaEx1RUxSN2htcGRRUkQxbG03Wk5FSmxsWU5JcHR5blZOdzNFdVpmb1dNenRIX1Zhdw?oc=5",
+            "published": "Tue, 18 Aug 2026 09:29:00 GMT",
+            "description": "India's RCS Adoption Surges 108% as Businesses Shift to Richer Customer Conversations, Reveals Infobip &nbsp;&nbsp; indiagazette.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Tata Group's Nelco partners with US-based Elveo to bring direct-to-device, IoT connectivity in South Asia - indiagazette.com",
             "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWDN5VGZWT0tfNHdQSVRjQkZvR0xDbUNsb0hFWlJoNzQxOWNQd1BTRG8tVWcyY0dua0VBN1FSNS1SLXRWaHhkU1ZPZEhXQUpPZzNPeFYxaTlicWQxSTZORjhPLXdpR3pnbnM5SWxUdmVlUmw0cDhBMW9WdUlnTU8xLWdxdVJyOFJhMWNlcWVCM1ZmVklCdV9nVTRfbndTRXFqTWc1dmhUZ0YwNTRVS2FDY0pjR2R2MFBPY3Z4WEkwcFFTMV83LVZ6NDN6b1pQNHVmNVlpU2x5X0gzYTVvSEYw?oc=5",
             "published": "Tue, 18 Aug 2026 03:28:00 GMT",
@@ -9720,10 +9742,10 @@
             }
           },
           {
-            "title": "Telecommunications Services Market - futuremarketinsights.com",
+            "title": "Telecommunications Services Market - Future Market Insights",
             "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFJIVHZXUHI5VG9DQnFOcDhPVHR6TmNQaUNsNnY0eWZmOHE4U2gzY2xtN1QtMndIYTc5TExzREMzN292X3Z4dVc2b1F0RkYtSURmUUNCZnJNVW02UHptZHBLQTNzV05sN1RaTURNWklneV9XUXMxTnZlTnVZY3Y4aXZ5dmJneGlMTHY3X045aw?oc=5",
             "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-            "description": "Telecommunications Services Market &nbsp;&nbsp; futuremarketinsights.com",
+            "description": "Telecommunications Services Market &nbsp;&nbsp; Future Market Insights",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -9739,21 +9761,6 @@
             "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOR3drcm9VVTdYdUNTazhzTHV6cEpOZEcyMjhQWEhjUERDa0FWMWRzWVJTOXpsdWRaazJFZnpQVENkUl90VjhaX3VuZFRUc29QaUVfWGNYcm9wZmFtLXV2UDZZb1ZGcVF6Y3ZHaS1oSVRmRUVxTG5HcnFEbktUVEs1NzA5NXB0dFk1bTM2YzllUmpBblBoSk1yYk1qNlZva3FZUEF3cEZvZ2MtM0xmc2NWXzlwLWx2enhvRzJzRHRnSXplamdoeXlXcTdJZWxFNzlWT0NHdVhidzdmNlkwZVFB0gHkAUFVX3lxTE0wc3ladXFIOFhfa1RVR3ZyMkk0Ymh0cnpQei11TkFwTzlDdnB2QU5jTGM0bl9WYnBJV0pNdEdZQnVQSHBZQUJzUU1jMVJsd3YxRmFfOU5ZTlNoakotZmV2SlpOQUw2QUtCQkpSbVBmOFhTN0xmYmZhRU1NRXVBd0gzeW4wcTh4TW5qdXNJN3hsSXMzTXBDeFh0UFlPMTBoZmozLU9UMFNTTm1LMTdvT2JwM1p5NG03RFRUVkRCeV9kRzJ2YUdGUzAzSlRqZ0l5R1NEanhjQ0FwYXZQaDdIRHZnUUp0UA?oc=5",
             "published": "Mon, 17 Aug 2026 11:18:23 GMT",
             "description": "Nelco invests $20 million in Lunar Holdco to expand satellite connectivity services &nbsp;&nbsp; CNBC TV18",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "US stock markets today (March 31, 2026): Wall Street rallies on de-escalation hopes; S&P 500 jumps over 1 - The Times of India",
-            "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQb0RFa1NxUFd0cUs4WmI4NHVLZUtwX0JER2tSZW03dGRkNllWV3VOcUhLNlV1VTBxVkdZZXZCRTFJSTVtUFpQTUNjcHBfM2xSSzZGZVJpVHlqM0NWRlMyQnFBbHU3WGxnN1puX3MxbG5iWHNkc3EwMkV4ZGx6ME5fSGZUUGR5M2p3UFc1SzBXeUF4RlVxcmE0aDIwT244WmhTa3FQY1B2M3QxeG41Umx5OGUyd2NhNTlyYVZFbGxvSHRRMTdyVGE1NnBJZ0NpOW1HWVlYOFg1SFJKb3g3SmxQdFJWaDk0RXVHb204WjUwTVVrVkNtcG9YdFlyTF9XRWtQa0NtdzJTWFZ2QXdnTGlBWUpCMlp1NGxBNzNyRlNvNFkweGZ5ZXo4dkY4UmtVN256em1aZVVmY3EzcGdqMkVLZ9IBxgJBVV95cUxQd0ZJWUotNl92OGtuRHFoNE1Tb1l5UWUtbnVwWkdHNEE3UDFldEhSTURMUWQzRHlaNUdyZVhFM1FDQlA3cnpDSm5ycFNETmMtRm1wSXZqbFFJcy1GdFhVUW15TlE5bkNFR1laa29YSVdYYlVGX2lQeVNmR0JXMzhsTnJrWFJVWi1UQWd6azdaZGtnbGZSY1FnNU1YeGgzZ2I1U2hudmpXWnlla2NETXpZNnl3ZzlKTWJlcldWRWlvOTJzVFFtSzBJaGs5b29GcE9wN2M1XzdNVk5BRUVrSExqZm0wUEt0Sktrd1NobFdVY3VLWHhZUlJaeFJadGJfNlotQUpXV3JkWE5EU0VUZzZOQ0lybzRGSnJUVVVQVVAxRGRQNU9VaDE5cHhlbUplRXdvVURvWTVZOEgwNENlbTduSGFwQ2liUQ?oc=5",
-            "published": "Tue, 31 Mar 2026 07:00:00 GMT",
-            "description": "US stock markets today (March 31, 2026): Wall Street rallies on de-escalation hopes; S&P 500 jumps over 1 &nbsp;&nbsp; The Times of India",
             "classification": {
               "direction": "neutral",
               "impact": "low",
