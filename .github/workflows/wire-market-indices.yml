@@ -1,0 +1,49 @@
+name: Wire market indices UI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'market-indices.js'
+      - '.github/workflows/wire-market-indices.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add market index feed and script
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          t=p.read_text(encoding='utf-8')
+          marker='<script src="./market-indices.js?v=1"></script>'
+          if marker not in t:
+              insert='''\n<div id="isp-market-indices" class="panel isp-market-indices" aria-label="NIFTY 50 and SENSEX live market feed">\n  <div class="isp-index-heading"><div><h2>Indian Market Indices</h2><div class="isp-index-sub">NIFTY 50 and SENSEX · latest published market snapshot</div></div><button id="isp-index-refresh" type="button">↻ Refresh</button></div>\n  <div class="isp-index-grid">\n    <div class="isp-index-card" data-index="NIFTY"><div class="isp-index-name">NIFTY 50</div><div class="isp-index-value">—</div><div class="isp-index-change">Loading…</div><div class="isp-index-time">Waiting for quote feed</div></div>\n    <div class="isp-index-card" data-index="SENSEX"><div class="isp-index-name">SENSEX</div><div class="isp-index-value">—</div><div class="isp-index-change">Loading…</div><div class="isp-index-time">Waiting for quote feed</div></div>\n  </div>\n  <div class="isp-index-disclaimer">Market index values are displayed from the available published quote feed. They may be delayed; this is not a guaranteed real-time exchange feed.</div>\n</div>\n'''
+              # Put it immediately after the header so it is genuinely at the top.
+              t=t.replace('</header>', '</header>'+insert, 1)
+              t=t.replace('</body>', marker+'\n</body>', 1)
+          p.write_text(t,encoding='utf-8')
+          PY
+
+      - name: Commit UI wiring
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Wire NIFTY and SENSEX dashboard feed"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main && git push origin HEAD:main && exit 0
+            git rebase --abort || true
+          done
+          exit 1
