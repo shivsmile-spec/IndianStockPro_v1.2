@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-18T08:04:37.711085+00:00",
+  "generatedAt": "2026-08-18T09:53:34.185805+00:00",
   "source": "Yahoo Finance public chart endpoint",
   "indices": {
     "NIFTY50": {
-      "value": 24203.8,
+      "value": 24166.35,
       "previousClose": 24366.0,
-      "change": -162.20000000000073,
-      "changePct": -0.6656816875974749,
-      "timestamp": "2026-08-18T08:04:36+00:00"
+      "change": -199.65000000000146,
+      "changePct": -0.8193794631864133,
+      "timestamp": "2026-08-18T09:53:33+00:00"
     },
     "SENSEX": {
-      "value": 77383.82,
+      "value": 77380.92,
       "previousClose": 78009.2,
-      "change": -625.3799999999901,
-      "changePct": -0.801674674269176,
-      "timestamp": "2026-08-18T07:49:35+00:00"
+      "change": -628.2799999999988,
+      "changePct": -0.8053921845115689,
+      "timestamp": "2026-08-18T09:38:31+00:00"
     }
   }
 }
