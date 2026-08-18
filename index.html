@@ -103,6 +103,15 @@ h2{margin:0 0 14px;font-size:23px}h3{margin:20px 0 10px}
 <div class="brand-copy"><div class="brand-name">Indian Stock Pro <span>●</span><span class="version-pill">v1.9</span></div><div class="brand-sub">Quantitative Signals + Company News + Industry + Market Context</div></div>
 </div>
 </div></header>
+<div id="isp-market-indices" class="panel isp-market-indices" aria-label="NIFTY 50 and SENSEX live market feed">
+  <div class="isp-index-heading"><div><h2>Indian Market Indices</h2><div class="isp-index-sub">NIFTY 50 and SENSEX · latest published market snapshot</div></div><button id="isp-index-refresh" type="button">↻ Refresh</button></div>
+  <div class="isp-index-grid">
+    <div class="isp-index-card" data-index="NIFTY"><div class="isp-index-name">NIFTY 50</div><div class="isp-index-value">—</div><div class="isp-index-change">Loading…</div><div class="isp-index-time">Waiting for quote feed</div></div>
+    <div class="isp-index-card" data-index="SENSEX"><div class="isp-index-name">SENSEX</div><div class="isp-index-value">—</div><div class="isp-index-change">Loading…</div><div class="isp-index-time">Waiting for quote feed</div></div>
+  </div>
+  <div class="isp-index-disclaimer">Market index values are displayed from the available published quote feed. They may be delayed; this is not a guaranteed real-time exchange feed.</div>
+</div>
+
 
 <div class="container">
 
@@ -958,5 +967,6 @@ loadData();
 <script src="./external-intelligence.js?v=1"></script>
 <script src="./fundamentals-ui.js?v=1"></script>
 <script src="./nse-search.js?v=1"></script>
+<script src="./market-indices.js?v=1"></script>
 </body>
 </html>
