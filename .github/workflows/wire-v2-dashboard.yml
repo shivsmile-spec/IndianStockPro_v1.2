@@ -8,6 +8,7 @@ on:
       - 'v2-features.js'
       - 'v2-bridge.js'
       - 'v2-external-freshness.js'
+      - 'v2-dedupe.js'
       - '.github/workflows/wire-v2-dashboard.yml'
 
 permissions:
@@ -28,7 +29,7 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          tags=['<script src="./v2-bridge.js?v=1"></script>','<script src="./v2-features.js?v=1"></script>','<script src="./v2-external-freshness.js?v=1"></script>']
+          tags=['<script src="./v2-bridge.js?v=1"></script>','<script src="./v2-features.js?v=1"></script>','<script src="./v2-external-freshness.js?v=1"></script>','<script src="./v2-dedupe.js?v=1"></script>']
           marker='</body>'
           if marker not in s: raise SystemExit('Missing </body>')
           for tag in tags:
