@@ -1,0 +1,46 @@
+name: Wire V2 dashboard features
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'v2-features.js'
+      - 'v2-bridge.js'
+      - '.github/workflows/wire-v2-dashboard.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wire-v2-dashboard
+  cancel-in-progress: true
+
+jobs:
+  wire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add V2 scripts to dashboard
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text(encoding='utf-8')
+          marker='<script src="./v2-bridge.js?v=1"></script>'
+          v2='<script src="./v2-features.js?v=1"></script>'
+          if marker not in s:
+              s=s.replace('</body>', marker+'\n'+v2+'\n</body>')
+          elif v2 not in s:
+              s=s.replace('</body>', v2+'\n</body>')
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit wiring
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Wire V2 research features"
+          git pull --rebase origin main
+          git push
