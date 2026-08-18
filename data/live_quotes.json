@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:59:58.696522+00:00",
+  "generatedAt": "2026-08-18T11:57:11.764560+00:00",
   "source": "Yahoo Finance with NSE India fallback",
   "quoteCount": 30,
   "requestedCount": 30,
@@ -211,21 +211,21 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
-    "MGL": {
-      "price": 1111.4,
-      "previousClose": 1129.1,
-      "change": -17.699999999999818,
-      "changePct": -1.5676202285005596,
-      "timestamp": "2026-08-18T09:59:55+00:00",
+    "HCLTECH": {
+      "price": 1298.0,
+      "previousClose": 1325.0,
+      "change": -27.0,
+      "changePct": -2.0377358490566038,
+      "timestamp": "2026-08-18T09:45:00+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
-    "RELIANCE": {
-      "price": 1322.0,
-      "previousClose": 1316.0,
-      "change": 6.0,
-      "changePct": 0.4559270516717325,
-      "timestamp": "2026-08-18T09:45:05+00:00",
+    "JSWSTEEL": {
+      "price": 1267.6,
+      "previousClose": 1277.8,
+      "change": -10.200000000000045,
+      "changePct": -0.7982469870089252,
+      "timestamp": "2026-08-18T09:45:02+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
