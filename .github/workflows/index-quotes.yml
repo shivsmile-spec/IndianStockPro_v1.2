@@ -20,7 +20,7 @@ jobs:
       - name: Fetch index quotes
         run: |
           python - <<'PY'
-          import json, urllib.request
+          import json, urllib.request, urllib.parse
           from datetime import datetime, timezone
           from pathlib import Path
           headers={"User-Agent":"Mozilla/5.0","Accept":"application/json"}
