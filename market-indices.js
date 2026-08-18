@@ -6,6 +6,8 @@
   const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
   const num=v=>Number.isFinite(Number(v))?Number(v):null;
   const formatValue=v=>num(v)!==null?num(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2}):"—";
+  let timer=null;
+  let refreshing=false;
 
   function injectCSS(){
     if(document.getElementById("isp-market-index-css"))return;
@@ -76,20 +78,19 @@
     return `${Math.round(hours/24)} day${Math.round(hours/24)===1?"":"s"} ago`;
   }
 
-  async function load(manual){
+  async function load(manual=false){
+    if(refreshing)return;
+    refreshing=true;
     const panel=ensurePanel();
     const grid=panel.querySelector("#ispIndexGrid");
     const status=panel.querySelector("#ispIndexStatus");
     const btn=panel.querySelector("#ispIndexRefresh");
     if(btn){btn.disabled=true;btn.textContent=manual?"↻ Loading…":"↻ Refresh"}
     try{
-      const r=await fetch(FEED+(manual?"&manual=1":""),{cache:"no-store"});
+      const r=await fetch("./data/index_quotes.json?v="+Date.now()+(manual?"&manual=1":""),{cache:"no-store"});
       if(!r.ok)throw new Error(`HTTP ${r.status}`);
       const data=await r.json();
-      const indexList=[
-        {name:"NIFTY 50",key:"NIFTY50"},
-        {name:"SENSEX",key:"SENSEX"}
-      ];
+      const indexList=[{name:"NIFTY 50",key:"NIFTY50"},{name:"SENSEX",key:"SENSEX"}];
       grid.innerHTML=indexList.map(x=>{
         const q=data?.indices?.[x.key]||{};
         const value=num(q.value);
@@ -105,23 +106,27 @@
         </div>`;
       }).join("");
       const generated=data.generatedAt||data.generated||null;
-      status.textContent=(generated?`Published index snapshot: ${new Date(generated).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})} IST. `:"")+"Values may be delayed; this is not a guaranteed real-time exchange feed.";
+      status.textContent=(generated?`Published index snapshot: ${new Date(generated).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})} IST. `:"")+"Auto-refreshes every 5 minutes while the page is open. Values may be delayed; this is not a guaranteed real-time exchange feed.";
     }catch(err){
       console.error("Index feed error",err);
       grid.innerHTML=`<div class="isp-index-error">NIFTY 50 index feed is temporarily unavailable.</div><div class="isp-index-error">SENSEX index feed is temporarily unavailable.</div>`;
       status.textContent="Could not load the published index feed. Stock analysis and other research layers remain available.";
     }finally{
       if(btn){btn.disabled=false;btn.textContent="↻ Refresh"}
+      refreshing=false;
     }
   }
 
   function start(){
     injectCSS();
-    /* Run after the page and other dashboard scripts have had time to create their panels. */
     ensurePanel();
     load(false);
     setTimeout(()=>load(false),1200);
     setTimeout(()=>load(false),3000);
+    clearInterval(timer);
+    timer=setInterval(()=>load(false),300000);
+    document.addEventListener("visibilitychange",()=>{if(!document.hidden)load(false)});
+    window.addEventListener("focus",()=>load(false));
   }
 
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
