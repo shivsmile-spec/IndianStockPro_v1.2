@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-08-18T06:15:09.536209+00:00",
+  "source": "Yahoo Finance public chart endpoint",
+  "indices": {
+    "NIFTY50": {
+      "value": 24197.1,
+      "previousClose": 24287.65,
+      "change": -90.55000000000291,
+      "changePct": -0.37282322497237447,
+      "timestamp": "2026-08-18T06:15:08+00:00"
+    },
+    "SENSEX": {
+      "value": 77302.13,
+      "previousClose": 77728.16,
+      "change": -426.02999999999884,
+      "changePct": -0.548102515227427,
+      "timestamp": "2026-08-18T06:00:08+00:00"
+    }
+  }
+}
