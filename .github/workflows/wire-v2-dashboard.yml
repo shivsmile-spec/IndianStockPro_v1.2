@@ -7,6 +7,7 @@ on:
     paths:
       - 'v2-features.js'
       - 'v2-bridge.js'
+      - 'v2-external-freshness.js'
       - '.github/workflows/wire-v2-dashboard.yml'
 
 permissions:
@@ -27,12 +28,12 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          marker='<script src="./v2-bridge.js?v=1"></script>'
-          v2='<script src="./v2-features.js?v=1"></script>'
-          if marker not in s:
-              s=s.replace('</body>', marker+'\n'+v2+'\n</body>')
-          elif v2 not in s:
-              s=s.replace('</body>', v2+'\n</body>')
+          tags=['<script src="./v2-bridge.js?v=1"></script>','<script src="./v2-features.js?v=1"></script>','<script src="./v2-external-freshness.js?v=1"></script>']
+          marker='</body>'
+          if marker not in s: raise SystemExit('Missing </body>')
+          for tag in tags:
+              if tag not in s:
+                  s=s.replace(marker,tag+'\n'+marker,1)
           p.write_text(s,encoding='utf-8')
           PY
       - name: Commit wiring
