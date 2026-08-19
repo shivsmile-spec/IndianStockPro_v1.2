@@ -3,16 +3,17 @@
   "use strict";
   const TABS=[
     {id:"indices",label:"📊 Market Indices",target:"isp-market-indices"},
-    {id:"search",label:"🔎 Search & Analyze",target:"isp-search-analyze"},
+    {id:"search",label:"🔎 Search Share · Health & Analyze",target:"isp-search-analyze"},
     {id:"top10",label:"🏆 Top 10 Stocks to Invest",target:"isp-top10"},
     {id:"institutional",label:"🏦 Institutional Research",target:"institutionalResearchPanel"},
+    {id:"news",label:"📰 News & Market Context",target:"isp-news-context"},
     {id:"ipo",label:"🧾 Upcoming IPO",target:"ispIPOCalendar"},
     {id:"dividend",label:"💰 Upcoming Dividend",target:"ispDividendCalendar"},
     {id:"summary",label:"📈 Integrated Market Summary",target:"summary"},
     {id:"notice",label:"⚠️ Important Notice",target:"ispImportantNotice"}
   ];
 
-  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;"," ":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 
   function injectStyle(){
     if(document.getElementById("isp-tabs-style"))return;
@@ -22,9 +23,10 @@
       .isp-tabs-inner{max-width:1150px;margin:auto;padding:10px 20px;display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin}
       .isp-tab{flex:0 0 auto;border:1px solid rgba(255,255,255,.14);background:#17233c;color:#dbe5f5;padding:10px 13px;border-radius:10px;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap}
       .isp-tab:hover{background:#223252}.isp-tab.active{background:#fff;color:#10182b;border-color:#fff}
-      .isp-tab-panel{display:none}.isp-tab-panel.isp-active{display:block}
+      .isp-tab-panel{display:none!important}.isp-tab-panel.isp-active{display:block!important}
       .isp-quick-head{margin:0 0 12px;padding:14px 16px;border-radius:14px;background:#f5f7fa;border:1px solid #e1e6ef}
       .isp-quick-head strong{font-size:16px}.isp-quick-head span{display:block;margin-top:3px;font-size:12px;color:#667085}
+      .isp-no-tab{display:none!important}
       @media(max-width:700px){.isp-tabs-inner{padding:8px 12px}.isp-tab{font-size:11px;padding:9px 11px}}
     `;document.head.appendChild(s);
   }
@@ -37,9 +39,10 @@
     const el=document.getElementById("integratedCards");
     return el?.closest("section.panel")||null;
   }
-  function findQuant(){
-    const el=document.getElementById("quantCards");
-    return el?.closest("section.panel")||null;
+  function findNews(){
+    const el=document.querySelector(".expert-panel");
+    if(el && !el.id)el.id="isp-news-context";
+    return el?.closest("section.panel")||el||null;
   }
   function makePanel(id,source,title,subtitle){
     if(!source)return null;
@@ -55,11 +58,13 @@
   }
   function addMissingPanels(){
     makePanel("isp-market-indices",document.getElementById("isp-market-indices")?.closest("section.panel")||document.getElementById("isp-market-indices"),"Market Indices","NIFTY, SENSEX and published market index data.");
-    makePanel("isp-search-analyze",findSearchPanel(),"Search & Analyze","Search a share and open its complete quantitative, fundamental and market-context report. Feed health is shown here too.");
+    const search=makePanel("isp-search-analyze",findSearchPanel(),"Search Share · Health & Analyze","Search an NSE share and open its complete quantitative, fundamental and market-context report. Data & Feed Health is included here.");
+    const health=document.getElementById("ispFeedHealth");
+    if(search && health && !search.contains(health))search.insertBefore(health,search.firstChild);
     const top=findTop10();
     if(top)makePanel("isp-top10",top,"Top 10 Stocks to Invest","Top integrated opportunities ranked by the current Indian Stock Pro model. Research tool only — not personal investment advice.");
-    const quant=findQuant();
-    if(quant && !document.getElementById("isp-top10"))makePanel("isp-top10",quant,"Top 10 Stocks","Current quantitative leaders.");
+    const news=findNews();
+    if(news)makePanel("isp-news-context",news,"News & Market Context","Latest external news, industry context and market intelligence used alongside the quantitative model.");
   }
 
   function targetElement(t){
@@ -71,38 +76,31 @@
     if(document.getElementById("ispDashboardTabs"))return;
     const nav=document.createElement("nav");nav.id="ispDashboardTabs";nav.className="isp-dashboard-tabs";
     nav.innerHTML=`<div class="isp-tabs-inner" role="tablist" aria-label="Indian Stock Pro sections">${TABS.map((t,i)=>`<button class="isp-tab${i===0?" active":""}" data-tab="${esc(t.id)}" role="tab" aria-selected="${i===0}">${esc(t.label)}</button>`).join("")}</div>`;
-    const header=document.querySelector("header");
-    header?.parentNode.insertBefore(nav,header.nextSibling);
+    const header=document.querySelector("header");header?.parentNode.insertBefore(nav,header.nextSibling);
 
     const activate=id=>{
       const selected=TABS.find(t=>t.id===id)||TABS[0];
-      TABS.forEach(t=>{
-        const p=targetElement(t);
-        if(p){p.classList.add("isp-tab-panel");p.classList.toggle("isp-active",t.id===selected.id);}
-        const b=nav.querySelector(`[data-tab="${t.id}"]`);
-        if(b){b.classList.toggle("active",t.id===selected.id);b.setAttribute("aria-selected",String(t.id===selected.id));}
+      const selectedPanel=targetElement(selected);
+      document.querySelectorAll(".container > section.panel").forEach(p=>{
+        if(p===selectedPanel)p.classList.add("isp-tab-panel","isp-active");
+        else if(p.dataset.ispTabPanel==="1" || p.id==="ispImportantNotice" || p.id==="institutionalResearchPanel" || p.id==="ispIPOCalendar" || p.id==="ispDividendCalendar" || p.id==="isp-news-context" || p.id==="isp-search-analyze" || p.id==="isp-top10" || p.id==="isp-market-indices")p.classList.add("isp-tab-panel");
       });
-      const p=targetElement(selected);
-      if(p)p.scrollIntoView({behavior:"smooth",block:"start"});
+      TABS.forEach(t=>{const b=nav.querySelector(`[data-tab="${t.id}"]`);if(b){b.classList.toggle("active",t.id===selected.id);b.setAttribute("aria-selected",String(t.id===selected.id));}});
+      if(selectedPanel)selectedPanel.scrollIntoView({behavior:"smooth",block:"start"});
     };
     nav.addEventListener("click",e=>{const b=e.target.closest(".isp-tab");if(b)activate(b.dataset.tab);});
-    window.ispActivateTab=activate;
-    window.ispDashboardTabsReady=true;
-    activate("indices");
+    window.ispActivateTab=activate;window.ispDashboardTabsReady=true;activate("indices");
   }
 
   function ensureReconcile(){
-    // Dynamic sections are injected by existing engines after this script may start.
-    ["institutionalResearchPanel","ispIPOCalendar","ispDividendCalendar","ispImportantNotice"].forEach(id=>{
-      const e=document.getElementById(id);if(e)e.classList.add("isp-tab-panel");
-    });
-    if(window.ispDashboardTabsReady && !document.querySelector(".isp-tab.active"))window.ispActivateTab("indices");
+    addMissingPanels();
+    ["institutionalResearchPanel","ispIPOCalendar","ispDividendCalendar","ispImportantNotice","isp-news-context"].forEach(id=>{const e=document.getElementById(id);if(e)e.classList.add("isp-tab-panel");});
+    if(window.ispDashboardTabsReady)window.ispActivateTab(document.querySelector(".isp-tab.active")?.dataset.tab||"indices");
   }
 
   function start(){
     injectStyle();addMissingPanels();createShell();ensureReconcile();
-    const observer=new MutationObserver(()=>ensureReconcile());
-    observer.observe(document.querySelector(".container")||document.body,{childList:true,subtree:true});
+    const observer=new MutationObserver(()=>ensureReconcile());observer.observe(document.querySelector(".container")||document.body,{childList:true,subtree:true});
     setTimeout(ensureReconcile,500);setTimeout(ensureReconcile,1500);setTimeout(ensureReconcile,3000);
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
