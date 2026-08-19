@@ -1,8 +1,19 @@
 {
-  "updatedAt": "2026-08-19T19:36:12.082372+00:00",
+  "updatedAt": "2026-08-19T21:13:09.159727+00:00",
   "source": "Moneycontrol corporate actions",
   "note": "Automatically refreshed. Verify the latest exchange/issuer filing before relying on dividend dates or amounts.",
   "items": [
+    {
+      "symbol": "ADTECHSYSTEMS",
+      "company": "Adtech Systems",
+      "dividend": "11.00%",
+      "type": "Dividend",
+      "exDate": "2026-09-24",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
     {
       "symbol": "RITHWIKFACILIT",
       "company": "Rithwik Facilit",
@@ -139,6 +150,17 @@
       "symbol": "NATIONALPEROXI",
       "company": "National Peroxi",
       "dividend": "70.00%",
+      "type": "Dividend",
+      "exDate": "2026-09-22",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
+    {
+      "symbol": "AHLUWALIA",
+      "company": "Ahluwalia",
+      "dividend": "35.00%",
       "type": "Dividend",
       "exDate": "2026-09-22",
       "recordDate": null,
@@ -304,28 +326,6 @@
       "symbol": "HINDUJAGLOBAL",
       "company": "Hinduja Global",
       "dividend": "50.00%",
-      "type": "Dividend",
-      "exDate": "2026-09-18",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "NETWORKPEOPLE",
-      "company": "Network People",
-      "dividend": "20.00%",
-      "type": "Dividend",
-      "exDate": "2026-09-18",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "CEINSYSTECH",
-      "company": "Ceinsys Tech",
-      "dividend": "35.00%",
       "type": "Dividend",
       "exDate": "2026-09-18",
       "recordDate": null,
