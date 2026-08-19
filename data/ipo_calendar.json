@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-08-19T14:45:00+05:30",
+  "source": "NSE public issue information + verified market listings",
+  "note": "IPO calendar is informational. Dates, price bands and subscription status can change; verify the exchange/issuer filing before applying.",
+  "items": [
+    {
+      "company": "Augmont Enterprises",
+      "symbol": "AUGMONT",
+      "segment": "Mainboard",
+      "status": "UPCOMING",
+      "openDate": "2026-08-21",
+      "closeDate": "2026-08-25",
+      "listingDate": null,
+      "priceBand": "₹750–₹788",
+      "issueSize": "₹825 crore",
+      "source": "NSE / public issue coverage",
+      "sourceUrl": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo"
+    },
+    {
+      "company": "Symbiotec Pharmalab",
+      "symbol": "SYMBIOTEC",
+      "segment": "Mainboard",
+      "status": "UPCOMING",
+      "openDate": "2026-08-24",
+      "closeDate": "2026-08-27",
+      "listingDate": null,
+      "priceBand": "₹938–₹988",
+      "issueSize": "₹1,757 crore",
+      "source": "NSE / public issue coverage",
+      "sourceUrl": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo"
+    },
+    {
+      "company": "Shankesh Jewellers",
+      "symbol": "SHANKESH",
+      "segment": "Mainboard",
+      "status": "OPEN",
+      "openDate": "2026-08-18",
+      "closeDate": "2026-08-20",
+      "listingDate": "2026-08-25",
+      "priceBand": "₹88–₹93",
+      "issueSize": "₹367.18 crore",
+      "source": "NSE / public issue coverage",
+      "sourceUrl": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo"
+    },
+    {
+      "company": "Horizon Industrial Parks",
+      "symbol": "HORIZON",
+      "segment": "Mainboard",
+      "status": "OPEN",
+      "openDate": "2026-08-17",
+      "closeDate": "2026-08-19",
+      "listingDate": "2026-08-24",
+      "priceBand": "₹57–₹60",
+      "issueSize": "₹2,600 crore",
+      "source": "NSE / public issue coverage",
+      "sourceUrl": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo"
+    },
+    {
+      "company": "Lalithaa Jewellery Mart",
+      "symbol": "LALITHAA",
+      "segment": "Mainboard",
+      "status": "OPEN",
+      "openDate": "2026-08-17",
+      "closeDate": "2026-08-19",
+      "listingDate": "2026-08-24",
+      "priceBand": "₹190–₹201",
+      "issueSize": "₹1,700 crore",
+      "source": "NSE / public issue coverage",
+      "sourceUrl": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo"
+    }
+  ]
+}
