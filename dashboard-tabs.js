@@ -24,7 +24,6 @@
   const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
   let active="indices",observerTimer;
 
-  /* Always return the actual top-level dashboard panel. */
   function panel(el){
     if(!el)return null;
     const p=el.closest("section.panel");
@@ -106,9 +105,12 @@
       .isp-tab:hover{background:#223252}
       .isp-tab.active{background:#fff;color:#10182b}
 
-      /* TRUE TAB MODE: only the selected top-level panel exists visually. */
-      .container.isp-true-tab-mode > *{display:none!important}
-      .container.isp-true-tab-mode > .isp-active{
+      /* TRUE TAB MODE: hide every discovered dashboard panel globally,
+         then reveal only the selected top-level panel. The old rule relied
+         on panels being direct children of .container, which is not true for
+         every dynamically-created section. */
+      .container.isp-true-tab-mode .isp-tab-panel{display:none!important}
+      .container.isp-true-tab-mode .isp-tab-panel.isp-active{
         display:block!important;animation:ispFade .16s ease-out
       }
       @keyframes ispFade{from{opacity:.2;transform:translateY(3px)}to{opacity:1;transform:none}}
@@ -153,8 +155,8 @@
 
     if(container)container.classList.add("isp-true-tab-mode");
 
-    document.querySelectorAll(".container > section.panel").forEach(p=>{
-      if(p.dataset.ispTabPanel==="1")p.classList.toggle("isp-active",p===selected);
+    document.querySelectorAll(".isp-tab-panel").forEach(p=>{
+      p.classList.toggle("isp-active",p===selected);
     });
 
     document.querySelectorAll(".isp-tab").forEach(b=>{
@@ -163,7 +165,6 @@
       b.setAttribute("aria-selected",String(on));
     });
 
-    /* No scrolling to a section: tab switching replaces the visible view. */
     if(updateHash){
       const url=new URL(window.location.href);
       url.hash=`tab=${active}`;
