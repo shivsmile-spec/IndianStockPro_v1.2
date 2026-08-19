@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:59:18.818892+00:00",
+  "generatedAt": "2026-08-19T14:07:21.644730+00:00",
   "source": "Yahoo Finance with NSE India fallback",
   "quoteCount": 30,
   "requestedCount": 30,
@@ -76,20 +76,20 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
+    "UNIONBANK": {
+      "price": 186.9,
+      "previousClose": 185.5,
+      "change": 1.4000000000000057,
+      "changePct": 0.7547169811320785,
+      "timestamp": "2026-08-19T09:44:58+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
     "PETRONET": {
       "price": 288.15,
       "previousClose": 286.25,
       "change": 1.8999999999999773,
       "changePct": 0.663755458515276,
-      "timestamp": "2026-08-19T09:45:01+00:00",
-      "marketState": "",
-      "source": "Yahoo Finance chart endpoint"
-    },
-    "PNB": {
-      "price": 117.48,
-      "previousClose": 116.5,
-      "change": 0.980000000000004,
-      "changePct": 0.8412017167382009,
       "timestamp": "2026-08-19T09:45:01+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
@@ -193,15 +193,6 @@
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
-    "AUBANK": {
-      "price": 1075.0,
-      "previousClose": 1075.7,
-      "change": -0.7000000000000455,
-      "changePct": -0.06507390536395329,
-      "timestamp": "2026-08-19T09:44:56+00:00",
-      "marketState": "",
-      "source": "Yahoo Finance chart endpoint"
-    },
     "HINDALCO": {
       "price": 1038.95,
       "previousClose": 1041.6,
@@ -217,6 +208,15 @@
       "change": 13.5,
       "changePct": 1.2256014525646846,
       "timestamp": "2026-08-19T09:44:51+00:00",
+      "marketState": "",
+      "source": "Yahoo Finance chart endpoint"
+    },
+    "AUBANK": {
+      "price": 1075.0,
+      "previousClose": 1075.7,
+      "change": -0.7000000000000455,
+      "changePct": -0.06507390536395329,
+      "timestamp": "2026-08-19T09:44:56+00:00",
       "marketState": "",
       "source": "Yahoo Finance chart endpoint"
     },
