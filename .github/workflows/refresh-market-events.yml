@@ -1,0 +1,39 @@
+name: Refresh IPO and Dividend Calendars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 * * * 1-5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-market-events
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install parser dependencies
+        run: pip install requests beautifulsoup4
+      - name: Refresh calendars
+        run: python engine/refresh_market_events.py
+      - name: Commit refreshed calendars
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ipo_calendar.json data/dividend_calendar.json
+          git diff --cached --quiet && echo "No calendar changes" && exit 0
+          git commit -m "Refresh IPO and dividend calendars"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
