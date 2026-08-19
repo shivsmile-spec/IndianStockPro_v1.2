@@ -1,0 +1,56 @@
+name: Bootstrap Unified Dashboard Tabs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'dashboard-tabs.js'
+      - 'events-ui.js'
+      - '.github/workflows/dashboard-tabs-bootstrap.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard-tabs-bootstrap
+  cancel-in-progress: true
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Attach dashboard scripts to index
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          text=p.read_text(encoding='utf-8')
+          additions=[]
+          for src in ['events-ui.js','dashboard-tabs.js']:
+              tag=f'<script src="{src}?v=20260819" defer></script>'
+              if f'<script src="{src}' not in text:
+                  additions.append(tag)
+          if additions:
+              marker='</body>'
+              if marker in text:
+                  text=text.replace(marker,'\n'.join(additions)+'\n'+marker,1)
+              else:
+                  text+='\n'+'\n'.join(additions)+'\n'
+              p.write_text(text,encoding='utf-8')
+              print('Dashboard scripts attached:', additions)
+          else:
+              print('Dashboard scripts already attached')
+          PY
+
+      - name: Commit bootstrap changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && echo "No index changes needed" && exit 0
+          git commit -m "Attach unified dashboard tabs"
+          git push origin HEAD:main
