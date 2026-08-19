@@ -1,198 +1,244 @@
-/* Indian Stock Pro — trial true tab UI
+/* Indian Stock Pro — TRIAL TAB SHELL
  * Trial branch: trial-tab-ui
- * Keeps the existing data/analysis engine intact and changes only presentation:
- * one tab = one visible dashboard section.
+ * Design requested:
+ *   Header
+ *   Market Indices
+ *   Search / Health & Analyze
+ *   TAB BAR
+ *   ONE selected tab's content
+ *   Important Notice / Disclaimer at the bottom
+ *
+ * The original analysis/data DOM is preserved. We only move the existing
+ * section elements into a single tab-content host; moving DOM nodes does not
+ * remove their event listeners or data.
  */
 (function(){
   "use strict";
 
   const TABS=[
-    ["indices","📊 Market Indices","isp-market-indices"],
-    ["search","🔎 Search Share · Health & Analyze","isp-search-analyze"],
-    ["top10","🏆 Top 10 Stocks to Invest","isp-top10"],
-    ["quant","📈 Quantitative Leaders","isp-quantitative"],
+    ["top10","🏆 Top 10 Stocks to Invest","integratedCards"],
+    ["quant","📈 Quantitative Leaders","quantCards"],
     ["institutional","🏦 Institutional Research","institutionalResearchPanel"],
     ["news","📰 News & Market Context","isp-news-context"],
     ["ipo","🧾 Upcoming IPO","ispIPOCalendar"],
     ["dividend","💰 Upcoming Dividend","ispDividendCalendar"],
-    ["price","💰 Price-wise Opportunities","isp-price-bands"],
-    ["summary","📊 Integrated Market Summary","isp-summary-panel"],
-    ["method","🧠 Engine Methodology","isp-methodology"],
-    ["notice","⚠️ Important Notice","ispImportantNotice"]
+    ["price","💰 Price-wise Opportunities","bands"],
+    ["summary","📊 Integrated Market Summary","summary"],
+    ["method","🧠 Engine Methodology","isp-methodology"]
   ];
 
-  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-  let active="indices",observerTimer;
+  let active="top10";
+  let shellReady=false;
+  let observerTimer=null;
+  let observer=null;
 
-  function panel(el){
+  const $=s=>document.querySelector(s);
+  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+
+  function sectionFor(id){
+    const el=document.getElementById(id);
     if(!el)return null;
-    const p=el.closest("section.panel");
-    if(p && p.parentElement?.classList.contains("container"))return p;
-    return p || (el.parentElement?.classList.contains("container") ? el : null);
+    return el.closest("section.panel") || el.closest("section") || el.parentElement;
   }
 
-  function mark(id,el,title,desc){
-    const p=panel(el);
+  function findPanels(){
+    const container=$(".container");
+    if(!container)return {container,indices:null,search:null,notice:null,all:[]};
+
+    const sections=[...container.querySelectorAll(":scope > section")];
+    const indices=sectionFor("isp-market-indices") || sections.find(s=>/Indian Market Indices/i.test(s.textContent||""));
+    const search=sectionFor("search") || sections.find(s=>/Search\s*&\s*Analyze/i.test(s.textContent||""));
+    const notice=sections.find(s=>/Indian Stock Pro provides quantitative research signals/i.test(s.textContent||""))
+      || sections[sections.length-1];
+
+    const all=sections.filter(s=>s!==indices&&s!==search&&s!==notice);
+    return {container,indices,search,notice,all};
+  }
+
+  function panelFromTarget(id){
+    const p=sectionFor(id);
     if(!p)return null;
-    p.id=id;
-    p.classList.add("isp-tab-panel");
-    p.dataset.ispTabPanel="1";
-    p.dataset.ispTabId=id;
-    if(title&&!p.querySelector(":scope > .isp-tab-title")){
-      const h=document.createElement("div");
-      h.className="isp-tab-title";
-      h.innerHTML=`<strong>${esc(title)}</strong><span>${esc(desc||"")}</span>`;
-      p.insertBefore(h,p.firstChild);
-    }
     return p;
   }
 
-  function discover(){
-    mark("isp-market-indices",document.getElementById("isp-market-indices"),"Market Indices","NIFTY 50 and SENSEX published market snapshot.");
+  function ensureIds(){
+    const {indices,search,notice}=findPanels();
+    if(indices)indices.id="isp-market-indices";
+    if(search)search.id="isp-search-analyze";
+    if(notice)notice.id="ispImportantNotice";
 
-    const search=mark("isp-search-analyze",document.getElementById("search"),"Search Share · Health & Analyze","Search an NSE share and open the complete quantitative, fundamental and context report.");
-    const health=document.getElementById("ispFeedHealth");
-    if(search&&health&&!search.contains(health))search.insertBefore(health,search.firstChild);
+    const mappings=[
+      ["integratedCards","isp-top10"],
+      ["quantCards","isp-quantitative"],
+      ["bands","isp-price-bands"],
+      ["summary","isp-summary-panel"]
+    ];
+    mappings.forEach(([child,id])=>{const p=sectionFor(child);if(p)p.id=id;});
 
-    mark("isp-top10",document.getElementById("integratedCards"),"Top 10 Stocks to Invest","Top integrated opportunities ranked by the current model.");
-    mark("isp-quantitative",document.getElementById("quantCards"),"Quantitative Leaders","Quantitative screening leaders before external context.");
+    const expert=$(".expert-panel");
+    if(expert)expert.id="isp-news-context";
 
-    const newsEl=document.querySelector(".expert-panel");
-    if(newsEl)mark("isp-news-context",newsEl,"News & Market Context","External news, industry and broader market intelligence.");
-
-    mark("isp-price-bands",document.getElementById("bands"),"Price-wise Opportunities","Integrated opportunities grouped by current published price range.");
-    mark("isp-summary-panel",document.getElementById("summary"),"Integrated Market Summary","One-screen view of the current model state.");
-
-    const method=[...document.querySelectorAll(".container > section.panel")]
+    const method=[...document.querySelectorAll(".container > section")]
       .find(x=>/How the Integrated Engine Works/i.test(x.textContent||""));
-    if(method)mark("isp-methodology",method,"Engine Methodology","How quantitative and external context are combined.");
+    if(method)method.id="isp-methodology";
 
-    ["institutionalResearchPanel","ispIPOCalendar","ispDividendCalendar","ispImportantNotice"].forEach(id=>{
-      const p=panel(document.getElementById(id));
-      if(p){
-        p.id=id;
-        p.classList.add("isp-tab-panel");
-        p.dataset.ispTabPanel="1";
-        p.dataset.ispTabId=id;
-      }
+    ["institutionalResearchPanel","ispIPOCalendar","ispDividendCalendar"].forEach(id=>{
+      const p=sectionFor(id);
+      if(p)p.id=id;
     });
   }
 
-  function target(id){
-    const t=TABS.find(x=>x[0]===id);
-    if(!t)return null;
-    return panel(document.getElementById(t[2]));
-  }
-
-  function style(){
-    if(document.getElementById("isp-tabs-style"))return;
+  function addStyles(){
+    if($("#isp-trial-shell-style"))return;
     const s=document.createElement("style");
-    s.id="isp-tabs-style";
+    s.id="isp-trial-shell-style";
     s.textContent=`
-      .isp-dashboard-tabs{
-        position:sticky;top:0;z-index:900;background:#10182b;
-        box-shadow:0 5px 18px rgba(0,0,0,.18)
+      /* TRIAL: the page is a shell, not a long scrolling dashboard. */
+      .isp-trial-tabs{
+        position:sticky;top:0;z-index:950;background:#10182b;
+        box-shadow:0 5px 18px rgba(0,0,0,.20)
       }
-      .isp-tabs-inner{
-        max-width:1150px;margin:auto;padding:10px 20px;display:flex;
-        gap:7px;overflow-x:auto;scrollbar-width:thin
+      .isp-trial-tabs-inner{
+        max-width:1150px;margin:0 auto;padding:10px 20px;
+        display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin
       }
-      .isp-tab{
-        flex:0 0 auto;border:1px solid rgba(255,255,255,.14);
-        background:#17233c;color:#dbe5f5;padding:10px 13px;border-radius:10px;
-        font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap
+      .isp-trial-tab{
+        flex:0 0 auto;border:1px solid rgba(255,255,255,.16);
+        background:#17233c;color:#dbe5f5;padding:10px 13px;
+        border-radius:10px;font-size:12px;font-weight:800;cursor:pointer;
+        white-space:nowrap
       }
-      .isp-tab:hover{background:#223252}
-      .isp-tab.active{background:#fff;color:#10182b}
+      .isp-trial-tab:hover{background:#253653}
+      .isp-trial-tab.active{background:#fff;color:#10182b}
 
-      /* TRUE TAB MODE: hide every discovered dashboard panel globally,
-         then reveal only the selected top-level panel. The old rule relied
-         on panels being direct children of .container, which is not true for
-         every dynamically-created section. */
-      .container.isp-true-tab-mode .isp-tab-panel{display:none!important}
-      .container.isp-true-tab-mode .isp-tab-panel.isp-active{
-        display:block!important;animation:ispFade .16s ease-out
-      }
-      @keyframes ispFade{from{opacity:.2;transform:translateY(3px)}to{opacity:1;transform:none}}
+      /* Only these four shell areas are outside the tab content. */
+      .container.isp-shell-mode > #isp-market-indices,
+      .container.isp-shell-mode > #isp-search-analyze,
+      .container.isp-shell-mode > #isp-trial-content,
+      .container.isp-shell-mode > #ispImportantNotice{display:block!important}
 
-      .isp-tab-title{
-        margin:0 0 12px;padding:13px 15px;border-radius:13px;
-        background:#f5f7fa;border:1px solid #e1e6ef
-      }
-      .isp-tab-title strong{font-size:16px}
-      .isp-tab-title span{display:block;margin-top:3px;font-size:12px;color:#667085}
+      .container.isp-shell-mode > section:not(#isp-market-indices):not(#isp-search-analyze):not(#isp-trial-content):not(#ispImportantNotice){display:none!important}
+
+      #isp-trial-content{display:block!important;background:transparent;box-shadow:none;padding:0;margin:0}
+      #isp-trial-content > section{display:none!important}
+      #isp-trial-content > section.isp-selected-content{display:block!important;animation:ispTrialFade .16s ease-out}
+      @keyframes ispTrialFade{from{opacity:.15;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+      #ispImportantNotice{margin-top:18px}
+      #ispImportantNotice .disclaimer,
+      #ispImportantNotice{border:1px solid #f0b4b4}
+      #ispImportantNotice .disclaimer{color:#b42318;background:#fff5f5;font-weight:700}
 
       @media(max-width:700px){
-        .isp-tabs-inner{padding:8px 12px}
-        .isp-tab{font-size:11px;padding:9px 11px}
+        .isp-trial-tabs-inner{padding:8px 12px}
+        .isp-trial-tab{font-size:11px;padding:9px 11px}
       }
     `;
     document.head.appendChild(s);
   }
 
-  function build(){
-    if(document.getElementById("ispDashboardTabs"))return;
+  function buildTabs(){
+    if($("#ispTrialTabs"))return;
     const nav=document.createElement("nav");
-    nav.id="ispDashboardTabs";
-    nav.className="isp-dashboard-tabs";
-    nav.innerHTML=`<div class="isp-tabs-inner" role="tablist" aria-label="Indian Stock Pro sections">${TABS.map((t,i)=>`<button class="isp-tab${i===0?" active":""}" data-tab="${esc(t[0])}" role="tab" aria-selected="${i===0}">${esc(t[1])}</button>`).join("")}</div>`;
-
-    const header=document.querySelector("header");
-    header?.parentNode.insertBefore(nav,header.nextSibling);
+    nav.id="ispTrialTabs";
+    nav.className="isp-trial-tabs";
+    nav.innerHTML=`<div class="isp-trial-tabs-inner" role="tablist" aria-label="Indian Stock Pro sections">${TABS.map((t,i)=>`<button class="isp-trial-tab${i===0?" active":""}" data-tab="${esc(t[0])}" role="tab" aria-selected="${i===0}">${esc(t[1])}</button>`).join("")}</div>`;
+    const header=$("header");
+    if(header)header.parentNode.insertBefore(nav,header.nextSibling);
     nav.addEventListener("click",e=>{
-      const b=e.target.closest(".isp-tab");
+      const b=e.target.closest(".isp-trial-tab");
       if(b)activate(b.dataset.tab,true);
     });
-
-    window.ispActivateTab=activate;
-    window.ispDashboardTabsReady=true;
   }
 
-  function activate(id,updateHash){
-    active=TABS.some(x=>x[0]===id)?id:"indices";
-    const selected=target(active);
-    const container=selected?.closest(".container") || document.querySelector(".container");
+  function buildContentHost(){
+    const {container}=findPanels();
+    if(!container)return null;
+    let host=$("#isp-trial-content");
+    if(!host){
+      host=document.createElement("div");
+      host.id="isp-trial-content";
+      container.appendChild(host);
+    }
 
-    if(container)container.classList.add("isp-true-tab-mode");
+    ensureIds();
 
-    document.querySelectorAll(".isp-tab-panel").forEach(p=>{
-      p.classList.toggle("isp-active",p===selected);
+    /* Move every feature section into ONE content host. */
+    const {all}=findPanels();
+    all.forEach(p=>{
+      if(p && p!==host && !host.contains(p))host.appendChild(p);
     });
 
-    document.querySelectorAll(".isp-tab").forEach(b=>{
+    return host;
+  }
+
+  function keepDynamicPanelsInsideHost(){
+    const host=$("#isp-trial-content");
+    const container=$(".container");
+    if(!host||!container)return;
+
+    ensureIds();
+
+    [...container.children].forEach(p=>{
+      if(p===host||p.id==="isp-market-indices"||p.id==="isp-search-analyze"||p.id==="ispImportantNotice")return;
+      if(p.tagName==="SECTION")host.appendChild(p);
+    });
+  }
+
+  function activate(id,writeHash){
+    if(!TABS.some(t=>t[0]===id))id="top10";
+    active=id;
+    const target=TABS.find(t=>t[0]===id);
+    const host=$("#isp-trial-content");
+    if(!host)return;
+
+    ensureIds();
+    keepDynamicPanelsInsideHost();
+
+    const panel=panelFromTarget(target[2]);
+    host.querySelectorAll(":scope > section").forEach(p=>p.classList.toggle("isp-selected-content",p===panel));
+
+    document.querySelectorAll(".isp-trial-tab").forEach(b=>{
       const on=b.dataset.tab===active;
       b.classList.toggle("active",on);
       b.setAttribute("aria-selected",String(on));
     });
 
-    if(updateHash){
-      const url=new URL(window.location.href);
-      url.hash=`tab=${active}`;
-      history.replaceState(null,"",url);
+    if(writeHash){
+      const u=new URL(location.href);
+      u.hash="tab="+active;
+      history.replaceState(null,"",u);
     }
     window.scrollTo({top:0,behavior:"smooth"});
   }
 
   function reconcile(){
-    discover();
-    if(window.ispDashboardTabsReady)activate(active,false);
+    clearTimeout(observerTimer);
+    observerTimer=setTimeout(()=>{
+      ensureIds();
+      buildContentHost();
+      activate(active,false);
+    },80);
   }
 
   function start(){
-    style();
-    discover();
-    build();
+    if(shellReady)return;
+    addStyles();
+    ensureIds();
+    buildTabs();
+    const host=buildContentHost();
+    if(!host)return setTimeout(start,250);
 
-    const initial=(location.hash.match(/^#tab=(.+)$/)||[])[1];
-    activate(TABS.some(x=>x[0]===initial)?initial:"indices",false);
+    const initial=(location.hash.match(/^#tab=([^&]+)/)||[])[1];
+    activate(initial||"top10",false);
+    const container=$(".container");
+    container.classList.add("isp-shell-mode");
 
-    const root=document.querySelector(".container")||document.body;
-    new MutationObserver(()=>{
-      clearTimeout(observerTimer);
-      observerTimer=setTimeout(reconcile,180);
-    }).observe(root,{childList:true,subtree:true});
+    observer=new MutationObserver(()=>reconcile());
+    observer.observe(container,{childList:true,subtree:true});
 
-    [500,1500,3000].forEach(ms=>setTimeout(reconcile,ms));
+    [300,1000,2500,5000].forEach(ms=>setTimeout(reconcile,ms));
+    shellReady=true;
   }
 
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);
