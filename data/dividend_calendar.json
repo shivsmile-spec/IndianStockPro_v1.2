@@ -1,40 +1,17 @@
 {
   "updatedAt": "2026-08-19T14:45:00+05:30",
-  "source": "NSE/BSE corporate-action disclosures and verified issuer announcements",
-  "note": "Dividend dates and amounts are informational and must be verified against the latest exchange/issuer filing before relying on them.",
+  "source": "Verified corporate-action calendar sources",
+  "note": "Dividend amounts and dates are informational and can change. Verify the latest exchange/issuer filing before relying on them.",
   "items": [
-    {
-      "symbol": "RELIANCE",
-      "company": "Reliance Industries",
-      "dividend": "₹5.50 per share",
-      "type": "Final dividend",
-      "exDate": "2026-08-27",
-      "recordDate": "2026-08-27",
-      "paymentDate": null,
-      "status": "UPCOMING",
-      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
-    },
-    {
-      "symbol": "INFY",
-      "company": "Infosys",
-      "dividend": "Latest declared dividend — verify current corporate action",
-      "type": "Dividend",
-      "exDate": null,
-      "recordDate": null,
-      "paymentDate": null,
-      "status": "VERIFY_LATEST",
-      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
-    },
-    {
-      "symbol": "TCS",
-      "company": "Tata Consultancy Services",
-      "dividend": "Latest declared dividend — verify current corporate action",
-      "type": "Dividend",
-      "exDate": null,
-      "recordDate": null,
-      "paymentDate": null,
-      "status": "VERIFY_LATEST",
-      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
-    }
+    {"symbol":"TRIVENIENG","company":"Triveni Engineering & Industries","dividend":"125%","type":"Dividend","exDate":"2026-08-31","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"GANESHHOUC","company":"Ganesh Housing Corporation","dividend":"15%","type":"Dividend","exDate":"2026-08-31","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"IONEXCHANG","company":"Ion Exchange (India)","dividend":"125%","type":"Dividend","exDate":"2026-08-31","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"GLENMARK","company":"Glenmark Pharmaceuticals","dividend":"250%","type":"Dividend","exDate":"2026-08-31","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"SWANCORP","company":"Swan Corp","dividend":"15%","type":"Dividend","exDate":"2026-08-28","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"DYNAMATECH","company":"Dynamatic Technologies","dividend":"50%","type":"Dividend","exDate":"2026-08-28","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"SALZERELEC","company":"Salzer Electronics","dividend":"25%","type":"Dividend","exDate":"2026-08-28","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"MANAKCOAT","company":"Manaksia Coated Metals & Industries","dividend":"5%","type":"Dividend","exDate":"2026-08-27","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"THOMASCOOK","company":"Thomas Cook (India)","dividend":"50%","type":"Dividend","exDate":"2026-08-27","recordDate":null,"status":"UPCOMING","source":"Moneycontrol corporate actions","sourceUrl":"https://www.moneycontrol.com/markets/corporate-action/"},
+    {"symbol":"BANDHANBNK","company":"Bandhan Bank","dividend":"₹1.50 per share","type":"Final dividend","exDate":"2026-08-17","recordDate":"2026-08-17","status":"RECENT","source":"Economic Times dividend history","sourceUrl":"https://economictimes.indiatimes.com/bandhan-bank-ltd/infocompanydividends/companyid-67665.cms"}
   ]
 }
