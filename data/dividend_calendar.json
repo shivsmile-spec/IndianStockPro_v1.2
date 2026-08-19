@@ -1,0 +1,40 @@
+{
+  "updatedAt": "2026-08-19T14:45:00+05:30",
+  "source": "NSE/BSE corporate-action disclosures and verified issuer announcements",
+  "note": "Dividend dates and amounts are informational and must be verified against the latest exchange/issuer filing before relying on them.",
+  "items": [
+    {
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries",
+      "dividend": "₹5.50 per share",
+      "type": "Final dividend",
+      "exDate": "2026-08-27",
+      "recordDate": "2026-08-27",
+      "paymentDate": null,
+      "status": "UPCOMING",
+      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
+    },
+    {
+      "symbol": "INFY",
+      "company": "Infosys",
+      "dividend": "Latest declared dividend — verify current corporate action",
+      "type": "Dividend",
+      "exDate": null,
+      "recordDate": null,
+      "paymentDate": null,
+      "status": "VERIFY_LATEST",
+      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
+    },
+    {
+      "symbol": "TCS",
+      "company": "Tata Consultancy Services",
+      "dividend": "Latest declared dividend — verify current corporate action",
+      "type": "Dividend",
+      "exDate": null,
+      "recordDate": null,
+      "paymentDate": null,
+      "status": "VERIFY_LATEST",
+      "sourceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-actions"
+    }
+  ]
+}
