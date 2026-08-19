@@ -1,7 +1,7 @@
 {
   "source": "NSE India — Securities available for Equity segment",
   "sourceUrl": "https://www.nseindia.com/static/market-data/securities-available-for-trading",
-  "generatedAt": "2026-08-18T04:20:24.078759+00:00",
+  "generatedAt": "2026-08-19T04:22:18.133696+00:00",
   "count": 2553,
   "stocks": [
     {
@@ -2175,6 +2175,12 @@
       "companyName": "BLB Limited",
       "series": "EQ",
       "isin": "INE791A01024"
+    },
+    {
+      "symbol": "BLEL",
+      "companyName": "Behari Lal Engineering Limited",
+      "series": "EQ",
+      "isin": "INE1EEM01017"
     },
     {
       "symbol": "BLIL",
@@ -4695,12 +4701,6 @@
       "companyName": "Genesys International Corporation Limited",
       "series": "EQ",
       "isin": "INE727B01026"
-    },
-    {
-      "symbol": "GENESYS-RE",
-      "companyName": "Genesys International Corporation Limited-RE",
-      "series": "BE",
-      "isin": "INE727B20018"
     },
     {
       "symbol": "GENSOL",
@@ -12083,12 +12083,6 @@
       "isin": "INE933X01016"
     },
     {
-      "symbol": "SHANTI-RE",
-      "companyName": "Shanti Gold International Limited-RE",
-      "series": "BE",
-      "isin": "INE06ZD20017"
-    },
-    {
       "symbol": "SHANTIGEAR",
       "companyName": "Shanthi Gears Limited",
       "series": "EQ",
@@ -12171,6 +12165,12 @@
       "companyName": "Sharat Industries Limited",
       "series": "EQ",
       "isin": "INE220Z01013"
+    },
+    {
+      "symbol": "SHIPROCKET",
+      "companyName": "Shiprocket Limited",
+      "series": "EQ",
+      "isin": "INE0FOO01011"
     },
     {
       "symbol": "SHIVAAGRO",
