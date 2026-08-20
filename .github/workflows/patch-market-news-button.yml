@@ -1,0 +1,35 @@
+name: Fix Market News navigation
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.event.head_commit.message != 'Fix Market News button navigation'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch Market News button
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text(encoding='utf-8')
+          marker='<!-- ISP_MARKET_NEWS_BUTTON_FIX -->'
+          if marker not in s:
+              script='''<script>\n<!-- ISP_MARKET_NEWS_BUTTON_FIX -->\n(function(){\n  function install(){\n    var panel=document.querySelector('.expert-panel');\n    if(panel) panel.id='market-news-context';\n    var els=document.querySelectorAll('a,button,.card,.band,div');\n    els.forEach(function(el){\n      var t=(el.innerText||el.textContent||'').replace(/\\s+/g,' ').trim();\n      if(t==='Market News & Context' || t==='Market News & Context Open →' || (t.indexOf('Market News & Context')===0 && t.length<80)){\n        if(el.dataset.ispNewsBound==='1') return;\n        el.dataset.ispNewsBound='1';\n        el.style.cursor='pointer';\n        el.addEventListener('click',function(e){\n          e.preventDefault(); e.stopPropagation();\n          var target=document.querySelector('#market-news-context') || document.querySelector('.expert-panel');\n          if(target){ target.scrollIntoView({behavior:'smooth',block:'start'}); }\n        },true);\n      }\n    });\n  }\n  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',install); else install();\n  setTimeout(install,500); setTimeout(install,1500); setTimeout(install,3000);\n})();\n</script>'''
+              s=s.replace('</body>',script+'\n</body>')
+              p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Fix Market News button navigation"
+          git push origin HEAD:main
