@@ -1,0 +1,48 @@
+name: Refresh market news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-news
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build fresh market news
+        run: python engine/market_news.py
+      - name: Verify feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/market_news.json').read_text())
+          if not p.get('generatedAt') or not p.get('items'):
+              raise SystemExit('Market news feed is empty')
+          print('Market news:', len(p['items']))
+          print('Generated:', p['generatedAt'])
+          PY
+      - name: Publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market_news.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh market news feed"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
