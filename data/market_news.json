@@ -1,22 +1,29 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-20T17:56:52.901804+00:00",
+  "generatedAt": "2026-08-20T19:46:18.581979+00:00",
   "source": "Google News RSS public market-news aggregation",
   "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
   "items": [
+    {
+      "title": "Anthropic expects to match SpaceX’s record IPO size or top it - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWVlnbFQtb2JFX1pReWtXb3h3T0I2ZDlQbTVHY0luQ3VjRDlFYlJraDlKTTExUGRzX0lUd1hwbEVkeDBQUE9oMC04eHRyUmV5QmlSVEFWQWk2bEVtbmdyZGwwbnl4N1ZvSkVXMzFWNVRGSXQ5RXE2dm9ST0V6RldVcTRTUWNXbkVPQmJIbFhEMUZMMUtKajRxbm1KRVc1Q1VhdHg3VVVXTUNuenVDQjc4T3JCZGFhWlRmQXZ5cDNmckJLaEdL0gHEAUFVX3lxTFBZWWdsVC1vYkVfWlF5a1dveHdPQjZkOVBtNUdjSW5DdWNEOUViUmtoOUpNMTFQZHNfSVR3WHBsRWR4MFBQT2gwLTh4dHJSZXlCaVJUQVZBaTZsRW1uZ3JkbDBueXg3Vm9KRVczMVY1VEZJdDlFcTZ2b1JPRXpGV1VxNFNRY1duRU9CYkhsWEQxRkwxS0pqNHFubUpFVzVDVWF0eDdVVVdNQ256dUNCNzhPckJkYWFaVGZBdnlwM2ZyQktoR0s?oc=5",
+      "published": "2026-08-20T18:50:34+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Anthropic expects to match SpaceX’s record IPO size or top it &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Lumino Industries IPO to hit Dalal Street on August 27; issue size trimmed - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNckRQVHpZMjU2MTFla3Q1S1ZhUVYxZFRrU2dCbWFtQUkyUzJRYlNOWXdVeE9MWWpEVFFzNVdDck11TEJOTWlQQ0RZWUQ1LVFEWU91cFFCd29CaHpTZkxYMndpOEc0VUM1Rm41R2h0aHB4N1NrcUdNcUhpc3BVVlJQcXE4WmNLTVNodDlhWnYyRHlNV2RzYnlJc05MQUkwSXItUXpQZ09KbkdPSjdsVW5FWGtNSktZY2ZyTHdDejZRQl9ldUFGdFN2ZEVsbm5YZzQtYTNkQtIB1AFBVV95cUxNckRQVHpZMjU2MTFla3Q1S1ZhUVYxZFRrU2dCbWFtQUkyUzJRYlNOWXdVeE9MWWpEVFFzNVdDck11TEJOTWlQQ0RZWUQ1LVFEWU91cFFCd29CaHpTZkxYMndpOEc0VUM1Rm41R2h0aHB4N1NrcUdNcUhpc3BVVlJQcXE4WmNLTVNodDlhWnYyRHlNV2RzYnlJc05MQUkwSXItUXpQZ09KbkdPSjdsVW5FWGtNSktZY2ZyTHdDejZRQl9ldUFGdFN2ZEVsbm5YZzQtYTNkQg?oc=5",
+      "published": "2026-08-20T18:22:09+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Lumino Industries IPO to hit Dalal Street on August 27; issue size trimmed &nbsp;&nbsp; Moneycontrol.com"
+    },
     {
       "title": "Stock Market Crash: Sensex, Nifty Hit 1-Year Low; How US-Israel-Iran War Wiped Out Rs 4,753,333 Crore - Goodreturns",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdEw3Um0zUy0zWTMtMTJkZ0FIMm11S3d5bEJXREFCVTVJUTJHSzZ0T3J5d1ZKTmZfTW1BR1BBMTJOVkI1ODMwamF0NFN6QUJiamc3YjVOcUZhUWU0TzRyaXNqY202ZzlkWXhIRmpiV2JvZEg2b1A1VXdZZF8xNWg1OEVLb3gtWDNPTnA0dnJqa1JYWEpBaEhHcXBjeldiOHpOR0x1NWROcVdPT3hHRlU5anlRVFVUUVROVGFZSDZyTHJjYkc3WUZvbGpSQUZya0xaUzZDZFphbGhFems?oc=5",
       "published": "2026-08-20T15:52:09+00:00",
       "source": "Goodreturns",
       "description": "Stock Market Crash: Sensex, Nifty Hit 1-Year Low; How US-Israel-Iran War Wiped Out Rs 4,753,333 Crore &nbsp;&nbsp; Goodreturns"
-    },
-    {
-      "title": "Mopshop Distribution IPO fully subscribed on Day 2, retail portion booked 2.09 times - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjMzZzhTWjE5d3RwM3J6UFJNZ01qeUZkR3ctUndXaXN2aFdYcjdkbjluR1l0bTJmUS10QUhNdVZfM2R4cm9JUElHTW9QZWtoV01ORE5GM2FoOUpRM1VQdmpGa1RhQm15Nm5ZRnA3TXZxUWpmR19ISE1kZDY0TVR6d0NkVUoxV1otdV8wWmRacGZmclBzZmdOOENzZXgxZE5RV0FYQThfSkxjYmtGMzNfSVpFR1RrVUVsc1hFR1F2MzZIVWNBOC1xZGFYNy14emF1akhDOE55U1EzTzF1dXNIYXJB0gHiAUFVX3lxTE1aMzNnOFNaMTl3dHAzcnpQUk1nTWp5RmRHdy1Sd1dpc3ZoV1hyN2RuOW5HWXRtMmZRLXRBSE11Vl8zZHhyb0lQSUdNb1Bla2hXTU5ETkYzYWg5SlEzVVB2akZrVGFCbXk2bllGcDdNdnFRamZHX0hITWRkNjRNVHp3Q2RVSjFXWi11XzBaZFpwZmZyUHNmZ044Q3NleDFkTlFXQVhBOF9KTGNia0YzM19JWkVHVGtVRWxzWEVHUXYzNkhVY0E4LXFkYVg3LXh6YXVqSEM4TnlTUTNPMXV1c0hhckE?oc=5",
-      "published": "2026-08-20T15:43:46+00:00",
-      "source": "Moneycontrol.com",
-      "description": "Mopshop Distribution IPO fully subscribed on Day 2, retail portion booked 2.09 times &nbsp;&nbsp; Moneycontrol.com"
     },
     {
       "title": "J&K Bank accepts resignation of Ashish Kundra as director - scanx.trade",
@@ -52,6 +59,13 @@
       "published": "2026-08-20T09:35:27+00:00",
       "source": "outlookbusiness.com",
       "description": "BSE Shares Fall As NSE May Allow Own Shares To Trade On Its Platform &nbsp;&nbsp; outlookbusiness.com"
+    },
+    {
+      "title": "NSE said to plan allowing trading in its shares on its own platform - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWVljUDYxZjM3eGI1dDJwZUxBcnppT0hlRXhycW9EYlFRQ1VyVlhKTlI0MEw3QTRBNFpZeXdDamVvQ3pJeWlGTURYWmlxaWl2NEpLemdfeU1scTBucWowZjlfYk5ocWRBcXpRWHhRWkJzTzhMU2RTckpvSGVjUVJycWV6X0tnUGZBanZRbVRGT3JNNGJLcUZWcmVnZzhvX205TGRRSXVVLV9tZUcwdmFwYkJ6M2xGYWtub2lSOUFlOXduTGxTcFZUSXZQdmpkQkVRYTBvejliSXXSAd4BQVVfeXFMTXVXRktEb2ZuUFUyYXhPOXFMNGRiRnRrZnloX19MLTJ3b0Ria2VxMldhcEtnWmJqM1BiYkJHQkhKV1NMb0dfbEg0eWpHeVdVVVFNZ19aaU92UjhwQjlXbFVHMFVOb3N6M01KaGpqV1dqYVhtekctamE3T0FIOEdSekdtNWN3UmVwbVpVRmhKaWdNaVh0TWxNcDluUWZwVGNicnVzZjlkdmM5X203S1R4QXRJMHh5QUNCX3N5YjVaeE5XUV9NSmdJVTBsMFVESDl6ZW16b0tvYnh0bkJLSVZR?oc=5",
+      "published": "2026-08-20T07:49:36+00:00",
+      "source": "The Economic Times",
+      "description": "NSE said to plan allowing trading in its shares on its own platform &nbsp;&nbsp; The Economic Times"
     },
     {
       "title": "Bharat Parenterals equity shares begin trading on NSE - scanx.trade",
@@ -117,13 +131,6 @@
       "description": "3 Fundamentally Strong Pharmaceutical Stocks in India (2026) &nbsp;&nbsp; Univest"
     },
     {
-      "title": "Nifty snaps 7-day fall, settles above 24,200; Sensex closes 600 pts higher - 7 key factors - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd1hwRDJhNWdiUmJvQjgxSzFQWS1SZEZRbWFUWUZqRDF2a0UyaHFPTjBWSlVacmNXakU1d2xwV0doazdYejRFWDkxMHhqVERIQkZHekhKdVFYdW9uLWduY2ltd1ZQcDdfbV9FZV9aQUtiUGItVXRyV3VBc1JQM3hKeXFoSXRxcldxWTNkTHh2VGhoVzcxNDNXMU9XWTd5M1ljZ3RHaGl6NGtEcHRMYmlFMk9wbmlBYnBjZUcxdG93d01RdW9UcTJtZGtZalBwbXkxUDZpek00ZjYwclNpUkM0d1k3dnZsVk1NdXROZTJRTnbSAfYBQVVfeXFMUDAtLVlXV2FZQmxuV1A5eEJIbzlDcUZoQ29oUUFnSU1RSi15bTBsVEVsUVBuVFQzTmR1M0dFN1dHbWNIWnBFclFWUXBaLXZ4cmV6SDFlTU9CUkFpdFpGbG1nQTJuNXBfeU5jSVRzcVU1c2ZUR2RIRlY3UTVqZlVHNFVYVU1nbGs0S3hXSUpfNG03VkVSREM0Z1ltNlJuekMzZEpIY2o1U0ZJUkotSkxHUkNzWTYwVFB1bnhvangzZ09IVzE3MTR4STZyYnZadEY5MHdudUE3bmlsQ2JMQmV4V3ZZX1pnR3FMbXRSRnIxYU1UWjVvNFBR?oc=5",
-      "published": "2026-08-20T04:04:51+00:00",
-      "source": "Moneycontrol.com",
-      "description": "Nifty snaps 7-day fall, settles above 24,200; Sensex closes 600 pts higher - 7 key factors &nbsp;&nbsp; Moneycontrol.com"
-    },
-    {
       "title": "Stocks to watch: HDFC Bank, BSE, Oil India among shares in focus today; check list here - livemint.com",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUDRhRFVQY1g0QTFGdkhRcVAzbXFWNDhvLWIyWnJ4X1haVDF6QVl5WFZTUVgtUlBQT2VfZGV2SXFVRFJjQXZPcGx2UTNUOGlFR3BtTDdmUlpvS2FnczlCOUdzTXk3TldtTjFqLWc0M1NVREViMXNPdW5LVXF2VGdXWDl0UVhHWVhFS0U5bUt1RU1VeXowcjRhZkFZZmt5ZHBrOE9HdlpSSFcwQ2dIQVhfLUpqYkM2cUNRbTJsaHYydE4zVjl3ZmttRk5TVkVfZERQNHl0RlpfQlItbmc2ZEwxaGhQRFpiMzNk0gHuAUFVX3lxTE1uU0ZXazRWRlhaYVBJVktvcmZ3SHZ0cUVDcW45X0pMcE1Pb3lyQ3A2a09aRHBJSG4yOTBXOG9XdUs3MXFmN255d3NyZzNPT0VXeW1Vc3RPSkt6akdwMUotb05IbUlWLUNTRk04dmlZT3NENmlSN3E5V181alhvTFV5ZDJLeUNuMHFwNTVyTkozLXRKS3M3WkRHQ0hUdDMzc1FMOW5TM1hFVHMycTAxSlNIT25SOHVxc3pNY0ZnUEszUnBkbjdXMnJJNFpleGs4OVl0a2F5MDlaclhVMU8xSUZGZFhPUFdNRXlJS2pvMnc?oc=5",
       "published": "2026-08-20T02:48:23+00:00",
@@ -150,13 +157,6 @@
       "published": "2026-08-19T10:22:12+00:00",
       "source": "The Economic Times",
       "description": "Rupee hits three-week low, traders wary about fall to 96/USD as RBI stands guard &nbsp;&nbsp; The Economic Times"
-    },
-    {
-      "title": "BSE Midsmall Private Banks Indices: BSE Midsmall Private Banks Index Share Price Live Today - HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyWDk5bGZaZnRFeFkzejhEakZkNDhzdThuU3FHV0tnOHM2MEdXaUQ4RDJtZGhBWGRIODl2VkJWalZ0T0hzQXZsS1J1emNOQ3gwd0E3RW9aUkFhUy1oc09KZ0QyNXU?oc=5",
-      "published": "2026-08-19T08:40:38+00:00",
-      "source": "HDFC Sky",
-      "description": "BSE Midsmall Private Banks Indices: BSE Midsmall Private Banks Index Share Price Live Today &nbsp;&nbsp; HDFC Sky"
     },
     {
       "title": "FII DII Data Today 19 August 2026: FIIs Net Buyers Rs 1,652 Crore - Univest",
