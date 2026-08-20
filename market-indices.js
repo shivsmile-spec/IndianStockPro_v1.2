@@ -1,8 +1,8 @@
-/* Indian Stock Pro — robust NIFTY 50 + SENSEX market strip */
+/* Indian Stock Pro — live NIFTY 50 + SENSEX market strip */
 (function(){
   "use strict";
 
-  const FEED="./data/index_quotes.json?v="+Date.now();
+  const FALLBACK_FEED="./data/index_quotes.json?v="+Date.now();
   const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
   const num=v=>Number.isFinite(Number(v))?Number(v):null;
   const formatValue=v=>num(v)!==null?num(v).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2}):"—";
@@ -54,15 +54,15 @@
       <div class="isp-index-head">
         <div>
           <h2 class="isp-index-title">🇮🇳 Indian Market Indices</h2>
-          <div class="isp-index-sub">NIFTY 50 and SENSEX · latest published market snapshot</div>
+          <div class="isp-index-sub">NIFTY 50 and SENSEX · live market snapshot</div>
         </div>
         <button class="isp-index-refresh" type="button" id="ispIndexRefresh">↻ Refresh</button>
       </div>
       <div class="isp-index-grid" id="ispIndexGrid">
-        <div class="isp-index-card"><div class="isp-index-name">NIFTY 50</div><div class="isp-index-value">Loading…</div><div class="isp-index-meta">Waiting for published index feed</div></div>
-        <div class="isp-index-card"><div class="isp-index-name">SENSEX</div><div class="isp-index-value">Loading…</div><div class="isp-index-meta">Waiting for published index feed</div></div>
+        <div class="isp-index-card"><div class="isp-index-name">NIFTY 50</div><div class="isp-index-value">Loading…</div><div class="isp-index-meta">Fetching latest market quote</div></div>
+        <div class="isp-index-card"><div class="isp-index-name">SENSEX</div><div class="isp-index-value">Loading…</div><div class="isp-index-meta">Fetching latest market quote</div></div>
       </div>
-      <div class="isp-index-status" id="ispIndexStatus">Loading latest published index snapshot…</div>
+      <div class="isp-index-status" id="ispIndexStatus">Fetching latest market data…</div>
     `;
     panel.querySelector("#ispIndexRefresh").addEventListener("click",()=>load(true));
     return panel;
@@ -72,10 +72,64 @@
     const d=new Date(ts);
     if(Number.isNaN(d.getTime()))return "timestamp unavailable";
     const mins=Math.max(0,Math.round((Date.now()-d.getTime())/60000));
+    if(mins<1)return "just now";
     if(mins<60)return `${mins} min ago`;
     const hours=Math.round(mins/60);
     if(hours<24)return `${hours} hr ago`;
     return `${Math.round(hours/24)} day${Math.round(hours/24)===1?"":"s"} ago`;
+  }
+
+  async function fetchYahoo(symbol){
+    const url=`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1d&interval=1m&_=${Date.now()}`;
+    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"application/json"}});
+    if(!r.ok)throw new Error(`Yahoo HTTP ${r.status}`);
+    const body=await r.json();
+    const result=body?.chart?.result?.[0];
+    const meta=result?.meta||{};
+    const value=num(meta.regularMarketPrice ?? meta.postMarketPrice ?? meta.previousClose);
+    const previous=num(meta.previousClose ?? meta.chartPreviousClose);
+    if(value===null)throw new Error(`No quote returned for ${symbol}`);
+    const change=previous===null?null:value-previous;
+    const pct=previous===null||previous===0?null:(change/previous)*100;
+    const ts=meta.regularMarketTime?new Date(meta.regularMarketTime*1000).toISOString():new Date().toISOString();
+    return {value,previousClose:previous,change,changePct:pct,timestamp:ts,source:"Yahoo Finance market quote"};
+  }
+
+  async function fetchLive(){
+    const symbols=[{name:"NIFTY 50",key:"NIFTY50",symbol:"%5ENSEI"},{name:"SENSEX",key:"SENSEX",symbol:"%5EBSESN"}];
+    const results=await Promise.allSettled(symbols.map(x=>fetchYahoo(x.symbol)));
+    const indices={};
+    results.forEach((res,i)=>{if(res.status==="fulfilled")indices[symbols[i].key]=res.value;});
+    if(Object.keys(indices).length===0)throw new Error("Live market sources unavailable");
+    return {generatedAt:new Date().toISOString(),source:"Live Yahoo Finance market quotes",indices};
+  }
+
+  async function fetchFallback(){
+    const r=await fetch("./data/index_quotes.json?v="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(`Fallback HTTP ${r.status}`);
+    return await r.json();
+  }
+
+  function render(data,live){
+    const panel=document.getElementById("isp-market-indices");
+    if(!panel)return;
+    const grid=panel.querySelector("#ispIndexGrid");
+    const status=panel.querySelector("#ispIndexStatus");
+    const indexList=[{name:"NIFTY 50",key:"NIFTY50"},{name:"SENSEX",key:"SENSEX"}];
+    grid.innerHTML=indexList.map(x=>{
+      const q=data?.indices?.[x.key]||{};
+      const value=num(q.value),change=num(q.change),pct=num(q.changePct);
+      const cls=pct===null?"isp-index-neutral":pct>0?"isp-index-up":"isp-index-down";
+      const sign=v=>v>0?"+":"";
+      return `<div class="isp-index-card">
+        <div class="isp-index-name">${esc(x.name)}</div>
+        <div class="isp-index-value">${value===null?"—":formatValue(value)}</div>
+        <div class="isp-index-change ${cls}">${change===null?"Change unavailable":`${sign(change)}${change.toFixed(2)} ${pct===null?"":`· ${sign(pct)}${pct.toFixed(2)}%`}`}</div>
+        <div class="isp-index-meta">${q.timestamp?`Updated ${esc(freshness(q.timestamp))}`:"Timestamp unavailable"} · ${esc(q.source||data.source||"Market feed")}</div>
+      </div>`;
+    }).join("");
+    const generated=data.generatedAt||data.generated||null;
+    status.textContent=(generated?`Latest quote check: ${new Date(generated).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})} IST. `:"")+(live?"Live source checked when this page was opened/refreshed. Auto-checks every 5 minutes while open.":"Live source unavailable — showing last published backup. Auto-checks every 5 minutes while open.");
   }
 
   async function load(manual=false){
@@ -87,30 +141,18 @@
     const btn=panel.querySelector("#ispIndexRefresh");
     if(btn){btn.disabled=true;btn.textContent=manual?"↻ Loading…":"↻ Refresh"}
     try{
-      const r=await fetch("./data/index_quotes.json?v="+Date.now()+(manual?"&manual=1":""),{cache:"no-store"});
-      if(!r.ok)throw new Error(`HTTP ${r.status}`);
-      const data=await r.json();
-      const indexList=[{name:"NIFTY 50",key:"NIFTY50"},{name:"SENSEX",key:"SENSEX"}];
-      grid.innerHTML=indexList.map(x=>{
-        const q=data?.indices?.[x.key]||{};
-        const value=num(q.value);
-        const change=num(q.change);
-        const pct=num(q.changePct);
-        const cls=pct===null?"isp-index-neutral":pct>0?"isp-index-up":"isp-index-down";
-        const sign=v=>v>0?"+":"";
-        return `<div class="isp-index-card">
-          <div class="isp-index-name">${esc(x.name)}</div>
-          <div class="isp-index-value">${value===null?"—":formatValue(value)}</div>
-          <div class="isp-index-change ${cls}">${change===null?"Change unavailable":`${sign(change)}${change.toFixed(2)} ${pct===null?"":`· ${sign(pct)}${pct.toFixed(2)}%`}`}</div>
-          <div class="isp-index-meta">${q.timestamp?`Updated ${esc(freshness(q.timestamp))}`:"Timestamp unavailable"} · ${esc(q.source||data.source||"Published market feed")}</div>
-        </div>`;
-      }).join("");
-      const generated=data.generatedAt||data.generated||null;
-      status.textContent=(generated?`Published index snapshot: ${new Date(generated).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Kolkata"})} IST. `:"")+"Auto-refreshes every 5 minutes while the page is open. Values may be delayed; this is not a guaranteed real-time exchange feed.";
-    }catch(err){
-      console.error("Index feed error",err);
-      grid.innerHTML=`<div class="isp-index-error">NIFTY 50 index feed is temporarily unavailable.</div><div class="isp-index-error">SENSEX index feed is temporarily unavailable.</div>`;
-      status.textContent="Could not load the published index feed. Stock analysis and other research layers remain available.";
+      const live=await fetchLive();
+      render(live,true);
+    }catch(liveErr){
+      console.warn("Live index feed unavailable, using published fallback",liveErr);
+      try{
+        const fallback=await fetchFallback();
+        render(fallback,false);
+      }catch(fallbackErr){
+        console.error("Index feed error",liveErr,fallbackErr);
+        grid.innerHTML=`<div class="isp-index-error">NIFTY 50 index feed is temporarily unavailable.</div><div class="isp-index-error">SENSEX index feed is temporarily unavailable.</div>`;
+        status.textContent="Could not load market data. Please try Refresh again.";
+      }
     }finally{
       if(btn){btn.disabled=false;btn.textContent="↻ Refresh"}
       refreshing=false;
@@ -121,8 +163,7 @@
     injectCSS();
     ensurePanel();
     load(false);
-    setTimeout(()=>load(false),1200);
-    setTimeout(()=>load(false),3000);
+    setTimeout(()=>load(false),1500);
     clearInterval(timer);
     timer=setInterval(()=>load(false),300000);
     document.addEventListener("visibilitychange",()=>{if(!document.hidden)load(false)});
