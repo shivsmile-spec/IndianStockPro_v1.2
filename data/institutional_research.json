@@ -1,18 +1,219 @@
 {
-  "version":"1.0",
-  "generated":"2026-08-20T10:55:00+00:00",
-  "snapshotDate":"2026-08-20",
-  "source":"Fresh public institutional, brokerage and fund-research coverage",
-  "note":"These are external published views and portfolio disclosures. Ratings, targets and portfolio actions belong to the cited institution/source and are not recommendations by Indian Stock Pro.",
-  "items":[
-    {"title":"Morgan Stanley downgrades PFC and REC","source":"Morgan Stanley / Economic Times","published":"2026-08-20","description":"Morgan Stanley cut both Power Finance Corporation and REC from Overweight to Equal-Weight. Reported target prices were reduced to ₹410 for PFC and ₹360 for REC amid the proposed PFC-REC merger context.","link":"https://m.economictimes.com/markets/stocks/news/power-finance-corporation-and-rec-shares-fall-up-to-3-after-morgan-stanley-downgrade/articleshow/133367186.cms"},
-    {"title":"Jefferies initiates Bajaj Housing Finance at Hold","source":"Jefferies / Economic Times","published":"2026-08-20","description":"Jefferies initiated coverage on Bajaj Housing Finance with a Hold rating and a ₹92 target, citing limited upside after the stock's strong loan-book growth had been reflected in valuation.","link":"https://m.economictimes.com/markets/stocks/news/why-jefferies-sees-limited-upside-in-bajaj-housing-finance-despite-its-fast-growing-loan-book/articleshow/133364160.cms"},
-    {"title":"Kotak August 2026 Top Monthly Picks","source":"Kotak Institutional Equities","published":"2026-08-05","description":"Kotak's August list includes Amber Enterprises (Buy, ₹8,710 target), HDFC AMC (Add, ₹3,000), Indus Towers (Buy, ₹480), L&T (Add, ₹4,250) and Ujjivan Small Finance Bank (Buy, ₹85). These are the institution's published monthly calls.","link":"https://www.kotakneo.com/fundamental-research-report/monthly-top-picks/"},
-    {"title":"HDFC Mutual Fund increased exposure to BSE, Reliance and Paytm","source":"HDFC Mutual Fund / Economic Times","published":"2026-08-18","description":"July portfolio activity reported by Prime Database showed HDFC Mutual Fund increasing exposure in a large number of stocks, with BSE, Reliance Industries and Paytm among the highlighted changes.","link":"https://m.economictimes.com/mf/analysis/bse-ril-paytm-among-stocks-bought-and-sold-by-hdfc-mutual-fund-in-july/articleshow/133316281.cms"},
-    {"title":"HDFC Defence Fund adds Cochin Shipyard and INDO-MIM","source":"HDFC Defence Fund / Economic Times","published":"2026-08-18","description":"The HDFC Defence Fund added Cochin Shipyard and INDO-MIM and increased holdings in Hindustan Aeronautics, Mazagon Dock Shipbuilders and other defence names in its July portfolio disclosure.","link":"https://m.economictimes.com/mf/analysis/hdfc-defence-fund-adds-cochin-shipyard-indo-mim-increases-stake-in-hal-mazagon-dock-5-others/articleshow/133310910.cms"},
-    {"title":"ICICI Bank becomes the top mutual-fund holding","source":"Economic Times / MF industry data","published":"2026-08-18","description":"July mutual-fund portfolio data showed ICICI Bank overtaking HDFC Bank as the largest stock holding across mutual-fund portfolios, highlighting a notable shift in fund positioning.","link":"https://m.economictimes.com/mf/mf-news/icici-bank-overtakes-hdfc-bank-as-top-mf-holding-in-july-amid-governance-concerns/articleshow/133308820.cms"},
-    {"title":"Motilal Oswal August stock ideas","source":"Motilal Oswal Wealth Management Research Desk","published":"2026-08-03","description":"Motilal Oswal Wealth Management published six August stock ideas across large-, mid- and small-cap segments, including Adani Ports, Radico Khaitan and KFin Technologies.","link":"https://www.business-standard.com/markets/news/adani-ports-radico-kfin-among-6-top-stock-ideas-for-aug-by-motilal-oswal-126080300065_1.html"},
-    {"title":"Axis Securities August large-cap picks","source":"Axis Securities / Economic Times","published":"2026-08-05","description":"Axis Securities' August large-cap list includes ICICI Bank and Bajaj Finance among eight highlighted large-cap ideas; the cited report gives stock-specific targets and overweight views.","link":"https://economictimes.indiatimes.com/markets/stocks/news/icici-bank-bajaj-finance-among-axis-securities-top-8-largecap-stock-picks-for-august/avenue-supermarts/slideshow/132908353.cms"},
-    {"title":"SEBI prepares trading reforms to attract foreign capital","source":"SEBI / Reuters","published":"2026-08-20","description":"SEBI is preparing market-structure reforms aimed at improving access and reversing foreign-investor outflows, including changes to collateral, stock lending, short selling and the closing auction mechanism.","link":"https://www.reuters.com/legal/government/india-regulator-bets-trading-reforms-reverse-foreign-capital-flight-2026-08-20/"}
+  "version": "1.0",
+  "generated": "2026-08-20T12:04:25.904244+00:00",
+  "snapshotDate": "2026-08-20",
+  "source": "Google News RSS aggregation of public institutional/brokerage/fund research coverage",
+  "note": "Fresh public research coverage is shown as external context. Ratings and targets belong to the cited institution/source and are not recommendations by Indian Stock Pro.",
+  "items": [
+    {
+      "title": "Midcap Stock Hits 5% Upper Circuit After Motilal Oswal Initiates ‘Buy’ Rating With 53% Upside - Trade Brains",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWlJGZFI1X2V5RVBaN291M1U2b0RtbGI4RGJpVlVSSTJ4T3M4b196VGlyZDlDUG5rYkpCZk8wcXZEV3M5d01OV2dSb3o3cFpTM3hfMk9keVFYSmxKbmFsU3puLWFnZjA0M1JZZDY4cXVFUnRPMi1CdEY5VEwtdGc3QzZTdEQ4UHpmWlJtQnRfcVFvT0p4cDcxMnJIQXMtLXFzdzRCSTh5ZVdWUVlTQTF4Zk5rdw?oc=5",
+      "published": "2026-08-20T10:17:00+00:00",
+      "source": "Trade Brains",
+      "description": "Midcap Stock Hits 5% Upper Circuit After Motilal Oswal Initiates ‘Buy’ Rating With 53% Upside &nbsp;&nbsp; Trade Brains"
+    },
+    {
+      "title": "Indian Insurers Beat Q1 Growth Targets As Stocks Fall 15% - Whalesbook",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdDR2cGlqcVduYlNtZld5bDRaR3hRdlY1SXZfZEhlZVNZakp3dC1yRmVuNEVIWVVXcDRMVEFMTGpHSFo3SlJKZHQ1SzFDTmk5YkJZYi1XMkZEYWhJcVpkTjc0Y0czY1NrZXd0bWNBa2hPMzZjVVlheHNSb0g2cWx4ZG1tdHVPX0lrZjAwbW1JeEtLb3pCOTdFN3dLMmpCYlhXa0NiUWIyTzZSTlRvQm9TakJwN0Y1YkJjaHlGWTcxbzF4YWRTUEpwX0Y5X0V1azVfMUdrcw?oc=5",
+      "published": "2026-08-20T09:53:48+00:00",
+      "source": "Whalesbook",
+      "description": "Indian Insurers Beat Q1 Growth Targets As Stocks Fall 15% &nbsp;&nbsp; Whalesbook"
+    },
+    {
+      "title": "Deutsche Bank AG Buys Shares of 1,618,481 KKR & Co. Inc. $KKR - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN1NSQnNzR0NrV3NJOGZjcHM3SUROOFJvN29jZ3dVX29fV1Y1SGZFOVJGTTFYM2t1X2hPNXdWVmJnOVhhRmd0azNjZ0RyT2dUSDBndkY1SFFrSXdpYlpDSmswUVlCSWdtTHdKalJpeFQzcTBlSGk2TDQ0Njlia3hSeEwtdnoySkxsbWFLOGt5RVR4TXFCQTFaQjNLUGoyVS1GVzJ2SkNrZXptX3BJSm45aDdTZFNUZw?oc=5",
+      "published": "2026-08-20T08:12:28+00:00",
+      "source": "MarketBeat",
+      "description": "Deutsche Bank AG Buys Shares of 1,618,481 KKR & Co. Inc. $KKR &nbsp;&nbsp; MarketBeat"
+    },
+    {
+      "title": "Nippon Life India Asset Management - ICICI Prudential AMC among 4 stocks showing bullish RSI upswing - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYTFDbmJsYlFEZHdXNWV4a0p3bk5jdEw0bFd4Zlg0ZEpJVnhCbVdzTUpTbEJGUkQ3clN2QjlKUWk1cnE2eTJMaTVRX2ZwcmJFekFuTTZJd3Q4T3hoWWpvX0IxMzBDZS1kZ1JUYlpTdDd3RUF4dWtZcXk5b281b21tSEFxd2phVHV0azg4eGo3azlwakYzSG5XRWhnUFRqeFhKX25IZ2pka3VNZkxOYk5LZTBVdjNMcHRyeGlpd09rTmNGRmtrc1I0TkI2T1dMRGF2V05tQUVtNkdyYWFET0wxdy00clhEeTRhd25zMk5GdkxpVVNnN1RCX20waXg5OUU?oc=5",
+      "published": "2026-08-20T07:48:10+00:00",
+      "source": "The Economic Times",
+      "description": "Nippon Life India Asset Management - ICICI Prudential AMC among 4 stocks showing bullish RSI upswing &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "TCS, Infosys vs midcaps: Why market gurus are betting on select IT stocks in 2026 - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcEZvd1JYd2o1YVFCNHREa1BRTGpwWG9qMWRzQlB1blJ0QUgwc0l4VHFMeVZRTnhVSXdIWGlYdGZIZWlzS25pQ1VFU2Y1OGk4Sk5xbXZJYmdhN1R0MmZ6QUtKTDZMTlRXSENDQk1BVGhjbXlUZnZQOFVzS3YzczNSWVMySWxBb3VYaG8ydHNtWHMxRWR2R0pOaUJHMk1pQVFfdkR2MVhka2VzNC13V3JfbzRkYzFyeTVYNTZDNGNkamtVWjZMb1A00gHOAUFVX3lxTE1WZzg3VHZocUZNTXNtdzB6Sm56akpJSDdxTmN4em9VNWx0RVZGQUVLWFpkeGxkbHVhaFNMNXVYUV9HMl9RXzZ4dTVPbHhHQjVuTEVCMXJrZVhyVjVUVUtHZ2VyNWVGbUhYcFBCS1k2b0o2VHduSVFodjVWYThUWW1tXzc1dDExRE9IM2lCbjdtWl90TzZTdTU0OWVJNlF5OC05dXcxVzdYTDJPeFlWbzIxWnVzY0RWR3NqYWVXMnNDUkJ2RWd0Mm1VQ0ZBanhn?oc=5",
+      "published": "2026-08-20T07:41:21+00:00",
+      "source": "financialexpress.com",
+      "description": "TCS, Infosys vs midcaps: Why market gurus are betting on select IT stocks in 2026 &nbsp;&nbsp; financialexpress.com"
+    },
+    {
+      "title": "3 ‘Buy’ recommendations by Jefferies with 24% to 38% upside - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORXBzbEI0U3RTQlNfYVVkNFJzNHB3dlpXU0tCRm5wZTV5NFg2eWFJeW5iYXI2TE9URjRmQUMwUlVQdWtQUDRkbWNIcXNxcVRGV1Vla0YtOFhHUGRtSnhndkY1LVV3c3U0em5mWjFuMEFVcVVaalZnaHVzbTBrQjQtc29NZEpUbWE1VldIS19kNG5uWjctTVFJdTNpVS14cUUzeUhoeGYtVmpTZkxBVHcwWDM2SjJ3ZjVzXzVHbFpPSnVSSmZxbEI4eVVfdTVSdEpDOGRNTWgzb2xWU0lMUnV3bTc1YmZ5dHYz0gHvAUFVX3lxTE9oMmdkc1ludnYwZ0NHMVVjSzB3YzFrdVM4VXpUczI0U21BN1V4M0d0ZGpXRlg0Q2s3NWcyU0NrWWliazN2bXV4Q2hfU0l1TlhoUFUteUZtMjJOSlB6UFgzWGJVa18za0ZsOEJhVXlzZkxwS2lJU2Fqc3h4QTZFRDB0am1Ja3hoMFp0NGI0VExXeTdUSDRJOVY5cmNtZzA3YzdGS0k0eUx3b1ZLeUNueGd0UjRuZnhiV3ROVXlhYUtrNzNnQldQSzBqSjBPWThmZ3FLeWJiMnJkX2xJNjA1U0tvLTVMVElDbDc2VFFabEVv?oc=5",
+      "published": "2026-08-20T07:35:56+00:00",
+      "source": "financialexpress.com",
+      "description": "3 ‘Buy’ recommendations by Jefferies with 24% to 38% upside &nbsp;&nbsp; financialexpress.com"
+    },
+    {
+      "title": "Jefferies names TVS, Eicher top picks, rates 9 auto stocks ‘Buy’ - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVFQzdndhZXdCWF83dlg5NFFqSWlnRUhtYmRVeTV6dzBabkYxTV83aUFKSWRBazdpWTBFVUNCZzBtdXVsVkVQcjZOd1dOYnJtMEZBSkRRSThuekFHWl9yQ2NkNXdXakYtaDdzQVBaSEJWMlpMc19zOHNwYkE1U2JMX0ttR1N4bVo5ajItQlp2Rm9RZldNb3gxc1B6QUpmZk55OEFzRGZvdlVaWGtmNFk4LXhaa2jSAbQBQVVfeXFMTVRUM3Z3YWV3QlhfN3ZYOTRRaklpZ0VIbWJkVXk1encwWm5GMU1fN2lBSklkQWs3aVkwRVVDQmcwbXV1bFZFUHI2TndXTmJybTBGQUpEUUk4bnpBR1pfckNjZDV3V2pGLWg3c0FQWkhCVjJaTHNfczhzcGJBNVNiTF9LbUdTeG1aOWoyLUJadkZvUWZXTW94MXNQekFKZmZOeThBc0Rmb3ZVWlhrZjRZOC14Wmto?oc=5",
+      "published": "2026-08-20T07:13:24+00:00",
+      "source": "financialexpress.com",
+      "description": "Jefferies names TVS, Eicher top picks, rates 9 auto stocks ‘Buy’ &nbsp;&nbsp; financialexpress.com"
+    },
+    {
+      "title": "Silver ETFs surge up to 6% as cooling US yields lift precious metals - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY0JGNFl4d1p0dTh1bUVDU0FKNFp0Zlc3SzY4emVjM1dNbndBQ183V1pld2hzblFobkpKNHBaRUk2N0lCWjZIZXdUSmJGSHYzNFNPWG53ZXNzZGdTR2VGY2RXckN3TTVZcWlwdkFzMDZGNm9yM3BQdWZoQ1JwWU41dFliZnJ3N0pESE5KVlVKQTBpUkZvT1oySlQyOG1FSlpwNnVxS3hUTnI1dU5JeUxJQ1kwT3BwckhqT1ZiVjRjYU90cG1tSTJFSS1pOEw1Yk1peVJiNdIB1AFBVV95cUxPY0JGNFl4d1p0dTh1bUVDU0FKNFp0Zlc3SzY4emVjM1dNbndBQ183V1pld2hzblFobkpKNHBaRUk2N0lCWjZIZXdUSmJGSHYzNFNPWG53ZXNzZGdTR2VGY2RXckN3TTVZcWlwdkFzMDZGNm9yM3BQdWZoQ1JwWU41dFliZnJ3N0pESE5KVlVKQTBpUkZvT1oySlQyOG1FSlpwNnVxS3hUTnI1dU5JeUxJQ1kwT3BwckhqT1ZiVjRjYU90cG1tSTJFSS1pOEw1Yk1peVJiNQ?oc=5",
+      "published": "2026-08-20T06:49:11+00:00",
+      "source": "Business Standard",
+      "description": "Silver ETFs surge up to 6% as cooling US yields lift precious metals &nbsp;&nbsp; Business Standard"
+    },
+    {
+      "title": "Can Turtlemint Fintech shares rally to Rs 190? Why Jefferies initiated coverage on the stock - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQi1QclEzOHhVaG1fZmpQcDJEeWZFT1dFbHpldE5JSWxUUGZJaG1UZEFtVzZmX0RDc01hdkt5RUJwZ1VKMzRaaDQ4aUNLSTd4d1NQOWdtbGF6ZEl4dmNPZzRxNWJjRy1tcDl3TlQtMHFQT1B0Wm4ybGpTWmYzZnRHOFAtSHZBZlFEWGhVbENnOWRUOWxPSEtoWjNSUnlZXzZxQ3dvVm9Gd3dDanVCN3hvSzcwSndHekc3dEhsSmQ4YXlPSGVUd3l4d2YtUFE2UDlSaGxYSS1YVEVxTThEUEJRd3Z4S0w1dDlMeU45ZllSVGRXYktpakRzZtIB_gFBVV95cUxOVXJrc2NrUmtHTWVfdXUtT3RFOWVybzR6dV9GRGo4cDB0YnBkU1gwc2JOak9SQkV1WmdtdXNGYk9qN3lNNE8yOW1rbF84VC1Zdnk0dTFSTUlCNmJwX2s4WGw3dnJzWDlfcDhBaVNEYVh0WmU2SFdVdFNaZmxlSTM3VlJEYmI1SWZTMHJaY0Fqc2xCUk9yUjR2dEZYNXpob25SR0tiTlpWZVdMMkxhYWNSRE5zUUtJV3JOVjRCeVl6akVrMnpYRUhEaWhadURFZjBGeVJsTnpsazNIVzV3b2w3eDcwYVJfcHAtQ0N0dng2bmJHZXBzQUxNWTcydkVDUQ?oc=5",
+      "published": "2026-08-20T05:44:58+00:00",
+      "source": "The Economic Times",
+      "description": "Can Turtlemint Fintech shares rally to Rs 190? Why Jefferies initiated coverage on the stock &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "UltraTech Cement Poised To Sustain Market Share Gains, Says HDFC Securities — Check Target Price, Upside - NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUUhRUjZoZVBaTGR1V3ZFTUE1VV9fZ001UjdJMjBoR2VkaWNfWUxxT0o3cEFQa0Z4NktpeEUxQ2xFYS12WEZRVTVJTTg3ZnNtQnBKU1RTNEh3a2FCRDhTS0NBUHVVTVpqTmRxaGhYaC0yZXZIakJGTVhlWVgtclJ5TzlvclVoZ0pDenEtMUVNVk5JSzZxcnRTT0hYNjhNb2dWeGFnTXM4SnBXN3hsQ0lQSGtWYW9XZllZLVNlR3pHRmt4U3drYl9DYWRpZzhTUDVnT2llTG1pNUlvdlEy?oc=5",
+      "published": "2026-08-20T05:40:40+00:00",
+      "source": "NDTV Profit",
+      "description": "UltraTech Cement Poised To Sustain Market Share Gains, Says HDFC Securities — Check Target Price, Upside &nbsp;&nbsp; NDTV Profit"
+    },
+    {
+      "title": "Stocks to BUY, SELL or HOLD Today: Maruti Suzuki, Godrej Consumer, Vodafone Idea, REC and others - ET Now",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZXZmaTI4aFRvMk53cWR1YWlFMVR3MUJTSndqcGFYOXdaZUZULTk1TFVpeUhyRXVXSGcwSHN0TEJRQVVubEdDTERuRlBQdWxmLVRqUFNVXzhwTk5PblhSWGg4Z1M3UG5peGh0SkxNZkI5b0Y3clZPd3JyWVJlTDlXellQbTN6NktOdEx6VmRnMDdFOFpYTGpSUDNiUVJsVGgzMVFfNl9FQjZIeGtrZnRkMDR6emZ6d2F4cksyNWhOVUZNMmZJSDdFblFMelJlMERZNUFENWNWNUZwVFHSAeABQVVfeXFMTWxZcjdoTWdobEx1NUlWZWFzell0Vkx3b0lTcFoxX2tNbmJfS0loSEFIT29nZmNjcDZ1ZVlyakkycFlxUmVGRlRoS2xfcDlndl9vSWlwT09sZ3E1OVQtbnJ4SDNMYjl3THhIRjB0UHdibDM4TVB4dmU1VnJiWnlKOV9HOUx6UnI4QUw4ejQwZG9MQVhFQWFIZm1SNlh2MUhOeWFSZ2p3YzJtSWQ5V2pHQVB1T3ZJR2FacElvX0hFR3ctd1BvdXBOTnBKQ1BlaEU5dVRLdElKMGMycVB2TVBjOVM?oc=5",
+      "published": "2026-08-20T05:20:29+00:00",
+      "source": "ET Now",
+      "description": "Stocks to BUY, SELL or HOLD Today: Maruti Suzuki, Godrej Consumer, Vodafone Idea, REC and others &nbsp;&nbsp; ET Now"
+    },
+    {
+      "title": "Credent Connect N Care IPO Listing: Ashish Kacholia-Backed Stock Makes Bumper Debut, Jumps Nearly 100% Over Issue Price - NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcVVfaUdPcXdZMDd3UGVEY1JqNjFZczloWTNTY0JyOXRLZ1h4Y292MFVhMjNJRDkwYkppblJCWm85ekpvbHpHRVl2WXhrdUItSTAtRnFHcTB6QnRiNEFISVlQZTZVZzlGb2R4WXVseXk1OHdwQXZScG1ET2FyZEFVRVBpTGowcFF6NWVRbUoyWUNEeGFvLW53ZldnSlZGODg4NEk0SF9RX2FvUVNJVkVSaWZQWDVKeWlCb3N3dVNOYlJQbWFSM0U1V05pTXBIZzdNV2dIcDdIbXhRZmF5WWFRR2Jyc0JCaXJXYThSU05vN2NWdlVVeHdxck5R0gH6AUFVX3lxTE9xVV9pR09xd1kwN3dQZURjUmo2MVlzOWhZM1NjQnI5dEtnWHhjb3YwVWEyM0lEOTBiSmluUkJabzl6Sm9sekdFWXZZeGt1Qi1JMC1GcUdxMHpCdGI0QUhJWVBlNlVnOUZvZHhZdWx5eTU4d3BBdlJwbURPYXJkQVVFUGlMajBwUXo1ZVFtSjJZQ0R4YW8tbndmV2dKVkY4ODg0STRIX1FfYW9RU0lWRVJpZlBYNUp5aUJvc3d1U05iUlBtYVIzRTVXTmlNcEhnN01XZ0hwN0hteFFmYXlZYVFHYnJzQkJpcldhOFJTTm83Y1Z2VVV4d3FyTlE?oc=5",
+      "published": "2026-08-20T05:18:25+00:00",
+      "source": "NDTV Profit",
+      "description": "Credent Connect N Care IPO Listing: Ashish Kacholia-Backed Stock Makes Bumper Debut, Jumps Nearly 100% Over Issue Price &nbsp;&nbsp; NDTV Profit"
+    },
+    {
+      "title": "Focused mutual funds: Only 4 schemes delivered 15%+ SIP returns in 5 years; Invesco India topped at 18.33% - livemint.com",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZEljWU5WMWFrTUN5SmR6MzFLckFmUncwaXpQdVAyTE5lcGduU0RJeFdyNlNFNG5PaWpoekE4TjFpMlNoS3UtUUs2eFdwd08zd1d3OTRiaWkzYTgtMVBRZzNhdUo0UzdtRzBQVkJ4eFBQMWFBRXhYWVgtLXJnSFVwZ1Vfem8yVTljRGMxaEFnMEJ5WlN2UHhXclRxVllhRC1IU0szcU1jR2JiT3BNdmw5UDVPS2NzeDZ1YlVsMC1GRGdtbGpxYlJIVmNqbzdjUC1HTEFBZHBZS18zS0dQUVN5VXBBaDdEc3dHbm85bmlxUDQ4R3VEb2NCLWNTd1rSAYICQVVfeXFMT2RjZ3RiUDdFbjgxWWI4VHlCTVJDdUR2OFluVnRkX0JCYWZmOFdTLWJUUTFybjVtTHFhSUdHT1plYk1fcTNOcUltbTJOMV9FcWZSVkRheDBUVEY3cnJ5eFF0ZVkyMUJqbks2RmEzM2pNbVF4ZXFEbHNWWkxIbXpTb3g4eUxvY29oY2ZTVHZ2RWtlb0RXMzJadGViSnVXTHpnSXRwUTduU3ktTmxiMlF3TVFucDU2a0o1MUV2NDNSa2N3RGxXaWFhUUFaRnJobVpWdVdOY2tscE0xVkFZR1FhbkgyekxpS25rWGFmVE1nVWJta2h1SjFJSXphX3J1elZDTVhB?oc=5",
+      "published": "2026-08-20T05:02:58+00:00",
+      "source": "livemint.com",
+      "description": "Focused mutual funds: Only 4 schemes delivered 15%+ SIP returns in 5 years; Invesco India topped at 18.33% &nbsp;&nbsp; livemint.com"
+    },
+    {
+      "title": "Best conservative hybrid mutual funds to invest in August 2026 - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFlXWlNZeTI4YkluQUdBLUhwbG5VVTd5LW42RDlIMWdjMklwa0daRHFWWkpXdlVsU2I3WEpTeEhzbUpBeWFDNW02amVJeGJkNEllY3p4YnEwWXlDTjFMMHRxcFBrYlZuTDUxS19Eb3hLcER3ZUFVdEpWRFZ6VHM0OEh4ZlhTS3ZHSGNwYUljV0dfMDctVGczWktuX1g1d2dFWmxrLXV0NzJMYk1hdVBhT3d3ZWhUTlFnYk44ZEVNcnBKNWZsVy130gHMAUFVX3lxTE5oTTV5THpHOE9GVmFyd0JBMWR2T2lZN0hWeDJiUGoxR05XTGxNMHZfWDRwQUhwOWdNUlJkRzRiN2pwVjU3dmlXMDZILTQ3WjlQQ0h2Q2x4ckdIWFE3QlQ5Ymhrc1RlaHhYOWRWcE1FS2lZdDEwSmRuYlZMcDA1TUYzRzNQVGY3ekRSRUJ0RlFBUG5paVBRejRSUjJfUV9yWjV3OFhvRUViZGFHTWptN2NhSG1PQi1sNmN0SDBSb0I5b05sQ2xfMmp4RjlPdA?oc=5",
+      "published": "2026-08-20T04:31:31+00:00",
+      "source": "The Economic Times",
+      "description": "Best conservative hybrid mutual funds to invest in August 2026 &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Buy, Sell or Hold: Nomura maintains neutral stance on Maruti Suzuki; Goldman Sachs recommends buy on Godre - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPdnZCeDNyMERHZURJXzNYV0piSTVEWGZGUFpvWm16d2t0TmFuUUhSMUxDWnVhV1p2NjlTRlRvSWhrSDRCdFhoVUJqQXkyVFVGUXVtUmRON0RfdzRGcWhaSS1sT0JqdVl1NlFSSzhwbW1Kak9QTlhJUnZ3a1gyMnZqSVFmQWF3WUdYOXl4c2tTSTl1Z1Y5d3A1WlZKZnVYMVRuOElNRFNBQ1pKWS1nTlRwTHBncnNtcUxGakthX0RJV0g1RzlPaEhaeHE4elJlc1pyZTFWeEtxQTlodXpMMC1qVlVGeTlkaHJ3NzFWc2Fmc2I5djJyRVFBVzFldkl5SzAzQWZsNE1ZRUhFLWZyZ3pUYTNoZGxoUdIBmwJBVV95cUxNM2NmdVNaYWJ1bnBaNzNTNHFwUVZTRy1OdXM1ang1WE1pemo4MENoY05PLUpzZzVmWnpRbm5zeUdrNWVQc2x3Y3N5bldvY3NqMVYwZ2taRmlLR1ItdXNkN3VWZERLemJxR2tSSFJnLVZfMDkwYWdBcXlaZEZ4RlJqY2dyT0FYVXhmOHRwV1hQWFNNeUtmdzE0YU1HZlJaTWNWVnNJWEpnaWIyREEzX1hKZm5kYUxOdDY3NnNSZUxKSTE2cDdhQzhPWWNibUl0QjN1TDZMZUU4aXZZRjBGd3B1MmtnQXI2UW5EOXh2NkpNNkJfaEdDOHJEN2RKbVh1STZWeHI2YkUzamJoeHE2cm5jakxfY3hjSkstM0ZR?oc=5",
+      "published": "2026-08-20T04:21:52+00:00",
+      "source": "The Economic Times",
+      "description": "Buy, Sell or Hold: Nomura maintains neutral stance on Maruti Suzuki; Goldman Sachs recommends buy on Godre &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Aeries (AERT) Results Review: The Company Reports Its Latest Available Figures in the Latest Reading; After Results: Shares Fall 2.17% in the Latest Session - Net Income Trends - Vinanet",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNcFZaY2ZBOVVndUR4cUNXZmlSU0xXTFd3S09MeVBtZ1lQcDQ2YVZpTDY3YS03MTlmVTBJTXAyY19KRmdEeVpoVHRWUl85UlBlS2tUNnJzSEU2czJDN0ZTNlp6czZsOHpGdjgwQndpMlI2dmN4TE5YX1VodTEzVFhYU0N5UHAyVV9HSF9sVVJnd2JZZVU1MUVnRG5TN3IwUklIS2Nxb1RmYW9JQWJEcHBqcGNFQ3B0enEzQUp6TzVZQWZxOUtCajhkZGRKX3d6RTJYM3ppbWhXOV9DUVhPbzNieUZ0YjZyMEdCU3NVNkNobGFMb0ZqNUJ6SzhiSWlMMG44SnpFMWVMZExUZkFfMnVOUk9nY20wNGJhRzQw?oc=5",
+      "published": "2026-08-20T03:32:23+00:00",
+      "source": "Vinanet",
+      "description": "Aeries (AERT) Results Review: The Company Reports Its Latest Available Figures in the Latest Reading; After Results: Shares Fall 2.17% in the Latest Session - Net Income Trends &nbsp;&nbsp; Vinanet"
+    },
+    {
+      "title": "Siemens Energy, L&T to Hitachi: Jefferies’ 7 ‘Buy’-rated power and T&D picks with 18% to 33% upside - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORlRjeVN4MnFmakJLc3Jzd3RLZ0xaQ25UdmI0ZXlTcXRJdXYxQ19TTzk0RERLTngxNG1faXhKVXczNEMweWxjenpnTmFFUzBWdEt2bFc5MkpRTW1qcl96cTc4b255MDFoaURSWUs1UFh6Z0lfbWFtNW1wX1lKeGJ2TUhEa29vSFV5QW5DUmlMWXo3VUowOU5XSXNlOUYwZzk0RHROUThwWThieWw2NURWMENHcTBjVGFDb21aaTFHLU9BUDdacDhqUnd2TXVWSUF0SkZBNjNILUtsWHFzQ1HSAeQBQVVfeXFMT2ZNd0VDa0JLMUtleHBvNDdmdUVScDVGRUlvVVpaNkY3dzJhMFcxMjJZWUFNUnVNTEJyWWZnSk1EVThpZFFEV3dTaUUtUkoxWXBoTC1wZFFXd2RFRDBrLXBWZ3h2VDhLWDMwang0R0pERXpGeWlaR081T3ZOOHN2cUJOa0JDd0JnbUZnM3Z4SG1MQVA0RHdKRUtiSVJmUU15bjlzX0ZtUXZySDMtZFE3V2hMOVRLb2Nacmgtblh5OXlhcUZQUWY3WEtINDlLdkZNb2FjVmgtNjk4N21QTzNnZ0RBcF9P?oc=5",
+      "published": "2026-08-20T00:40:00+00:00",
+      "source": "financialexpress.com",
+      "description": "Siemens Energy, L&T to Hitachi: Jefferies’ 7 ‘Buy’-rated power and T&D picks with 18% to 33% upside &nbsp;&nbsp; financialexpress.com"
+    },
+    {
+      "title": "Gabelli (GAB) Latest: Closes 0.18% Higher at $5.72; Range Check: the Supplied Trading Band Runs From $5.43 to $6.01 at the Close - IV Rank - Vinanet",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNckNaVDhDc2pxenc4VDhYMF9NV3hGMHBrbVlmQUZpeDJ1cFI0NnZ1SVZvVFEzWFhsblljU2I4cUhHQjNnLVVFay13SXd0SHI3enRDX0VQMTFCVHBHMzQ3cXJ5TTlodlJzSG5kQl81UTNtcVNqeVBxX3VwZjVvdFBYNUNzX0JvUk5OQ1pjRmVyQ2ZZcFRiaVhXQlp4aFliWF8tRGNsZWdUd2JOcTBpNGxrUWpFTTVpOG1ERmtkMG4teC1NemRKeHdldW1faW5QV0M2Q185TWJIeU9EalZpZm5wd0tnSnRoVF9ObXZORG9B?oc=5",
+      "published": "2026-08-19T22:31:38+00:00",
+      "source": "Vinanet",
+      "description": "Gabelli (GAB) Latest: Closes 0.18% Higher at $5.72; Range Check: the Supplied Trading Band Runs From $5.43 to $6.01 at the Close - IV Rank &nbsp;&nbsp; Vinanet"
+    },
+    {
+      "title": "Tata Steel share: Nuvama sees ~5% upside, keeps hold as large capacity expansion offsets near-term margin pressure - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcXJoUTlhWFN0T2xlSGliTzA2N3VydHZpaWw4TVE1VElHNElEUlkxYS1LM01PcW9LWlpXMG1kX29qekphUVN3Y0k5eUdXUXNwQUwtRkRsNm11SUlHWDR1YUpMRHBiRUxZSGZ6TFVjVnZJb0czR1B2YkI4ckpkelYwMFg5TW84dWlyb2NWT2dIMTlIbjVlZ0lXNXlTNWlkM2RtVFVQcHllZC1vVU90cG9GeUJhZXZZVFhTQW9XblBNODUwZ0FETmdteG1nOExwU0paZ2hWWTFzX0NNbWpMSnUtZzUxSWhyVVVmMmxDX2VJNE5VbDRlUEVWSWUwNnZud3c?oc=5",
+      "published": "2026-08-19T16:17:02+00:00",
+      "source": "Business Upturn",
+      "description": "Tata Steel share: Nuvama sees ~5% upside, keeps hold as large capacity expansion offsets near-term margin pressure &nbsp;&nbsp; Business Upturn"
+    },
+    {
+      "title": "Powell (POWL) Today: Moves 2.78% Down to $197.79 in the Latest Session; Chart Watch: the Supplied Trading Band Runs From $187.90 to $207.68 in the Available Record - Beta Neutral Pair - Vinanet",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPa3A0enFaOTlvUWpNSGxXMjBHenR3YzlzbGVpRVh1Nnh2enNEWVhjdDBtSVJSZjBGTjNNejRhXzZ4aTU4SjJoS1BGNGU1SlFfdnVFMXFYc1RvR2ZNNE1Bc3RNajM0bzRUTW1SOXhwQW1GM2o0N2hYaWJmN1dyWHVnU1NBakhBUFVwa2VrenZkeVhMMzZMVGVkOUxyUTA2Rk9vOGtIeE5ONzVjOWx3SjVkU0FtbVQxbUc3eEhBekNQOVFCamdIVmFwbENRYjNReGtlODdMWWsxY0diR1NneERmbnZJSFhLelNLV1Bkd2VGemVicVgwSVpBNUM2a0xNVFBaeElVRl80MUVveXZJVGNtV1hVYUxKODdCdnVCQw?oc=5",
+      "published": "2026-08-19T15:45:30+00:00",
+      "source": "Vinanet",
+      "description": "Powell (POWL) Today: Moves 2.78% Down to $197.79 in the Latest Session; Chart Watch: the Supplied Trading Band Runs From $187.90 to $207.68 in the Available Record - Beta Neutral Pair &nbsp;&nbsp; Vinanet"
+    },
+    {
+      "title": "Jefferies holds Progressive stock rating on July earnings beat By Investing.com - Investing.com UK",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNXJ6amhLaUtJQmltNWIzdmpib08xTXFxZXlmaFZzdk5LYmdiX2dfQVBCajByX0VfUXpfaDEyQmJNUTZDZEJidVE0STdmcENyYTRTaFdWaVdaYngyWllPOEZkVS1RaFRiSTYyVG5HcWF1SWRVZ0VUeVMyRU8zWTdMOE0zOGluVzJGc2NwSGV4bWZ1bHFGbE92eUdIaU5LYU10QjZrSlh5Y0Q5ci1VVjhzOHFhdDJMQmZFQTFHQzVZbEk?oc=5",
+      "published": "2026-08-19T14:36:00+00:00",
+      "source": "Investing.com UK",
+      "description": "Jefferies holds Progressive stock rating on July earnings beat By Investing.com &nbsp;&nbsp; Investing.com UK"
+    },
+    {
+      "title": "Domestic Brokerage Initiates 'Buy' Call For These 3 Stocks; Sees 20% Uptick Potential - The Daily Jagran",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZUZNZ3didThDd1A4eFdZZXpaYkVlTVFaWlpWd1h2TGdOOXBnakVfT0p4M2lrdjNCbnl2eXdHSUd5eVkzZXVZSWZnbmo0aThLaTRvUGNkSUwwRWZCYklIVDNuLXU1eDlhUlZ4VExoVllncmpMOWJpMDRseXVsUnJ6RlRhcWZJaHRLdWhmWFJPMFg2bWc3blpxUUFpSGVrSzVnNFprUGhQc1VMbDh6V29zQmxRRWNUVTdZdjdBSmdpakllLWNEYnRTdkc4SkpFemN2azln?oc=5",
+      "published": "2026-08-19T13:57:00+00:00",
+      "source": "The Daily Jagran",
+      "description": "Domestic Brokerage Initiates 'Buy' Call For These 3 Stocks; Sees 20% Uptick Potential &nbsp;&nbsp; The Daily Jagran"
+    },
+    {
+      "title": "India pharma faces global headwinds; Angel One sees 39% upside in Lincoln Pharma - Business Today",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdFBnRnJiYXh6engzY2FadE5CQTBPMVhfV21TSFY5VHRYNEJXR0tlOGkxd3Z1cXNCb0laSTlxR0I4UmNOdkpIeWdFUTNlSVJfdUx1TnpsMDRxdXRReWx0czNrUnhUUmROYzFCT0lDQXZHTW1uQldCUHJOZ1p5T3pyN0JYcGtvNXZwcFVabFZMQ0ZJNjNyYl9WQk5yUnMzZ2N0dkxwTWlaVVFtTjFPVDB1eTA5QWt2U0FacVY4ZzhzN2RRTnBJLUZuWTFTbHJXeVFpM1Vvb0pzMWfSAdgBQVVfeXFMTXRQZ0ZyYmF4enp4M2NhWnROQkEwTzFYX1dtU0hWOVR0WDRCV0dLZThpMXd2dXFzQm9JWkk5cUdCOFJjTnZKSHlnRVEzZUlSX3VMdU56bDA0cXV0UXlsdHMza1J4VFJkTmMxQk9JQ0F2R01tbkJXQlByTmdaeU96cjdCWHBrbzV2cHBVWmxWTENGSTYzcmJfVkJOclJzM2djdHZMcE1pWlVRbU4xT1QwdXkwOUFrdlNBWnFWOGc4czdkUU5wSS1GblkxU2xyV3lRaTNVb29KczFn?oc=5",
+      "published": "2026-08-19T12:25:23+00:00",
+      "source": "Business Today",
+      "description": "India pharma faces global headwinds; Angel One sees 39% upside in Lincoln Pharma &nbsp;&nbsp; Business Today"
+    },
+    {
+      "title": "Multi Commodity Exchange of India Ltd Sees High-Value Trading Amid Narrow Price Range - MarketsMojo",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNU12QmtuN2FjS2l0YmVmc3NTYldfdUtPYjdHeGY2UlVnTmQ4SlpFT19fZldqT2JMcDZnSkJ4NmJORGh2SHJPWFhXSzd5THZEeWF4NXBWR29qaXVEekd3NzdkMnViUFJoakZZdzVKTnVkYkQwMS16b1FQZmNxZGhfX1BWelVqY2M1WVprZ1owMUloMEN6NEthbTVYUDd3czRWdkM2WHhRMWs0TFpSN1R2Z2JEVkVEanVzVF9uR3AxM3NRQlp1dEltSkV6U1F1bEVUanlNZ0JsQzJqNEU?oc=5",
+      "published": "2026-08-19T11:42:55+00:00",
+      "source": "MarketsMojo",
+      "description": "Multi Commodity Exchange of India Ltd Sees High-Value Trading Amid Narrow Price Range &nbsp;&nbsp; MarketsMojo"
+    },
+    {
+      "title": "Nippon Life India Asset Management Sees Sharp Open Interest Surge Amid Bullish Market Positioning - MarketsMojo",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPT1JwMUF0U0lJXzN3QjFrUUY1RWt6REZ4MjA5VjVkd2dwTG9WaWRVUkUwcFZ3VHF0YWlxeUJ1UFRkX0lWZXA4ZVNLbVNaczFOejVVTlQ1Ny11RjAxZHdfN002ODdJdUd6enB3blVjZDNHbzdvYmZvSEpESWdLcHNsbWIzMGZ0TXQxcURrMWYybFBRU1lsSkt0bVZpUFExQ25iWHdTdGQ5MDM5TnliZHl6QUtZMjFBdDdTN0p1MXM3bDRMYlVJR2ZGWjZHb2hyOEJrOFEtRnNIVVh2cXNFanFUQ2tPRDU4VUVaTnZV?oc=5",
+      "published": "2026-08-19T10:42:09+00:00",
+      "source": "MarketsMojo",
+      "description": "Nippon Life India Asset Management Sees Sharp Open Interest Surge Amid Bullish Market Positioning &nbsp;&nbsp; MarketsMojo"
+    },
+    {
+      "title": "Commodities in Indian Portfolios: Nippon India MF Vikram Dhawan View - Univest",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDFVOUw0bkM3MVpLeXc2SU9ZSXZ4Q1JzOFBwdGsxY1B3VGhVNGlZcFBRUV90dk9teWxUTW9QdkVueXVSZy1rZ3V5dExHSDJOczVPRjctY0tFcWFoQ3pRRWtleVQ3RFk4VTBlT05kN1J5NXViS3dBSUxNRkhtVUNUTlRsVmJudFNhdGFjXzZsLTZFUkNI?oc=5",
+      "published": "2026-08-19T09:53:00+00:00",
+      "source": "Univest",
+      "description": "Commodities in Indian Portfolios: Nippon India MF Vikram Dhawan View &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Janney Montgomery Scott LLC Makes New Investment in Alphabet Inc. $GOOG - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjZJelNNa19Fc1AxSjFHcGZsMmo0TjRwa3I4MFplcDBFSzRadkY0Q1lSQWdNUDEwV1NWLUNxODN5Y3V4cFJDNlhSRUtiN1l2aks0LXg1VGo1dlhPcG11OGZOQ01QMF9UbjU0SXE4THRzMnptVUIwZkliNm51M0I2MlRFRHdrdzdQWVZTdFg2enRNcGIteWdYMFlCSTlfd2l3VzNDZTB2a25jbGRZR2hIMXNCTGJmdWcwVVEwcjdHNENVRktHZjVXbHhn?oc=5",
+      "published": "2026-08-19T09:27:51+00:00",
+      "source": "MarketBeat",
+      "description": "Janney Montgomery Scott LLC Makes New Investment in Alphabet Inc. $GOOG &nbsp;&nbsp; MarketBeat"
+    },
+    {
+      "title": "Univest App Review: Features, Research Tools and More - Univest",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNnZFYWxFQjdVeDY5bi10blBBcTVvN3RjVEtDajJzbUlWcV9jSWg4TGhoT1lHbHRZRXJXV1dqOHpEWUdONU5sV19OMXY0LWpmWElwYV9oUmQ2V0otNWNqUmJ2dTd2Qm95VHdEN0xoY3BfaC1sOC10bEJqNWJUa3ByQWxuTDRwUEhHeWtkSFlSNmJMTzQzUUU1cA?oc=5",
+      "published": "2026-08-19T08:10:00+00:00",
+      "source": "Univest",
+      "description": "Univest App Review: Features, Research Tools and More &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Jefferies cuts target price for Jupiter Wagons, maintains Underperform after Q1 earnings. Here’s why - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaTh6UlNsMUtqQUxXRjhVcnprVzkwVmxOVTZ2UWp1YlQ5bDNpRVFXN29iWmYxNE53M25hUUFqZjdudm1nLVRNcl9VejBIb0hHM0FWWVh3bGdXV2RSWDFGR0p3bFNZNTNMTTBaTUR6WEZnWGFmbVFGbmxEUE4yS0dhejMtY2lYQml5SDlLT2VtNUlrT3ZNSnpKNGVPclM3d2cwcjl2NmFXU081OVpOb05ROWRoVE9IVTE1em9haVM2blJFZnNhWVpoeV9wT2E5aFNGdWphaVpTVzBXamQ5TWRrVnpnMlhQYjBSY1BDU0pxZkZGLU05b1BIeng5bEk0VVlo0gGGAkFVX3lxTFBHSUozbkpabGkxQnFBaXJnUlpNRnRVTUUyYkJubi1uMUFSVUg3cUpqWngzVHhfbFVpZU5KcTlsSkhKUHpyZ195bmR3R0tETU1lVHNzcjJTWl9CTEExTmdoV3FlN0lSVFREUTM0bEtWdXoyOU1BMWZUVE9yY3JyeHBVSnhleWRqNnhfdFUtUDFyY2I1a1dxU3NiM0o5a3ZiS3JhZzJoQVV1R0NVcUExMEFqb29SeW1LdzJKZVN5ellYZ3psZlIxUzdUVkdvNTA1M3gtTDE3MVNEY001RnJwcC10eHg5ZTVyQTJROUc3YWxmbDNiTTZpWFllLTI1NEtrUU9pN3ZQMVE?oc=5",
+      "published": "2026-08-19T08:09:20+00:00",
+      "source": "The Economic Times",
+      "description": "Jefferies cuts target price for Jupiter Wagons, maintains Underperform after Q1 earnings. Here’s why &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Bernstein India Model Portfolio: 3 Stocks Added, DMart Exited - Sahi",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOVJBWG93WlRENHlyMmF6Q3FoUUFVX0hBanVISHk1RFhLdmdKa2dTUFVmalhvLV8tMndHWkdLeDY5WDQ2S0hpeHRKRXo2MHRDc3ZWZVFaa2tIS0l1TklCRlh6Y0JmMDM3RUsxdUd6aWN3aUxfSWRxV0YtMDA3UkJGUTN6aXN1aFRNb2lIX2xxRlZfRGtVVGRVTw?oc=5",
+      "published": "2026-08-19T08:08:37+00:00",
+      "source": "Sahi",
+      "description": "Bernstein India Model Portfolio: 3 Stocks Added, DMart Exited &nbsp;&nbsp; Sahi"
+    }
   ]
 }
