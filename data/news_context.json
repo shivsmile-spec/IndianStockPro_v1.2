@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "stage": "news_context",
-  "generated": "2026-08-20T23:02:18.058081+00:00",
+  "generated": "2026-08-20T23:56:22.655807+00:00",
   "methodology": {
     "description": "Company news, industry context, macroeconomic, commodity and geopolitical screening after quantitative stock selection.",
     "note": "News signals are contextual inputs, not automatic buy or sell decisions."
@@ -331,6 +331,21 @@
         }
       },
       {
+        "title": "Semiconductor Industry in India: Incentives and Key Players - India Briefing",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQTVRbl9ZR3VpLVZOSUJfTG5yV2dtYzY3MG1WeEZrY3V0T0FoSHQzRzV3ZXptbWtxRHd4T0pCdjFqejdsVE9fTVY2WGRfaWtUR2pCTEE4VEFOOEpCcS1kMWRTZ2lGYnlZVF82YnloY3ZOOTJoQkRsLVZNQ3d5bjNIWXNnWGl2UVpRc3dJSURkSzc5U1FZMi03TUwyaWJhZlRhVmlseTNkbXRfTnhuZ2NJRUY5ZDJTc00tUjY0c0lsSGctMEJTNE9GWW1pcjZhSERsWXc?oc=5",
+        "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+        "description": "Semiconductor Industry in India: Incentives and Key Players &nbsp;&nbsp; India Briefing",
+        "classification": {
+          "direction": "neutral",
+          "impact": "low",
+          "rawScore": 0,
+          "positiveKeywords": [],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
+          "macroKeywords": []
+        }
+      },
+      {
         "title": "Government eases FDI rules for e-commerce companies aimed at export, first big relaxation in years - The Hindu",
         "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR0JtX3BwUk9IZ2JfQ0pyUHhPQkNiOHFwb2dXOW5LVGJYM0VFQV80VTU2T25iYjJ3MG5valpHN0Vkc2ZHUml6U09qN2ZqeE9RMWpSby1MNFZBSnRjYjA1UjdRNTRBblNLUmVRcDFZX2ZSZU1TOTBmUmNCNVZwUkxQbFgyUnQ2c01YYXM4U0QyQTctSGo4UFhKa05ZMnBMM2NhLUxpLW9ObDBPV2NPcE9IWEU1cjFQdWl3M0ZJNk1udXZMWHk5QUg2d0dwWWlNMlF1dVphSTRibmZJNVFES1FHYWxQTVNsZ9IB7AFBVV95cUxOUEN0aGlNMEFlSTQyMUFvLXJ6ZG5ka1Q4UnpLcnpINy10cFpLYmt3eTZoamhnRTJqQ3MwR0pqMnotN0lmTm9qeUNIaWx5RmFMMjlvVjNYSWt0UWtqRXBLUjUyZ0Ruc3I5dU9tSWxRczdVdFYxNERJTW1yem1zX2tvMUNTWVF4VXJ0RWdjTDdUUDJfTDN3VFlwVWUzQXhQcXhUa1NKZEp0OHhVVmV0bkluemRrSFJyMHdiaS1wOG5QYWp5SUNRLXJFWURTaF9nY1Bsc1g2MjVGUF9pYkVOa1U3ci1rZkVublFCckJBTA?oc=5",
         "published": "Thu, 23 Jul 2026 07:00:00 GMT",
@@ -346,10 +361,10 @@
         }
       },
       {
-        "title": "Semiconductor Industry in India: Incentives and Key Players - India Briefing",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQTVRbl9ZR3VpLVZOSUJfTG5yV2dtYzY3MG1WeEZrY3V0T0FoSHQzRzV3ZXptbWtxRHd4T0pCdjFqejdsVE9fTVY2WGRfaWtUR2pCTEE4VEFOOEpCcS1kMWRTZ2lGYnlZVF82YnloY3ZOOTJoQkRsLVZNQ3d5bjNIWXNnWGl2UVpRc3dJSURkSzc5U1FZMi03TUwyaWJhZlRhVmlseTNkbXRfTnhuZ2NJRUY5ZDJTc00tUjY0c0lsSGctMEJTNE9GWW1pcjZhSERsWXc?oc=5",
-        "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-        "description": "Semiconductor Industry in India: Incentives and Key Players &nbsp;&nbsp; India Briefing",
+        "title": "6 Sectors in India that are Likely To Perform Well in Future - Groww",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDRFZGZUE2RkUtUmZEWDJmMkFYZU9lQy1SRDNiaVZFRjVCZWZiSVV1T0g1T0Vzd1BrdkpIVnk5SWZXRFZDaWgtdElsQ2djNFZodW1iblJzZHd5dm9EdUp3eDB4dU96YlNpdnBwbE53?oc=5",
+        "published": "Sun, 16 Nov 2025 08:00:00 GMT",
+        "description": "6 Sectors in India that are Likely To Perform Well in Future &nbsp;&nbsp; Groww",
         "classification": {
           "direction": "neutral",
           "impact": "low",
@@ -376,19 +391,19 @@
         }
       },
       {
-        "title": "India Government Plans Overhaul of Tax Administration for Smooth GST Rollout - Downward Estimate Revision - Vinanet",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQemVXZzF2dVJQU21hRl9OV0FWTEpWMk9qSkZRYnJkazllbm5fSUFQOHBSV1pKU3ZNNF9VX2dsYnR3aUtNUVU4X3dpYXF5XzM3REFiVi1xNE5QeDVONjJqZzc2bVZCQUVHM1ZEeEVQYVRiZXJVa0hWLUF1TDVPRm9rN2xUNjRIVlM5eDZpZ18tSEVVUExiMEFjSXNyNWc3d3lKN3FDQjd4aF91ZGx3TjhKTnRjT09lS3lPWGc?oc=5",
-        "published": "Tue, 21 Jul 2026 07:00:00 GMT",
-        "description": "India Government Plans Overhaul of Tax Administration for Smooth GST Rollout - Downward Estimate Revision &nbsp;&nbsp; Vinanet",
+        "title": "India’s Fintech Industry: How Government Policies Fuel Growth - IMARC Group",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNldEUF96NVR2NXVWajlTWmYwRmRVQTZDMmVmQU5mVnpsNzBwWUpoMFZNRDBXVHpxZktqekM1RnpEUXVJYWZjd2pFVnlGbGxDS3YwSlUxdXQ2RjlJc2JON19KSUZQaGI0cUFCazVndUdvamc4Vm9PM09XX1NnUUw4bEV4LWVRNjBPRWZST0UtTTNWeE0?oc=5",
+        "published": "Fri, 12 Dec 2025 07:36:39 GMT",
+        "description": "India’s Fintech Industry: How Government Policies Fuel Growth &nbsp;&nbsp; IMARC Group",
         "classification": {
-          "direction": "neutral",
-          "impact": "low",
-          "rawScore": 0,
-          "positiveKeywords": [],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [
-            "war"
+          "direction": "positive",
+          "impact": "medium",
+          "rawScore": 2,
+          "positiveKeywords": [
+            "growth"
           ],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
           "macroKeywords": []
         }
       },
@@ -397,21 +412,6 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUC1STEx0RWEybUFDUThnYnRzWldTcTFPMl9WWmowajJMQjJWd1p4QzNiNDF2MV8xSnhyTzlWVGdzblFaRXJJNDViYzVGRkstWk9XWTRXV1g3VkJwaHVWbG1mdTRyNmJsbkhkdlQzZGpOcExpRHVFTDB5N096RDUzZjYwa25DTV8zOHdLekEtNnQzTW85N1JHenJQcXhyUVYwUElheVFjOFFBUFA3UmZHLVFnb1dpdHNXUGdDRDBXMHZNUnRDRDZVS3FxRW5fZ2vSAdQBQVVfeXFMTlAzSmRiZWQ0YW9aRVVKRnFrcjlRQTQ5c3lJX1FoeEszMmUyQTYyaGtGMmU1MUdpUzZ5TE5kNFZnQnBYS2hDTXRQLURJOVJ5MjZkUmVwNGRsNkkxS0pQODRBVldEbVZ2aDQ2a1FjemVaMlFzQUdtZC15LTFqbjJhYllGb2N4SmtOMzNhWUdDZW5YUjBrNkxwdzlLRzJXQjgwS052ZlJ2NDdLSFhTNGF0eXVUdnF2UlN6dHZlTXNubUs0RUZCY1R4YVJiWWxvc3Q2cGJVZWM?oc=5",
         "published": "Wed, 15 Apr 2026 07:00:00 GMT",
         "description": "Moneycontrol Pro Panorama | EVs to create new set of winners and losers &nbsp;&nbsp; Moneycontrol.com",
-        "classification": {
-          "direction": "neutral",
-          "impact": "low",
-          "rawScore": 0,
-          "positiveKeywords": [],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [],
-          "macroKeywords": []
-        }
-      },
-      {
-        "title": "Top 15 Electric Vehicle (EV) Companies & Manufacturers in India - IMARC Group",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92SnlCU0dsc0pnZDNmQXVpRXh1VVhIelBhUDQyXzVONURWSkRHbHF2XzlhZVJsTzFnMFlac1F1aGlSREotQlRFX0RrRWxQZEgzZHFRV29pOXkzX2NKbkxJcXVxbnlIVVBsSWI0bzVpN0xTQWs?oc=5",
-        "published": "Sun, 19 Apr 2026 17:57:04 GMT",
-        "description": "Top 15 Electric Vehicle (EV) Companies & Manufacturers in India &nbsp;&nbsp; IMARC Group",
         "classification": {
           "direction": "neutral",
           "impact": "low",
@@ -847,10 +847,10 @@
             }
           },
           {
-            "title": "NMDC Limited Revenue Breakdown – NSE:NMDC - TradingView",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pcjBlOW5jN0RFWnI0MkhKNkEtZDRTX3pyZkwwUGNTM3pZWU1nTGI2Wjd3c1h6YmE3OHNWRVBoUFJGUXdZSlNMNktvam0tZDVxOTZOU2RZTkdieG9TSTNWQ1ZURHFfWlBDU0RiNWdNNHhUS00?oc=5",
-            "published": "Sun, 26 Jul 2026 11:19:45 GMT",
-            "description": "NMDC Limited Revenue Breakdown – NSE:NMDC &nbsp;&nbsp; TradingView",
+            "title": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHFBZndXRlNPUGphLUlJWGh5Rm16N3NVRnhLZ25OeVhVb294SUdxQ0FtU0xaV2VIVXlXcmlMa2VJLXI0RWttMUs0Y1VrOVpZOEdxMEo2Sl9ZclB3M0hlTmViYWFFQkxDVDFnSXJXenYxQ3pMWDcwb25HVTNuenlJLWRWczJkRU1EakJtRUtrd1duVnROdEZYbkJ2M0huQ2hnNVRHbk5uYXllYWR2QnRwZE5rdWt0MHh0Nk1CcFVTSdIBxAFBVV95cUxNVElrbGx3THR5RW5LMEV4OGFjNXE3WDdwTGM1QS1wdW9FZHhacmlqanFoS1VDYVhZRG84YVRfdVM4a09CTFdGYldWbG5NX3kwNjlIajhLSUNBN09IOThlbVBLQkZ4NTNVLWZRSGtfUnB4Wndjci1QbFBoM1JheEVTbVZyUlVDdjBraWZ0OG5MTk9yWkhPWjNCLVFPOHdSTUNFUC15LW44MFZvRTBHTVRDU2RadzEyMEhlYWlQYlp5UkVqYUtF?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "description": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -862,10 +862,10 @@
             }
           },
           {
-            "title": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHFBZndXRlNPUGphLUlJWGh5Rm16N3NVRnhLZ25OeVhVb294SUdxQ0FtU0xaV2VIVXlXcmlMa2VJLXI0RWttMUs0Y1VrOVpZOEdxMEo2Sl9ZclB3M0hlTmViYWFFQkxDVDFnSXJXenYxQ3pMWDcwb25HVTNuenlJLWRWczJkRU1EakJtRUtrd1duVnROdEZYbkJ2M0huQ2hnNVRHbk5uYXllYWR2QnRwZE5rdWt0MHh0Nk1CcFVTSdIBxAFBVV95cUxNVElrbGx3THR5RW5LMEV4OGFjNXE3WDdwTGM1QS1wdW9FZHhacmlqanFoS1VDYVhZRG84YVRfdVM4a09CTFdGYldWbG5NX3kwNjlIajhLSUNBN09IOThlbVBLQkZ4NTNVLWZRSGtfUnB4Wndjci1QbFBoM1JheEVTbVZyUlVDdjBraWZ0OG5MTk9yWkhPWjNCLVFPOHdSTUNFUC15LW44MFZvRTBHTVRDU2RadzEyMEhlYWlQYlp5UkVqYUtF?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "description": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors &nbsp;&nbsp; simplywall.st",
+            "title": "Stocks to Watch Today: InterGlobe Aviation, Concord Biotech, NMDC, Lumax Auto Tech, Olectra Greentech,... - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQeTViQ0xRYnNzanFpY0taeWd4QURxbUNwS3l2VlRzYng2NWhiZFNXVFBZaG81ZGlrQ0RtVmQzUzRNdG1scGQ2U1VHbFFnaVRFcTM1UDVMNVNmeWhMWW1PT1BHZjJxSUcyTGVCY3A0UFdBRzFnaWk5ZDlBQVhRNnhHd0hPR2ZxeG1WWHl0Sjl1Mm0xNk1ra0xveXcwSEJxcXAwSF96ZVl5QzgwSGMyQ3YwN0l1b0ZjT19TVU9saXVGV052VjF5ck5HYnRzOWo2eGlydmVUVjMxTWxSb2ZaVGJTeGl3RkMxU0VYN21iMnFPUm1RNmVvZWVUeWszTmN2UkdWaHM4Y0FRSF9DWm9qejdsMVZFTkdtcFRObU1iOWJLQlhBSUtwTEdISVJWc0xNUdIBswJBVV95cUxPdEdvNEk3V2NLTEJDVTIwNFpLR19MS1dCelhXTkdiSzg5WU9hMzZORTRXUUw5QWNNWThCaXNacVhwNzZyUXo2N2VGc0xHMmN6bHpWR3UtOGNvUHJZQXNNcjdUUGQ1V3RxS3ZBOE9rdDg2c3VjS1BPNXlfSjM0RE5mZGZvaWxOTTMxMmV5cnl0cFpQZmh6WXRDM19lRDV3RTFJdWdVY0Vvek15NGRpX3h6U25kQmowNU9DWkJuQWZUaVFRdEF4UjhESjQwQUZkSjBMUkZOM1VJenpBQkhZa3hZSFFFYW0waEhvQ0F1RlBlVFh6NFF3Mkp5WnVXNEI1UG1NRTJsd0ZxNlNaemhCbERNZEZ2cUc3ZUVwWnBTNlpJZ01VdHFaLVYtR082VWMteFNiVVlB?oc=5",
+            "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+            "description": "Stocks to Watch Today: InterGlobe Aviation, Concord Biotech, NMDC, Lumax Auto Tech, Olectra Greentech,... &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -932,10 +932,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
+            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
+            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -947,10 +947,10 @@
             }
           },
           {
-            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
-            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
-            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1506,23 +1506,6 @@
         "contextScore": 4,
         "articles": [
           {
-            "title": "NCLT sanctions TVS Holdings bonus preference share scheme - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNEhaWlVkU2lEQkkwSWtRZTJHcWtQeDUxbXhMMDlEdTNQdWJfMzR4T1dQUjROSkxORXctaGtDWGw5ZnI4MjduLTEwWlFwWnN0UUJ1MG1qejFhMWJCeG5iZUROOXdMTDZKR2tGODBIM3pFS3V4bFZKS2k0bFo0TGJ2R3BlZ0ZtS3FWUHNzTlBkVjlFODhXZkVPQ1ZNUEhkSGJ3QXNuTXdfbVlicTdQZmhkQ1dtUkg?oc=5",
-            "published": "Wed, 19 Aug 2026 14:47:11 GMT",
-            "description": "NCLT sanctions TVS Holdings bonus preference share scheme &nbsp;&nbsp; scanx.trade",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [
-                "sanctions"
-              ],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "RBI Governor lists 5 ways AI can transform credit, services, inclusion & fraud detection in banking - The Economic Times",
             "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWXQ3aGtKLXEwbXQ4QW1aWVQ4REFnLV9hU0pJOVdzMVFNaHFQM2tFQmstZGRRN2pwMFdNSXM2RFZrTWctQnpSQ01wcjJMZXFTZDcxRUdKaWdzVzJfMlVyS21LYzlwS1BlQ1hwbjUtb05JZmhJMkNSRXBMOWh6X29sMzAxTFBmbEZhQks5X1poQVA4QjRMek1ZcUtyWGxpek4xTWQ3OVhBN0lfNmNzcEFlMENEenA3YjYwWHkwc09iV3YyRVo1SFljSjZtVEJqWTBKZDlKS1Z6bVpMU0NXZ0trWkktR1FOcnJyNVE0bWc2RdIB9AFBVV95cUxOUkFnekxTQ3Qway1Fal9UdmktM3BBS21mOXM4Tm9aZkdfRm8tMGp3TmxZV1hhMjVaTTBBdWpkdTlqazVTS0ppWXh1YmI3X2Jza25MVjB0TTdXOHBWdlA1WTZzLWV4THVGV25NWGRNV0VqSFVSb1VkbVR3T3NWMEFITXZrUEp1N2lGVGE1MU1DT1dSVjVBcmtTa1dhOVhEU1lKMldVal9uTEJJcDl5c1llMGVmQ2RIR2NKWnR3Y1V0aGRnVjcwS1pPcy1sajltc051TW9uZ012Nm9tc3FMQ1Z0N3dETWVUZk5ua3ZuOF85eThPdllH?oc=5",
             "published": "Tue, 11 Aug 2026 10:19:02 GMT",
@@ -1539,6 +1522,23 @@
               "macroKeywords": [
                 "rbi"
               ]
+            }
+          },
+          {
+            "title": "NCLT sanctions TVS Holdings bonus preference share scheme - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNEhaWlVkU2lEQkkwSWtRZTJHcWtQeDUxbXhMMDlEdTNQdWJfMzR4T1dQUjROSkxORXctaGtDWGw5ZnI4MjduLTEwWlFwWnN0UUJ1MG1qejFhMWJCeG5iZUROOXdMTDZKR2tGODBIM3pFS3V4bFZKS2k0bFo0TGJ2R3BlZ0ZtS3FWUHNzTlBkVjlFODhXZkVPQ1ZNUEhkSGJ3QXNuTXdfbVlicTdQZmhkQ1dtUkg?oc=5",
+            "published": "Wed, 19 Aug 2026 14:47:11 GMT",
+            "description": "NCLT sanctions TVS Holdings bonus preference share scheme &nbsp;&nbsp; scanx.trade",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [
+                "sanctions"
+              ],
+              "macroKeywords": []
             }
           },
           {
@@ -1747,10 +1747,10 @@
             }
           },
           {
-            "title": "Stocks to Watch today: HDFC Bank, Biocon, SJVN, Container Corp, Yes Bank - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd3JSUDlrQ1dVWUMxa2ZGYl9JaTlrR2prQlZBY1lNWUY0U3Y2YnZJNGt4RlhJLThvNC1IbmpRVm5Xd0p5dkY2d3FROHNsS3FneU5RTjVzRnJ5eVZnaS1NQ19BUkFMSm1Ld3dIaUVYY1RUZDItYWZrd3NkU1pLaWZCT1pXaEthc1o1N3d4dGZtUlZwVmd2b2tQekRka2N2U0xrSXVZaTRpd3FqTVNPdjQwaG9qLWZpRFhLd0dNUUU2Nm04VTZaNnA0T1FpVmN5VFnSAdQBQVVfeXFMUHg3c0lNYlFFdVg1ZjNwQ1J0Qlh0c1RUR0tUZ3piUDRGOURKVFdTb2M4MUFFSUlvZm91QV9pZjF6R19WMjQxcy02WE5PWTNqMXducnZCT05aaDVlRGhLU0Z3dEVkR0w3dExqY0otOGR1aHo5M1ozRkxwWk5zWFRENEQ0ZEl6NHlJX3lPR3dQaHVEY0dwemRSUVRBVEcxb2t3Q2hzR0RrbjZ4X3d5T2hLaEM3bE14QnlXejhlOXBWdHFOQWhGZEVzSTNPdWUtZUtmUUVhaFg?oc=5",
-            "published": "Tue, 30 Jun 2026 07:00:00 GMT",
-            "description": "Stocks to Watch today: HDFC Bank, Biocon, SJVN, Container Corp, Yes Bank &nbsp;&nbsp; Business Standard",
+            "title": "Earnings Miss: SJVN Limited Missed EPS By 22% And Analysts Are Revising Their Forecasts - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObnZyd0FRWm9sMjg0RXRyUVZvdXpLM0FnTzZqcEhWTUJOR2c4RHBLSUNma2psZXgzb0VHU2lPODJUUFg4RHQyUUZENW9HNjF5Q3RzdXRsYkc3SmFEdDhfRUx5bVhPbVNmb2RhZDJaTW1JM2ZtTzVJNXpBQkhxdnpIMTVSN2I1bXRGdVpxVm5raG5FMm9qVjAwTHoyVkt4MWllMV9CRkZBQlp2cWhCMmU2Yjk2S2FzQVp3amUtMXF3cWU5cW9oZHFV0gHMAUFVX3lxTE5ZRTJLdUZCaGtWYjZpSHZKM1VFai11S0dELV9tQWlURUVUUWZ4ZDQ2TzRWRWJia1FsZ2RCelNjQ0JDeml4WHl5bHFuVW05VHRkQmJJRzZuRlRFblQ5Z3FQaXZpWVFYSktjLUlobjgwbnYxV3NPMHkzanpTRHBNZUpqbFd2LVFaS1dmUm5UcUFsTDJoZmNId1d6aVFGY19qQjJaTEdCNFluME9iYVJrMkxDenhJTnlzNWN6akd3eXlJcWhnUVF5VVVUclZKMA?oc=5",
+            "published": "Tue, 19 May 2026 07:00:00 GMT",
+            "description": "Earnings Miss: SJVN Limited Missed EPS By 22% And Analysts Are Revising Their Forecasts &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1762,10 +1762,10 @@
             }
           },
           {
-            "title": "State or government in SJVN Limited (NSE:SJVN) are its biggest bettors, and their bets paid off as stock gained 12% last week - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOEVtLUc4eGd5LW5OMElZNzhXMTJqVXdoNElKMnY1bk9MZnN4aHVDUDlxdUFWbzVOWkREQWJVbkxrcU13dlZxa2JMckFKM0hiZ3FGUGN2SmVoNlhVQVJ0S2pxV3BuSXZETkRsMjdBdlh2UVdTaGhrV2lhVjE3T0ZIZnBzenFFT1lqREtGemxIRDA3T0VST0NEbnlWYTBqQUU0NjkwMzlHdnpaSTNIV1RqN3FxOXdNMmJZc3VLQ0VFZEFFTERQeGfSAcsBQVVfeXFMT3RRV191VVM0LU5OYlpMTEw0dEF6YnhxZklkbWlqTWRVaF9XRjlhZlo3UW5md1FmTXZ4WDBkMF9ZY2R0OUVqMDVTRnh5OFRqUG1xYVRlYlNVTHVhVndXTGdBalhjQlRsRGdhbDlPOE9fT21uX3lRUmJmdEkxc3hpYnBWOGNiRmxOdzZGeks4Qmo2NlNma25NQVdrbGJGQjFBX3Rtb0pXREFlWVI5Z01ETHMyY1FYZ2dGSllYZl8xbk5hR1ByXzhkNG81alk?oc=5",
-            "published": "Sun, 04 Jan 2026 08:00:00 GMT",
-            "description": "State or government in SJVN Limited (NSE:SJVN) are its biggest bettors, and their bets paid off as stock gained 12% last week &nbsp;&nbsp; simplywall.st",
+            "title": "Stocks to Watch today: HDFC Bank, Biocon, SJVN, Container Corp, Yes Bank - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd3JSUDlrQ1dVWUMxa2ZGYl9JaTlrR2prQlZBY1lNWUY0U3Y2YnZJNGt4RlhJLThvNC1IbmpRVm5Xd0p5dkY2d3FROHNsS3FneU5RTjVzRnJ5eVZnaS1NQ19BUkFMSm1Ld3dIaUVYY1RUZDItYWZrd3NkU1pLaWZCT1pXaEthc1o1N3d4dGZtUlZwVmd2b2tQekRka2N2U0xrSXVZaTRpd3FqTVNPdjQwaG9qLWZpRFhLd0dNUUU2Nm04VTZaNnA0T1FpVmN5VFnSAdQBQVVfeXFMUHg3c0lNYlFFdVg1ZjNwQ1J0Qlh0c1RUR0tUZ3piUDRGOURKVFdTb2M4MUFFSUlvZm91QV9pZjF6R19WMjQxcy02WE5PWTNqMXducnZCT05aaDVlRGhLU0Z3dEVkR0w3dExqY0otOGR1aHo5M1ozRkxwWk5zWFRENEQ0ZEl6NHlJX3lPR3dQaHVEY0dwemRSUVRBVEcxb2t3Q2hzR0RrbjZ4X3d5T2hLaEM3bE14QnlXejhlOXBWdHFOQWhGZEVzSTNPdWUtZUtmUUVhaFg?oc=5",
+            "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+            "description": "Stocks to Watch today: HDFC Bank, Biocon, SJVN, Container Corp, Yes Bank &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1941,6 +1941,21 @@
             }
           },
           {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -1953,21 +1968,6 @@
               "negativeKeywords": [
                 "fine"
               ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -2536,10 +2536,10 @@
             }
           },
           {
-            "title": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) - SolarQuarter",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNjVaTFBhT0JHd3hJOThnaEtQaEVqY3hiUmNrTE50dGVpNDZFOVVSclJCeHlvWW1VRzdpdEdjTG5pVFdaVXQzMFFuM0NsWGNDQXlfNDNycEJCdV9MV1JXdElHdHdkc19pOURIYTRndnI2d3JSbnpuT0V3TmVPU3RZVk9PQVlzc3RHZHVrYVo5QnNKa2FReWNrLVFnSWp4Q3ROTnZIaGRSZzRyNEhaVGtXMmF0VTN6NGNVMUFFLXlB?oc=5",
-            "published": "Thu, 20 Aug 2026 12:05:38 GMT",
-            "description": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) &nbsp;&nbsp; SolarQuarter",
+            "title": "Top 10 Nuclear Energy Stocks in India 2026 - Sahi",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CWHdqMGQyYjVrbVFxQU5uTWVfX293U1I3TEdTSVZXcnM2SjZTRW1rS3NfbXpjMS1sbnc2aWFiYUVXNUZjWmo0azc4QWNxbHVBTktYM2VPUTZzd01QS2k2QXotaGFNVDZLYWRPUUFB?oc=5",
+            "published": "Mon, 17 Aug 2026 09:11:22 GMT",
+            "description": "Top 10 Nuclear Energy Stocks in India 2026 &nbsp;&nbsp; Sahi",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2551,10 +2551,10 @@
             }
           },
           {
-            "title": "Top 10 Nuclear Energy Stocks in India 2026 - Sahi",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CWHdqMGQyYjVrbVFxQU5uTWVfX293U1I3TEdTSVZXcnM2SjZTRW1rS3NfbXpjMS1sbnc2aWFiYUVXNUZjWmo0azc4QWNxbHVBTktYM2VPUTZzd01QS2k2QXotaGFNVDZLYWRPUUFB?oc=5",
-            "published": "Mon, 17 Aug 2026 09:11:22 GMT",
-            "description": "Top 10 Nuclear Energy Stocks in India 2026 &nbsp;&nbsp; Sahi",
+            "title": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) - SolarQuarter",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNjVaTFBhT0JHd3hJOThnaEtQaEVqY3hiUmNrTE50dGVpNDZFOVVSclJCeHlvWW1VRzdpdEdjTG5pVFdaVXQzMFFuM0NsWGNDQXlfNDNycEJCdV9MV1JXdElHdHdkc19pOURIYTRndnI2d3JSbnpuT0V3TmVPU3RZVk9PQVlzc3RHZHVrYVo5QnNKa2FReWNrLVFnSWp4Q3ROTnZIaGRSZzRyNEhaVGtXMmF0VTN6NGNVMUFFLXlB?oc=5",
+            "published": "Thu, 20 Aug 2026 12:05:38 GMT",
+            "description": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) &nbsp;&nbsp; SolarQuarter",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3104,10 +3104,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
+            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
+            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3119,10 +3119,10 @@
             }
           },
           {
-            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
-            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
-            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5936,10 +5936,10 @@
             }
           },
           {
-            "title": "10 Biggest Hotel Companies and REITs - Investopedia",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzduVkw1Nkc3VzVIU1FzejNJQ09UZmRpcmNwVGFOQUNRZEVjUUUyNzd6a29rbXV4R0hVUGpjbFM1aThHVmFUOUNoWTAxeWNxN0JXOFVrNTNoMHFqNFZ5MGVKYVlOU3BNQmdRMDBKYzhGMUZTR2ZKcmRTU1VnNE92TzRvb2Z2LUVVVE1WMWRZN1pzU2RjdC1DZXZVaE4?oc=5",
-            "published": "Tue, 13 Jan 2026 08:00:00 GMT",
-            "description": "10 Biggest Hotel Companies and REITs &nbsp;&nbsp; Investopedia",
+            "title": "Franchise 100 Signs Three Strategic Hospitality Projects Across India - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbDJQemFrc25GTmdXRVItbDM4NXpqbHQzV1ZmVGVCV2pVOHdZNVRaRWlpeWtxUzdvWnpQWnF5RzV4bjVaUkFSbE5sNWlQZG10Q0h3d2Y1eUFvaVdicUYwWHFaLThWa1ZKMWcyYjFYdTBjczQzazNGYlFxd0o1eHdvQUVJVHhMM1dsOWctbDJad1paQVJTaXpVQUlrQzNzR1hXblR5ajZGQXpQaTRRSG5rVVdJOEVmbm9wTnJhQUZVODhPNzRpZjllR0k0VVJNam5WWXJ2bVlHOGcxU2x4NDhMSmRnVjHSAeoBQVVfeXFMT0wtRFEzMmlyMVJzcTFXVXBSWE1oMDFtdnFZMTlUZHNhVWNrSXk3VU5ucEpkbjNZV2pZVmlNdEgxWnF2THE4NHVGTjFSNXNnNHduV0Rac25SemJMQVNIOW9wOUtUYm1xa19haUtXY1FKdnhULWdkX3JCWHNELWtNU3RsSU9iQTlPRmZOODZ1akkxQkVWNUt2QVEyTkFEU2ZpU21rTzNieFNndUFmSUNETC1idTlFUmdRWlZuYjBYVXFmWEtNWDZpWmxab3VRYkk0a2cwYi1MMFJEaTVPbXgxQXRJTlkzdTBvQ2pn?oc=5",
+            "published": "Sat, 09 May 2026 07:00:00 GMT",
+            "description": "Franchise 100 Signs Three Strategic Hospitality Projects Across India &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6307,6 +6307,21 @@
             }
           },
           {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -6319,21 +6334,6 @@
               "negativeKeywords": [
                 "fine"
               ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -7487,10 +7487,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
+            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
+            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7502,10 +7502,10 @@
             }
           },
           {
-            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
-            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
-            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7858,6 +7858,21 @@
             }
           },
           {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -7870,21 +7885,6 @@
               "negativeKeywords": [
                 "fine"
               ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -8089,10 +8089,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
+            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
+            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8104,10 +8104,10 @@
             }
           },
           {
-            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
-            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
-            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -9486,6 +9486,21 @@
             }
           },
           {
+            "title": "Earnings To Watch: Bharti Airtel Ltd (NSE:BHARTIARTL) Q1 2027 -- GF Value Sees 24% Upside - GuruFocus",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY1k4dkFNUzRVaGdpTlBMeGRjV2hDZHF1QXFkOGhTOXpMdXhCUVlEUmNfSGJuZzBDM0stX3FZMEo0ZVhQN1lkX0ZUazVHZGo2WmhheFh6MS0wNUtTZ3d2LThIOU91OW16Tm53c3oxUkI3QXZLdUR2S1pyQWhIcWxIMDQwN2NmTWdleF8ySi1KWF9RYVZGWjU5SENlS3FWN2F1RHFPUVhaUVQwWkNPVklBdkhIbk5hc2NGN0dDdg?oc=5",
+            "published": "Tue, 04 Aug 2026 13:36:06 GMT",
+            "description": "Earnings To Watch: Bharti Airtel Ltd (NSE:BHARTIARTL) Q1 2027 -- GF Value Sees 24% Upside &nbsp;&nbsp; GuruFocus",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Bharti Airtel Limited Revenue Breakdown – NSE:BHARTIARTL - TradingView",
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52aHNPLXRjRExxNkRkd0x0ajlUa3RYa3ByU0xJMWxhRkRvMkVEWkU3X1RzRXhZbzdWZWxIOVRmRUY4VlRSSUlLRUlvWVUxRm4wQWk5c05MVVBUbFdNRkFLc3NDcXc0TExVNndpYTdjd1VEeUpxdXBtUUx3WQ?oc=5",
             "published": "Sat, 25 Jul 2026 00:21:22 GMT",
@@ -9550,21 +9565,6 @@
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQVdtV0xQcFFoMzNhdkhGRS1HYkg2UjR3TXltUml1dkM1UklmT3liX25lMkJJR0tJd1RBZDk3VTNnYzNpMl84amRnQ2JCMURwUGQwVUFHY0kxUnp6bXJyY0EyQUdvTEdZSTA3bzh0SWtqbFV0by1teUZZWXFCM2NZUlF1Njd3VWlnZWJIN1h4VThxT0dfSDBKMGJzVHFJMnphcHZpVTdrN2Q4bTRFQjgyM3VIcjdUVHZUcmhYVWxrTERMVklyVWcxS0JJaDhXU0s2djJxMUR2ZnI?oc=5",
             "published": "Sun, 15 Feb 2026 08:00:00 GMT",
             "description": "We Think Bharti Airtel's (NSE:BHARTIARTL) Solid Earnings Are Understated &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "BHARTIARTL Q2 2026 Earnings: Revenue Surges 22% YoY, EPS at ₹44.37 Marks Strong Operational Momentum - Vinanet",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1g2RjhxcnRxQTlhaUxmdnZTcFBlbTZiVzJqZkI0Vk9kcmFFVU1JZUhZUzlHUG4zclFyNUw3Q294cjV2R0FuNV9qZWxIRnNFV1NhaTNzcE1BRWtMWHVvaW9hVkNldnN4TndXZGtUbFVtSFlOTmprZWhSdHROYzNTeFBmdFBfV3plZnE5S05IUUlMM1duU2JyZXVxbjRzSlU5UGJIdUZpekF5R3poSXh6NFBrN3BIeHdCU2FiSm9OZjBNY0Y2V1NYLVAxUHVnaUtKTHU4?oc=5",
-            "published": "Sun, 21 Jun 2026 07:00:00 GMT",
-            "description": "BHARTIARTL Q2 2026 Earnings: Revenue Surges 22% YoY, EPS at ₹44.37 Marks Strong Operational Momentum &nbsp;&nbsp; Vinanet",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -9646,10 +9646,10 @@
             }
           },
           {
-            "title": "Telecom Managed Services Market Size, Share | Forecast [2034] - Fortune Business Insights",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRFZKNEt0YkhUNXlWVWhTNW85V3R6YndBTFdhWk4tRXpjQ0gwUkZyc3VDU0ZGN2N2bHgweHFMV3NhZ092eUxxR09xQWNtY19OSGM5OTAzd2JIeXl1aHh2MmVWcWNkbE5kakwtbHQzQVRZUndwM01UcFNlaGlFOEE0UnhCTFA?oc=5",
-            "published": "Thu, 18 Dec 2025 01:19:21 GMT",
-            "description": "Telecom Managed Services Market Size, Share | Forecast [2034] &nbsp;&nbsp; Fortune Business Insights",
+            "title": "Best Multibagger Telecom Service Penny Stocks in India 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kbXlXaHlZNWRKSERqalE1clFhUExPRHJERzNudWVFX21rV3pYenBQWVN3VDBvQ1QtZ2k0WUhydm42SUFkVGF3blRTeGtRWldHYWhBR004amhZNzY4RDRid0hrVzA5blQ4Z1VoMGpaRklfaTA?oc=5",
+            "published": "Mon, 22 Jun 2026 07:00:00 GMT",
+            "description": "Best Multibagger Telecom Service Penny Stocks in India 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
