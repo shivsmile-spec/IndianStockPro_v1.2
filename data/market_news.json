@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-08-20T09:30:00+00:00",
+  "source": "Initial current market-news snapshot; scheduled workflow will refresh automatically every 30 minutes on weekdays.",
+  "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
+  "items": [
+    {
+      "title": "Indian shares snap losing run led by IT, financials as bond markets steady",
+      "link": "https://www.reuters.com/world/india/indian-shares-set-open-higher-global-bond-markets-steady-2026-08-20/",
+      "published": "2026-08-20T02:32:01+00:00",
+      "source": "Reuters",
+      "description": "Indian shares ended a losing streak on Thursday. Nifty 50 rose 0.64% to 24,231.85 and Sensex gained 0.82% to 77,537.72, helped by IT and financial stocks and steadier global bond markets."
+    },
+    {
+      "title": "India regulator bets on trading reforms to reverse foreign capital flight",
+      "link": "https://www.reuters.com/legal/government/india-regulator-bets-trading-reforms-reverse-foreign-capital-flight-2026-08-20/",
+      "published": "2026-08-20T02:55:52+00:00",
+      "source": "Reuters",
+      "description": "SEBI is preparing reforms intended to improve market access and address concerns from institutional investors as foreign ownership of Indian stocks reaches a 17-year low."
+    },
+    {
+      "title": "Global shocks, IPO wave could temper India's earnings-led market revival",
+      "link": "https://www.reuters.com/world/india/global-shocks-ipo-wave-could-temper-indias-earnings-led-market-revival-2026-08-19/",
+      "published": "2026-08-19T00:00:00+00:00",
+      "source": "Reuters",
+      "description": "Abakkus Investment Managers sees strong domestic earnings but warns that crude prices, global yields, AI-related volatility and heavy IPO activity could limit a broader market rally."
+    },
+    {
+      "title": "Rupee spins wheels in thin band, shorts await fresh entry points",
+      "link": "https://www.reuters.com/world/india/rupee-rise-dollar-slump-after-treasury-boosts-bond-buyback-oil-risk-persists-2026-08-20/",
+      "published": "2026-08-20T00:00:00+00:00",
+      "source": "Reuters",
+      "description": "The rupee remained in a narrow range while Brent crude rose above $93, keeping inflation and energy-import risks important for Indian markets."
+    },
+    {
+      "title": "Why did market rise today? Sensex rallies 628 points, Nifty closes above 23,230",
+      "link": "https://m.economictimes.com/markets/stocks/news/why-is-market-rising-today-sensex-rallies-500-points-nifty-tops-24200-5-key-factors-behind-market-rebound/articleshow/133363496.cms",
+      "published": "2026-08-20T00:00:00+00:00",
+      "source": "Economic Times",
+      "description": "The market rebound was attributed to lower US bond yields, rupee appreciation, short covering, renewed FII buying and positive global cues."
+    }
+  ]
+}
