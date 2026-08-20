@@ -1,6 +1,6 @@
 /* Indian Stock Pro — TRIAL compare UX
  * Trial branch only.
- * Search Compare opens a stock selector; individual report Compare can also add stocks.
+ * Compare selectors now use the same NSE-wide directory as Search & Analyze.
  */
 (function(){
   "use strict";
@@ -13,12 +13,54 @@
   function saveSymbols(a){sessionStorage.setItem("isp_compare",JSON.stringify(a.filter(Boolean).slice(0,4)))}
   function removeOldBottomBar(){var old=document.getElementById("isp-compare");if(old)old.remove()}
 
+  var nseUniverse=[];
+  var nseReady=false;
+
+  function norm(v){return String(v||"").trim().toUpperCase()}
+
+  async function loadNseUniverse(){
+    try{
+      var r=await fetch("./data/nse_universe.json?v="+Date.now(),{cache:"no-store"});
+      if(!r.ok)throw Error("HTTP "+r.status);
+      var body=await r.json();
+      nseUniverse=Array.isArray(body)?body:(Array.isArray(body.stocks)?body.stocks:[]);
+      nseReady=true;
+      window.__ispTrialNseUniverse=nseUniverse;
+    }catch(e){
+      console.warn("Trial compare: NSE-wide directory unavailable:",e);
+      nseUniverse=[];
+      nseReady=false;
+    }
+  }
+
   function allStocks(){
     var out=[],seen={};
+    /* First use the exact NSE-wide directory used by nse-search.js. */
+    nseUniverse.forEach(function(s){
+      var sym=norm(s.symbol);
+      if(sym&&!seen[sym]){
+        seen[sym]=1;
+        out.push({symbol:sym,name:s.companyName||s.company||s.name||sym,series:s.series||"EQ",isin:s.isin||"",source:s});
+      }
+    });
+    /* Keep the existing trial data as a fallback/addition. */
     var integrated=Array.isArray(window.integrated)?window.integrated:[];
-    integrated.forEach(function(s){var sym=String(s.symbol||"").toUpperCase();if(sym&&!seen[sym]){seen[sym]=1;out.push({symbol:sym,name:s.company||s.companyName||s.name||sym,source:s})}});
+    integrated.forEach(function(s){
+      var sym=norm(s.symbol);
+      if(sym&&!seen[sym]){
+        seen[sym]=1;
+        out.push({symbol:sym,name:s.company||s.companyName||s.name||sym,source:s});
+      }
+    });
     var fundamentals=window.__ispTrialFundamentals||{};
-    Object.keys(fundamentals).forEach(function(sym){var u=String(sym).toUpperCase();if(!seen[u]){seen[u]=1;var f=fundamentals[sym]||{};out.push({symbol:u,name:f.companyName||u,source:null})}});
+    Object.keys(fundamentals).forEach(function(sym){
+      var u=norm(sym);
+      if(!seen[u]){
+        seen[u]=1;
+        var f=fundamentals[sym]||{};
+        out.push({symbol:u,name:f.companyName||u,source:null});
+      }
+    });
     return out.sort(function(a,b){return a.symbol.localeCompare(b.symbol)})
   }
 
@@ -55,17 +97,18 @@
     var integrated=Array.isArray(window.integrated)?window.integrated:[];
     var fundamentals=window.__ispTrialFundamentals||{};
     var rows=syms.map(function(sym){
-      var s=integrated.find(function(x){return String(x.symbol||"").toUpperCase()===String(sym).toUpperCase()})||{};
-      var f=fundamentals[String(sym).toUpperCase()]||{};
+      var s=integrated.find(function(x){return norm(x.symbol)===norm(sym)})||{};
+      var f=fundamentals[norm(sym)]||{};
       return {sym:sym,s:s,f:f}
     });
-    if(!syms.length){return '<div class="isp-tc-empty">No stocks selected yet. Search and select 2–4 stocks above, then press <b>Compare selected</b>.</div>'}
+    if(!syms.length)return '<div class="isp-tc-empty">No stocks selected yet. Search and select 2–4 stocks above, then press <b>Compare selected</b>.</div>';
     return '<div class="isp-tc-grid">'+rows.map(function(x){
       var price=x.s.liveQuote&&x.s.liveQuote.price;
       var fs=x.f.score==null?"—":score(x.f.score);
       var health=x.f.health||"—";
       var quant=x.s.quantitativeScore==null?x.s.quantitative:x.s.quantitativeScore;
-      return '<article class="isp-tc-card"><div class="isp-tc-symbol">'+esc(x.sym)+'</div><div class="isp-tc-name">'+esc(x.s.company||x.s.companyName||x.s.name||x.f.companyName||"NSE stock")+'</div><div class="isp-tc-row"><span class="isp-tc-label">Price</span><span class="isp-tc-value">'+money(price)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Integrated</span><span class="isp-tc-value">'+score(x.s.integratedScore)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Quantitative</span><span class="isp-tc-value">'+score(quant)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Confidence</span><span class="isp-tc-value">'+score(x.s.confidence)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Fundamental</span><span class="isp-tc-value">'+esc(fs)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Health</span><span class="isp-tc-value">'+esc(health)+'</span></div><button type="button" class="isp-tc-remove" data-tc-remove="'+esc(x.sym)+'">Remove</button></article>'
+      var fallbackName=(nseUniverse.find(function(n){return norm(n.symbol)===norm(x.sym)})||{}).companyName;
+      return '<article class="isp-tc-card"><div class="isp-tc-symbol">'+esc(x.sym)+'</div><div class="isp-tc-name">'+esc(x.s.company||x.s.companyName||x.s.name||fallbackName||x.f.companyName||"NSE stock")+'</div><div class="isp-tc-row"><span class="isp-tc-label">Price</span><span class="isp-tc-value">'+money(price)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Integrated</span><span class="isp-tc-value">'+score(x.s.integratedScore)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Quantitative</span><span class="isp-tc-value">'+score(quant)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Confidence</span><span class="isp-tc-value">'+score(x.s.confidence)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Fundamental</span><span class="isp-tc-value">'+esc(fs)+'</span></div><div class="isp-tc-row"><span class="isp-tc-label">Health</span><span class="isp-tc-value">'+esc(health)+'</span></div><button type="button" class="isp-tc-remove" data-tc-remove="'+esc(x.sym)+'">Remove</button></article>'
     }).join("")+'</div>';
   }
 
@@ -81,7 +124,7 @@
       '<div class="isp-tc-selectors">'+[0,1,2,3].map(function(i){return selectorBox(i,stocks,selected)}).join('')+'</div>'+
       '<div class="isp-tc-actions" style="margin-top:12px"><button type="button" class="isp-tc-btn primary" id="ispTcCompare">Compare selected</button></div>'+
       '<div id="isp-tc-results">'+renderCards(p,selected)+'</div>'+
-      '<div class="isp-tc-hint">Type a symbol or company name. Matching choices appear below the box, just like the main Search & Analyze field.</div>';
+      '<div class="isp-tc-hint">Type a symbol or company name. Matching NSE directory choices appear below the box, just like Search & Analyze.</div>';
 
     function choose(i,stock){
       var vals=getSymbols();vals[i]=stock.symbol;
@@ -90,21 +133,18 @@
       var next=p.querySelector('[data-tc-input="'+Math.min(i+1,3)+'"]');if(next&&i<3)next.focus();
     }
 
-    function closeLists(except){
-      p.querySelectorAll('.isp-tc-results-list').forEach(function(list){if(list!==except)list.classList.remove('open')});
-    }
+    function closeLists(except){p.querySelectorAll('.isp-tc-results-list').forEach(function(list){if(list!==except)list.classList.remove('open')})}
 
     function updateList(i,query){
       var list=p.querySelector('[data-tc-list="'+i+'"]');if(!list)return;
-      var q=String(query||"").trim().toLowerCase();
-      var selectedNow=getSymbols();
+      var q=norm(query),selectedNow=getSymbols();
       var matches=stocks.filter(function(x){
-        if(selectedNow.indexOf(x.symbol)>=0 && selectedNow[i]!==x.symbol)return false;
+        if(selectedNow.indexOf(x.symbol)>=0&&selectedNow[i]!==x.symbol)return false;
         if(!q)return true;
-        return x.symbol.toLowerCase().indexOf(q)>=0 || String(x.name||"").toLowerCase().indexOf(q)>=0;
-      }).slice(0,12);
-      if(!matches.length){list.innerHTML='<div class="isp-tc-no-results">No matching stock found.</div>'}
-      else{list.innerHTML=matches.map(function(x){return '<div class="isp-tc-option" data-tc-option="'+esc(x.symbol)+'"><b>'+esc(x.symbol)+'</b><span>'+esc(x.name)+'</span></div>'}).join('')}
+        return norm(x.symbol).indexOf(q)>=0||norm(x.name).indexOf(q)>=0;
+      }).slice(0,20);
+      if(!matches.length)list.innerHTML='<div class="isp-tc-no-results">No NSE stock found. Try another company name or symbol.</div>';
+      else list.innerHTML=matches.map(function(x){return '<div class="isp-tc-option" data-tc-option="'+esc(x.symbol)+'"><b>'+esc(x.symbol)+'</b><span>'+esc(x.name)+' · '+esc(x.series||"EQ")+'</span></div>'}).join('');
       list.classList.add('open');
       list.querySelectorAll('[data-tc-option]').forEach(function(opt){opt.onclick=function(){var stock=stocks.find(function(x){return x.symbol===opt.getAttribute('data-tc-option')});if(stock)choose(i,stock)}});
     }
@@ -121,7 +161,7 @@
         }
       });
     });
-    document.addEventListener('click',function(e){if(!p.contains(e.target))return; if(!e.target.closest('.isp-tc-search'))closeLists()},{once:true});
+    p.addEventListener('click',function(e){if(!e.target.closest('.isp-tc-search'))closeLists()});
 
     p.querySelector('#ispTcCompare').onclick=function(){
       var vals=getSymbols();
@@ -153,7 +193,7 @@
     if(window.__ispTrialCompareStarted)return;
     window.__ispTrialCompareStarted=true;
     styles();
-    loadFundamentals().then(function(){install()});
+    Promise.all([loadNseUniverse(),loadFundamentals()]).then(function(){install()});
     var observer=new MutationObserver(function(){install()});
     observer.observe(document.body,{childList:true,subtree:true});
     setTimeout(function(){observer.disconnect()},120000);
