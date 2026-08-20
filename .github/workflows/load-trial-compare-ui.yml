@@ -1,0 +1,48 @@
+name: Load trial compare UI
+
+on:
+  push:
+    branches:
+      - trial-tab-ui
+    paths-ignore:
+      - index.html
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  load-compare-ui:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trial branch
+        uses: actions/checkout@v4
+        with:
+          ref: trial-tab-ui
+
+      - name: Add trial compare script to index
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path("index.html")
+          text = p.read_text(encoding="utf-8")
+          tag = '<script src="./compare-ui.js?v=20260820"></script>'
+          if tag not in text:
+              anchor = '<script src="./dashboard-tabs.js?v=20260819" defer></script>'
+              if anchor not in text:
+                  raise SystemExit("dashboard-tabs script anchor not found")
+              text = text.replace(anchor, anchor + "\n" + tag)
+              p.write_text(text, encoding="utf-8")
+
+      - name: Commit trial-only change
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "compare-ui script already loaded"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Load dedicated compare UI on trial branch"
+          git push origin trial-tab-ui
