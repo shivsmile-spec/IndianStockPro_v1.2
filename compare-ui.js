@@ -31,7 +31,10 @@
       .isp-tc-title{font-size:18px;font-weight:900;color:#172033}.isp-tc-sub{font-size:11px;color:#667085;margin-top:4px}
       .isp-tc-actions{display:flex;gap:7px;flex-wrap:wrap}.isp-tc-btn{border:1px solid #ccd3df;background:#fff;color:#172033;border-radius:9px;padding:7px 10px;font-size:12px;font-weight:800;cursor:pointer}.isp-tc-btn.primary{background:#10182b;color:#fff;border-color:#10182b}
       .isp-tc-selectors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
-      .isp-tc-selector{border:1px solid #e1e6ef;border-radius:11px;padding:11px;background:#f8fafc}.isp-tc-selector label{display:block;font-size:11px;font-weight:800;color:#667085;margin-bottom:6px}.isp-tc-selector select{width:100%;padding:9px;border:1px solid #ccd3df;border-radius:8px;background:#fff;color:#172033;font-weight:700;outline:none}
+      .isp-tc-selector{border:1px solid #e1e6ef;border-radius:11px;padding:11px;background:#f8fafc}.isp-tc-selector label{display:block;font-size:11px;font-weight:800;color:#667085;margin-bottom:6px}
+      .isp-tc-search{position:relative}.isp-tc-search input{width:100%;padding:9px 11px;border:1px solid #ccd3df;border-radius:8px;background:#fff;color:#172033;font-weight:600;outline:none;font-size:13px}.isp-tc-search input:focus{border-color:#526581;box-shadow:0 0 0 2px rgba(82,101,129,.08)}
+      .isp-tc-results-list{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:50;max-height:220px;overflow:auto;background:#fff;border:1px solid #ccd3df;border-radius:9px;box-shadow:0 8px 22px rgba(16,24,43,.14);display:none}
+      .isp-tc-results-list.open{display:block}.isp-tc-option{padding:9px 11px;cursor:pointer;border-bottom:1px solid #eef1f5;font-size:12px}.isp-tc-option:last-child{border-bottom:0}.isp-tc-option:hover,.isp-tc-option.active{background:#f5f7fa}.isp-tc-option b{font-weight:900}.isp-tc-option span{color:#667085;margin-left:5px}.isp-tc-no-results{padding:10px 11px;color:#667085;font-size:12px}
       .isp-tc-empty{margin-top:12px;background:#f7f9fc;border-radius:10px;padding:12px;color:#667085;font-size:12px}
       .isp-tc-hint{margin-top:10px;font-size:11px;color:#667085}.isp-tc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
       .isp-tc-card{border:1px solid #e1e6ef;border-radius:12px;padding:12px;background:#fff}.isp-tc-symbol{font-size:16px;font-weight:900}.isp-tc-name{font-size:11px;color:#667085;margin-top:3px;min-height:28px}.isp-tc-row{display:flex;justify-content:space-between;gap:8px;border-top:1px solid #eef1f5;padding-top:7px;margin-top:7px;font-size:11px}.isp-tc-label{color:#667085}.isp-tc-value{font-weight:900;text-align:right}
@@ -56,9 +59,7 @@
       var f=fundamentals[String(sym).toUpperCase()]||{};
       return {sym:sym,s:s,f:f}
     });
-    if(!syms.length){
-      return '<div class="isp-tc-empty">No stocks selected yet. Choose 2–4 stocks above and press <b>Compare selected</b>.</div>';
-    }
+    if(!syms.length){return '<div class="isp-tc-empty">No stocks selected yet. Search and select 2–4 stocks above, then press <b>Compare selected</b>.</div>'}
     return '<div class="isp-tc-grid">'+rows.map(function(x){
       var price=x.s.liveQuote&&x.s.liveQuote.price;
       var fs=x.f.score==null?"—":score(x.f.score);
@@ -68,19 +69,64 @@
     }).join("")+'</div>';
   }
 
+  function selectorBox(i,stocks,selected){
+    var chosen=selected[i]||"";
+    var current=stocks.find(function(x){return x.symbol===chosen});
+    return '<div class="isp-tc-selector"><label>Stock '+(i+1)+(i<2?' *':' optional')+'</label><div class="isp-tc-search"><input type="text" autocomplete="off" data-tc-input="'+i+'" placeholder="Search symbol or company name" value="'+esc(current?current.symbol:"")+'"><div class="isp-tc-results-list" data-tc-list="'+i+'"></div></div></div>';
+  }
+
   function renderSelector(p){
     var stocks=allStocks(),selected=getSymbols();
-    var options='<option value="">Select a stock…</option>'+stocks.map(function(x){return '<option value="'+esc(x.symbol)+'">'+esc(x.symbol)+' — '+esc(x.name)+'</option>'}).join("");
-    p.innerHTML='<div class="isp-tc-head"><div><div class="isp-tc-title">⚖ Compare Stocks</div><div class="isp-tc-sub">Select 2–4 NSE stocks for a side-by-side comparison.</div></div><div class="isp-tc-actions"><button type="button" class="isp-tc-btn" id="ispTcClear">Clear</button><button type="button" class="isp-tc-btn" id="ispTcClose">Close</button></div></div>'+
-      '<div class="isp-tc-selectors">'+[0,1,2,3].map(function(i){return '<div class="isp-tc-selector"><label>Stock '+(i+1)+(i<2?' *':' optional')+'</label><select data-tc-select="'+i+'">'+options+'</select></div>'}).join('')+'</div>'+
+    p.innerHTML='<div class="isp-tc-head"><div><div class="isp-tc-title">⚖ Compare Stocks</div><div class="isp-tc-sub">Search and select 2–4 NSE stocks for a side-by-side comparison.</div></div><div class="isp-tc-actions"><button type="button" class="isp-tc-btn" id="ispTcClear">Clear</button><button type="button" class="isp-tc-btn" id="ispTcClose">Close</button></div></div>'+
+      '<div class="isp-tc-selectors">'+[0,1,2,3].map(function(i){return selectorBox(i,stocks,selected)}).join('')+'</div>'+
       '<div class="isp-tc-actions" style="margin-top:12px"><button type="button" class="isp-tc-btn primary" id="ispTcCompare">Compare selected</button></div>'+
       '<div id="isp-tc-results">'+renderCards(p,selected)+'</div>'+
-      '<div class="isp-tc-hint">You can compare a maximum of 4 stocks. Selection is saved in this browser session.</div>';
-    p.querySelectorAll('[data-tc-select]').forEach(function(sel,i){sel.value=selected[i]||""});
+      '<div class="isp-tc-hint">Type a symbol or company name. Matching choices appear below the box, just like the main Search & Analyze field.</div>';
+
+    function choose(i,stock){
+      var vals=getSymbols();vals[i]=stock.symbol;
+      var clean=[];vals.forEach(function(v){if(v&&clean.indexOf(v)<0)clean.push(v)});
+      saveSymbols(clean);renderSelector(p);
+      var next=p.querySelector('[data-tc-input="'+Math.min(i+1,3)+'"]');if(next&&i<3)next.focus();
+    }
+
+    function closeLists(except){
+      p.querySelectorAll('.isp-tc-results-list').forEach(function(list){if(list!==except)list.classList.remove('open')});
+    }
+
+    function updateList(i,query){
+      var list=p.querySelector('[data-tc-list="'+i+'"]');if(!list)return;
+      var q=String(query||"").trim().toLowerCase();
+      var selectedNow=getSymbols();
+      var matches=stocks.filter(function(x){
+        if(selectedNow.indexOf(x.symbol)>=0 && selectedNow[i]!==x.symbol)return false;
+        if(!q)return true;
+        return x.symbol.toLowerCase().indexOf(q)>=0 || String(x.name||"").toLowerCase().indexOf(q)>=0;
+      }).slice(0,12);
+      if(!matches.length){list.innerHTML='<div class="isp-tc-no-results">No matching stock found.</div>'}
+      else{list.innerHTML=matches.map(function(x){return '<div class="isp-tc-option" data-tc-option="'+esc(x.symbol)+'"><b>'+esc(x.symbol)+'</b><span>'+esc(x.name)+'</span></div>'}).join('')}
+      list.classList.add('open');
+      list.querySelectorAll('[data-tc-option]').forEach(function(opt){opt.onclick=function(){var stock=stocks.find(function(x){return x.symbol===opt.getAttribute('data-tc-option')});if(stock)choose(i,stock)}});
+    }
+
+    p.querySelectorAll('[data-tc-input]').forEach(function(input){
+      var i=Number(input.getAttribute('data-tc-input'));
+      input.addEventListener('focus',function(){closeLists(p.querySelector('[data-tc-list="'+i+'"]'));updateList(i,input.value)});
+      input.addEventListener('input',function(){updateList(i,input.value)});
+      input.addEventListener('keydown',function(e){
+        if(e.key==='Escape'){closeLists();return}
+        if(e.key==='Enter'){
+          var first=p.querySelector('[data-tc-list="'+i+'"] [data-tc-option]');
+          if(first){e.preventDefault();first.click()}
+        }
+      });
+    });
+    document.addEventListener('click',function(e){if(!p.contains(e.target))return; if(!e.target.closest('.isp-tc-search'))closeLists()},{once:true});
+
     p.querySelector('#ispTcCompare').onclick=function(){
-      var vals=[];p.querySelectorAll('[data-tc-select]').forEach(function(sel){if(sel.value&&vals.indexOf(sel.value)<0)vals.push(sel.value)});
+      var vals=getSymbols();
       if(vals.length<2){p.querySelector('#isp-tc-results').innerHTML='<div class="isp-tc-empty">Please select at least <b>2 stocks</b> to compare.</div>';return}
-      saveSymbols(vals);renderSelector(p);p.querySelector('#isp-tc-results').scrollIntoView({behavior:'smooth',block:'nearest'});
+      renderSelector(p);p.querySelector('#isp-tc-results').scrollIntoView({behavior:'smooth',block:'nearest'});
     };
     p.querySelector('#ispTcClear').onclick=function(){saveSymbols([]);renderSelector(p)};
     p.querySelector('#ispTcClose').onclick=function(){p.remove()};
