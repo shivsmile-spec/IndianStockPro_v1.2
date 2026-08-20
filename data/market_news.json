@@ -1,43 +1,218 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-20T09:30:00+00:00",
-  "source": "Initial current market-news snapshot; scheduled workflow will refresh automatically every 30 minutes on weekdays.",
+  "generatedAt": "2026-08-20T14:03:30.549943+00:00",
+  "source": "Google News RSS public market-news aggregation",
   "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
   "items": [
     {
-      "title": "Indian shares snap losing run led by IT, financials as bond markets steady",
-      "link": "https://www.reuters.com/world/india/indian-shares-set-open-higher-global-bond-markets-steady-2026-08-20/",
-      "published": "2026-08-20T02:32:01+00:00",
-      "source": "Reuters",
-      "description": "Indian shares ended a losing streak on Thursday. Nifty 50 rose 0.64% to 24,231.85 and Sensex gained 0.82% to 77,537.72, helped by IT and financial stocks and steadier global bond markets."
+      "title": "NSE weighs trading its own shares - PRESS Insider",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FNFRpVTJOVHFFRjlzTkgtaERoVktudG1LakFTUlBPQlJFRHVHR0lKWE9KN09BMDlSd1djMmdaMmRWTHc0VlFNQnNsaElIYjE0ckt2ZzFfNGtCRWdBa2lod01wSWQzdzhoZThNeVktMU02Zw?oc=5",
+      "published": "2026-08-20T13:12:31+00:00",
+      "source": "PRESS Insider",
+      "description": "NSE weighs trading its own shares &nbsp;&nbsp; PRESS Insider"
     },
     {
-      "title": "India regulator bets on trading reforms to reverse foreign capital flight",
-      "link": "https://www.reuters.com/legal/government/india-regulator-bets-trading-reforms-reverse-foreign-capital-flight-2026-08-20/",
-      "published": "2026-08-20T02:55:52+00:00",
-      "source": "Reuters",
-      "description": "SEBI is preparing reforms intended to improve market access and address concerns from institutional investors as foreign ownership of Indian stocks reaches a 17-year low."
+      "title": "BSE Shares Fall 2.5%: Why NSE Cross-Trading Plan Hit BSE Stock - Sahi",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95LTNhUGJmdmtnZlgwUVRHdmktaWR2Ni1GSDd5cER3UWJMeDFBWnZmOVdwZEgtMEFHREpmNFl3VVVJTWJWTXl2eU9HOU9NUGUxbjh5M0VfLUd1UmtjZ3pSSWxaanpuclBuV0V6aWVkOU9YUjg?oc=5",
+      "published": "2026-08-20T10:41:02+00:00",
+      "source": "Sahi",
+      "description": "BSE Shares Fall 2.5%: Why NSE Cross-Trading Plan Hit BSE Stock &nbsp;&nbsp; Sahi"
     },
     {
-      "title": "Global shocks, IPO wave could temper India's earnings-led market revival",
-      "link": "https://www.reuters.com/world/india/global-shocks-ipo-wave-could-temper-indias-earnings-led-market-revival-2026-08-19/",
-      "published": "2026-08-19T00:00:00+00:00",
-      "source": "Reuters",
-      "description": "Abakkus Investment Managers sees strong domestic earnings but warns that crude prices, global yields, AI-related volatility and heavy IPO activity could limit a broader market rally."
+      "title": "Sensex Today Rallies 628 Points | Nifty Above 24,200 | 6 Reasons Why Indian Share Markets Are Rising - Equitymaster",
+      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPWnhaN09zRFJDVXdiSW5lS3ZGcm1uMG5jRlNjMVpvRWQzT1AyNExfRFplaGRXdmxwRUhYNi1LMmRqVTJaZmlxMXJvdkNNRHZDNDJfMGE1Vnh6emF4X1RZbGZnMm5QYWlmTmpFa0N0am5lZmNvOFJCZmRwWFNkMkVSOTd6S2R5Rk91NW9hcVpKQTNtUWdGbGlvMzJKcDUxeG1VWGFUZXVQRzBzM2xzcHlJVTd3MmRGbFcwcVcxNHFtYjZnZVY1bE9oVWVDSWw4cWd5d1VFRS1lR2ZIUmVJaFJRNzRvWmtGZDd2QlBhb29qbFUxRk92OFJ5UFd5NWd0azRVVG1VbUhDUEl4aDEzbW4wMll5WjRuWG9BUDNxbDlHRm5IMzRJNlJaWWUxV2d2VE1WQUt1dHlYbURpUVBES2FFUWNPeFFKR0ZZdnRvWWozS2ZtOXdQRDRDRzJnUVhZVkF6?oc=5",
+      "published": "2026-08-20T10:23:07+00:00",
+      "source": "Equitymaster",
+      "description": "Sensex Today Rallies 628 Points | Nifty Above 24,200 | 6 Reasons Why Indian Share Markets Are Rising &nbsp;&nbsp; Equitymaster"
     },
     {
-      "title": "Rupee spins wheels in thin band, shorts await fresh entry points",
-      "link": "https://www.reuters.com/world/india/rupee-rise-dollar-slump-after-treasury-boosts-bond-buyback-oil-risk-persists-2026-08-20/",
-      "published": "2026-08-20T00:00:00+00:00",
-      "source": "Reuters",
-      "description": "The rupee remained in a narrow range while Brent crude rose above $93, keeping inflation and energy-import risks important for Indian markets."
+      "title": "BSE Shares Fall As NSE May Allow Own Shares To Trade On Its Platform - outlookbusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORlJmb0RsRnlkdDM3N0UwTnZYNGtWb2QwM0paWHZNVTZ0N3BEZWFxeUNWanY4Uktvd0xsdXNZLWNUejM1eFBUUWdib0N5RUEzRDRpT3dwNzZuRm52cU8yNTZPUWJxRmdZR0xVTEZORkttS2R4T1lBTlNjdHo2eDdfanZUazJzMHRCSXV5NTg0LTVxc1lrWXZJc2N1Z1FhVENiTXNsSzNGOHJxVjF0cWVJcWpDMkp1ZTk2X3fSAboBQVVfeXFMTkZSZm9EbEZ5ZHQzNzdFME52WDRrVm9kMDNKWlh2TVU2dDdwRGVhcXlDVmp2OFJLb3dMbHVzWS1jVHozNXhQVFFnYm9DeUVBM0Q0aU93cDc2bkZudnFPMjU2T1FicUZnWUdMVUxGTkZLbUtkeE9ZQU5TY3R6Nng3X2p2VGsyczB0Qkl1eTU4NC01cXNZa1l2SXNjdWdRYVRDYk1zbEszRjhycVYxdHFlSXFqQzJKdWU5Nl93?oc=5",
+      "published": "2026-08-20T09:35:27+00:00",
+      "source": "outlookbusiness.com",
+      "description": "BSE Shares Fall As NSE May Allow Own Shares To Trade On Its Platform &nbsp;&nbsp; outlookbusiness.com"
     },
     {
-      "title": "Why did market rise today? Sensex rallies 628 points, Nifty closes above 23,230",
-      "link": "https://m.economictimes.com/markets/stocks/news/why-is-market-rising-today-sensex-rallies-500-points-nifty-tops-24200-5-key-factors-behind-market-rebound/articleshow/133363496.cms",
-      "published": "2026-08-20T00:00:00+00:00",
-      "source": "Economic Times",
-      "description": "The market rebound was attributed to lower US bond yields, rupee appreciation, short covering, renewed FII buying and positive global cues."
+      "title": "NSE said to plan allowing trading in its shares on its own platform - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWVljUDYxZjM3eGI1dDJwZUxBcnppT0hlRXhycW9EYlFRQ1VyVlhKTlI0MEw3QTRBNFpZeXdDamVvQ3pJeWlGTURYWmlxaWl2NEpLemdfeU1scTBucWowZjlfYk5ocWRBcXpRWHhRWkJzTzhMU2RTckpvSGVjUVJycWV6X0tnUGZBanZRbVRGT3JNNGJLcUZWcmVnZzhvX205TGRRSXVVLV9tZUcwdmFwYkJ6M2xGYWtub2lSOUFlOXduTGxTcFZUSXZQdmpkQkVRYTBvejliSXXSAd4BQVVfeXFMTXVXRktEb2ZuUFUyYXhPOXFMNGRiRnRrZnloX19MLTJ3b0Ria2VxMldhcEtnWmJqM1BiYkJHQkhKV1NMb0dfbEg0eWpHeVdVVVFNZ19aaU92UjhwQjlXbFVHMFVOb3N6M01KaGpqV1dqYVhtekctamE3T0FIOEdSekdtNWN3UmVwbVpVRmhKaWdNaVh0TWxNcDluUWZwVGNicnVzZjlkdmM5X203S1R4QXRJMHh5QUNCX3N5YjVaeE5XUV9NSmdJVTBsMFVESDl6ZW16b0tvYnh0bkJLSVZR?oc=5",
+      "published": "2026-08-20T07:49:36+00:00",
+      "source": "The Economic Times",
+      "description": "NSE said to plan allowing trading in its shares on its own platform &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Bharat Parenterals equity shares begin trading on NSE - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWHhobVIxQmpKdE5NQXdldmMtQXRfaHI1c0d2TVY0LXlvX2VmaGt1em5pb1QxMVBNbGdubXBQNzkzeVRvMzQxdTRTUTNYcHZVZ2RlLWZXYksxZFIxVXZhZ3VCRkp1RXE0MTdMc0pOV2IwQU82VE5kMDhlYk1CZi12N2VrVW1oWU5lckFZSzMxZl9rc0tIT2JVLXJaeXY4bWdOU3Rv?oc=5",
+      "published": "2026-08-20T07:23:37+00:00",
+      "source": "scanx.trade",
+      "description": "Bharat Parenterals equity shares begin trading on NSE &nbsp;&nbsp; scanx.trade"
+    },
+    {
+      "title": "Sensex jumps 524 pts; media shares in demand - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVkV2eEF1cEN3Y1g3cTlIdG51YUFZbi03VHowd3kzZDJ6UEphZG5idkZCbTFoSjhNQmlQSGM3QVk0S3pnZ2EtU1J3di1jY1FsNTk1SS1ET3N1NXZOWnJyeFdtSF9GemhTYk0wTWNRT1RDdG4xTWpYUlJTYUdiblU3RmtKTUwyMXlyTk5VLVdRWmpybmhYbGZpcHgyV3dYRjNqVlF6UzNqSnFLaHNYclljbHdTSFd6cWhLdU9IMEhxekZfekXSAcgBQVVfeXFMTmoyTlpOTko4WU1uZjgyc1hJZEtYQzJ0bkNvLXlfendXRHJnLWFNWkxqZVo1VkVKWnp3RS1yLWNMMVpXdG1fVVgtMFJGSUc1TTk0QmVYYlZtdDlEcXRvREthNDVSRDRjeFpkcU1faEc3SlRxMzlvTl91Qlo1cDI2RTFQSE91VmYyYXBaRWpEV0NkSGs1R2M3S0YxZlJuUURNSDRFV1hWYmNKQW9oUDdqRFY4T21YU0J5eEhvNWoxVmthQVhnRVNjWkY?oc=5",
+      "published": "2026-08-20T07:20:16+00:00",
+      "source": "Business Standard",
+      "description": "Sensex jumps 524 pts; media shares in demand &nbsp;&nbsp; Business Standard"
+    },
+    {
+      "title": "Why is stock market up today? Top 3 reasons behind the rise in Sensex, Nifty, and the biggest gaining stocks - livemint.com",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOYzduYzhkdW1uNXNkeHkyMUk2VngxYUs1eHYwZVZQbzZnZE9UU3pRTjZFYTF4ZmJVM3JIRGRGcWxrNEFRcUZQVjVLRUdnX1MzZ2Zsd3JkSTZMd3N2THdXVjJJcWpYN1BhQk16V3o1V1RQclV4SEstN1hKOGJOd2hzc0tkZWlOdC1ScEtkTWRMTXZQdm54TWp0OHZHRWhuUVl1dERLN1NzZnhfek1KQmZ4dEYyeG40UEFDREZGV1NYRmt5X3RTS2ZRRmdSUjd5aXlPUmVJcmFlZnMxTUNJbVBFMUxzZEVaM0ViU2pkb2Z0SGJ4UmlTaWRXOGh6V1lwWERRU3VZZ3VrWjE2QdIBjwJBVV95cUxPYVExQmdfU3lnNlg3eHU1SHJWS0NuamVSaExwcS1OVXNBMnhDelVJZG9CeVpBZGdzVk5ZaGtCWWxGcUFSVU5oRzBrVEtFd0ktSU1iczVRU0pUa0lYX0pTalFTMWZwazJTRkJZWmVUZXZTMURWSDRJalVmbnl0SERMbjVDTFJZc1ZsY09HNElpVUV2MmtrWTMwRERoWWx1b0NNa0tiUFktLWFhSU1tMDVUWDlJS20taXVQVUZyTTd3cklVUFp5eDNNOThYcHMzdHgwNVVpYTZHWUxIdVl4emJoaHZqVEpfRDN5SG9ub1pfZVFES2NuMGVrN2I2TVgwVjYxSmg2bF8xblA5TWxvUzlz?oc=5",
+      "published": "2026-08-20T06:42:52+00:00",
+      "source": "livemint.com",
+      "description": "Why is stock market up today? Top 3 reasons behind the rise in Sensex, Nifty, and the biggest gaining stocks &nbsp;&nbsp; livemint.com"
+    },
+    {
+      "title": "Univest Stock Research Review: Are the Insights Useful? - Univest",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYW5hYUVUV0ZRUVZfYnRYZ2hEUmc2WlRSY3laSUx4S2ExVHhIanVXc1BnbXpSd2NDNTUwSXd6SVdfMDVQb2FhWFdsUi1WWWNqeHF2cXdDdWx3TXNKOVRyWDM3ODRfTTAwTVFSOVE3dHd0bzZpY3ROaDJQLVJud3drV2tZZzZfRFN4Tzl3MUwtR1lPSFEwemc?oc=5",
+      "published": "2026-08-20T06:15:00+00:00",
+      "source": "Univest",
+      "description": "Univest Stock Research Review: Are the Insights Useful? &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Univest Market Insights Review: Tracking Trends and Market Developments - Univest",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX1p5aUJzeFpjZ2M1aTd6TXVUN0QwU0p5ZlowX0NJV3U2QXdBenpiSHkwYU02aVZxYlRsWmV1UXpRQWVrNnJkQnBhMXkzcHpOaU1yMmY0STZkUmJZR3BiMnJSWnBXOUg1YmJDd0RFODYxS1MzRjRXamZCb0s5SENlbWdZSnlmSlNnWnZoQ29nUHFSNklzUkxHbEZyaw?oc=5",
+      "published": "2026-08-20T06:14:00+00:00",
+      "source": "Univest",
+      "description": "Univest Market Insights Review: Tracking Trends and Market Developments &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Univest stock research review: How the App Simplifies Market Updates - Univest",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc3VxamxwTVVieGtBV3JabVFOb1JvdGgtNGtabWZodUtGY3dnR0ZLRXlXMjlVdWk2Ui1uWENEQjVhY1RFczNyeThlc1piVElWWGt5V0VWWUdMaTFRUVRwaWdKaUtmc2FYa2JBREo4cmNmdU8wMXBIZHlhV3JRTGJyRXpoSk96Q2t3LXdQR0p2Sno1Z09YaVN3?oc=5",
+      "published": "2026-08-20T06:14:00+00:00",
+      "source": "Univest",
+      "description": "Univest stock research review: How the App Simplifies Market Updates &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Gaja Capital IPO fully subscribed on Day 2; GMP signals 14% listing premium - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbU8xMTBHMjZscFhiN0s1T3dLSUVxTjNMX0g4RE1YWXBJbWhEb0lMZHBJeHJ3RjlzbkZNTmc3b0RaajZBY252dUxRVEE5ak5ZZWgzNFRvRmpxa2VrdTJ1cW9vajR6VUw2QVp5Q0lFNXhLMndPWDR1THhRSEx1eFRDY1hSYUMtajE4NkY1MjhSd3ZQWENiaGZBSkVCTTZEbnBnZG0talczVEIwZ255TmJhXzZRVm1XUFVVOWItSkNCWDFMWXR2bTR3UnF6anJhQ2FXSUw3ZVU3QTZaaFMyVEdmRVZB0gHiAUFVX3lxTE1tTzExMEcyNmxwWGI3SzVPd0tJRXFOM0xfSDhETVhZcEltaERvSUxkcEl4cndGOXNuRk1OZzdvRFpqNkFjbnZ1TFFUQTlqTlllaDM0VG9GanFrZWt1MnVxb29qNHpVTDZBWnlDSUU1eEsyd09YNHVMeFFITHV4VENjWFJhQy1qMTg2RjUyOFJ3dlBYQ2JoZkFKRUJNNkRucGdkbS1qVzNUQjBnbnlOYmFfNlFWbVdQVVU5Yi1KQ0JYMUxZdHZtNHdScXpqcmFDYVdJTDdlVTdBNlpoUzJUR2ZFVkE?oc=5",
+      "published": "2026-08-20T05:20:10+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Gaja Capital IPO fully subscribed on Day 2; GMP signals 14% listing premium &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Tempsens Instruments IPO subscribed 42% so far on Day 1; GMP surges to 73% - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVXJRUTNQeFc1VHh0ejltbjlKcE9MdTRLUUs4SjhyMngwQTZtRWhNQk4wbG1temJiUmlydjk3U2ZxYjE5Z0RTcnc1cTJZcUItNXZkNVZSU0kwZVkwWmNIM2IxVmhqUlJfX2tOcUhLUTNEVmVUVHBpTnhwQlFvSlpwNlBqbzUyUmJYdXQ5QUpPa1FUUlZyVkQwMVBJUWdvMzlWM0VidzFfVWJCdjMyWFBjbzJ3OTZrcGR1amFteWtEbEh0UW9UTHh4d00yTWZYQTNFZlU1QXdjRzg0b1ZHTVdZ0gHfAUFVX3lxTE5VclFRM1B4VzVUeHR6OW1uOUpwT0x1NEtRSzhKOHIyeDBBNm1FaE1CTjBsbW16YmJSaXJ2OTdTZnFiMTlnRFNydzVxMllxQi01dmQ1VlJTSTBlWTBaY0gzYjFWaGpSUl9fa05xSEtRM0RWZVRUcGlOeHBCUW9KWnA2UGpvNTJSYlh1dDlBSk9rUVRSVnJWRDAxUElRZ28zOVYzRWJ3MV9VYkJ2MzJYUGNvMnc5NmtwZHVqYW15a0RsSHRRb1RMeHh3TTJNZlhBM0VmVTVBd2NHODRvVkdNV1k?oc=5",
+      "published": "2026-08-20T04:58:19+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Tempsens Instruments IPO subscribed 42% so far on Day 1; GMP surges to 73% &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Horizon Industrial Parks IPO allotment today; check status on registrar, BSE and NSE - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTnVPQjRvTU1sNUFEQW9FME5LVTA2d0VFbVVFanNMaE0xRzlNcDRPZTRZX1pXdnhKWmU3ZnhpazhkTEROY3JaaGU3WTk0eGhnTFpralVreFRRMTRWWGhXd1FQQmR1MmV1dm5ndEx4ck5DVmcwbWJhaWpIS1l5WnNUSC1BcXRpTzFmQVduT2JPT3RKMUNxUVBGRGNFcXpXcjdQOHBqUnlYV0tYczBZSmozSVNsYmZPQzhsWVBaRWZaMFRrbjBpQ3FGeWpMN0tIRlhvNDBSTzBOa1JQbi1pN0I1TtIB4AFBVV95cUxOTnVPQjRvTU1sNUFEQW9FME5LVTA2d0VFbVVFanNMaE0xRzlNcDRPZTRZX1pXdnhKWmU3ZnhpazhkTEROY3JaaGU3WTk0eGhnTFpralVreFRRMTRWWGhXd1FQQmR1MmV1dm5ndEx4ck5DVmcwbWJhaWpIS1l5WnNUSC1BcXRpTzFmQVduT2JPT3RKMUNxUVBGRGNFcXpXcjdQOHBqUnlYV0tYczBZSmozSVNsYmZPQzhsWVBaRWZaMFRrbjBpQ3FGeWpMN0tIRlhvNDBSTzBOa1JQbi1pN0I1Tg?oc=5",
+      "published": "2026-08-20T04:55:53+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Horizon Industrial Parks IPO allotment today; check status on registrar, BSE and NSE &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Sensex Today Rallies 551 Point | Nifty Above 24,200 | Tech Mahindra & Infosys Top Gainers - Equitymaster",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd1d4aFd3S3kxY0JMdGZDbzA4RnFWbnFuT3JwYmliV1NubldFbGozTnhkZ2VOalktTERHcUUtQ2tYUTg3UFNYNjA4c2JUWklZRlZkSkhZU1RpaFNBVmtWcjAtcVU2WHI5aDVQMmozZWRJb2NNekxJNjE0UWFlNWR0enZ2cDRqWHAzcUdNZ3ZDTk1ZbE9IazdwWjFyUXRJU3I2bGF0MC1NdWVWUGFLQjlUVmVyWFBZQ3UzZ09lUU8wQlFvT2dwZ0kwUnJQcmhNQmZ3NXhuSkJaVG9nT2d3RUFr?oc=5",
+      "published": "2026-08-20T04:43:32+00:00",
+      "source": "Equitymaster",
+      "description": "Sensex Today Rallies 551 Point | Nifty Above 24,200 | Tech Mahindra & Infosys Top Gainers &nbsp;&nbsp; Equitymaster"
+    },
+    {
+      "title": "3 Fundamentally Strong Pharmaceutical Stocks in India (2026) - Univest",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qaE4yNktEcEt1alhzMVJKeVpId01LNnQ0aW1XQWlEYjllMF9vTE5MZ18tc0Y1dlg1ZVlVVVpBNUs0bWNxeEQ0VWdBdGd1LTZDMGpvak05cmZsYW5WTlhVVmVWZWM1RkEtcUg4aUhobUJxSmN6amJHN2owdUlzQQ?oc=5",
+      "published": "2026-08-20T04:28:00+00:00",
+      "source": "Univest",
+      "description": "3 Fundamentally Strong Pharmaceutical Stocks in India (2026) &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "Nifty snaps 7-day fall, settles above 24,200; Sensex closes 600 pts higher - 7 key factors - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd1hwRDJhNWdiUmJvQjgxSzFQWS1SZEZRbWFUWUZqRDF2a0UyaHFPTjBWSlVacmNXakU1d2xwV0doazdYejRFWDkxMHhqVERIQkZHekhKdVFYdW9uLWduY2ltd1ZQcDdfbV9FZV9aQUtiUGItVXRyV3VBc1JQM3hKeXFoSXRxcldxWTNkTHh2VGhoVzcxNDNXMU9XWTd5M1ljZ3RHaGl6NGtEcHRMYmlFMk9wbmlBYnBjZUcxdG93d01RdW9UcTJtZGtZalBwbXkxUDZpek00ZjYwclNpUkM0d1k3dnZsVk1NdXROZTJRTnbSAfYBQVVfeXFMUDAtLVlXV2FZQmxuV1A5eEJIbzlDcUZoQ29oUUFnSU1RSi15bTBsVEVsUVBuVFQzTmR1M0dFN1dHbWNIWnBFclFWUXBaLXZ4cmV6SDFlTU9CUkFpdFpGbG1nQTJuNXBfeU5jSVRzcVU1c2ZUR2RIRlY3UTVqZlVHNFVYVU1nbGs0S3hXSUpfNG03VkVSREM0Z1ltNlJuekMzZEpIY2o1U0ZJUkotSkxHUkNzWTYwVFB1bnhvangzZ09IVzE3MTR4STZyYnZadEY5MHdudUE3bmlsQ2JMQmV4V3ZZX1pnR3FMbXRSRnIxYU1UWjVvNFBR?oc=5",
+      "published": "2026-08-20T04:04:51+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Nifty snaps 7-day fall, settles above 24,200; Sensex closes 600 pts higher - 7 key factors &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Stocks to watch: HDFC Bank, BSE, Oil India among shares in focus today; check list here - livemint.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUDRhRFVQY1g0QTFGdkhRcVAzbXFWNDhvLWIyWnJ4X1haVDF6QVl5WFZTUVgtUlBQT2VfZGV2SXFVRFJjQXZPcGx2UTNUOGlFR3BtTDdmUlpvS2FnczlCOUdzTXk3TldtTjFqLWc0M1NVREViMXNPdW5LVXF2VGdXWDl0UVhHWVhFS0U5bUt1RU1VeXowcjRhZkFZZmt5ZHBrOE9HdlpSSFcwQ2dIQVhfLUpqYkM2cUNRbTJsaHYydE4zVjl3ZmttRk5TVkVfZERQNHl0RlpfQlItbmc2ZEwxaGhQRFpiMzNk0gHuAUFVX3lxTE1uU0ZXazRWRlhaYVBJVktvcmZ3SHZ0cUVDcW45X0pMcE1Pb3lyQ3A2a09aRHBJSG4yOTBXOG9XdUs3MXFmN255d3NyZzNPT0VXeW1Vc3RPSkt6akdwMUotb05IbUlWLUNTRk04dmlZT3NENmlSN3E5V181alhvTFV5ZDJLeUNuMHFwNTVyTkozLXRKS3M3WkRHQ0hUdDMzc1FMOW5TM1hFVHMycTAxSlNIT25SOHVxc3pNY0ZnUEszUnBkbjdXMnJJNFpleGs4OVl0a2F5MDlaclhVMU8xSUZGZFhPUFdNRXlJS2pvMnc?oc=5",
+      "published": "2026-08-20T02:48:23+00:00",
+      "source": "livemint.com",
+      "description": "Stocks to watch: HDFC Bank, BSE, Oil India among shares in focus today; check list here &nbsp;&nbsp; livemint.com"
+    },
+    {
+      "title": "Pre-market action: Here's the trade setup for today's session - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTDVybjJmY0pRZU9mWl9LQnlqVk5JTjF0bE5UazlGb0tuZzFleDNVRFFtRXlqaXhWMG5pTHRscWRpdWN4M3Nqdjc3NW5aV3YtVU9oUmxQQnBHXy1ManV1SmdCd0JUcERpZ0VMalFNUHcxWkVqSm5BYWhGczd0ZTN0eFFCNXdUMmtXc0ZXUGlsYzJUZHhXOXdxZnFZeTBrUTBoS3N6cmhjLXZLazh6V0dpNE5fWS15TDFhU19VVC1pa1VHcjdySV9Rc0FJVUplRHZ1cmfSAdIBQVVfeXFMTkw1cm4yZmNKUWVPZlpfS0J5alZOSU4xdGxOVGs5Rm9LbmcxZXgzVURRbUV5aml4VjBuaUx0bHFkaXVjeDNzanY3NzVuWld2LVVPaFJsUEJwR18tTGp1dUpnQndCVHBEaWdFTGpRTVB3MVpFakpuQWFoRnM3dGUzdHhRQjV3VDJrV3NGV1BpbGMyVGR4Vzl3cWZxWXkwa1EwaEtzenJoYy12S2s4eldHaTROX1kteUwxYVNfVVQtaWtVR3I3cklfUXNBSVVKZUR2dXJn?oc=5",
+      "published": "2026-08-20T00:30:00+00:00",
+      "source": "The Economic Times",
+      "description": "Pre-market action: Here's the trade setup for today's session &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Corporate India posts strongest profit growth in 10 quarters - Times of Oman",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWHlVUVUzMW8yU2ltdTlwak13d0RuQkx3MndEMEw0TmtuYXBXaFl1bDhMcno5VUxVNnRsMmpsOVNzMUQxRmxlZ3Axd290SGhINy1rYlU2c3FDUEd2bGU2aG8zaGRlYUNpMlBvd09wYWxyOTNFcEhjc0F5Q003VUZMTzIxcmwyQmhxS2xMWTcxZVhXUGJEN09PejZ1OEJpbVpX?oc=5",
+      "published": "2026-08-19T12:56:00+00:00",
+      "source": "Times of Oman",
+      "description": "Corporate India posts strongest profit growth in 10 quarters &nbsp;&nbsp; Times of Oman"
+    },
+    {
+      "title": "INR slips further amid sharp rise in global crude oil prices and negative local equities - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQmh1ZXBFbEJyU25sUXFzcE56cTY5T2dOZkstblRjMHlhX1cwUHJ5VVAzX3RBcHRIRDNpQzNqUEM1VHNJVENSRTdoUzRyZjZ2VEtkZUg4TUJqNV84bTJ2YjZzdm0zTHJKMVpqa3UwaHczZ2VPamtrWkNsdjNvbzk5MnplbkliQjhpSXRvRDhRUGFkcTBLMm83eXM2OEQ1ajh3WFVVdFk3RzdMRUJ2cG1EclhDblF1ZUNnNzFVT0loX2hnakNibDZUMy0ydVVmTXU4eXFjRGxMVW1kc3ZfZGp5THpRS2pjOXVOZmRBeUdDOTdXNGJ4eHNlSWE4bjN6dkN4eUFjNNIBhAJBVV95cUxQQmh1ZXBFbEJyU25sUXFzcE56cTY5T2dOZkstblRjMHlhX1cwUHJ5VVAzX3RBcHRIRDNpQzNqUEM1VHNJVENSRTdoUzRyZjZ2VEtkZUg4TUJqNV84bTJ2YjZzdm0zTHJKMVpqa3UwaHczZ2VPamtrWkNsdjNvbzk5MnplbkliQjhpSXRvRDhRUGFkcTBLMm83eXM2OEQ1ajh3WFVVdFk3RzdMRUJ2cG1EclhDblF1ZUNnNzFVT0loX2hnakNibDZUMy0ydVVmTXU4eXFjRGxMVW1kc3ZfZGp5THpRS2pjOXVOZmRBeUdDOTdXNGJ4eHNlSWE4bjN6dkN4eUFjNA?oc=5",
+      "published": "2026-08-19T12:20:59+00:00",
+      "source": "Business Standard",
+      "description": "INR slips further amid sharp rise in global crude oil prices and negative local equities &nbsp;&nbsp; Business Standard"
+    },
+    {
+      "title": "Rupee hits three-week low, traders wary about fall to 96/USD as RBI stands guard - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYTBuU2VXTW1sbGY5djczalV4QU1MeWVadGxTZUdZZnNtUHZGd3FCY3VybWg2bkhubnNEbU9Bdk5PWThzUi01SWNWMVpjaHlVZ1p1RW1XaE1FQWtzdzQ0S0xLT1F1SzlHSkp1RWFuVXFNX2tnSkVrSy1rS0pRRkctZ1NnZEE0cDlNQ3UwM01zUFd1dmNPS2RHUjJkdmxqZEYwdDdpbnNTTVFPZkVfdG9FdHdfS1JPMVJGQ01KQndpcWxnai1zSkEyZGc1UUxmQW9WSWduS2RFLXpoQUs4REV4X9IB5gFBVV95cUxOVVZoYy1DSkwtOG9PMmo1UXNTZGRhd253MTRWeVVGLXdKamVRYXl4akR1d1NUTGFpcFJNNS1CWVBGdGtBdVhUTEJMR0F5elkxcjNWbndyWkJFR0NtSEduNl9WSWJORS1aVUloM2Y0NVFMUDNsZTd0UWZseEdMY2UwdzM2UW1FR2RkYVB4aEh1dnBWWlBDUEtBX2pzTWlVeV9qc1JpbzEwblpFaVlsQ0tLc0R6eGhOU1hLb1RNVG9HT2hQam82MkdDejI1Ui1EcjRWNWx6cjFsbURmRlpEaGpxOF90WGJldw?oc=5",
+      "published": "2026-08-19T10:22:12+00:00",
+      "source": "The Economic Times",
+      "description": "Rupee hits three-week low, traders wary about fall to 96/USD as RBI stands guard &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Univest App Review: Key Features for Indian Investors - Univest",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUmRBbWMtbjZoRjJzMlJQNk11RGxyY2lWWlh1VXdmVjRZSEdUQXFPVW9pTEF1LV8wY3ViZ2dIWEZqV21vVk0xeGJJdlc0TlBWMHNDTjRoR1ZBcUdlSnN1NGFqMzdUcFpUOVBOd2NERlNJelNQNHgyMW5WWGpkQ0NyRGdrRVBQVzZlMW9TMTFYcE02bDRs?oc=5",
+      "published": "2026-08-19T09:25:00+00:00",
+      "source": "Univest",
+      "description": "Univest App Review: Key Features for Indian Investors &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "FII DII Data Today 19 August 2026: FIIs Net Buyers Rs 1,652 Crore - Univest",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nc0txeFNpaXcxTE5GSnNnQ1FrNFloNU9iT0dkOElqR1MxLTFibFhFWDBvblZuMjZCNUpVQ3Y2OWc4cV9MWHJnY19iWi1XVy03ME9MbWtRRlA3TG43Unk3NVQ5ZUtUX1BvOXg3X0JkbFNXdXF1VTdCTGVscTAwQQ?oc=5",
+      "published": "2026-08-19T08:15:07+00:00",
+      "source": "Univest",
+      "description": "FII DII Data Today 19 August 2026: FIIs Net Buyers Rs 1,652 Crore &nbsp;&nbsp; Univest"
+    },
+    {
+      "title": "NSE IPO Gets SEBI NOC: September 2026 Listing in Focus - Sahi",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZlJQV0VjRVhubk1hdmlLMWtmVHJtTVZhT2Fyc19aYjRFN3VQa2ltVWZMcnhCcDZ3TGxKSU5BM1hwQVVEbDFkRFNkbzlpbHNlZmZNQ3hPS0lUb0pXV3ZyQXRaQUFralRIYjg5T0VR?oc=5",
+      "published": "2026-08-19T08:08:38+00:00",
+      "source": "Sahi",
+      "description": "NSE IPO Gets SEBI NOC: September 2026 Listing in Focus &nbsp;&nbsp; Sahi"
+    },
+    {
+      "title": "RBI Monetary Policy and Its Impact on the Indian Stock Market - Equitypandit",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmU3VzF2bGhiS09fakJzUDdSQlRidHJJTjBJV3ZBdG9FbUt0TnJBZmZaT0cxQWNKVUNsOG9LRmNCLUJEYjVaZ2xINC0yZXhlVDRScy1ib0xiejZPZVRxTnRwb0YzbGJ4czhRclkzVVVoTlpWTHo4SEI3WHVLd1pZUjY4QmR3dVhYVnNnckl0MEI3aHhZRUE?oc=5",
+      "published": "2026-08-19T06:29:00+00:00",
+      "source": "Equitypandit",
+      "description": "RBI Monetary Policy and Its Impact on the Indian Stock Market &nbsp;&nbsp; Equitypandit"
+    },
+    {
+      "title": "NSE IPO: Exchange Receives NOC From SEBI To List On Dalal Street, Approval Soon - NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlRlZm9IUi1DYXh0MlBkMmVWNWRPelRsMVVMZjUtbzZ6UnB3T2l3c2pRV0EzeFh1X0dDT0J0WUxJYlk3LUp1OEZoREFlTFMtbmdVeUdRelNtRldwQ29WYUVBT3g4LTlCX0FROE11Sll0bHlnMThJWEhMOXZSV2hPVVRrQnZLbGFxVzhobUI5b21CTVM2YTZPV3ZLRXdpeld0aV9NNEYyMnNqUdIBsgFBVV95cUxQaUt6N21KUXZyNHVBSXlRSUg3WTIxUXVKSmdpNm5wNW9GM1AwM3QwMXZ1Z0EyMGYta09aZHlkRl96Tk8xX0tKSTM1Q0p0a3dJeDhpcmROUnVURFRXU014WlVoQzVldFdRY3lQOVljalhjSmIzc3Q3VkpWUElRa1RxRVdQX1pyeGFVYUs4OW5WcXdYWlFuZUltUkxwS2psNFgtU2tsN2E1LVFVTURGdU5WZ0lB?oc=5",
+      "published": "2026-08-19T05:43:56+00:00",
+      "source": "NDTV Profit",
+      "description": "NSE IPO: Exchange Receives NOC From SEBI To List On Dalal Street, Approval Soon &nbsp;&nbsp; NDTV Profit"
+    },
+    {
+      "title": "CLSA downgrades TCS, Infosys: Picks 4 midcap IT stocks with up to 30% upside - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPZklST0FZUUhKeVBfUXdTV2tOR1Z2R2NWSFVUeF9PZGN2d1RZZDYxYzNOb3pmLXVFZHo1MkdZVFZLU0t0UWstcUNNVHY2a0ttOS04bVJWbVp1UXNFcXhwcjU0SGFHQVhoQ3A5UTZmTG0zWXJhVmpsWnVtbUNiNHNWbWg4bHF3R0lfUS1tOFdKUWVRNmpHTkVrLW8xUzlKOVAya3p1dk1JazlSTks1bHMta2YydGY0OWRaNmxfZlY1ZnRueDNQT1RHU1luYWZocngzM3lVVEVUZkhYSVZtc2RDRkVYa01SRFJTcUlFd0F4OHR5dnl1Y0RZdWpXT1VNRGl2aW1abWdDN1NOeVJFc3NOenZYa9IBmgJBVV95cUxPRGdkaXFBczhHVXR2NlZpTEFpMUl1SWpWUlpjV0dRQjlnWmN2WFFzckF0bmxWQm4zMjB4UkE4Tk5hNDZDMW53OFc3WDU3ZnJjTTNaeTZ3eWs0RjJadnhma2F6QWN2WjcwbU5yb2tZV1ZkSTVoeThXeXRBNmJjaUlTMlAwcFZkUXBKX1J2U2RqYUhEVVBpazJNcF9DdjRSMXowVEtXRjU5Ym9zWnJCYXlicFUtR1hqSmF5NFRDdVFuaXpoSUEtUDVIU3FXaVMxUnMzTmROeC1zbXhxcHVBNm4tYVdUU012N0Y2S1dUV2I2b0N4dy1TZlFDdkRHTXNYX1B6N3dnZGZBYkdGV3I5cVpMeUdYNjlselNqNGc?oc=5",
+      "published": "2026-08-19T04:21:45+00:00",
+      "source": "financialexpress.com",
+      "description": "CLSA downgrades TCS, Infosys: Picks 4 midcap IT stocks with up to 30% upside &nbsp;&nbsp; financialexpress.com"
+    },
+    {
+      "title": "Rupee rises 1 paisa to 95.73 against US dollar during early trade - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSXZVZU9wZWowaGhJaU4xRURGVUhsSlB2LWFpQmd3dXptLW41cG55NG5LalVBRGdXcmhJeUpES2tLZks3Wk1Zc1dOQlRzUGtnSXpha2FOMG52TUxhYlY4aHZIZFduMDAzTTNURW9lRW8zMWNRN1lNMU14dU9hWEExLW1ZQ0NtTU1FRHhkalBObmdybFJxQTFjZlFQSGg5eDJhS3lTLXZ6YkZCNVA4Y1daaF9SOHQwbk5tTXhTelliZ1BXVEtPWE9KNFVrMlDSAdIBQVVfeXFMUGVHWEd1SFJYMmx6SEJ6TURMRjlyeW5fZ1JkNjhRdmNIX2FTenFKT2hCYkVrek1JcERqazdvX09UWm1Bd1o3b3FJeDBrZUVOR08xUlBPbVJmYl8zaUVHLU14N0NueUZDcjlYcWZ6OTBYX2NUamZaSThpT2oyZEhBSTJyUUJXRi14eC1fMk1PMlBiMFgtQ1BKck90Qk04TWFfal9KOGIwQXI2VnF2eDl1UFlWQ3V1X3A5X3hpako5QTBkdkdPdHBpNzVNaGlXRnRlcmJR?oc=5",
+      "published": "2026-08-19T04:14:00+00:00",
+      "source": "Business Standard",
+      "description": "Rupee rises 1 paisa to 95.73 against US dollar during early trade &nbsp;&nbsp; Business Standard"
+    },
+    {
+      "title": "Nifty 50 profit growth hits 10-quarter high, lifting FY27 outlook - Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTm8teXU4aVVRTkRIZDd3MTk3dV91TmthV2ZoSnNmdmRKak00TjlfM2NNQ1JRTnRnemxTNTdUUVlGOVl1UEFSNlRPNVgxTS1rQjVXeElybndIRDY0ZDdCSHR2RGNSVC1pYWEtQi1MNmZSejZRcDNBZTU2RXI4WjN5WU9MRWZJVHhVVmNPS3dGNUxTZktBVTZtVEJSTjNvbDFmVTJZVVlzcktTUkR3LThINzZZTdIBuAFBVV95cUxNcUFNUVZBbXFNSGJJT2hSY0JKTkRVdmF4T0JfMHFMb3lXNVlvaHVIUlZJRkcxamlQRnBPQmZuTXVYdzItVm1nM2hXMy1aZk9UY2JKYVhNY2FVenZyelFvUHRDUHN5OXhjeGppcWtQRlVQbUF1WENDSmlyZW5tUTRDNGNZT3c5RUF1bHZPLWZJenFmal90RWEwaWc5WjZ6SldQeHc3MzNEb2hzNkRMNDBDOXJRWkY0WDN2?oc=5",
+      "published": "2026-08-18T12:14:16+00:00",
+      "source": "Firstpost",
+      "description": "Nifty 50 profit growth hits 10-quarter high, lifting FY27 outlook &nbsp;&nbsp; Firstpost"
     }
   ]
 }
