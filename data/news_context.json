@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "stage": "news_context",
-  "generated": "2026-08-20T21:04:06.904773+00:00",
+  "generated": "2026-08-20T23:02:18.058081+00:00",
   "methodology": {
     "description": "Company news, industry context, macroeconomic, commodity and geopolitical screening after quantitative stock selection.",
     "note": "News signals are contextual inputs, not automatic buy or sell decisions."
@@ -71,23 +71,6 @@
         }
       },
       {
-        "title": "RBI Monetary Policy and Its Impact on the Indian Stock Market - Equitypandit",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmU3VzF2bGhiS09fakJzUDdSQlRidHJJTjBJV3ZBdG9FbUt0TnJBZmZaT0cxQWNKVUNsOG9LRmNCLUJEYjVaZ2xINC0yZXhlVDRScy1ib0xiejZPZVRxTnRwb0YzbGJ4czhRclkzVVVoTlpWTHo4SEI3WHVLd1pZUjY4QmR3dVhYVnNnckl0MEI3aHhZRUE?oc=5",
-        "published": "Wed, 19 Aug 2026 06:29:00 GMT",
-        "description": "RBI Monetary Policy and Its Impact on the Indian Stock Market &nbsp;&nbsp; Equitypandit",
-        "classification": {
-          "direction": "neutral",
-          "impact": "low",
-          "rawScore": 0,
-          "positiveKeywords": [],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [],
-          "macroKeywords": [
-            "rbi"
-          ]
-        }
-      },
-      {
         "title": "India's central bank holds rates, awaits clearer inflation signal before acting - Reuters",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaVh6a1FVeVF5VXFBMU5FU0ctdXFZWUZudWdoR1RSd2tGaTJENGNFcWkzQlFweDduUUpBTHVNWVJRdmlXZFlvUG1OYV9MaUtndEN3akxJWWZ4Ny1Jazl0M2p4VGdWNkNHNXZTcTdSTXQycVcxVGdNZmhHMUEyeUx1SE9LTjdUekg3MW9LcENxaEJoYS1vSXFDbDA0cmprREl2OTgzQkxMd0NYel9xdlpOS3I2WjhBQVBxVGJoOVZhVFBLc0My?oc=5",
         "published": "Wed, 05 Aug 2026 07:00:00 GMT",
@@ -101,6 +84,23 @@
           "geopoliticalKeywords": [],
           "macroKeywords": [
             "inflation"
+          ]
+        }
+      },
+      {
+        "title": "RBI Monetary Policy and Its Impact on the Indian Stock Market - Equitypandit",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmU3VzF2bGhiS09fakJzUDdSQlRidHJJTjBJV3ZBdG9FbUt0TnJBZmZaT0cxQWNKVUNsOG9LRmNCLUJEYjVaZ2xINC0yZXhlVDRScy1ib0xiejZPZVRxTnRwb0YzbGJ4czhRclkzVVVoTlpWTHo4SEI3WHVLd1pZUjY4QmR3dVhYVnNnckl0MEI3aHhZRUE?oc=5",
+        "published": "Wed, 19 Aug 2026 06:29:00 GMT",
+        "description": "RBI Monetary Policy and Its Impact on the Indian Stock Market &nbsp;&nbsp; Equitypandit",
+        "classification": {
+          "direction": "neutral",
+          "impact": "low",
+          "rawScore": 0,
+          "positiveKeywords": [],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
+          "macroKeywords": [
+            "rbi"
           ]
         }
       },
@@ -176,6 +176,40 @@
         }
       },
       {
+        "title": "Will crude oil fall to $50? How demand and supply are reshaping global energy markets - ET Government",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVE9qU3lqNlM2T2pLaXZjRlJpUF9lNjZSVHJwV3N2U05POC1NS0xHRTlGYWEwcWFRSngtOTA5UGVPQnp3Ry1sSXRaYUhRdDBpUDNuV2RDZF8zSC13MU1Ic1RpQjdSbGFVTXJPZW1fMkFEZ3NlWFNiVUZ1TjVoTmxMT2N4Q0hoZWJxQjUxZ0x4TmE5ZEhBVGQ4dFNKU0Qwal84UWlha3VHYk4ta1lUaUJ2OHgxRVVXMk84Nmp0QmNMZGlBSkU3d0p5RC1kUmNHZW9UUFFtaFl4alZGQzlmLUJF0gHkAUFVX3lxTFBNaUo0ZE5ZZG8wYTBuMVU1UFl0dDVINEcwZ3NWdTdLZ0pWUE9JUElzWFN4SUQtZHJGRGZCR2xMRUs0M1U2ZUU0a0pYLVRXLTFSSlZDbTNHcURUc0ZDU1N0ckhZVktRNFNkUnZTZklyLU5EOGlWWWc0SWtZWEMxX1UxeEFoVl9RM2NNOC04NWpHUVNXeXRZLTctV3ZxZ1RoaTI1QnA5djYwczh4VTBOSDFqdVJvR0pCeGRJbkszdHBnZTZXbGZxNnpud3MySkE4ZS05ZkJ1UDltRFpRNzBERldrRnlWYg?oc=5",
+        "published": "Sun, 05 Jul 2026 07:00:00 GMT",
+        "description": "Will crude oil fall to $50? How demand and supply are reshaping global energy markets &nbsp;&nbsp; ET Government",
+        "classification": {
+          "direction": "negative",
+          "impact": "medium",
+          "rawScore": -2,
+          "positiveKeywords": [],
+          "negativeKeywords": [
+            "fall"
+          ],
+          "geopoliticalKeywords": [],
+          "macroKeywords": [
+            "crude oil"
+          ]
+        }
+      },
+      {
+        "title": "India’s oil shock problem: Why electric vehicles are the solution - International Council on Clean Transportation",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzZOOXQwU18wUjJyWFZIdDhzNjFZb3JJV1N3UE1vNGZsRDR3UThtc1hrbHZtQUxyUnlaRktsTWcyWXFCazZPbXVhSkZDWTNsWDF2SjE3N2ZQRlc2TU1nempiNTJCTXZqUk9VenlSYWtGTEJNYWE4R21CbW5WWjR4SWxmU0VzOEtCUURobXpBbTR3TnFD?oc=5",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT",
+        "description": "India’s oil shock problem: Why electric vehicles are the solution &nbsp;&nbsp; International Council on Clean Transportation",
+        "classification": {
+          "direction": "neutral",
+          "impact": "low",
+          "rawScore": 0,
+          "positiveKeywords": [],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
+          "macroKeywords": []
+        }
+      },
+      {
         "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
         "published": "Wed, 19 Aug 2026 11:19:31 GMT",
@@ -188,45 +222,6 @@
           "negativeKeywords": [],
           "geopoliticalKeywords": [],
           "macroKeywords": []
-        }
-      },
-      {
-        "title": "Indian Rupee Pared Gains to Settle at 95.70 as Dollar Weakness Offset by Crude Pressure - Cash Flow Report - Vinanet",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQM0pDS2hsWkhwelFwTTFoZmZiZEZFcE1ZVmRkOVR6emtXMEdzTFB0aFhOS2VfTXlScm9XUUwzMFVpc0lQT0w4RWY2cWxWRFVaVHh4ODh1d0hHQm9NaE53UU5YTXFfZ2ZOS3c1RHhSb0g0SVM4TENMSkZBY1lXaE5HM01Eb1NJNFdtUkVFREpyRzBzTmVGUTY4WFk4R05vTVgzZm9GRHhZT1oya3dpX2djUzVKckF6SFE5Q2llMTdQNXVDaDFNV2JN?oc=5",
-        "published": "Thu, 20 Aug 2026 16:43:43 GMT",
-        "description": "Indian Rupee Pared Gains to Settle at 95.70 as Dollar Weakness Offset by Crude Pressure - Cash Flow Report &nbsp;&nbsp; Vinanet",
-        "classification": {
-          "direction": "neutral",
-          "impact": "low",
-          "rawScore": 0,
-          "positiveKeywords": [],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [],
-          "macroKeywords": [
-            "rupee"
-          ]
-        }
-      },
-      {
-        "title": "Sensex falls 188 points amid elevated crude oil prices; Tata Group stocks decline after N. Chandra’s exit - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQR2lfQVBrckh0bjhJVFZOOGxDUDlkdklyRGw0OVlNN3ExTjVUZi1NYlppcXFKYXU1ZjN1ZExZT1BMbkZYcWVLUXlpV29GeE53UzJmRi1pZDVlcnNvTkp1QTRVZ2FOM3RhTnNVbTE2WUp3LW1mNF9KdWw3d2N5WDF2TDI0REpNWmZ3WXVTWnRaZVE3NG1sUVVyWlJTZW04T2M5T3hfcFVmNFZCbnZvZF85SlVwUElzYjVUUW9RbTBDZXlPVk9iLWRLYTk4aTQ0SE8yNW41YzRMUVgzUE0xTG9QaXlfampQRzM3NWsxWTJvVHhpc2JFSjdv0gH-AUFVX3lxTFBxN1Ytcmd1VXZvdmVSU1daUzk4VThpYmEzVWpvRzlVSENBVmVVUUlDMG1KUnMtbzhxa1lscy1vNGNnTEw4RjA1YkV3MHNTc2FXQ1YzWU9zbXBYaW9oc0dSdzlFSjlWUHJaN0NaMnJGTWgzNXJBR1hHTEtJMmxoYUZ4X2F5TEpnX1E3YlFOU1dnaVUteldndDFOSkVpYlYzYXpJczdfcUwtX3M1Uzg1Z1I2NHdwSUtUaTNlaXlNUGFCZXUxbGlIdHY1eW1kcU1VV0ktb2dSSGNnZlJZNEh3cjAxN0F0VHVpRUpVakVQWFQ3TklaMGV5TDBzcDJ2MUp3?oc=5",
-        "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-        "description": "Sensex falls 188 points amid elevated crude oil prices; Tata Group stocks decline after N. Chandra’s exit &nbsp;&nbsp; The Hindu",
-        "classification": {
-          "direction": "negative",
-          "impact": "high",
-          "rawScore": -6,
-          "positiveKeywords": [],
-          "negativeKeywords": [
-            "decline",
-            "fall",
-            "falls"
-          ],
-          "geopoliticalKeywords": [],
-          "macroKeywords": [
-            "crude oil",
-            "oil price"
-          ]
         }
       },
       {
@@ -579,23 +574,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -649,10 +627,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -824,10 +817,10 @@
             }
           },
           {
-            "title": "NMDC Steel shares skyrocket over 11%; here is what the company shared on Monday - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMXZjQmZ0T0RHNEl3TzJnel9QTlRsLXZBQkoteFNNNjlOYktXQ1laRVdsaEhxSG8tbnh3c0hTLTQ0Nnh2bmJHcTlEakZkdkM4U1d3dU9YZU5rdmNuM2ZoZ0s5aXN1RWVrcXFzUDZOR0Vpb080XzVPb1Q0bGtaX3JhdzBRQVdzVjZYTEg2djc2ekp2OUdsZExkdjNLZTdWblZFVkdLZzR4Q1ZkU3pmbDRpN1pWM25sTTFkWHlIVXRXZFVjMGZvbV9vWUN1Z1kzN055cHA4?oc=5",
-            "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-            "description": "NMDC Steel shares skyrocket over 11%; here is what the company shared on Monday &nbsp;&nbsp; Upstox",
+            "title": "NMDC shares gain 5% to hit 52-week high as iron ore production soars 20% YoY to 5.31 MT in May; key details - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNjZMblRyazQtcUtoMW9UdGlnS3Vqa0p0MjV3R3ViR2FSZXluUV9Pb01kZmFJbV9DZkVJRkxFbkM4S2pCcm5TLXpJZWFWV3VldG5Ec0dISGRyQWlyODNkYU1YcVVOSUJWaWpBdWVZUEtvNUxaTThhWHlKQmJOaDNWUkZlc2VFcFFxUFdwbko1MVNNcFo5ZVhSb0lhMkFNcVpaWjdKUEZkNE9fU1p0anY5SjVPRzg2ZC0wWDNVT0NOU0hjQ0thdnc5MjVGWEtoblBBNlpMZGpRb1FTdS1EZmhUMHZFcDVlSlhMQWN4RHF4Zy1CSXZ0YlI0?oc=5",
+            "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+            "description": "NMDC shares gain 5% to hit 52-week high as iron ore production soars 20% YoY to 5.31 MT in May; key details &nbsp;&nbsp; Upstox",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -854,10 +847,10 @@
             }
           },
           {
-            "title": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHFBZndXRlNPUGphLUlJWGh5Rm16N3NVRnhLZ25OeVhVb294SUdxQ0FtU0xaV2VIVXlXcmlMa2VJLXI0RWttMUs0Y1VrOVpZOEdxMEo2Sl9ZclB3M0hlTmViYWFFQkxDVDFnSXJXenYxQ3pMWDcwb25HVTNuenlJLWRWczJkRU1EakJtRUtrd1duVnROdEZYbkJ2M0huQ2hnNVRHbk5uYXllYWR2QnRwZE5rdWt0MHh0Nk1CcFVTSdIBxAFBVV95cUxNVElrbGx3THR5RW5LMEV4OGFjNXE3WDdwTGM1QS1wdW9FZHhacmlqanFoS1VDYVhZRG84YVRfdVM4a09CTFdGYldWbG5NX3kwNjlIajhLSUNBN09IOThlbVBLQkZ4NTNVLWZRSGtfUnB4Wndjci1QbFBoM1JheEVTbVZyUlVDdjBraWZ0OG5MTk9yWkhPWjNCLVFPOHdSTUNFUC15LW44MFZvRTBHTVRDU2RadzEyMEhlYWlQYlp5UkVqYUtF?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "description": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors &nbsp;&nbsp; simplywall.st",
+            "title": "NMDC Limited Revenue Breakdown – NSE:NMDC - TradingView",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pcjBlOW5jN0RFWnI0MkhKNkEtZDRTX3pyZkwwUGNTM3pZWU1nTGI2Wjd3c1h6YmE3OHNWRVBoUFJGUXdZSlNMNktvam0tZDVxOTZOU2RZTkdieG9TSTNWQ1ZURHFfWlBDU0RiNWdNNHhUS00?oc=5",
+            "published": "Sun, 26 Jul 2026 11:19:45 GMT",
+            "description": "NMDC Limited Revenue Breakdown – NSE:NMDC &nbsp;&nbsp; TradingView",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -869,10 +862,10 @@
             }
           },
           {
-            "title": "Trade Spotlight: How should you trade IRCTC, MCX, NBCC, NMDC, Engineers India, Karur Vysya Bank, and... - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPZGlFdzRoUUkxZDdfanhoUEx1QUVwVHVMcWJyYUJoTFEwM3dTSlh1ZHFvLXozdnA0S2dJWUJqc2hyZm9xMFVPbWV1anhiTzk1ejk2cE9YZHppOHZfd1V6X2VJVXNtbWtxaDVwTUFHMWM3QlB3akxndmxnZEJNNTFNRkFlQ0JValdHd0dROEF2cVlzYjd1LS0zOW1KaVdZekJQWGJGeUNrYWpmUHV6Rmdmb3JnNEF3dm9FVl85TlVYTnBKSDJZcVJSWlZJa081UlI0Q0wtUWh6SUhqRU9HdjJYU2FJYjJLbDM5UTdiV0ZCUlJ6ajV2Y3VndXZnVmVBUUNhUk1kWkw5dnR1MlFP0gGSAkFVX3lxTFBQZk40MElKd2JjTl9TYUl1RnB2WXpXSmNYWTljWUhGaHZucDRPOF9id1huejhtZ3NvZ2xXVDBhTm9CQ0NmNDdVdWFPVzF5aVp6d0hMSV9IcWwxaDRHVm0tVnBnQ0xSYjFYQjdNRjhXa3ZxT1piRTBDWElDbTFvYzNUXy1YVW9rMXp4Z2VRc2ZXNTJDOEhFMVJEM0xGUnBBM29IWXhTRTRRclhfWmRoV1dMRmM1bEtpU3dFWk9rMGdZUmtDRERtM1ExS0FUUC1aUEQ0aHo3bXN3ZG5MQzZTaXhPMWxtcl9LZE1TLXhjc1pZRHh1WGlGa1lzYkMtU0FwZ0JzZWlacWRJZHBzLWRwekI5NUE?oc=5",
-            "published": "Mon, 29 Dec 2025 08:00:00 GMT",
-            "description": "Trade Spotlight: How should you trade IRCTC, MCX, NBCC, NMDC, Engineers India, Karur Vysya Bank, and... &nbsp;&nbsp; Moneycontrol.com",
+            "title": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHFBZndXRlNPUGphLUlJWGh5Rm16N3NVRnhLZ25OeVhVb294SUdxQ0FtU0xaV2VIVXlXcmlMa2VJLXI0RWttMUs0Y1VrOVpZOEdxMEo2Sl9ZclB3M0hlTmViYWFFQkxDVDFnSXJXenYxQ3pMWDcwb25HVTNuenlJLWRWczJkRU1EakJtRUtrd1duVnROdEZYbkJ2M0huQ2hnNVRHbk5uYXllYWR2QnRwZE5rdWt0MHh0Nk1CcFVTSdIBxAFBVV95cUxNVElrbGx3THR5RW5LMEV4OGFjNXE3WDdwTGM1QS1wdW9FZHhacmlqanFoS1VDYVhZRG84YVRfdVM4a09CTFdGYldWbG5NX3kwNjlIajhLSUNBN09IOThlbVBLQkZ4NTNVLWZRSGtfUnB4Wndjci1QbFBoM1JheEVTbVZyUlVDdjBraWZ0OG5MTk9yWkhPWjNCLVFPOHdSTUNFUC15LW44MFZvRTBHTVRDU2RadzEyMEhlYWlQYlp5UkVqYUtF?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "description": "Here's Why NMDC (NSE:NMDC) Has Caught The Eye Of Investors &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -939,10 +932,10 @@
             }
           },
           {
-            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
-            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
-            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -954,10 +947,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
+            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
+            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -984,10 +977,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -1160,10 +1153,10 @@
             }
           },
           {
-            "title": "Yes Bank Share Pros and Cons: Turnaround or Trap 2026 - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12U3JhblJ5dHFKeUJhaG1VaHliR0VVWVN1ZE9IVnMwQlgtU2pWMU1HUTd5Z2Zfa1Q5eDB2TjBHaGdscUVYY2llRUJlUVQ3Z2s2dThSVG83MWtKNWE1TTZRZnVJN0dQbW42eEE?oc=5",
-            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-            "description": "Yes Bank Share Pros and Cons: Turnaround or Trap 2026 &nbsp;&nbsp; Univest",
+            "title": "YES Bank Share Price Today - YES Bank Ltd. Stock Price Live NSE/BSE - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VUWU0QV90TXpsbEpWVENnb3pvQXVqRjluOUI5a2JEWFVpUlBJQmczZ213VkMtaUNkYmRvXzByVkZtNjRpNEVLRlRDQ0twWjV2?oc=5",
+            "published": "Tue, 29 Jul 2025 16:05:00 GMT",
+            "description": "YES Bank Share Price Today - YES Bank Ltd. Stock Price Live NSE/BSE &nbsp;&nbsp; HDFC Sky",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1175,10 +1168,10 @@
             }
           },
           {
-            "title": "YES Bank Share Price Today - YES Bank Ltd. Stock Price Live NSE/BSE - HDFC Sky",
-            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VUWU0QV90TXpsbEpWVENnb3pvQXVqRjluOUI5a2JEWFVpUlBJQmczZ213VkMtaUNkYmRvXzByVkZtNjRpNEVLRlRDQ0twWjV2?oc=5",
-            "published": "Tue, 29 Jul 2025 16:05:00 GMT",
-            "description": "YES Bank Share Price Today - YES Bank Ltd. Stock Price Live NSE/BSE &nbsp;&nbsp; HDFC Sky",
+            "title": "Yes Bank Share Pros and Cons: Turnaround or Trap 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12U3JhblJ5dHFKeUJhaG1VaHliR0VVWVN1ZE9IVnMwQlgtU2pWMU1HUTd5Z2Zfa1Q5eDB2TjBHaGdscUVYY2llRUJlUVQ3Z2s2dThSVG83MWtKNWE1TTZRZnVJN0dQbW42eEE?oc=5",
+            "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+            "description": "Yes Bank Share Pros and Cons: Turnaround or Trap 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1197,23 +1190,6 @@
         "direction": "positive",
         "contextScore": 6,
         "articles": [
-          {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
           {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
@@ -1268,10 +1244,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1492,10 +1483,10 @@
             }
           },
           {
-            "title": "IRFC OFS opens for retail investors; check details, Day 1 subscription status - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTzF2NFRfbEUwcVhEN21hMjFRWEFrM2VJbnRlaHBmVG9ObXB3SmlZaHlzUXlCOGlyT3ZuVTYzbzExM2VZV2Y5NTRYa3Y1MTh4UXMyeVBObkNfU0c0WENwVnpyMFNhWXBucnpIWmlVQTI1S2xvS2h3YzBpM1FQcTF4cjM5TEJyVmxmY1FxRjdadTBtemlaeDZPWWNDa0kwZHBWOTlRYW1UU2lQeE9kd3BtRWpmTGhnN3JXUWZHU1FqeS1wWF9DNm5XU2VMdmFjR2c?oc=5",
-            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "IRFC OFS opens for retail investors; check details, Day 1 subscription status &nbsp;&nbsp; Upstox",
+            "title": "IRFC OFS: Government's 2% stake sale begins; shares slide 5%; details for shareholders - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdUZxN0xGM0FTVGV4YUxYYzNCb2stcGlUREpYM0dVbkpoamJOQWt6dGJkSnQzOFpuWFNXUUNDMUFUSnRBTXNaZEZzSXF5MTdfaXM0MVBSd3ozeXoyMU1qWDAybkVabi1wYS1ZblJwSGVleUQ4MXRPY0IxUWJmdkZBejB6S21BaGh3QVNoWjlFY0haWWhsRTVZV3JEdVpGaEVGbHpoeUN5N2R3Q1NaV1hYY3pQczZqZ19Mbk0wR25ta0hsekhYb2tKaTQ3QURxOGZfNFNid3BaVlNqNl9sTWFRZVJlQlpCcjVQVGNoUTAyWUE?oc=5",
+            "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+            "description": "IRFC OFS: Government's 2% stake sale begins; shares slide 5%; details for shareholders &nbsp;&nbsp; Upstox",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1551,6 +1542,21 @@
             }
           },
           {
+            "title": "Stocks to Watch Today: Meesho, Zaggle Prepaid, CCL Products, Usha Martin, Godfrey Phillips, Tata... - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPelFjOF9iSnZ2QWJVSVI1bldtS2FnMkNRamp3cjZGNmx3cW5uYXllc2Rmd1VScklpNzZVSEVDSEE2bnBVMzR0UEFOcjd6SHZvM1k2aWpENGtfMnEyNTdXUEZMTWxBejVRUjVYN1g0Y2JlUHprbzJLN0RKNmJxb1pRSEJ3WE05QlBBWUVmTktVcGdSNmJ5eXdWYVJkVHVlVzNGSmtpTXFRYWQ2Zkh4ZjVzX1RsRlNUSFd6VUhWOXhMSlZaQjZLbGtOWFRsQlJFV0xvVFRfeTFSbkFhNW12T1djMVpQZWFIa0hOX1VleHRCMXk1OVZDMUcwNTFTWFdELUN0MzRtRU13Z201QThTdWQxZmdSRXVHN3BkMUhIdXdkQy1uZkRUX3ZfU3pDY3DSAbICQVVfeXFMUFhGbVduaEtFRG9Xc1IzelBCdTA2eTFBWm1IcVNjRW1SRjFORzNQcklFQXNkSTlsZm1GT1RPMUFyRVVSUUxiWVJVcjdJcjBON25PSXUxRWRiRUg4VTV1VzNnOUR5VXBvSndRWXRsMFNuZGZrY21IY0lLVnJuaE1mOTY1N2FXbnJ3M3BFUkkycVkwcXB2TmdnSjZtazI4Tzh0akFpNlRQRE9naFpTcWVFQndmWklLUnE4cU9iY0UzdHRlaG8yLXAtRmZtMnNKbkkxVFBmM1MxMkxTNHVGbVVBLVhkSERLT3JfME9WUDh6TXA1UFd6QjdlYVdBUldFRjRKSUVWOFVQY2xnOEdsekJISWJ6RG9xa0VOWlUwQlgxQ2Z4VGhpVkUwOFZTTUVLeU0xOTZR?oc=5",
+            "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+            "description": "Stocks to Watch Today: Meesho, Zaggle Prepaid, CCL Products, Usha Martin, Godfrey Phillips, Tata... &nbsp;&nbsp; Moneycontrol.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "India Credit Card Market Size, Share & Growth Report 2035 | MRFR - Market Research Future",
             "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN1FwN0s0ZlBZdldUWk9Xb2VzMU9rV1hrbmJLM1hRX0FiMUlZSkxLN3Q2aE0wTEM4MS1qZkh2MkRwVEk2SnRtRzNmNDRid1BrQl9IUEpLcFhLc21nVm5KZk5FX3BTcVF4Tm5sQ2RLZlBpWnl1akxNeXJLNXN6cXNRMQ?oc=5",
             "published": "Fri, 13 Mar 2026 07:00:00 GMT",
@@ -1572,21 +1578,6 @@
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUWpZVEtKLXg1bDJwQzNxRzNJQ0xDc3R0Y3o2VEdVUENHaDlfekRQUmZWZjhYZzZ5aXZBZlcyWlFJenFOOTBCNlpEZC05WU03djcwWVF0ek1Xbm43XzZFNk5yOHJDZTNfWUNpSjdvQ3FnaVBmRzRfdGJHWG9GbFVJLWFlX0ZtZnZHbVZHQmJxZDI3ek1NN1dsT0RHNkwycWR6a0VLcnRrb0otRDJnQ194MTR6S2o3ZHd0bXk3OHE3cnfSAcYBQVVfeXFMTkI0b2FFTkFvZFdCNzh2Vm4wR0V1c2ZTSzFjUXAwMnpmVVNidzhOQ2tfWFNSdngzc0dUN05td3pqcDQ5YkluR1dlSjhHQmFqTzJDQzJGWjhzQ2l1ZXNrbTdpSVprcGNzeDlzekpqSXJabWFGY1l3bEU5cXpDU2NydE82V3NVSVdsa3dFclJoQVRRSkRSRVhQbmU4S05zSHdYVThqZG5Fa05rMHdfQ0FmWWJ4ZFpuZHZ2aFo3QkhCME1Yck5DMTZR?oc=5",
             "published": "Mon, 18 May 2026 07:00:00 GMT",
             "description": "TVS Venu bets big on banking, picks up 9.9% stake in Jana Small Finance Bank &nbsp;&nbsp; Firstpost",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "TVS Motor to acquire 4.9% stake in Jana Small Finance Bank; here’s how stocks are reacting - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcVNhNzlFd1pxbnZJVHk1TkZScnJUNDNhN2ZNcUpYdDcydzhwNDV1Y0hJM3FqeUlianRmWndtbjI1X0l4cHdNWkpJMkVUb2tjTVRXNWNLZ21TeDlkVzhyclZjMkJyZ0VvYkg0NnNhb25lN05wVV9IOG1FX3ZKd19qVnBnN05nNWJkalNXenMwc0VoUmFiUGt0U3IwRV9feUpNRDM0aXVZenZzTXEwdld3b2xoQkFtWlBPbmRPXzNsV3Z1TE8xSmR2U1l6Vnd6M3hQU2E3VVBmaFk2eVYzSWF0RQ?oc=5",
-            "published": "Mon, 18 May 2026 07:00:00 GMT",
-            "description": "TVS Motor to acquire 4.9% stake in Jana Small Finance Bank; here’s how stocks are reacting &nbsp;&nbsp; Upstox",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1873,10 +1864,10 @@
             }
           },
           {
-            "title": "Generative Artificial Intelligence (AI) in Utilities Market - GlobeNewswire",
-            "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQYjR2SzA1d1l1RTNjZW5RYWZfcFJCbFg1akJpZkhxdnF3aUpDRlBSTHpUUDhUMXZCeE9xSnNJMkpPUGx4eC00Y3RsWU9YdDRwQXI0Vk5qbGdiT1hoTVNsMHR6dFVTaDZKVUJFU05qeFhjQ3NzMjItdmZ3RE83Q3gzRTYxV2tFU3VMamlXSGJ0VnZ2dzc4RFBuUl9aNjR0cHdjVnBqdC1kOGJXdUZDNkhueHJYdTRocGk1emJ0RzY5Smo1bUtnZjRQdUY2OVljT0lscHk5QnJqRGprdXRzdk5EcGtWbTI4STJNNklYYmJ4WDlhSlByM3NYMzN1Z3U3UDk4VUR2WVBHVENhTEViaFlyZnE5X2xwSTAxV1RZWHJFMzlEX3hjN2hQZl9tZm1CLVRlQWtYTlJ3?oc=5",
-            "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-            "description": "Generative Artificial Intelligence (AI) in Utilities Market &nbsp;&nbsp; GlobeNewswire",
+            "title": "2026 Power and Utilities Industry Outlook - Deloitte",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUFdaUUt2aGtYS0NKejNSS0oydHlsejlBMmJ3ODB2R1pYV1p5T0tLOHZMQ095cUZqSjdVMHY2blFVWlpnNzhUS0cyNW12VWFYX0RSU1dkcEY1aXVBaHVZTnFwMUoyUWlkUTVXenJCcFdrb2s3S2NZQTBEcERXaDdteEFmaTBVWDlBYkFmMjByRUtrNVpKbVhwRTNrbEtON2ZtbldjUEduUnkyNjFLbVAw?oc=5",
+            "published": "Wed, 29 Oct 2025 07:00:00 GMT",
+            "description": "2026 Power and Utilities Industry Outlook &nbsp;&nbsp; Deloitte",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1888,10 +1879,10 @@
             }
           },
           {
-            "title": "2026 Power and Utilities Industry Outlook - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUFdaUUt2aGtYS0NKejNSS0oydHlsejlBMmJ3ODB2R1pYV1p5T0tLOHZMQ095cUZqSjdVMHY2blFVWlpnNzhUS0cyNW12VWFYX0RSU1dkcEY1aXVBaHVZTnFwMUoyUWlkUTVXenJCcFdrb2s3S2NZQTBEcERXaDdteEFmaTBVWDlBYkFmMjByRUtrNVpKbVhwRTNrbEtON2ZtbldjUEduUnkyNjFLbVAw?oc=5",
-            "published": "Wed, 29 Oct 2025 07:00:00 GMT",
-            "description": "2026 Power and Utilities Industry Outlook &nbsp;&nbsp; Deloitte",
+            "title": "EVE Energy lands 8GWh India storage deal - Manufacturing Today India",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc3BsYnNXd1BHMjZZc2l3dzhfa0xCNVgzeU1JbG5CWnNvUmtvT21WMDJydnNrUzF4TlFDSklscUpjanNkQVo3SW1mMXlQbWZaMWZMMDNFNFRSOUNhZFR0UFpfalloN01OTTR1dnNPVnRLVklxd3ZZMXdlTGhHb1E0QkFJd2lUaXc?oc=5",
+            "published": "Thu, 14 May 2026 07:00:00 GMT",
+            "description": "EVE Energy lands 8GWh India storage deal &nbsp;&nbsp; Manufacturing Today India",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1950,21 +1941,6 @@
             }
           },
           {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -1977,6 +1953,21 @@
               "negativeKeywords": [
                 "fine"
               ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -2107,10 +2098,10 @@
             }
           },
           {
-            "title": "JPMorgan cuts Ashok Leyland stock rating to neutral, raises target - Investing.com",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc0szbzFWZzhCcWVramkxZ2hhZTcwU01vVjZTc2k1Wm5YeFM4dVhxcl92dGpXYVBuNU9vdVVvbXFtcVFfdkl4U0xfVTZSTGphRG5fdTJyX2xRSGhsSi0zV0RQMEpxQmRWVWdUbVRVNmtxX3dxdEtubVk2aWhLQWxGUlZ6ZlByUHdPRFpjNVlBYldYNUJPZkZTVG5UcFZMbjNLVUpleWxqM3BQS2RUcGM4NFhrckNWelNSb1BUX002blhQWTA?oc=5",
-            "published": "Sun, 25 May 2025 07:00:00 GMT",
-            "description": "JPMorgan cuts Ashok Leyland stock rating to neutral, raises target &nbsp;&nbsp; Investing.com",
+            "title": "Ashok Leyland Share Pros and Cons 2026: India's 2nd-Largest CV Maker Analysed - Univest",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwVmpPRVBJOHZPMHlUdVFqSE40cm1qNVhmaEVFRHZOOS01UDBqUFNVWTdlSTd2QUlNQlJyYm1xcWVUQVVlTHp6UmM5ajRMNGFfanVjN0tFWmEyeTJsVjkxU1BwMGJGWEExZkk0?oc=5",
+            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+            "description": "Ashok Leyland Share Pros and Cons 2026: India's 2nd-Largest CV Maker Analysed &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2422,10 +2413,10 @@
             }
           },
           {
-            "title": "Stocks in news today: Petronet LNG, JSW Infra, IOC, Adani Ports, Tata Motors CV, Cipla, Biocon - Business Today",
-            "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUkpkTHMybjVzeW9NU2E3NzVJX3FCV2ZSLTVSZTRJWHFOeU9jekFmMDJqOVIzX1EwRTlzek5sbGFVTWxjazFhazhjN3E1TGNuVGt6UHFubDdscWYyYmgyUENCNG93RGJEejRwVDBBYldYaW9NWlRlRXk2N2FJajQ4U1dfY0pydTFaWWpGclE0UUpoRXFSRGJtNF9GRnVyaTZWTmJDQVBzTE93eE5JcFFlU1J4MFlScFlMeFVBZFFJeU9xNDlZYkF3cmc0S0hrT21YYzM5SzRmSnoyemlPc2pZb0hsVzJKSVpwMUpJ0gHwAUFVX3lxTE9wa2F2RTZxUUl0eWxHajFZSFpaQUdPOW10T18xd1djdVJtUTZxS0pqSldwTXFOWVoxLUU3UlAya2Z4eVEyTWtDMjIxX0owaUlIOHJlN1pxZDJmQkUxNVZlWmYwT0N1d3ExNzVRODBoQm5WUXJGd19WSFBiem9tUFRWV1dVb1dCMFNQSXBWUnBRd21td0ZSdzR4VE4teWpzTHFGWHgzRzd4WTFYN2otUDJuT1BTbVVjcVRrdHRENHRYWklsT3ZjOUVkQVJLa21PckhfX3BUaGJyMzJ1VjRtcm1oTnJfazFTNEpmLUNTWVNpTg?oc=5",
-            "published": "Wed, 04 Mar 2026 08:00:00 GMT",
-            "description": "Stocks in news today: Petronet LNG, JSW Infra, IOC, Adani Ports, Tata Motors CV, Cipla, Biocon &nbsp;&nbsp; Business Today",
+            "title": "BPCL Files No Encumbrance Declaration for Petronet LNG Shares Under SEBI Regulations - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDRTemY3MlE1ODJ5ZmtxWWowVjNETTVyZW8wTkZpOUxwU3NnU1M0RU5XLUdRc1d3MXk1T1ZNV3REejRlbWg4TS1TRExJTVZwY1FQVEdJd2xlTDhoOXpkRGpyVkE0V1RzZ0ltQUYzYmZLcGt2bW9OWDNyaGJUMHRmQnZqSzN2elV0QTN4bjNEckRBaTYtZEZlZ2ZQRFlkczlOTFB4d3Y5NVYwWDJDMTZ2ZE82MUJydEFpa0YySVRNTXg3RzVhc1BrSDF1VXpMNjJJN3BrVUJpYXg?oc=5",
+            "published": "Wed, 22 Apr 2026 07:00:00 GMT",
+            "description": "BPCL Files No Encumbrance Declaration for Petronet LNG Shares Under SEBI Regulations &nbsp;&nbsp; scanx.trade",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2441,8 +2432,8 @@
       "industryContext": {
         "sector": "Energy",
         "industry": "Oil & Gas Refining & Marketing",
-        "direction": "positive",
-        "contextScore": 2,
+        "direction": "neutral",
+        "contextScore": 0,
         "articles": [
           {
             "title": "5 Energy Stocks Cashing In On The New Energy Crunch - Crude Oil Prices Today | OilPrice.com",
@@ -2463,6 +2454,21 @@
             }
           },
           {
+            "title": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends - Forbes",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVViMEpGZXdLUllsQmFyaVBjOGV4ZFpGdlh2b3RYdzBVeG13QTZIaHl1RGc4LW5FZmQ5OE9RLUtTV1NBNy1KMXNFQm9IMnVhemo0Rm84OC1zTlZhREphdkZ6SW5aMm5yNVJSYnBGV0FOYndDRy1ET3U4eGx0Rl9fcmdIUFU3NXhfc1FFOGNjaVZkMlpYdFhOanJhS185QWFTX0NEeTBBRm9JeUZaeGZBNlBEUkxXanJBUzBPT2NGMnY1dDZZMHZtSHVQOUFMN3o5?oc=5",
+            "published": "Tue, 26 Jul 2022 07:00:00 GMT",
+            "description": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends &nbsp;&nbsp; Forbes",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Top 10 Best Dividend-Paying Stocks in India for Passive Income - Sahi",
             "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2FGdGV3bV9QZTNobnZiU1drVDJKcHB0MGdWbmdyZVpYczdsT1NoMDdDX1ViWVh3SGI1cEJYQ2xoVkdCbGlyeFc0UHN2RGFzckVhRW93TWRhTmh6eTNCUzlCYzlpRFFZdzl5QWgtMDkyOUlBcV9VM0VIWHFtWEN1cTJrZ3J2VzlVdlE?oc=5",
             "published": "Mon, 15 Jun 2026 07:00:00 GMT",
@@ -2474,21 +2480,6 @@
               "positiveKeywords": [
                 "dividend"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends - Forbes",
-            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVViMEpGZXdLUllsQmFyaVBjOGV4ZFpGdlh2b3RYdzBVeG13QTZIaHl1RGc4LW5FZmQ5OE9RLUtTV1NBNy1KMXNFQm9IMnVhemo0Rm84OC1zTlZhREphdkZ6SW5aMm5yNVJSYnBGV0FOYndDRy1ET3U4eGx0Rl9fcmdIUFU3NXhfc1FFOGNjaVZkMlpYdFhOanJhS185QWFTX0NEeTBBRm9JeUZaeGZBNlBEUkxXanJBUzBPT2NGMnY1dDZZMHZtSHVQOUFMN3o5?oc=5",
-            "published": "Tue, 26 Jul 2022 07:00:00 GMT",
-            "description": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends &nbsp;&nbsp; Forbes",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -2513,16 +2504,18 @@
             }
           },
           {
-            "title": "SAUDI ARAMCO BASE OIL COMPANY - LUBEREF - marketscreener.com",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOGpkZWNiUnMtSUwxQ0Q1clpuUTV4aWFNbnFJWEZXYWJOQVdTNEMyUWlCb09aNUYxUTlaeUpJSHJSbHZ2MlNJeWRQandKRGNuWDZVTWFTQXdmS25GclhXNmdPekxBeFZhUEp3ZTJ6b3F1eHZOM0ItT0ZwMEFHd2JOWGN5QXlSNG8tSTdmTXhKRXY?oc=5",
-            "published": "Wed, 28 Dec 2022 17:21:52 GMT",
-            "description": "SAUDI ARAMCO BASE OIL COMPANY - LUBEREF &nbsp;&nbsp; marketscreener.com",
+            "title": "Mangalore Refinery And Petrochemicals Stock Price Forecast. Should You Buy MRPL.NS? - StockInvest.us",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMQVZhb29KSGJKU0tRMElOUEYyQ1pLQXRkUktKSHgzcThmYk5scWgzS0FYZ3ZfaU11NEl6Z3EwalFKd1kzRS1XZF9KSko?oc=5",
+            "published": "Tue, 08 Dec 2020 21:57:47 GMT",
+            "description": "Mangalore Refinery And Petrochemicals Stock Price Forecast. Should You Buy MRPL.NS? &nbsp;&nbsp; StockInvest.us",
             "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
+              "direction": "negative",
+              "impact": "medium",
+              "rawScore": -2,
               "positiveKeywords": [],
-              "negativeKeywords": [],
+              "negativeKeywords": [
+                "fine"
+              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -2558,10 +2551,10 @@
             }
           },
           {
-            "title": "Nuclear Energy Stocks Gaining Attention As India Builds Out Critical Power Equipment - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObXMzb2hDY0gzREpnTVFCeDFPOThmUWZJakwzdVZ1MVRyV1l0TWZxZ1lORU9nUFhYQkRMM1ZpS3VPUkI5Y3Z4VkdmS2FIeGc5dUhGMlJEaGxMMWhKY1Q4aFR4a1c4NUtEcTlqalBTQk5nZ2k1bl9GOTZvWnpqVmZwUUFKWVpYbDBiVGgxNkpNZVVCVjRXcWZCOHl6SVNvVmJzRVhFYWN4VEliaEh3U2ZRenEwZUhrZlBwNTlGcVh0eVpUUHdSdnNRM29KZS1Oa2p1MXlGQTBaSlM1VUN4RnozZWsxa09KQ3Yw0gHuAUFVX3lxTE44MjNQZFl1bGdXZER2QTN1OFNtenBNdGlRb3Z3VEJLX3ZWenN0dzVObldhV19MR3RudDNlbHZDT2k1ZDZIQW1KRzlUN1F3Z0t5ZmNPeFF4c1JtcmFOSTVhZVpxbmlJX1Ayem1IWGFwQ3M5bmdVYkp6U0Y1SkRmS1Y1aVJpVkVKMG5OWklqTE50aUM3UmY1akRZQTdLaEx2bWEwczhtZ1BrMzg5QnN0WDBZMVQxcTdHSkNySFFKZzEzaTVqUFZ0LVotZmNFN3c5ZVdGbld4MUtyMExBYVRWeFRMSUlCbk1tRXVOeEpsV2c?oc=5",
-            "published": "Thu, 20 Aug 2026 03:36:09 GMT",
-            "description": "Nuclear Energy Stocks Gaining Attention As India Builds Out Critical Power Equipment &nbsp;&nbsp; simplywall.st",
+            "title": "Top 10 Nuclear Energy Stocks in India 2026 - Sahi",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CWHdqMGQyYjVrbVFxQU5uTWVfX293U1I3TEdTSVZXcnM2SjZTRW1rS3NfbXpjMS1sbnc2aWFiYUVXNUZjWmo0azc4QWNxbHVBTktYM2VPUTZzd01QS2k2QXotaGFNVDZLYWRPUUFB?oc=5",
+            "published": "Mon, 17 Aug 2026 09:11:22 GMT",
+            "description": "Top 10 Nuclear Energy Stocks in India 2026 &nbsp;&nbsp; Sahi",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2573,10 +2566,10 @@
             }
           },
           {
-            "title": "Top 10 Nuclear Energy Stocks in India 2026 - Sahi",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CWHdqMGQyYjVrbVFxQU5uTWVfX293U1I3TEdTSVZXcnM2SjZTRW1rS3NfbXpjMS1sbnc2aWFiYUVXNUZjWmo0azc4QWNxbHVBTktYM2VPUTZzd01QS2k2QXotaGFNVDZLYWRPUUFB?oc=5",
-            "published": "Mon, 17 Aug 2026 09:11:22 GMT",
-            "description": "Top 10 Nuclear Energy Stocks in India 2026 &nbsp;&nbsp; Sahi",
+            "title": "Nuclear Energy Stocks Gaining Attention As India Builds Out Critical Power Equipment - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObXMzb2hDY0gzREpnTVFCeDFPOThmUWZJakwzdVZ1MVRyV1l0TWZxZ1lORU9nUFhYQkRMM1ZpS3VPUkI5Y3Z4VkdmS2FIeGc5dUhGMlJEaGxMMWhKY1Q4aFR4a1c4NUtEcTlqalBTQk5nZ2k1bl9GOTZvWnpqVmZwUUFKWVpYbDBiVGgxNkpNZVVCVjRXcWZCOHl6SVNvVmJzRVhFYWN4VEliaEh3U2ZRenEwZUhrZlBwNTlGcVh0eVpUUHdSdnNRM29KZS1Oa2p1MXlGQTBaSlM1VUN4RnozZWsxa09KQ3Yw0gHuAUFVX3lxTE44MjNQZFl1bGdXZER2QTN1OFNtenBNdGlRb3Z3VEJLX3ZWenN0dzVObldhV19MR3RudDNlbHZDT2k1ZDZIQW1KRzlUN1F3Z0t5ZmNPeFF4c1JtcmFOSTVhZVpxbmlJX1Ayem1IWGFwQ3M5bmdVYkp6U0Y1SkRmS1Y1aVJpVkVKMG5OWklqTE50aUM3UmY1akRZQTdLaEx2bWEwczhtZ1BrMzg5QnN0WDBZMVQxcTdHSkNySFFKZzEzaTVqUFZ0LVotZmNFN3c5ZVdGbld4MUtyMExBYVRWeFRMSUlCbk1tRXVOeEpsV2c?oc=5",
+            "published": "Thu, 20 Aug 2026 03:36:09 GMT",
+            "description": "Nuclear Energy Stocks Gaining Attention As India Builds Out Critical Power Equipment &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2623,10 +2616,10 @@
         "highImpactNewsCount": 0,
         "articles": [
           {
-            "title": "Is Now The Time To Look At Buying Samvardhana Motherson International Limited (NSE:MOTHERSON)? - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNGpaVGtoQWhROHV3MGoxUGV2STVLdzRWTlhpMXdMbDdNNmhieWNzZ2RZX1pER0psQmtEQlhwOWluLWdKdEI3Yk96c3J1N1JpWnN5eERYOEh4WDZJTTgtTWpOX0ljc0VpektXdHVsTUJGWmRxd1Jab1BZUm91bktNcGhUV0FDSkh6NGVpbV9MdnFUdjlPeVpOZkREd19haFg3dUROdnJ3cTcwMHRUSkVuR3JvSzM2eHByZDlFWi05MHhYRk55TjdUNUhGTUw1LTZVeEU0a19QcFJicGNGXzVXbVVOU0R1VzdkQXBJWHgwdWFOcHhabU1EZmpDZHbSAYICQVVfeXFMTVJKclNyOHE5RjVDOFJyRVB2SjhLTVRfRVBGRjBNV0E2V1ZCTzZUMkFrWl9uYXM1UDB4WFJiRkhkcGg0WU9GUjdBa0Y5SENzNEJzcGFMckszaVJuanltSThOdGRsb3JxclN0blA2aW4wZXNSN3JiSmI4Qk1IbHhXbkwxWm0yYks3UFZuODg0V2MxV19saTdvcWljT0lKU3Rmc2VfNVl6UTRpN2Q4eTFVWnktRGNjdXBtNHlCeHU1WUcySVlfbVJCQ18yWVh1RG9ERlFfT1lrME1RbllnZ1djczl0dWFRc1YzcmkxZVUxZTFla2pZMm1QRUU1X29EYURGbFZB?oc=5",
-            "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-            "description": "Is Now The Time To Look At Buying Samvardhana Motherson International Limited (NSE:MOTHERSON)? &nbsp;&nbsp; simplywall.st",
+            "title": "Motherson Sumi Wiring India Limited Just Missed EPS By 30%: Here's What Analysts Think Will Happen Next - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaU92NW00Y0dhMWs1TDdvdUlQNFU3alI2UDY5RG1taG9TODV1b01vRjlBekJSay1fT3phVWtiTUgyc1BWQ1B0MUpJUzItZFlELXZJS2V1dFNUY0NDZEJMSzVBaEdtTjhlcEt0OHVlbmV5R2NHLTU5Z2lSb2lYd003aUZHRHZQeVFTUzJ3bTBpVzgxWnY1ZEJ2V1BxUFBzMVRxUVBHUFpBVE9NSk1ZWlhJaEFZS2RuQkFCa1REV3ppZkhieml4VUdCUlBZaXB6Z2g3NDhSaFdDTDR1TjNqemhpSjdwVEVIWl9kYXfSAe8BQVVfeXFMTnRHWHRJVWpJckY3OUswZ0pHaThuZGRmU2V4dG0zRlNJb0RqVHVzLUdpQl9veDVSTFFhNjI3bWZBa09Gam11cV82c1ZlVXVWTzRuM2ZKdFhyM3JiOEVWblQ1T0wxYTBZVk56ZVRyNFBBVTJsTnB6alZHNzlwUlIxSmIwNFdGSzNsNkJvUFU2c0s3cWRRNGNYbzJPcmVYZ09TSlRGRzJvbGdjdl9Eell5b0JVam9Hd25OYWFFWnNpd1Y0ZWhpU08xR0RBZGxQN2NpSU95UjJkLVlTWjZGV1NlSWNMTTlIU0hHWW95dGtXYjQ?oc=5",
+            "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+            "description": "Motherson Sumi Wiring India Limited Just Missed EPS By 30%: Here's What Analysts Think Will Happen Next &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2700,17 +2693,15 @@
             }
           },
           {
-            "title": "Samvardhana Motherson International (NSE:MOTHERSON) Could Be A Buy For Its Upcoming Dividend - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRW9ERzU1dWdGSTdiVzhfSkhwQkU3cUNYdklNbUhlYUZBQm85aDd0NWM4aVMzRUl2LS1kTEtYalpyMTNMUkh2aWRMSUkxa29lNHU3ck9HaTFjLVg5Q3dWblFhMkxSTWlwZ19oTkdDSVRuTHhadU1TZ0ZXUndKRlEyTHJLRDVyMlcxYUVOXzhVNW9qQ2dQUldGc3F3RWwwVmVlNjNfbEhibU5tWmg2bmxTZ3pyNGd4cmthMThocVBTeW0tRU5sSkNQeEFCNnJab2VoQ19ZM3E4RG5aWmxQNDd0TUtyMWxJRDRsNUhrbXB4dW1mTDZlNXpYNtIB_gFBVV95cUxPeVdxdUIwRzhoVEdyOUJmUXNmVWdRZjFGNG5XRWx5UWpUbE9hQ1h2LVdoUkNSUFR2MGRCblA4aEpNeXAzTkFJUDZJUHpGekNUc2tsam1BajhIaVU3bk5RcHRFQXJYZU53U195R2owY1dxUHlGcU1GZk0wVmVMdi1lNlVoZ3BTdXcySjJINXdBRk0tdXo2YXl1c2JvNEZzdUVvenROR3ZnTGUyLW1IcHl6YzFoUXl4b05zVEpHZXNmcXV2QmhRckpQM1FXRzF1b3lDbmlIZzNCb2hiT1BfRnRUYUNBb205UW1mMW9tS3I4VXFKZnMzX2RTbVNRc1hkUQ?oc=5",
-            "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-            "description": "Samvardhana Motherson International (NSE:MOTHERSON) Could Be A Buy For Its Upcoming Dividend &nbsp;&nbsp; simplywall.st",
+            "title": "Is Now The Time To Look At Buying Samvardhana Motherson International Limited (NSE:MOTHERSON)? - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNGpaVGtoQWhROHV3MGoxUGV2STVLdzRWTlhpMXdMbDdNNmhieWNzZ2RZX1pER0psQmtEQlhwOWluLWdKdEI3Yk96c3J1N1JpWnN5eERYOEh4WDZJTTgtTWpOX0ljc0VpektXdHVsTUJGWmRxd1Jab1BZUm91bktNcGhUV0FDSkh6NGVpbV9MdnFUdjlPeVpOZkREd19haFg3dUROdnJ3cTcwMHRUSkVuR3JvSzM2eHByZDlFWi05MHhYRk55TjdUNUhGTUw1LTZVeEU0a19QcFJicGNGXzVXbVVOU0R1VzdkQXBJWHgwdWFOcHhabU1EZmpDZHbSAYICQVVfeXFMTVJKclNyOHE5RjVDOFJyRVB2SjhLTVRfRVBGRjBNV0E2V1ZCTzZUMkFrWl9uYXM1UDB4WFJiRkhkcGg0WU9GUjdBa0Y5SENzNEJzcGFMckszaVJuanltSThOdGRsb3JxclN0blA2aW4wZXNSN3JiSmI4Qk1IbHhXbkwxWm0yYks3UFZuODg0V2MxV19saTdvcWljT0lKU3Rmc2VfNVl6UTRpN2Q4eTFVWnktRGNjdXBtNHlCeHU1WUcySVlfbVJCQ18yWVh1RG9ERlFfT1lrME1RbllnZ1djczl0dWFRc1YzcmkxZVUxZTFla2pZMm1QRUU1X29EYURGbFZB?oc=5",
+            "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+            "description": "Is Now The Time To Look At Buying Samvardhana Motherson International Limited (NSE:MOTHERSON)? &nbsp;&nbsp; simplywall.st",
             "classification": {
-              "direction": "positive",
-              "impact": "medium",
-              "rawScore": 2,
-              "positiveKeywords": [
-                "dividend"
-              ],
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -2732,15 +2723,17 @@
             }
           },
           {
-            "title": "Motherson Sumi Wiring India Ltd. Share Price Live Today - CNBC TV18",
-            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZVdlekZXbnhDMEdTTjhOd1RLZFlKeldnTE1aTlZ6WmI1NDR5YW1WSEhScUtrQU1xOURyZmNyaTdPRmQzSTNCSkZtT2taNmlrTnAyUy1HWTZlQ2RzdGE1VVRfNW5Sc2ozNnNsa290dlVfOFhxSHppd2NwczFtdW5JNm81TC04OTc1VEtSeGo1cU50Vmdt?oc=5",
-            "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-            "description": "Motherson Sumi Wiring India Ltd. Share Price Live Today &nbsp;&nbsp; CNBC TV18",
+            "title": "Samvardhana Motherson International (NSE:MOTHERSON) Could Be A Buy For Its Upcoming Dividend - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRW9ERzU1dWdGSTdiVzhfSkhwQkU3cUNYdklNbUhlYUZBQm85aDd0NWM4aVMzRUl2LS1kTEtYalpyMTNMUkh2aWRMSUkxa29lNHU3ck9HaTFjLVg5Q3dWblFhMkxSTWlwZ19oTkdDSVRuTHhadU1TZ0ZXUndKRlEyTHJLRDVyMlcxYUVOXzhVNW9qQ2dQUldGc3F3RWwwVmVlNjNfbEhibU5tWmg2bmxTZ3pyNGd4cmthMThocVBTeW0tRU5sSkNQeEFCNnJab2VoQ19ZM3E4RG5aWmxQNDd0TUtyMWxJRDRsNUhrbXB4dW1mTDZlNXpYNtIB_gFBVV95cUxPeVdxdUIwRzhoVEdyOUJmUXNmVWdRZjFGNG5XRWx5UWpUbE9hQ1h2LVdoUkNSUFR2MGRCblA4aEpNeXAzTkFJUDZJUHpGekNUc2tsam1BajhIaVU3bk5RcHRFQXJYZU53U195R2owY1dxUHlGcU1GZk0wVmVMdi1lNlVoZ3BTdXcySjJINXdBRk0tdXo2YXl1c2JvNEZzdUVvenROR3ZnTGUyLW1IcHl6YzFoUXl4b05zVEpHZXNmcXV2QmhRckpQM1FXRzF1b3lDbmlIZzNCb2hiT1BfRnRUYUNBb205UW1mMW9tS3I4VXFKZnMzX2RTbVNRc1hkUQ?oc=5",
+            "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+            "description": "Samvardhana Motherson International (NSE:MOTHERSON) Could Be A Buy For Its Upcoming Dividend &nbsp;&nbsp; simplywall.st",
             "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "dividend"
+              ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -2752,7 +2745,7 @@
         "sector": "Consumer Cyclical",
         "industry": "Auto Parts",
         "direction": "positive",
-        "contextScore": 2,
+        "contextScore": 4,
         "articles": [
           {
             "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - Samco",
@@ -2849,6 +2842,38 @@
             }
           },
           {
+            "title": "Axis Nifty Consumption ETF - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfcTl6c2phcDE3YjExeWUyZ0ZvV2dNdl95TTBkUTFULU8xYy1laXA5WVdUQ2dyUjBMY0JFNFZhMmZvWnFXaDhhQzZHT1VMeG5qYUdQUy0zUGxNam9FNDdlWF9peFR3WG9QR3R5a3p2dlNOOGtDUE5V?oc=5",
+            "published": "Fri, 03 Jul 2026 12:34:47 GMT",
+            "description": "Axis Nifty Consumption ETF &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40dTM3RFpocTdfZHh4dXcwaWJKeFlVcnk4cjRmNW83VjYxT3M1YTM3d0RUdFNEVVhoT0x2ck5KSllFcENnVzd6SHg2UkxJbEppMlpZV2NVUjF0UldJWFlkcW1KdzRaaDI5aFdqWC1UcjB3T1U?oc=5",
+            "published": "Wed, 25 Mar 2026 02:20:25 GMT",
+            "description": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History &nbsp;&nbsp; HDFC Sky",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Dip-buying drives Singapore stocks higher as retail investors pile in amid Iran conflict - The Straits Times",
             "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUmVqZUJNQWs0dkxPY25KU3NHWmhMaEN1eUdjbEd2OTY5dUFUZ1JOUGRMMVNOdUhvdjB1SmtZbDBlNEt5eTlzVmw1SUhoSDBYWElJSzZzREp0cEV1YVZDUVEzbS10aFU5dzhmdzRuM253R0dhdEdyQzZxUUNJUjc4dXlZYjBDeVZjcFJyR3JjdGw0VDAwb0MwLUxjUUw2ZUNEb2wzS0xBQVQ5SXNiblR5ZnBPTFVIWGxSbENtOW1oRQ?oc=5",
             "published": "Sun, 29 Mar 2026 07:00:00 GMT",
@@ -2871,36 +2896,6 @@
             "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzB5VjBScjJIVmZPbHJmNzhBcUtjQzZON3lpQ2gxWk1JZk1RWUJaRDZwQjdXaHhRR1lYRW14R1pMajVBbHl1U3JVTFBWaWdhWnVzMnZRVjFvUzQ1TGppbTBCdTA4MDJENlFDM0g2N2loWWQzT2NRQ2pHb3dXbHl3Y3BGWGhISVMycUc2VGZSVGFEdUU?oc=5",
             "published": "Thu, 06 Nov 2025 08:00:00 GMT",
             "description": "Nifty 50 Extends Winning Streak with 4.51% Monthly Rise &nbsp;&nbsp; India Infoline",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Is the Selloff in Indian Stocks a Buying Opportunity? - Morningstar",
-            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZkZhX2RfRGJsYXNrbmRYQXFfVlkzMU1YSmtKVFA0aElETHJLUlZQSjFRalJpZ1poNFg1TDcyLWY3NFlkdXppMGFxXzhyNG5fRUhkcFRBb0lXNE9hSFoxS0t5OE1ZRUR5cWxzYkozNHQ5RDFUNEY3MWg1Ql92azJVQkhMREwyQQ?oc=5",
-            "published": "Wed, 26 Mar 2025 07:00:00 GMT",
-            "description": "Is the Selloff in Indian Stocks a Buying Opportunity? &nbsp;&nbsp; Morningstar",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aZXNpZDVwRVlnaUViVXZLOHZxeEF6Z2ozT1FCYUQ1MUxlRDFFWXNuNGlsTFRzSzZDbzNWX3dzSmxhclJhaW5PR0F6aVRucDdUa1VKRG9Uc2t0WU1RV3VLUXF2TDR2VGpXVlZ4VEcwcC1BNVBUWklYMg?oc=5",
-            "published": "Wed, 12 Nov 2025 02:07:17 GMT",
-            "description": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today &nbsp;&nbsp; livemint.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3109,10 +3104,10 @@
             }
           },
           {
-            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
-            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
-            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3124,10 +3119,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
+            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
+            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3154,10 +3149,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -3373,23 +3368,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -3443,10 +3421,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3552,9 +3545,9 @@
         "company": "National Aluminium Company Limited",
         "sector": "Basic Materials",
         "industry": "Aluminum",
-        "overallDirection": "neutral",
+        "overallDirection": "positive",
         "overallImpact": "low",
-        "newsScore": 0,
+        "newsScore": 2,
         "highImpactNewsCount": 0,
         "articles": [
           {
@@ -3622,6 +3615,23 @@
             }
           },
           {
+            "title": "National Aluminium Company shares surge 14% in five sessions, hit record high; here is why - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdW5xOU1YNGszWGlRVTFsa1ZseXhzM3c3Uy1scWRuUkhMUWJ0aDl1U1dXX1FjTGFtbnBHcGR0cnZhSEI1YTl5RUtsSnN5OFBleXctUmluVW1uU085MXNsOVZ6VVdHcFFrcFQ0TFRIbDRKZXFvOE8tcWJZb24xbUhMMDZ3dWFYYXlqT0NvS3lKdHZQcnRlVlc5UC1pMjVENFFPakVkWENCZDdqeTFVOEpucWlBMzIzenRxWFozTUhIa1RYQV9fUC1TN0Nn?oc=5",
+            "published": "Wed, 07 Jan 2026 08:00:00 GMT",
+            "description": "National Aluminium Company shares surge 14% in five sessions, hit record high; here is why &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "record"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "National Aluminium Company Limited - Kalkine",
             "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55SzRxTzdVdkU3X3FpU25talpBSzhfSXRjWnZOU2xaLUE0N1FYLTNLRS1wMXEydnJqMTRDejZUMHZGN1FkUExqZU8wM055WHJlaUJ0ZmRPaXpaYThxdzhZSnZMaW9PSTZaNFJPZE9yZkYtY2ZiTnc?oc=5",
             "published": "Wed, 22 Jul 2026 07:00:00 GMT",
@@ -3656,21 +3666,6 @@
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMUh0c1h5WXVhRVM0OFF6cEhfRUFheTVveFJaeGpqbmZyMS10TGd1eXVxUjhpTEJQWDFRcm1HWW85RjZadGlGMk4wQmZQM3dpWGlhTFJJczNUdGFKbVFSc1lvZWlMRFpxV0tvWTBabjlJTjhRRGprcDd6WjhMSEQ3TDZZQnF2MURPeHZkMjI1aERjU2hsR1RZWHUybF94WlIzNm1RcHhfWVNselFULUxnVWNiUXAwNmtkZmRwaXV6ZWw?oc=5",
             "published": "Thu, 04 Jun 2026 07:00:00 GMT",
             "description": "President of India confirms no encumbrance on Nalco shares in FY26 &nbsp;&nbsp; scanx.trade",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "National Aluminium (NATIONALUM.NS) Gains 1.5% – Approaching Key Resistance at ₹403 - High Volume Stocks - Vinanet",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORDR4VlpNM3lfa0lWZEhGal9zdzZTcmlsZmZfbk9yWWZuRXJqRTdPSWhSNWJjUDVRVGNQakR5MG00cUx3TVJfbTF5RWc2MlRTbGRJQW5TTHM4bWhOVkU2N3N4Z2g3Qi1FRVFUSUw1bnpVaFZpUDB3MTQ1cjNHb1h3dVRKYWR1NmNvMDVqVFViaUtuNkVQa2hEaHZzRmhfOWlXOUNoRUFZSUs4RHF6RXJGZHg1SXZ0dw?oc=5",
-            "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-            "description": "National Aluminium (NATIONALUM.NS) Gains 1.5% – Approaching Key Resistance at ₹403 - High Volume Stocks &nbsp;&nbsp; Vinanet",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3788,10 +3783,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -4002,23 +3997,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -4072,10 +4050,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4285,10 +4278,10 @@
             }
           },
           {
-            "title": "NSE removes Exide Industries and Nuvama Wealth from F&O segment - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGdkc2RVaVQyUlBULXNVX0VjT2hNQ3lNbFRQemZSbWZkSXhSakxHcnJrRTgtVzE5bGhfZEYxTmZpRk1xRDlzZmlFUnZRREJwaVVZRzFfaDNaT3BNSnBuazRFNk80OXpPb0FVQ3d1UEFZYThIYl9JdTg2cjVROThucndaQ1dLQ3J1TEh2Rlpxb3NyWTg1a0tOUzNoU0c5dXJ0TjJtazRsNVN4TFdLUEZnRkxvOThENTVsampPTtIBwgFBVV95cUxQLXVqOFhHVnM2N1pTaWxTSi1UVUZBRUdIbmtKck1RdTI2dzJTN1VoeEQ5MGdlZWxNTHFocEFGQ0ZIUDJkR1FzV0R0YnE4YzFLYkFUSGJhaG9WU2oxaF9vQ2hhMmdYNjZzaGI4TWJ0eDhKbXM4cGlXN0tZaGZJZV9PdFh0UGN0SUNnWXBtbW9fNFJ5Nk9pV1FGZzBaS0dTeU90YjZMNXhDQ2FIdzB4T2RKRUd0RHp1T1FzZ2ZiWUZNVFlUZw?oc=5",
-            "published": "Fri, 22 May 2026 07:00:00 GMT",
-            "description": "NSE removes Exide Industries and Nuvama Wealth from F&O segment &nbsp;&nbsp; Moneycontrol.com",
+            "title": "Exide Industries Ltd - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwMU9FaEFUZmxJZXd4eW9XNGZlc2tGR0ZVTDNzcFNabHVPYU10UTBIWkIxNmdxZmxtVGRYY3JocktoVG54alk3NUlKTlRvOENrcGo0a2cyTW83YlRMODExV3k5OA?oc=5",
+            "published": "Sun, 07 Sep 2025 14:05:54 GMT",
+            "description": "Exide Industries Ltd &nbsp;&nbsp; Equitypandit",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4300,10 +4293,10 @@
             }
           },
           {
-            "title": "Exide Industries Ltd - Equitypandit",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwMU9FaEFUZmxJZXd4eW9XNGZlc2tGR0ZVTDNzcFNabHVPYU10UTBIWkIxNmdxZmxtVGRYY3JocktoVG54alk3NUlKTlRvOENrcGo0a2cyTW83YlRMODExV3k5OA?oc=5",
-            "published": "Sun, 07 Sep 2025 14:05:54 GMT",
-            "description": "Exide Industries Ltd &nbsp;&nbsp; Equitypandit",
+            "title": "NSE removes Exide Industries and Nuvama Wealth from F&O segment - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGdkc2RVaVQyUlBULXNVX0VjT2hNQ3lNbFRQemZSbWZkSXhSakxHcnJrRTgtVzE5bGhfZEYxTmZpRk1xRDlzZmlFUnZRREJwaVVZRzFfaDNaT3BNSnBuazRFNk80OXpPb0FVQ3d1UEFZYThIYl9JdTg2cjVROThucndaQ1dLQ3J1TEh2Rlpxb3NyWTg1a0tOUzNoU0c5dXJ0TjJtazRsNVN4TFdLUEZnRkxvOThENTVsampPTtIBwgFBVV95cUxQLXVqOFhHVnM2N1pTaWxTSi1UVUZBRUdIbmtKck1RdTI2dzJTN1VoeEQ5MGdlZWxNTHFocEFGQ0ZIUDJkR1FzV0R0YnE4YzFLYkFUSGJhaG9WU2oxaF9vQ2hhMmdYNjZzaGI4TWJ0eDhKbXM4cGlXN0tZaGZJZV9PdFh0UGN0SUNnWXBtbW9fNFJ5Nk9pV1FGZzBaS0dTeU90YjZMNXhDQ2FIdzB4T2RKRUd0RHp1T1FzZ2ZiWUZNVFlUZw?oc=5",
+            "published": "Fri, 22 May 2026 07:00:00 GMT",
+            "description": "NSE removes Exide Industries and Nuvama Wealth from F&O segment &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4320,7 +4313,7 @@
         "sector": "Consumer Cyclical",
         "industry": "Auto Parts",
         "direction": "positive",
-        "contextScore": 2,
+        "contextScore": 4,
         "articles": [
           {
             "title": "Top 56 Auto Ancillary Stocks In India For August 2026 - Samco",
@@ -4417,6 +4410,38 @@
             }
           },
           {
+            "title": "Axis Nifty Consumption ETF - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfcTl6c2phcDE3YjExeWUyZ0ZvV2dNdl95TTBkUTFULU8xYy1laXA5WVdUQ2dyUjBMY0JFNFZhMmZvWnFXaDhhQzZHT1VMeG5qYUdQUy0zUGxNam9FNDdlWF9peFR3WG9QR3R5a3p2dlNOOGtDUE5V?oc=5",
+            "published": "Fri, 03 Jul 2026 12:34:47 GMT",
+            "description": "Axis Nifty Consumption ETF &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40dTM3RFpocTdfZHh4dXcwaWJKeFlVcnk4cjRmNW83VjYxT3M1YTM3d0RUdFNEVVhoT0x2ck5KSllFcENnVzd6SHg2UkxJbEppMlpZV2NVUjF0UldJWFlkcW1KdzRaaDI5aFdqWC1UcjB3T1U?oc=5",
+            "published": "Wed, 25 Mar 2026 02:20:25 GMT",
+            "description": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History &nbsp;&nbsp; HDFC Sky",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Dip-buying drives Singapore stocks higher as retail investors pile in amid Iran conflict - The Straits Times",
             "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUmVqZUJNQWs0dkxPY25KU3NHWmhMaEN1eUdjbEd2OTY5dUFUZ1JOUGRMMVNOdUhvdjB1SmtZbDBlNEt5eTlzVmw1SUhoSDBYWElJSzZzREp0cEV1YVZDUVEzbS10aFU5dzhmdzRuM253R0dhdEdyQzZxUUNJUjc4dXlZYjBDeVZjcFJyR3JjdGw0VDAwb0MwLUxjUUw2ZUNEb2wzS0xBQVQ5SXNiblR5ZnBPTFVIWGxSbENtOW1oRQ?oc=5",
             "published": "Sun, 29 Mar 2026 07:00:00 GMT",
@@ -4439,36 +4464,6 @@
             "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzB5VjBScjJIVmZPbHJmNzhBcUtjQzZON3lpQ2gxWk1JZk1RWUJaRDZwQjdXaHhRR1lYRW14R1pMajVBbHl1U3JVTFBWaWdhWnVzMnZRVjFvUzQ1TGppbTBCdTA4MDJENlFDM0g2N2loWWQzT2NRQ2pHb3dXbHl3Y3BGWGhISVMycUc2VGZSVGFEdUU?oc=5",
             "published": "Thu, 06 Nov 2025 08:00:00 GMT",
             "description": "Nifty 50 Extends Winning Streak with 4.51% Monthly Rise &nbsp;&nbsp; India Infoline",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Is the Selloff in Indian Stocks a Buying Opportunity? - Morningstar",
-            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZkZhX2RfRGJsYXNrbmRYQXFfVlkzMU1YSmtKVFA0aElETHJLUlZQSjFRalJpZ1poNFg1TDcyLWY3NFlkdXppMGFxXzhyNG5fRUhkcFRBb0lXNE9hSFoxS0t5OE1ZRUR5cWxzYkozNHQ5RDFUNEY3MWg1Ql92azJVQkhMREwyQQ?oc=5",
-            "published": "Wed, 26 Mar 2025 07:00:00 GMT",
-            "description": "Is the Selloff in Indian Stocks a Buying Opportunity? &nbsp;&nbsp; Morningstar",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aZXNpZDVwRVlnaUViVXZLOHZxeEF6Z2ozT1FCYUQ1MUxlRDFFWXNuNGlsTFRzSzZDbzNWX3dzSmxhclJhaW5PR0F6aVRucDdUa1VKRG9Uc2t0WU1RV3VLUXF2TDR2VGpXVlZ4VEcwcC1BNVBUWklYMg?oc=5",
-            "published": "Wed, 12 Nov 2025 02:07:17 GMT",
-            "description": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today &nbsp;&nbsp; livemint.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4632,23 +4627,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -4702,10 +4680,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4811,9 +4804,9 @@
         "company": "Bharat Heavy Electricals Limited",
         "sector": "Industrials",
         "industry": "Specialty Industrial Machinery",
-        "overallDirection": "positive",
+        "overallDirection": "neutral",
         "overallImpact": "low",
-        "newsScore": 2,
+        "newsScore": 0,
         "highImpactNewsCount": 0,
         "articles": [
           {
@@ -4821,21 +4814,6 @@
             "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFBiSExfMWR6ZWdOOWduY0V3bG5xT2pxX1QtS3g0dThLUFpPSFVrbWVsUFRqRWJPSkxBc1RjVzg4NkJNdjJVWFZ4eEdXdG1CWEFVeGpIVkh6UzdIMFE2QjluMTN5RkJWMGxwVHQ1N2NjUzgwMEpESzVXc2pKLV8wSTdJOFZSdTFrd2NZMFNta2M5c19vZG1F?oc=5",
             "published": "Tue, 18 Aug 2026 15:51:00 GMT",
             "description": "BHEL Share Price Today, BHEL Stock Price Live NSE/BSE Updates &nbsp;&nbsp; The Economic Times",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "BHEL Share Pros and Cons 2026: India's Power Plant Maker at Elevated 59x PE - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96TVhKTEdaN252TlltRUNmcU12TlNBVm9oQjRIWXF5M1ZMelUtTUQ4djJtNWU2a1NKclhxcU1hVGxETk5LY2sxUDN6T0NuM2FKWXctdTV2eHh6UnFBZDUxUFVPTXlBZw?oc=5",
-            "published": "Fri, 07 Aug 2026 07:39:00 GMT",
-            "description": "BHEL Share Pros and Cons 2026: India's Power Plant Maker at Elevated 59x PE &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4911,6 +4889,23 @@
             }
           },
           {
+            "title": "BHEL Receives ₹10.86 Lakh Fine from BSE and NSE for Board Composition Non-Compliance - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFlVX0R1Zzdvb3BtOVJvcThDU2FoM3k1dHpXeTc1ZU91RTVsRThhVnZnZlY4WGlHa3FjZWpLZEtsZGtpM2hFSUtaQnpYdkwzYnZvOEtwVENDZVo4QUhXYkxfb3lmWVM2QXRhNGc3UkxrNVJMbXAtS3NmTFk1aWZTY210cTFub2F1aVFpMFNSV3U3cmMwSUJMLXg5SlRrN2FJNnhFeV9OSEUzOHlCZVcwT1hlaGh6SUVMMm5IX2F3dU9Fa3gzSXNnVkRYZ2Z1YWt5Y2Nj?oc=5",
+            "published": "Mon, 02 Mar 2026 08:00:00 GMT",
+            "description": "BHEL Receives ₹10.86 Lakh Fine from BSE and NSE for Board Composition Non-Compliance &nbsp;&nbsp; scanx.trade",
+            "classification": {
+              "direction": "negative",
+              "impact": "medium",
+              "rawScore": -2,
+              "positiveKeywords": [],
+              "negativeKeywords": [
+                "fine"
+              ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Bharat Heavy Electricals' (NSE:BHEL) Solid Earnings Are Supported By Other Strong Factors - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNkJCTm1TeWdmVGpqbk5UY0gxTVpoMUpNRHg2VFJaVGtYQ1J1SEZ3QnFXQmJRakc1YnJQRmpPR2ZmRWFac3M5dWFjLUVHR0o4WTVsNUtYa09UOUJaU0txZEl0djdyZ0RfRjRSQm5kcld5RDNzekNmQ1RWOG1MeFpWaktzUm9lNUgyVWl5Tm00VjFkSmtMS0pIT1hSV1dVQ3JfMlVoYTBsUElrOXlSbk9EcW84NXhCUmtoTWl4VlZldlVVNm52MEl1WVJOZGtfcnp2QzNJV0xPamg5bkJFeHRGQXBvRkZuU0nSAewBQVVfeXFMTWctaFRZbXh4Ti1OdHRfbW1KbEFOSklfT0haVUkxcEVSLTlaQWR3Qy1yYlEtRC1UbUFsTnhQb2NkVS1lZW14VW5tN0YybUMyZ2lFWWM2TUhwUFd2ZWRGbThTUkVlU1dOQ1NXdGd0VjJjU3M5ZW4wMi1ITllPemR6cHNMUTRZR0F0YlJIaEtyMXctVHRiZm9tWkZRTlZqcEZYa3h6ajE1UkVCeVN5ajlmMEVIajBrcEFRQzR5a2xsckkwQ3JtekV6YTExdmowWnhwekxvN05vYlloM2p2Y2ZoXzFHMklnN3pvdnFSWFk?oc=5",
             "published": "Tue, 12 May 2026 07:00:00 GMT",
@@ -4951,6 +4946,21 @@
         "contextScore": 2,
         "articles": [
           {
+            "title": "Stock List: Research Stocks from Around the World - GuruFocus",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZcEprVXVfQ285NUdFcHAxQTFxWWwzZTVtdG1Ib0IxVDlzMmpWYjhjTHlpREd5M0RKdEJGdWJIYXZINEpoRF90TzJvcGRRNTVVM3ljeUQzRmJIMmFGdkJnNTBR?oc=5",
+            "published": "Wed, 12 Aug 2026 14:45:31 GMT",
+            "description": "Stock List: Research Stocks from Around the World &nbsp;&nbsp; GuruFocus",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "If You Invested $1,000 in Tpi Composites (TPIC) - Stock Titan",
             "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03c0h4MEN3d242ZGl4TW5JUFhESkZ3S3dnWlZpRWUwMUJpaWI1elpEazV5MWIzWWhuZHhYOG1KUzFfYXQ4bjlPTjBxbk1lZU40dUxEN2U4aWZhd2lsekZKSWJNOHhQeExRRlZ4X1ZR?oc=5",
             "published": "Sat, 04 Jul 2026 07:25:03 GMT",
@@ -4983,21 +4993,6 @@
             }
           },
           {
-            "title": "MTAR Technologies Limited (MTARTECH.BO) stock price, news, quote and history - Yahoo Finance Singapore",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kMUJTZEYtdDRHYVhPeW9OQUVXOTlpcHl4OHhyS3Q5NkRSTjZvQWJ1cTM3SzVsMWFOZHBnM3FmeGttQ21NQ2VTSDlWTVZxZ0tCSF90QWpMTng5WWc?oc=5",
-            "published": "Mon, 21 Feb 2022 08:00:00 GMT",
-            "description": "MTAR Technologies Limited (MTARTECH.BO) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance Singapore",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Yuken India Limited (YUKEN.NS) stock price, news, quote and history - Yahoo Finance Singapore",
             "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ST253NFVwMTE0Y091TTZmei01N2R0c2xnbEJNWmNObUFxUUc3T21TMHJ2UF9ZQkg0eUhpZUxYY2Vqd3IyUEFzQ29qZ3MyUmF1cGFLRTNnUQ?oc=5",
             "published": "Mon, 22 Jul 2024 16:36:42 GMT",
@@ -5013,10 +5008,10 @@
             }
           },
           {
-            "title": "Asia Stocks: Research Stocks from Asia Stock Market - GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmSlBTNDdLSmNfVFhnN2RwMXgxdDVzSWh5eEt1RjR5aUFXVWdsc0MyQXF3UWtLcFZCbTV6LTREaDBNWXZsSmR5d05Cd2I2TXJFQk5MV2lSQUhTQ041Zm9KdTZmWQ?oc=5",
-            "published": "Wed, 12 Aug 2026 19:01:25 GMT",
-            "description": "Asia Stocks: Research Stocks from Asia Stock Market &nbsp;&nbsp; GuruFocus",
+            "title": "Everest Kanto Cylinder Limited (EKC.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3SzRCTTd0d0JUd2xWN3BNc1NhclV4RDNYM1BfcXJNNWNXQjdZYUp1UWM3YnRZM2ZCd0hHRTRvT0FYbTlsN1pTbEx2dHRjb3NnODRPSw?oc=5",
+            "published": "Fri, 12 May 2017 13:38:53 GMT",
+            "description": "Everest Kanto Cylinder Limited (EKC.NS) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance Singapore",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5276,10 +5271,10 @@
             }
           },
           {
-            "title": "CONCOR Forecast — Price Target — Prediction for 2027 - TradingView",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWT183Ym1UNmFuWlcyTGN6SEVoYXQ2WUFfemtLelZnal9UVmNEWmhGUXMtUmlTdGVWY3RBOTMxUHZZTjdsbmJGdm0tWGFoUWk1d0k5bW9JWVNIclNsUU9LSHZPY19qTG1FRUV5ZXhNSnRNYkwtczJGaQ?oc=5",
-            "published": "Thu, 25 Jun 2026 18:14:53 GMT",
-            "description": "CONCOR Forecast — Price Target — Prediction for 2027 &nbsp;&nbsp; TradingView",
+            "title": "India File: Reforms to star in budget's big reveal - Reuters",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcktEWVgwaGM4Nk0wbi1CRXJwdXIwMDVDRW11S3o2cWlxNU1GYmZuQkxvaXJ2RnUtVHJpVjc1TkhDSnI4dkpsaENRUlgtRVUxWFRoVGtDZWZRUzl4VDZwS1hRYVRSaDl1aTVUckdFQ1E1d0p1c1BxazhsSS12UXNjMlNnMkt1bW5QX3ZVdWo4d25YQW84?oc=5",
+            "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+            "description": "India File: Reforms to star in budget's big reveal &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5291,10 +5286,10 @@
             }
           },
           {
-            "title": "The Algo Raj: Political risks of tech oligarchy - The New Indian Express",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZVTzhiY3NScWFHX3BUUG9zWTIyOFBUaVo3NnBBZTZyMTViZVdmaVpMM1MtOGs1NkF5c1ZYOFdiLWQ4cGlQdGVxMHpiS3JzUXFfRVF2N19Tc0JhbnlrWUUxNWRhaXpHWGVGaHJGZUdFZXBxMk9NSWdBUUpVamx2bk9IZ2Y4SGdoMmI1aFgzNFBiSjUxZDhiMjVZdUY0YUNfdmF2VW1OdmJtOU5XX0JTajF5bU9iZ0lYV3M1aWQ4Z9IBzAFBVV95cUxNcndUelFaRjYxd2ZUVXJ4YVJpMXJhT3VnejIyNzZEdTFBSWdKazVSSm94b1RWWXpZdDU5eGJPZXpnRkx0R2JPODlaS1NFNTUybVRjX2tQV1NGNkk0OVJ3aFRtWFhYa0RGWW90X2pBX2NaeTJLVXlLM0dxby1yVDBnMF9JOHNiaWthU2NJSThJSXgxcHlEb2N2MlJyNkU3MW9QNElsaGx3V2ZCOTNWcGxveExBTFBMbWpZSnRTbDc5SWY3S21GMGZMMW95NVU?oc=5",
-            "published": "Sat, 13 Jun 2026 07:00:00 GMT",
-            "description": "The Algo Raj: Political risks of tech oligarchy &nbsp;&nbsp; The New Indian Express",
+            "title": "CONCOR Forecast — Price Target — Prediction for 2027 - TradingView",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWT183Ym1UNmFuWlcyTGN6SEVoYXQ2WUFfemtLelZnal9UVmNEWmhGUXMtUmlTdGVWY3RBOTMxUHZZTjdsbmJGdm0tWGFoUWk1d0k5bW9JWVNIclNsUU9LSHZPY19qTG1FRUV5ZXhNSnRNYkwtczJGaQ?oc=5",
+            "published": "Thu, 25 Jun 2026 18:14:53 GMT",
+            "description": "CONCOR Forecast — Price Target — Prediction for 2027 &nbsp;&nbsp; TradingView",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5323,10 +5318,10 @@
             }
           },
           {
-            "title": "Bharat Coking Coal Share Price: Why This ₹34 Stock Is Quietly Turning Heads - radiotandil.com",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS2NXRU5vTXVqb203aDlCZFZfVzJvVnp5b0R1YjluVVZLUWNleXNYVFlRTFBDNVV3OUVQR1Z4M1ZCRG8wSWdzMENTcWNZeEJQYjAyM2stWUdYei1lNDNQSTlERENISmdLMFNLdFVOeURnRkxSVUVfUTR6Y19iNFkxWjJKLWV0WS1ySDV2ZXg5cEcwQkNsV04wem5CZnZsVmJkQUxLcThTZ1hDbkNiUDRnb3VHWGdoZEh3VmJYQnVR?oc=5",
-            "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-            "description": "Bharat Coking Coal Share Price: Why This ₹34 Stock Is Quietly Turning Heads &nbsp;&nbsp; radiotandil.com",
+            "title": "The Algo Raj: Political risks of tech oligarchy - The New Indian Express",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZVTzhiY3NScWFHX3BUUG9zWTIyOFBUaVo3NnBBZTZyMTViZVdmaVpMM1MtOGs1NkF5c1ZYOFdiLWQ4cGlQdGVxMHpiS3JzUXFfRVF2N19Tc0JhbnlrWUUxNWRhaXpHWGVGaHJGZUdFZXBxMk9NSWdBUUpVamx2bk9IZ2Y4SGdoMmI1aFgzNFBiSjUxZDhiMjVZdUY0YUNfdmF2VW1OdmJtOU5XX0JTajF5bU9iZ0lYV3M1aWQ4Z9IBzAFBVV95cUxNcndUelFaRjYxd2ZUVXJ4YVJpMXJhT3VnejIyNzZEdTFBSWdKazVSSm94b1RWWXpZdDU5eGJPZXpnRkx0R2JPODlaS1NFNTUybVRjX2tQV1NGNkk0OVJ3aFRtWFhYa0RGWW90X2pBX2NaeTJLVXlLM0dxby1yVDBnMF9JOHNiaWthU2NJSThJSXgxcHlEb2N2MlJyNkU3MW9QNElsaGx3V2ZCOTNWcGxveExBTFBMbWpZSnRTbDc5SWY3S21GMGZMMW95NVU?oc=5",
+            "published": "Sat, 13 Jun 2026 07:00:00 GMT",
+            "description": "The Algo Raj: Political risks of tech oligarchy &nbsp;&nbsp; The New Indian Express",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5566,23 +5561,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -5636,10 +5614,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5878,7 +5871,7 @@
         "sector": "Consumer Cyclical",
         "industry": "Lodging",
         "direction": "positive",
-        "contextScore": 2,
+        "contextScore": 4,
         "articles": [
           {
             "title": "IHCL Expands Presence In Bengaluru, Announces The Signing Of A Gateway In Yeshwantpur - The Indian Hotels Company Limited (IHCL)",
@@ -5943,10 +5936,10 @@
             }
           },
           {
-            "title": "Franchise 100 Signs Three Strategic Hospitality Projects Across India - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbDJQemFrc25GTmdXRVItbDM4NXpqbHQzV1ZmVGVCV2pVOHdZNVRaRWlpeWtxUzdvWnpQWnF5RzV4bjVaUkFSbE5sNWlQZG10Q0h3d2Y1eUFvaVdicUYwWHFaLThWa1ZKMWcyYjFYdTBjczQzazNGYlFxd0o1eHdvQUVJVHhMM1dsOWctbDJad1paQVJTaXpVQUlrQzNzR1hXblR5ajZGQXpQaTRRSG5rVVdJOEVmbm9wTnJhQUZVODhPNzRpZjllR0k0VVJNam5WWXJ2bVlHOGcxU2x4NDhMSmRnVjHSAeoBQVVfeXFMT0wtRFEzMmlyMVJzcTFXVXBSWE1oMDFtdnFZMTlUZHNhVWNrSXk3VU5ucEpkbjNZV2pZVmlNdEgxWnF2THE4NHVGTjFSNXNnNHduV0Rac25SemJMQVNIOW9wOUtUYm1xa19haUtXY1FKdnhULWdkX3JCWHNELWtNU3RsSU9iQTlPRmZOODZ1akkxQkVWNUt2QVEyTkFEU2ZpU21rTzNieFNndUFmSUNETC1idTlFUmdRWlZuYjBYVXFmWEtNWDZpWmxab3VRYkk0a2cwYi1MMFJEaTVPbXgxQXRJTlkzdTBvQ2pn?oc=5",
-            "published": "Sat, 09 May 2026 07:00:00 GMT",
-            "description": "Franchise 100 Signs Three Strategic Hospitality Projects Across India &nbsp;&nbsp; Business Standard",
+            "title": "10 Biggest Hotel Companies and REITs - Investopedia",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzduVkw1Nkc3VzVIU1FzejNJQ09UZmRpcmNwVGFOQUNRZEVjUUUyNzd6a29rbXV4R0hVUGpjbFM1aThHVmFUOUNoWTAxeWNxN0JXOFVrNTNoMHFqNFZ5MGVKYVlOU3BNQmdRMDBKYzhGMUZTR2ZKcmRTU1VnNE92TzRvb2Z2LUVVVE1WMWRZN1pzU2RjdC1DZXZVaE4?oc=5",
+            "published": "Tue, 13 Jan 2026 08:00:00 GMT",
+            "description": "10 Biggest Hotel Companies and REITs &nbsp;&nbsp; Investopedia",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5967,6 +5960,38 @@
               "impact": "low",
               "rawScore": 0,
               "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Axis Nifty Consumption ETF - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfcTl6c2phcDE3YjExeWUyZ0ZvV2dNdl95TTBkUTFULU8xYy1laXA5WVdUQ2dyUjBMY0JFNFZhMmZvWnFXaDhhQzZHT1VMeG5qYUdQUy0zUGxNam9FNDdlWF9peFR3WG9QR3R5a3p2dlNOOGtDUE5V?oc=5",
+            "published": "Fri, 03 Jul 2026 12:34:47 GMT",
+            "description": "Axis Nifty Consumption ETF &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40dTM3RFpocTdfZHh4dXcwaWJKeFlVcnk4cjRmNW83VjYxT3M1YTM3d0RUdFNEVVhoT0x2ck5KSllFcENnVzd6SHg2UkxJbEppMlpZV2NVUjF0UldJWFlkcW1KdzRaaDI5aFdqWC1UcjB3T1U?oc=5",
+            "published": "Wed, 25 Mar 2026 02:20:25 GMT",
+            "description": "Franklin Build India Fund Growth NAV, Mutual Fund Returns & Scheme History &nbsp;&nbsp; HDFC Sky",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -5995,36 +6020,6 @@
             "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzB5VjBScjJIVmZPbHJmNzhBcUtjQzZON3lpQ2gxWk1JZk1RWUJaRDZwQjdXaHhRR1lYRW14R1pMajVBbHl1U3JVTFBWaWdhWnVzMnZRVjFvUzQ1TGppbTBCdTA4MDJENlFDM0g2N2loWWQzT2NRQ2pHb3dXbHl3Y3BGWGhISVMycUc2VGZSVGFEdUU?oc=5",
             "published": "Thu, 06 Nov 2025 08:00:00 GMT",
             "description": "Nifty 50 Extends Winning Streak with 4.51% Monthly Rise &nbsp;&nbsp; India Infoline",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Is the Selloff in Indian Stocks a Buying Opportunity? - Morningstar",
-            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZkZhX2RfRGJsYXNrbmRYQXFfVlkzMU1YSmtKVFA0aElETHJLUlZQSjFRalJpZ1poNFg1TDcyLWY3NFlkdXppMGFxXzhyNG5fRUhkcFRBb0lXNE9hSFoxS0t5OE1ZRUR5cWxzYkozNHQ5RDFUNEY3MWg1Ql92azJVQkhMREwyQQ?oc=5",
-            "published": "Wed, 26 Mar 2025 07:00:00 GMT",
-            "description": "Is the Selloff in Indian Stocks a Buying Opportunity? &nbsp;&nbsp; Morningstar",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aZXNpZDVwRVlnaUViVXZLOHZxeEF6Z2ozT1FCYUQ1MUxlRDFFWXNuNGlsTFRzSzZDbzNWX3dzSmxhclJhaW5PR0F6aVRucDdUa1VKRG9Uc2t0WU1RV3VLUXF2TDR2VGpXVlZ4VEcwcC1BNVBUWklYMg?oc=5",
-            "published": "Wed, 12 Nov 2025 02:07:17 GMT",
-            "description": "BSE ENHANCED VALUE INDEX Indices - BSE ENHANCED VALUE INDEX Share/Stock Price LIVE Today &nbsp;&nbsp; livemint.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6077,21 +6072,6 @@
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYQVVlX3EwN3hSQWllTThoVUczMlplZDVudDdVUmJpeHJPRzU2TlVicW5DcDZ0cllMNDNpTzg0TkRLLWpaOEo2N2xSMldNRjFQT25hdXBLaHh2d2x4eGpDSHdFV1VsMU4zcTg1eE1uVXdGSUZhd0hTMy1n?oc=5",
             "published": "Sat, 25 Jul 2026 03:12:22 GMT",
             "description": "JSW Energy Limited Revenue Breakdown – NSE:JSWENERGY &nbsp;&nbsp; TradingView",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "JSW Energy Share Pros and Cons 2026: JSW Group Power Utility With Renewable Pivot - Univest",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtaWdfbnkySDlYLUk2bkl2SG9kckdNOWxaSlNWMG5BZG1XZkZUWDVjN1JzeGM1UHFzR0JLelY5dVpzNzdBdEFxMDM1ei1WOVVWdDZTdDBpSVFLaXBrNHBraThhempUc3ZqTkpqRA?oc=5",
-            "published": "Fri, 07 Aug 2026 02:11:00 GMT",
-            "description": "JSW Energy Share Pros and Cons 2026: JSW Group Power Utility With Renewable Pivot &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6169,6 +6149,21 @@
             "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mZk5ZcWpkcC1SZ2YySG9vbTJSNWM4QmF3amJXVmpkTkpSYThYczVsempqbkxjU3NXYTZCNjNTTC1BWkY0cWktR1Q5ck04eU0tQjJJMXl2OWF3ZE9zcEFmSDMxdUQ?oc=5",
             "published": "Sun, 14 Sep 2025 01:24:09 GMT",
             "description": "JSWENERGY Historical Data &nbsp;&nbsp; Equitypandit",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "JSW Energy Slips 1.16%: Key Support and Resistance Levels in Focus (JSWENERGY.NS) - Channel Breakout - Vinanet",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX01OMXdTYjJtcmM2R25oSkt5VWJlQmRWSTR2OWNuSjQ4b3EwczdoaFF0UHUtYUI3QmhBYnlVbTFFVUE5dDNHZ2JZT2k0TGcwV2dTU3ZvdmZRZnVJa3pjQ0V2b2xDZWhGNE03bnM2UWJkZlQ3YjBDd2xRd0cyVlZ5TGdrZ2dEMUx2VGNFaDBuaWgxYVdveDRUMVdmbGhSZjhlMzhIcGU4ajRqMG1qMUI4cWMxNkM2REk?oc=5",
+            "published": "Fri, 29 May 2026 07:00:00 GMT",
+            "description": "JSW Energy Slips 1.16%: Key Support and Resistance Levels in Focus (JSWENERGY.NS) - Channel Breakout &nbsp;&nbsp; Vinanet",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6312,21 +6307,6 @@
             }
           },
           {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -6339,6 +6319,21 @@
               "negativeKeywords": [
                 "fine"
               ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -6431,27 +6426,25 @@
             }
           },
           {
-            "title": "Weekly Recap: Fines for employee overreach and US probes into HDFCBANK - TradingView",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeHM1Sk5CM3FZSEczUkRoZHUzclg1WGc4Q2VxN3pNRWwwaXA2ZUFMN0laX0dCQ0lpdllZVmtNRnQxWnhMNDVVOGVqYXpZTjFuaEsyaFgtblRpMC1aT1U3ZmxjWDFrR21kU1BuRXJWempwYlhGV0cxeTFMeXpsdFZGOUdnOVpYRVpxZEx0QmxuUktxVXRfQWNqTWdDbG5tTHM2S3NWQ3dYX0owTEtMalZ6Mmo1ZFFjZnRaMzJudHE1RVhlb0RLRDNhMU9xRQ?oc=5",
-            "published": "Sun, 02 Aug 2026 07:00:00 GMT",
-            "description": "Weekly Recap: Fines for employee overreach and US probes into HDFCBANK &nbsp;&nbsp; TradingView",
+            "title": "HDFC Bank Sees ₹156.06 Crore Block Trade on NSE at ₹929.05 Per Share - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUZiRkpKWVJNem9NeWVlNURINk5kbkFIR1Zmb0xuRWhKb20tdWd3eEtnMlgxcWl5QzlNRW1kVmFhVGlxSkN3cnVhb0NhazV6NHcyNFd0U080bGxGSXZpNWp6WXEwX2dnbWFISTVpQjcwSHBNdGt3bDhTdl80TW5Pc2gxS2RZY19MeHBOVFdJbjZRMnFsN09LVDBINmM2V2NDQ2lIZXZ6dVRHVTBOUmlZRjF4UWpHaVk5eEFqNkJDZ1JHSW5U?oc=5",
+            "published": "Mon, 19 Jan 2026 08:00:00 GMT",
+            "description": "HDFC Bank Sees ₹156.06 Crore Block Trade on NSE at ₹929.05 Per Share &nbsp;&nbsp; scanx.trade",
             "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
               "positiveKeywords": [],
-              "negativeKeywords": [
-                "fine"
-              ],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
           },
           {
-            "title": "HDFC Bank Sees ₹156.06 Crore Block Trade on NSE at ₹929.05 Per Share - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUZiRkpKWVJNem9NeWVlNURINk5kbkFIR1Zmb0xuRWhKb20tdWd3eEtnMlgxcWl5QzlNRW1kVmFhVGlxSkN3cnVhb0NhazV6NHcyNFd0U080bGxGSXZpNWp6WXEwX2dnbWFISTVpQjcwSHBNdGt3bDhTdl80TW5Pc2gxS2RZY19MeHBOVFdJbjZRMnFsN09LVDBINmM2V2NDQ2lIZXZ6dVRHVTBOUmlZRjF4UWpHaVk5eEFqNkJDZ1JHSW5U?oc=5",
-            "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-            "description": "HDFC Bank Sees ₹156.06 Crore Block Trade on NSE at ₹929.05 Per Share &nbsp;&nbsp; scanx.trade",
+            "title": "Weekly Recap: Atanu Chakraborty resignation and Jimmy Tata term extended - TradingView",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT0pOUmUyMkJfa2I1ams1OVpoWnNXYjlwb3NfY0tZQzBpb3hteFZiSjFlaVJkOWxvSUduUUcxUUs4dHN2NVVubXpSNXBubE5HcTBWWGdOSWc3SGhxTEhTQXhOdGVYUGZUUHNzZ1dmaTFIdjFPX0VNS0dLNkdrT2pMX0I5SDBLR0daY21BXy1mZjRDRjN4R01fWWMyaFR2WmdFZmJ4ZDBVSERjeEloVVIzYm5JNy1Ib1pIOGxPM21uY1VlMkJkNXNlcWk4QTFUUQ?oc=5",
+            "published": "Sun, 09 Aug 2026 07:00:00 GMT",
+            "description": "Weekly Recap: Atanu Chakraborty resignation and Jimmy Tata term extended &nbsp;&nbsp; TradingView",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6478,18 +6471,22 @@
             }
           },
           {
-            "title": "Stock market crash: HDFC Bank, LIC, ICICI Bank, Swiggy among 122 stocks that hit 52-week low on NSE - Upstox",
-            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOXBjX21YZHpEenpKdlNqLXBILW1ablJPRlNmTW5oaURPTHg5VHNzVXBBWVZRQkdmSHprZDB4cWlhU2htLV9lcVB5eXVZbmJlZkNhUVhiTGY3dC1FeW1xb19KYjlFRklKcURoSk5XNV9WVlJqQWgzU3ZocmpnaURoX3BiTVBFM3ZxTzUtc3NKa2xXVXBOQ1NMdWRfVWhveEtrTldQWWNpV0xXWElDZXVTZTFFcDBIR2JLVzFIczhMZUZhSlo1YkgtNHl1T3JFc2ZmXzZGZnctZng5YXdTNzA5U1ZjUUtoa3piX0E?oc=5",
-            "published": "Thu, 02 Apr 2026 07:00:00 GMT",
-            "description": "Stock market crash: HDFC Bank, LIC, ICICI Bank, Swiggy among 122 stocks that hit 52-week low on NSE &nbsp;&nbsp; Upstox",
+            "title": "HDFC Bank, ICICI Bank, SBI and other banking stocks fall up to 4% as RBI tightens Forex rules - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSzRvNy13ZWJfdDQ1WHNfVUxVU0o1dF9fYjlGUEs1aGdNaEkzMkkyUWtSQ2l3MmR6eHAwRVZ2MWdKR3RDVXZlMXFhOHBVUWhQdlZjdUd5dXFINFdxaVU5aG9jdjNwMUE0bDB2RmJMNEFDOVB3MTZZM0paQkdUdnhRWnA4ZEp4UTRBcU9SYWhqX3E0ZU5VLXMyb1Q4aS1mWkc5ZjFXZExqMHEtTUMxNkMtR2xsVlU0WHBXUElaX3Q1alo3RGdIX1FTQ1lVLWdMU0VnR09ESmdKdllOeU1iaUwyVE02QQ?oc=5",
+            "published": "Sun, 29 Mar 2026 07:00:00 GMT",
+            "description": "HDFC Bank, ICICI Bank, SBI and other banking stocks fall up to 4% as RBI tightens Forex rules &nbsp;&nbsp; Upstox",
             "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
+              "direction": "negative",
+              "impact": "medium",
+              "rawScore": -2,
               "positiveKeywords": [],
-              "negativeKeywords": [],
+              "negativeKeywords": [
+                "fall"
+              ],
               "geopoliticalKeywords": [],
-              "macroKeywords": []
+              "macroKeywords": [
+                "rbi"
+              ]
             }
           }
         ]
@@ -6500,23 +6497,6 @@
         "direction": "positive",
         "contextScore": 6,
         "articles": [
-          {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
           {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
@@ -6571,10 +6551,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6822,23 +6817,6 @@
         "contextScore": 6,
         "articles": [
           {
-            "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFNwMTRzc2wteHI5SlpqZW90Mmc3TUhwMmJ2ZzQydjlTZzJUbDNQb1BwbXRTblpvcm1aMjRtQ3dySVgyN2s5Y3puRzl1WTl6aGk5elZ3Z0hTZDA1dEk1MFl4ZWdnR3pWSGlkc1djLWVHYVBVeHIyazFSVmJxYjR1NldSeXFFRndVNlRVWE4xNDNxZ2pzSDBkTFk1RlNCc2lrQ0xhd1Nrc1hEOFdjLXNuWHJKVFRrUXc0aXltazdPdmhSclhiVzhfUExzWXpYaldra3dB0gHYAUFVX3lxTE9zTVR1X3M1OWRENEZXQktYd2JqN3hmcWV2X0NOamdzQm5kaWNxTDJ3bkdrS1lQOUJ6Wk1reUhDVTlBU3RmcnhXbGNaWWZLdWZnVjR3VC1XWTV3eG5pMnNJVTFPUEFHZi01eWtYZExNUDZyV1pRYVdEZk9vc0JTZ0YzcUE2Y3pIZ0ZuV096UnduZEZZUnB2aUFGRkxaT3ZnMlhwR2diVEtQb2NUSVdjYV9KcG5uNVBfSnczSDVDVFlnTmNHMy1naEpOd0xCRGdkdkJFVHdDQ1ZyeA?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": [
-                "gold"
-              ]
-            }
-          },
-          {
             "title": "RBI invites comments on draft rules for dividend payout by banks - The Times of India",
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYkV0VHl0VW1GSlZqLVRhaGJ6d084WkpLWk1meFBLaVZqbElXZlpxVE5Hc3NydEN3UGFfWWVHLVVpTVp6NnNKQ0o3OUV6VkUyZnZWWl9oWHpwam1GWXpyLVRtLVJnSEpDREdDeHJMdU9OUDUwSzB5RUV5UTZfdHJJOVBGRGRVTkp2U19DUzVXaXRTeTI4MnJFaHhERXhCWWkyTXd6TmtPbzFoUVgxd205Tmk2OVFPQXBQRlk3QVhXY0lJMXFsaDM3b3F3ME1vZ3RTc0Y1alNNM090VEZwYXluR01sTWHSAeoBQVVfeXFMTWVzN1dBTjhTMUR1a2pBZnlHX2xidWxiMkFZc2M2UngtSVdMQVVrSXFMNm5xOTgtNzZTSWNRMkJuamtuNFRlZzNpMHVfSGRLc0dfQnJJcWtZZHdheFpBR3N4cVdQMWczR0tjVG5ZNTF0S0V1cHlXaEFyS3hzWktTMkxlSE5RcW9uaVdYVmtuYlVHd2UzNnNTY1hBVlEzSUF4eFRnQ2NtYm16VGdaODV3bk9jdTMwRktQekNCb3V6Nk1UYWF5M2hWeUFwS1B5NnBFNlZxLVVGQW5NejdGc0VCR29MQzNvY3Q2ZFhB?oc=5",
             "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -6892,10 +6870,25 @@
             }
           },
           {
-            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "title": "Japan bond yield surge widens regional bank stock divide - The Japan Times",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQall0MUFwNFozbTJxQjZvblVYZE1YNWRkR19oWk9iUlhKTlVmcGc2cFk2NjhaSGFJN3cwdVNRay1ZSjFrVWhwWnptcjlBTlFPYmgtV3Z0dTNLZEw0MWZNcUdmbmVUbEQ0LU85NmtONmFRV1ZZZmFUWE1YbkVjbGpKNDNmX1FZMzU3V0pXODV5YTBRd2hnUVItZ0UxZGtHa0hBZE9r?oc=5",
+            "published": "Mon, 25 May 2026 07:00:00 GMT",
+            "description": "Japan bond yield surge widens regional bank stock divide &nbsp;&nbsp; The Japan Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONURSOGRTMkRXSkI3Nk9KUHZuQ0NMamtHbU82c255VzZUTGNnWjRhc0ZLMXVGNHU3ME1PNms1bUUyQmhWVy14OHJwSUlHWnBweThLSVhrRkhQeEpMMTJZbVdOTHBEcFhrZ1cteEhxbVYxcERNSXNCSVBTX0dpUE5Ucm1id3NlQlBUYTVDNXo3SEk5M2RhWGNVZ0YwOElkREs5TTdMdU81Z2tLUHJnU0xocUs2MzhSZ0JfYlgyQVQ5THU5UFpvdGoyNkZLMVQtb2FzN284X1h3VWZqLUd0Y2YzZWw0RV8yNHRCN0NxR245Z0NEVVpieU1jT3o2ZWFMaDhCc0hHc1FMbHZ2SkN4aVFtU0dxYWMxc082R0Fz0gGgAkFVX3lxTE9QZzdfQ0JTMTYyQ0UzZFNDMUZYUGhVd002eDk3VHVuX2UycVNRalVlaWhGcVdEdGZja1J3LVI4U2Z0UEpUZUpRS0NZNWI2OExsbmNRZEVRdGxlMU9VLTNHVTI2eE1fUFl1UlhqR0hQZDNyUU1BM1BzNk5yQTRWQjhoTk9tSnowNEMtWHhKeFpnTVBnNHBxSXJsZFpBR0dBSWFaZ1FzNUtoc1UxR1JKaHFDdTFEeXRUMHYzN0JWSHB2b3FUV0dlQ29uaDNCOGNveXI5M3RUNXdrQ3oyTkQyNjRBZklIMlh4MlVvTzdvZy1hOTd4TGt4dF90Uk1WWUtndG9ncWhJNkZJZmpzbzdld2FfQmpMQkV6RFF3MEhXOEtFdA?oc=5",
             "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "description": "RBI issues Amendment Directions on Review of Framework of Limiting Customer Liability in Digital Transactions &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7099,6 +7092,21 @@
             }
           },
           {
+            "title": "Infosys, Hindalco, Redington: How FPI-heavy stocks fared in June as outflows hit ₹53K crore - Business Today",
+            "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRnl3QVFVNHhQOXB1Y2dEZ0x2aXg4Z2UtOEZqT1VKNTN4RXVrVTk2UHpySXpSQldhUUZ2TUQ0OGpXQUlPTDFuUUFqeVh5MllxZDdtaDFqeWk4cDRCNFNiZTRQZFZybGNsMnVUb0RFUzlJbXk5bExHWTIzTW9SbFktN19OUTNlNWFzeXFFYUlZWlhSSjhhYTRpaDV6X3RMdzEyYjgtY3RncXlHQ25JSng3cUd4SFNxVWZ5ZDA1a2JieXRTSVctVUpwOGFzNmRZZWZoUm9ST2ZlNzhkbS1aVS1KckZTZm5feGpicHYzZ0lhQdIB9AFBVV95cUxNU0VkN3NhYVFvSjY2QVZwT1lUazNxMF9UWWsyX3JRV1YyVERjTjY4X0NtSFlJTEtrZTB4SV9ueDNta0tGc0JQeGZsX3ZjMXRBU25jLWtMUDJocVJhVTJ0LTlFUGxuX1RNNG9aN3ZrYkNlZlN4RTRyYWJfbWE5WGFYNVVFODdqWHI0WGZ6bWtyQWVKWVBVWFlUa04wdXNFa2xlOE50eDR4X2g3eHpzdFVleGpOYjVFcVhBOTZlVS1SdWtRZktVZkpPejFTWXRYUEhWLUpFRjh4WlJrUnpzQVE0NWM3MWcxMGNzMVdJdEMtS3hCWm9v?oc=5",
+            "published": "Sun, 28 Jun 2026 07:00:00 GMT",
+            "description": "Infosys, Hindalco, Redington: How FPI-heavy stocks fared in June as outflows hit ₹53K crore &nbsp;&nbsp; Business Today",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Nifty Gainers & Losers: Infosys, Coal India, Hindalco Among Top Drags After Last-Hour Selloff - NDTV Profit",
             "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUNSVUt3cWxKa3ZPanBXRmtYRzJseEwzRXp6WDRpMlpFbDZFQ2dsMWRieDJNUnZsbTlHWVgteDdGZGhWZmZaVW9ZY291Q2pSMktpX092c0JGTkxpTXl2NTJxWGlqZ015N21HLVFmUWFobmo1UEpiYWFtWDRjdFZtQnpteUdBUzA5X092TW5hTGhCWXpZYTRnWFJ0Q0F3NEpPSjRaSWNaZnQzRktfM0FiN1JJYVFXR3pPTG5Yc3luTzBheXg3c1FHSWpMUUpIRFpSNjY0Qm5ubDlibE04NmfSAeYBQVVfeXFMTUV5eDlPQkdOWWtPeGpZRF9WbWFzbmcyM004NkFHejc2RGV2cE9RLXNwX2JSYlBKVmhWbGZWcXlSa3FrU3pRVloweE9SVWRxajNoOU5taHVxSGg5WnJLbmxIQ2h0R09xa0Q2RWs2LTNmNXZuVTJjMjF5TVg5M2FJa0JaMFJZOC1pb3BhZXB6ZGZ3RnJheEYyYkV2WDg0SmFFSmMzbGFBN3JfYVNQemJnb2ZrS2lPMzktN2pSRUNydzQteVNNR0h5eXJ3Zy16TXdCLU04T3N2Y2xpVVIzMFE0eXVfUjVmcnc?oc=5",
             "published": "Wed, 10 Jun 2026 07:00:00 GMT",
@@ -7110,21 +7118,6 @@
               "positiveKeywords": [
                 "profit"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Hindalco Industries (NSE:HINDALCO) shareholders have earned a 27% CAGR over the last five years - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQU00U1ZlVHBENDZXMUUwd3dzWEtPSEVfbnBBRmstbFozdHNiUHZNOF9aS1dqRUg3RnozclA4TGVIMTc3REdQRkhfY19tNWlFVW8zSDYyY3NtZTlwUVAxWWhkc180bWg2MGdCWkJHWVZsUjJjVFVnOFpzc1Rjd1NoaVpUWFJlMk1EM3E0OHltS0FmMXR3R0ZNWDU4amhQOXNoYTc4OUFoWHdlaVE5NlQ0RnFWUHpWTUNGWFE1Nm9qak9oV29aNlFkTTZITkx0UU9QbkpNMnhyNGNUUHlSckdjSTVYb9IB6AFBVV95cUxOY1hWWmFiMTB2U0FFYnFsMG1NRlVwYml6VFRhNzhMa3d1MGlkMFFlcHpvMTN2RFdDQjh3SXVPRWk1c1BqbTUzbFJJTDQ3OFFqTFctOXRVXzQ2WXlZM2lneVgtTHVkd3VPR0ttQUVmSGhGa1BvdmJ4MkstOW4tbXlQRWFJczc2akp5OXdKSExmdXZrclVMUHdjMGhkM0dVUjFMeVpyZE9uWnFTdWo4aW1ySDJqMWFmOUhOWXJFRmN3MzZUSDZLNGpra3RsWDB4TzZfWWRpOUFmRVJ0bmhzRHJIekRfcHJjNTNQ?oc=5",
-            "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-            "description": "Hindalco Industries (NSE:HINDALCO) shareholders have earned a 27% CAGR over the last five years &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -7237,10 +7230,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -7494,10 +7487,10 @@
             }
           },
           {
-            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
-            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
-            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7509,10 +7502,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
+            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
+            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7539,10 +7532,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -7616,8 +7609,8 @@
         "sector": "Utilities",
         "industry": "Utilities - Regulated Gas",
         "overallDirection": "negative",
-        "overallImpact": "medium",
-        "newsScore": -4,
+        "overallImpact": "low",
+        "newsScore": -2,
         "highImpactNewsCount": 1,
         "articles": [
           {
@@ -7625,6 +7618,21 @@
             "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3d21GRjM3dExQelJNZDF0cGxobGN3RG5kSHUyZHEzOVBEdVk5cVBEZzNheFJVc1IxZ3JNVkFKeXhLU1dCOFd0R3MwUWhKY0l5TG43clJ0RkQtUF9CMmxGUENfTE1leVE?oc=5",
             "published": "Wed, 19 Aug 2026 23:11:33 GMT",
             "description": "Mahanagar Gas Share Price - Live NSE: MGL Stock Price & Chart &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "MGL set to gain most from new APM gas incentive; IGL, Gujarat Energy also benefit: Nomura - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN3l3ZzBKMFRtUWRkOWd2a0R3dktsUGpHdGpJejNldWhYUzZ3a0NJUXJVeUYyT0JOUDg1RHZ4MjBLcGg2VktoNC1XcnJkZk9GX1NaVmFjMVJ2Qk5UYUQxYlFHVzItak1SODFEOWVoUmVXWUpYYTdOMnlsbjY1Vmh4TmVyNkRXclVyc3M2bVc2OVVfbUhIZ2FjcXpfQlpuek8wZkhLazA0TTlEd2ZOU284QndPdnM2OEh2eENkcmg5T3ZNTzBtV0poVFpGdGhVY2J3ZndEUUFXYkQxRWtLSFlSa0g5YXfSAeoBQVVfeXFMUDVRVVdwbHI4WjNJV1Y1WnlvXzFBUE9WY1JFQ2Z1b1ZvWUJ3VnEwWHdyUGlWN1RzdXVXa0tiQTVqM2hyZENqWndSMzQ4NGJ0NmlkTGk1bVpmdjFIbmQ0VlVTSU5fRDNhSXZ0T3NSbjdqQlJIVkpZdXRJeDNySE15ZW9XNWNueTl3NzFoblNwa05HZW80T1pMeUZhZ3Q4N1lKUS1aa1hBU21qRW1wUkhObG9lVFlyQTBwTUFSLXY5Y3J6MS1fb0NUdVNlRUtta1lJRDN4SlIzb1VaZlFoMElZV214RHR3OTdyQl9B?oc=5",
+            "published": "Thu, 20 Aug 2026 04:58:10 GMT",
+            "description": "MGL set to gain most from new APM gas incentive; IGL, Gujarat Energy also benefit: Nomura &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7693,23 +7701,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Buzzing Stocks: Aditya Birla Lifestyle, MGL decline after Q4 results; Lenskart Solutions slips on block... - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRzVxTndJMFQ1UV9Ob1RlWFk4UDQyUnh1a0JSUlZFZVBmaG5UMmxhM1RyQ2xDWUJpVFNZMC16TVdpUno2Ty0xOWNvWWhxUFpUOVMyU0NsYjkyVVJ1emZOWFp6ZUktVVQzMzJ1SEQ0N0g0bkxabjRjTC03VXlIejUxV3lnSWtodGEwNnFjNGpKQXpaaHk0eHRPc0o5dE82ZmtiR0VPMXhMZUREc3lKbTZyUjRIMHhORl9KN0VpRjJkVDNwQzhITi1yektZQzhwSzRVV3FCN3AxeHpQWU1RSC1UdHJ0ZjJBOGhseGhDTF90ZVVaV0hjRkhxTWdMRzJtZ9IBgwJBVV95cUxQV0JTN1BMNTdpZDB1WXRmazhKV2R4LWtfNVUxZWV3TDVURGtsYUdUZ0dETDhjbWxuaFN1YTNNWGNlUDIzOUxJUDkweVBwTDFqLVpxRFlwRlZSeGozUzNsNUk4eTBSRUNRcUQwUlltMEVPNW4xVXZCWmtEbHpWM0lsUGtVamZVU0FKczNVREVGVjVSUjNoOG1MLUZoWjRpWVVRNmhBT0I1ZFNZMnp2S3lnSzVReEZQb1VSSWdMX2VvbWZtYTktczFTOUZjOTlBc28zUHY2UWZ4aGlkVnRDR0V6Z2R0Qm1fOXJEcVFyU2NkQnlFNjZuVl9XaXlpQ2VUaktDOW9n?oc=5",
-            "published": "Fri, 08 May 2026 07:00:00 GMT",
-            "description": "Buzzing Stocks: Aditya Birla Lifestyle, MGL decline after Q4 results; Lenskart Solutions slips on block... &nbsp;&nbsp; Moneycontrol.com",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "decline"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -7867,21 +7858,6 @@
             }
           },
           {
-            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
-            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "BF Utilities board notes BSE fine, promoter freeze for FY26 delay - scanx.trade",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTy1ZVjVldkFuSlNYTkwxVHg1a2F5cmxlbHNzNFd4UlVBN3Q0NGpHSVMtRlBqaWg4M2hwYTN1ZngwbVkyTGUxdGZZWkNyeTMxZnBCczhVRXlKaEVVcG1vQmhfSUl5X1Y5bmJNU0pHY212YTlLVFptcTlKU056QmZ5elpOV0RJRXEwaXd4ZUVKWXhDNlJrQkRnSjdCSXBYYlU3ZFl2Yy1SYw?oc=5",
             "published": "Fri, 14 Aug 2026 08:35:50 GMT",
@@ -7894,6 +7870,21 @@
               "negativeKeywords": [
                 "fine"
               ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOemdhNnFzTWJCelpVbFRTcW5EcEdhVWNzOTZOd2I2Nnc1ZzRPRWRITVEyYXJUZmlhVGVhNDF1em5xdVRsNTFOd0dUdkQyUXFETU5lel9sZE9hbmpMazl2OEJuZDZKd1phWTRqa1dWYmlTcjIxVjVEY1N6X3paODRJaV9KWXhTRmdpUW5hRURQcXJwTlRfOHZiOUZSenBVc19WVVVuOWF0bUxiNXZtZGVSTjBJODVXQ3lXbVhxYlp6b3ZuTWlFLVRJbjduRExad3FfSkRndFRvcjdsVlRGRzlJ0gHkAUFVX3lxTE9MV254aUdyWjZrejhDS0tlWkVDeTJCNnNKYTIyZXN0eTNjd29nVWhLYkNEWklCZlY4OEswclZIVzFEU0ticXNZZHJnXzNscVp5ZjBLdjNpOTNraEMzZGFoTU9WSVE5MWIwVjZadHBxZDE2MmJ5NnFSYmR0MnBZSXBFcFU5WnN1U0lGRGZBdkRFRnVCZE85dUk1dEctZFAzNWRWVWYxYVNVR05EbVhXWHViSUM2VlFBT2pmWXVfVEw3dVp1RHRrT1RlSjhVVTBoNGF5MGJWV2hQTkt5QktfT0Q5d01nTw?oc=5",
+            "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+            "description": "Insiders Who Sold BF Utilities Missed Out On 11% Stock Increase &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -8098,10 +8089,10 @@
             }
           },
           {
-            "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday - IndiaIPO",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWG5PWlZpN2JOWWE4WUlHd2xibEhwYVc4a1FfZGZrUTUzMkhwVUJDWGhIYnNYVWliS2ZYdjRwVUppcFFUMUJ1MnllaTdOS1M4NklFblN6UzRqSjZyNXFFT3gxZWJNSWdNSHg5TXliVHVjM1kxcWNWUURfZHFUY29SVWM4R3BGMkFKZGNUNFdaVGhaZ0pwRkpRTEc1TWRocmpEN296SGZVQTBWVWR0ZDlxU3ZmYjlIa2hJZ3ZoVTU2N1l6cjQ?oc=5",
-            "published": "Tue, 18 Aug 2026 11:10:24 GMT",
-            "description": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday &nbsp;&nbsp; IndiaIPO",
+            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
+            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
+            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8113,10 +8104,10 @@
             }
           },
           {
-            "title": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVXhSVDN3dTVFdHQ2YVhHdTI4czVWaVJtTnpOdG1iZ0VNQnQ4UXQ3LVg5SWtQOTJPRUJ2bjhaN21PSlRiUS0tYUJ3VjFuOC1LQTRLbHd3UmR4UTVwM083TmRMWGJXODJPSGVfeWtMWVVEZDg3eXpmZFlTMkFiSWV0b0k3MEIxOS1ISm9EMkFPWFRRdGNRamlHNlplMjJiQ09iaERrWVl6MjVGQWJ4aUQ3bGV3c0hxZnZWVmNBcmJMdU1PWjY3Wm5uMGNiMNIB0AFBVV95cUxPT0VxOHZKQ3M3cDJfN2h3UDdjVTNRV3NkVmVOZ2tvZENYdEhtUk9iMThOdUswWjg5NUxyOFlOeGxva0tWaXRPOHZvNU5JUnVIMldhcXQ5NGxfNFh3bHVBdjUzSFBNMVhGbXlNRWF2aEdXbVhLX3FqRTlvUDZ6RG1CY3dYdy1NbTFMX3JnaUtTUloxZDVfV2Z3bl9nUDJsY05tZzBLWmNrOXRfSVc3eG1TbEZqR1J5ZUdtNE0xVk1YV2JiUU1GMjJ4bGR6ZWpaVTBQ?oc=5",
-            "published": "Thu, 13 Aug 2026 19:34:35 GMT",
-            "description": "Vedanta Stock And Indian Steel Shares In Focus As Energy Costs Shift &nbsp;&nbsp; simplywall.st",
+            "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
+            "published": "Tue, 18 Aug 2026 11:38:00 GMT",
+            "description": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8143,10 +8134,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -8221,7 +8212,7 @@
         "industry": "Information Technology Services",
         "overallDirection": "negative",
         "overallImpact": "medium",
-        "newsScore": -6,
+        "newsScore": -4,
         "highImpactNewsCount": 1,
         "articles": [
           {
@@ -8336,17 +8327,21 @@
             }
           },
           {
-            "title": "Infosys, TCS, HCL Tech, Wipro, Coforge, Tech M: Downgrade on IT stocks, check new targets - Business Today",
-            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR09zRUFDb3lRUTZod2dHVGxNQ3p4dnpjMGs4REs4cnQ1QnNHUXp5aVd2eWNWY3ZvdDdkbWdGVGdWbFh6RG1EYzRhMml4MUc3OUNYRy1UcWJBYzMyckVqa203UnRHWjdlVjlNazJDenVkYWVaaXFUTl8wUjVDWnJ3cDVhOGlWSjJxVkpfNkFVOEl1d1d2cm1LV29YUG5nSXBUZTZGYnJCZm11T2xEOTZxUTJIOGQtbUFIbzNvV2V1dVNzYmZxWkxjX1g0cGxCb0xfYlAyVWtZSGJWYnd3bmp6eF83NWHSAeoBQVVfeXFMTzVlanlsSzdsYkhRNXY2LVRFUmZILVRsRXFwdlZwT2Y3aVVnNTZCZjAxbVNrMG1kM3hqZEhNVG9SbTJYbXRBX21uOGNNbmI4SDg2WmZZX3gtUGR0bGdBNnpGMm9ScUt6RXZzYURXcWpxMDVwMFlrdEJBeDd6TGx1a2xWRGFjbzJZM0U0a3BMRTdYVkJxaS04YU9CVVR2aFdfRGpxS1BBT1lNbGFETjhBQ1BkSEJ0WTdod3dLLTJKeENYbVVSb2NVb3FJSVkxMUduUVYxR3Q2azRiNkpTc1BQcG1VZVNWaTJwUWxB?oc=5",
-            "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-            "description": "Infosys, TCS, HCL Tech, Wipro, Coforge, Tech M: Downgrade on IT stocks, check new targets &nbsp;&nbsp; Business Today",
+            "title": "Indian shares extend losses as investors book profits in thin year-end trade; Reliance drags - Reuters",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUVpM1NVbFoybFZVcW93Z1FNRVJaNmdsUERpRDdHVlNsbnZsVERaNGcydnZHSGx2eEh0SmE5WXItV1JOcWFkOGhSVHFoeGVGWUYycVp1R0lLYkZDMzE1LWV6dk9xeWhvSWU4SFFTc0luNEtadjBSOHN6QkFaaEY1Nk5qSlU0aFlsOHlVRGhuX2pxU2lwR0ZFVndoVQ?oc=5",
+            "published": "Sun, 28 Dec 2025 08:00:00 GMT",
+            "description": "Indian shares extend losses as investors book profits in thin year-end trade; Reliance drags &nbsp;&nbsp; Reuters",
             "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
+              "direction": "mixed",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [
+                "profit",
+                "profits"
+              ],
               "negativeKeywords": [
-                "downgrade"
+                "loss",
+                "losses"
               ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -8627,10 +8622,10 @@
             }
           },
           {
-            "title": "Paytm shares slip 5% after posting Q3 results; here's what analysts suggest - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONS0tdGcwVWRRQ2pwd2plSjZhLV9WaHhrYXA5Zi1Ec2ZENExCN3B6c1lQVnpIOVVYNHNMWlZJTTIzM0VrU0RBRTRPcU9ZNUNpWVFhZTZvbXhfSWdWZDYtNmwzMW1zSjhKWUd4S3Z3NmZGck91d2hEOFJiRC1rVHcyZHpNN25XV29xaERsSkVXcUVPd1VvckF2Q3FfbVk1bWVMdTFjU1NmOTJOTUlBYXd6WUFuc2lyb1d1cktiTVVNZFFWMV80WEtYV2Y0UUJfZ2NBZFBBNzZ6TGZpc0hfN2xJQWR1TnNVUWpD0gHuAUFVX3lxTE9TVWZJcTI1czQxMWRLVkVuN0VPM3hIYjd0ZTlNM3c0LThIZ3VJb0V6RWFIel9FZnBiNHVoVVRiN19nQmFUTmV4RTdtS0ZoSklDRmhET2Q0bTlpU29FanBKV1NVYXdCd0dHclR3d2dlem5hX1NORkt1aU5qNkhKQ2t0WnBsTkUzMUFhU0phUjVKYlJGQXJBT1FtaS0yMkYyeHBISWtualNuenlpN1hSSXBMYzNCZGVUSVZtd1RORW5DTWw0SGdYUDFzRTItN1JoamVBTVJyVHBuODRHelpNNjJiRV9DV1lnVHdSdGZHT1E?oc=5",
-            "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-            "description": "Paytm shares slip 5% after posting Q3 results; here's what analysts suggest &nbsp;&nbsp; Business Standard",
+            "title": "Stocks to Watch Today: Reliance Ind, Paytm, Wipro, Indian Hume Pipe, JK Cement, Alembic Pharma, Axis Bank,... - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNRmg3cVBUWnZrcnZ4RGRMWVlyRDdSSnVGQTRWSjVBOXZPZzlNZjh3VHp3dEIycG5zcnM0Q2w5YmU2UThrZTR3dXBvdTFENkdQcGk1WTFSZThyOFpVeXlSS1ZRa3lwejM3TzlOTHZ1VHZHa0pwSzk3aExmZE9aeHJBWWVaVjE0Nko4NkVNSXpnOHhZQ3p0ay1tM3VybTI0Tl82clgwdER1bUI3RW02VzJFYmVPSDN2SEdkRjVIWi16WXRXd2ZwYkpFUzFrV2Z1RmpXeTdTY3o5bTNXazlvYlNWZHBGcGpYeXd2eFZZTDFDWkcxLUFVWUxPYWhGcVdXT0FSdVNkcWpTZEY0UDNlWjlUQ3UteVpyNjVxYW1JTjhELXVTNDcxNndVa3gyNEMwQmF0ZkJacnk0TndtZ0k2cFHSAcMCQVVfeXFMTlZXQW1hWi0xVXJRSkF3VnVkSXlCdXV5cjBpS3JqR2wyaVlVUGZ0VTJNMWIxb0VBd2RfUWFXbWowUTlRUENMamRZVmRiTDFLS1BOTGJnNmU1NzU4cjltbEVMaXdqbXlmR3pBdF9kSEdKYTFkRmNCMGhvVTEzRmFqRG80c1hJVmlmZGpTYTZSV0JvcjVqZlZyYVdoQUhTaWx2QXRSejBkbDNURXhLQXA0dG9RRzNGaHJCclUzaXJzRW5FckJuSGJTR0VZaWpQczhpM0FWX2pDWkl4bjV3YnlmUzk1RG9GYVpIZGd5RF82MjhERklFMTU1d0s4dXpMTThWQTBacDdRUUNtdG5MU1UxWDJKeVJaeDdJZENrRnIxTXhPeEtpTXF0N0REVDFMNWRJWE5Od2s0S3B4dUhTOG9LSERvSlk?oc=5",
+            "published": "Mon, 27 Apr 2026 07:00:00 GMT",
+            "description": "Stocks to Watch Today: Reliance Ind, Paytm, Wipro, Indian Hume Pipe, JK Cement, Alembic Pharma, Axis Bank,... &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8642,10 +8637,10 @@
             }
           },
           {
-            "title": "Stocks to Watch Today: Reliance Ind, Paytm, Wipro, Indian Hume Pipe, JK Cement, Alembic Pharma, Axis Bank,... - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNRmg3cVBUWnZrcnZ4RGRMWVlyRDdSSnVGQTRWSjVBOXZPZzlNZjh3VHp3dEIycG5zcnM0Q2w5YmU2UThrZTR3dXBvdTFENkdQcGk1WTFSZThyOFpVeXlSS1ZRa3lwejM3TzlOTHZ1VHZHa0pwSzk3aExmZE9aeHJBWWVaVjE0Nko4NkVNSXpnOHhZQ3p0ay1tM3VybTI0Tl82clgwdER1bUI3RW02VzJFYmVPSDN2SEdkRjVIWi16WXRXd2ZwYkpFUzFrV2Z1RmpXeTdTY3o5bTNXazlvYlNWZHBGcGpYeXd2eFZZTDFDWkcxLUFVWUxPYWhGcVdXT0FSdVNkcWpTZEY0UDNlWjlUQ3UteVpyNjVxYW1JTjhELXVTNDcxNndVa3gyNEMwQmF0ZkJacnk0TndtZ0k2cFHSAcMCQVVfeXFMTlZXQW1hWi0xVXJRSkF3VnVkSXlCdXV5cjBpS3JqR2wyaVlVUGZ0VTJNMWIxb0VBd2RfUWFXbWowUTlRUENMamRZVmRiTDFLS1BOTGJnNmU1NzU4cjltbEVMaXdqbXlmR3pBdF9kSEdKYTFkRmNCMGhvVTEzRmFqRG80c1hJVmlmZGpTYTZSV0JvcjVqZlZyYVdoQUhTaWx2QXRSejBkbDNURXhLQXA0dG9RRzNGaHJCclUzaXJzRW5FckJuSGJTR0VZaWpQczhpM0FWX2pDWkl4bjV3YnlmUzk1RG9GYVpIZGd5RF82MjhERklFMTU1d0s4dXpMTThWQTBacDdRUUNtdG5MU1UxWDJKeVJaeDdJZENrRnIxTXhPeEtpTXF0N0REVDFMNWRJWE5Od2s0S3B4dUhTOG9LSERvSlk?oc=5",
-            "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-            "description": "Stocks to Watch Today: Reliance Ind, Paytm, Wipro, Indian Hume Pipe, JK Cement, Alembic Pharma, Axis Bank,... &nbsp;&nbsp; Moneycontrol.com",
+            "title": "Paytm stock down 2% after over 2% equity change hands in large deal on NSE - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcEVZRzdrRmxEQTB4UU1zUmhBUmpDcTJyc2JneUFSMm4zazl3VjlCNjZXSllhRS1YTGUtenhSeXpDV3lSMjNPbVAteFJEeFpZbHJEN1dIQlRjcDRlV0hSYWg0M0R5TGQtVDdxSWVibVpvYzlMWjFCTVpXZHZzZ2paRGdzNUVUdDRocmt5RGhGdmxLVXotYUprdXFQYUF1MVRydUQ4Sm5iN2wxclprM213SjM0QXI3clE2bmNLOV9UUFJ2TUpwVmdhbUVPZGp4VFhXbVh6eU1R0gHbAUFVX3lxTE14aE9CU1ZmOC1CWlRLajVWRlRGc001UmtkMmdlMDJQaHJXOWxhX3JreFd5bkVNc2xKQWJxNUYtdmJDaklBOWRDWGlhMEw5SHI1MGNfbHpTWGIwQ1pWV1FEU2lkMkZCdEJvNEoybHpfdl81X3p1OVZuZnFiWlZIanJKRmRuckh6cUVjZk1CdzQ5MUFMNXBRdVdUTG9MaW1vQy1LRmJKYmw1emhZcUFTSDhTamZpS2NwV2g3emJady1ZQTNOM1owbU1IYTJGSG5udk1QcXBCZy1wc1cwcw?oc=5",
+            "published": "Tue, 18 Nov 2025 08:00:00 GMT",
+            "description": "Paytm stock down 2% after over 2% equity change hands in large deal on NSE &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -9072,10 +9067,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -9376,10 +9371,10 @@
             }
           },
           {
-            "title": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDVCMzQtVHN5bmZ3U0NuaXhRcGJncWEzeWRFNFpoR1FEZ0JjOEpEdnV1VWRUTm5ZbnQ2U3UzbXUwbTJrT0dneGo5TXpSSDlJY0dyalhpNzg0QXVQR2o0UkdSMWk0VkhSVG9wRjUyc3dPWl9XQnltcllnSmFsQnIyMHI1dS12OThXQXdoNmJra3pLXzdleGFYY2QzVktQWnZKZFlLNHN1YjR5QlNYbWFDb2YwUFFKMjFvNHFWVW5kVHJ5d2VMWDcwMWZUZWF2RnRlNTdKOHRn0gHbAUFVX3lxTFBEa2FZb2kycURmS0NXaC1rUVNpYnQxWFdYbjA2UHZhVnVKUjNmSGt2WUlMZnZucXpMUjhIaTYwTWhQRWRnMHRFbzFlb3I1c2c1aWxyb0ZzMjdtVkFTd01CTWlWajRiOFVfN1l1ZjA0SnZ6T2dQU05UYkZJSHF2NG5EcnIwSTdxV2ZPQ1RiRGRNdzhHbFBKT01CbmZ4TVVWclNoZmRNQmlZNUZzRzl5N0lMOWxMWjkydDdKSk83d1pZSkFDNjRSMmFaeTFIbFBpYVFtQWpUSzFBRzBITQ?oc=5",
-            "published": "Fri, 06 Feb 2026 08:00:00 GMT",
-            "description": "JSW Cement Limited (NSE:JSWCEMENT) Not Lagging Industry On Growth Or Pricing &nbsp;&nbsp; simplywall.st",
+            "title": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2R1YkF4QlNSN1U0elNodGFhWEZ0eUVjMC0zMTJtVDQ2YkdaTlZvUHlBSXJfMHhvbG03azRndE1IMUk4WWMtMzhaMVpnSnpPZVVSd2NuN256ZThfZmJwRmw3Rmx5NU0yMUlUX3dTOGJkRkZwYXJsckttdjNKczg0ZEVtYk9Cbk9nNWVWS2VyZlhMTHZSd1hoWG1kV29rM3pFdXdZQXgzbmhiZW1mRjVnTVBMS0wxelpmSDJGZ1FGSS1RSFNzN3UyUkdLbS1wc09OMVpGWDlKcm91MFR6XzVUbFZhQ1k3bC1SbWlsekdn0gHzAUFVX3lxTE5EenVtM2h2SGctM0FEUlBwV2FVMXhWLVRrYVpnY2pNRTVTekh0R2duaUJBUTlsOE5pN1c1VFpqSmt0VWhyMnRfQUpzc3dOSXlfbENPSkVfWWNIQzhNRGk2ZU9rRktuSjlIcUQ4aGlMdHpncDRFWktzOV9KVmZ2NXpSV1MzcERPbjFTSFlFT2w5Zjd1N1NQV01OMTNBbUo2cUU2dUhBOVRQMWFyTk14UVZHM1Q4OWo5VVVtUWxmYVJTeU01WmhjZTg5c0lycE5lUThjYXAtM05jem1mcUk2WXh6R0hUc044elhuTDk1YkZqQkhYdw?oc=5",
+            "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+            "description": "3 Indian Industrial Stocks With High Earnings Growth Investors Are Watching &nbsp;&nbsp; simplywall.st",
             "classification": {
               "direction": "positive",
               "impact": "medium",
@@ -9454,7 +9449,7 @@
         "industry": "Telecom Services",
         "overallDirection": "positive",
         "overallImpact": "medium",
-        "newsScore": 6,
+        "newsScore": 4,
         "highImpactNewsCount": 1,
         "articles": [
           {
@@ -9485,21 +9480,6 @@
                 "profit",
                 "growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Earnings To Watch: Bharti Airtel Ltd (NSE:BHARTIARTL) Q1 2027 -- GF Value Sees 24% Upside - GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY1k4dkFNUzRVaGdpTlBMeGRjV2hDZHF1QXFkOGhTOXpMdXhCUVlEUmNfSGJuZzBDM0stX3FZMEo0ZVhQN1lkX0ZUazVHZGo2WmhheFh6MS0wNUtTZ3d2LThIOU91OW16Tm53c3oxUkI3QXZLdUR2S1pyQWhIcWxIMDQwN2NmTWdleF8ySi1KWF9RYVZGWjU5SENlS3FWN2F1RHFPUVhaUVQwWkNPVklBdkhIbk5hc2NGN0dDdg?oc=5",
-            "published": "Tue, 04 Aug 2026 13:36:06 GMT",
-            "description": "Earnings To Watch: Bharti Airtel Ltd (NSE:BHARTIARTL) Q1 2027 -- GF Value Sees 24% Upside &nbsp;&nbsp; GuruFocus",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -9566,17 +9546,30 @@
             }
           },
           {
-            "title": "Bharti Airtel Records Rs. 135.42 Crore Block Trade on NSE at Rs. 1925.60 Per Share - scanx.trade",
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ3pvZncwNHBWQnpWSkVFSUFxTUt1bTFmNHdXR1NlejhkYXl0WUNJTFdFSnNqeG55aTBJa1NRXzlmdm9mUkR5aVUtSElKODVFZUtVZkIyTGRzOUg2bjA3TzRNV0RURXVLb2VOYlFEWWtUVURUVVFSczQ5V2FMWHh0YVJFTEI2TFR0bklGOXBZX0NjdmJfVUJiYjI4cVNaTHgwZmR4Vmd2cER4ZmhybmdEMnE1X0JQY19sM2Q0NzNkNVMwb0RTdDhtMUhKejhTZw?oc=5",
-            "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-            "description": "Bharti Airtel Records Rs. 135.42 Crore Block Trade on NSE at Rs. 1925.60 Per Share &nbsp;&nbsp; scanx.trade",
+            "title": "We Think Bharti Airtel's (NSE:BHARTIARTL) Solid Earnings Are Understated - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQVdtV0xQcFFoMzNhdkhGRS1HYkg2UjR3TXltUml1dkM1UklmT3liX25lMkJJR0tJd1RBZDk3VTNnYzNpMl84amRnQ2JCMURwUGQwVUFHY0kxUnp6bXJyY0EyQUdvTEdZSTA3bzh0SWtqbFV0by1teUZZWXFCM2NZUlF1Njd3VWlnZWJIN1h4VThxT0dfSDBKMGJzVHFJMnphcHZpVTdrN2Q4bTRFQjgyM3VIcjdUVHZUcmhYVWxrTERMVklyVWcxS0JJaDhXU0s2djJxMUR2ZnI?oc=5",
+            "published": "Sun, 15 Feb 2026 08:00:00 GMT",
+            "description": "We Think Bharti Airtel's (NSE:BHARTIARTL) Solid Earnings Are Understated &nbsp;&nbsp; simplywall.st",
             "classification": {
-              "direction": "positive",
-              "impact": "medium",
-              "rawScore": 2,
-              "positiveKeywords": [
-                "record"
-              ],
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "BHARTIARTL Q2 2026 Earnings: Revenue Surges 22% YoY, EPS at ₹44.37 Marks Strong Operational Momentum - Vinanet",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1g2RjhxcnRxQTlhaUxmdnZTcFBlbTZiVzJqZkI0Vk9kcmFFVU1JZUhZUzlHUG4zclFyNUw3Q294cjV2R0FuNV9qZWxIRnNFV1NhaTNzcE1BRWtMWHVvaW9hVkNldnN4TndXZGtUbFVtSFlOTmprZWhSdHROYzNTeFBmdFBfV3plZnE5S05IUUlMM1duU2JyZXVxbjRzSlU5UGJIdUZpekF5R3poSXh6NFBrN3BIeHdCU2FiSm9OZjBNY0Y2V1NYLVAxUHVnaUtKTHU4?oc=5",
+            "published": "Sun, 21 Jun 2026 07:00:00 GMT",
+            "description": "BHARTIARTL Q2 2026 Earnings: Revenue Surges 22% YoY, EPS at ₹44.37 Marks Strong Operational Momentum &nbsp;&nbsp; Vinanet",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
