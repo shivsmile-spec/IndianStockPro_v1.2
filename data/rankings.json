@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated": "2026-08-20 10:05 UTC",
+  "generated": "2026-08-20 11:00 UTC",
   "stage": "quantitative",
   "market": {
     "market": "NSE",
@@ -185,13 +185,13 @@
           "price": 65.91,
           "score": 54.74,
           "signal": "Weak",
-          "confidence": 54.42,
+          "confidence": 54.41,
           "risk": 9.05,
           "factors": {
             "momentum": 39.54,
             "trend": 50.0,
             "relativeStrength": 54.88,
-            "volume": 50.06,
+            "volume": 50.05,
             "rsiQuality": 49.53,
             "breakout": 87.69,
             "volatility": 90.95,
@@ -303,9 +303,9 @@
         },
         {
           "price": 174.9,
-          "score": 83.46,
+          "score": 83.47,
           "signal": "Strong Setup",
-          "confidence": 84.19,
+          "confidence": 84.2,
           "risk": 23.81,
           "factors": {
             "momentum": 84.78,
@@ -313,7 +313,7 @@
             "relativeStrength": 91.2,
             "volume": 44.21,
             "rsiQuality": 96.48,
-            "breakout": 84.88,
+            "breakout": 84.96,
             "volatility": 76.19,
             "riskReward": 71.91
           },
@@ -330,30 +330,30 @@
           "priceBand": "₹100–₹300"
         },
         {
-          "price": 118.0,
-          "score": 77.78,
+          "price": 184.68,
+          "score": 78.69,
           "signal": "Watch",
-          "confidence": 78.64,
-          "risk": 13.89,
+          "confidence": 79.36,
+          "risk": 17.26,
           "factors": {
-            "momentum": 78.51,
+            "momentum": 82.91,
             "trend": 100.0,
-            "relativeStrength": 57.54,
-            "volume": 39.79,
-            "rsiQuality": 80.27,
-            "breakout": 99.18,
-            "volatility": 86.11,
-            "riskReward": 80.78
+            "relativeStrength": 61.99,
+            "volume": 43.59,
+            "rsiQuality": 73.44,
+            "breakout": 97.77,
+            "volatility": 82.74,
+            "riskReward": 78.61
           },
           "raw": {
-            "return5d": 0.35,
-            "return20d": 7.13,
-            "return60d": 13.84,
-            "rsi14": 68.15,
-            "volumeRatio": 0.66,
-            "volatility20d": 1.16
+            "return5d": -0.98,
+            "return20d": 8.23,
+            "return60d": 12.69,
+            "rsi14": 72.71,
+            "volumeRatio": 0.79,
+            "volatility20d": 1.44
           },
-          "symbol": "PNB",
+          "symbol": "UNIONBANK",
           "bandRank": 5,
           "priceBand": "₹100–₹300"
         }
@@ -367,14 +367,14 @@
       "stocks": [
         {
           "price": 392.3,
-          "score": 84.26,
+          "score": 84.47,
           "signal": "Strong Setup",
-          "confidence": 84.73,
+          "confidence": 84.93,
           "risk": 14.14,
           "factors": {
             "momentum": 92.55,
             "trend": 100.0,
-            "relativeStrength": 67.66,
+            "relativeStrength": 68.97,
             "volume": 43.88,
             "rsiQuality": 78.8,
             "breakout": 100.0,
@@ -384,7 +384,7 @@
           "raw": {
             "return5d": 1.57,
             "return20d": 10.64,
-            "return60d": 14.25,
+            "return60d": 12.94,
             "rsi14": 69.13,
             "volumeRatio": 0.8,
             "volatility20d": 1.18
@@ -423,27 +423,27 @@
         },
         {
           "price": 397.35,
-          "score": 72.5,
+          "score": 73.37,
           "signal": "Watch",
-          "confidence": 73.4,
-          "risk": 10.52,
+          "confidence": 74.18,
+          "risk": 10.87,
           "factors": {
-            "momentum": 64.61,
+            "momentum": 67.0,
             "trend": 80.0,
-            "relativeStrength": 58.55,
-            "volume": 48.51,
-            "rsiQuality": 95.52,
+            "relativeStrength": 60.35,
+            "volume": 47.7,
+            "rsiQuality": 94.26,
             "breakout": 97.32,
-            "volatility": 89.48,
-            "riskReward": 70.83
+            "volatility": 89.13,
+            "riskReward": 73.47
           },
           "raw": {
             "return5d": 1.26,
-            "return20d": 3.65,
+            "return20d": 4.25,
             "return60d": 2.4,
-            "rsi14": 57.98,
-            "volumeRatio": 0.95,
-            "volatility20d": 0.88
+            "rsi14": 58.82,
+            "volumeRatio": 0.92,
+            "volatility20d": 0.91
           },
           "symbol": "KOTAKBANK",
           "bandRank": 3,
@@ -451,27 +451,27 @@
         },
         {
           "price": 464.1,
-          "score": 72.41,
-          "signal": "Watch",
-          "confidence": 74.05,
-          "risk": 24.62,
+          "score": 69.49,
+          "signal": "Neutral",
+          "confidence": 71.41,
+          "risk": 25.47,
           "factors": {
-            "momentum": 72.15,
+            "momentum": 64.51,
             "trend": 100.0,
-            "relativeStrength": 48.3,
-            "volume": 31.22,
-            "rsiQuality": 96.79,
+            "relativeStrength": 42.57,
+            "volume": 31.62,
+            "rsiQuality": 99.2,
             "breakout": 94.59,
-            "volatility": 75.38,
-            "riskReward": 63.49
+            "volatility": 74.53,
+            "riskReward": 58.55
           },
           "raw": {
             "return5d": -4.41,
-            "return20d": 5.54,
+            "return20d": 3.63,
             "return60d": 18.31,
-            "rsi14": 57.14,
-            "volumeRatio": 0.37,
-            "volatility20d": 2.05
+            "rsi14": 55.53,
+            "volumeRatio": 0.39,
+            "volatility20d": 2.12
           },
           "symbol": "EXIDEIND",
           "bandRank": 4,
@@ -515,25 +515,25 @@
       "stocks": [
         {
           "price": 519.0,
-          "score": 77.4,
+          "score": 77.1,
           "signal": "Watch",
-          "confidence": 78.53,
-          "risk": 24.98,
+          "confidence": 78.27,
+          "risk": 25.0,
           "factors": {
-            "momentum": 83.37,
+            "momentum": 82.56,
             "trend": 100.0,
-            "relativeStrength": 64.8,
-            "volume": 28.64,
-            "rsiQuality": 87.93,
+            "relativeStrength": 64.2,
+            "volume": 28.72,
+            "rsiQuality": 88.24,
             "breakout": 97.25,
-            "volatility": 75.02,
-            "riskReward": 70.04
+            "volatility": 75.0,
+            "riskReward": 69.53
           },
           "raw": {
             "return5d": -2.75,
-            "return20d": 8.34,
+            "return20d": 8.14,
             "return60d": 10.22,
-            "rsi14": 46.95,
+            "rsi14": 47.16,
             "volumeRatio": 0.29,
             "volatility20d": 2.08
           },
@@ -543,27 +543,27 @@
         },
         {
           "price": 871.0,
-          "score": 75.17,
+          "score": 74.62,
           "signal": "Watch",
-          "confidence": 76.2,
-          "risk": 13.22,
+          "confidence": 75.59,
+          "risk": 13.87,
           "factors": {
-            "momentum": 71.13,
+            "momentum": 71.0,
             "trend": 100.0,
-            "relativeStrength": 59.1,
-            "volume": 31.71,
-            "rsiQuality": 84.86,
+            "relativeStrength": 59.01,
+            "volume": 31.54,
+            "rsiQuality": 80.94,
             "breakout": 97.1,
-            "volatility": 86.78,
-            "riskReward": 73.98
+            "volatility": 86.13,
+            "riskReward": 72.71
           },
           "raw": {
             "return5d": -2.9,
-            "return20d": 5.28,
+            "return20d": 5.25,
             "return60d": 6.74,
-            "rsi14": 65.09,
-            "volumeRatio": 0.39,
-            "volatility20d": 1.1
+            "rsi14": 67.71,
+            "volumeRatio": 0.38,
+            "volatility20d": 1.16
           },
           "symbol": "INDIANB",
           "bandRank": 2,
@@ -571,26 +571,26 @@
         },
         {
           "price": 735.85,
-          "score": 69.65,
-          "signal": "Neutral",
-          "confidence": 70.95,
-          "risk": 10.72,
+          "score": 70.86,
+          "signal": "Watch",
+          "confidence": 72.35,
+          "risk": 10.71,
           "factors": {
-            "momentum": 56.07,
+            "momentum": 56.52,
             "trend": 100.0,
-            "relativeStrength": 43.86,
-            "volume": 51.7,
-            "rsiQuality": 78.92,
+            "relativeStrength": 44.19,
+            "volume": 53.32,
+            "rsiQuality": 89.3,
             "breakout": 97.81,
-            "volatility": 89.28,
-            "riskReward": 58.49
+            "volatility": 89.29,
+            "riskReward": 59.13
           },
           "raw": {
-            "return5d": 1.64,
-            "return20d": 1.52,
+            "return5d": 1.95,
+            "return20d": 1.63,
             "return60d": 10.7,
-            "rsi14": 40.95,
-            "volumeRatio": 1.06,
+            "rsi14": 47.87,
+            "volumeRatio": 1.11,
             "volatility20d": 0.89
           },
           "symbol": "INDHOTEL",
@@ -599,14 +599,14 @@
         },
         {
           "price": 542.0,
-          "score": 58.61,
+          "score": 59.27,
           "signal": "Weak",
-          "confidence": 60.0,
+          "confidence": 60.62,
           "risk": 17.71,
           "factors": {
             "momentum": 35.97,
             "trend": 70.0,
-            "relativeStrength": 45.06,
+            "relativeStrength": 49.15,
             "volume": 47.97,
             "rsiQuality": 91.05,
             "breakout": 90.33,
@@ -616,7 +616,7 @@
           "raw": {
             "return5d": -2.97,
             "return20d": -3.51,
-            "return60d": -5.58,
+            "return60d": -9.67,
             "rsi14": 49.04,
             "volumeRatio": 0.93,
             "volatility20d": 1.48
@@ -626,30 +626,30 @@
           "priceBand": "₹500–₹1,000"
         },
         {
-          "price": 725.05,
-          "score": 52.36,
+          "price": 916.8,
+          "score": 56.26,
           "signal": "Weak",
-          "confidence": 52.34,
-          "risk": 8.77,
+          "confidence": 57.5,
+          "risk": 19.07,
           "factors": {
-            "momentum": 38.12,
-            "trend": 50.0,
-            "relativeStrength": 43.94,
-            "volume": 39.78,
-            "rsiQuality": 58.46,
-            "breakout": 87.37,
-            "volatility": 91.23,
+            "momentum": 36.49,
+            "trend": 70.0,
+            "relativeStrength": 44.36,
+            "volume": 32.73,
+            "rsiQuality": 79.66,
+            "breakout": 92.67,
+            "volatility": 80.93,
             "riskReward": 50.0
           },
           "raw": {
-            "return5d": 0.01,
-            "return20d": -2.97,
-            "return60d": -2.85,
-            "rsi14": 27.31,
-            "volumeRatio": 0.66,
-            "volatility20d": 0.73
+            "return5d": 1.18,
+            "return20d": -3.38,
+            "return60d": -4.49,
+            "rsi14": 41.44,
+            "volumeRatio": 0.42,
+            "volatility20d": 1.59
           },
-          "symbol": "HDFCBANK",
+          "symbol": "FORTIS",
           "bandRank": 5,
           "priceBand": "₹500–₹1,000"
         }
@@ -691,24 +691,24 @@
         },
         {
           "price": 1029.85,
-          "score": 81.72,
+          "score": 82.64,
           "signal": "Strong Setup",
-          "confidence": 82.49,
+          "confidence": 83.35,
           "risk": 21.58,
           "factors": {
-            "momentum": 82.98,
+            "momentum": 83.62,
             "trend": 100.0,
-            "relativeStrength": 80.59,
+            "relativeStrength": 85.17,
             "volume": 46.63,
             "rsiQuality": 89.27,
             "breakout": 90.04,
             "volatility": 78.42,
-            "riskReward": 72.93
+            "riskReward": 73.37
           },
           "raw": {
             "return5d": -1.57,
-            "return20d": 8.25,
-            "return60d": -5.85,
+            "return20d": 8.41,
+            "return60d": -9.96,
             "rsi14": 62.15,
             "volumeRatio": 0.89,
             "volatility20d": 1.8
@@ -718,86 +718,86 @@
           "priceBand": "₹1,000–₹1,500"
         },
         {
-          "price": 1137.8,
-          "score": 81.12,
+          "price": 1299.7,
+          "score": 80.83,
           "signal": "Strong Setup",
-          "confidence": 81.78,
-          "risk": 13.8,
+          "confidence": 82.14,
+          "risk": 13.82,
           "factors": {
-            "momentum": 83.29,
+            "momentum": 66.97,
             "trend": 100.0,
-            "relativeStrength": 70.16,
-            "volume": 36.02,
-            "rsiQuality": 87.84,
-            "breakout": 92.83,
-            "volatility": 86.2,
-            "riskReward": 86.18
+            "relativeStrength": 62.89,
+            "volume": 88.32,
+            "rsiQuality": 95.58,
+            "breakout": 97.72,
+            "volatility": 86.18,
+            "riskReward": 68.42
           },
           "raw": {
-            "return5d": 2.7,
-            "return20d": 8.32,
-            "return60d": 4.81,
-            "rsi14": 63.1,
-            "volumeRatio": 0.53,
+            "return5d": 1.94,
+            "return20d": 4.24,
+            "return60d": -0.16,
+            "rsi14": 57.95,
+            "volumeRatio": 2.28,
             "volatility20d": 1.15
           },
-          "symbol": "MGL",
+          "symbol": "JSWSTEEL",
           "bandRank": 3,
           "priceBand": "₹1,000–₹1,500"
         },
         {
           "price": 1118.9,
-          "score": 79.17,
+          "score": 78.43,
           "signal": "Watch",
-          "confidence": 79.77,
-          "risk": 18.94,
+          "confidence": 79.03,
+          "risk": 19.08,
           "factors": {
-            "momentum": 79.56,
+            "momentum": 78.29,
             "trend": 80.0,
-            "relativeStrength": 80.5,
-            "volume": 52.56,
-            "rsiQuality": 98.92,
-            "breakout": 92.37,
-            "volatility": 81.06,
-            "riskReward": 73.41
+            "relativeStrength": 79.55,
+            "volume": 51.96,
+            "rsiQuality": 98.12,
+            "breakout": 91.67,
+            "volatility": 80.92,
+            "riskReward": 72.24
           },
           "raw": {
             "return5d": 1.73,
-            "return20d": 7.39,
+            "return20d": 7.07,
             "return60d": -8.33,
-            "rsi14": 54.28,
-            "volumeRatio": 1.09,
-            "volatility20d": 1.58
+            "rsi14": 56.26,
+            "volumeRatio": 1.07,
+            "volatility20d": 1.59
           },
           "symbol": "JINDALSTEL",
           "bandRank": 4,
           "priceBand": "₹1,000–₹1,500"
         },
         {
-          "price": 1299.7,
-          "score": 77.17,
+          "price": 1137.8,
+          "score": 78.35,
           "signal": "Watch",
-          "confidence": 78.69,
+          "confidence": 79.17,
           "risk": 14.51,
           "factors": {
-            "momentum": 60.36,
+            "momentum": 77.48,
             "trend": 100.0,
-            "relativeStrength": 56.72,
-            "volume": 84.66,
-            "rsiQuality": 95.3,
-            "breakout": 97.72,
+            "relativeStrength": 65.8,
+            "volume": 37.56,
+            "rsiQuality": 86.43,
+            "breakout": 92.83,
             "volatility": 85.49,
-            "riskReward": 60.7
+            "riskReward": 78.41
           },
           "raw": {
-            "return5d": 2.41,
-            "return20d": 2.59,
-            "return60d": 1.05,
-            "rsi14": 58.13,
-            "volumeRatio": 2.16,
+            "return5d": 2.7,
+            "return20d": 6.87,
+            "return60d": 4.81,
+            "rsi14": 64.04,
+            "volumeRatio": 0.59,
             "volatility20d": 1.21
           },
-          "symbol": "JSWSTEEL",
+          "symbol": "MGL",
           "bandRank": 5,
           "priceBand": "₹1,000–₹1,500"
         }
@@ -811,27 +811,27 @@
       "stocks": [
         {
           "price": 1882.0,
-          "score": 89.75,
+          "score": 90.74,
           "signal": "Strong Setup",
-          "confidence": 90.43,
-          "risk": 34.81,
+          "confidence": 91.16,
+          "risk": 32.18,
           "factors": {
             "momentum": 100.0,
             "trend": 100.0,
-            "relativeStrength": 94.42,
-            "volume": 55.16,
-            "rsiQuality": 79.13,
+            "relativeStrength": 100.0,
+            "volume": 54.9,
+            "rsiQuality": 72.8,
             "breakout": 100.0,
-            "volatility": 65.19,
-            "riskReward": 95.77
+            "volatility": 67.82,
+            "riskReward": 100.0
           },
           "raw": {
-            "return5d": 4.47,
-            "return20d": 26.55,
-            "return60d": 35.24,
-            "rsi14": 68.91,
-            "volumeRatio": 1.17,
-            "volatility20d": 2.9
+            "return5d": 2.9,
+            "return20d": 31.31,
+            "return60d": 36.18,
+            "rsi14": 73.14,
+            "volumeRatio": 1.16,
+            "volatility20d": 2.68
           },
           "symbol": "COFORGE",
           "bandRank": 1,
@@ -867,27 +867,27 @@
         },
         {
           "price": 1660.0,
-          "score": 73.06,
+          "score": 72.23,
           "signal": "Watch",
-          "confidence": 74.58,
-          "risk": 15.42,
+          "confidence": 73.81,
+          "risk": 15.78,
           "factors": {
-            "momentum": 67.27,
+            "momentum": 65.75,
             "trend": 100.0,
-            "relativeStrength": 50.68,
+            "relativeStrength": 48.9,
             "volume": 30.5,
             "rsiQuality": 98.1,
             "breakout": 97.56,
-            "volatility": 84.58,
-            "riskReward": 66.8
+            "volatility": 84.22,
+            "riskReward": 64.98
           },
           "raw": {
             "return5d": -2.13,
-            "return20d": 4.32,
-            "return60d": 12.28,
+            "return20d": 3.94,
+            "return60d": 12.92,
             "rsi14": 56.27,
             "volumeRatio": 0.35,
-            "volatility20d": 1.28
+            "volatility20d": 1.31
           },
           "symbol": "PIDILITIND",
           "bandRank": 3,
@@ -895,14 +895,14 @@
         },
         {
           "price": 1750.4,
-          "score": 71.13,
+          "score": 71.01,
           "signal": "Watch",
-          "confidence": 72.62,
+          "confidence": 72.51,
           "risk": 23.88,
           "factors": {
             "momentum": 64.72,
             "trend": 100.0,
-            "relativeStrength": 59.22,
+            "relativeStrength": 58.49,
             "volume": 27.48,
             "rsiQuality": 85.75,
             "breakout": 97.43,
@@ -912,7 +912,7 @@
           "raw": {
             "return5d": 2.86,
             "return20d": 3.68,
-            "return60d": 1.81,
+            "return60d": 2.54,
             "rsi14": 64.5,
             "volumeRatio": 0.25,
             "volatility20d": 1.99
@@ -923,14 +923,14 @@
         },
         {
           "price": 1941.7,
-          "score": 66.77,
+          "score": 66.82,
           "signal": "Neutral",
-          "confidence": 67.91,
+          "confidence": 67.96,
           "risk": 14.81,
           "factors": {
             "momentum": 57.28,
             "trend": 85.0,
-            "relativeStrength": 49.0,
+            "relativeStrength": 49.31,
             "volume": 39.39,
             "rsiQuality": 84.23,
             "breakout": 97.47,
@@ -940,7 +940,7 @@
           "raw": {
             "return5d": 0.13,
             "return20d": 1.82,
-            "return60d": 6.46,
+            "return60d": 6.15,
             "rsi14": 44.49,
             "volumeRatio": 0.65,
             "volatility20d": 1.23
@@ -1069,13 +1069,13 @@
       "price": 65.91,
       "score": 54.74,
       "signal": "Weak",
-      "confidence": 54.42,
+      "confidence": 54.41,
       "risk": 9.05,
       "factors": {
         "momentum": 39.54,
         "trend": 50.0,
         "relativeStrength": 54.88,
-        "volume": 50.06,
+        "volume": 50.05,
         "rsiQuality": 49.53,
         "breakout": 87.69,
         "volatility": 90.95,
@@ -1179,9 +1179,9 @@
     },
     {
       "price": 174.9,
-      "score": 83.46,
+      "score": 83.47,
       "signal": "Strong Setup",
-      "confidence": 84.19,
+      "confidence": 84.2,
       "risk": 23.81,
       "factors": {
         "momentum": 84.78,
@@ -1189,7 +1189,7 @@
         "relativeStrength": 91.2,
         "volume": 44.21,
         "rsiQuality": 96.48,
-        "breakout": 84.88,
+        "breakout": 84.96,
         "volatility": 76.19,
         "riskReward": 71.91
       },
@@ -1206,43 +1206,43 @@
       "priceBand": "₹100–₹300"
     },
     {
-      "price": 118.0,
-      "score": 77.78,
+      "price": 184.68,
+      "score": 78.69,
       "signal": "Watch",
-      "confidence": 78.64,
-      "risk": 13.89,
+      "confidence": 79.36,
+      "risk": 17.26,
       "factors": {
-        "momentum": 78.51,
+        "momentum": 82.91,
         "trend": 100.0,
-        "relativeStrength": 57.54,
-        "volume": 39.79,
-        "rsiQuality": 80.27,
-        "breakout": 99.18,
-        "volatility": 86.11,
-        "riskReward": 80.78
+        "relativeStrength": 61.99,
+        "volume": 43.59,
+        "rsiQuality": 73.44,
+        "breakout": 97.77,
+        "volatility": 82.74,
+        "riskReward": 78.61
       },
       "raw": {
-        "return5d": 0.35,
-        "return20d": 7.13,
-        "return60d": 13.84,
-        "rsi14": 68.15,
-        "volumeRatio": 0.66,
-        "volatility20d": 1.16
+        "return5d": -0.98,
+        "return20d": 8.23,
+        "return60d": 12.69,
+        "rsi14": 72.71,
+        "volumeRatio": 0.79,
+        "volatility20d": 1.44
       },
-      "symbol": "PNB",
+      "symbol": "UNIONBANK",
       "bandRank": 5,
       "priceBand": "₹100–₹300"
     },
     {
       "price": 392.3,
-      "score": 84.26,
+      "score": 84.47,
       "signal": "Strong Setup",
-      "confidence": 84.73,
+      "confidence": 84.93,
       "risk": 14.14,
       "factors": {
         "momentum": 92.55,
         "trend": 100.0,
-        "relativeStrength": 67.66,
+        "relativeStrength": 68.97,
         "volume": 43.88,
         "rsiQuality": 78.8,
         "breakout": 100.0,
@@ -1252,7 +1252,7 @@
       "raw": {
         "return5d": 1.57,
         "return20d": 10.64,
-        "return60d": 14.25,
+        "return60d": 12.94,
         "rsi14": 69.13,
         "volumeRatio": 0.8,
         "volatility20d": 1.18
@@ -1291,27 +1291,27 @@
     },
     {
       "price": 397.35,
-      "score": 72.5,
+      "score": 73.37,
       "signal": "Watch",
-      "confidence": 73.4,
-      "risk": 10.52,
+      "confidence": 74.18,
+      "risk": 10.87,
       "factors": {
-        "momentum": 64.61,
+        "momentum": 67.0,
         "trend": 80.0,
-        "relativeStrength": 58.55,
-        "volume": 48.51,
-        "rsiQuality": 95.52,
+        "relativeStrength": 60.35,
+        "volume": 47.7,
+        "rsiQuality": 94.26,
         "breakout": 97.32,
-        "volatility": 89.48,
-        "riskReward": 70.83
+        "volatility": 89.13,
+        "riskReward": 73.47
       },
       "raw": {
         "return5d": 1.26,
-        "return20d": 3.65,
+        "return20d": 4.25,
         "return60d": 2.4,
-        "rsi14": 57.98,
-        "volumeRatio": 0.95,
-        "volatility20d": 0.88
+        "rsi14": 58.82,
+        "volumeRatio": 0.92,
+        "volatility20d": 0.91
       },
       "symbol": "KOTAKBANK",
       "bandRank": 3,
@@ -1319,27 +1319,27 @@
     },
     {
       "price": 464.1,
-      "score": 72.41,
-      "signal": "Watch",
-      "confidence": 74.05,
-      "risk": 24.62,
+      "score": 69.49,
+      "signal": "Neutral",
+      "confidence": 71.41,
+      "risk": 25.47,
       "factors": {
-        "momentum": 72.15,
+        "momentum": 64.51,
         "trend": 100.0,
-        "relativeStrength": 48.3,
-        "volume": 31.22,
-        "rsiQuality": 96.79,
+        "relativeStrength": 42.57,
+        "volume": 31.62,
+        "rsiQuality": 99.2,
         "breakout": 94.59,
-        "volatility": 75.38,
-        "riskReward": 63.49
+        "volatility": 74.53,
+        "riskReward": 58.55
       },
       "raw": {
         "return5d": -4.41,
-        "return20d": 5.54,
+        "return20d": 3.63,
         "return60d": 18.31,
-        "rsi14": 57.14,
-        "volumeRatio": 0.37,
-        "volatility20d": 2.05
+        "rsi14": 55.53,
+        "volumeRatio": 0.39,
+        "volatility20d": 2.12
       },
       "symbol": "EXIDEIND",
       "bandRank": 4,
@@ -1375,25 +1375,25 @@
     },
     {
       "price": 519.0,
-      "score": 77.4,
+      "score": 77.1,
       "signal": "Watch",
-      "confidence": 78.53,
-      "risk": 24.98,
+      "confidence": 78.27,
+      "risk": 25.0,
       "factors": {
-        "momentum": 83.37,
+        "momentum": 82.56,
         "trend": 100.0,
-        "relativeStrength": 64.8,
-        "volume": 28.64,
-        "rsiQuality": 87.93,
+        "relativeStrength": 64.2,
+        "volume": 28.72,
+        "rsiQuality": 88.24,
         "breakout": 97.25,
-        "volatility": 75.02,
-        "riskReward": 70.04
+        "volatility": 75.0,
+        "riskReward": 69.53
       },
       "raw": {
         "return5d": -2.75,
-        "return20d": 8.34,
+        "return20d": 8.14,
         "return60d": 10.22,
-        "rsi14": 46.95,
+        "rsi14": 47.16,
         "volumeRatio": 0.29,
         "volatility20d": 2.08
       },
@@ -1403,27 +1403,27 @@
     },
     {
       "price": 871.0,
-      "score": 75.17,
+      "score": 74.62,
       "signal": "Watch",
-      "confidence": 76.2,
-      "risk": 13.22,
+      "confidence": 75.59,
+      "risk": 13.87,
       "factors": {
-        "momentum": 71.13,
+        "momentum": 71.0,
         "trend": 100.0,
-        "relativeStrength": 59.1,
-        "volume": 31.71,
-        "rsiQuality": 84.86,
+        "relativeStrength": 59.01,
+        "volume": 31.54,
+        "rsiQuality": 80.94,
         "breakout": 97.1,
-        "volatility": 86.78,
-        "riskReward": 73.98
+        "volatility": 86.13,
+        "riskReward": 72.71
       },
       "raw": {
         "return5d": -2.9,
-        "return20d": 5.28,
+        "return20d": 5.25,
         "return60d": 6.74,
-        "rsi14": 65.09,
-        "volumeRatio": 0.39,
-        "volatility20d": 1.1
+        "rsi14": 67.71,
+        "volumeRatio": 0.38,
+        "volatility20d": 1.16
       },
       "symbol": "INDIANB",
       "bandRank": 2,
@@ -1431,26 +1431,26 @@
     },
     {
       "price": 735.85,
-      "score": 69.65,
-      "signal": "Neutral",
-      "confidence": 70.95,
-      "risk": 10.72,
+      "score": 70.86,
+      "signal": "Watch",
+      "confidence": 72.35,
+      "risk": 10.71,
       "factors": {
-        "momentum": 56.07,
+        "momentum": 56.52,
         "trend": 100.0,
-        "relativeStrength": 43.86,
-        "volume": 51.7,
-        "rsiQuality": 78.92,
+        "relativeStrength": 44.19,
+        "volume": 53.32,
+        "rsiQuality": 89.3,
         "breakout": 97.81,
-        "volatility": 89.28,
-        "riskReward": 58.49
+        "volatility": 89.29,
+        "riskReward": 59.13
       },
       "raw": {
-        "return5d": 1.64,
-        "return20d": 1.52,
+        "return5d": 1.95,
+        "return20d": 1.63,
         "return60d": 10.7,
-        "rsi14": 40.95,
-        "volumeRatio": 1.06,
+        "rsi14": 47.87,
+        "volumeRatio": 1.11,
         "volatility20d": 0.89
       },
       "symbol": "INDHOTEL",
@@ -1459,14 +1459,14 @@
     },
     {
       "price": 542.0,
-      "score": 58.61,
+      "score": 59.27,
       "signal": "Weak",
-      "confidence": 60.0,
+      "confidence": 60.62,
       "risk": 17.71,
       "factors": {
         "momentum": 35.97,
         "trend": 70.0,
-        "relativeStrength": 45.06,
+        "relativeStrength": 49.15,
         "volume": 47.97,
         "rsiQuality": 91.05,
         "breakout": 90.33,
@@ -1476,7 +1476,7 @@
       "raw": {
         "return5d": -2.97,
         "return20d": -3.51,
-        "return60d": -5.58,
+        "return60d": -9.67,
         "rsi14": 49.04,
         "volumeRatio": 0.93,
         "volatility20d": 1.48
@@ -1486,30 +1486,30 @@
       "priceBand": "₹500–₹1,000"
     },
     {
-      "price": 725.05,
-      "score": 52.36,
+      "price": 916.8,
+      "score": 56.26,
       "signal": "Weak",
-      "confidence": 52.34,
-      "risk": 8.77,
+      "confidence": 57.5,
+      "risk": 19.07,
       "factors": {
-        "momentum": 38.12,
-        "trend": 50.0,
-        "relativeStrength": 43.94,
-        "volume": 39.78,
-        "rsiQuality": 58.46,
-        "breakout": 87.37,
-        "volatility": 91.23,
+        "momentum": 36.49,
+        "trend": 70.0,
+        "relativeStrength": 44.36,
+        "volume": 32.73,
+        "rsiQuality": 79.66,
+        "breakout": 92.67,
+        "volatility": 80.93,
         "riskReward": 50.0
       },
       "raw": {
-        "return5d": 0.01,
-        "return20d": -2.97,
-        "return60d": -2.85,
-        "rsi14": 27.31,
-        "volumeRatio": 0.66,
-        "volatility20d": 0.73
+        "return5d": 1.18,
+        "return20d": -3.38,
+        "return60d": -4.49,
+        "rsi14": 41.44,
+        "volumeRatio": 0.42,
+        "volatility20d": 1.59
       },
-      "symbol": "HDFCBANK",
+      "symbol": "FORTIS",
       "bandRank": 5,
       "priceBand": "₹500–₹1,000"
     },
@@ -1543,24 +1543,24 @@
     },
     {
       "price": 1029.85,
-      "score": 81.72,
+      "score": 82.64,
       "signal": "Strong Setup",
-      "confidence": 82.49,
+      "confidence": 83.35,
       "risk": 21.58,
       "factors": {
-        "momentum": 82.98,
+        "momentum": 83.62,
         "trend": 100.0,
-        "relativeStrength": 80.59,
+        "relativeStrength": 85.17,
         "volume": 46.63,
         "rsiQuality": 89.27,
         "breakout": 90.04,
         "volatility": 78.42,
-        "riskReward": 72.93
+        "riskReward": 73.37
       },
       "raw": {
         "return5d": -1.57,
-        "return20d": 8.25,
-        "return60d": -5.85,
+        "return20d": 8.41,
+        "return60d": -9.96,
         "rsi14": 62.15,
         "volumeRatio": 0.89,
         "volatility20d": 1.8
@@ -1570,112 +1570,112 @@
       "priceBand": "₹1,000–₹1,500"
     },
     {
-      "price": 1137.8,
-      "score": 81.12,
+      "price": 1299.7,
+      "score": 80.83,
       "signal": "Strong Setup",
-      "confidence": 81.78,
-      "risk": 13.8,
+      "confidence": 82.14,
+      "risk": 13.82,
       "factors": {
-        "momentum": 83.29,
+        "momentum": 66.97,
         "trend": 100.0,
-        "relativeStrength": 70.16,
-        "volume": 36.02,
-        "rsiQuality": 87.84,
-        "breakout": 92.83,
-        "volatility": 86.2,
-        "riskReward": 86.18
+        "relativeStrength": 62.89,
+        "volume": 88.32,
+        "rsiQuality": 95.58,
+        "breakout": 97.72,
+        "volatility": 86.18,
+        "riskReward": 68.42
       },
       "raw": {
-        "return5d": 2.7,
-        "return20d": 8.32,
-        "return60d": 4.81,
-        "rsi14": 63.1,
-        "volumeRatio": 0.53,
+        "return5d": 1.94,
+        "return20d": 4.24,
+        "return60d": -0.16,
+        "rsi14": 57.95,
+        "volumeRatio": 2.28,
         "volatility20d": 1.15
       },
-      "symbol": "MGL",
+      "symbol": "JSWSTEEL",
       "bandRank": 3,
       "priceBand": "₹1,000–₹1,500"
     },
     {
       "price": 1118.9,
-      "score": 79.17,
+      "score": 78.43,
       "signal": "Watch",
-      "confidence": 79.77,
-      "risk": 18.94,
+      "confidence": 79.03,
+      "risk": 19.08,
       "factors": {
-        "momentum": 79.56,
+        "momentum": 78.29,
         "trend": 80.0,
-        "relativeStrength": 80.5,
-        "volume": 52.56,
-        "rsiQuality": 98.92,
-        "breakout": 92.37,
-        "volatility": 81.06,
-        "riskReward": 73.41
+        "relativeStrength": 79.55,
+        "volume": 51.96,
+        "rsiQuality": 98.12,
+        "breakout": 91.67,
+        "volatility": 80.92,
+        "riskReward": 72.24
       },
       "raw": {
         "return5d": 1.73,
-        "return20d": 7.39,
+        "return20d": 7.07,
         "return60d": -8.33,
-        "rsi14": 54.28,
-        "volumeRatio": 1.09,
-        "volatility20d": 1.58
+        "rsi14": 56.26,
+        "volumeRatio": 1.07,
+        "volatility20d": 1.59
       },
       "symbol": "JINDALSTEL",
       "bandRank": 4,
       "priceBand": "₹1,000–₹1,500"
     },
     {
-      "price": 1299.7,
-      "score": 77.17,
+      "price": 1137.8,
+      "score": 78.35,
       "signal": "Watch",
-      "confidence": 78.69,
+      "confidence": 79.17,
       "risk": 14.51,
       "factors": {
-        "momentum": 60.36,
+        "momentum": 77.48,
         "trend": 100.0,
-        "relativeStrength": 56.72,
-        "volume": 84.66,
-        "rsiQuality": 95.3,
-        "breakout": 97.72,
+        "relativeStrength": 65.8,
+        "volume": 37.56,
+        "rsiQuality": 86.43,
+        "breakout": 92.83,
         "volatility": 85.49,
-        "riskReward": 60.7
+        "riskReward": 78.41
       },
       "raw": {
-        "return5d": 2.41,
-        "return20d": 2.59,
-        "return60d": 1.05,
-        "rsi14": 58.13,
-        "volumeRatio": 2.16,
+        "return5d": 2.7,
+        "return20d": 6.87,
+        "return60d": 4.81,
+        "rsi14": 64.04,
+        "volumeRatio": 0.59,
         "volatility20d": 1.21
       },
-      "symbol": "JSWSTEEL",
+      "symbol": "MGL",
       "bandRank": 5,
       "priceBand": "₹1,000–₹1,500"
     },
     {
       "price": 1882.0,
-      "score": 89.75,
+      "score": 90.74,
       "signal": "Strong Setup",
-      "confidence": 90.43,
-      "risk": 34.81,
+      "confidence": 91.16,
+      "risk": 32.18,
       "factors": {
         "momentum": 100.0,
         "trend": 100.0,
-        "relativeStrength": 94.42,
-        "volume": 55.16,
-        "rsiQuality": 79.13,
+        "relativeStrength": 100.0,
+        "volume": 54.9,
+        "rsiQuality": 72.8,
         "breakout": 100.0,
-        "volatility": 65.19,
-        "riskReward": 95.77
+        "volatility": 67.82,
+        "riskReward": 100.0
       },
       "raw": {
-        "return5d": 4.47,
-        "return20d": 26.55,
-        "return60d": 35.24,
-        "rsi14": 68.91,
-        "volumeRatio": 1.17,
-        "volatility20d": 2.9
+        "return5d": 2.9,
+        "return20d": 31.31,
+        "return60d": 36.18,
+        "rsi14": 73.14,
+        "volumeRatio": 1.16,
+        "volatility20d": 2.68
       },
       "symbol": "COFORGE",
       "bandRank": 1,
@@ -1711,27 +1711,27 @@
     },
     {
       "price": 1660.0,
-      "score": 73.06,
+      "score": 72.23,
       "signal": "Watch",
-      "confidence": 74.58,
-      "risk": 15.42,
+      "confidence": 73.81,
+      "risk": 15.78,
       "factors": {
-        "momentum": 67.27,
+        "momentum": 65.75,
         "trend": 100.0,
-        "relativeStrength": 50.68,
+        "relativeStrength": 48.9,
         "volume": 30.5,
         "rsiQuality": 98.1,
         "breakout": 97.56,
-        "volatility": 84.58,
-        "riskReward": 66.8
+        "volatility": 84.22,
+        "riskReward": 64.98
       },
       "raw": {
         "return5d": -2.13,
-        "return20d": 4.32,
-        "return60d": 12.28,
+        "return20d": 3.94,
+        "return60d": 12.92,
         "rsi14": 56.27,
         "volumeRatio": 0.35,
-        "volatility20d": 1.28
+        "volatility20d": 1.31
       },
       "symbol": "PIDILITIND",
       "bandRank": 3,
@@ -1739,14 +1739,14 @@
     },
     {
       "price": 1750.4,
-      "score": 71.13,
+      "score": 71.01,
       "signal": "Watch",
-      "confidence": 72.62,
+      "confidence": 72.51,
       "risk": 23.88,
       "factors": {
         "momentum": 64.72,
         "trend": 100.0,
-        "relativeStrength": 59.22,
+        "relativeStrength": 58.49,
         "volume": 27.48,
         "rsiQuality": 85.75,
         "breakout": 97.43,
@@ -1756,7 +1756,7 @@
       "raw": {
         "return5d": 2.86,
         "return20d": 3.68,
-        "return60d": 1.81,
+        "return60d": 2.54,
         "rsi14": 64.5,
         "volumeRatio": 0.25,
         "volatility20d": 1.99
@@ -1767,14 +1767,14 @@
     },
     {
       "price": 1941.7,
-      "score": 66.77,
+      "score": 66.82,
       "signal": "Neutral",
-      "confidence": 67.91,
+      "confidence": 67.96,
       "risk": 14.81,
       "factors": {
         "momentum": 57.28,
         "trend": 85.0,
-        "relativeStrength": 49.0,
+        "relativeStrength": 49.31,
         "volume": 39.39,
         "rsiQuality": 84.23,
         "breakout": 97.47,
@@ -1784,7 +1784,7 @@
       "raw": {
         "return5d": 0.13,
         "return20d": 1.82,
-        "return60d": 6.46,
+        "return60d": 6.15,
         "rsi14": 44.49,
         "volumeRatio": 0.65,
         "volatility20d": 1.23
