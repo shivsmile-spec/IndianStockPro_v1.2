@@ -1,0 +1,56 @@
+name: Refresh IPO and Dividend Calendars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 */2 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-events
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+      - name: Refresh IPO and dividend data
+        run: python engine/refresh_market_events.py
+      - name: Verify event feeds
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ('ipo_calendar.json','dividend_calendar.json'):
+              p=json.loads(Path('data/'+name).read_text())
+              if not p.get('items') or not p.get('updatedAt'):
+                  raise SystemExit(name+' is empty or missing updatedAt')
+              print(name, len(p['items']), p['updatedAt'])
+          PY
+      - name: Publish event feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ipo_calendar.json data/dividend_calendar.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh IPO and dividend calendars"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            sleep 5
+          done
+          exit 1
