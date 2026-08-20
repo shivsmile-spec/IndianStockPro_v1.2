@@ -26,9 +26,13 @@
     return null;
   }
   function locate(key) {
+    if (key === "isp-news-context") {
+      var newsPanel = document.querySelector(".expert-panel");
+      if (newsPanel) return newsPanel;
+    }
     var map={
       integratedCards:["Top Integrated Opportunities","Top 10"], quantCards:["Quantitative","Quantitative Leaders"],
-      institutionalResearchPanel:["Institutional","Institutional Research"], "isp-news-context":["News and Context","News & Market Context","Company News"],
+      institutionalResearchPanel:["Institutional","Institutional Research"], "isp-news-context":["News and Context","News & Market Context","Company News","Latest market news","Market context"],
       ispIPOCalendar:["Upcoming IPO","IPO Calendar"], ispDividendCalendar:["Upcoming Dividend","Dividend Calendar"],
       bands:["Price-wise","Price Wise","Opportunities by Price"], summary:["Integrated Market Summary"], "isp-methodology":["How the Integrated Engine Works","Engine Methodology"]
     };
