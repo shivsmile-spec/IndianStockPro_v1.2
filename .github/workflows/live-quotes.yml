@@ -128,5 +128,25 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/live_quotes.json
           git diff --cached --quiet && exit 0
+
           git commit -m "Update live market quotes"
-          git push
+
+          # The NIFTY/SENSEX workflow also commits to main every 5 minutes.
+          # Rebase before pushing so the two scheduled feeds cannot race and
+          # leave the live quote feed stale after a successful fetch.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Live quote feed published"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            echo "Publish attempt ${attempt} failed; retrying..."
+            sleep 5
+          done
+
+          echo "Failed to publish live quote feed after 5 attempts"
+          exit 1
