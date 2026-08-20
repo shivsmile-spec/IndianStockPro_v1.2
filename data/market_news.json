@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-20T19:46:18.581979+00:00",
+  "generatedAt": "2026-08-20T21:02:47.403978+00:00",
   "source": "Google News RSS public market-news aggregation",
   "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
   "items": [
@@ -24,13 +24,6 @@
       "published": "2026-08-20T15:52:09+00:00",
       "source": "Goodreturns",
       "description": "Stock Market Crash: Sensex, Nifty Hit 1-Year Low; How US-Israel-Iran War Wiped Out Rs 4,753,333 Crore &nbsp;&nbsp; Goodreturns"
-    },
-    {
-      "title": "J&K Bank accepts resignation of Ashish Kundra as director - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWUM0WWxndzhKRFVPWG8xWWFZNm9qRzJLTzdkZ3B6SS1xLXFTeS1yQWJmdzdJeFBmOXN3djZrUy1pbEdjelV3am1SVUVuNlRQWVVXMmZCTjJEMnpVeVQwSldMZzBnTXlLM3V2WGtNYVNxQ0VTeFJla1pwZ1IxWkVEMTFJZHk4V1FRTVlxTjRxaHBpaVBvWkdMWXZ5MnhZOUZvWUJEYzdKc2hhTUVt?oc=5",
-      "published": "2026-08-20T13:48:33+00:00",
-      "source": "scanx.trade",
-      "description": "J&K Bank accepts resignation of Ashish Kundra as director &nbsp;&nbsp; scanx.trade"
     },
     {
       "title": "NSE weighs trading its own shares - PRESS Insider",
@@ -157,6 +150,13 @@
       "published": "2026-08-19T10:22:12+00:00",
       "source": "The Economic Times",
       "description": "Rupee hits three-week low, traders wary about fall to 96/USD as RBI stands guard &nbsp;&nbsp; The Economic Times"
+    },
+    {
+      "title": "Wardwizard Innovations shares permitted to trade on NSE from August 17 - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSVp4VXEzM2k1UDZmTkRiTHU4YWlGUVpFdHh4ZkxNLVd2X2V4T2ZNYlBtLWdLeFhKVmFtNGhoWGs2MkFXSHlUZUJOYXN4akpkbUYwWk1pOUwxOFV5T0xvQmVETzVSeENDMDUzOVRSQkg4NXZPOU9RV3JWaXVmR19RVkg3Z25VT0VHdkRjcVBTOGtFMTdrWU9qdW5JS1llS015cGhRRndHSXFNSG5xcmZlZXhMMjBhYW04OExIdE5n?oc=5",
+      "published": "2026-08-19T08:53:34+00:00",
+      "source": "scanx.trade",
+      "description": "Wardwizard Innovations shares permitted to trade on NSE from August 17 &nbsp;&nbsp; scanx.trade"
     },
     {
       "title": "FII DII Data Today 19 August 2026: FIIs Net Buyers Rs 1,652 Crore - Univest",
