@@ -9,10 +9,7 @@ on:
       - 'data/rankings.json'
       - '.github/workflows/news_engine.yml'
   schedule:
-    - cron: "45 3 * * 1-5"
-    - cron: "45 7 * * 1-5"
-    - cron: "45 11 * * 1-5"
-    - cron: "45 13 * * 1-5"
+    - cron: "0 * * * 1-5"
 
 permissions:
   contents: write
@@ -25,54 +22,43 @@ jobs:
   news-analysis:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r engine/requirements.txt
-
       - name: Run News and Context Engine
+        run: python engine/news_engine.py
+      - name: Verify news feed
         run: |
-          python engine/news_engine.py
-
-      - name: Commit news analysis
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/news_context.json').read_text())
+          if not p.get('generated') or not p.get('marketContext',{}).get('articles'):
+              raise SystemExit('News/context feed is empty or missing timestamp')
+          print('News articles:', len(p['marketContext']['articles']))
+          print('Generated:', p['generated'])
+          PY
+      - name: Publish news context
         run: |
-          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news_context.json
-          git diff --cached --quiet && echo "No news dataset changes" && exit 0
-          git commit -m "Update news and industry context analysis"
+          git diff --cached --quiet && exit 0
+          git commit -m "Update news and market context"
           for attempt in 1 2 3 4 5; do
             git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then
-                echo "News and context published"
-                exit 0
-              fi
-            else
-              git rebase --abort || true
-              git reset --hard origin/main
-              git checkout HEAD -- data/news_context.json || true
-              git add data/news_context.json
-              git commit -m "Update news and industry context analysis" || true
-              if git push origin HEAD:main; then
-                echo "News and context published after conflict recovery"
-                exit 0
-              fi
-            fi
+            if git rebase origin/main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
             sleep 5
           done
-          echo "Failed to publish news context after 5 attempts"
           exit 1
