@@ -1,7 +1,7 @@
 {
   "source": "NSE India — Securities available for Equity segment",
   "sourceUrl": "https://www.nseindia.com/static/market-data/securities-available-for-trading",
-  "generatedAt": "2026-08-19T04:22:18.133696+00:00",
+  "generatedAt": "2026-08-20T04:22:13.083741+00:00",
   "count": 2553,
   "stocks": [
     {
@@ -757,7 +757,7 @@
     {
       "symbol": "ALPHAGEO",
       "companyName": "Alphageo (India) Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE137C01018"
     },
     {
@@ -2077,7 +2077,7 @@
     {
       "symbol": "BI",
       "companyName": "Bilcare Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE986A01012"
     },
     {
@@ -14131,7 +14131,7 @@
     {
       "symbol": "UCAL",
       "companyName": "UCAL LIMITED",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE139B01016"
     },
     {
@@ -14491,7 +14491,7 @@
     {
       "symbol": "VCL",
       "companyName": "Vaxtex Cotfab Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE098201036"
     },
     {
