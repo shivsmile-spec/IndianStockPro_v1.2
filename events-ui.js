@@ -1,7 +1,7 @@
 /* Indian Stock Pro — live IPO + dividend calendar sections */
 (function(){
   "use strict";
-  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+  const esc=v=>String(v??"").replace(/[&<>\"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
   const fmtDate=v=>{if(!v)return "—";const d=new Date(v+"T00:00:00+05:30");return Number.isNaN(d.getTime())?esc(v):new Intl.DateTimeFormat("en-IN",{day:"2-digit",month:"short",year:"numeric",timeZone:"Asia/Kolkata"}).format(d)};
   const nowIST=()=>new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Kolkata"}));
   function styles(){if(document.getElementById("isp-events-style"))return;const s=document.createElement("style");s.id="isp-events-style";s.textContent=`
@@ -14,4 +14,18 @@
   function makePanel(id,title,desc,data,type){const p=document.createElement("section");p.className="panel isp-events";p.id=id;const items=(data.items||[]);p.innerHTML=`<div class="isp-events-head"><div><h2>${type==='ipo'?'🧾 IPO Calendar':'💰 Dividend Calendar'}</h2><p>${esc(desc)}</p></div><span class="isp-events-updated">Updated ${esc(data.updatedAt||data.snapshotDate||'—')}</span></div><div class="isp-red-notice"><b>Important:</b> This is an information calendar, not an investment recommendation. Dates, amounts, price bands and status can change. Always verify the latest exchange or issuer filing before acting.</div><div class="isp-event-grid">${items.length?items.map(x=>card(x,type)).join(''):'<div class="isp-event-empty">No current entries available.</div>'}</div><div class="isp-events-note">${esc(data.note||'Latest available published data is shown. If a source has not published a current event, the app does not invent one.')}</div>`;return p}
   async function render(){styles();try{const [ipo,div]=await Promise.all([load('./data/ipo_calendar.json'),load('./data/dividend_calendar.json')]);const anchor=document.getElementById('summary')?.closest('section.panel');if(!anchor)return;document.getElementById('ispIPOCalendar')?.remove();document.getElementById('ispDividendCalendar')?.remove();const ipoPanel=makePanel('ispIPOCalendar','IPO Calendar','Upcoming, open and recently closed public issues with key dates and price bands.',ipo,'ipo');const divPanel=makePanel('ispDividendCalendar','Dividend Calendar','Upcoming dividend-related dates and recently completed dividend events.',div,'dividend');anchor.parentNode.insertBefore(ipoPanel,anchor);anchor.parentNode.insertBefore(divPanel,anchor); }catch(e){console.warn('IPO/dividend calendars unavailable',e)}}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',render);else render();
+})();
+
+/* Trial-only loader: keep compare UI isolated from main. */
+(function(){
+  "use strict";
+  if(!/github\.io\/IndianStockPro_v1\.2/i.test(location.hostname+location.pathname))return;
+  if(location.pathname.indexOf("/IndianStockPro_v1.2/")===-1)return;
+  if(window.__ispCompareUiLoader)return;
+  window.__ispCompareUiLoader=true;
+  var s=document.createElement("script");
+  s.src="./compare-ui.js?v=20260820";
+  s.onload=function(){console.log("Indian Stock Pro trial compare UI loaded")};
+  s.onerror=function(){console.warn("Trial compare UI could not be loaded")};
+  document.head.appendChild(s);
 })();
