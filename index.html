@@ -66,4 +66,29 @@ function closeModal(){const modal=document.getElementById("modal");modal.classLi
 document.getElementById("closeBtn").addEventListener("click",closeModal);document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});document.getElementById("analyzeBtn").addEventListener("click",searchStock);const searchInput=document.getElementById("search");searchInput.addEventListener("keydown",e=>{if(e.key==="Enter"){document.getElementById("searchResults").style.display="none";searchStock()}if(e.key==="Escape")closeModal()});searchInput.addEventListener("input",updateSearchResults);document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});closeModal();document.getElementById("refreshQuotesBtn")?.addEventListener("click",refreshLivePrices);loadData();
 </script>
 <script src="./nse-search.js?v=2"></script><script src="./live-price-ui.js?v=3"></script><script src="./external-intelligence.js?v=1"></script><script src="./fundamentals-ui.js?v=1"></script><script src="./nse-search.js?v=1"></script><script src="./market-indices.js?v=1"></script><script src="./v2-bridge.js?v=1"></script><script src="./v2-features.js?v=1"></script><script src="./v2-external-freshness.js?v=1"></script><script src="./v2-dedupe.js?v=1"></script><script src="events-ui.js"></script><script src="dashboard-tabs.js?v=20260820"></script>
+<script>
+<!-- ISP_MARKET_NEWS_BUTTON_FIX -->
+(function(){
+  function install(){
+    var panel=document.querySelector('.expert-panel');
+    if(panel) panel.id='market-news-context';
+    var els=document.querySelectorAll('a,button,.card,.band,div');
+    els.forEach(function(el){
+      var t=(el.innerText||el.textContent||'').replace(/\s+/g,' ').trim();
+      if(t==='Market News & Context' || t==='Market News & Context Open →' || (t.indexOf('Market News & Context')===0 && t.length<80)){
+        if(el.dataset.ispNewsBound==='1') return;
+        el.dataset.ispNewsBound='1';
+        el.style.cursor='pointer';
+        el.addEventListener('click',function(e){
+          e.preventDefault(); e.stopPropagation();
+          var target=document.querySelector('#market-news-context') || document.querySelector('.expert-panel');
+          if(target){ target.scrollIntoView({behavior:'smooth',block:'start'}); }
+        },true);
+      }
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',install); else install();
+  setTimeout(install,500); setTimeout(install,1500); setTimeout(install,3000);
+})();
+</script>
 </body></html>
