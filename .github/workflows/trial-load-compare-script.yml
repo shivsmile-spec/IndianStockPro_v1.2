@@ -1,0 +1,51 @@
+name: Trial - load compare script
+
+on:
+  push:
+    branches:
+      - trial-tab-ui
+    paths-ignore:
+      - index.html
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  load-compare-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trial branch
+        uses: actions/checkout@v4
+        with:
+          ref: trial-tab-ui
+
+      - name: Ensure compare UI script is loaded
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path("index.html")
+          text = p.read_text(encoding="utf-8")
+          tag = '<script src="./compare-ui.js?v=20260820" defer></script>'
+          if "compare-ui.js" not in text:
+              marker = "</body>"
+              if marker not in text:
+                  raise SystemExit("closing body tag not found")
+              text = text.replace(marker, tag + "\n" + marker, 1)
+              p.write_text(text, encoding="utf-8")
+              print("Inserted compare-ui.js into index.html")
+          else:
+              print("compare-ui.js already present")
+
+      - name: Commit trial-only index change
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "No index change needed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Fix trial compare button script loading"
+          git push origin trial-tab-ui
