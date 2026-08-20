@@ -137,12 +137,18 @@
     const s=document.createElement("script");s.id="isp-reliable-feed-script";s.src="./feed-reliability.js?v=20260820";document.head.appendChild(s);
   }
 
+  function installFreshDataLayer(){
+    if(document.getElementById("isp-fresh-data-layer-script"))return;
+    const s=document.createElement("script");s.id="isp-fresh-data-layer-script";s.src="./fresh-data-layer.js?v=20260820";document.head.appendChild(s);
+  }
+
   function start(){
     injectStyle();
     sync();
     ensureImportantNotice();
     ensureHealth();
     installReliableFeed();
+    installFreshDataLayer();
     updateHealthFromPage();
     refreshStockQuotes();
     clearInterval(refreshTimer);
