@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "stage": "news_context",
-  "generated": "2026-08-20T12:00:07.774807+00:00",
+  "generated": "2026-08-20T14:11:34.081989+00:00",
   "methodology": {
     "description": "Company news, industry context, macroeconomic, commodity and geopolitical screening after quantitative stock selection.",
     "note": "News signals are contextual inputs, not automatic buy or sell decisions."
@@ -13,8 +13,28 @@
   "marketContext": {
     "articles": [
       {
+        "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News - News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
+        "published": "Thu, 20 Aug 2026 12:42:24 GMT",
+        "description": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News &nbsp;&nbsp; News On AIR",
+        "classification": {
+          "direction": "positive",
+          "impact": "medium",
+          "rawScore": 2,
+          "positiveKeywords": [
+            "growth"
+          ],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
+          "macroKeywords": [
+            "rbi",
+            "gdp"
+          ]
+        }
+      },
+      {
         "title": "RBI MPC preferred wait-and-watch stance amid food and fuel inflation risks: Minutes - Economic Times BFSI",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOclBVblh5bWptNUY1YVJkSFoyNlpNYUdPSFVJanBOT0YzXzBzU0xZaEpDZmoxMmp6aU42WUZYLTBrNTJlTjMwUF95Um5ZVGJNQXJBZ0sxbzFjX0tXUzJKTDFvblpGNU1weC11WEVTTUw3TU9leHNjcHoxbURQVU9TVUs2MGhFSWtkWGlCcGFGbzlwZU5HZTRvT3JyNnN1NUpRZkNQdWJYdkZvSzgyREEyaWN4TFVTYnV6MjJVcXBVeGRfeGxjd2Y4RHBsYnhKU1FMYmx6QVFLYlhRdTRSdWhndGo0T3M4WExFLTFRVk9GTdIB9AFBVV95cUxORThQcURGZEVpdDlRMlFEc2R1XzJ2Rm8zQUMxNWtzbzhUMm5rQ3JVc1FoZ0ktcXkxa28xbzVJSnV4NXN2RnhQN2E3enE4MWtUU24tTHl2RWhWRXJBVHdxd0N3S1BqeExPYXY1NkkwZTg3UkZTMF82eEM4bzRocWRPcmpqbGxxei1OV2xRcU1SRTZkUnI3cWx5YmJuWnctZ0FxeEk1TmE3cUNWdUhrZGhmUmtrSGVQRUZyTXFMR19wRDMtcUdBcm1QU2otNXY4LXYxVUJXaU5YTUdodlFFWTdqYnNobGxVUmZ5VTZ0VXpsUWF2QkRy?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORThQcURGZEVpdDlRMlFEc2R1XzJ2Rm8zQUMxNWtzbzhUMm5rQ3JVc1FoZ0ktcXkxa28xbzVJSnV4NXN2RnhQN2E3enE4MWtUU24tTHl2RWhWRXJBVHdxd0N3S1BqeExPYXY1NkkwZTg3UkZTMF82eEM4bzRocWRPcmpqbGxxei1OV2xRcU1SRTZkUnI3cWx5YmJuWnctZ0FxeEk1TmE3cUNWdUhrZGhmUmtrSGVQRUZyTXFMR19wRDMtcUdBcm1QU2otNXY4LXYxVUJXaU5YTUdodlFFWTdqYnNobGxVUmZ5VTZ0VXpsUWF2QkRy0gH0AUFVX3lxTE5FOFBxREZkRWl0OVEyUURzZHVfMnZGbzNBQzE1a3NvOFQybmtDclVzUWhnSS1xeTFrbzFvNUlKdXg1c3ZGeFA3YTd6cTgxa1RTbi1MeXZFaFZFckFUd3F3Q3dLUGp4TE9hdjU2STBlODdSRlMwXzZ4QzhvNGhxZE9yampsbHF6LU5XbFFxTVJFNmRScjdxbHliYm5ady1nQXF4STVOYTdxQ1Z1SGtkaGZSa2tIZVBFRnJNcUxHX3BEMy1xR0FybVBTai01djgtdjFVQldpTlhNR2h2UUVZN2pic2hsbFVSZnlVNnRVemxRYXZCRHI?oc=5",
         "published": "Thu, 20 Aug 2026 09:13:29 GMT",
         "description": "RBI MPC preferred wait-and-watch stance amid food and fuel inflation risks: Minutes &nbsp;&nbsp; Economic Times BFSI",
         "classification": {
@@ -103,24 +123,6 @@
         }
       },
       {
-        "title": "RBI Holds Rates: Governor Malhotra Awaits Inflation Clarity - Rediff MoneyWiz",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGVObUpaWlkwdnZHZXUyQnA4dmNmaGVCTWxqYkRYWkhNcHV2S3QzQ2lPemtIQUJkLVpJSWFLT0hGWnhyLXBDbDFIcHNaX2NVSFRqQnVLdXpoN1BtaVhhak82cE9fV2JCclpRaXE2MTJqa2JMNHZVdkVkMk1PZk40ai1CZ2hEMm9BQkNGSXJDY1lKYmlqamtVMDI3X3pTQXdaYXRUNk5tMTFnVnR3LWttcC1KSFHSAbQBQVVfeXFMT2xlTm1KWlpZMHZ2R2V1MkJwOHZjZmhlQk1samJEWFpITXB1dkt0M0NpT3prSEFCZC1aSUlhS09IRlp4ci1wQ2wxSHBzWl9jVUhUakJ1S3V6aDdQbWlYYWpPNnBPX1diQnJaUWlxNjEyamtiTDR2VXZFZDJNT2ZONGotQmdoRDJvQUJDRklyQ2NZSmJpamprVTAyN196U0F3WmF0VDZObTExZ1Z0dy1rbXAtSkhR?oc=5",
-        "published": "Wed, 19 Aug 2026 12:36:24 GMT",
-        "description": "RBI Holds Rates: Governor Malhotra Awaits Inflation Clarity &nbsp;&nbsp; Rediff MoneyWiz",
-        "classification": {
-          "direction": "neutral",
-          "impact": "low",
-          "rawScore": 0,
-          "positiveKeywords": [],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [],
-          "macroKeywords": [
-            "rbi",
-            "inflation"
-          ]
-        }
-      },
-      {
         "title": "Crude Oil Prices Soar on Hormuz Jitters & Supply Concerns - Rediff MoneyWiz",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeVpDNGRzNklmNWVsaHNrNWNFT3g2aE5Rb3I3RnF3RWpzc3JuaEt2SElnaWl6SW5kcDEydVdjdHFMUWNmdGVZVFp3MHpIX1pEWWNqakpjRjlGWS1hX0ZyYlcyRkNCYWxYQzR2cTU1M1FXVWlseW5xQ1BPN0ZWRXdyQkxYMG52cVZFWXNhRlBlR1hRX3cyVXZ4WWE2dU9EZTdLVG80MGE1cXlFNTDSAbABQVVfeXFMTWo5UzRISjNDRXhTQ2E1OTJJU3U2M0JySUI3MnplOUdpcjV6YjljdnlZemFwSnhWSm9yVTFJQnZEdVF5NkJmT09nMXBlVmJQM2I1Tm16Q3djSFBHcTRGOG5UNGlsWEtia3ZVeWRHYTZ2ckNSUVpOS1QycVlMVmpHenU5NDFka3ppSXdDSGk1ME1veUVIS2tLaHZidWdnUzFmODhab0J5UE9JMFFTV2pFTmU?oc=5",
         "published": "Wed, 19 Aug 2026 08:03:37 GMT",
@@ -181,28 +183,6 @@
         }
       },
       {
-        "title": "Russia Captures Record Share of India's Oil Market - Crude Oil Prices Today | OilPrice.com",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcDFJUzE0ZHJ2SV92UWJuSXI4cEJLb251VjBCMXVjWnktYlZ1clp5ck1qbTQ1NlRnSTUtOUNMS3N6OWN3QkJsUW9mQWN5eXVYbVBudVZ0M1JhWE5wN3l2bk9INEY2QUxhZkVPWTlqMG1PbmFyXzY1dUd0eFpvRE4yV0ZiZUp1RXJOb3ZTSGxJZHRFT2N6T0lHODBpSG9PVXpIdmNZMFRHN0fSAa4BQVVfeXFMTW1GYkxBa2VmUExBSnBqQjJMVTVtX1RnOVZRSDlXanFvNENtY2xlMXVWRG10aGsxNGx6Qkd6ajVITk1ybEZlSXVlVWNBRWpocWc3bjJuZ214aGRaMDlTTy1XM3pNZ2xGandodW54SXktTmZTY1ljeHJyT0FsLU5RUFgzQVZvZ3FINGpYRWh3cUNQMWE0SUh5TFA2a1JIVlVrbnpUbk5CMGpYaHZEdVhB?oc=5",
-        "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-        "description": "Russia Captures Record Share of India's Oil Market &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
-        "classification": {
-          "direction": "positive",
-          "impact": "medium",
-          "rawScore": 2,
-          "positiveKeywords": [
-            "record"
-          ],
-          "negativeKeywords": [],
-          "geopoliticalKeywords": [
-            "russia"
-          ],
-          "macroKeywords": [
-            "crude oil",
-            "oil price"
-          ]
-        }
-      },
-      {
         "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
         "published": "Wed, 19 Aug 2026 11:19:31 GMT",
@@ -234,6 +214,21 @@
           "macroKeywords": [
             "crude oil"
           ]
+        }
+      },
+      {
+        "title": "India’s oil shock problem: Why electric vehicles are the solution - International Council on Clean Transportation",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzZOOXQwU18wUjJyWFZIdDhzNjFZb3JJV1N3UE1vNGZsRDR3UThtc1hrbHZtQUxyUnlaRktsTWcyWXFCazZPbXVhSkZDWTNsWDF2SjE3N2ZQRlc2TU1nempiNTJCTXZqUk9VenlSYWtGTEJNYWE4R21CbW5WWjR4SWxmU0VzOEtCUURobXpBbTR3TnFD?oc=5",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT",
+        "description": "India’s oil shock problem: Why electric vehicles are the solution &nbsp;&nbsp; International Council on Clean Transportation",
+        "classification": {
+          "direction": "neutral",
+          "impact": "low",
+          "rawScore": 0,
+          "positiveKeywords": [],
+          "negativeKeywords": [],
+          "geopoliticalKeywords": [],
+          "macroKeywords": []
         }
       },
       {
@@ -517,6 +512,21 @@
             }
           },
           {
+            "title": "IDFC FIRST Bank Hits Fresh 52-Week High at ₹79.62; Gains 3.5% on Strong Q2 Earnings Momentum - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSjhrWXRObVFMNE81MllfNHF3UkJBZjh3aW11WjNnVFZZdDR0Y0IwV3NTZWxVc2VQZ1hCRy1jQnA0WmxkclVoSHNkVl9lNXRvcGpCTmZZd2FiS3Zpem8xOWlKVXgtSS1lazY2dWdwbThyMkgxekI5Vk5hZzFscWxKZWNn?oc=5",
+            "published": "Thu, 23 Oct 2025 07:00:00 GMT",
+            "description": "IDFC FIRST Bank Hits Fresh 52-Week High at ₹79.62; Gains 3.5% on Strong Q2 Earnings Momentum &nbsp;&nbsp; HDFC Sky",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Investing in IDFC First Bank (NSE:IDFCFIRSTB) five years ago would have delivered you a 142% gain - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObFRNMzdzcXVCcXh0VlJSbGU4bHZNQ0hUYWZOdUQtMUhQa2p0ckx1bTFONm1jQUJIak5sUkdCVTM1OVdsLXVTdE5ZZVR6Vl91X1d2NHE1T1BrbndIcUVFQkVUS1l1aThBZzlwbjZNZndWUVQ1Q3VYSkVnLTF6cnBXZTlORkN2UUtCa3dMcnRSdXY0a3c3NjI2XzBTcWZpZ3lLbjcwQ3phQ2ZoV3hkZXJ6UWdzdFNIX0Rrcm9JRmZ6NzNnUkotQ2I0YllqN1hacXVHX25pcDhKdEszOUnSAeABQVVfeXFMUEpLaEtXbDVzWklMdU50YzR0UzlVaFZOVWdOR3drNmZsLUQ5N09HV05qVlZrYlhNdEk2VlJZTzgyampJOVh6NE9ZLTB0enYtMWFIRVhmYjF4ZzJPRGRNZW1PMjdaeHRMRGRlTGdqWGZVMGd3QTNUZ3RMdFlrUVVDZUNhYlFjYnEwelZ4bnhheUgzT3g1S0EzWk9qNktUTW5zRUZ0TnZPY2JNWllfbVVkWnlvUDdFaFprQ2l0enRuaTYtdndNbzJRZm9SVnRDWGlodTJtYVdlcGFtRWVQRWxZdjc?oc=5",
             "published": "Tue, 11 Nov 2025 08:00:00 GMT",
@@ -560,21 +570,6 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
-          },
-          {
-            "title": "IDFC First Bank Share Price Target 2026: Analyst Forecast, Bull and Bear Case - Univest",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LUmpHcGlvSy1IOTIzN1o3b0Rrc0FpS0FJYlFHeXdQR3FtZ2x0bV95akZoYkJmaVFYZnVXb1VwSlN3X3h3WUxtWHBjc1hldUNLdWRBc1BTVl9sT29XNzUwdmRXTjAzNkFmblJkM1RxVEFGUQ?oc=5",
-            "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-            "description": "IDFC First Bank Share Price Target 2026: Analyst Forecast, Bull and Bear Case &nbsp;&nbsp; Univest",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
           }
         ]
       },
@@ -582,7 +577,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -655,10 +650,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -682,21 +709,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -728,23 +740,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -875,10 +870,10 @@
             }
           },
           {
-            "title": "Stocks to Watch Today: InterGlobe Aviation, Concord Biotech, NMDC, Lumax Auto Tech, Olectra Greentech,... - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQeTViQ0xRYnNzanFpY0taeWd4QURxbUNwS3l2VlRzYng2NWhiZFNXVFBZaG81ZGlrQ0RtVmQzUzRNdG1scGQ2U1VHbFFnaVRFcTM1UDVMNVNmeWhMWW1PT1BHZjJxSUcyTGVCY3A0UFdBRzFnaWk5ZDlBQVhRNnhHd0hPR2ZxeG1WWHl0Sjl1Mm0xNk1ra0xveXcwSEJxcXAwSF96ZVl5QzgwSGMyQ3YwN0l1b0ZjT19TVU9saXVGV052VjF5ck5HYnRzOWo2eGlydmVUVjMxTWxSb2ZaVGJTeGl3RkMxU0VYN21iMnFPUm1RNmVvZWVUeWszTmN2UkdWaHM4Y0FRSF9DWm9qejdsMVZFTkdtcFRObU1iOWJLQlhBSUtwTEdISVJWc0xNUdIBswJBVV95cUxPdEdvNEk3V2NLTEJDVTIwNFpLR19MS1dCelhXTkdiSzg5WU9hMzZORTRXUUw5QWNNWThCaXNacVhwNzZyUXo2N2VGc0xHMmN6bHpWR3UtOGNvUHJZQXNNcjdUUGQ1V3RxS3ZBOE9rdDg2c3VjS1BPNXlfSjM0RE5mZGZvaWxOTTMxMmV5cnl0cFpQZmh6WXRDM19lRDV3RTFJdWdVY0Vvek15NGRpX3h6U25kQmowNU9DWkJuQWZUaVFRdEF4UjhESjQwQUZkSjBMUkZOM1VJenpBQkhZa3hZSFFFYW0waEhvQ0F1RlBlVFh6NFF3Mkp5WnVXNEI1UG1NRTJsd0ZxNlNaemhCbERNZEZ2cUc3ZUVwWnBTNlpJZ01VdHFaLVYtR082VWMteFNiVVlB?oc=5",
-            "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-            "description": "Stocks to Watch Today: InterGlobe Aviation, Concord Biotech, NMDC, Lumax Auto Tech, Olectra Greentech,... &nbsp;&nbsp; Moneycontrol.com",
+            "title": "Trade Spotlight: How should you trade IRCTC, MCX, NBCC, NMDC, Engineers India, Karur Vysya Bank, and... - Moneycontrol.com",
+            "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPZGlFdzRoUUkxZDdfanhoUEx1QUVwVHVMcWJyYUJoTFEwM3dTSlh1ZHFvLXozdnA0S2dJWUJqc2hyZm9xMFVPbWV1anhiTzk1ejk2cE9YZHppOHZfd1V6X2VJVXNtbWtxaDVwTUFHMWM3QlB3akxndmxnZEJNNTFNRkFlQ0JValdHd0dROEF2cVlzYjd1LS0zOW1KaVdZekJQWGJGeUNrYWpmUHV6Rmdmb3JnNEF3dm9FVl85TlVYTnBKSDJZcVJSWlZJa081UlI0Q0wtUWh6SUhqRU9HdjJYU2FJYjJLbDM5UTdiV0ZCUlJ6ajV2Y3VndXZnVmVBUUNhUk1kWkw5dnR1MlFP0gGSAkFVX3lxTFBQZk40MElKd2JjTl9TYUl1RnB2WXpXSmNYWTljWUhGaHZucDRPOF9id1huejhtZ3NvZ2xXVDBhTm9CQ0NmNDdVdWFPVzF5aVp6d0hMSV9IcWwxaDRHVm0tVnBnQ0xSYjFYQjdNRjhXa3ZxT1piRTBDWElDbTFvYzNUXy1YVW9rMXp4Z2VRc2ZXNTJDOEhFMVJEM0xGUnBBM29IWXhTRTRRclhfWmRoV1dMRmM1bEtpU3dFWk9rMGdZUmtDRERtM1ExS0FUUC1aUEQ0aHo3bXN3ZG5MQzZTaXhPMWxtcl9LZE1TLXhjc1pZRHh1WGlGa1lzYkMtU0FwZ0JzZWlacWRJZHBzLWRwekI5NUE?oc=5",
+            "published": "Mon, 29 Dec 2025 08:00:00 GMT",
+            "description": "Trade Spotlight: How should you trade IRCTC, MCX, NBCC, NMDC, Engineers India, Karur Vysya Bank, and... &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1063,7 +1058,7 @@
       "priceBand": "₹20–₹100",
       "companyNews": {
         "symbol": "YESBANK",
-        "company": "YES BANK LIMITED",
+        "company": "Yes Bank Limited",
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "overallDirection": "negative",
@@ -1201,7 +1196,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -1274,10 +1269,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -1301,21 +1328,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -1347,23 +1359,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -1516,7 +1511,7 @@
         "sector": "Financial Services",
         "industry": "Credit Services",
         "direction": "positive",
-        "contextScore": 2,
+        "contextScore": 4,
         "articles": [
           {
             "title": "NCLT sanctions TVS Holdings bonus preference share scheme - scanx.trade",
@@ -1602,6 +1597,36 @@
             }
           },
           {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "4 NBFC Sector Stocks with Strong Growth Plans in India (2026) - Univest",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91QmZndl9YUXpNVTJKTWU3d1lrVHFpWGw0WUtSV2JOclBpRGpBVDJaVllsWUc4QzNvaW8zdndCcGd5alBwWERUajBGQVI5S2kyZTN6UnI4ZWtVQzF5cWtWb0F2aXJZLU1nRXBxN2ZaMkhSRVU?oc=5",
             "published": "Thu, 20 Aug 2026 04:38:00 GMT",
@@ -1614,21 +1639,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -1660,23 +1670,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -1999,7 +1992,7 @@
       "priceBand": "₹100–₹300",
       "companyNews": {
         "symbol": "ASHOKLEY",
-        "company": "ASHOK LEYLAND LTD",
+        "company": "Ashok Leyland Limited",
         "sector": "Industrials",
         "industry": "Farm & Heavy Construction Machinery",
         "overallDirection": "neutral",
@@ -2098,10 +2091,10 @@
             }
           },
           {
-            "title": "Ashok Leyland Ltd up for third straight session - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm1wTW0wUms3Zk5zaEFsWGZLN3Zkc3AzbDdOUDlCNmdHU2them1zV21ySTd4MmMtR3o5UnB6bEpjbzNSX2xYQ2FieWtMWDV6WDU2RmdYUFlhT2FXY0dJZWlQdGJRZEZDNEltZGxpbDN1WDBiOURXbEppazJSLUdMSHQ3VXgyZ1ZPN1VmM2lyX2lMcnFiX1laWDIxV1Z2OFhlaUVhbHQ0X1JFdUQ0Y2hjblY5SUF1SVNwbGhMVUd3MFdxcHJHa1NIONIBzgFBVV95cUxQMElKQjNSTjVibWxjNFIwSkt6azVjbjN0TTRhM1VXOFo4U1dNdUVkNzM0SzB2eXdDaUoxTUpVeXZwczRRa2lTeWJUOVhDeGFrcElyRnAzb3B5Uk1keVJueEJqdGxWRlVoSUpDS1hfOGw2c1NKcFJFS3NQUUlrVlRaXzhaSFdWSFNHWlZkTDN1UFZ4YjVrdERMaEs1czhIQ0ZWWDBVNUQtbmFUU3ZVNnFnUUpZZ0NILWs3bGhILWJ0dVRaVmtRQThSeGdVNFhjdw?oc=5",
-            "published": "Mon, 15 Dec 2025 08:00:00 GMT",
-            "description": "Ashok Leyland Ltd up for third straight session &nbsp;&nbsp; Business Standard",
+            "title": "Ashok Leyland Share Price Jumps 5% on Hinduja Leyland Finance Merger - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWXBvUTdIblZWbzJhSVp0SXJtQ0g3cDk4UVJRM01GVlctYjNwcnNtdDVQZXpiaF9zcFJtdkctZS1mWm84bVRJYnRoU18tMVZ0RWl0MUNnaXFTMkNGUUtXd1NIMGN1LXlDbnBoR2stMnVfQWxRR2dmRURIYXE4T0lxRnVCTjNjVTZyb0J4blZwMGxPUDh0MHpKa3lYU3BWcWI3SVNjT2dVOHBvZVl2eEl5aTdZR0lTZFdzRGRCLXRzMGx1ek1p?oc=5",
+            "published": "Thu, 27 Nov 2025 08:00:00 GMT",
+            "description": "Ashok Leyland Share Price Jumps 5% on Hinduja Leyland Finance Merger &nbsp;&nbsp; HDFC Sky",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2113,10 +2106,10 @@
             }
           },
           {
-            "title": "JPMorgan cuts Ashok Leyland stock rating to neutral, raises target - Investing.com",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc0szbzFWZzhCcWVramkxZ2hhZTcwU01vVjZTc2k1Wm5YeFM4dVhxcl92dGpXYVBuNU9vdVVvbXFtcVFfdkl4U0xfVTZSTGphRG5fdTJyX2xRSGhsSi0zV0RQMEpxQmRWVWdUbVRVNmtxX3dxdEtubVk2aWhLQWxGUlZ6ZlByUHdPRFpjNVlBYldYNUJPZkZTVG5UcFZMbjNLVUpleWxqM3BQS2RUcGM4NFhrckNWelNSb1BUX002blhQWTA?oc=5",
-            "published": "Sun, 25 May 2025 07:00:00 GMT",
-            "description": "JPMorgan cuts Ashok Leyland stock rating to neutral, raises target &nbsp;&nbsp; Investing.com",
+            "title": "Ashok Leyland Analyst Review 2026: Key Levels and Outlook - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qWXhaekZZQ2VKTGdNSTdyUGJpSVhtZmhYZmw4Nnlob3RqdUlFTFB1OVBhUkxmU3dUR2JoVnBySGE1T3hDcE0zNmhHWnc1UjFNd0lzZm1ERzVrVzluZnlzX3E1Nl9zNnplN0E?oc=5",
+            "published": "Thu, 21 May 2026 07:00:00 GMT",
+            "description": "Ashok Leyland Analyst Review 2026: Key Levels and Outlook &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2137,8 +2130,8 @@
         "articles": [
           {
             "title": "Stock List: Research Stocks from Around the World - GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvekVSTzZMMFczV1NobnJrLWlJZ05BWUV6OUtLcUJJaVJYQUlDWU1jdWQ2Vk1ZUFNRNlBQM3RRTU9FNktVZ2xhQzcxelQ2WmJvOGZKaW1yODRpeWxkTFpJRDNB?oc=5",
-            "published": "Wed, 12 Aug 2026 03:17:47 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fMmc5TFFzMHowT2c0VVoxYmlzVXJBSll2WjlGVmViQ3dnemtIZVp1QndRUE5LaFdERzJpS05Ba1VCSnViZWZCcmJidmFOYnZfNXJMeXFvRUJpalVLb2tkeWtR?oc=5",
+            "published": "Wed, 12 Aug 2026 02:50:51 GMT",
             "description": "Stock List: Research Stocks from Around the World &nbsp;&nbsp; GuruFocus",
             "classification": {
               "direction": "neutral",
@@ -2447,7 +2440,7 @@
         "sector": "Energy",
         "industry": "Oil & Gas Refining & Marketing",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "5 Energy Stocks Cashing In On The New Energy Crunch - Crude Oil Prices Today | OilPrice.com",
@@ -2468,18 +2461,16 @@
             }
           },
           {
-            "title": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later. - International Business Times",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYkw4NF9PZ2JmYW85MDFKUVR6NWxtVDFhSDAtZ2lZQ3RJcmNuVXU4aUUwa1I3TWVuUFROVEE4MHFCV3Y0dFA1M2lSd2hPb0VvTWxWTk8zNUVMRE9pTVBYOHllMDV3WlNpSEMxbEdTMzZLZEVDTUpoeGk4MUotajY5TnRKbzE5RjdMSjlMdW85eUFYMzNrU1I3cGY5QmNMUXVMaDlyUlB5ZXV5aTFGOHFtaVRZZUo?oc=5",
-            "published": "Wed, 19 Aug 2026 10:09:04 GMT",
-            "description": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later. &nbsp;&nbsp; International Business Times",
+            "title": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends - Forbes",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVViMEpGZXdLUllsQmFyaVBjOGV4ZFpGdlh2b3RYdzBVeG13QTZIaHl1RGc4LW5FZmQ5OE9RLUtTV1NBNy1KMXNFQm9IMnVhemo0Rm84OC1zTlZhREphdkZ6SW5aMm5yNVJSYnBGV0FOYndDRy1ET3U4eGx0Rl9fcmdIUFU3NXhfc1FFOGNjaVZkMlpYdFhOanJhS185QWFTX0NEeTBBRm9JeUZaeGZBNlBEUkxXanJBUzBPT2NGMnY1dDZZMHZtSHVQOUFMN3o5?oc=5",
+            "published": "Tue, 26 Jul 2022 07:00:00 GMT",
+            "description": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends &nbsp;&nbsp; Forbes",
             "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
               "positiveKeywords": [],
-              "negativeKeywords": [
-                "fine"
-              ],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -2502,10 +2493,10 @@
             }
           },
           {
-            "title": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends - Forbes",
-            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVViMEpGZXdLUllsQmFyaVBjOGV4ZFpGdlh2b3RYdzBVeG13QTZIaHl1RGc4LW5FZmQ5OE9RLUtTV1NBNy1KMXNFQm9IMnVhemo0Rm84OC1zTlZhREphdkZ6SW5aMm5yNVJSYnBGV0FOYndDRy1ET3U4eGx0Rl9fcmdIUFU3NXhfc1FFOGNjaVZkMlpYdFhOanJhS185QWFTX0NEeTBBRm9JeUZaeGZBNlBEUkxXanJBUzBPT2NGMnY1dDZZMHZtSHVQOUFMN3o5?oc=5",
-            "published": "Tue, 26 Jul 2022 07:00:00 GMT",
-            "description": "A Tutorial On ESG Investing In The Oil And Gas Industry For Mr. Pence And His Friends &nbsp;&nbsp; Forbes",
+            "title": "Panama Petrochem Limited (PANAMAPET.NS) stock price, news, quote and history - Yahoo Finance UK",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Od1pkTXJScUJwVnkwc095QXBTR0RUYmZKLXZEeTR3UmhpUHBjY0dWRmNDMUpDRzhhRjZDalFZcXZOWmFOaHNGY2J2SWdSVF90SXVtLVdNeGZ4cFF4?oc=5",
+            "published": "Sat, 18 Nov 2017 11:04:07 GMT",
+            "description": "Panama Petrochem Limited (PANAMAPET.NS) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance UK",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2517,10 +2508,28 @@
             }
           },
           {
-            "title": "Environmental Credit Risk Exposure: 2023 Insights - Moody's",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaDFLQ2Zxa1RydzFRMGIxdm41aWg1RUExWHo3N1pWaFI3Yy1wNXEzRzhpS1h4ZkhJbUxYREU0Wm95UldUVVozd0RRMXdnY3JaMWN2emYyWC01Nkg2UjctdkI0WTBjM2ZIc3UwdDNncHBweU1hNm1iZHZabnhuVVZNc0k0Mk81T0NOZWNiaTNUcUc1amZMT3VLZjU4X242aGdM?oc=5",
-            "published": "Tue, 28 Nov 2023 08:00:00 GMT",
-            "description": "Environmental Credit Risk Exposure: 2023 Insights &nbsp;&nbsp; Moody's",
+            "title": "Oil Stocks Are Showing A Peculiar Disconnect From Crude Prices - Crude Oil Prices Today | OilPrice.com",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPam9RZWtma3dUZHNfSGtfQnV5X01OdmlTR2FuNTlobUFTTGVpa09hbkhWbmxOS2c5RlFpbF9uNnB1TEhHbkE4UEM3NGRLNFRweHRPQTZVMFp2TlFzbTE2emlBYlI0Zk1HMVEtVWc2Yl9KZ2FxTzhQSVU2dHNpcU5oekI0ZE9zWW1pZGhrWlk5Zkk4WVN4Wkw1UkppY2pXWU8xNFlNdlpuMVdTOFpLdlJB0gG0AUFVX3lxTE9wS3hpZ3NZTEtBcUxfaUxscmw0NnBHVHZ2NE0xWTltdnBJNGpZdHdxdW9oY0xTbVhvRGllWWFyYkxKNkhCZTBuUG8wNk1JTWtHSy1GZ01fd3B3RXkxMjVyLU8wVTNvVXJHa1k1NE5EVzBESG5uNzhnM1hkMldjeEY4T2dLV2Y0ZHh6dk5STUM0N0h5MEdnVmltZlowT1I3aEV5a05PS2ExaWI0VTN4a29CUzFJdg?oc=5",
+            "published": "Sun, 27 Nov 2022 08:00:00 GMT",
+            "description": "Oil Stocks Are Showing A Peculiar Disconnect From Crude Prices &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "crude oil",
+                "oil price"
+              ]
+            }
+          },
+          {
+            "title": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) - SolarQuarter",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNjVaTFBhT0JHd3hJOThnaEtQaEVqY3hiUmNrTE50dGVpNDZFOVVSclJCeHlvWW1VRzdpdEdjTG5pVFdaVXQzMFFuM0NsWGNDQXlfNDNycEJCdV9MV1JXdElHdHdkc19pOURIYTRndnI2d3JSbnpuT0V3TmVPU3RZVk9PQVlzc3RHZHVrYVo5QnNKa2FReWNrLVFnSWp4Q3ROTnZIaGRSZzRyNEhaVGtXMmF0VTN6NGNVMUFFLXlB?oc=5",
+            "published": "Thu, 20 Aug 2026 12:05:38 GMT",
+            "description": "Indian Stock Market Gains As Green Energy Stocks Lead Selective Rally (20 August 2026) &nbsp;&nbsp; SolarQuarter",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2562,21 +2571,6 @@
             }
           },
           {
-            "title": "Closing Bell: Nifty below 24,100, Sensex down 326 pts; defence, energy stocks drag - IndiaIPO",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGh4eTdYU2M5ZkZWVFhmR3JIRzdXNGZZV013UlljQ1BBTHpJVHZKY1BpUktEM0FWN3VFRGZQZFR4cl9QcEIxUENGQ2dRQ3c5dloweEZrdnI5QnI3Q0IyZ0RRTHk4MTJicXRSVG1Ea3pGR0djRTBjRlFDa2NkYU56WXBOcW1taWNVdzRENlVsVkdzalh2bVlCSkxFSWZpcW5RVHBFUmNJUnA1MGVUTFZ4dTFzRQ?oc=5",
-            "published": "Thu, 20 Aug 2026 00:53:02 GMT",
-            "description": "Closing Bell: Nifty below 24,100, Sensex down 326 pts; defence, energy stocks drag &nbsp;&nbsp; IndiaIPO",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "4 Renewable Energy Stocks with Strong Growth Plans in India (2026) - Univest",
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwN0M5eFZQX3YtZTZWNjV0el9RdDhaUERQS1ppZUtlczNSTndoSnROVkJ1MXhrSmY4a0dKMGJPcnZTc3VJa3VVNW9aNFVUTHZkY3Bua0lxVjZiLTJqc3BYcVRYa3BrTV9yVENGNUxIM1hNelFIbFd5SUFR?oc=5",
             "published": "Wed, 19 Aug 2026 09:43:00 GMT",
@@ -2595,10 +2589,10 @@
             }
           },
           {
-            "title": "Indian Renewable Energy Stocks End Lower Amid Broad Market Sell-Off (19 August 2026) - SolarQuarter",
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbW5LV21uTDMtSEtfUGVBRVVhYkV4TGZzVG41d2E1dV9KalFsRjRodUxqLWJGM1RiWVR4NF9uUzBSTTdNTVFaV1Ztb2NLbGxvcXdZSDkyWDh1MjBFc2xLbXQ3a1Y1VzdyazVqVVNQLVhNNGc1TEllcF93Nk16WDJLcXVyR09COWV6ODBlS2JIR2dTbU9JWlN2N3ZXTGZKR0hVWTNCdFFzaTJ2eTBybDFYUUNxSzlXbVZoWklJ?oc=5",
-            "published": "Wed, 19 Aug 2026 12:35:15 GMT",
-            "description": "Indian Renewable Energy Stocks End Lower Amid Broad Market Sell-Off (19 August 2026) &nbsp;&nbsp; SolarQuarter",
+            "title": "Closing Bell: Nifty below 24,100, Sensex down 326 pts; defence, energy stocks drag - IndiaIPO",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGh4eTdYU2M5ZkZWVFhmR3JIRzdXNGZZV013UlljQ1BBTHpJVHZKY1BpUktEM0FWN3VFRGZQZFR4cl9QcEIxUENGQ2dRQ3c5dloweEZrdnI5QnI3Q0IyZ0RRTHk4MTJicXRSVG1Ea3pGR0djRTBjRlFDa2NkYU56WXBOcW1taWNVdzRENlVsVkdzalh2bVlCSkxFSWZpcW5RVHBFUmNJUnA1MGVUTFZ4dTFzRQ?oc=5",
+            "published": "Thu, 20 Aug 2026 00:53:02 GMT",
+            "description": "Closing Bell: Nifty below 24,100, Sensex down 326 pts; defence, energy stocks drag &nbsp;&nbsp; IndiaIPO",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2792,23 +2786,6 @@
             }
           },
           {
-            "title": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise - LinkedIn",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkx0dUMzV1pWdjY0dXlaeHI2dVl1ZlpxajMzMnhTR0Q2TFMwWGhlNWR3VWg4SVVfaHpaUFNKY21VSDNiY3BucUpWUTQ1b3BZS2VvSFNxT3E4UnB0U1MweklGRDBQZlJsbWV0RDF1VEMwT1B2WlpWb1pYTmFtS1Z3T2JTQnI1YVVxQW1tY1VRQ3VIRDZQb2VtR0RROTBLOHV3VThB?oc=5",
-            "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-            "description": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise &nbsp;&nbsp; LinkedIn",
-            "classification": {
-              "direction": "positive",
-              "impact": "medium",
-              "rawScore": 2,
-              "positiveKeywords": [
-                "growth"
-              ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Top 5 Auto Ancillary Stocks in India - Sahi",
             "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xZHFfb1BUVDkyd2xDUG5WNFNGVjZLdXdvRjNiWk9jNXBrYllncUtsMGFweE9zZlU2T2hvOE5GZDBRQUUzY1Y2emV4LTU5TWs1R0FJUlhOQzVSRUxPYW5EakhsRFRvWjk1V1E?oc=5",
             "published": "Thu, 18 Jun 2026 07:00:00 GMT",
@@ -2824,10 +2801,10 @@
             }
           },
           {
-            "title": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSVE4SS1NbkU0U2V3R1gxQlM3QnFNcWJJRkNVNERyVXV1OEdNYmE2RzlEaFA3akNIRmxSMmFjQTg1WEpKQWNWTjBaOXdEb2hYTnBJa3o0NXVseFBaUEVnWF82QnJpWnZxUlpxdUZoSWUwVnY3VEJPYkxIaG11aEczWkdNRk53U1ZBTmt0SzlNLVBPRjh5ZHgxdGlJbUVGeUxLc2xJS0IwRVY5azQyanVVMUJhSE9aR3VFeHphc25KWGlWbXRzSEJLRDlfaTBQZ3l0T3NiUXZMZ0RIb21YX25HRGR5SHBIbExrQndEZTR1cE5SSXppbHRr0gH8AUFVX3lxTFBPWFM2OXFSeTAwU2p4bzY2VENxRUplM2VYZUNSVXM5aEE4czNad3ZrVlM4N0IwbEU1aTZybUJlczZpeU9lZ05qa2thTHZQS2FVenM2a1JmYk9ZZGdrTTlUc1g2bHc2Z2NfcV80cE5ieTgyT21xNmJNTEUzaWJYeVh1WXFiZkhsZjYxRi0wQ0RmMlA5dERhWE5oLVpScjZaU0t2SG5SUllwT3FGNFBETllNYlpSLXZqX2dqWFpIaDR3OWdsMjBjU21MUFBSYVJCaVFFVE5qdnVDMWY5R0JOcnh0WldIY0E3RThRNXNDQzZ2Z253MVFZUlhhQmpETw?oc=5",
-            "published": "Sat, 07 Feb 2026 08:00:00 GMT",
-            "description": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts &nbsp;&nbsp; Moneycontrol.com",
+            "title": "India's auto parts exports to US remain strong despite tariff tensions - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZEtMVFJiZkE4Y1BrUkViT0pfT2RRU3FoVjVoLWdvRjNFYTJDTmpQVi1iUU1IUll5ZmxmTmVyT0lPbDZDSnNXbjFucXUyRzk5Y1Z6MlZrWFlVeHJ6QU92WGJiVGw4RjZ4V2lURVNxSTMycGNQQVY5QnVSaW9BbnBaeUNtLUp2N2d4N00zOGdBNDlLbWRtTHBMNXlvLUhKVXppWGFEblZDbllNRGNzQUdtZTJCUGc5OHo5bTIyM3Jxa1R6NEJab29tT1VzRUd5OXpMa1lIa1ByTFNBVHlYM18tOHVOemPSAeoBQVVfeXFMTXlKVkNBWGl3SEdMbXZpMkhKMFBRQUtzVHNxZmhnbF9Jd1docS1JLTE2WDBrZjlVZ1lPcFNuRlQwT3J1QXR6TDhTaFhlNlhpOU8xR3hra0RKNXhLSTk3MmJMRXdTNnB5di1XaGx5a0RHeXJDV295VmRZQm1NNXVFdnkxbHlJakxOczR4emlRQldYaEpuQl9NN2xwRTR1ejJtSTRmSDYxdzdKWk8wN0M3WHRrRWxnZWtTOV9Wd1RGOWE4ZXNHaWhWMUdfaUdhYVNvd0JGSWxjaFZPYm0tUEFLQ2VfX01EY2JZa1NR?oc=5",
+            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+            "description": "India's auto parts exports to US remain strong despite tariff tensions &nbsp;&nbsp; The Economic Times",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -2837,6 +2814,23 @@
               "geopoliticalKeywords": [
                 "tariff"
               ],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise - LinkedIn",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkx0dUMzV1pWdjY0dXlaeHI2dVl1ZlpxajMzMnhTR0Q2TFMwWGhlNWR3VWg4SVVfaHpaUFNKY21VSDNiY3BucUpWUTQ1b3BZS2VvSFNxT3E4UnB0U1MweklGRDBQZlJsbWV0RDF1VEMwT1B2WlpWb1pYTmFtS1Z3T2JTQnI1YVVxQW1tY1VRQ3VIRDZQb2VtR0RROTBLOHV3VThB?oc=5",
+            "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+            "description": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise &nbsp;&nbsp; LinkedIn",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
               "macroKeywords": []
             }
           },
@@ -3380,7 +3374,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -3453,10 +3447,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -3480,21 +3506,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -3526,23 +3537,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -4007,7 +4001,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -4080,10 +4074,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4107,21 +4133,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -4153,23 +4164,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -4361,23 +4355,6 @@
             }
           },
           {
-            "title": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise - LinkedIn",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkx0dUMzV1pWdjY0dXlaeHI2dVl1ZlpxajMzMnhTR0Q2TFMwWGhlNWR3VWg4SVVfaHpaUFNKY21VSDNiY3BucUpWUTQ1b3BZS2VvSFNxT3E4UnB0U1MweklGRDBQZlJsbWV0RDF1VEMwT1B2WlpWb1pYTmFtS1Z3T2JTQnI1YVVxQW1tY1VRQ3VIRDZQb2VtR0RROTBLOHV3VThB?oc=5",
-            "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-            "description": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise &nbsp;&nbsp; LinkedIn",
-            "classification": {
-              "direction": "positive",
-              "impact": "medium",
-              "rawScore": 2,
-              "positiveKeywords": [
-                "growth"
-              ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Top 5 Auto Ancillary Stocks in India - Sahi",
             "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xZHFfb1BUVDkyd2xDUG5WNFNGVjZLdXdvRjNiWk9jNXBrYllncUtsMGFweE9zZlU2T2hvOE5GZDBRQUUzY1Y2emV4LTU5TWs1R0FJUlhOQzVSRUxPYW5EakhsRFRvWjk1V1E?oc=5",
             "published": "Thu, 18 Jun 2026 07:00:00 GMT",
@@ -4393,10 +4370,10 @@
             }
           },
           {
-            "title": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSVE4SS1NbkU0U2V3R1gxQlM3QnFNcWJJRkNVNERyVXV1OEdNYmE2RzlEaFA3akNIRmxSMmFjQTg1WEpKQWNWTjBaOXdEb2hYTnBJa3o0NXVseFBaUEVnWF82QnJpWnZxUlpxdUZoSWUwVnY3VEJPYkxIaG11aEczWkdNRk53U1ZBTmt0SzlNLVBPRjh5ZHgxdGlJbUVGeUxLc2xJS0IwRVY5azQyanVVMUJhSE9aR3VFeHphc25KWGlWbXRzSEJLRDlfaTBQZ3l0T3NiUXZMZ0RIb21YX25HRGR5SHBIbExrQndEZTR1cE5SSXppbHRr0gH8AUFVX3lxTFBPWFM2OXFSeTAwU2p4bzY2VENxRUplM2VYZUNSVXM5aEE4czNad3ZrVlM4N0IwbEU1aTZybUJlczZpeU9lZ05qa2thTHZQS2FVenM2a1JmYk9ZZGdrTTlUc1g2bHc2Z2NfcV80cE5ieTgyT21xNmJNTEUzaWJYeVh1WXFiZkhsZjYxRi0wQ0RmMlA5dERhWE5oLVpScjZaU0t2SG5SUllwT3FGNFBETllNYlpSLXZqX2dqWFpIaDR3OWdsMjBjU21MUFBSYVJCaVFFVE5qdnVDMWY5R0JOcnh0WldIY0E3RThRNXNDQzZ2Z253MVFZUlhhQmpETw?oc=5",
-            "published": "Sat, 07 Feb 2026 08:00:00 GMT",
-            "description": "Bharat Forge, Sona BLW, other auto ancillary stocks in focus as US offers tariff relief on auto parts &nbsp;&nbsp; Moneycontrol.com",
+            "title": "India's auto parts exports to US remain strong despite tariff tensions - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZEtMVFJiZkE4Y1BrUkViT0pfT2RRU3FoVjVoLWdvRjNFYTJDTmpQVi1iUU1IUll5ZmxmTmVyT0lPbDZDSnNXbjFucXUyRzk5Y1Z6MlZrWFlVeHJ6QU92WGJiVGw4RjZ4V2lURVNxSTMycGNQQVY5QnVSaW9BbnBaeUNtLUp2N2d4N00zOGdBNDlLbWRtTHBMNXlvLUhKVXppWGFEblZDbllNRGNzQUdtZTJCUGc5OHo5bTIyM3Jxa1R6NEJab29tT1VzRUd5OXpMa1lIa1ByTFNBVHlYM18tOHVOemPSAeoBQVVfeXFMTXlKVkNBWGl3SEdMbXZpMkhKMFBRQUtzVHNxZmhnbF9Jd1docS1JLTE2WDBrZjlVZ1lPcFNuRlQwT3J1QXR6TDhTaFhlNlhpOU8xR3hra0RKNXhLSTk3MmJMRXdTNnB5di1XaGx5a0RHeXJDV295VmRZQm1NNXVFdnkxbHlJakxOczR4emlRQldYaEpuQl9NN2xwRTR1ejJtSTRmSDYxdzdKWk8wN0M3WHRrRWxnZWtTOV9Wd1RGOWE4ZXNHaWhWMUdfaUdhYVNvd0JGSWxjaFZPYm0tUEFLQ2VfX01EY2JZa1NR?oc=5",
+            "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+            "description": "India's auto parts exports to US remain strong despite tariff tensions &nbsp;&nbsp; The Economic Times",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4406,6 +4383,23 @@
               "geopoliticalKeywords": [
                 "tariff"
               ],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise - LinkedIn",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkx0dUMzV1pWdjY0dXlaeHI2dVl1ZlpxajMzMnhTR0Q2TFMwWGhlNWR3VWg4SVVfaHpaUFNKY21VSDNiY3BucUpWUTQ1b3BZS2VvSFNxT3E4UnB0U1MweklGRDBQZlJsbWV0RDF1VEMwT1B2WlpWb1pYTmFtS1Z3T2JTQnI1YVVxQW1tY1VRQ3VIRDZQb2VtR0RROTBLOHV3VThB?oc=5",
+            "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+            "description": "Banking stocks rally, CEA flags growth risks; HSBC bets on auto parts maker Belrise &nbsp;&nbsp; LinkedIn",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
               "macroKeywords": []
             }
           },
@@ -4638,7 +4632,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -4711,10 +4705,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4738,21 +4764,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -4787,23 +4798,6 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
           }
         ]
       }
@@ -4820,9 +4814,9 @@
         "company": "Bharat Heavy Electricals Limited",
         "sector": "Industrials",
         "industry": "Specialty Industrial Machinery",
-        "overallDirection": "neutral",
+        "overallDirection": "positive",
         "overallImpact": "low",
-        "newsScore": 0,
+        "newsScore": 2,
         "highImpactNewsCount": 0,
         "articles": [
           {
@@ -4830,6 +4824,21 @@
             "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFBiSExfMWR6ZWdOOWduY0V3bG5xT2pxX1QtS3g0dThLUFpPSFVrbWVsUFRqRWJPSkxBc1RjVzg4NkJNdjJVWFZ4eEdXdG1CWEFVeGpIVkh6UzdIMFE2QjluMTN5RkJWMGxwVHQ1N2NjUzgwMEpESzVXc2pKLV8wSTdJOFZSdTFrd2NZMFNta2M5c19vZG1F?oc=5",
             "published": "Sun, 16 Aug 2026 21:59:00 GMT",
             "description": "BHEL Share Price Today, BHEL Stock Price Live NSE/BSE Updates &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "BHEL Share Pros and Cons 2026: India's Power Plant Maker at Elevated 59x PE - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96TVhKTEdaN252TlltRUNmcU12TlNBVm9oQjRIWXF5M1ZMelUtTUQ4djJtNWU2a1NKclhxcU1hVGxETk5LY2sxUDN6T0NuM2FKWXctdTV2eHh6UnFBZDUxUFVPTXlBZw?oc=5",
+            "published": "Fri, 07 Aug 2026 07:39:00 GMT",
+            "description": "BHEL Share Pros and Cons 2026: India's Power Plant Maker at Elevated 59x PE &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4935,23 +4944,6 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
-          },
-          {
-            "title": "11:11 | BHEL's OFS, United Breweries' margin surge in Q3, US yields fall, MSCI Rejig and more - CNBC TV18",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRGp4eUlQcW1zT0wzdmxCQzNPTVA4VTZoQ2dRU2NlbmwwSExTUzFiOWw4OE5NRG9sR1F6azVxcV9URXR2dnNKYTI4Y3NQOWxadEl0cFBWeXROaE5KVWpqbVVab0xYSjdGV0VJaF9mcndMbG04TUJLNFRtM2tTT2lkOTNIdXVtRy1JMnhKcFBzSlJMRXpsa1hPS3FyS2dLaFdHR1lxM2cwQ3owZkd6eXZWU08xd09CTUJ2Z3FRNGhnTm8wSHBpSmUyYWlrQ0w4S0JlSGJj0gHYAUFVX3lxTE1mRjNXVVc2Wl85TzlBYTFpLXAzVnlncF8wTGNmbG44TU9FcmY4ZEs4QlpzZFZ0QmdBLS1Id0pQSEZQNUg2bGMtTHM2eHpzX191bXpFa2pYMDlybHNpLTZ1NFRaMWc4MTJCbnVQOV83M0w5ZGc2Rk1IWVF5SlY5c0E2Z3B1a0txbUY1OGI5d29EVkd4dUVRUFk2dDNBOHNHM2V4ZDNxMjFkbTh6VXVsblVRMWFFOXp5Q2phMGk4S2tBOFVZajljZlhuZklUY1g3SzdwTC1XQmZZLQ?oc=5",
-            "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-            "description": "11:11 | BHEL's OFS, United Breweries' margin surge in Q3, US yields fall, MSCI Rejig and more &nbsp;&nbsp; CNBC TV18",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "fall"
-              ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
           }
         ]
       },
@@ -4962,10 +4954,10 @@
         "contextScore": 2,
         "articles": [
           {
-            "title": "Stock List: Research Stocks from Around the World - GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZcEprVXVfQ285NUdFcHAxQTFxWWwzZTVtdG1Ib0IxVDlzMmpWYjhjTHlpREd5M0RKdEJGdWJIYXZINEpoRF90TzJvcGRRNTVVM3ljeUQzRmJIMmFGdkJnNTBR?oc=5",
-            "published": "Wed, 12 Aug 2026 14:45:31 GMT",
-            "description": "Stock List: Research Stocks from Around the World &nbsp;&nbsp; GuruFocus",
+            "title": "If You Invested $1,000 in Tpi Composites (TPIC) - Stock Titan",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03c0h4MEN3d242ZGl4TW5JUFhESkZ3S3dnWlZpRWUwMUJpaWI1elpEazV5MWIzWWhuZHhYOG1KUzFfYXQ4bjlPTjBxbk1lZU40dUxEN2U4aWZhd2lsekZKSWJNOHhQeExRRlZ4X1ZR?oc=5",
+            "published": "Sat, 04 Jul 2026 07:25:03 GMT",
+            "description": "If You Invested $1,000 in Tpi Composites (TPIC) &nbsp;&nbsp; Stock Titan",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -4979,7 +4971,7 @@
           {
             "title": "The 10 Best-Performing UK Dividend Stocks - Morningstar",
             "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYU5jTzFBRDJyYWF4MFVpenFVTEw2RkZmMENMTW83eW1pUmF2M3NEOG9Od19TOVRNR0FUczgwLWRNbGZ4ODgtYWV6V1k4S29fMlc2bUhIQThWNGZXT0pDelBneDNvakVGYnZ0bzcxaDI1RWpmcl8wWWdLemxkTWJldFBGWjdTQVB5?oc=5",
-            "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+            "published": "Mon, 03 Nov 2025 20:50:14 GMT",
             "description": "The 10 Best-Performing UK Dividend Stocks &nbsp;&nbsp; Morningstar",
             "classification": {
               "direction": "positive",
@@ -4988,21 +4980,6 @@
               "positiveKeywords": [
                 "dividend"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "If You Invested $1,000 in Tpi Composites (TPIC) - Stock Titan",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03c0h4MEN3d242ZGl4TW5JUFhESkZ3S3dnWlZpRWUwMUJpaWI1elpEazV5MWIzWWhuZHhYOG1KUzFfYXQ4bjlPTjBxbk1lZU40dUxEN2U4aWZhd2lsekZKSWJNOHhQeExRRlZ4X1ZR?oc=5",
-            "published": "Sat, 04 Jul 2026 07:25:03 GMT",
-            "description": "If You Invested $1,000 in Tpi Composites (TPIC) &nbsp;&nbsp; Stock Titan",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -5028,6 +5005,21 @@
             "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ST253NFVwMTE0Y091TTZmei01N2R0c2xnbEJNWmNObUFxUUc3T21TMHJ2UF9ZQkg0eUhpZUxYY2Vqd3IyUEFzQ29qZ3MyUmF1cGFLRTNnUQ?oc=5",
             "published": "Mon, 22 Jul 2024 16:36:42 GMT",
             "description": "Yuken India Limited (YUKEN.NS) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance Singapore",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Asia Stocks: Research Stocks from Asia Stock Market - GuruFocus",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmSlBTNDdLSmNfVFhnN2RwMXgxdDVzSWh5eEt1RjR5aUFXVWdsc0MyQXF3UWtLcFZCbTV6LTREaDBNWXZsSmR5d05Cd2I2TXJFQk5MV2lSQUhTQ041Zm9KdTZmWQ?oc=5",
+            "published": "Wed, 12 Aug 2026 19:01:25 GMT",
+            "description": "Asia Stocks: Research Stocks from Asia Stock Market &nbsp;&nbsp; GuruFocus",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5287,10 +5279,10 @@
             }
           },
           {
-            "title": "CONCOR Forecast — Price Target — Prediction for 2027 - TradingView",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWT183Ym1UNmFuWlcyTGN6SEVoYXQ2WUFfemtLelZnal9UVmNEWmhGUXMtUmlTdGVWY3RBOTMxUHZZTjdsbmJGdm0tWGFoUWk1d0k5bW9JWVNIclNsUU9LSHZPY19qTG1FRUV5ZXhNSnRNYkwtczJGaQ?oc=5",
-            "published": "Thu, 25 Jun 2026 18:14:53 GMT",
-            "description": "CONCOR Forecast — Price Target — Prediction for 2027 &nbsp;&nbsp; TradingView",
+            "title": "India File: Reforms to star in budget's big reveal - Reuters",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcktEWVgwaGM4Nk0wbi1CRXJwdXIwMDVDRW11S3o2cWlxNU1GYmZuQkxvaXJ2RnUtVHJpVjc1TkhDSnI4dkpsaENRUlgtRVUxWFRoVGtDZWZRUzl4VDZwS1hRYVRSaDl1aTVUckdFQ1E1d0p1c1BxazhsSS12UXNjMlNnMkt1bW5QX3ZVdWo4d25YQW84?oc=5",
+            "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+            "description": "India File: Reforms to star in budget's big reveal &nbsp;&nbsp; Reuters",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5302,10 +5294,10 @@
             }
           },
           {
-            "title": "The Algo Raj: Political risks of tech oligarchy - The New Indian Express",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZVTzhiY3NScWFHX3BUUG9zWTIyOFBUaVo3NnBBZTZyMTViZVdmaVpMM1MtOGs1NkF5c1ZYOFdiLWQ4cGlQdGVxMHpiS3JzUXFfRVF2N19Tc0JhbnlrWUUxNWRhaXpHWGVGaHJGZUdFZXBxMk9NSWdBUUpVamx2bk9IZ2Y4SGdoMmI1aFgzNFBiSjUxZDhiMjVZdUY0YUNfdmF2VW1OdmJtOU5XX0JTajF5bU9iZ0lYV3M1aWQ4Z9IBzAFBVV95cUxNcndUelFaRjYxd2ZUVXJ4YVJpMXJhT3VnejIyNzZEdTFBSWdKazVSSm94b1RWWXpZdDU5eGJPZXpnRkx0R2JPODlaS1NFNTUybVRjX2tQV1NGNkk0OVJ3aFRtWFhYa0RGWW90X2pBX2NaeTJLVXlLM0dxby1yVDBnMF9JOHNiaWthU2NJSThJSXgxcHlEb2N2MlJyNkU3MW9QNElsaGx3V2ZCOTNWcGxveExBTFBMbWpZSnRTbDc5SWY3S21GMGZMMW95NVU?oc=5",
-            "published": "Sat, 13 Jun 2026 07:00:00 GMT",
-            "description": "The Algo Raj: Political risks of tech oligarchy &nbsp;&nbsp; The New Indian Express",
+            "title": "CONCOR Forecast — Price Target — Prediction for 2027 - TradingView",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWT183Ym1UNmFuWlcyTGN6SEVoYXQ2WUFfemtLelZnal9UVmNEWmhGUXMtUmlTdGVWY3RBOTMxUHZZTjdsbmJGdm0tWGFoUWk1d0k5bW9JWVNIclNsUU9LSHZPY19qTG1FRUV5ZXhNSnRNYkwtczJGaQ?oc=5",
+            "published": "Thu, 25 Jun 2026 18:14:53 GMT",
+            "description": "CONCOR Forecast — Price Target — Prediction for 2027 &nbsp;&nbsp; TradingView",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5334,10 +5326,10 @@
             }
           },
           {
-            "title": "Bharat Coking Coal Share Price: Why This ₹34 Stock Is Quietly Turning Heads - radiotandil.com",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS2NXRU5vTXVqb203aDlCZFZfVzJvVnp5b0R1YjluVVZLUWNleXNYVFlRTFBDNVV3OUVQR1Z4M1ZCRG8wSWdzMENTcWNZeEJQYjAyM2stWUdYei1lNDNQSTlERENISmdLMFNLdFVOeURnRkxSVUVfUTR6Y19iNFkxWjJKLWV0WS1ySDV2ZXg5cEcwQkNsV04wem5CZnZsVmJkQUxLcThTZ1hDbkNiUDRnb3VHWGdoZEh3VmJYQnVR?oc=5",
-            "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-            "description": "Bharat Coking Coal Share Price: Why This ₹34 Stock Is Quietly Turning Heads &nbsp;&nbsp; radiotandil.com",
+            "title": "The Algo Raj: Political risks of tech oligarchy - The New Indian Express",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZVTzhiY3NScWFHX3BUUG9zWTIyOFBUaVo3NnBBZTZyMTViZVdmaVpMM1MtOGs1NkF5c1ZYOFdiLWQ4cGlQdGVxMHpiS3JzUXFfRVF2N19Tc0JhbnlrWUUxNWRhaXpHWGVGaHJGZUdFZXBxMk9NSWdBUUpVamx2bk9IZ2Y4SGdoMmI1aFgzNFBiSjUxZDhiMjVZdUY0YUNfdmF2VW1OdmJtOU5XX0JTajF5bU9iZ0lYV3M1aWQ4Z9IBzAFBVV95cUxNcndUelFaRjYxd2ZUVXJ4YVJpMXJhT3VnejIyNzZEdTFBSWdKazVSSm94b1RWWXpZdDU5eGJPZXpnRkx0R2JPODlaS1NFNTUybVRjX2tQV1NGNkk0OVJ3aFRtWFhYa0RGWW90X2pBX2NaeTJLVXlLM0dxby1yVDBnMF9JOHNiaWthU2NJSThJSXgxcHlEb2N2MlJyNkU3MW9QNElsaGx3V2ZCOTNWcGxveExBTFBMbWpZSnRTbDc5SWY3S21GMGZMMW95NVU?oc=5",
+            "published": "Sat, 13 Jun 2026 07:00:00 GMT",
+            "description": "The Algo Raj: Political risks of tech oligarchy &nbsp;&nbsp; The New Indian Express",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5542,10 +5534,10 @@
             }
           },
           {
-            "title": "South Indian Bank Share Price Rise As Bank Revises MCLR Rates Effective November 20 - HDFC Sky",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjRTODBCOTdudWRiTWRZMHdQNUhtek1jbzdySi13LUpGNXV2THNHMy1ScXpHdjI1OWNmM0l2bW5SYm9ta0ZYcXA3VnVwR21acDJlWXVQTmJ5ZmJ3T3M0TU95b2dYQWpPemZnTFFTTkhJVDVvZFJ5cG5sQ0VxSzhtUExjQ3dEcmtjem5XcnNDWU9EYTM4VWF2M1ZKY2cyWUJINTJNWHpJXzhxZlhx?oc=5",
-            "published": "Wed, 19 Nov 2025 08:00:00 GMT",
-            "description": "South Indian Bank Share Price Rise As Bank Revises MCLR Rates Effective November 20 &nbsp;&nbsp; HDFC Sky",
+            "title": "South Indian Bank Offers Up to 6.50% on FCNR(B) USD Deposits - Passionate In Marketing",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR282NHlqakQ2YWxzMGktd0ZmdV96SWF2c0dWWU9CWllUV21Mam84TlZhUG9PckVhOUNsZUFXUlM5aC0za2JrWm41Ym5tbm1ycHI4UEpDMVFmMWVqUV9zU1ZKVnpYZ202T25KNlpWTFVmbjdkNmZLTnFwdkc3R0g2OHI1c01rM3RwaDhmZjBDWFRRNDJyV3hvaDRMd3o?oc=5",
+            "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+            "description": "South Indian Bank Offers Up to 6.50% on FCNR(B) USD Deposits &nbsp;&nbsp; Passionate In Marketing",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5557,10 +5549,10 @@
             }
           },
           {
-            "title": "South Indian Bank Offers Up to 6.50% on FCNR(B) USD Deposits - Passionate In Marketing",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR282NHlqakQ2YWxzMGktd0ZmdV96SWF2c0dWWU9CWllUV21Mam84TlZhUG9PckVhOUNsZUFXUlM5aC0za2JrWm41Ym5tbm1ycHI4UEpDMVFmMWVqUV9zU1ZKVnpYZ202T25KNlpWTFVmbjdkNmZLTnFwdkc3R0g2OHI1c01rM3RwaDhmZjBDWFRRNDJyV3hvaDRMd3o?oc=5",
-            "published": "Fri, 19 Jun 2026 07:00:00 GMT",
-            "description": "South Indian Bank Offers Up to 6.50% on FCNR(B) USD Deposits &nbsp;&nbsp; Passionate In Marketing",
+            "title": "Nifty PSU Bank soars 4%, Indian Bank up 10% post Q1 nos; analysts upbeat - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTTd6RXIwVWpELWpnalJndER5Tm5xR1lSWUZnN3FLMkVyVkhuVGVCR1Y0VnhJUVN3dkhLNlhoay1WaUFGb3JMYjdkZVpwNDNYYll0RERzSWNJelhIbUFHVEQ5aUtXdWJyMGtOVmoyM0pvbmZmMG5jcWpkRlZ2Q3VFOU1QT1BIcUFLb1phanpJUUc3M013MEVOV3oxZkhjTEdDRFc3N0otRkJQMHE5ekVXUUJybkpUajNmSldTNWpPeTdOa2pfUzIyZXd3QXFUeVhpUlR5MVdvSFkzYmtldUoyTWxkc3NFcFZaVmfSAe8BQVVfeXFMTmN1OE42RzljU2FhZmhtWWItcnFqZ21WY2RrdUlpSmQ4QjVzbnI1Z2Q1NHZSSEUtZV85S2hpYUxweDRFb3luRU1rbVRBeXFvZzk0VHhFNGxVRGstOVowbjczVVV5cWFkT1hzdFBzWjJ6RG5KTUNsY2twcHRfTTduRldTWExHRUR0QzVma3BvR1ZSZlU2X0pCTjRuMW0yN3NheTVKMngySjFkQjg1a1FpRkxkRmtWWkpTZGY3Um9VNHJDRERTUnN5Tkd3SXA1elBuTnMwU1VwWDBUZUhNUW03UUxZTlR2UGxoeEJIRG82cHM?oc=5",
+            "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+            "description": "Nifty PSU Bank soars 4%, Indian Bank up 10% post Q1 nos; analysts upbeat &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5577,7 +5569,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -5650,10 +5642,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -5677,21 +5701,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -5723,23 +5732,6 @@
               "rawScore": 0,
               "positiveKeywords": [],
               "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -5895,21 +5887,6 @@
         "contextScore": 4,
         "articles": [
           {
-            "title": "Top Lodging Stocks After Second Quarter Earnings, Per Morgan Stanley By Investing.com - Investing.com Nigeria",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVTRDMDRnN0dYN2hPOFg2RUlNV0VOSi1BOFVFdVpZU2NRMFZKTDN2aGZGeEU2N21NUGppWmxKNDk2Z0hkSmk0N0xVdUtVWjg3aXAxcTRBdHg0Q0phQW1zZmRib2V6ME1MV2lvaHdtOFlOQmI1dDVLMmdGYmhHNjFMa3RiWHJhZVZkYTVOWTZtNGY4M2paUGhxQXpGdWl6bEJTekpiTnRfbFZjUzAxNGNyR3ZHZDc0NW1MV2dyb1VxS2VWLUNHUUlz?oc=5",
-            "published": "Tue, 18 Aug 2026 13:11:32 GMT",
-            "description": "Top Lodging Stocks After Second Quarter Earnings, Per Morgan Stanley By Investing.com &nbsp;&nbsp; Investing.com Nigeria",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "IHCL Expands Presence In Bengaluru, Announces The Signing Of A Gateway In Yeshwantpur - The Indian Hotels Company Limited (IHCL)",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaThrbm1jLUxiNHVpU0NaZGdiWmsydjlJT2xjc0ZVaHo2ZGhDTlpUNjVfM0E1ck04N1VqZnQ3SHFsOFZFSktzSjdkSXk2MFVhWENITHF6dUY5ZmRmR25DZjl1LXMyXzY2SUFXWTE2U2N5bnE0RW9YZGF3VUFuR0Q5QUplcjF6UkFwMno4N2I1RzRVRk9qYWpsTDdwSS0yeVFQZ2p1a3h3V0FwS0lvbUZNN0s3ODR3dTdwbm1EVQ?oc=5",
             "published": "Thu, 18 Jun 2026 07:00:00 GMT",
@@ -5961,6 +5938,21 @@
             "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTndkalN1NFAwT2ZoT2pfZ3dzX1RsSHdvYXNfT3d1c014Z1k0eGhsQktMR1RDaU56ZjRzTFNRVzlqZ2pWZ2JVc1JBWmJZbFNvT1B1S1VYVTVwblJ5aW9GaktEcXFRTmp2bVVhdlVrSm5CT1VBeGFHdWZteU85djNrZ1Vxd0Zvdw?oc=5",
             "published": "Wed, 01 Apr 2026 07:00:00 GMT",
             "description": "India Wellness Tourism Market Size & Outlook, 2026-2035 &nbsp;&nbsp; Grand View Research",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Franchise 100 Signs Three Strategic Hospitality Projects Across India - Business Standard",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbDJQemFrc25GTmdXRVItbDM4NXpqbHQzV1ZmVGVCV2pVOHdZNVRaRWlpeWtxUzdvWnpQWnF5RzV4bjVaUkFSbE5sNWlQZG10Q0h3d2Y1eUFvaVdicUYwWHFaLThWa1ZKMWcyYjFYdTBjczQzazNGYlFxd0o1eHdvQUVJVHhMM1dsOWctbDJad1paQVJTaXpVQUlrQzNzR1hXblR5ajZGQXpQaTRRSG5rVVdJOEVmbm9wTnJhQUZVODhPNzRpZjllR0k0VVJNam5WWXJ2bVlHOGcxU2x4NDhMSmRnVjHSAeoBQVVfeXFMT0wtRFEzMmlyMVJzcTFXVXBSWE1oMDFtdnFZMTlUZHNhVWNrSXk3VU5ucEpkbjNZV2pZVmlNdEgxWnF2THE4NHVGTjFSNXNnNHduV0Rac25SemJMQVNIOW9wOUtUYm1xa19haUtXY1FKdnhULWdkX3JCWHNELWtNU3RsSU9iQTlPRmZOODZ1akkxQkVWNUt2QVEyTkFEU2ZpU21rTzNieFNndUFmSUNETC1idTlFUmdRWlZuYjBYVXFmWEtNWDZpWmxab3VRYkk0a2cwYi1MMFJEaTVPbXgxQXRJTlkzdTBvQ2pn?oc=5",
+            "published": "Sat, 09 May 2026 07:00:00 GMT",
+            "description": "Franchise 100 Signs Three Strategic Hospitality Projects Across India &nbsp;&nbsp; Business Standard",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6409,10 +6401,10 @@
             }
           },
           {
-            "title": "HDFC Bank Analyst Review 2026: HDFCBANK at Rs 770 Buy or Hold? - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hRVhNcDlsTVRzcHNLOE5JcEUwMk8tZUhYQ3lSZFBJR2JBU3ZLN2pvRUVtMEpwX3hDMWM4Y3pfV29EelQ4Uld5WG5zOUhfcWdzQm5adEZjc0pSWFZZN1pVRE9tRDc?oc=5",
-            "published": "Fri, 15 May 2026 07:00:00 GMT",
-            "description": "HDFC Bank Analyst Review 2026: HDFCBANK at Rs 770 Buy or Hold? &nbsp;&nbsp; Univest",
+            "title": "HDFC Bank Block Deal Worth ₹61.41 Crore Executed On NSE; Shares Hold Near Flat Levels - HDFC Sky",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0ZnZ280UE9DVGFhQUE1M0UtLW5fUDQzajBQdmJwODRtNFlLektzcmNPMy1wSy1uMTFBRmx1MzVoOHlFWGhITVdwdW5CRW1JdGx2Qk41aFh4R2ZJTkI1YUlnLWY3bDkzS3hrTHYyUDdWMWt5VmhVQWdUUUUteFZKNDh4QmJQb2VGaGc?oc=5",
+            "published": "Thu, 05 Mar 2026 08:00:00 GMT",
+            "description": "HDFC Bank Block Deal Worth ₹61.41 Crore Executed On NSE; Shares Hold Near Flat Levels &nbsp;&nbsp; HDFC Sky",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6424,10 +6416,10 @@
             }
           },
           {
-            "title": "HDFC Bank Block Deal Worth ₹61.41 Crore Executed On NSE; Shares Hold Near Flat Levels - HDFC Sky",
-            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0ZnZ280UE9DVGFhQUE1M0UtLW5fUDQzajBQdmJwODRtNFlLektzcmNPMy1wSy1uMTFBRmx1MzVoOHlFWGhITVdwdW5CRW1JdGx2Qk41aFh4R2ZJTkI1YUlnLWY3bDkzS3hrTHYyUDdWMWt5VmhVQWdUUUUteFZKNDh4QmJQb2VGaGc?oc=5",
-            "published": "Thu, 05 Mar 2026 08:00:00 GMT",
-            "description": "HDFC Bank Block Deal Worth ₹61.41 Crore Executed On NSE; Shares Hold Near Flat Levels &nbsp;&nbsp; HDFC Sky",
+            "title": "HDFC Bank Analyst Review 2026: HDFCBANK at Rs 770 Buy or Hold? - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hRVhNcDlsTVRzcHNLOE5JcEUwMk8tZUhYQ3lSZFBJR2JBU3ZLN2pvRUVtMEpwX3hDMWM4Y3pfV29EelQ4Uld5WG5zOUhfcWdzQm5adEZjc0pSWFZZN1pVRE9tRDc?oc=5",
+            "published": "Fri, 15 May 2026 07:00:00 GMT",
+            "description": "HDFC Bank Analyst Review 2026: HDFCBANK at Rs 770 Buy or Hold? &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6504,7 +6496,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -6577,10 +6569,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6604,21 +6628,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -6653,23 +6662,6 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
           }
         ]
       }
@@ -6683,7 +6675,7 @@
       "priceBand": "₹1,000–₹1,500",
       "companyNews": {
         "symbol": "AUBANK",
-        "company": "AU SMALL FINANCE BANK LTD",
+        "company": "AU Small Finance Bank Limited",
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "overallDirection": "neutral",
@@ -6724,21 +6716,6 @@
             }
           },
           {
-            "title": "AU Small Finance Bank Ltd. (AUBANK) Share Price Surges 5.76% Today - Univest",
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVlB4dlZLX2NybWpDdzEwNWFHMTFGVHhoakh2UlNqMHI4RE1SY01STlJzWXNsUDRfbEJ4UHBjT1YtY0lzUVhBeDZQejhTMC1hbE5jWk85ZE04RUd3RExGay1CSUdLMnhvMGV4UXA2blpnR2pPajdWb0taVHoxdDdVdVFhRGJadFdDNlducFl4d19hdw?oc=5",
-            "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-            "description": "AU Small Finance Bank Ltd. (AUBANK) Share Price Surges 5.76% Today &nbsp;&nbsp; Univest",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Institutional investors may overlook AU Small Finance Bank Limited's (NSE:AUBANK) recent ₹44b market cap drop as long-term gains remain positive - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOajdzeFZFSjI3djRURWdaVXN1U3Y3YTF1LWl6M050N3RHN1RGejRRUzdINTk1NDJCa0pXbC1SS1ljbWtHaWJ3Ql9vMHBQTEtNVW83MWktRW1qUFAwYUJkM3B5aWRBUnFiYVV4SjFDc01oc2dBZkU5TnpOaS1uRHhOR2NmZk5SdG0xQ0JoVVEwWUxCNUhhNFprRmNPMFhhY0M0M01PMTlocHJqT2hnVERYRWhEb3Y1YzhwWkxlN0x0bWg0V3FLQm02UmZNMDJQLXNoeVhGLV9oTENsYlXSAeABQVVfeXFMTVhzSTYtOUI4aUYzVVFSM3hhQnJjZ2Q1RUJ5elBuR0ZtUzBmWGJtdWpTMzloTm04V2RlTEN1X1B4SVFjMUNPV2l5Z0JlQ1lMbUE0ZVYxanVqMUREY0VGTlNCWDV3d3lWSEFoTm9LdUp0bmFHME5SU3VibnVwRlMwa2NySDFjRjYtMkNhbkVWbVllbVV4YU9aVW9zMjVhbHlwVmJWQUgzajZjMWJVeFRpZFNleEMtb19oOGh2ZFhwM2dfSkI5S1lyX2VXRzBtZGVoa0xHUU94OGRsNXpUcUFFdUw?oc=5",
             "published": "Mon, 26 Jan 2026 08:00:00 GMT",
@@ -6753,21 +6730,6 @@
               "negativeKeywords": [
                 "drop"
               ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "AU Small Finance Bank Ltd spurts 8.3% - Business Standard",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRFNHNlNYZFRLdFV3OFNxOXlJb2VLN1RGaXoyWGUteE9XRC1uY1lFVWVFOFJWYWxabDNIRnFiQ0p5WGdPXzRIRDN1TVFsc2d2dUs2cldLc19jZ1lFWGd4LUctRWdkOEoxWUVWaVFBM1JYTTJQQXZFOXNDdUNWMERBczM4WVJqdWRMSFpsY0QyZGlWNWV2MjUyWjM4QUNrZGZ1aDdwLUFfTVpaVlZoRzZOSm0zMlY0NEFyNmfSAb8BQVVfeXFMTUVKekhfeG5oX0lVZFdPZHQyRkxIbk53TEVER0lOZmVMSC14ZnhHdldXWmlGUnlwSE5vb25McklaaHFUSkxmVW9WaVZrenNRWjlRa1pjM29DeS1FSnF4dlZKSFJMNkdydVBWRUZqa0VDR2M1X2FQd2ZhX05iSUs3Ui12cjY4NmdsR2pYZC1xaUZLVHhIc3FmTFcyQW5ITjhsLUNYcW1jc19FZHJoS3FGcEhUWWlpa1VDM19HM0FVcjg?oc=5",
-            "published": "Wed, 08 Apr 2026 07:00:00 GMT",
-            "description": "AU Small Finance Bank Ltd spurts 8.3% &nbsp;&nbsp; Business Standard",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -6818,6 +6780,36 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
+          },
+          {
+            "title": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst - Stocktwits",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQakpXeHBsSE5FcFFPeFdha0FpQXpQc1Rzbm10NzBhZUkzdEh2Y3B6M0NvdzgweWxqWFVQdmFmXzRtQU5HRmxoT1NORXlvcGE3R2tHcDQxX3VNdEdSc28yYWJWbnplUk1iOS1oYWZYR1FyWS1LODhSRmxaTl9kYmRTelNzWmkwNUhqSUJ5V0N2cjdVWEs1c184bTU1dHZFNVh3UWV4TVNmVGgxdHRWZk9YM1FSeURCdC01SmJpRDZ5TWFpaU83M1NwLW5GMzREaUcyRm9UQw?oc=5",
+            "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+            "description": "AU Small Finance Bank Poised For Breakout Ahead Of Q2 Results: SEBI Analyst &nbsp;&nbsp; Stocktwits",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Investing in AU Small Finance Bank (NSE:AUBANK) five years ago would have delivered you a 104% gain - simplywall.st",
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbnprb2Z6Wjl4dFFKSHE1ZXgtXzNHQ2d5MnV3Rm1fNm9lNDdBaXdMSElnZXRwc2ZnZHNvSEQ2Umxrd1dnQmlfN2xRdXNWcndLdDV5b011Zy14TlBLZ0VXajhiaHFEcDU5Z2MwSVlKTVp0di1TQmhKWXNpZnJOcks2YnMwRlZwWnRkUjJqRnhKdVNDRDhuMExZcVA4TE1BV2psYnlFamdCdlZGd2pIbHhidG5WV3p0cllHLUZCTy1mTVp2MkFNMGFwbzVPNDlIRVJBRnZmci03TmgtQdIB3wFBVV95cUxPMmlTNjVManNtNlh6MEt4VDA1cmo4TG1ZM01YZVZEc19nbWwxdlM2bUFSU3I1RVk5RE5aOUpMN3AtdC13a09Tb1JDUTQtZW1kc2VRSlpqWl9hbDVzUFpHdnRIeFFsemJpbzhua1FpSHRYeHE3dkhxTzdQcXpNVkRReWZIVGdhN25oOFN6RzB3V1Rma2xEa1FpRGhWYkYzZi1oTmJvWi1adE5PcE9ZMmtERG9qT01TTWN2eUtOazJEMC1QVldXMUZpRXVScU03eEVVSUFMdk9KRXJXQkt1ZEMw?oc=5",
+            "published": "Mon, 17 Nov 2025 08:00:00 GMT",
+            "description": "Investing in AU Small Finance Bank (NSE:AUBANK) five years ago would have delivered you a 104% gain &nbsp;&nbsp; simplywall.st",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
           }
         ]
       },
@@ -6825,7 +6817,7 @@
         "sector": "Financial Services",
         "industry": "Banks - Regional",
         "direction": "positive",
-        "contextScore": 4,
+        "contextScore": 6,
         "articles": [
           {
             "title": "Gold loan-backed PSLC sales boost PSBs' non-interest income in Q1FY27 - Business Standard",
@@ -6898,10 +6890,42 @@
             }
           },
           {
-            "title": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls - livemint.com",
-            "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTThudG9PaFEzRURPTkxNRWZlLURiUzdKQkRhajdwQUVCNkw3LVY0dVRUaU94T0VuSm9ZNWRqM3BmclBaN1ZUUEhhOXdaZUhDazRYbFd3bktjbURvb1NpT2M5NjBPbXM2OGczRWlVTDRwZXNoRVlzbzgzLTN3cFI4czdrVk9uZEdJN1FrbVZNcFh2SThER0QxTTl5bE5yQVh6X09pYk1xalBsenNFdVpreFBrcjVoaVZWaVpsSFJKRUVoUGFRczU3WjU3VTVhWE9fUmNoR29GXzZkYXlHV3NEWDNIQ19UV2xzQnBVRXdLQ3docFV3TXNLckF3eGpsVU40T1k5bnFEWDTSAY4CQVVfeXFMUDFXYkI3cDRraENaX1prZUZJM0pCVnpkMlRkcXlQX3dxSUpGeHVCZFFnbTVpYkVXZGlhVE5nTkZ0Wl9rMVVMREMwcnBnQnI4SlpQZmxONEFCQmpmM19XcVlFcU5wSDU0NENzczFIX0UzWWFuZFpjQUlQb3otbk1Ea1dhVHlSV1BpSlh4enROY0Uwc3hXZ0hDOVdUdXdEaW9NWVZOLWlMRWtMSnZhSFlDclpiV0gwS2RCelVCZ2ZZYjZjTXc1bE5OX3E1VmxpTHMzLTZ4d3E1bzJrV2ZTZUtFdXA0YnRmYnVuT2tqdGpkMU9tSThPQzVGMkUzSnk4bzJJUWQ2QlJzNW9aWFFpTFJB?oc=5",
-            "published": "Sun, 19 Apr 2026 07:00:00 GMT",
-            "description": "Bank holidays next week (20-26 April): Banks to be closed for up to 3 days for Akshaya Tritiya; Bengal, Tamil Nadu polls &nbsp;&nbsp; livemint.com",
+            "title": "RBI proposes opening term money market to NBFCs, companies - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVTTGszWHVaT0M0WHh6WjAtaG93S2VSSm5aeG5VbU1rbkZveFhoYzlidWpmNVdueFVxZ3I0UkpGRW1PQ09jdFVLQmlTSmI3aEFjZWNTdElXNjlVRVcwZXJYaUQ1YVBiR3htZ2tuU1ZyS3lRMmhSVTVVUnZIbEdlVllDU0lQb1FrU2ZaeEhhYzNINlAyczV5aUhveW0wT1BNZG5VTFRGQVl0Y3dv0gGyAUFVX3lxTE9kUWpFWl9MVkZTd1BpZVhZZFJXT2U0aTR3NTZvT0dqSHpTTWdPd1MyT3ViZGVzWjBZXzZDUExOTzRYTnBuWk5RX1R2c3hoU2gzM0ZFMTZ0ek9yeHVaVjNRQzFhLU5zbE9LSDRNcDBfaU9wMW15QnlNc1djcUVua0pIQXZYdXdRVWI4bEZSQ2F5NzN3VDh6bi12dzFMTGYxSTFqX3lQSEpINXJZUGwtNnhDdHc?oc=5",
+            "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+            "description": "RBI proposes opening term money market to NBFCs, companies &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": [
+                "rbi"
+              ]
+            }
+          },
+          {
+            "title": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month - The Economic Times",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZ0R1OHc4RVQzMHNDUjEtYmtKR0Z0THZ2TF9CS19WTm9GbksyMTJ1dkxTTWxWeWduQTNva1lfUFJTQ2tWVHozMHZPeUxIWXdHRlY1ekgzZFpzd0hheWtUeGVaM2VQNWIzeUw5NFQ4blFOWWl3SVFCM1RFLXVzN1Y0T2stbDZNbDRuMEJXYUVHaE5QTmgtbEc3Vk9ZQVM4c2Rvc1U3dG45OUhkX01TaTlMYUVKQWxEU1hHbFJ6ckpBNHVyNkhoSDNxVHdnSFhCTWVGYXRUVFluMVFqaVYzVHlLTEQxdWVNd2RwVFVHdDhYbkhfdllEVzlyazBQbE9zWTZOcWUyOXgtaFljeWdOUXNBc21aVFhnUThNTWt2QWhn?oc=5",
+            "published": "Thu, 20 Aug 2026 14:02:55 GMT",
+            "description": "Tourism Finance Corporation among 6 financial services stocks to hit 52-week highs & surge up to 60% in a month &nbsp;&nbsp; The Economic Times",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 - Liquide Blog",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXRvOW9Mb0VVYl8zRjlaLWs1aUx3dUkwdi0zejljLXpmaFFBMHJ2S1pWR1dRRVFDYTA0S1ZyUXhDbVNpeFphMGlERnF6V3UzQ2Y4M3Z2VDl1QU5CT0tiUlpRYlFGOTRqRTRicC1MOC1sV1dXRkU0dDZDU2I5VENySVV6VG14d1JXSWI3ZnVyUUdqRE9CWWZHemlSaWtFcGVxTGFoTlkzMUtubjFKZi00WHZNSnI2TXU4ZXlOaXR5bkZaSEpPLVkyYg?oc=5",
+            "published": "Thu, 20 Aug 2026 11:39:34 GMT",
+            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 20, 2026 &nbsp;&nbsp; Liquide Blog",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -6925,21 +6949,6 @@
                 "growth",
                 "strong growth"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 - Liquide Blog",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZnhLWmFvY1U1b2VuMHNveHh4X3FEOHdMa0UzX0hzSU9KVDFiUzBMa2p1c1JMNmRxcDRCSjBGbU1XVGlTTHdKcGNJcjVxRXdCUTROVmNEX0JYUmRiWWFxdDZYWWpwRGgxSlI3cXRCdjJoWnJEN295MkRnVjdrSzdvbTNweS1CQXV3ekdINFUwWFpCQ2t6Zi1fSjlUeUUzVXFGMkFucm5DYnhMRDdmemdlbEhSaVZUbTMtdVktc0c2S0VzXzdOLWZXczlLekR1bkZiRkJheDFB?oc=5",
-            "published": "Wed, 19 Aug 2026 11:19:31 GMT",
-            "description": "Share Market Today: Nifty 50, Bank Nifty | Aug 19, 2026 &nbsp;&nbsp; Liquide Blog",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -6974,23 +6983,6 @@
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
-          },
-          {
-            "title": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India - Deloitte",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5",
-            "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "description": "India’s financial services sector needs a deeper debt market and a critical leap out of legacy to support India’s 2047 ambition: Deloitte India &nbsp;&nbsp; Deloitte",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "debt"
-              ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
           }
         ]
       }
@@ -7008,8 +7000,8 @@
         "sector": "Basic Materials",
         "industry": "Aluminum",
         "overallDirection": "positive",
-        "overallImpact": "low",
-        "newsScore": 2,
+        "overallImpact": "medium",
+        "newsScore": 4,
         "highImpactNewsCount": 0,
         "articles": [
           {
@@ -7073,6 +7065,23 @@
             }
           },
           {
+            "title": "Vedanta Aluminium vs Hindalco: Key differences in business, clients and growth strategy - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVVNvMUJ1S3NUVG4zaEdQUFQ2VkZMNFNBRVlSSW5VSjc4OGxzNnp2M01JYmp1VW1zWTJlZU5GVmRiREtoOFlkdnM2cUwxQlBodUxreDZwaGtMa1VpTUg4akZ2LW9FckVMTV9RMkF1TFp6bWNjVFNYYm5IV2FqRkNLQXNoc01JbWg0dlg3UFFpNEpCSzhQSUhxZFppeFVPSC1sYjhNS3c1Y1JDSmVJeHpRRTRfTnJYVFdsRGgxVlRsRmw5VXpvUEZlVWNCaFlXaE1NWXU3aTBObHE5cFlR?oc=5",
+            "published": "Tue, 16 Jun 2026 07:00:00 GMT",
+            "description": "Vedanta Aluminium vs Hindalco: Key differences in business, clients and growth strategy &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "positive",
+              "impact": "medium",
+              "rawScore": 2,
+              "positiveKeywords": [
+                "growth"
+              ],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Stocks to watch today: Hindalco, TVS Motor, Eicher Motors, NTPC, among stocks in focus on 25 May 2026 - livemint.com",
             "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeUlNM0JOdlh6TW1hemk2c3pnVTQyUGs1VENjZkRrZ3FvYnZydUJKNHdBRU1pSkVMMkZHZUlZQnBFMzJzdVpIM1RPWXFnVWZicU1uaWp5MWRXbW52ZWM1Wm83dFFCVFVpS3FocHhYNDctNUxjMlQ0Tkczbkw4X0Z6Q0lIVkNHUWduZWEzUHdtd1d4UXlPREpjS1pqdWIteldFZzVEWW0wWlFiLXFzVl9FUTVjeFFPa2hWUTFLVV9JYWx1ay1vbGwtTng2Z2dta2phaU9hOEFCMUJ5VXpiSk9YemRaNE1NbGpzNFp6b2V3eEdzTnI1U2JpYjhn0gH_AUFVX3lxTE5GM2tHVXQtMzdESGFVS0xwMlBYNmN3Zi1xUm5GRUtuaUYzdUEzLWxaNEEzaE81S1BpLUF6dHhLd01VWTJGbU1ZZDlfUXZKMHZILUdJb0VzN0wycHRhN2ZDVE1DZjZEclo2UTlzTkp0ZXQyYlotN3h6cjc2M21aM1B5amhMMTZSWTdFR2ExaXJlcUFJeC1rSzEzemdSSzZvMzRUVVR3RmtpT0lTSkwzUUdNd01hYzlua0tnU1FZSWJYTXpoZm4yREZwX3l2aGQtOUtSWjFaTW1ObG5hNmFNNXZNRF9xQ2RaYm1zUC1zYURVRFhUNTFiN1VtOGVVNTlVMA?oc=5",
             "published": "Mon, 25 May 2026 07:00:00 GMT",
@@ -7109,21 +7118,6 @@
             "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQU00U1ZlVHBENDZXMUUwd3dzWEtPSEVfbnBBRmstbFozdHNiUHZNOF9aS1dqRUg3RnozclA4TGVIMTc3REdQRkhfY19tNWlFVW8zSDYyY3NtZTlwUVAxWWhkc180bWg2MGdCWkJHWVZsUjJjVFVnOFpzc1Rjd1NoaVpUWFJlMk1EM3E0OHltS0FmMXR3R0ZNWDU4amhQOXNoYTc4OUFoWHdlaVE5NlQ0RnFWUHpWTUNGWFE1Nm9qak9oV29aNlFkTTZITkx0UU9QbkpNMnhyNGNUUHlSckdjSTVYb9IB6AFBVV95cUxOY1hWWmFiMTB2U0FFYnFsMG1NRlVwYml6VFRhNzhMa3d1MGlkMFFlcHpvMTN2RFdDQjh3SXVPRWk1c1BqbTUzbFJJTDQ3OFFqTFctOXRVXzQ2WXlZM2lneVgtTHVkd3VPR0ttQUVmSGhGa1BvdmJ4MkstOW4tbXlQRWFJczc2akp5OXdKSExmdXZrclVMUHdjMGhkM0dVUjFMeVpyZE9uWnFTdWo4aW1ySDJqMWFmOUhOWXJFRmN3MzZUSDZLNGpra3RsWDB4TzZfWWRpOUFmRVJ0bmhzRHJIekRfcHJjNTNQ?oc=5",
             "published": "Wed, 11 Feb 2026 08:00:00 GMT",
             "description": "Hindalco Industries (NSE:HINDALCO) shareholders have earned a 27% CAGR over the last five years &nbsp;&nbsp; simplywall.st",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Stocks to Watch Today: Hindalco, AB Capital, ASK Automotive, Dredging Corp, PTC India, Mankind Pharma,... - Moneycontrol.com",
-            "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNYXlRcVppTmFNWHV5Qm9QbnY1NHRlY20zcmNlMmpVekI5eHRkZlI3cW9WVVl3MXVkSjBMdi1ERWI2NlZjVXZCRk9OYWZ6cjF2c0tnVDJmQ2NCY0ZXWVhTanpsVlMtS0VtQTFQM0E5NEx1Y0FiQm9JS0xYQzlRejhtRnJFdm5YVnNsUEFFUUh4WlZwTGw5cjVCU0xLZFk1N1JsRWVXQURWSVlFaTBUWXc1cHlmSVVudHhERndmQ2Y5M0lseU53SGVkcFY5OW56NVExSEtiTW40NTY2VXZSZ3hQVHF6VHg3WXdZUFJzMWQweDQ0QUtQQ2l0ZnNtWnZoZ1dVaVNlQUk5cVNnVHY3aUh2S0tjaE1lQW14SWdhVUNNa01UdDhuaF96eVAwWDFnZXo4eDhRQ2ZQRdIBvAJBVV95cUxQd0x5bnFULXJZYmdmb1A2Y3lFYnNQTUhHbkw3dXljdjZLSUNPTTJYUTJSWndSdlJCZ3Ztb3MwZUNGaFU1S1dxYUpQT1Z3ZDdjS3FlaEdpYnBhT1E1UDVBMVVhcE80MHlhcWlGcGxQVGhUTUlpX21xcnQzLVY3S1VCUEZHT09TaUYwM3ZuUUI1eHNncG0tRzF3NUxiSW9fTGJ1THo5QUsyejBUTVpoLTZzRXFYaDdTRTI1QkxDOWl6QXhONndmTWNNdW1uX2ZZaWtkQnhKSmQtVHMtWlFiRGV3LTVaOWdpdThjNnZJeWhfQjdiaGVRb3AtanBHd0liU3lxLWRaUmhPNG1IZ3Y0eEozXzdkWHZpUFhwSHFxTFFPdl8tNmZsWm53cjY3TUZxZzFOVERwaXlnc0tDUmxE?oc=5",
-            "published": "Wed, 20 May 2026 07:00:00 GMT",
-            "description": "Stocks to Watch Today: Hindalco, AB Capital, ASK Automotive, Dredging Corp, PTC India, Mankind Pharma,... &nbsp;&nbsp; Moneycontrol.com",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -7912,7 +7906,7 @@
       "priceBand": "₹1,000–₹1,500",
       "companyNews": {
         "symbol": "JSWSTEEL",
-        "company": "JSW STEEL LIMITED",
+        "company": "JSW Steel Limited",
         "sector": "Basic Materials",
         "industry": "Steel",
         "overallDirection": "positive",
@@ -7920,21 +7914,6 @@
         "newsScore": 2,
         "highImpactNewsCount": 0,
         "articles": [
-          {
-            "title": "JSWSTEEL Share Price Today - JSW Steel Stock Analysis - Equitypandit",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkZEhEOEptNUFlNHFMcTU5UkdtbGRWMmlGdEdpM3JCV0JGcVg1U3Nta0pEbWJZQmZ5aUlXbXdOZ05ENTdJOXNxZHdJbWlxaUZtM3c1RDdwQVRMejUxeGc?oc=5",
-            "published": "Sat, 15 Aug 2026 07:00:00 GMT",
-            "description": "JSWSTEEL Share Price Today - JSW Steel Stock Analysis &nbsp;&nbsp; Equitypandit",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
           {
             "title": "JSW Steel Limited Revenue Breakdown – NSE:JSWSTEEL - TradingView",
             "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLelVhN05JbUxfeWZhcHhEaUdSbXEyd1ZmMlFrRUNjMC1wcDBTNkhrajFBaG11UU1SSmtyU3h1U1FabllHc3VpZUxXcjRsLTNnbDF1WVluMFdLVENCT2ZtNW9LaHdYR0k1aVYxcWVIZkl0NVo4S3BIbg?oc=5",
@@ -8013,6 +7992,21 @@
             }
           },
           {
+            "title": "JSWSTEEL Historical Data - Equitypandit",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0Y3VxSTJuXzlGc00zWnZEZDNRSDlRXzZXSkZtZ2JZMnUtVGpCMmZ1emF1M1VxWjZyb1RULWVkUnpqWVBBX3RDaVpZdEFMM0hQZnk4bVhjWXhHanVOUHRvOFp3SQ?oc=5",
+            "published": "Sun, 14 Sep 2025 06:55:26 GMT",
+            "description": "JSWSTEEL Historical Data &nbsp;&nbsp; Equitypandit",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "JSW Steel (NSE:JSWSTEEL) Has More To Do To Multiply In Value Going Forward - simplywall.st",
             "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZklqRzdpUmZDbUhVdmR6VkItTG5tZTN6ajJHdW9rSmRzbzF5MFVWcGdETTFablp6V1laRkFvbVZIZzNVbzYzdnJtc1lWSUdGbmYtb3BESnl0alMzTTF0WWJqNUlvTUFwamctcXAwdU91eFpjR3RldTBFUllLckRXR2k0WXZfTUdQNzJzZGEzdE1GRFc4aUJUcTNqcUJ3VlVraHhRU0dEcTRNS19GR3VhWDFISTdlME9fdGptZGhlODZtOTJOOHd3dF9oZFRTbFBZMWZZ0gHYAUFVX3lxTE14VjRYZ2YtY1VvRnRFWWoyRE45clBBQ1BlVE1VVlF5cGtCSV9nUjA3OG83V2wxT090Mi0yRk9rTEt3MExRd1FnVlVTa2NKQjkxeFJralhkcURtVTZwWGtEVjFlMlhZV0ZUZV9DMjZ2dFVScUk3LTlWeEpoLWxYakItbDQ5X3dfejF1NndjUTNKczVFSFFjYUVEb2RrQkNsY3NRYTdILUhHR2NQQWVQZmt0emNIUkRWQjFpbnl6WjNIMlhNVzZSZkR3bFpoSjFRSlZhREg5T0Jzdg?oc=5",
             "published": "Sun, 18 Jan 2026 08:00:00 GMT",
@@ -8030,10 +8024,10 @@
             }
           },
           {
-            "title": "JSWSTEEL Historical Data - Equitypandit",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0Y3VxSTJuXzlGc00zWnZEZDNRSDlRXzZXSkZtZ2JZMnUtVGpCMmZ1emF1M1VxWjZyb1RULWVkUnpqWVBBX3RDaVpZdEFMM0hQZnk4bVhjWXhHanVOUHRvOFp3SQ?oc=5",
-            "published": "Sun, 14 Sep 2025 06:55:26 GMT",
-            "description": "JSWSTEEL Historical Data &nbsp;&nbsp; Equitypandit",
+            "title": "JSWSTEEL Share Price Today - JSW Steel on NSE/BSE - scanx.trade",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yVnhyRi1QQjFOWmV5Q3NjSTR6VFJMR21mRkNuTHlMME5BaGRtd0xzb3BWSFFmQ0JXT0ZKY00tWGxuNDF3cS1JNlBoRGIybVltTlNz?oc=5",
+            "published": "Wed, 16 Oct 2024 08:47:05 GMT",
+            "description": "JSWSTEEL Share Price Today - JSW Steel on NSE/BSE &nbsp;&nbsp; scanx.trade",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8223,7 +8217,7 @@
         "industry": "Information Technology Services",
         "overallDirection": "negative",
         "overallImpact": "medium",
-        "newsScore": -6,
+        "newsScore": -4,
         "highImpactNewsCount": 1,
         "articles": [
           {
@@ -8244,10 +8238,10 @@
             }
           },
           {
-            "title": "Coforge Launches Private Equity Business Unit - Business Wire",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdHRPM2hDamtzcmN0V3pEUHVaVVc5UVBWTjcwalFGemp6dDRXSjZBaXNORDB6U2RoU29TYVcxZHIyZWNTYnlaTjhqbXV3bEV2am1HMElUQnE3R0FKTGUwX2tBNVJEUUpEdTJfQ09iZl82RXg1bFFkSkVHYU1OWU52Nm53ZWZGOWtObU5jY3RSNWhpaUtZamRlYnFYeGt2VzVCWVNnWg?oc=5",
-            "published": "Tue, 11 Aug 2026 10:00:00 GMT",
-            "description": "Coforge Launches Private Equity Business Unit &nbsp;&nbsp; Business Wire",
+            "title": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap - Univest",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWDlOVVE2S1JzMHQ5UGpiUVBSSXN5em5OZWcxZFZFZ05nd3hlYmhRR2R6N29iZzgzdXZSRjJsOE5YOUJpTUNmUTl3X2trWFpITG80MDg0VzU2Y3ZWbEJDbUJfdE0wN2hHOVE?oc=5",
+            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "description": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap &nbsp;&nbsp; Univest",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8259,10 +8253,10 @@
             }
           },
           {
-            "title": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap - Univest",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWDlOVVE2S1JzMHQ5UGpiUVBSSXN5em5OZWcxZFZFZ05nd3hlYmhRR2R6N29iZzgzdXZSRjJsOE5YOUJpTUNmUTl3X2trWFpITG80MDg0VzU2Y3ZWbEJDbUJfdE0wN2hHOVE?oc=5",
-            "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-            "description": "Coforge Share Pros and Cons 2026: Travel Tech and Insurance IT Mid-Cap &nbsp;&nbsp; Univest",
+            "title": "Coforge Launches Nuuron: The AI Operating System for the Autonomous Enterprise - Business Wire",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNREstLTJBMTJGcjF0dko3UmJRNmZMRkc5OW4wRkFwb0dCQlRKU1l2RmJfdnVDWmxvWEM5anVna1FUaEV2REdlWG5pUGtzQWJ6QW1scHFFV2h2OHVueFpjREVSaG02MWJiVk1FMjJqSDZackpvQm5ubUVsM2ZZN1YweVpEUEVCVlFuNW5hQ1pBdVNsNUFmdTdwR1FUUXFCSmcxWGNkaDNmdlFuaHRKOWI5QWJoY3RSQkR4Yzhma1RIc2lmR1loN1BwcTBva0xWVms?oc=5",
+            "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+            "description": "Coforge Launches Nuuron: The AI Operating System for the Autonomous Enterprise &nbsp;&nbsp; Business Wire",
             "classification": {
               "direction": "neutral",
               "impact": "low",
@@ -8323,23 +8317,6 @@
             }
           },
           {
-            "title": "Infosys, TCS, HCL Tech, Wipro, Coforge, Tech M: Downgrade on IT stocks, check new targets - Business Today",
-            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR09zRUFDb3lRUTZod2dHVGxNQ3p4dnpjMGs4REs4cnQ1QnNHUXp5aVd2eWNWY3ZvdDdkbWdGVGdWbFh6RG1EYzRhMml4MUc3OUNYRy1UcWJBYzMyckVqa203UnRHWjdlVjlNazJDenVkYWVaaXFUTl8wUjVDWnJ3cDVhOGlWSjJxVkpfNkFVOEl1d1d2cm1LV29YUG5nSXBUZTZGYnJCZm11T2xEOTZxUTJIOGQtbUFIbzNvV2V1dVNzYmZxWkxjX1g0cGxCb0xfYlAyVWtZSGJWYnd3bmp6eF83NWHSAeoBQVVfeXFMTzVlanlsSzdsYkhRNXY2LVRFUmZILVRsRXFwdlZwT2Y3aVVnNTZCZjAxbVNrMG1kM3hqZEhNVG9SbTJYbXRBX21uOGNNbmI4SDg2WmZZX3gtUGR0bGdBNnpGMm9ScUt6RXZzYURXcWpxMDVwMFlrdEJBeDd6TGx1a2xWRGFjbzJZM0U0a3BMRTdYVkJxaS04YU9CVVR2aFdfRGpxS1BBT1lNbGFETjhBQ1BkSEJ0WTdod3dLLTJKeENYbVVSb2NVb3FJSVkxMUduUVYxR3Q2azRiNkpTc1BQcG1VZVNWaTJwUWxB?oc=5",
-            "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-            "description": "Infosys, TCS, HCL Tech, Wipro, Coforge, Tech M: Downgrade on IT stocks, check new targets &nbsp;&nbsp; Business Today",
-            "classification": {
-              "direction": "negative",
-              "impact": "medium",
-              "rawScore": -2,
-              "positiveKeywords": [],
-              "negativeKeywords": [
-                "downgrade"
-              ],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
             "title": "Indian shares extend losses as investors book profits in thin year-end trade; Reliance drags - Reuters",
             "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUVpM1NVbFoybFZVcW93Z1FNRVJaNmdsUERpRDdHVlNsbnZsVERaNGcydnZHSGx2eEh0SmE5WXItV1JOcWFkOGhSVHFoeGVGWUYycVp1R0lLYkZDMzE1LWV6dk9xeWhvSWU4SFFTc0luNEtadjBSOHN6QkFaaEY1Nk5qSlU0aFlsOHlVRGhuX2pxU2lwR0ZFVndoVQ?oc=5",
             "published": "Sun, 28 Dec 2025 08:00:00 GMT",
@@ -8356,6 +8333,21 @@
                 "loss",
                 "losses"
               ],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
+            "title": "Infosys, Coforge, Wipro to TCS: IT stocks rally amid weak trends in Indian stock market today - livemint.com",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNak4yc3ZQY2lJVjlaMG5RemdFd1pGN28xa2w5OXBPaEVlQmdzdGhaNUJzYlV2X2NRbmJJdGJibndXSEJvTEF2UHdMUE9hSVRieS1yZDhwWEtmbGlKcV8wZG11VWppV0JOVW4xeDVMT1JpbkJqWXVBRGxnYlpaUnp6SVRYZ2RxRDZTUW9LdHRHdE1VZE1LMFRzX1pVUjFBalJNOTVvczlYWjNma1pURlF0MlRVMVMzTDc4dHNaTUh2VFF5XzN4QkswQm5QdWdLT1FadEo0STRLdmtZSVowQnRTR2lCc1ItdkxCZFHSAe8BQVVfeXFMUHYtZ2xzQWl2eGViZmJKZG9jOFpOYm9DMVR4bl9qVlpSaVpOQ1FTRzNyQnJkejEyejJCdlpWR240c0kxSXVlZ2YySF9TZWtwOXEzV3RfMEx1bXhwNmQteXVQb0VHdF9qekVaYjZ6WGtlWHY4aG9yTWlqR0xSZW5xdFJRZV9QcXA3VXgyNVpheUhicEcza1FNM3NoLWFGbWtqOTVnWVk1a1NpSE5CR00tdXhLYTQ0R1FSWlEtUVMzN3dNczJYLWZhd3pOZGlVZFBsYmN4WjI4bVV6bF9zS2FodW9XOWZRVG5IUUxhSmFhelk?oc=5",
+            "published": "Fri, 27 Feb 2026 08:00:00 GMT",
+            "description": "Infosys, Coforge, Wipro to TCS: IT stocks rally amid weak trends in Indian stock market today &nbsp;&nbsp; livemint.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
             }
@@ -9305,6 +9297,21 @@
             }
           },
           {
+            "title": "Himadri Speciality Chemicals Share Price - Live NSE: HSCL Stock Price & Chart - Upstox",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Jakgwek5jakZlbng3YUFYQWtqUEFOQ2dZeGpPT3oxc3NvX0tIWHdTMHpYaUFEOWR5elFxeXZhaU1JVHZ2LWhwamlYanZZNUdYR1RMSmZKcWlZcTV2eWc1SDdWUmN1V2dweEIxa0V4by1CQQ?oc=5",
+            "published": "Wed, 19 Aug 2026 18:01:25 GMT",
+            "description": "Himadri Speciality Chemicals Share Price - Live NSE: HSCL Stock Price & Chart &nbsp;&nbsp; Upstox",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Specialty Chemicals, Pharma & Metals: Top Stocks To Watch Amid India’s Domestic Growth Story - Business Today",
             "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSV9JUUFfaG1zczZLektUcDd0YWlxSzRhaXpNMW9iS3FZM1VIWWJHbUNhbzh5VmpXalRYQm96Q3hNSnBFV25RMklJTWozSm5JdEhKYnR0cnF0SURscUNKRktzdzVDY0o2VVYwbEptWFhlaWRFWlg5RUN0NGxrTmoyVU1fcDFVcS1ZUWtWU1BCOUcxRnVLQjI1QUEwRlQ1RE83ekkxWUo4SHJIR3RabEZISE1QQ0J2LTBvb1lGX1d4ZjhoYW9kU1BHRjVyOU94OHpNdGVUNG82NUhkOHpJVC16NDYyMnI2UVhxcmdKb2JCYVjSAfYBQVVfeXFMTVg2dE9nZlkzVjJncFVGdDhILWhGZV9YOU9ibF9MX1hkaWtZd1VQbzBlNHBXc2RDeTNYVFdwSGlPTldGRlJzZENvbEo3NDZpaEgzeWFJb2Z5WmlMdHdRQkU3UHh4OE9EMGl1MDMzaEx6dEtEb2ZYN2dzcHVCcnVKdFZhYXgxTUlvUXRzUzNsdFloblhtTzZDWWdhNU9PUDRwWlRZLU51V0J1UkZvOHBFckxpQV8wX2NkMUE3Qk41Q2JfeFRIMTRWSnc2cHVjWDNPMDAzLTZaejJsbTBRWHJONkNXczNMMHl2UDNEMmR1c20xWjRWVUlB?oc=5",
             "published": "Tue, 18 Aug 2026 08:08:22 GMT",
@@ -9349,21 +9356,6 @@
                 "bullish",
                 "investment"
               ],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "Top Industry Insights | Subscribe Now - ET Chemicals",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWhKbmEzMHhCRmV5bzBMRW03dXZuZVRGQjhmUi1zMEszUEthQnMxZFdUakx0clEtSXBzWGx2dGZveDhKZzZ2SmswenY0dTJCM0FWOFF1VWdIMEZrdVUxQ2V2MnN4c01tVk1jeDBwcmV6bnM1a0RzSDI0N3NPUnhLRy1KVzRIVkpIUXkzNGdSU295a2lnZkRXVw?oc=5",
-            "published": "Fri, 31 Jul 2026 07:00:00 GMT",
-            "description": "Top Industry Insights | Subscribe Now &nbsp;&nbsp; ET Chemicals",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
               "negativeKeywords": [],
               "geopoliticalKeywords": [],
               "macroKeywords": []
@@ -9692,6 +9684,21 @@
             }
           },
           {
+            "title": "Starlink Renews Push for Satellite Communication Services in India - marketscreener.com",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ01NM3FUVHZXRFF3OUxFOEk0bkhEd3p3eDJXdkNQM1Q0WE5nZVhaRlFMVXZJcEZsTFhZdUZVQmt5TGYxWHMyODcweFlScEl5NUZpbDM2aEsxQ2NCQ05aZG1vRXIxZ3BfQUpuNy1wNlhSN0RHNWNwR1dfeWVHUktnY3R2aUM5YlFZckJDS2F3dDZHR3BFX05OSlFOanhpT1V0YVp2WElia3pGbnhxWGxZa0FsbXotUnJXWnU4?oc=5",
+            "published": "Thu, 20 Aug 2026 10:29:28 GMT",
+            "description": "Starlink Renews Push for Satellite Communication Services in India &nbsp;&nbsp; marketscreener.com",
+            "classification": {
+              "direction": "neutral",
+              "impact": "low",
+              "rawScore": 0,
+              "positiveKeywords": [],
+              "negativeKeywords": [],
+              "geopoliticalKeywords": [],
+              "macroKeywords": []
+            }
+          },
+          {
             "title": "Starlink knocks on India's door again for Gen 2 satellite network - Business Standard",
             "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTWx3TWJOTFpiQkJNMkgzWmZDb2Zra21taEhzY1hUcVZIOXFzRnk5azE1RFhXZlBhRnZTdk9ZSFl5VkNxRndhWGFwaGVYWU8yckJBRENPQnZ3c3JtTWdieUdKWFd3ZVloZFBaVm9GbE5ES0hJWUI5NHRKaVJ4SUpTZWxkS0xVVmdzd2VVRDVLTDlPcWdjTVhFbkJyRUlXb3hmeXYwSFppODEtMFRwZnFIZUV5elV2TEh6TU9XYURNLV84dFFzcF9lVjdwdjhORGZjN2VzLWotc9IB3AFBVV95cUxNS28zNlZlcWlsS0pWTW9Za002d2FqZHdab3FQNGpKdUZINXAzUXNZbHd3Y3JrNDdIRW1WenhvMWowTUMxazBfLUpXUWtac1l5bjBud0lGbVBJVzI3S2lCUGQ2ZWRJazZ4Ym0tZVRqb21fZkctdjFVdE5XY1VmQW5BU2dQNkgwcE1rTFlGVjhtSFRVRWZPdmYxTFM5ejB1bTl3dnVwU0RfZXhTRVZ1SHpPaVItRjJwNzVMUHkzQWpXNU1oNTV0NFpDMDF0LWpoWU1yMFFKUXh5SWtzdnFt?oc=5",
             "published": "Thu, 20 Aug 2026 03:20:53 GMT",
@@ -9726,21 +9733,6 @@
             "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXRpMEdkYUp5SzNjR0FBWlg0RmtOM00wX1JhdjRSOHNlV2VUVlhWaF9XaExCSHdYWW5rR05LNEJ6SkxaWVJYRmlnMkIyaXpxNkdHbUhwTF9iLXJEVmdGTWpMbUdZTFJNcDdtSm5qUWJ6aFFkeHA2RE5JYWk0T2N2dlZmWllJYS1NUktxdmI3RzVuYWxrVEcyTjhlcE1vdlB2S3JUWm1TdnBUTHc?oc=5",
             "published": "Mon, 18 May 2026 07:00:00 GMT",
             "description": "Communication Services: Highly Concentrated With Google and Meta &nbsp;&nbsp; Investing.com India",
-            "classification": {
-              "direction": "neutral",
-              "impact": "low",
-              "rawScore": 0,
-              "positiveKeywords": [],
-              "negativeKeywords": [],
-              "geopoliticalKeywords": [],
-              "macroKeywords": []
-            }
-          },
-          {
-            "title": "India's RCS Adoption Surges 108% as Finance Sector Leads Shift to Rich Business Messaging, Infobip Data Shows - Revenue Miss Report - Vinanet",
-            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPak9LN01tSG5Jb0xrQlNQenFFOFFaaXEyLWFKd3owWE1PdjRBbDR2TTE1aGhTeDVxV0F0eTNVdGpZeTlHVEVLSFRGOGl6d3RBRFBhdFB2WW84aGI1aExidi1FNzR0U1duSW9pdmg1c1FrLUJPTjd2VGxQaFotNjRJUzM5dEh0NHBqT0IzWkRqTHJESnN6NHZDLURFbFIyU0lqZVVCUHFPYTlXcmhReG9wRTJOcVpqLTg3Zkd2UE9zUXpoSkhxLVI2eDc3R0U4UHlwM2h2bDJnZ3duQmU5Qzd1RkxB?oc=5",
-            "published": "Tue, 18 Aug 2026 19:26:56 GMT",
-            "description": "India's RCS Adoption Surges 108% as Finance Sector Leads Shift to Rich Business Messaging, Infobip Data Shows - Revenue Miss Report &nbsp;&nbsp; Vinanet",
             "classification": {
               "direction": "neutral",
               "impact": "low",
