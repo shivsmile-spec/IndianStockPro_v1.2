@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-08-20T17:51:04.867484+00:00",
+  "updatedAt": "2026-08-20T19:48:44.669320+00:00",
   "source": "Mirae Asset Sharekhan IPO calendar",
   "note": "Automatically refreshed from the published IPO calendar. Verify the latest exchange/issuer filing before applying.",
   "items": [
+    {
+      "company": "Augmont Enterprises Ltd.",
+      "symbol": "AUGMONTENTERPRISESLT",
+      "segment": "Mainboard",
+      "status": "UPCOMING",
+      "openDate": "2026-08-21",
+      "closeDate": "2026-08-25",
+      "listingDate": null,
+      "priceBand": "750-788",
+      "lotSize": "19",
+      "issueSize": "825.00 (₹Cr.)",
+      "source": "Mirae Asset Sharekhan IPO calendar",
+      "sourceUrl": "https://www.sharekhan.com/ipo"
+    },
     {
       "company": "Tempsens Instruments (India) Ltd.",
       "symbol": "TEMPSENSINSTRUMENTSI",
@@ -56,48 +70,6 @@
       "priceBand": "152-160",
       "lotSize": "93",
       "issueSize": "550.00 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Shankesh Jewellers Ltd.",
-      "symbol": "SHANKESHJEWELLERSLTD",
-      "segment": "Mainboard",
-      "status": "CLOSING_TODAY",
-      "openDate": "2026-08-18",
-      "closeDate": "2026-08-20",
-      "listingDate": null,
-      "priceBand": "88-93",
-      "lotSize": "160",
-      "issueSize": "367.18 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Sunshine Pictures Ltd.",
-      "symbol": "SUNSHINEPICTURESLTD",
-      "segment": "Mainboard",
-      "status": "CLOSING_TODAY",
-      "openDate": "2026-08-18",
-      "closeDate": "2026-08-20",
-      "listingDate": null,
-      "priceBand": "342-360",
-      "lotSize": "41",
-      "issueSize": "282.14 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Augmont Enterprises Ltd.",
-      "symbol": "AUGMONTENTERPRISESLT",
-      "segment": "Mainboard",
-      "status": "UPCOMING",
-      "openDate": "2026-08-21",
-      "closeDate": "2026-08-25",
-      "listingDate": null,
-      "priceBand": "750-788",
-      "lotSize": "19",
-      "issueSize": "₹825.00 Cr.",
       "source": "Mirae Asset Sharekhan IPO calendar",
       "sourceUrl": "https://www.sharekhan.com/ipo"
     },
