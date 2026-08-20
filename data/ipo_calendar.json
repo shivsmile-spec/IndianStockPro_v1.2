@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T21:46:37.478919+00:00",
+  "updatedAt": "2026-08-20T23:03:16.797230+00:00",
   "source": "Mirae Asset Sharekhan IPO calendar",
   "note": "Automatically refreshed from the published IPO calendar. Verify the latest exchange/issuer filing before applying.",
   "items": [
@@ -124,7 +124,7 @@
       "closeDate": "2026-08-28",
       "listingDate": null,
       "priceBand": "94-99",
-      "lotSize": "-",
+      "lotSize": "151",
       "issueSize": "₹175.06 Cr.",
       "source": "Mirae Asset Sharekhan IPO calendar",
       "sourceUrl": "https://www.sharekhan.com/ipo"
