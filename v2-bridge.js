@@ -78,7 +78,7 @@
     const index=document.getElementById("isp-market-indices");
     const indexOk=!!index&&!/Loading|unavailable/i.test(index.textContent||"")&&!!index.querySelector(".isp-index-value")&&!Array.from(index.querySelectorAll(".isp-index-value")).some(x=>x.textContent.trim()==="—");
     const quoteText=document.getElementById("liveQuoteText")?.textContent||"";
-    const quoteOk=/prices loaded/i.test(quoteText);
+    const quoteOk=/prices loaded|published stock quotes/i.test(quoteText);
     const newsOk=/news/i.test(document.getElementById("status")?.textContent||"")&&!/temporarily unavailable/i.test(document.getElementById("status")?.textContent||"");
     setHealth(
       {ok:indexOk,text:indexOk?"Published feed available":"Waiting / delayed"},
@@ -132,11 +132,17 @@
     finally{refreshBusy=false;updateHealthFromPage()}
   }
 
+  function installReliableFeed(){
+    if(document.getElementById("isp-reliable-feed-script"))return;
+    const s=document.createElement("script");s.id="isp-reliable-feed-script";s.src="./feed-reliability.js?v=20260820";document.head.appendChild(s);
+  }
+
   function start(){
     injectStyle();
     sync();
     ensureImportantNotice();
     ensureHealth();
+    installReliableFeed();
     updateHealthFromPage();
     refreshStockQuotes();
     clearInterval(refreshTimer);
