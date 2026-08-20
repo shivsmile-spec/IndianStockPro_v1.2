@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: market-feed
-  cancel-in-progress: false
+  group: live-stock-feed
+  cancel-in-progress: true
 
 jobs:
   update-market-feed:
@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest stock and index quotes
+      - name: Fetch latest stock quotes
         env:
           PYTHONUNBUFFERED: "1"
         run: |
@@ -48,7 +48,7 @@ jobs:
               with urllib.request.urlopen(request,timeout=timeout) as r:
                   return json.loads(r.read().decode("utf-8"))
 
-          rankings = json.loads(Path("data/rankings.json").read_text())
+          rankings = json.loads(Path("data/rankings.json").read_text(encoding="utf-8"))
           stocks = rankings.get("rankings") or rankings.get("stocks") or []
           if not stocks and isinstance(rankings.get("bands"), list):
               for band in rankings["bands"]:
@@ -104,70 +104,37 @@ jobs:
                       errors[sym].append(str(nerr)); print(f"{sym}: unavailable | Yahoo={yerr} | NSE={nerr}")
               time.sleep(0.12)
 
-          # Fetch NIFTY 50 and SENSEX in the same workflow/commit as stocks.
-          indices={}
-          try:
-              market=req_json("https://www.nseindia.com/api/marketStatus",{"Referer":"https://www.nseindia.com/"})
-              row=next((x for x in market.get("marketState",[]) if x.get("index")=="NIFTY 50"),None)
-              if not row or row.get("last") in (None,""): raise ValueError("NIFTY value unavailable")
-              value=float(row["last"]); change=float(row["variation"]) if row.get("variation") not in (None,"") else None; pct=float(row["percentChange"]) if row.get("percentChange") not in (None,"") else None
-              indices["NIFTY50"]={"value":value,"previousClose":value-change if change is not None else None,"change":change,"changePct":pct,"timestamp":generated,"source":"NSE India marketStatus"}
-          except Exception as nse_error:
-              try:
-                  body=req_json("https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1d&interval=1m")
-                  meta=body["chart"]["result"][0].get("meta",{}); value=float(meta["regularMarketPrice"]); prev=float(meta.get("previousClose") or meta.get("chartPreviousClose")); ts=datetime.fromtimestamp(meta["regularMarketTime"],timezone.utc).isoformat() if meta.get("regularMarketTime") else generated
-                  indices["NIFTY50"]={"value":value,"previousClose":prev,"change":value-prev,"changePct":(value-prev)/prev*100,"timestamp":ts,"source":"Yahoo Finance fallback"}
-              except Exception as yahoo_error:
-                  print(f"NIFTY unavailable | NSE={nse_error} | Yahoo={yahoo_error}")
+          if len(quotes)<1:
+              raise SystemExit("No stock quotes were published")
 
-          try:
-              body=req_json("https://api.bseindia.com/RealTimeBseIndiaAPI/api/GetSensexData/w",{"Referer":"https://www.bseindia.com/","Origin":"https://www.bseindia.com"})
-              row=body[0] if isinstance(body,list) and body else body
-              value=row.get("ltp") or row.get("CurrValue") or row.get("currvalue") or row.get("value")
-              value=float(str(value).replace(",","")); change=row.get("chg") or row.get("change") or row.get("variation"); pct=row.get("perchg") or row.get("changePercent") or row.get("percentChange")
-              change=float(str(change).replace(",","")) if change not in (None,"") else None; pct=float(str(pct).replace(",","")) if pct not in (None,"") else None
-              indices["SENSEX"]={"value":value,"previousClose":value-change if change is not None else None,"change":change,"changePct":pct,"timestamp":generated,"source":"BSE India public Sensex endpoint"}
-          except Exception as bse_error:
-              try:
-                  body=req_json("https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=1d&interval=1m")
-                  meta=body["chart"]["result"][0].get("meta",{}); value=float(meta["regularMarketPrice"]); prev=float(meta.get("previousClose") or meta.get("chartPreviousClose")); ts=datetime.fromtimestamp(meta["regularMarketTime"],timezone.utc).isoformat() if meta.get("regularMarketTime") else generated
-                  indices["SENSEX"]={"value":value,"previousClose":prev,"change":value-prev,"changePct":(value-prev)/prev*100,"timestamp":ts,"source":"Yahoo Finance fallback"}
-              except Exception as yahoo_error:
-                  print(f"SENSEX unavailable | BSE={bse_error} | Yahoo={yahoo_error}")
-
-          if len(quotes)<1: raise SystemExit("No stock quotes were published")
-          if len(indices)<1: raise SystemExit("No index quotes were published")
-
-          Path("data/live_quotes.json").write_text(json.dumps({"generatedAt":generated,"source":"Yahoo Finance with NSE India fallback","quoteCount":len(quotes),"requestedCount":len(symbols),"quotes":quotes,"errors":errors},indent=2)+"\n",encoding="utf-8")
-          Path("data/index_quotes.json").write_text(json.dumps({"generatedAt":generated,"source":"NSE India marketStatus + BSE India public Sensex endpoint with Yahoo fallback","indices":indices},indent=2)+"\n",encoding="utf-8")
-          print(f"Published stocks {len(quotes)}/{len(symbols)} and indices {len(indices)}/2 at {generated}")
+          payload={"generatedAt":generated,"source":"Yahoo Finance with NSE India fallback","quoteCount":len(quotes),"requestedCount":len(symbols),"quotes":quotes,"errors":errors}
+          Path("data/live_quotes.json").write_text(json.dumps(payload,indent=2)+"\n",encoding="utf-8")
+          print(f"Published stocks {len(quotes)}/{len(symbols)} at {generated}")
           PY
 
-      - name: Verify market feeds
+      - name: Verify stock feed
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          live=json.loads(Path("data/live_quotes.json").read_text())
-          idx=json.loads(Path("data/index_quotes.json").read_text())
+          live=json.loads(Path("data/live_quotes.json").read_text(encoding="utf-8"))
           if int(live.get("quoteCount",0)) < 1: raise SystemExit("No stock quotes")
-          if len([v for v in (idx.get("indices") or {}).values() if v.get("value") is not None]) < 1: raise SystemExit("No index quotes")
-          print(f"Stocks: {live.get('quoteCount')}/{live.get('requestedCount')}")
-          print(f"Indices: {len(idx.get('indices') or {})}/2")
+          if not live.get("generatedAt"): raise SystemExit("Missing feed timestamp")
+          print(f"Stocks: {live.get('quoteCount')}/{live.get('requestedCount')} | {live.get('generatedAt')}")
           PY
 
-      - name: Commit updated market feeds
+      - name: Commit updated stock feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live_quotes.json data/index_quotes.json
+          git add data/live_quotes.json
           git diff --cached --quiet && exit 0
-          git commit -m "Update live stock and index market feeds"
+          git commit -m "Update live stock quotes"
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             if git rebase origin/main; then
               if git push origin HEAD:main; then
-                echo "Market feeds published"
+                echo "Live stock feed published"
                 exit 0
               fi
             else
@@ -176,5 +143,5 @@ jobs:
             echo "Publish attempt ${attempt} failed; retrying..."
             sleep 5
           done
-          echo "Failed to publish market feeds after 5 attempts"
+          echo "Failed to publish live stock feed after 5 attempts"
           exit 1
