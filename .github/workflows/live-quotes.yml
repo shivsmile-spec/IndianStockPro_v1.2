@@ -14,17 +14,18 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-quotes
-  cancel-in-progress: true
+  group: market-feed
+  cancel-in-progress: false
 
 jobs:
-  update-quotes:
+  update-market-feed:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest NSE-linked quotes
+      - name: Fetch latest stock and index quotes
         env:
           PYTHONUNBUFFERED: "1"
         run: |
@@ -33,59 +34,59 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
 
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
+              "Accept": "application/json,text/plain,*/*",
+              "Accept-Language": "en-IN,en;q=0.9",
+          }
+          generated = datetime.now(timezone.utc).isoformat()
+
+          def req_json(url, extra=None, timeout=20):
+              h=dict(headers)
+              if extra: h.update(extra)
+              request=urllib.request.Request(url,headers=h)
+              with urllib.request.urlopen(request,timeout=timeout) as r:
+                  return json.loads(r.read().decode("utf-8"))
+
           rankings = json.loads(Path("data/rankings.json").read_text())
           stocks = rankings.get("rankings") or rankings.get("stocks") or []
           if not stocks and isinstance(rankings.get("bands"), list):
               for band in rankings["bands"]:
                   stocks.extend(band.get("stocks") or [])
 
-          symbols = []
+          symbols=[]
           for s in stocks:
-              sym = str(s.get("symbol") or "").strip().upper()
-              if sym and sym not in symbols:
-                  symbols.append(sym)
+              sym=str(s.get("symbol") or "").strip().upper()
+              if sym and sym not in symbols: symbols.append(sym)
 
-          generated = datetime.now(timezone.utc).isoformat()
-          quotes, errors = {}, {}
-          headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
-              "Accept": "application/json,text/plain,*/*",
-              "Accept-Language": "en-IN,en;q=0.9",
-          }
+          quotes={}; errors={}
 
           def yahoo_quote(sym):
-              last = "unknown Yahoo error"
-              for host in ("query2.finance.yahoo.com", "query1.finance.yahoo.com"):
+              last="unknown Yahoo error"
+              for host in ("query2.finance.yahoo.com","query1.finance.yahoo.com"):
                   try:
-                      ticker = urllib.parse.quote(sym + ".NS", safe="")
-                      url = f"https://{host}/v8/finance/chart/{ticker}?range=1d&interval=1m&includePrePost=false"
-                      req = urllib.request.Request(url, headers=headers)
-                      with urllib.request.urlopen(req, timeout=15) as resp:
-                          body = json.loads(resp.read().decode("utf-8"))
-                      result = (body.get("chart", {}).get("result") or [None])[0]
+                      ticker=urllib.parse.quote(sym+".NS",safe="")
+                      body=req_json(f"https://{host}/v8/finance/chart/{ticker}?range=1d&interval=1m&includePrePost=false")
+                      result=(body.get("chart",{}).get("result") or [None])[0]
                       if not result: raise ValueError("empty chart result")
-                      meta = result.get("meta", {}) or {}
-                      price = meta.get("regularMarketPrice")
-                      prev = meta.get("previousClose") or meta.get("chartPreviousClose")
+                      meta=result.get("meta",{}) or {}
+                      price=meta.get("regularMarketPrice")
+                      prev=meta.get("previousClose") or meta.get("chartPreviousClose")
                       if price is None:
-                          closes = (((result.get("indicators") or {}).get("quote") or [{}])[0]).get("close") or []
-                          vals = [float(x) for x in closes if x is not None]
-                          price = vals[-1] if vals else None
+                          closes=(((result.get("indicators") or {}).get("quote") or [{}])[0]).get("close") or []
+                          vals=[float(x) for x in closes if x is not None]
+                          price=vals[-1] if vals else None
                       if price is None: raise ValueError("price missing")
-                      price = float(price); prev = float(prev) if prev is not None else None
-                      ts = meta.get("regularMarketTime")
+                      price=float(price); prev=float(prev) if prev is not None else None
+                      ts=meta.get("regularMarketTime")
                       return {"price":price,"previousClose":prev,"change":(price-prev) if prev is not None else None,"changePct":((price-prev)/prev*100) if prev else None,"timestamp":datetime.fromtimestamp(ts,timezone.utc).isoformat() if ts else generated,"marketState":meta.get("marketState",""),"source":"Yahoo Finance chart endpoint"}
                   except Exception as exc:
-                      last = f"{host}: {type(exc).__name__}: {exc}"
+                      last=f"{host}: {type(exc).__name__}: {exc}"
               raise RuntimeError(last)
 
           def nse_quote(sym):
-              base="https://www.nseindia.com"; opener=urllib.request.build_opener()
-              home=urllib.request.Request(base+"/",headers={**headers,"Referer":base+"/"})
-              with opener.open(home,timeout=15) as r: r.read(100)
-              url=base+"/api/quote-equity?symbol="+urllib.parse.quote(sym)
-              req=urllib.request.Request(url,headers={**headers,"Referer":base+"/get-quotes/equity?symbol="+urllib.parse.quote(sym)})
-              with opener.open(req,timeout=15) as resp: body=json.loads(resp.read().decode("utf-8"))
+              base="https://www.nseindia.com"
+              body=req_json(base+"/api/quote-equity?symbol="+urllib.parse.quote(sym),{"Referer":base+"/get-quotes/equity?symbol="+urllib.parse.quote(sym)})
               info=body.get("priceInfo") or {}; price=info.get("lastPrice")
               if price is None: raise ValueError("NSE lastPrice missing")
               price=float(price); prev=info.get("previousClose"); prev=float(prev) if prev is not None else None
@@ -101,44 +102,72 @@ jobs:
                   try: quotes[sym]=nse_quote(sym)
                   except Exception as nerr:
                       errors[sym].append(str(nerr)); print(f"{sym}: unavailable | Yahoo={yerr} | NSE={nerr}")
-              time.sleep(0.15)
+              time.sleep(0.12)
 
-          out={"generatedAt":generated,"source":"Yahoo Finance with NSE India fallback","quoteCount":len(quotes),"requestedCount":len(symbols),"quotes":quotes,"errors":errors}
-          path=Path("data/live_quotes.json"); path.parent.mkdir(parents=True,exist_ok=True); path.write_text(json.dumps(out,indent=2)+"\n")
-          print(f"Published {len(quotes)}/{len(symbols)} quotes at {generated}")
-          if errors: print(f"Unavailable symbols: {len(errors)}")
+          # Fetch NIFTY 50 and SENSEX in the same workflow/commit as stocks.
+          indices={}
+          try:
+              market=req_json("https://www.nseindia.com/api/marketStatus",{"Referer":"https://www.nseindia.com/"})
+              row=next((x for x in market.get("marketState",[]) if x.get("index")=="NIFTY 50"),None)
+              if not row or row.get("last") in (None,""): raise ValueError("NIFTY value unavailable")
+              value=float(row["last"]); change=float(row["variation"]) if row.get("variation") not in (None,"") else None; pct=float(row["percentChange"]) if row.get("percentChange") not in (None,"") else None
+              indices["NIFTY50"]={"value":value,"previousClose":value-change if change is not None else None,"change":change,"changePct":pct,"timestamp":generated,"source":"NSE India marketStatus"}
+          except Exception as nse_error:
+              try:
+                  body=req_json("https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1d&interval=1m")
+                  meta=body["chart"]["result"][0].get("meta",{}); value=float(meta["regularMarketPrice"]); prev=float(meta.get("previousClose") or meta.get("chartPreviousClose")); ts=datetime.fromtimestamp(meta["regularMarketTime"],timezone.utc).isoformat() if meta.get("regularMarketTime") else generated
+                  indices["NIFTY50"]={"value":value,"previousClose":prev,"change":value-prev,"changePct":(value-prev)/prev*100,"timestamp":ts,"source":"Yahoo Finance fallback"}
+              except Exception as yahoo_error:
+                  print(f"NIFTY unavailable | NSE={nse_error} | Yahoo={yahoo_error}")
+
+          try:
+              body=req_json("https://api.bseindia.com/RealTimeBseIndiaAPI/api/GetSensexData/w",{"Referer":"https://www.bseindia.com/","Origin":"https://www.bseindia.com"})
+              row=body[0] if isinstance(body,list) and body else body
+              value=row.get("ltp") or row.get("CurrValue") or row.get("currvalue") or row.get("value")
+              value=float(str(value).replace(",","")); change=row.get("chg") or row.get("change") or row.get("variation"); pct=row.get("perchg") or row.get("changePercent") or row.get("percentChange")
+              change=float(str(change).replace(",","")) if change not in (None,"") else None; pct=float(str(pct).replace(",","")) if pct not in (None,"") else None
+              indices["SENSEX"]={"value":value,"previousClose":value-change if change is not None else None,"change":change,"changePct":pct,"timestamp":generated,"source":"BSE India public Sensex endpoint"}
+          except Exception as bse_error:
+              try:
+                  body=req_json("https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?range=1d&interval=1m")
+                  meta=body["chart"]["result"][0].get("meta",{}); value=float(meta["regularMarketPrice"]); prev=float(meta.get("previousClose") or meta.get("chartPreviousClose")); ts=datetime.fromtimestamp(meta["regularMarketTime"],timezone.utc).isoformat() if meta.get("regularMarketTime") else generated
+                  indices["SENSEX"]={"value":value,"previousClose":prev,"change":value-prev,"changePct":(value-prev)/prev*100,"timestamp":ts,"source":"Yahoo Finance fallback"}
+              except Exception as yahoo_error:
+                  print(f"SENSEX unavailable | BSE={bse_error} | Yahoo={yahoo_error}")
+
+          if len(quotes)<1: raise SystemExit("No stock quotes were published")
+          if len(indices)<1: raise SystemExit("No index quotes were published")
+
+          Path("data/live_quotes.json").write_text(json.dumps({"generatedAt":generated,"source":"Yahoo Finance with NSE India fallback","quoteCount":len(quotes),"requestedCount":len(symbols),"quotes":quotes,"errors":errors},indent=2)+"\n",encoding="utf-8")
+          Path("data/index_quotes.json").write_text(json.dumps({"generatedAt":generated,"source":"NSE India marketStatus + BSE India public Sensex endpoint with Yahoo fallback","indices":indices},indent=2)+"\n",encoding="utf-8")
+          print(f"Published stocks {len(quotes)}/{len(symbols)} and indices {len(indices)}/2 at {generated}")
           PY
 
-      - name: Verify quote feed
+      - name: Verify market feeds
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          body=json.loads(Path("data/live_quotes.json").read_text())
-          count=int(body.get("quoteCount",0))
-          requested=int(body.get("requestedCount",0))
-          print(f"Quote feed: {count}/{requested}")
-          if requested < 1 or count < 1:
-              raise SystemExit("No live quotes were published")
+          live=json.loads(Path("data/live_quotes.json").read_text())
+          idx=json.loads(Path("data/index_quotes.json").read_text())
+          if int(live.get("quoteCount",0)) < 1: raise SystemExit("No stock quotes")
+          if len([v for v in (idx.get("indices") or {}).values() if v.get("value") is not None]) < 1: raise SystemExit("No index quotes")
+          print(f"Stocks: {live.get('quoteCount')}/{live.get('requestedCount')}")
+          print(f"Indices: {len(idx.get('indices') or {})}/2")
           PY
 
-      - name: Commit updated quote feed
+      - name: Commit updated market feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live_quotes.json
+          git add data/live_quotes.json data/index_quotes.json
           git diff --cached --quiet && exit 0
-
-          git commit -m "Update live market quotes"
-
-          # The NIFTY/SENSEX workflow also commits to main every 5 minutes.
-          # Rebase before pushing so the two scheduled feeds cannot race and
-          # leave the live quote feed stale after a successful fetch.
+          git commit -m "Update live stock and index market feeds"
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             if git rebase origin/main; then
               if git push origin HEAD:main; then
-                echo "Live quote feed published"
+                echo "Market feeds published"
                 exit 0
               fi
             else
@@ -147,6 +176,5 @@ jobs:
             echo "Publish attempt ${attempt} failed; retrying..."
             sleep 5
           done
-
-          echo "Failed to publish live quote feed after 5 attempts"
+          echo "Failed to publish market feeds after 5 attempts"
           exit 1
