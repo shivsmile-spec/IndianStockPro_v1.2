@@ -1,4 +1,5 @@
 /* Indian Stock Pro — live NIFTY 50 + SENSEX market strip */
+/* Feed refresh trigger: 2026-08-20 */
 (function(){
   "use strict";
 
