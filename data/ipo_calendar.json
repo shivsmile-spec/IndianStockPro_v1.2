@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:19:45.436551+00:00",
+  "updatedAt": "2026-08-20T15:54:12.721593+00:00",
   "source": "Mirae Asset Sharekhan IPO calendar",
   "note": "Automatically refreshed from the published IPO calendar. Verify the latest exchange/issuer filing before applying.",
   "items": [
@@ -140,6 +140,20 @@
       "priceBand": "131-138",
       "lotSize": "100",
       "issueSize": "₹582.80 Cr.",
+      "source": "Mirae Asset Sharekhan IPO calendar",
+      "sourceUrl": "https://www.sharekhan.com/ipo"
+    },
+    {
+      "company": "Annu Projects Ltd.",
+      "symbol": "ANNUPROJECTSLTD",
+      "segment": "Mainboard",
+      "status": "UPCOMING",
+      "openDate": "2026-08-25",
+      "closeDate": "2026-08-28",
+      "listingDate": null,
+      "priceBand": "94-99",
+      "lotSize": "-",
+      "issueSize": "₹175.06 Cr.",
       "source": "Mirae Asset Sharekhan IPO calendar",
       "sourceUrl": "https://www.sharekhan.com/ipo"
     },
