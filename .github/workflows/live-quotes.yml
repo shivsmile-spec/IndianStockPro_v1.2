@@ -158,4 +158,13 @@ jobs:
           git add data/live_quotes.json
           git diff --cached --quiet && exit 0
           git commit -m "Update main live stock quotes"
-          git push origin HEAD:main
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then exit 0; fi
+            else
+              git rebase --abort || true
+            fi
+            sleep 5
+          done
+          exit 1
