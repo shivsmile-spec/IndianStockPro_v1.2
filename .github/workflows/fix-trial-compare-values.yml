@@ -1,0 +1,92 @@
+name: Fix trial compare values
+
+on:
+  push:
+    branches:
+      - trial-tab-ui
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: trial-tab-ui
+          fetch-depth: 0
+
+      - name: Patch trial compare data mapping
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p = Path('compare-ui.js')
+          s = p.read_text(encoding='utf-8')
+          original = s
+
+          old = 'var rows=Array.isArray(r)?r:(r&&Array.isArray(r.stocks)?r.stocks:[]);'
+          new = '''var rows=[];
+      if(Array.isArray(r)) rows=r;
+      else if(r&&Array.isArray(r.stocks)) rows=r.stocks;
+      else if(r&&Array.isArray(r.analyses)) rows=r.analyses;
+      else if(r&&Array.isArray(r.results)) rows=r.results;
+      else if(r&&r.stocks&&typeof r.stocks==='object') rows=Object.keys(r.stocks).map(function(k){var x=r.stocks[k]||{};if(!x.symbol)x.symbol=k;return x});
+      else if(r&&r.analyses&&typeof r.analyses==='object') rows=Object.keys(r.analyses).map(function(k){var x=r.analyses[k]||{};if(!x.symbol)x.symbol=k;return x});
+      else if(r&&r.data&&typeof r.data==='object') rows=Object.keys(r.data).map(function(k){var x=r.data[k]||{};if(x&&typeof x==='object'&&!x.symbol)x.symbol=k;return x}).filter(function(x){return x&&x.symbol});
+      if(!rows.length&&r&&typeof r==='object') rows=Object.keys(r).map(function(k){var x=r[k];if(x&&typeof x==='object'&&!x.symbol)x.symbol=k;return x}).filter(function(x){return x&&x.symbol});'''
+          if old in s:
+              s=s.replace(old,new,1)
+
+          start=s.find('  function card(sym){')
+          end=s.find('  function renderCards', start)
+          if start!=-1 and end!=-1:
+              card='''  function card(sym){
+    var r=findResearch(sym),q=findQuote(sym),f=findFund(sym);
+    var quant=(r&&typeof r.quantitative==='object'&&r.quantitative)||{};
+    var price=q&&q.price!=null?q.price:(r&&r.price!=null?r.price:null);
+    var quantScore=quant.score!=null?quant.score:(r&&r.quantitativeScore!=null?r.quantitativeScore:(r&&r.quantitative_score!=null?r.quantitative_score:null));
+    var confidence=quant.confidence!=null?quant.confidence:(r&&r.confidence!=null?r.confidence:null);
+    var signal=quant.signal||(r&&r.signal)||'';
+    var risk=quant.risk!=null?quant.risk:(r&&r.risk!=null?r.risk:null);
+    var fundScore=f&&(f.score!=null?f.score:f.healthScore), health=f&&(f.health||f.status);
+    var note=[];
+    if(quantScore==null)note.push('Quantitative score not available in the published analysis snapshot.');
+    if(!q)note.push('No published live quote is currently available for this stock in the quote feed.');
+    if(!f)note.push('Fundamental health data is not currently published for this stock.');
+    var news=r&&r.news&&r.news.summary?r.news.summary:'';
+    if(news)note.push(news);
+    return '<article class="isp-tc-card">'+
+      '<div class="isp-tc-symbol">'+esc(sym)+'</div><div class="isp-tc-name">'+esc(companyName(sym))+'</div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Price</span><span class="isp-tc-value">'+money(price)+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Quantitative</span><span class="isp-tc-value">'+score(quantScore)+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Confidence</span><span class="isp-tc-value">'+score(confidence)+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Signal</span><span class="isp-tc-value">'+esc(signal||'—')+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Risk</span><span class="isp-tc-value">'+(risk==null?'—':String(risk))+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Fundamental</span><span class="isp-tc-value">'+score(fundScore)+'</span></div>'+\
+      '<div class="isp-tc-row"><span class="isp-tc-label">Health</span><span class="isp-tc-value">'+esc(health||'—')+'</span></div>'+\
+      (note.length?'<div class="isp-tc-note">'+esc(note.join(' '))+'</div>':'<div class="isp-tc-note">Published comparison data available.</div>')+\
+      '<button type="button" class="isp-tc-remove" data-tc-remove="'+esc(sym)+'">Remove</button></article>';
+  }
+
+'''
+              s=s[:start]+card+s[end:]
+
+          if s != original:
+              p.write_text(s,encoding='utf-8')
+          else:
+              print('No patch needed')
+
+      - name: Commit trial patch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add compare-ui.js
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Trial: fix compare value mapping'
+          git push origin HEAD:trial-tab-ui
