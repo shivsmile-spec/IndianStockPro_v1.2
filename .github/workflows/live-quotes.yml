@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/live-quotes.yml'
       - 'data/rankings.json'
+      - 'data/search_analysis.json'
   schedule:
     - cron: "*/5 * * * *"
 
@@ -17,13 +18,19 @@ concurrency:
   group: live-stock-feed
   cancel-in-progress: true
 
+env:
+  TARGET_BRANCH: trial-tab-ui
+
 jobs:
   update-market-feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
-      - name: Checkout repository
+      - name: Checkout trial branch
         uses: actions/checkout@v4
+        with:
+          ref: trial-tab-ui
+          fetch-depth: 0
 
       - name: Fetch latest stock quotes
         env:
@@ -41,23 +48,41 @@ jobs:
           }
           generated = datetime.now(timezone.utc).isoformat()
 
-          def req_json(url, extra=None, timeout=20):
-              h=dict(headers)
-              if extra: h.update(extra)
-              request=urllib.request.Request(url,headers=h)
-              with urllib.request.urlopen(request,timeout=timeout) as r:
+          def req_json(url, timeout=15):
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request, timeout=timeout) as r:
                   return json.loads(r.read().decode("utf-8"))
 
-          rankings = json.loads(Path("data/rankings.json").read_text(encoding="utf-8"))
-          stocks = rankings.get("rankings") or rankings.get("stocks") or []
-          if not stocks and isinstance(rankings.get("bands"), list):
-              for band in rankings["bands"]:
-                  stocks.extend(band.get("stocks") or [])
+          def extract_rows(x):
+              if isinstance(x, list): return x
+              if isinstance(x, dict):
+                  for key in ("stocks", "analyses", "results", "rankings"):
+                      if isinstance(x.get(key), list): return x[key]
+                  if isinstance(x.get("data"), dict):
+                      out=[]
+                      for k,v in x["data"].items():
+                          v=v or {}; v.setdefault("symbol", k); out.append(v)
+                      return out
+              return []
 
           symbols=[]
-          for s in stocks:
-              sym=str(s.get("symbol") or "").strip().upper()
-              if sym and sym not in symbols: symbols.append(sym)
+          seen=set()
+          sources=[]
+          for fn in ("data/search_analysis.json", "data/rankings.json", "data/nse_universe.json"):
+              p=Path(fn)
+              if not p.exists(): continue
+              try: rows=extract_rows(json.loads(p.read_text(encoding="utf-8")))
+              except Exception: rows=[]
+              for s in rows:
+                  sym=str(s.get("symbol") or "").strip().upper()
+                  if sym and sym not in seen:
+                      seen.add(sym); symbols.append(sym)
+              sources.append((fn,len(rows)))
+
+          # Keep the scheduled feed practical. Search/research stocks are prioritised;
+          # the ranking and universe files only add symbols not already present.
+          print(f"Quote symbols: {len(symbols)} from {sources}")
+          if not symbols: raise SystemExit("No stock symbols found")
 
           quotes={}; errors={}
 
@@ -86,7 +111,13 @@ jobs:
 
           def nse_quote(sym):
               base="https://www.nseindia.com"
-              body=req_json(base+"/api/quote-equity?symbol="+urllib.parse.quote(sym),{"Referer":base+"/get-quotes/equity?symbol="+urllib.parse.quote(sym)})
+              # A fresh session with browser-like headers is more reliable than a bare request.
+              opener=urllib.request.build_opener()
+              home=urllib.request.Request(base+"/",headers={**headers,"Referer":base+"/"})
+              with opener.open(home,timeout=15) as r: r.read(100)
+              url=base+"/api/quote-equity?symbol="+urllib.parse.quote(sym)
+              req=urllib.request.Request(url,headers={**headers,"Referer":base+"/get-quotes/equity?symbol="+urllib.parse.quote(sym)})
+              with opener.open(req,timeout=15) as resp: body=json.loads(resp.read().decode("utf-8"))
               info=body.get("priceInfo") or {}; price=info.get("lastPrice")
               if price is None: raise ValueError("NSE lastPrice missing")
               price=float(price); prev=info.get("previousClose"); prev=float(prev) if prev is not None else None
@@ -94,22 +125,22 @@ jobs:
               pct=info.get("pChange"); pct=float(pct) if pct is not None else ((change/prev*100) if prev else None)
               return {"price":price,"previousClose":prev,"change":change,"changePct":pct,"timestamp":generated,"marketState":"NSE","source":"NSE India public quote endpoint"}
 
-          for sym in symbols:
+          for i,sym in enumerate(symbols):
               try:
                   quotes[sym]=yahoo_quote(sym)
               except Exception as yerr:
                   errors[sym]=[str(yerr)]
                   try: quotes[sym]=nse_quote(sym)
                   except Exception as nerr:
-                      errors[sym].append(str(nerr)); print(f"{sym}: unavailable | Yahoo={yerr} | NSE={nerr}")
-              time.sleep(0.12)
+                      errors[sym].append(str(nerr))
+              if i % 25 == 0: print(f"Processed {i+1}/{len(symbols)}")
+              time.sleep(0.08)
 
-          if len(quotes)<1:
-              raise SystemExit("No stock quotes were published")
-
+          if not quotes: raise SystemExit("No stock quotes were published")
           payload={"generatedAt":generated,"source":"Yahoo Finance with NSE India fallback","quoteCount":len(quotes),"requestedCount":len(symbols),"quotes":quotes,"errors":errors}
           Path("data/live_quotes.json").write_text(json.dumps(payload,indent=2)+"\n",encoding="utf-8")
-          print(f"Published stocks {len(quotes)}/{len(symbols)} at {generated}")
+          print(f"Published {len(quotes)}/{len(symbols)} quotes at {generated}")
+          print(f"Unavailable: {len(errors)}")
           PY
 
       - name: Verify stock feed
@@ -118,30 +149,17 @@ jobs:
           import json
           from pathlib import Path
           live=json.loads(Path("data/live_quotes.json").read_text(encoding="utf-8"))
-          if int(live.get("quoteCount",0)) < 1: raise SystemExit("No stock quotes")
+          count=int(live.get("quoteCount",0)); requested=int(live.get("requestedCount",0))
+          if count < 1: raise SystemExit("No stock quotes")
           if not live.get("generatedAt"): raise SystemExit("Missing feed timestamp")
-          print(f"Stocks: {live.get('quoteCount')}/{live.get('requestedCount')} | {live.get('generatedAt')}")
+          print(f"Stocks: {count}/{requested} | {live.get('generatedAt')}")
           PY
 
-      - name: Commit updated stock feed
+      - name: Commit updated stock feed to trial branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/live_quotes.json
           git diff --cached --quiet && exit 0
-          git commit -m "Update live stock quotes"
-          for attempt in 1 2 3 4 5; do
-            git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then
-                echo "Live stock feed published"
-                exit 0
-              fi
-            else
-              git rebase --abort || true
-            fi
-            echo "Publish attempt ${attempt} failed; retrying..."
-            sleep 5
-          done
-          echo "Failed to publish live stock feed after 5 attempts"
-          exit 1
+          git commit -m "Update trial live stock quotes"
+          git push origin HEAD:trial-tab-ui
