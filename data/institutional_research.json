@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-08-21T10:00:02.210576+00:00",
+  "generated": "2026-08-21T12:03:49.813398+00:00",
   "snapshotDate": "2026-08-21",
   "source": "Google News RSS aggregation of public institutional/brokerage/fund research coverage",
   "note": "Fresh public research coverage is shown as external context. Ratings and targets belong to the cited institution/source and are not recommendations by Indian Stock Pro.",
@@ -22,7 +22,7 @@
     {
       "title": "Netweb Tech shares rise 4% as Nomura, Goldman Sachs invest in Rs 1,200 crore QIP - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSjEzRXdPYXJjREJ1RTBabi1XMmNYNlZmbDcxN1BPSkkyc3pzOVFrSHNVQ2IwRVVSb2pQb3Bldk1kU1FjUXNNVTRQOGRzaVRjaE9zYkEtRVpjOU83MDQ2bWRSbTJLZmJEQURrM05HSnhmd2JHazd3UXlGWFhWSXlJbExBYXlVa1pLRkwxbTVIZnQ1N08tbUJBZGpTdkJWNi1BWE1nSHYta2c3Qk1LVExfQ2lRd1ByZGJpQm1JZ0lPTjhrclIwUloyR0YwVXhuQXI1alFLLXQ5QURfa3hlOHJVQVFGOGotQdIB6wFBVV95cUxNQlpVUXJYT2NjdnVTby0xN295OUVTdW54SjUySmY5Z3h2eWdXYnlrQklfLTdNMGRuaEhRNV9KbTNSeUJpRlBiemE1N3gxbnRSdmZ5OXRzdmtZVFJGcnpKN0lmYWhJMEU2emt1NlVKMGg2elNWNGt5UlFpWkt4dHAtLS03MzZDUEY3Vl95UGFveFlxQUE1aDBBZjlBUXZoM0VPSWxOREJBaHJjQWdPVmp6V200X0N4aWtCM2tNX3ZOV1ViODhhb3l3OWFpZm9GcnRtVHBnUnhjZlRwbUFmQnVpZzZlcVJGM0VPU0ow?oc=5",
-      "published": "2026-08-21T07:20:34+00:00",
+      "published": "2026-08-21T07:31:18+00:00",
       "source": "The Economic Times",
       "description": "Netweb Tech shares rise 4% as Nomura, Goldman Sachs invest in Rs 1,200 crore QIP &nbsp;&nbsp; The Economic Times"
     },
@@ -39,6 +39,13 @@
       "published": "2026-08-21T06:01:18+00:00",
       "source": "NDTV Profit",
       "description": "Century Plyboards Can Outperform Peers, Says HDFC Securities; Maintains 'Buy' — Check Target Price &nbsp;&nbsp; NDTV Profit"
+    },
+    {
+      "title": "All-India housing prices rises 6% YoY in 1QFY27 led by key markets: Kotak - indiagazette.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc1JYUnMzZVZCSXNjUEpPZWFya2Q0OW5BMnVUMG53WmJiZHVoOTBkbnM3Y3dRM3pwNTh2c1VEbEdZX2RacGFZTk5zSkZYNldTYzFCVjFvQVJ6SXlSMElldmN4MS1rSTFFNE1QLTBZcloyOFpudXpGZXI2S0Vna3RyQktpU3J1TzdrYXk0SGNNaWtXTDVyUy16N2lKNmtuOHJEM011NFpTa2J0YlN2UzdDcFdPeHhrZw?oc=5",
+      "published": "2026-08-21T05:59:00+00:00",
+      "source": "indiagazette.com",
+      "description": "All-India housing prices rises 6% YoY in 1QFY27 led by key markets: Kotak &nbsp;&nbsp; indiagazette.com"
     },
     {
       "title": "Goldman Sachs starts coverage on 14 banks with up to 37% upside potential; ICICI Bank, Kotak among top pic - The Economic Times",
@@ -60,6 +67,13 @@
       "published": "2026-08-21T05:01:50+00:00",
       "source": "Moneycontrol.com",
       "description": "Kotak turns cautious on Indian IT, downgrades Infosys, TCS and LTM; prefers challengers amid AI shift &nbsp;&nbsp; Moneycontrol.com"
+    },
+    {
+      "title": "Urban Company shares rise 6% as UBS initiates 'Buy'; sees 'Blinkit moment' for home services - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNnhWVjVWY2k4WUZQZjlESVZONTBEdlA3cEJSZFB0eUR3bS1KYTFhVFhEanZxV3RQbDhXWmJDZFB4eEdXMUxTbk1ZVDZubUZVMzBuMUN1V3VRcC1QRlpaM3dkTlVuX3VMTzcxVzVvNkt6QXlqQU5wUldkbENVTWVPNEVYTXRLWWlRaWdPUU1oaGpqbGhycFNZZkZtTUVXekVXQms3RWFMU3FSNWZ3dlByX2ZtZ3I5M1k5VFVDYWdncmw0T1BqZE1vLUg3NVVEdHZWUEhZbkxlbHM5eGQwT3R6SDgxdEzSAeoBQVVfeXFMUEJiU3Y1SHUwX0kxY09Pd3JWRlJKSnUxcHVXckFGelpyY1FNckk0U3h1VFF0X3hIVlhEVWs1Wi1GV1hZbll2ZEs5X0lWZFZGVFpuTDZRR0dIZVBsWWFBNE1kcTRBOThTUFRudmhRZkVpYWUzQWJWZmlacGZ2VTVQdk9yX1R6ZGdhV2g5VDlEdnEwRXEtaDdlN0tBX3cyR0xzbXo0bDdBZVMxTWFnc3FFRTByaVdwOFRoclU0TVNZS0NrUm5vN0JSa05KRmZfOS0zZWNoN19OLWh1R0tZb0JGT0JTaFJjQkxQNEl3?oc=5",
+      "published": "2026-08-21T04:58:10+00:00",
+      "source": "Moneycontrol.com",
+      "description": "Urban Company shares rise 6% as UBS initiates 'Buy'; sees 'Blinkit moment' for home services &nbsp;&nbsp; Moneycontrol.com"
     },
     {
       "title": "Netweb Technologies Shares Jump 3% After Company Raises Rs 1,200 Crore Through QIP - NDTV Profit",
@@ -188,13 +202,6 @@
       "description": "3 Fundamentally Strong Stock Broker Stocks in India &nbsp;&nbsp; Univest"
     },
     {
-      "title": "Midcap Stock Hits 5% Upper Circuit After Motilal Oswal Initiates ‘Buy’ Rating With 53% Upside - Trade Brains",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWlJGZFI1X2V5RVBaN291M1U2b0RtbGI4RGJpVlVSSTJ4T3M4b196VGlyZDlDUG5rYkpCZk8wcXZEV3M5d01OV2dSb3o3cFpTM3hfMk9keVFYSmxKbmFsU3puLWFnZjA0M1JZZDY4cXVFUnRPMi1CdEY5VEwtdGc3QzZTdEQ4UHpmWlJtQnRfcVFvT0p4cDcxMnJIQXMtLXFzdzRCSTh5ZVdWUVlTQTF4Zk5rdw?oc=5",
-      "published": "2026-08-20T10:17:00+00:00",
-      "source": "Trade Brains",
-      "description": "Midcap Stock Hits 5% Upper Circuit After Motilal Oswal Initiates ‘Buy’ Rating With 53% Upside &nbsp;&nbsp; Trade Brains"
-    },
-    {
       "title": "Deutsche Bank AG Buys Shares of 1,618,481 KKR & Co. Inc. $KKR - MarketBeat",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN1NSQnNzR0NrV3NJOGZjcHM3SUROOFJvN29jZ3dVX29fV1Y1SGZFOVJGTTFYM2t1X2hPNXdWVmJnOVhhRmd0azNjZ0RyT2dUSDBndkY1SFFrSXdpYlpDSmswUVlCSWdtTHdKalJpeFQzcTBlSGk2TDQ0Njlia3hSeEwtdnoySkxsbWFLOGt5RVR4TXFCQTFaQjNLUGoyVS1GVzJ2SkNrZXptX3BJSm45aDdTZFNUZw?oc=5",
       "published": "2026-08-20T08:12:28+00:00",
@@ -207,13 +214,6 @@
       "published": "2026-08-20T07:41:21+00:00",
       "source": "financialexpress.com",
       "description": "TCS, Infosys vs midcaps: Why market gurus are betting on select IT stocks in 2026 &nbsp;&nbsp; financialexpress.com"
-    },
-    {
-      "title": "3 ‘Buy’ recommendations by Jefferies with 24% to 38% upside - financialexpress.com",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORXBzbEI0U3RTQlNfYVVkNFJzNHB3dlpXU0tCRm5wZTV5NFg2eWFJeW5iYXI2TE9URjRmQUMwUlVQdWtQUDRkbWNIcXNxcVRGV1Vla0YtOFhHUGRtSnhndkY1LVV3c3U0em5mWjFuMEFVcVVaalZnaHVzbTBrQjQtc29NZEpUbWE1VldIS19kNG5uWjctTVFJdTNpVS14cUUzeUhoeGYtVmpTZkxBVHcwWDM2SjJ3ZjVzXzVHbFpPSnVSSmZxbEI4eVVfdTVSdEpDOGRNTWgzb2xWU0lMUnV3bTc1YmZ5dHYz0gHvAUFVX3lxTE9oMmdkc1ludnYwZ0NHMVVjSzB3YzFrdVM4VXpUczI0U21BN1V4M0d0ZGpXRlg0Q2s3NWcyU0NrWWliazN2bXV4Q2hfU0l1TlhoUFUteUZtMjJOSlB6UFgzWGJVa18za0ZsOEJhVXlzZkxwS2lJU2Fqc3h4QTZFRDB0am1Ja3hoMFp0NGI0VExXeTdUSDRJOVY5cmNtZzA3YzdGS0k0eUx3b1ZLeUNueGd0UjRuZnhiV3ROVXlhYUtrNzNnQldQSzBqSjBPWThmZ3FLeWJiMnJkX2xJNjA1U0tvLTVMVElDbDc2VFFabEVv?oc=5",
-      "published": "2026-08-20T07:30:44+00:00",
-      "source": "financialexpress.com",
-      "description": "3 ‘Buy’ recommendations by Jefferies with 24% to 38% upside &nbsp;&nbsp; financialexpress.com"
     }
   ]
 }
