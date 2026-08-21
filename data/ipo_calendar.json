@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T17:50:40.714667+00:00",
+  "updatedAt": "2026-08-21T19:33:05.133933+00:00",
   "source": "Mirae Asset Sharekhan IPO calendar",
   "note": "Automatically refreshed from the published IPO calendar. Verify the latest exchange/issuer filing before applying.",
   "items": [
@@ -28,48 +28,6 @@
       "priceBand": "285-300",
       "lotSize": "50",
       "issueSize": "650.00 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Mopshop Distribution Ltd.",
-      "symbol": "MOPSHOPDISTRIBUTIONL",
-      "segment": "Mainboard",
-      "status": "CLOSING_TODAY",
-      "openDate": "2026-08-19",
-      "closeDate": "2026-08-21",
-      "listingDate": null,
-      "priceBand": "138-138",
-      "lotSize": "1000",
-      "issueSize": "27.26 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Dhanwel Hybrid Seeds Ltd.",
-      "symbol": "DHANWELHYBRIDSEEDSLT",
-      "segment": "Mainboard",
-      "status": "CLOSING_TODAY",
-      "openDate": "2026-08-19",
-      "closeDate": "2026-08-21",
-      "listingDate": null,
-      "priceBand": "95-99",
-      "lotSize": "1200",
-      "issueSize": "53.46 (₹Cr.)",
-      "source": "Mirae Asset Sharekhan IPO calendar",
-      "sourceUrl": "https://www.sharekhan.com/ipo"
-    },
-    {
-      "company": "Gaja Alternative Asset Management Ltd.",
-      "symbol": "GAJAALTERNATIVEASSET",
-      "segment": "Mainboard",
-      "status": "CLOSING_TODAY",
-      "openDate": "2026-08-19",
-      "closeDate": "2026-08-21",
-      "listingDate": null,
-      "priceBand": "152-160",
-      "lotSize": "93",
-      "issueSize": "550.00 (₹Cr.)",
       "source": "Mirae Asset Sharekhan IPO calendar",
       "sourceUrl": "https://www.sharekhan.com/ipo"
     },
