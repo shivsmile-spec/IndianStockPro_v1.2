@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T14:09:53.681742+00:00",
+  "updatedAt": "2026-08-21T15:53:53.252147+00:00",
   "source": "Mirae Asset Sharekhan IPO calendar",
   "note": "Automatically refreshed from the published IPO calendar. Verify the latest exchange/issuer filing before applying.",
   "items": [
@@ -126,6 +126,20 @@
       "priceBand": "94-99",
       "lotSize": "151",
       "issueSize": "₹175.06 Cr.",
+      "source": "Mirae Asset Sharekhan IPO calendar",
+      "sourceUrl": "https://www.sharekhan.com/ipo"
+    },
+    {
+      "company": "Lumino Industries Ltd.",
+      "symbol": "LUMINOINDUSTRIESLTD",
+      "segment": "Mainboard",
+      "status": "UPCOMING",
+      "openDate": "2026-08-27",
+      "closeDate": "2026-08-31",
+      "listingDate": null,
+      "priceBand": "78-82",
+      "lotSize": "-",
+      "issueSize": "₹700.00 Cr.",
       "source": "Mirae Asset Sharekhan IPO calendar",
       "sourceUrl": "https://www.sharekhan.com/ipo"
     },
