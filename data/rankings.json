@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated": "2026-08-21 10:05 UTC",
+  "generated": "2026-08-21 11:01 UTC",
   "stage": "quantitative",
   "market": {
     "market": "NSE",
@@ -775,7 +775,7 @@
         },
         {
           "price": 1114.2,
-          "score": 72.83,
+          "score": 72.82,
           "signal": "Watch",
           "confidence": 73.76,
           "risk": 15.23,
@@ -875,7 +875,7 @@
             "momentum": 75.58,
             "trend": 100.0,
             "relativeStrength": 64.84,
-            "volume": 36.97,
+            "volume": 36.96,
             "rsiQuality": 99.19,
             "breakout": 97.25,
             "volatility": 78.59,
@@ -1627,7 +1627,7 @@
     },
     {
       "price": 1114.2,
-      "score": 72.83,
+      "score": 72.82,
       "signal": "Watch",
       "confidence": 73.76,
       "risk": 15.23,
@@ -1719,7 +1719,7 @@
         "momentum": 75.58,
         "trend": 100.0,
         "relativeStrength": 64.84,
-        "volume": 36.97,
+        "volume": 36.96,
         "rsiQuality": 99.19,
         "breakout": 97.25,
         "volatility": 78.59,
