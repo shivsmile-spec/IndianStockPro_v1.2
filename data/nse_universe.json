@@ -1,7 +1,7 @@
 {
   "source": "NSE India — Securities available for Equity segment",
   "sourceUrl": "https://www.nseindia.com/static/market-data/securities-available-for-trading",
-  "generatedAt": "2026-08-20T04:22:13.083741+00:00",
+  "generatedAt": "2026-08-21T04:24:38.948545+00:00",
   "count": 2553,
   "stocks": [
     {
@@ -91,7 +91,7 @@
     {
       "symbol": "AARNAV",
       "companyName": "Aarnav Fashions Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE750R01016"
     },
     {
@@ -799,7 +799,7 @@
     {
       "symbol": "AMBALALSA",
       "companyName": "Ambalal Sarabhai Enterprises Limited",
-      "series": "EQ",
+      "series": "BE",
       "isin": "INE432A01017"
     },
     {
