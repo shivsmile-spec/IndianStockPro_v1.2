@@ -73,6 +73,8 @@
   }
   async function open(){css();var p=panel();if(!p)return;p.innerHTML='<div class="isp-tc-loading">Loading published NSE research, live prices and fundamental data…</div>';p.scrollIntoView({behavior:'smooth',block:'start'});try{await loadData();render(p)}catch(e){p.innerHTML='<div class="isp-tc-empty"><b>Compare data could not be loaded.</b><br>Please refresh the page and try again.</div>';console.error(e)}}
   window.__ispTrialCompareOpen=open;
+  /* Trial bridge: v2-features dispatches this event after creating the Compare button. */
+  window.addEventListener("isp:open-trial-compare",function(){open()});
   function install(){var btn=document.getElementById('ispCompareBtn');if(btn)btn.onclick=function(e){e.preventDefault();open()}}
   function start(){css();install();var ob=new MutationObserver(install);ob.observe(document.body,{childList:true,subtree:true});setTimeout(function(){ob.disconnect()},120000)}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
