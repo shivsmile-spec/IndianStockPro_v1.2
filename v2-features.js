@@ -77,9 +77,17 @@
   function installWatchlistToolbar(){
     const search=document.getElementById("search");if(!search)return;
     const panel=search.closest("section.panel");if(!panel||panel.querySelector("#ispWatchBtn"))return;
-    const bar=document.createElement("div");bar.className="isp-v2-toolbar";bar.innerHTML=`<button class="isp-v2-btn" id="ispWatchBtn">⭐ Watchlist</button><button class="isp-v2-btn" id="ispCompareBtn">⚖ Compare</button><span class="isp-v2-chip">V2 research tools</span>`;search.parentNode.after(bar);
+    const bar=document.createElement("div");bar.className="isp-v2-toolbar";bar.innerHTML=`<button class="isp-v2-btn" id="ispWatchBtn">⭐ Watchlist</button><button class="isp-v2-btn" id="ispCompareBtn" type="button">⚖ Compare</button><span class="isp-v2-chip">V2 research tools</span>`;search.parentNode.after(bar);
     document.getElementById("ispWatchBtn").onclick=()=>openWatchlist();
-    document.getElementById("ispCompareBtn").onclick=()=>renderCompare();
+    const compareBtn=document.getElementById("ispCompareBtn");
+    if(compareBtn){
+      compareBtn.onclick=(e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        /* Trial Compare owns this button. Use a custom event so script load order cannot break it. */
+        window.dispatchEvent(new CustomEvent("isp:open-trial-compare"));
+      };
+    }
   }
 
   function installInstitutional(){
@@ -123,7 +131,8 @@
   }
 
   function compareAdd(sym){
-    const arr=JSON.parse(sessionStorage.getItem("isp_compare")||"[]");const k=String(sym).toUpperCase();if(!arr.includes(k))arr.push(k);sessionStorage.setItem("isp_compare",JSON.stringify(arr.slice(0,4)));renderCompare()}
+    const arr=JSON.parse(sessionStorage.getItem("isp_compare")||"[]");const k=String(sym).toUpperCase();if(!arr.includes(k))arr.push(k);sessionStorage.setItem("isp_compare",JSON.stringify(arr.slice(0,4)));renderCompare()
+  }
   function renderCompare(){
     let sec=document.getElementById("isp-compare");if(!sec){sec=document.createElement("section");sec.id="isp-compare";sec.className="isp-v2-compare";document.querySelector(".container")?.appendChild(sec)}
     const syms=JSON.parse(sessionStorage.getItem("isp_compare")||"[]");
