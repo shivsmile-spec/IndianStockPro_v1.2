@@ -64,9 +64,10 @@
       ".isp-app-head{position:sticky;top:0;z-index:900;background:#10182b;color:#fff;border-radius:13px;padding:10px 12px;margin:0 0 12px;box-shadow:0 5px 16px rgba(0,0,0,.18)}",
       ".isp-app-head-row{display:flex;align-items:center;gap:10px}.isp-home-button{border:0;border-radius:9px;background:#fff;color:#10182b;padding:9px 12px;font-weight:900;font-size:12px;cursor:pointer}.isp-app-title{font-size:14px;font-weight:900;line-height:1.25}",
       "#ispAppView .isp-feature-host{display:block}#ispAppView .isp-feature-host > section,#ispAppView .isp-feature-host > .panel{display:block!important;margin-bottom:0!important}",
+      ".isp-top10-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 10px}.isp-top10-toolbar h2{margin:0}.isp-top10-refresh{border:1px solid #ccd3df;background:#fff;color:#172033;border-radius:10px;padding:9px 13px;font-weight:900;font-size:12px;cursor:pointer;white-space:nowrap}.isp-top10-refresh:hover{border-color:#8795aa;background:#f7f9fc}.isp-top10-refresh:disabled{opacity:.6;cursor:wait}.isp-top10-refresh-status{font-size:10px;color:#667085;margin-left:auto}",
       "#ispImportantNotice{border:2px solid #e04444!important;background:#fff7f7!important}#ispImportantNotice .disclaimer{color:#b42318!important;font-weight:800}",
-      "@media(max-width:800px){.isp-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.isp-feature-button{min-height:76px;padding:12px 10px}.isp-home-card{padding:13px}.isp-app-title{font-size:13px}}",
-      "@media(max-width:420px){.isp-feature-grid{grid-template-columns:1fr 1fr}.isp-feature-label{font-size:11px}}"
+      "@media(max-width:800px){.isp-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.isp-feature-button{min-height:76px;padding:12px 10px}.isp-home-card{padding:13px}.isp-app-title{font-size:13px}.isp-top10-toolbar{align-items:flex-start}.isp-top10-refresh{padding:8px 10px;font-size:11px}}",
+      "@media(max-width:420px){.isp-feature-grid{grid-template-columns:1fr 1fr}.isp-feature-label{font-size:11px}.isp-top10-toolbar{gap:7px}.isp-top10-refresh{font-size:10px;padding:7px 8px}}"
     ].join("\n");document.head.appendChild(style);
   }
   function ensureIds(){
@@ -82,10 +83,37 @@
     if(parts.notice&&parts.notice.parentElement!==home)home.appendChild(parts.notice);return true;
   }
   function getFeaturePanel(id){var f=FEATURES.find(function(x){return x[0]===id;});return f?locate(f[3]):null;}
+  function addTop10Refresh(panel){
+    if(!panel||panel.querySelector(".isp-top10-refresh"))return;
+    var heading=panel.querySelector("h2");
+    if(!heading)return;
+    var toolbar=document.createElement("div");toolbar.className="isp-top10-toolbar";
+    heading.parentNode.insertBefore(toolbar,heading);toolbar.appendChild(heading);
+    var button=document.createElement("button");button.type="button";button.className="isp-top10-refresh";button.textContent="↻ Refresh prices";toolbar.appendChild(button);
+    var status=document.createElement("span");status.className="isp-top10-refresh-status";toolbar.appendChild(status);
+    button.addEventListener("click",async function(){
+      if(button.disabled)return;
+      button.disabled=true;button.textContent="↻ Refreshing…";status.textContent="Fetching latest published quotes…";
+      try{
+        if(typeof window.indianStockRefreshQuotes!=="function")throw new Error("Live quote layer is not loaded");
+        var data=await window.indianStockRefreshQuotes();
+        var d=data&&data.generatedAt?new Date(data.generatedAt):new Date();
+        var stamp=new Intl.DateTimeFormat("en-IN",{dateStyle:"short",timeStyle:"short",timeZone:"Asia/Kolkata"}).format(d)+" IST";
+        status.textContent="Last refreshed: "+stamp;
+      }catch(error){
+        console.warn("Top 10 live price refresh failed:",error);
+        status.textContent="Refresh failed — showing last available quotes";
+      }finally{button.disabled=false;button.textContent="↻ Refresh prices";}
+    });
+    var existing=panel.querySelector(".footer-note");
+    if(existing&&/published|updated|quote/i.test(existing.textContent||""))status.textContent=(existing.textContent||"").trim();
+  }
   function openFeature(id){
     var f=FEATURES.find(function(x){return x[0]===id;}),panel=getFeaturePanel(id);if(!f||!panel)return;
     view.innerHTML="";var head=document.createElement("div");head.className="isp-app-head";head.innerHTML='<div class="isp-app-head-row"><button type="button" class="isp-home-button">🏠 HOME</button><div class="isp-app-title">'+esc(f[2])+'</div></div>';head.querySelector("button").addEventListener("click",goHome);
-    var host=document.createElement("div");host.className="isp-feature-host";host.appendChild(panel);view.appendChild(head);view.appendChild(host);home.style.display="none";view.style.display="block";
+    var host=document.createElement("div");host.className="isp-feature-host";host.appendChild(panel);view.appendChild(head);view.appendChild(host);
+    if(id==="top10")addTop10Refresh(panel);
+    home.style.display="none";view.style.display="block";
     requestAnimationFrame(function(){var target=head.getBoundingClientRect().top+window.pageYOffset-8;window.scrollTo({top:Math.max(0,target),behavior:"smooth"});});
   }
   function goHome(){var activePanel=view&&view.querySelector(".isp-feature-host > section, .isp-feature-host > .panel");if(activePanel)container.appendChild(activePanel);view.innerHTML="";view.style.display="none";home.style.display="block";window.scrollTo({top:0,behavior:"smooth"});}
