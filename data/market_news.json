@@ -1,9 +1,16 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-21T16:05:54.611844+00:00",
+  "generatedAt": "2026-08-21T17:57:14.056564+00:00",
   "source": "Google News RSS public market-news aggregation",
   "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
   "items": [
+    {
+      "title": "Share Market Aug 21: Sensex Ends Flat, Nifty Holds 24,250 amid Iran Tensions & Crude Oil Rise - The Indian Awaaz",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUS1ldGFDaDR1T2tDSXF1WUZzdjRoeXN3SWxxNTIwY2xVWkRBRk1SR0JzWXNlVldaOUhRWjNTLTF6VjFMRVBlYjBFOFl6ZG5yUkxKS1JHQVJ2MVFKejJ6bzFTMjlFMEdDZklJSmhZS2lmS2ZKRG5veGl6TlJWTHg3d3BibjRjSHg3bjZaRFpvNFVfcDBDTWg4aS1XYTQtRnVjZ2lqZTZwS1ktQXRjTG9sWUFSVzY2Ykk?oc=5",
+      "published": "2026-08-21T17:11:00+00:00",
+      "source": "The Indian Awaaz",
+      "description": "Share Market Aug 21: Sensex Ends Flat, Nifty Holds 24,250 amid Iran Tensions & Crude Oil Rise &nbsp;&nbsp; The Indian Awaaz"
+    },
     {
       "title": "Diamond Power Infrastructure fined ₹9.1 lakh for MPS non-compliance - scanx.trade",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLUtjQXNGaTBKSUhDVjYtdWRZal9ZV2FSVVVCQ0FOaW1LejRLNXc3Y0c0ZG43Y29udVYxTnFWckNOWUxSRl82azc5aEF1SVFjMWpsdHJITlVZdFp3YU1KWHpzWERkRktTS2tjbWpQUnRkZFJOUWJWRmpxemNuVzZvTS1NU2RxaXNiTl9VM3Z1VEZVbUNlbTRDVHJtNFo0UmhJM2JENVNxUTZvaU5JOTZlYnVlczZ4U2JxcDVV?oc=5",
@@ -21,7 +28,7 @@
     {
       "title": "Filatex Fashions fined ₹24,780 each by NSE, BSE for non-compliance - scanx.trade",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbGxNalAtQkdraXp3aUdNX21QaHJKTDZ4X2cwdy1kM0VUQVgyOUJNWTU4YWprd0c0SS14U2F2NnZ3WTVtaExJdEpGOXRQbklKeDZKbHM1TEZqUUlfZXcwZDY4aUhBekJqNS1XcHNJOS1EV25wal9YVmhialRWNV9WTmMtbXhxS3ZwX3pxTXZOaHRtTlhvaUdWdnExOWFZTjd3Uk1TZS1UOXZZMDJrZDF5aS1GcE0?oc=5",
-      "published": "2026-08-21T11:40:47+00:00",
+      "published": "2026-08-21T12:00:24+00:00",
       "source": "scanx.trade",
       "description": "Filatex Fashions fined ₹24,780 each by NSE, BSE for non-compliance &nbsp;&nbsp; scanx.trade"
     },
@@ -31,6 +38,13 @@
       "published": "2026-08-21T10:38:03+00:00",
       "source": "Equitymaster",
       "description": "Sensex Today Ends Flat | Nifty Above 24,250 | Urban Company Up 8% &nbsp;&nbsp; Equitymaster"
+    },
+    {
+      "title": "Sensex ends flat as financial stocks offset crude and bond yield concerns - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTERYUXlKUTBIdjFCMzk1cDFEQXlwTkMxcEtXVFhGZGZtNGdmUEtKVlR2YzVXeVYzdWx1aWprb3BvTUN1NGtWX1YyR1c2TW1QOGVlMllIQUFHWVFBb3B0cV9oSUhiWVFVMjVLenotaVlQRlpOeWQwcUhfazBrQ3ByQnVzNE5BcUpEY0o3MGRfXzRiUjFtX25HS1l5OF9UOXpDRFRSYnpOb2M1NE83UjZnT3doel9nZkxGNG1MUjUxZWRka3ZxcWN0eWFLUXNnVnVVZ3VESA?oc=5",
+      "published": "2026-08-21T10:22:38+00:00",
+      "source": "India Today",
+      "description": "Sensex ends flat as financial stocks offset crude and bond yield concerns &nbsp;&nbsp; India Today"
     },
     {
       "title": "Rupee dips on week as oil pangs linger, intervention prevents fall past 96/USD - The Economic Times",
@@ -89,13 +103,6 @@
       "description": "Market opens nudge lower in early trade; breadth positive &nbsp;&nbsp; Business Standard"
     },
     {
-      "title": "HDFC Bank Stock Update: Share Price Rises on $1.75B Bond Issue - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeXVpWlY3ZnlLOVJNaW5odmhKQXVjMXpuUzdON2RMbTZKb0JjRlBmbmVrc0NoTGRNdFBUN2wwNGtaOGRSWEpuQWt0a3RuSGJKNlcyM1ZlOVo5MWw1ZlRzeG85eVA1UGlpNXlUQzZqajh5SzU0ZGFuS0U3Q0VDOGRHWnR2NHE0eThqTE1hVGdlclk0RDVKdGMtTld0cUFIV04waUJnbVJhSkFPQzdBTmfSAbMBQVVfeXFMTkF2YkFhQzUwSDdDYWhDbzFQdjJpc0ZqWDJPSE45aER0TjVha0JKRzRybWYzMWlGQkpKOXFjOGUxaE84YU1ibzB3cERiYVVfdFRzaUM1cVA1bG5PVENkdUJwMHViTWdFeU9GaVU0R3lRWVE2a21LclVlWm56dVp5Q0R2elZXeV9EeENHTTZDQjhOc2QzdlN2REQwcXF4aHZ2MFdULXpWLVN6d2xqS3BOZVlaX0E?oc=5",
-      "published": "2026-08-21T04:15:51+00:00",
-      "source": "LatestLY",
-      "description": "HDFC Bank Stock Update: Share Price Rises on $1.75B Bond Issue &nbsp;&nbsp; LatestLY"
-    },
-    {
       "title": "Tata Consultancy Services Stock Update: Shares Slip on Kotak Downgrade - LatestLY",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM3hoQklfVzlwU3NqWUhVaGVYZlVXSDBQSm9kcGt0SFhKVjVGbHY4UjJMUUpsSXd2cUpiU291eV9jRWtBeFhQTHZSaFZTb0lSNE5jVWJiQzBZblZ5TnRGSVk1ZUdWREI2QmxIVVVzLU5oWk04ME5SdjZoUHh4cXp2NmlTMmhSeEZISzV1S0Q2bzY2RGYxWklaVWVpeW50MzBwZXJnOVR0WlJ1NEpkQkFEOG55TdIBuAFBVV95cUxOWkotTTJHbkhyV1drXzllYmUtaXdxZDM3VXlBeFFwdUlWazM4ZTRTZXhqTHpnOXJtOEdSS1EwSXNlNWlEcXl0OVNpR2NuN0lMdUFvR2g4UHFVVE02VGFJS3ZMVXhUTkg4QUYwTzlUZVJzdWpxcFFKcFNmUWQwMklvY28tdVk3eEFVSmU4RC1xNVhVMEhPaXoya3otOC1xQldYS2hJU0NZQkJJaVZmMmFXV3d2Yk9ZNUZU?oc=5",
       "published": "2026-08-21T04:15:46+00:00",
@@ -108,13 +115,6 @@
       "published": "2026-08-21T03:14:13+00:00",
       "source": "Upstox",
       "description": "NIFTY50, SENSEX today: Wall Street cues, FII activity, key things to know before markets open on August 21 &nbsp;&nbsp; Upstox"
-    },
-    {
-      "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 21 August - livemint.com",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONUtIemE3VlY5b1lmU2V6WGtKRjZZZ1h5RThiX2ljQTRWSDBfSm9WTkVpSERlVll1emh6akkzd2cyYmxvdkdMemU2NVlCMmJXcGlTZThYUlZIeFBRSnhhUVBSX1N3YnRtNjdGcGdRaEZjd3BTX0ExZE5OQVZTMGNWYTVMTnM0TmpJR1Rrd3FVMlhqZ2U3emhHTGxFdzJJck4wZkZjdWY1MElHV3FBdlFqYzEzeWl2LXFPN0lTcGJrVHowWUZOenBla2pwQ0lNNTVZLXhkS0xROHZhUmVDTk53ZzN2c1Q3cnFMbkdUZjRXU2N0RG0zZFRobTh3OXdIYmfSAf8BQVVfeXFMTjVLSHphN1ZWOW9ZZlNlelhrSkY2WWdYeUU4Yl9pY0E0VkgwX0pvVk5FaUhEZVZZdXpoempJM3dnMmJsb3ZHTHplNjVZQjJiV3BpU2U4WFJWSHhQUUp4YVFQUl9Td2J0bTY3RnBnUWhGY3dwU19BMWROTkFWUzBjVmE1TE5zNE5qSUdUa3dxVTJYamdlN3poR0xsRXcySXJOMGZGY3VmNTBJR1dxQXZRamMxM3lpdi1xTzdJU3Bia1R6MFlGTnpwZWtqcENJTTU1WS14ZEtMUTh2YVJlQ05Od2czdnNUN3JxTG5HVGY0V1NjdERtM2RUaG04dzl3SGJn?oc=5",
-      "published": "2026-08-21T01:52:27+00:00",
-      "source": "livemint.com",
-      "description": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 21 August &nbsp;&nbsp; livemint.com"
     },
     {
       "title": "Pre-market action: Here's the trade setup for today's session - The Economic Times",
@@ -143,13 +143,6 @@
       "published": "2026-08-20T08:05:07+00:00",
       "source": "Moneycontrol.com",
       "description": "BSE falls 3.5% from day's high as report says NSE plans to allow trading its shares on own platform:... &nbsp;&nbsp; Moneycontrol.com"
-    },
-    {
-      "title": "Why is stock market up today? Top 3 reasons behind the rise in Sensex, Nifty, and the biggest gaining stocks - livemint.com",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOYzduYzhkdW1uNXNkeHkyMUk2VngxYUs1eHYwZVZQbzZnZE9UU3pRTjZFYTF4ZmJVM3JIRGRGcWxrNEFRcUZQVjVLRUdnX1MzZ2Zsd3JkSTZMd3N2THdXVjJJcWpYN1BhQk16V3o1V1RQclV4SEstN1hKOGJOd2hzc0tkZWlOdC1ScEtkTWRMTXZQdm54TWp0OHZHRWhuUVl1dERLN1NzZnhfek1KQmZ4dEYyeG40UEFDREZGV1NYRmt5X3RTS2ZRRmdSUjd5aXlPUmVJcmFlZnMxTUNJbVBFMUxzZEVaM0ViU2pkb2Z0SGJ4UmlTaWRXOGh6V1lwWERRU3VZZ3VrWjE2QdIBjwJBVV95cUxPYVExQmdfU3lnNlg3eHU1SHJWS0NuamVSaExwcS1OVXNBMnhDelVJZG9CeVpBZGdzVk5ZaGtCWWxGcUFSVU5oRzBrVEtFd0ktSU1iczVRU0pUa0lYX0pTalFTMWZwazJTRkJZWmVUZXZTMURWSDRJalVmbnl0SERMbjVDTFJZc1ZsY09HNElpVUV2MmtrWTMwRERoWWx1b0NNa0tiUFktLWFhSU1tMDVUWDlJS20taXVQVUZyTTd3cklVUFp5eDNNOThYcHMzdHgwNVVpYTZHWUxIdVl4emJoaHZqVEpfRDN5SG9ub1pfZVFES2NuMGVrN2I2TVgwVjYxSmg2bF8xblA5TWxvUzlz?oc=5",
-      "published": "2026-08-20T06:42:52+00:00",
-      "source": "livemint.com",
-      "description": "Why is stock market up today? Top 3 reasons behind the rise in Sensex, Nifty, and the biggest gaining stocks &nbsp;&nbsp; livemint.com"
     },
     {
       "title": "Indian Bonds Stay Range-Bound as Oil Prices Offset Treasury Yield Support; RBI, Fed Minutes in Focus - Earnings Acceleration Picks - Vinanet",
@@ -213,6 +206,13 @@
       "published": "2026-08-19T07:00:00+00:00",
       "source": "Sahi",
       "description": "Who Regulates Commodity Trading in India? SEBI Explained &nbsp;&nbsp; Sahi"
+    },
+    {
+      "title": "RBI Monetary Policy and Its Impact on the Indian Stock Market - Equitypandit",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmU3VzF2bGhiS09fakJzUDdSQlRidHJJTjBJV3ZBdG9FbUt0TnJBZmZaT0cxQWNKVUNsOG9LRmNCLUJEYjVaZ2xINC0yZXhlVDRScy1ib0xiejZPZVRxTnRwb0YzbGJ4czhRclkzVVVoTlpWTHo4SEI3WHVLd1pZUjY4QmR3dVhYVnNnckl0MEI3aHhZRUE?oc=5",
+      "published": "2026-08-19T06:29:00+00:00",
+      "source": "Equitypandit",
+      "description": "RBI Monetary Policy and Its Impact on the Indian Stock Market &nbsp;&nbsp; Equitypandit"
     }
   ]
 }
