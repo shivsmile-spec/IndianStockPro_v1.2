@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-21T19:16:39.881121+00:00",
+  "generatedAt": "2026-08-21T20:00:47.131621+00:00",
   "source": "Google News RSS public market-news aggregation",
   "note": "Fresh market-news context. Headlines are external information, not investment recommendations.",
   "items": [
@@ -110,6 +110,13 @@
       "description": "Tata Consultancy Services Stock Update: Shares Slip on Kotak Downgrade &nbsp;&nbsp; LatestLY"
     },
     {
+      "title": "RBI seen selling dollars to support rupee as USD/INR holds steady - investingLive",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVBuMmJqc0xRT3FWaWFCdWhObnBpVkozaUlXOUFBRFZoWmlGbnZiNlVicS1LeG9yZUxYVWFZdHhmNkRhNktrbk9zWUJZNWJBcHB6WE5INVBGNldsTTNYOEtNZmJnZm1BeDdzUWQ1b25zNEhtUDZYWGRZVnRFcHRvLW5zQjNTbEs0MTdjMUh6ZVJsc0lZUTFDVWJhZFBZRW8?oc=5",
+      "published": "2026-08-21T04:05:06+00:00",
+      "source": "investingLive",
+      "description": "RBI seen selling dollars to support rupee as USD/INR holds steady &nbsp;&nbsp; investingLive"
+    },
+    {
       "title": "NIFTY50, SENSEX today: Wall Street cues, FII activity, key things to know before markets open on August 21 - Upstox",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTGtnQXRRWUZGQ043U2k2NHBwZjdURUhGamtUNGtiaXpZajZhNlkyRTVjY3dqNENiRlN2NzB5MGZtcy1ENzgtLVhTNGYwOHVSX2p0alJzLTVoRDlseWt5bklYN1psUVBabHBteTFfdExSVG1GbzUySnBXal84VlhpNWtOS1NVUExWd3gzUUt1dDRLZTVOaDRSb2hNVlNzaVJuTHk3VFp4eGM4X0hINUl6bDRuNkxoVUMxdGZyOTVnb3ZzQTVpcWVGcDRRQU8yeVRBVjYwSTlDRkRmSWFFTjV2WGdmWkpiUC1ORGkyT3ZhTnkzaVBF?oc=5",
       "published": "2026-08-21T03:14:13+00:00",
@@ -206,13 +213,6 @@
       "published": "2026-08-19T07:00:00+00:00",
       "source": "Sahi",
       "description": "Who Regulates Commodity Trading in India? SEBI Explained &nbsp;&nbsp; Sahi"
-    },
-    {
-      "title": "RBI Monetary Policy and Its Impact on the Indian Stock Market - Equitypandit",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmU3VzF2bGhiS09fakJzUDdSQlRidHJJTjBJV3ZBdG9FbUt0TnJBZmZaT0cxQWNKVUNsOG9LRmNCLUJEYjVaZ2xINC0yZXhlVDRScy1ib0xiejZPZVRxTnRwb0YzbGJ4czhRclkzVVVoTlpWTHo4SEI3WHVLd1pZUjY4QmR3dVhYVnNnckl0MEI3aHhZRUE?oc=5",
-      "published": "2026-08-19T06:29:00+00:00",
-      "source": "Equitypandit",
-      "description": "RBI Monetary Policy and Its Impact on the Indian Stock Market &nbsp;&nbsp; Equitypandit"
     }
   ]
 }
