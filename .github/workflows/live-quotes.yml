@@ -15,21 +15,21 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-stock-feed
+  group: live-stock-feed-main
   cancel-in-progress: true
 
 env:
-  TARGET_BRANCH: trial-tab-ui
+  TARGET_BRANCH: main
 
 jobs:
   update-market-feed:
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
-      - name: Checkout trial branch
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
-          ref: trial-tab-ui
+          ref: main
           fetch-depth: 0
 
       - name: Fetch latest stock quotes
@@ -79,8 +79,6 @@ jobs:
                       seen.add(sym); symbols.append(sym)
               sources.append((fn,len(rows)))
 
-          # Keep the scheduled feed practical. Search/research stocks are prioritised;
-          # the ranking and universe files only add symbols not already present.
           print(f"Quote symbols: {len(symbols)} from {sources}")
           if not symbols: raise SystemExit("No stock symbols found")
 
@@ -111,7 +109,6 @@ jobs:
 
           def nse_quote(sym):
               base="https://www.nseindia.com"
-              # A fresh session with browser-like headers is more reliable than a bare request.
               opener=urllib.request.build_opener()
               home=urllib.request.Request(base+"/",headers={**headers,"Referer":base+"/"})
               with opener.open(home,timeout=15) as r: r.read(100)
@@ -131,8 +128,7 @@ jobs:
               except Exception as yerr:
                   errors[sym]=[str(yerr)]
                   try: quotes[sym]=nse_quote(sym)
-                  except Exception as nerr:
-                      errors[sym].append(str(nerr))
+                  except Exception as nerr: errors[sym].append(str(nerr))
               if i % 25 == 0: print(f"Processed {i+1}/{len(symbols)}")
               time.sleep(0.08)
 
@@ -155,11 +151,11 @@ jobs:
           print(f"Stocks: {count}/{requested} | {live.get('generatedAt')}")
           PY
 
-      - name: Commit updated stock feed to trial branch
+      - name: Commit updated stock feed to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/live_quotes.json
           git diff --cached --quiet && exit 0
-          git commit -m "Update trial live stock quotes"
-          git push origin HEAD:trial-tab-ui
+          git commit -m "Update main live stock quotes"
+          git push origin HEAD:main
