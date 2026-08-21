@@ -1,0 +1,46 @@
+name: Wire Compare Stocks UI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'compare-ui.js'
+      - '.github/workflows/wire-compare-ui.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  wire-compare-ui:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Add Compare UI script to index
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          text=p.read_text(encoding='utf-8')
+          tag='<script src="./compare-ui.js?v=20260821-final" defer></script>'
+          if tag not in text:
+              marker='</body>'
+              if marker not in text:
+                  raise SystemExit('index.html has no closing body tag')
+              text=text.replace(marker, tag+'\n'+marker, 1)
+              p.write_text(text,encoding='utf-8')
+              print('Compare UI wired into index.html')
+          else:
+              print('Compare UI already wired')
+          PY
+
+      - name: Commit wiring
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Wire Compare Stocks UI"
+          git push
