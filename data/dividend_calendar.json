@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T19:34:03.358002+00:00",
+  "updatedAt": "2026-08-21T20:58:39.505755+00:00",
   "source": "Moneycontrol corporate actions",
   "note": "Automatically refreshed. Verify the latest exchange/issuer filing before relying on dividend dates or amounts.",
   "items": [
@@ -7,6 +7,17 @@
       "symbol": "ADTECHSYSTEMS",
       "company": "Adtech Systems",
       "dividend": "11.00",
+      "type": "Dividend",
+      "exDate": "2026-09-24",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
+    {
+      "symbol": "ENGINEERSINDIA",
+      "company": "Engineers India",
+      "dividend": "50.00",
       "type": "Dividend",
       "exDate": "2026-09-24",
       "recordDate": null,
@@ -114,6 +125,17 @@
       "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
     },
     {
+      "symbol": "SUYOGGURBAXANI",
+      "company": "Suyog Gurbaxani",
+      "dividend": "5.00",
+      "type": "Dividend",
+      "exDate": "2026-09-22",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
+    {
       "symbol": "DELTONCABLES",
       "company": "Delton Cables",
       "dividend": "20.00",
@@ -128,6 +150,17 @@
       "symbol": "HINDTINWORKS",
       "company": "Hind Tin Works",
       "dividend": "7.50",
+      "type": "Dividend",
+      "exDate": "2026-09-22",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
+    {
+      "symbol": "CORALLABS",
+      "company": "Coral Labs",
+      "dividend": "20.00",
       "type": "Dividend",
       "exDate": "2026-09-22",
       "recordDate": null,
@@ -279,6 +312,17 @@
       "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
     },
     {
+      "symbol": "ALICONCASTALLO",
+      "company": "Alicon Castallo",
+      "dividend": "60.00",
+      "type": "Dividend",
+      "exDate": "2026-09-21",
+      "recordDate": null,
+      "status": "UPCOMING",
+      "source": "Moneycontrol corporate actions",
+      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
+    },
+    {
       "symbol": "UDAYJEWELLERY",
       "company": "Uday Jewellery",
       "dividend": "5.00",
@@ -290,44 +334,11 @@
       "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
     },
     {
-      "symbol": "KINGFASCIENCE",
-      "company": "Kingfa Science",
-      "dividend": "200.00",
+      "symbol": "ABHISHEKINTEGR",
+      "company": "Abhishek Integr",
+      "dividend": "1:1",
       "type": "Dividend",
-      "exDate": "2026-09-21",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "MANALIPETRO",
-      "company": "Manali Petro",
-      "dividend": "10.00",
-      "type": "Dividend",
-      "exDate": "2026-09-21",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "SHIVALIKRASA",
-      "company": "Shivalik Rasa",
-      "dividend": "10.00",
-      "type": "Dividend",
-      "exDate": "2026-09-21",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "SPIC",
-      "company": "SPIC",
-      "dividend": "20.00",
-      "type": "Dividend",
-      "exDate": "2026-09-21",
+      "exDate": "2026-08-24",
       "recordDate": null,
       "status": "UPCOMING",
       "source": "Moneycontrol corporate actions",
