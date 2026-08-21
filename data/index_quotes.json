@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-21T03:31:12.867439+00:00",
+  "generatedAt": "2026-08-21T05:17:08.634026+00:00",
   "source": "NSE India marketStatus + BSE India public Sensex endpoint with Yahoo fallback",
   "indices": {
     "NIFTY50": {
-      "value": 24231.85,
-      "previousClose": 24078.3,
-      "change": 153.54999999999927,
-      "changePct": 0.64,
-      "timestamp": "2026-08-21T03:31:12.867439+00:00",
+      "value": 24254.05,
+      "previousClose": 24231.85,
+      "change": 22.200000000000728,
+      "changePct": 0.09,
+      "timestamp": "2026-08-21T05:17:08.634026+00:00",
       "source": "NSE India marketStatus"
     },
     "SENSEX": {
-      "value": 77552.24,
+      "value": 77626.48,
       "previousClose": 77537.72,
-      "change": 14.52,
-      "changePct": 0.02,
-      "timestamp": "2026-08-21T03:31:12.867439+00:00",
+      "change": 88.76,
+      "changePct": 0.11,
+      "timestamp": "2026-08-21T05:17:08.634026+00:00",
       "source": "BSE India public Sensex endpoint"
     }
   }
