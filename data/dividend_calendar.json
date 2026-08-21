@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T23:59:41.036295+00:00",
+  "updatedAt": "2026-08-21T03:32:24.000243+00:00",
   "source": "Moneycontrol corporate actions",
   "note": "Automatically refreshed. Verify the latest exchange/issuer filing before relying on dividend dates or amounts.",
   "items": [
@@ -372,28 +372,6 @@
       "dividend": "2:1",
       "type": "Dividend",
       "exDate": "2026-08-21",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "KAHANPACKAGING",
-      "company": "Kahan Packaging",
-      "dividend": "3:1",
-      "type": "Dividend",
-      "exDate": "2026-08-20",
-      "recordDate": null,
-      "status": "UPCOMING",
-      "source": "Moneycontrol corporate actions",
-      "sourceUrl": "https://m.moneycontrol.com/more_corporate_action.php?id=dividends"
-    },
-    {
-      "symbol": "ORGANICRECYCLI",
-      "company": "Organic Recycli",
-      "dividend": "1:2",
-      "type": "Dividend",
-      "exDate": "2026-08-20",
       "recordDate": null,
       "status": "UPCOMING",
       "source": "Moneycontrol corporate actions",
