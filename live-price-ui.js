@@ -9,6 +9,7 @@
   let feed=null;
   let lastRenderSignature="";
   let analysisCache=null;
+  let refreshPromise=null;
 
   function injectStyle(){
     if(document.getElementById("isp-live-price-style"))return;
@@ -69,9 +70,26 @@
     cards.forEach(card=>{const symbol=symbolFromCard(card);if(symbol&&quotes[symbol])renderCard(card,quotes[symbol]);});
   }
 
+  async function refreshLiveQuotes(){
+    if(refreshPromise)return refreshPromise;
+    refreshPromise=(async()=>{
+      injectStyle();
+      const response=await fetch("./data/live_quotes.json?refresh="+Date.now(),{cache:"no-store"});
+      if(!response.ok)throw new Error(`HTTP ${response.status}`);
+      feed=await response.json();
+      window.indianStockLiveQuotes=feed;
+      lastRenderSignature="";
+      renderAll();
+      window.dispatchEvent(new CustomEvent("isp-live-quotes-refreshed",{detail:feed}));
+      return feed;
+    })().finally(()=>{refreshPromise=null;});
+    return refreshPromise;
+  }
+  window.indianStockRefreshQuotes=refreshLiveQuotes;
+
   async function load(){
     injectStyle();
-    try{const response=await fetch(FEED,{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);feed=await response.json();window.indianStockLiveQuotes=feed;lastRenderSignature="";renderAll();setInterval(renderAll,5000);}catch(error){console.warn("Indian Stock Pro live quote layer failed:",error);}
+    try{await refreshLiveQuotes();setInterval(renderAll,5000);}catch(error){console.warn("Indian Stock Pro live quote layer failed:",error);}
   }
 
   async function loadAnalysis(){
@@ -120,9 +138,6 @@
     }finally{if(button){button.disabled=false;button.textContent=original||"Analyze";}}
   }
 
-  /* Capture before the existing page-level Analyze handler. The existing
-     30-stock detail view remains available elsewhere; Search & Analyze now
-     opens the broader research engine for any NSE equity in the directory. */
   function installSearchCapture(){
     document.addEventListener("click",e=>{
       const target=e.target?.closest?.("#analyzeBtn");
